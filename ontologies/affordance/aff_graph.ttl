@@ -1,0 +1,42 @@
+@prefix aff: <http://test.org/affordance.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://test.org/affordance.owl> a owl:Ontology .
+
+aff:color a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+aff:form a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+aff:implies a owl:ObjectProperty ;
+    rdfs:domain aff:Quality ;
+    rdfs:range aff:Affordance .
+
+aff:location a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+aff:Action a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+aff:Affordance a owl:Class ;
+    rdfs:isDefinedBy aff:Action ;
+    rdfs:subClassOf owl:Thing .
+
+aff:KitchenEntity a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+aff:Quality a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+aff:quality a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Quality .
+

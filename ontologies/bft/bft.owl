@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/bft.owl"
+         xmlns="http://test.org/bft.owl#">
+
+<owl:Ontology rdf:about="http://test.org/bft.owl"/>
+
+<owl:ObjectProperty rdf:about="#served_with">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  <rdfs:domain rdf:resource="#Condiment"/>
+  <rdfs:range rdf:resource="#Food"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#can_cut">
+  <rdfs:domain rdf:resource="#Cutlery"/>
+  <rdfs:range rdf:resource="#Food"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#spread_on">
+  <rdfs:domain rdf:resource="#Spread"/>
+  <rdfs:range rdf:resource="#Food"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#can_spread">
+  <rdfs:domain rdf:resource="#Cutlery"/>
+  <rdfs:range rdf:resource="#Food"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#used_with">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  <rdfs:domain rdf:resource="#Cutlery"/>
+  <rdfs:domain rdf:resource="#Plate"/>
+  <rdfs:range rdf:resource="#Food"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#is_edible">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#primary_usage">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#Furniture">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#is_edible"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Kitchenware">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#is_edible"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Drink">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Food">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#is_edible"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Storage">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#is_edible"/>
+      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Tableware">
+  <rdfs:subClassOf rdf:resource="#Kitchenware"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Glassware">
+  <rdfs:subClassOf rdf:resource="#Tableware"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Plate">
+  <rdfs:subClassOf rdf:resource="#Tableware"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cutlery">
+  <rdfs:subClassOf rdf:resource="#Tableware"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Fork">
+  <rdfs:subClassOf rdf:resource="#Cutlery"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Knife">
+  <rdfs:subClassOf rdf:resource="#Cutlery"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Spoon">
+  <rdfs:subClassOf rdf:resource="#Cutlery"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Juice">
+  <rdfs:subClassOf rdf:resource="#Drink"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Coffee">
+  <rdfs:subClassOf rdf:resource="#Drink"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Milk">
+  <rdfs:subClassOf rdf:resource="#Drink"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tea">
+  <rdfs:subClassOf rdf:resource="#Drink"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Bread">
+  <rdfs:subClassOf rdf:resource="#Food"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Egg">
+  <rdfs:subClassOf rdf:resource="#Food"/>
+  <rdfs:subClassOf>
+    <owl:Class>
+      <owl:oneOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#hardboiled"/>
+        <rdf:Description rdf:about="#scrambled"/>
+        <rdf:Description rdf:about="#fried"/>
+      </owl:oneOf>
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Condiment">
+  <rdfs:subClassOf rdf:resource="#Food"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Spread">
+  <rdfs:subClassOf rdf:resource="#Condiment"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Table">
+  <rdfs:subClassOf rdf:resource="#Furniture"/>
+  <owl:disjointWith rdf:resource="#Chair"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Chair">
+  <rdfs:subClassOf rdf:resource="#Furniture"/>
+</owl:Class>
+
+<Bread rdf:about="#croissant">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Bread>
+
+<Food rdf:about="#garnish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Food>
+
+<Egg rdf:about="#hardboiled">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Egg>
+
+<Egg rdf:about="#scrambled">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Egg>
+
+<Egg rdf:about="#fried">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Egg>
+
+<Juice rdf:about="#orange_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Juice>
+
+<Juice rdf:about="#apple_juice">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Juice>
+
+<Spread rdf:about="#butter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Spread>
+
+<Tableware rdf:about="#salt_shaker">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Tableware>
+
+<Tableware rdf:about="#pepper_shaker">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Tableware>
+
+<Tableware rdf:about="#bread_basket">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Tableware>
+
+<Tableware rdf:about="#egg_cup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Tableware>
+
+<Kitchenware rdf:about="#milk_pitcher">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Kitchenware>
+
+<Knife rdf:about="#butter_knife">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <can_spread rdf:resource="#butter"/>
+</Knife>
+
+<Glassware rdf:about="#glass">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Glassware>
+
+<Glassware rdf:about="#teacup">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Glassware>
+
+<Plate rdf:about="#sauce_dish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Plate>
+
+<Plate rdf:about="#butter_dish">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Plate>
+
+<Plate rdf:about="#bread_plate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Plate>
+
+<Plate rdf:about="#teacup_plate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Plate>
+
+<Table rdf:about="#table">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Table>
+
+<Chair rdf:about="#dining_chair">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Chair>
+
+<Storage rdf:about="#cupboard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Storage>
+
+<owl:AllDifferent>
+  <owl:distinctMembers rdf:parseType="Collection">
+    <rdf:Description rdf:about="#sauce_dish"/>
+    <rdf:Description rdf:about="#bread_plate"/>
+    <rdf:Description rdf:about="#butter_dish"/>
+    <rdf:Description rdf:about="#teacup_plate"/>
+  </owl:distinctMembers>
+</owl:AllDifferent>
+
+<owl:AllDifferent>
+  <owl:distinctMembers rdf:parseType="Collection">
+    <rdf:Description rdf:about="#hardboiled"/>
+    <rdf:Description rdf:about="#scrambled"/>
+    <rdf:Description rdf:about="#fried"/>
+  </owl:distinctMembers>
+</owl:AllDifferent>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Bread"/>
+    <rdf:Description rdf:about="#Egg"/>
+    <rdf:Description rdf:about="#Condiment"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Juice"/>
+    <rdf:Description rdf:about="#Coffee"/>
+    <rdf:Description rdf:about="#Milk"/>
+    <rdf:Description rdf:about="#Tea"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Glassware"/>
+    <rdf:Description rdf:about="#Plate"/>
+    <rdf:Description rdf:about="#Fork"/>
+    <rdf:Description rdf:about="#Knife"/>
+    <rdf:Description rdf:about="#Spoon"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Food"/>
+    <rdf:Description rdf:about="#Drink"/>
+    <rdf:Description rdf:about="#Storage"/>
+    <rdf:Description rdf:about="#Kitchenware"/>
+    <rdf:Description rdf:about="#Furniture"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+
+</rdf:RDF>
