@@ -1,0 +1,6 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+butter dish,/c/en/butter_dish/n/wn/artifact,IsA,dish,/c/en/dish/n/wn/artifact,[[butter dish]] is a type of [[dish]],2.0
+butter dish,/c/en/butter_dish,ExternalURL,butterdish,http://umbel.org/umbel/sc/ButterDish,,1.0
+butter dish,/c/en/butter_dish/n/wn/artifact,ExternalURL,102931148-n,http://wordnet-rdf.princeton.edu/wn31/102931148-n,,1.0
+butter dish,/c/en/butter_dish/n,ExternalURL,butterdish,http://sw.opencyc.org/2012/05/10/concept/en/ButterDish,,1.0
+butter dish,/c/en/butter_dish/n,IsA,serving dish,/c/en/serving_dish/n,,1.0

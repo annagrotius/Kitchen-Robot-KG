@@ -1,0 +1,1001 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+window,/c/en/window,RelatedTo,glass,/c/en/glass,[[window]] is related to [[glass]],8.952764936040708
+glass,/c/en/glass,RelatedTo,window,/c/en/window,[[glass]] is related to [[window]],7.485185368446128
+a glass,/c/en/glass,UsedFor,drinking,/c/en/drinking,[[a glass]] is used for [[drinking]],7.211102550927979
+glass,/c/en/glass,RelatedTo,clear,/c/en/clear,[[glass]] is related to [[clear]],6.563840339313565
+glass,/c/en/glass,RelatedTo,material,/c/en/material,[[glass]] is related to [[material]],6.041522986797286
+A glass,/c/en/glass,ReceivesAction,broken,/c/en/broken,[[A glass]] can be [[broken]],5.291502622129181
+glass,/c/en/glass,RelatedTo,drinking,/c/en/drinking,[[glass]] is related to [[drinking]],5.047771785649585
+A glass,/c/en/glass,CapableOf,hold liquid,/c/en/hold_liquid,[[A glass]] can [[hold liquid]],4.898979485566356
+glass,/c/en/glass,RelatedTo,transparent,/c/en/transparent,[[glass]] is related to [[transparent]],4.846441993875507
+glass,/c/en/glass,RelatedTo,windows,/c/en/windows,[[glass]] is related to [[windows]],4.814976635457331
+drink,/c/en/drink,RelatedTo,glass,/c/en/glass,[[drink]] is related to [[glass]],4.302092514114498
+glass,/c/en/glass,RelatedTo,sand,/c/en/sand,[[glass]] is related to [[sand]],4.262393693689028
+glass,/c/en/glass,RelatedTo,cup,/c/en/cup,[[glass]] is related to [[cup]],4.134247210799083
+glass,/c/en/glass,HasProperty,clear,/c/en/clear,[[glass]] is [[clear]],4.0
+a glass,/c/en/glass,UsedFor,holding liquid,/c/en/holding_liquid,[[a glass]] is for [[holding liquid]],4.0
+water,/c/en/water,AtLocation,a glass,/c/en/glass,You are likely to find [[water]] in [[a glass]],4.0
+a glass,/c/en/glass,UsedFor,seeing through,/c/en/seeing_through,[[a glass]] is for [[seeing through]],4.0
+Glass,/c/en/glass,HasProperty,recyclable,/c/en/recyclable,[[Glass]] is [[recyclable]],4.0
+Glass,/c/en/glass,ReceivesAction,recycled,/c/en/recycled,[[Glass]] can be [[recycled]],4.0
+a glass,/c/en/glass,AtLocation,the cabinet,/c/en/cabinet,You are likely to find [[a glass]] in [[the cabinet]],4.0
+glass,/c/en/glass,CapableOf,break easily,/c/en/break_easily,[[glass]] can [[break easily]],4.0
+glass,/c/en/glass,RelatedTo,container,/c/en/container,[[glass]] is related to [[container]],3.7825917041097634
+glass,/c/en/glass,RelatedTo,drink,/c/en/drink,[[glass]] is related to [[drink]],3.569873947354445
+a glass,/c/en/glass,AtLocation,a window,/c/en/window,You are likely to find [[a glass]] in [[a window]],3.4641016151377544
+Glass,/c/en/glass,ReceivesAction,made from sand,/c/en/made_from_sand,[[Glass]] is [[made from sand]],3.4641016151377544
+The glass,/c/en/glass,PartOf,a window,/c/en/window,[[The glass]] is part of [[a window]],3.4641016151377544
+glass,/c/en/glass,HasProperty,very fragile,/c/en/very_fragile,[[glass]] is [[very fragile]],3.4641016151377544
+glass,/c/en/glass,RelatedTo,pane,/c/en/pane,[[glass]] is related to [[pane]],3.179308100829487
+glass,/c/en/glass,RelatedTo,window material,/c/en/window_material,[[glass]] is related to [[window material]],2.85447017850949
+glass,/c/en/glass,RelatedTo,see,/c/en/see,[[glass]] is related to [[see]],2.839718295887815
+a glass,/c/en/glass,AtLocation,a kitchen,/c/en/kitchen,You are likely to find [[a glass]] in [[a kitchen]],2.82842712474619
+Some lenses,/c/en/lenses,MadeOf,glass,/c/en/glass,[[Some lenses]] are made of [[glass]],2.82842712474619
+A lens,/c/en/lens,MadeOf,glass,/c/en/glass,[[A lens]] is made of [[glass]].,2.82842712474619
+a glass,/c/en/glass,CapableOf,hold water,/c/en/hold_water,[[a glass]] can [[hold water]],2.82842712474619
+Glass,/c/en/glass,IsA,a solid,/c/en/solid,[[Glass]] is [[a solid]],2.82842712474619
+glass,/c/en/glass,RelatedTo,see through,/c/en/see_through,[[glass]] is related to [[see through]],2.605379051117131
+glass,/c/en/glass,RelatedTo,through,/c/en/through,[[glass]] is related to [[through]],2.605379051117131
+glass,/c/en/glass,RelatedTo,water,/c/en/water,[[glass]] is related to [[water]],2.51555162936482
+glass,/c/en/glass,RelatedTo,breakable,/c/en/breakable,[[glass]] is related to [[breakable]],2.463331078032346
+clear,/c/en/clear,RelatedTo,glass,/c/en/glass,[[clear]] is related to [[glass]],2.159629597870894
+natural glass,/c/en/natural_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[natural glass]] is a type of [[glass]],2.0
+kiikaroida,/c/fi/kiikaroida/v/wn/perception,Synonym,glass,/c/en/glass/v/wn/perception,[[kiikaroida]] is a translation of [[glass]],2.0
+optical glass,/c/en/optical_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[optical glass]] is a type of [[glass]],2.0
+verre,/c/fr/verre/v/wn/contact,Synonym,glass,/c/en/glass/v/wn/contact,[[verre]] is a translation of [[glass]],2.0
+peittää lasilla,/c/fi/peittää_lasilla/v/wn/contact,Synonym,glass,/c/en/glass/v/wn/contact,[[peittää lasilla]] is a translation of [[glass]],2.0
+杯子,/c/zh/杯子/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[杯子]] is a translation of [[glass]],2.0
+盃,/c/zh/盃/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[盃]] is a translation of [[glass]],2.0
+vas,/c/ca/vas/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[vas]] is a translation of [[glass]],2.0
+ตกแต่งด้วยแก้ว,/c/th/ตกแต่งด้วยแก้ว/v/wn/possession,Synonym,glass,/c/en/glass/v/wn/possession,[[ตกแต่งด้วยแก้ว]] is a translation of [[glass]],2.0
+glass,/c/en/glass/n/wn/substance,IsA,solid,/c/en/solid/n/wn/substance,[[glass]] is a type of [[solid]],2.0
+cristalería,/c/es/cristalería/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[cristalería]] is a translation of [[glass]],2.0
+glass,/c/en/glass/n/wn/artifact,Synonym,methamphetamine,/c/en/methamphetamine/n/wn/artifact,[[glass]] is a synonym of [[methamphetamine]],2.0
+glass,/c/en/glass/v/wn/possession,MannerOf,supply,/c/en/supply/v/wn/possession,[[glass]] is a way to [[supply]],2.0
+staklenica,/c/sh/staklenica/n,RelatedTo,glass,/c/en/glass,,2.0
+แก้วน้ำ,/c/th/แก้วน้ํา/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[แก้วน้ำ]] is a translation of [[glass]],2.0
+menggelas,/c/id/menggelas/v/wn/possession,Synonym,glass,/c/en/glass/v/wn/possession,[[menggelas]] is a translation of [[glass]],2.0
+memasang kaca pd,/c/ms/memasang_kaca_pd/v/wn/possession,Synonym,glass,/c/en/glass/v/wn/possession,[[memasang kaca pd]] is a translation of [[glass]],2.0
+kaca,/c/id/kaca/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[kaca]] is a translation of [[glass]],2.0
+ground glass,/c/en/ground_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[ground glass]] is a type of [[glass]],2.0
+bicchiere,/c/it/bicchiere/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[bicchiere]] is a translation of [[glass]],2.0
+A glass,/c/en/glass,HasProperty,dirty,/c/en/dirty,[[A glass]] can be [[dirty]],2.0
+verre,/c/fr/verre/v/wn/possession,Synonym,glass,/c/en/glass/v/wn/possession,[[verre]] is a translation of [[glass]],2.0
+グラス１杯の量,/c/ja/グラス_1_杯の量/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[グラス１杯の量]] is a translation of [[glass]],2.0
+ガラス,/c/ja/ガラス/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[ガラス]] is a translation of [[glass]],2.0
+edalontzi,/c/eu/edalontzi/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[edalontzi]] is a translation of [[glass]],2.0
+A glass,/c/en/glass,HasProperty,clean,/c/en/clean,[[A glass]] can be [[clean]],2.0
+lasi,/c/fi/lasi/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[lasi]] is a translation of [[glass]],2.0
+طَاسَة,/c/ar/طاسة/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[طَاسَة]] is a translation of [[glass]],2.0
+硝子,/c/ja/硝子/n/jmdict/1,Synonym,glass,/c/en/glass,,2.0
+caklo,/c/sh/caklo/n,RelatedTo,glass,/c/en/glass,,2.0
+glass,/c/en/glass/v/wn/change,Synonym,glaze,/c/en/glaze/v/wn/change,[[glass]] is a synonym of [[glaze]],2.0
+vaso,/c/es/vaso/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[vaso]] is a translation of [[glass]],2.0
+杯,/c/ja/杯/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[杯]] is a translation of [[glass]],2.0
+gelas,/c/id/gelas/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[gelas]] is a translation of [[glass]],2.0
+vetro,/c/it/vetro/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[vetro]] is a translation of [[glass]],2.0
+got,/c/ca/got/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[got]] is a translation of [[glass]],2.0
+gotë,/c/sq/gotë/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[gotë]] is a translation of [[glass]],2.0
+beer glass,/c/en/beer_glass/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[beer glass]] is a type of [[glass]],2.0
+glas,/c/no/glas/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[glas]] is a translation of [[glass]],2.0
+water glass,/c/en/water_glass/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[water glass]] is a type of [[glass]],2.0
+glass in,/c/en/glass_in/v/wn/contact,Synonym,glass,/c/en/glass/v/wn/contact,[[glass in]] is a synonym of [[glass]],2.0
+glass,/c/no/glass/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[glass]] is a translation of [[glass]],2.0
+wire glass,/c/en/wire_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[wire glass]] is a type of [[glass]],2.0
+qelq,/c/sq/qelq/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[qelq]] is a translation of [[glass]],2.0
+頗梨,/c/ja/頗梨,Synonym,glass,/c/en/glass,,2.0
+čaša,/c/sh/čaša/n,RelatedTo,glass,/c/en/glass,,2.0
+rummer,/c/en/rummer/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[rummer]] is a type of [[glass]],2.0
+glasshouse,/c/en/glasshouse,DerivedFrom,glass,/c/en/glass/n,,2.0
+liqueur glass,/c/en/liqueur_glass/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[liqueur glass]] is a type of [[glass]],2.0
+kristal,/c/eu/kristal/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[kristal]] is a translation of [[glass]],2.0
+コップ,/c/ja/コップ/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[コップ]] is a translation of [[glass]],2.0
+verre,/c/fr/verre/v/wn/change,Synonym,glass,/c/en/glass/v/wn/change,[[verre]] is a translation of [[glass]],2.0
+グラス,/c/ja/グラス/n/jmdict/1,Synonym,glass,/c/en/glass,,2.0
+wineglass,/c/en/wineglass/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[wineglass]] is a type of [[glass]],2.0
+glass,/c/en/glass/n,Synonym,staklo,/c/sh/staklo,,2.0
+verre,/c/fr/verre/v/wn/perception,Synonym,glass,/c/en/glass/v/wn/perception,[[verre]] is a translation of [[glass]],2.0
+glass,/c/en/glass/v/wn/perception,MannerOf,scan,/c/en/scan/v/wn/perception,[[glass]] is a way to [[scan]],2.0
+はり,/c/ja/はり/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[はり]] is a translation of [[glass]],2.0
+glassy,/c/en/glassy,DerivedFrom,glass,/c/en/glass/n,,2.0
+水のみ,/c/ja/水のみ/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[水のみ]] is a translation of [[glass]],2.0
+หุ้มด้วยแก้ว,/c/th/หุ้มด้วยแก้ว/v/wn/contact,Synonym,glass,/c/en/glass/v/wn/contact,[[หุ้มด้วยแก้ว]] is a translation of [[glass]],2.0
+glass,/c/en/glass/v/wn/change,MannerOf,insert,/c/en/insert/v/wn/change,[[glass]] is a way to [[insert]],2.0
+絡める,/c/ja/絡める/v/wn/possession,Synonym,glass,/c/en/glass/v/wn/possession,[[絡める]] is a translation of [[glass]],2.0
+highball glass,/c/en/highball_glass/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[highball glass]] is a type of [[glass]],2.0
+瑠璃,/c/ja/瑠璃/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[瑠璃]] is a translation of [[glass]],2.0
+beira,/c/eu/beira/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[beira]] is a translation of [[glass]],2.0
+varustaa lasilla,/c/fi/varustaa_lasilla/v/wn/possession,Synonym,glass,/c/en/glass/v/wn/possession,[[varustaa lasilla]] is a translation of [[glass]],2.0
+グラス,/c/ja/グラス,Synonym,glass,/c/en/glass,,2.0
+كَأس,/c/ar/كأس/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[كَأس]] is a translation of [[glass]],2.0
+glass,/c/no/glass/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[glass]] is a translation of [[glass]],2.0
+tumbler,/c/en/tumbler/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[tumbler]] is a type of [[glass]],2.0
+schooner,/c/en/schooner/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[schooner]] is a type of [[glass]],2.0
+edontzi,/c/eu/edontzi/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[edontzi]] is a translation of [[glass]],2.0
+vidre,/c/ca/vidre/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[vidre]] is a translation of [[glass]],2.0
+水呑み,/c/ja/水呑み/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[水呑み]] is a translation of [[glass]],2.0
+زُجَاج,/c/ar/زجاج/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[زُجَاج]] is a translation of [[glass]],2.0
+bumper,/c/en/bumper/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[bumper]] is a type of [[glass]],2.0
+ガラース,/c/ja/ガラース/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[ガラース]] is a translation of [[glass]],2.0
+stained glass,/c/en/stained_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[stained glass]] is a type of [[glass]],2.0
+lead glass,/c/en/lead_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[lead glass]] is a type of [[glass]],2.0
+a glass,/c/en/glass,ReceivesAction,found in a kitchen,/c/en/found_in_kitchen,[[a glass]] can be [[found in a kitchen]],2.0
+ビードロ,/c/ja/ビードロ/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[ビードロ]] is a translation of [[glass]],2.0
+水呑み,/c/ja/水呑み/n/jmdict/1,Synonym,glass,/c/en/glass,,2.0
+水飲み,/c/ja/水飲み/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[水飲み]] is a translation of [[glass]],2.0
+glass,/c/en/glass/v/wn/contact,MannerOf,enclose,/c/en/enclose/v/wn/contact,[[glass]] is a way to [[enclose]],2.0
+glas,/c/da/glas/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[glas]] is a translation of [[glass]],2.0
+水飲み,/c/ja/水飲み/n/jmdict/1,Synonym,glass,/c/en/glass,,2.0
+杯,/c/zh/杯/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[杯]] is a translation of [[glass]],2.0
+the glass,/c/en/glass,HasProperty,half empty,/c/en/half_empty,[[the glass]] is [[half empty]],2.0
+verre,/c/fr/verre/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[verre]] is a translation of [[glass]],2.0
+vidro,/c/pt/vidro/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[vidro]] is a translation of [[glass]],2.0
+lasi,/c/fi/lasi/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[lasi]] is a translation of [[glass]],2.0
+snifter,/c/en/snifter/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[snifter]] is a type of [[glass]],2.0
+glassware,/c/en/glassware,DerivedFrom,glass,/c/en/glass/n,,2.0
+glas,/c/da/glas/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[glas]] is a translation of [[glass]],2.0
+lasitavara,/c/fi/lasitavara/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[lasitavara]] is a translation of [[glass]],2.0
+قَدَح,/c/ar/قدح/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[قَدَح]] is a translation of [[glass]],2.0
+juomalasi,/c/fi/juomalasi/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[juomalasi]] is a translation of [[glass]],2.0
+lasillinen,/c/fi/lasillinen/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[lasillinen]] is a translation of [[glass]],2.0
+glass,/c/en/glass/n/wn/artifact,Synonym,field glass,/c/en/field_glass/n/wn/artifact,[[glass]] is a synonym of [[field glass]],2.0
+safety glass,/c/en/safety_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[safety glass]] is a type of [[glass]],2.0
+glass,/c/en/glass/n/wn/artifact,IsA,glassware,/c/en/glassware/n/wn/artifact,[[glass]] is a type of [[glassware]],2.0
+a glass,/c/en/glass,AtLocation,the table,/c/en/table,*Something you find on [[the table]] is [[a glass]],2.0
+rasade,/c/fr/rasade/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[rasade]] is a translation of [[glass]],2.0
+lasiesineet,/c/fi/lasiesineet/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[lasiesineet]] is a translation of [[glass]],2.0
+kaca,/c/ms/kaca/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[kaca]] is a translation of [[glass]],2.0
+Glass,/c/en/glass,MadeOf,sand,/c/en/sand,[[Glass]] is made of [[sand]].,2.0
+ガラス製,/c/ja/ガラス製/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[ガラス製]] is a translation of [[glass]],2.0
+ギヤマン,/c/ja/ギヤマン/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[ギヤマン]] is a translation of [[glass]],2.0
+crt,/c/en/crt,MadeOf,glass,/c/en/glass,[[crt]] is made of [[glass]].,2.0
+opal glass,/c/en/opal_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[opal glass]] is a type of [[glass]],2.0
+glaze,/c/en/glaze/v/wn/possession,Synonym,glass,/c/en/glass/v/wn/possession,[[glaze]] is a synonym of [[glass]],2.0
+cristalleria,/c/it/cristalleria/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[cristalleria]] is a translation of [[glass]],2.0
+shot glass,/c/en/shot_glass/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[shot glass]] is a type of [[glass]],2.0
+gelas,/c/id/gelas/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[gelas]] is a translation of [[glass]],2.0
+kaataa lasiin,/c/fi/kaataa_lasiin/v/wn/change,Synonym,glass,/c/en/glass/v/wn/change,[[kaataa lasiin]] is a translation of [[glass]],2.0
+crown glass,/c/en/crown_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[crown glass]] is a type of [[glass]],2.0
+แก้ว,/c/th/แก้ว/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[แก้ว]] is a translation of [[glass]],2.0
+แก้วดื่มน้ำ,/c/th/แก้วดื่มน้ํา/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[แก้วดื่มน้ำ]] is a translation of [[glass]],2.0
+barang kaca,/c/id/barang_kaca/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[barang kaca]] is a translation of [[glass]],2.0
+tv,/c/en/tv,MadeOf,glass,/c/en/glass,[[tv]] is made of [[glass]].,2.0
+glass,/c/en/glass/n/wn/artifact,RelatedTo,liquid,/c/en/liquid/n/wn/substance,[[glass]] is related to [[liquid]],2.0
+parfait glass,/c/en/parfait_glass/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[parfait glass]] is a type of [[glass]],2.0
+玻璃,/c/ja/玻璃,Synonym,glass,/c/en/glass,,2.0
+drinking glass,/c/en/drinking_glass/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[drinking glass]] is a synonym of [[glass]],2.0
+瑠璃,/c/ja/瑠璃,Synonym,glass,/c/en/glass,,2.0
+glass,/c/en/glass/n/wn/artifact,Synonym,looking glass,/c/en/looking_glass/n/wn/artifact,[[glass]] is a synonym of [[looking glass]],2.0
+كُوب,/c/ar/كوب/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[كُوب]] is a translation of [[glass]],2.0
+got,/c/ca/got/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[got]] is a translation of [[glass]],2.0
+lasittaa,/c/fi/lasittaa/v/wn/contact,Synonym,glass,/c/en/glass/v/wn/contact,[[lasittaa]] is a translation of [[glass]],2.0
+コップ１杯の量,/c/ja/コップ_1_杯の量/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[コップ１杯の量]] is a translation of [[glass]],2.0
+ビードロ,/c/ja/ビードロ/n,Synonym,glass,/c/en/glass,,2.0
+baso,/c/eu/baso/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[baso]] is a translation of [[glass]],2.0
+verre,/c/fr/verre/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[verre]] is a translation of [[glass]],2.0
+ส่องกล้อง,/c/th/ส่องกล้อง/v/wn/perception,Synonym,glass,/c/en/glass/v/wn/perception,[[ส่องกล้อง]] is a translation of [[glass]],2.0
+แก้ว,/c/th/แก้ว/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[แก้ว]] is a translation of [[glass]],2.0
+硝子,/c/ja/硝子/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[硝子]] is a translation of [[glass]],2.0
+水呑,/c/ja/水呑/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[水呑]] is a translation of [[glass]],2.0
+gelas,/c/id/gelas/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[gelas]] is a translation of [[glass]],2.0
+glass,/c/en/glass/n/wn/artifact,IsA,container,/c/en/container/n/wn/artifact,[[glass]] is a type of [[container]],2.0
+poner vidrios,/c/es/poner_vidrios/v/wn/possession,Synonym,glass,/c/en/glass/v/wn/possession,[[poner vidrios]] is a translation of [[glass]],2.0
+玻璃,/c/ja/玻璃/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[玻璃]] is a translation of [[glass]],2.0
+ガラス越し,/c/ja/ガラス越し/a,Synonym,glass,/c/en/glass,,2.0
+seidel,/c/en/seidel/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[seidel]] is a type of [[glass]],2.0
+glassful,/c/en/glassful/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[glassful]] is a synonym of [[glass]],2.0
+verre,/c/fr/verre/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[verre]] is a translation of [[glass]],2.0
+コップ,/c/ja/コップ/n/jmdict/1,Synonym,glass,/c/en/glass,,2.0
+glass,/c/en/glass/n/wn/artifact,RelatedTo,drink,/c/en/drink/n/wn/food,[[glass]] is related to [[drink]],2.0
+glass,/c/en/glass/n/wn/substance,PartOf,glass,/c/en/glass/n/wn/artifact,[[glass]] is a part of [[glass]],2.0
+barang kaca,/c/ms/barang_kaca/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[barang kaca]] is a translation of [[glass]],2.0
+gelas,/c/ms/gelas/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[gelas]] is a translation of [[glass]],2.0
+cristallo,/c/it/cristallo/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[cristallo]] is a translation of [[glass]],2.0
+soft glass,/c/en/soft_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[soft glass]] is a type of [[glass]],2.0
+琉璃,/c/ja/琉璃,Synonym,glass,/c/en/glass,,2.0
+盃,/c/ja/盃/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[盃]] is a translation of [[glass]],2.0
+staklen,/c/sh/staklen/a,RelatedTo,glass,/c/en/glass,,2.0
+ใส่แก้ว,/c/th/ใส่แก้ว/v/wn/change,Synonym,glass,/c/en/glass/v/wn/change,[[ใส่แก้ว]] is a translation of [[glass]],2.0
+bicchiere,/c/it/bicchiere/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[bicchiere]] is a translation of [[glass]],2.0
+lasi,/c/fi/lasi/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[lasi]] is a translation of [[glass]],2.0
+soluble glass,/c/en/soluble_glass/n/wn/substance,IsA,glass,/c/en/glass/n/wn/substance,[[soluble glass]] is a type of [[glass]],2.0
+แก้ว,/c/th/แก้ว/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[แก้ว]] is a translation of [[glass]],2.0
+Many bottles,/c/en/many_bottles,MadeOf,glass,/c/en/glass,[[Many bottles]] are made of [[glass]],2.0
+glassman,/c/en/glassman/n,RelatedTo,glass,/c/en/glass,,2.0
+グラス,/c/ja/グラス/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[グラス]] is a translation of [[glass]],2.0
+水飲,/c/ja/水飲/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[水飲]] is a translation of [[glass]],2.0
+goblet,/c/en/goblet/n/wn/artifact,IsA,glass,/c/en/glass/n/wn/artifact,[[goblet]] is a type of [[glass]],2.0
+basokada,/c/eu/basokada/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[basokada]] is a translation of [[glass]],2.0
+vidrio,/c/es/vidrio/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[vidrio]] is a translation of [[glass]],2.0
+a glass,/c/en/glass,UsedFor,drinking liquid from,/c/en/drinking_liquid_from,[[a glass]] is for [[drinking liquid from]],2.0
+vidro,/c/gl/vidro/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[vidro]] is a translation of [[glass]],2.0
+staklo,/c/sh/staklo/n,RelatedTo,glass,/c/en/glass,,2.0
+lasittaa,/c/fi/lasittaa/v/wn/possession,Synonym,glass,/c/en/glass/v/wn/possession,[[lasittaa]] is a translation of [[glass]],2.0
+glass,/c/en/glass/n/wn/artifact,UsedFor,hold,/c/en/hold/v/wn/stative,[[glass]] is used for [[hold]],2.0
+bicchierata,/c/it/bicchierata/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[bicchierata]] is a translation of [[glass]],2.0
+vas,/c/ca/vas/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[vas]] is a translation of [[glass]],2.0
+琉璃,/c/ja/琉璃/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[琉璃]] is a translation of [[glass]],2.0
+vaso,/c/es/vaso/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[vaso]] is a translation of [[glass]],2.0
+glas,/c/no/glas/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[glas]] is a translation of [[glass]],2.0
+gotë qelqi,/c/sq/gotë_qelqi/n/wn/artifact,Synonym,glass,/c/en/glass/n/wn/artifact,[[gotë qelqi]] is a translation of [[glass]],2.0
+a glass,/c/en/glass,UsedFor,drinking from,/c/en/drinking_from,[[a glass]] is for [[drinking from]],2.0
+gelas,/c/ms/gelas/n/wn/quantity,Synonym,glass,/c/en/glass/n/wn/quantity,[[gelas]] is a translation of [[glass]],2.0
+ヴィードロ,/c/ja/ヴィードロ/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[ヴィードロ]] is a translation of [[glass]],2.0
+glass,/c/en/glass/n/wn/quantity,IsA,containerful,/c/en/containerful/n/wn/quantity,[[glass]] is a type of [[containerful]],2.0
+double-glaze,/c/en/double_glaze/v/wn/possession,MannerOf,glass,/c/en/glass/v/wn/possession,[[double-glaze]] is a way to [[glass]],2.0
+gelas,/c/ms/gelas/n/wn/substance,Synonym,glass,/c/en/glass/n/wn/substance,[[gelas]] is a translation of [[glass]],2.0
+a glass,/c/en/glass,UsedFor,drinking out of,/c/en/drinking_out_of,[[a glass]] is for [[drinking out of]],2.0
+glass,/c/en/glass,RelatedTo,fragile,/c/en/fragile,[[glass]] is related to [[fragile]],1.956
+glass,/c/en/glass,RelatedTo,vessel,/c/en/vessel,[[glass]] is related to [[vessel]],1.9379999999999997
+glass,/c/en/glass,RelatedTo,clear material,/c/en/clear_material,[[glass]] is related to [[clear material]],1.8289999999999997
+sand,/c/en/sand,RelatedTo,glass,/c/en/glass,[[sand]] is related to [[glass]],1.787
+glass,/c/en/glass,RelatedTo,window pane,/c/en/window_pane,[[glass]] is related to [[window pane]],1.7439999999999998
+glass,/c/en/glass,RelatedTo,drinking vessel,/c/en/drinking_vessel,[[glass]] is related to [[drinking vessel]],1.58
+玻璃,/c/zh/玻璃,Synonym,glass,/c/en/glass,,1.5
+plate,/c/en/plate,RelatedTo,glass,/c/en/glass,[[plate]] is related to [[glass]],1.463
+glass,/c/en/glass,RelatedTo,silicon,/c/en/silicon,[[glass]] is related to [[silicon]],1.419
+jar,/c/en/jar,RelatedTo,glass,/c/en/glass,[[jar]] is related to [[glass]],1.416
+glass,/c/en/glass,RelatedTo,melted,/c/en/melted,[[glass]] is related to [[melted]],1.391
+glass,/c/en/glass,RelatedTo,melted sand,/c/en/melted_sand,[[glass]] is related to [[melted sand]],1.391
+glass,/c/en/glass,RelatedTo,solid,/c/en/solid,[[glass]] is related to [[solid]],1.271
+break,/c/en/break,RelatedTo,glass,/c/en/glass,[[break]] is related to [[glass]],1.255
+glass,/c/en/glass,RelatedTo,mirror,/c/en/mirror,[[glass]] is related to [[mirror]],1.25
+glass,/c/en/glass,RelatedTo,panes,/c/en/panes,[[glass]] is related to [[panes]],1.2000000000000002
+glass,/c/en/glass,RelatedTo,crystal,/c/en/crystal,[[glass]] is related to [[crystal]],1.1769999999999996
+glass,/c/en/glass,RelatedTo,holder,/c/en/holder,[[glass]] is related to [[holder]],1.1479999999999997
+glass,/c/en/glass,RelatedTo,liquid,/c/en/liquid,[[glass]] is related to [[liquid]],1.129
+glass,/c/en/glass,RelatedTo,in windows,/c/en/in_windows,[[glass]] is related to [[in windows]],1.088
+glass,/c/en/glass,RelatedTo,silica,/c/en/silica,[[glass]] is related to [[silica]],1.0539999999999998
+glass,/c/en/glass,RelatedTo,made,/c/en/made,[[glass]] is related to [[made]],1.0099999999999998
+tears of wine,/c/en/tears_of_wine/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/v,RelatedTo,reflect,/c/en/reflect,,1.0
+some glass,/c/en/glass,HasProperty,green,/c/en/green,[[some glass]] is [[green]],1.0
+cleave,/c/en/cleave/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+vetrocromia,/c/it/vetrocromia/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,זגוגית,/c/he/זגוגית,,1.0
+चषक,/c/sa/चषक/n,RelatedTo,glass,/c/en/glass,,1.0
+ܬܢܢܐ,/c/syc/ܬܢܢܐ/n,RelatedTo,glass,/c/en/glass,,1.0
+glazier,/c/en/glazier/n,RelatedTo,glass,/c/en/glass,,1.0
+bicchierata,/c/it/bicchierata/n,RelatedTo,glass,/c/en/glass,,1.0
+ferretto,/c/en/ferretto/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,şûşe,/c/ku/şûşe,,1.0
+glass,/c/en/glass/n,IsA,solid,/c/en/solid/n/opencyc/solid_state_of_matter,,1.0
+glass,/c/en/glass/n,RelatedTo,lime,/c/en/lime,,1.0
+cristalero,/c/es/cristalero/n,RelatedTo,glass,/c/en/glass,,1.0
+barium copper silicate,/c/en/barium_copper_silicate/n,RelatedTo,glass,/c/en/glass,,1.0
+апч,/c/ady/апч/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,glass,/c/no/glass,,1.0
+🥛,/c/mul/🥛,SymbolOf,glass,/c/en/glass,,1.0
+glass,/c/en/glass,ExternalURL,Glass,http://umbel.org/umbel/sc/Glass,,1.0
+bańka,/c/pl/bańka/n,RelatedTo,glass,/c/en/glass,,1.0
+glasherstellung,/c/de/glasherstellung/n,RelatedTo,glass,/c/en/glass,,1.0
+potash,/c/en/potash/n,RelatedTo,glass,/c/en/glass,,1.0
+verrière,/c/fr/verrière/n,RelatedTo,glass,/c/en/glass,,1.0
+vasu,/c/ast/vasu/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,IsA,a liquid at room tempeature,/c/en/liquid_at_room_tempeature,[[glass]] is [[a liquid at room tempeature]],1.0
+glass,/c/en/glass/n,Synonym,kaca,/c/id/kaca,,1.0
+glasshouse,/c/en/glasshouse,DerivedFrom,glass,/c/en/glass,,1.0
+vetrocamera,/c/it/vetrocamera/n,RelatedTo,glass,/c/en/glass,,1.0
+steehl,/c/sms/steehl/n,RelatedTo,glass,/c/en/glass,,1.0
+shisha,/c/uz/shisha/n,RelatedTo,glass,/c/en/glass,,1.0
+cáliz,/c/es/cáliz/n,RelatedTo,glass,/c/en/glass,,1.0
+venetian glass,/c/en/venetian_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,qelq,/c/sq/qelq,,1.0
+vitreous,/c/en/vitreous/a,RelatedTo,glass,/c/en/glass,,1.0
+vidrar,/c/pt/vidrar/v,RelatedTo,glass,/c/en/glass,,1.0
+lithium oxide,/c/en/lithium_oxide/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,RelatedTo,clear,/c/en/clear,,1.0
+glass,/c/en/glass/n,Synonym,ಗಾಜು,/c/kn/ಗಾಜು,,1.0
+caña,/c/ast/caña/n,RelatedTo,glass,/c/en/glass,,1.0
+glas,/c/tpi/glas/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,beira,/c/eu/beira,,1.0
+potichomania,/c/en/potichomania/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,głoos,/c/wym/głoos,,1.0
+glass cutter,/c/en/glass_cutter/n,RelatedTo,glass,/c/en/glass,,1.0
+waso,/c/ccc/waso/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,זכוכית,/c/he/זכוכית,,1.0
+νερό,/c/el/νερό/n,RelatedTo,glass,/c/en/glass,,1.0
+The traditional covering for greenhouses,/c/en/traditional_covering_for_greenhouses,IsA,glass,/c/en/glass,[[The traditional covering for greenhouses]] is [[glass]],1.0
+sugar glass,/c/en/sugar_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+many containers,/c/en/many_containers,MadeOf,glass,/c/en/glass,[[many containers]] are made of [[glass]],1.0
+semivitrified,/c/en/semivitrified/a,RelatedTo,glass,/c/en/glass,,1.0
+glassing,/c/en/glassing,FormOf,glass,/c/en/glass/v,,1.0
+vitro,/c/io/vitro/n,RelatedTo,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,UsedFor,making windows and for drinking cups,/c/en/making_windows_and_for_drinking_cups,[[Glass]] is used for [[making windows and for drinking cups]],1.0
+backglass,/c/en/backglass,DerivedFrom,glass,/c/en/glass,,1.0
+windowglass,/c/en/windowglass,DerivedFrom,glass,/c/en/glass,,1.0
+glass,/c/en/glass,HasProperty,non porous,/c/en/non_porous,[[glass]] is [[non porous]],1.0
+բաժակ,/c/xcl/բաժակ/n,RelatedTo,glass,/c/en/glass,,1.0
+caña,/c/es/caña/n,RelatedTo,glass,/c/en/glass,,1.0
+чарка,/c/ru/чарка/n,RelatedTo,glass,/c/en/glass,,1.0
+mullion,/c/en/mullion/n,RelatedTo,glass,/c/en/glass,,1.0
+杯子,/c/zh/杯子/n,RelatedTo,glass,/c/en/glass,,1.0
+skjár,/c/is/skjár/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/v,RelatedTo,burnisher,/c/en/burnisher,,1.0
+aquarium,/c/en/aquarium/n,RelatedTo,glass,/c/en/glass,,1.0
+murrine,/c/en/murrine/n,RelatedTo,glass,/c/en/glass,,1.0
+kinas,/c/chk/kinas/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,veddro,/c/lij/veddro,,1.0
+glas,/c/is/glas/n,Synonym,glass,/c/en/glass,,1.0
+klaas,/c/et/klaas/n,RelatedTo,glass,/c/en/glass,,1.0
+gelas,/c/id/gelas,EtymologicallyDerivedFrom,glass,/c/en/glass,,1.0
+cup,/c/en/cup/n,RelatedTo,glass,/c/en/glass,,1.0
+scheef,/c/enm/scheef/n,RelatedTo,glass,/c/en/glass,,1.0
+illustrated song,/c/en/illustrated_song/n,RelatedTo,glass,/c/en/glass,,1.0
+glace,/c/fr/glace/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,glas,/c/de/glas,,1.0
+hyalograph,/c/en/hyalograph/n,RelatedTo,glass,/c/en/glass,,1.0
+estikluuq,/c/esu/estikluuq/n,RelatedTo,glass,/c/en/glass,,1.0
+gauge glass,/c/en/gauge_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,ReceivesAction,found in a building,/c/en/found_in_building,[[glass]] can be [[found in a building]],1.0
+sklo,/c/sk/sklo/n,RelatedTo,glass,/c/en/glass,,1.0
+vitrophyre,/c/en/vitrophyre/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vitro,/c/eo/vitro,,1.0
+glaselektricitet,/c/sv/glaselektricitet/n,RelatedTo,glass,/c/en/glass,,1.0
+vitrage,/c/fr/vitrage/n,RelatedTo,glass,/c/en/glass,,1.0
+glasshouse,/c/en/glasshouse/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,RelatedTo,backboard,/c/en/backboard,,1.0
+glass,/c/en/glass/n,RelatedTo,telescope,/c/en/telescope,,1.0
+vasito,/c/es/vasito/n,RelatedTo,glass,/c/en/glass,,1.0
+glassmaker,/c/en/glassmaker/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/v,RelatedTo,glassy,/c/en/glassy,,1.0
+quartz halogen lamp,/c/en/quartz_halogen_lamp/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,ExternalURL,Glass,http://dbpedia.org/resource/Glass,,1.0
+milchglas,/c/de/milchglas/n,RelatedTo,glass,/c/en/glass,,1.0
+ปัด,/c/th/ปัด/n/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+ποτήρι,/c/el/ποτήρι/n,RelatedTo,glass,/c/en/glass,,1.0
+ngirathi,/c/ki/ngirathi,EtymologicallyDerivedFrom,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vidro,/c/gl/vidro,,1.0
+glas,/c/de/glas/n,Synonym,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,gĩcicio,/c/ki/gĩcicio,,1.0
+glass,/c/en/glass/n,Synonym,veire,/c/oc/veire,,1.0
+glass,/c/en/glass/n,Synonym,sklo,/c/cs/sklo,,1.0
+glass,/c/en/glass/n,Synonym,steklo,/c/sl/steklo,,1.0
+mineraalwater,/c/nl/mineraalwater/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,estikluuq,/c/esu/estikluuq,,1.0
+গ্লাস,/c/bn/গ্লাস,EtymologicallyDerivedFrom,glass,/c/en/glass,,1.0
+glass,/c/en/glass,PartOf,eyeglasses,/c/en/eyeglasses,[[glass]] is part of [[eyeglasses]].,1.0
+quarzglas,/c/de/quarzglas/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vierech,/c/lld/vierech,,1.0
+မှန်,/c/my/မှန်/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,IsA,inorganic substance,/c/en/inorganic_substance/n,,1.0
+looking glass,/c/en/looking_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,EtymologicallyDerivedFrom,glas,/c/enm/glas,,1.0
+verrier,/c/fr/verrier/a,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,aisa,/c/sm/aisa,,1.0
+ħġieġ,/c/mt/ħġieġ/n,RelatedTo,glass,/c/en/glass,,1.0
+melkglas,/c/nl/melkglas/n,RelatedTo,glass,/c/en/glass,,1.0
+glass delusion,/c/en/glass_delusion/n,RelatedTo,glass,/c/en/glass,,1.0
+optical flat,/c/en/optical_flat/n,RelatedTo,glass,/c/en/glass,,1.0
+riesel iron,/c/en/riesel_iron/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vidru,/c/an/vidru,,1.0
+glasses,/c/en/glasses,DerivedFrom,glass,/c/en/glass/n,,1.0
+A plate,/c/en/plate,MadeOf,glass,/c/en/glass,[[A plate]] may be made of [[glass]],1.0
+glät,/c/vo/glät/n,RelatedTo,glass,/c/en/glass,,1.0
+test tube,/c/en/test_tube/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,硝子,/c/ja/硝子,,1.0
+vesilasi,/c/fi/vesilasi/n,RelatedTo,glass,/c/en/glass,,1.0
+vetrata,/c/it/vetrata/n,RelatedTo,glass,/c/en/glass,,1.0
+זגוגיתא,/c/arc/זגוגיתא/n,RelatedTo,glass,/c/en/glass,,1.0
+glassworker,/c/en/glassworker,DerivedFrom,glass,/c/en/glass,,1.0
+red lead,/c/en/red_lead/n,RelatedTo,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,AtLocation,a,/c/en/a,You are likely to find [[a glass]] in [[a]],1.0
+glas,/c/lb/glas/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,üveg,/c/hu/üveg,,1.0
+cristallaio,/c/it/cristallaio/n,RelatedTo,glass,/c/en/glass,,1.0
+стькло,/c/orv/стькло/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vêre,/c/wa/vêre,,1.0
+hyalophagy,/c/en/hyalophagy/n,RelatedTo,glass,/c/en/glass,,1.0
+maitolasi,/c/fi/maitolasi/n,RelatedTo,glass,/c/en/glass,,1.0
+glæs,/c/ang/glæs/n,RelatedTo,glass,/c/en/glass,,1.0
+glassed,/c/en/glassed,FormOf,glass,/c/en/glass/v,,1.0
+cascu,/c/ast/cascu/n,RelatedTo,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,AtLocation,a dining room,/c/en/dining_room,You are likely to find [[a glass]] in [[a dining room]],1.0
+leech,/c/en/leech/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+lasihelmi,/c/fi/lasihelmi/n,RelatedTo,glass,/c/en/glass,,1.0
+pele's hair,/c/en/pele's_hair/n,RelatedTo,glass,/c/en/glass,,1.0
+vitrin,/c/sv/vitrin/n,RelatedTo,glass,/c/en/glass,,1.0
+plate glass,/c/en/plate_glass/n,IsA,glass,/c/en/glass/n/opencyc/glass_413,,1.0
+glarney,/c/en/glarney/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,RelatedTo,protective,/c/en/protective,,1.0
+qelq,/c/sq/qelq/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n/opencyc/silicate_glass,ExternalURL,SilicateGlass,http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass,,1.0
+गिलास,/c/hi/गिलास/n,RelatedTo,glass,/c/en/glass,,1.0
+eyeglasses,/c/en/eyeglasses,DerivedFrom,glass,/c/en/glass/n,,1.0
+clear glass,/c/en/clear_glass/n,IsA,glass,/c/en/glass/n/opencyc/glass_413,,1.0
+ambitty,/c/en/ambitty/a,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,AtLocation,a street,/c/en/street,*Something you find in [[a street]] is [[glass]],1.0
+電仁,/c/zh/電仁/n,RelatedTo,glass,/c/en/glass,,1.0
+A glass,/c/en/glass,IsA,something you,/c/en/something_you,[[A glass]] is [[something you]],1.0
+p’ȍxwìli’ ína,/c/twf/p’ȍxwìli’_ína/n,RelatedTo,glass,/c/en/glass,,1.0
+wine bottle,/c/en/wine_bottle/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n/wn/substance,ExternalURL,114905454-n,http://wordnet-rdf.princeton.edu/wn31/114905454-n,,1.0
+volcanic ash,/c/en/volcanic_ash/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,შუშა,/c/ka/შუშა,,1.0
+A glass,/c/en/glass,HasProperty,half full,/c/en/half_full,[[A glass]] can be [[half full]],1.0
+glasynge,/c/enm/glasynge/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,glainne,/c/gd/glainne,,1.0
+Glass,/c/en/glass,HasProperty,a ceramic,/c/en/ceramic,[[Glass]] is [[a ceramic]],1.0
+optical glass,/c/en/optical_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vrito,/c/nap/vrito,,1.0
+glass,/c/en/glass/n,Synonym,ħġieġ,/c/mt/ħġieġ,,1.0
+verrophone,/c/en/verrophone/n,RelatedTo,glass,/c/en/glass,,1.0
+brouilleur,/c/en/brouilleur/n,RelatedTo,glass,/c/en/glass,,1.0
+дребезг,/c/ru/дребезг/n,RelatedTo,glass,/c/en/glass,,1.0
+shaker,/c/en/shaker/n,RelatedTo,glass,/c/en/glass,,1.0
+urinal,/c/en/urinal/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,RelatedTo,screen,/c/en/screen,,1.0
+grozing iron,/c/en/grozing_iron/n,RelatedTo,glass,/c/en/glass,,1.0
+glazer,/c/en/glazer/n,RelatedTo,glass,/c/en/glass,,1.0
+art glass,/c/en/art_glass/n,IsA,glass,/c/en/glass/n/opencyc/glass_413,,1.0
+glassen,/c/en/glassen/a/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+qiru,/c/qu/qiru/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vitrum,/c/la/vitrum,,1.0
+glas,/c/gsw/glas/n,RelatedTo,glass,/c/en/glass,,1.0
+tankard,/c/en/tankard/n,RelatedTo,glass,/c/en/glass,,1.0
+leyden jar,/c/en/leyden_jar/n,RelatedTo,glass,/c/en/glass,,1.0
+glāze,/c/lv/glāze/n,RelatedTo,glass,/c/en/glass,,1.0
+luna,/c/en/luna/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+quarry,/c/en/quarry/n/wikt/en_3,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,HasProperty,sharp,/c/en/sharp,[[glass]] can be [[sharp]],1.0
+glass,/c/en/glass/n,Synonym,vidro,/c/pt/vidro,,1.0
+poe á,/c/nan/poe_á/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vidrio,/c/es/vidrio,,1.0
+milk bottle,/c/en/milk_bottle/n,RelatedTo,glass,/c/en/glass,,1.0
+A glass,/c/en/glass,IsA,a vehicle,/c/en/vehicle,[[A glass]] is [[a vehicle]],1.0
+stemware,/c/en/stemware/n,RelatedTo,glass,/c/en/glass,,1.0
+hapaina,/c/rap/hapaina/n,RelatedTo,glass,/c/en/glass,,1.0
+mesoglass,/c/en/mesoglass/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,RelatedTo,miroir,/c/fr/miroir,,1.0
+carafe,/c/en/carafe/n,RelatedTo,glass,/c/en/glass,,1.0
+sea glass,/c/en/sea_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+some glass,/c/en/glass,HasProperty,opaque,/c/en/opaque,[[some glass]] is [[opaque]],1.0
+ruit,/c/af/ruit/n,RelatedTo,glass,/c/en/glass,,1.0
+vitru,/c/scn/vitru/n,RelatedTo,glass,/c/en/glass,,1.0
+유리잔,/c/ko/유리잔/n,RelatedTo,glass,/c/en/glass,,1.0
+cork borer,/c/en/cork_borer/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,កែវ,/c/km/កែវ,,1.0
+vetrinetta,/c/it/vetrinetta/n,RelatedTo,glass,/c/en/glass,,1.0
+はい,/c/ja/はい,RelatedTo,glass,/c/en/glass,,1.0
+chimney,/c/en/chimney/n,RelatedTo,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,CapableOf,appear empty,/c/en/appear_empty,[[a glass]] can [[appear empty]],1.0
+shard,/c/en/shard/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+snow cone,/c/en/snow_cone/n,RelatedTo,glass,/c/en/glass,,1.0
+mežul,/c/dlm/mežul/n,RelatedTo,glass,/c/en/glass,,1.0
+perlite,/c/en/perlite/n,RelatedTo,glass,/c/en/glass,,1.0
+invetriata,/c/it/invetriata/n,RelatedTo,glass,/c/en/glass,,1.0
+vetrocemento,/c/it/vetrocemento/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,CapableOf,harness the power of the sun,/c/en/harness_power_of_sun,[[glass]] can [[harness the power of the sun]],1.0
+كباية,/c/ar/كباية/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,گلاس,/c/ur/گلاس,,1.0
+sun room,/c/en/sun_room/n,RelatedTo,glass,/c/en/glass,,1.0
+glaskugel,/c/de/glaskugel/n,RelatedTo,glass,/c/en/glass,,1.0
+ապիկի,/c/axm/ապիկի/a,RelatedTo,glass,/c/en/glass,,1.0
+polishing slate,/c/en/polishing_slate/n,RelatedTo,glass,/c/en/glass,,1.0
+vitrand,/c/en/vitrand/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vēder,/c/egl/vēder,,1.0
+latticinio,/c/en/latticinio/n,RelatedTo,glass,/c/en/glass,,1.0
+glassful,/c/en/glassful,DerivedFrom,glass,/c/en/glass/n,,1.0
+steklo,/c/sl/steklo/n,RelatedTo,glass,/c/en/glass,,1.0
+glasspiegel,/c/de/glasspiegel/n,RelatedTo,glass,/c/en/glass,,1.0
+pearlash,/c/en/pearlash/n,RelatedTo,glass,/c/en/glass,,1.0
+volcanic glass,/c/en/volcanic_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,ReceivesAction,blown into shapes,/c/en/blown_into_shapes,[[glass]] can be [[blown into shapes]],1.0
+glass,/c/en/glass/n,Synonym,gloinne,/c/gd/gloinne,,1.0
+ܓܘܢܐ,/c/syc/ܓܘܢܐ/n/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+flint glass,/c/en/flint_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,klaas,/c/et/klaas,,1.0
+stange,/c/de/stange/n,RelatedTo,glass,/c/en/glass,,1.0
+zīle,/c/lv/zīle/n,RelatedTo,glass,/c/en/glass,,1.0
+कांच,/c/hi/कांच/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,ग्लास,/c/hi/ग्लास,,1.0
+glassless,/c/en/glassless,DerivedFrom,glass,/c/en/glass/n,,1.0
+bell jar,/c/en/bell_jar/n,RelatedTo,glass,/c/en/glass,,1.0
+tear catcher,/c/en/tear_catcher/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,оина,/c/tg/оина,,1.0
+glass jaw,/c/en/glass_jaw,DerivedFrom,glass,/c/en/glass/n,,1.0
+microwire,/c/en/microwire/n,RelatedTo,glass,/c/en/glass,,1.0
+boric oxide,/c/en/boric_oxide/n,RelatedTo,glass,/c/en/glass,,1.0
+stiklas,/c/lt/stiklas/n,RelatedTo,glass,/c/en/glass,,1.0
+A glass,/c/en/glass,HasA,a resonant frequency,/c/en/resonant_frequency,[[A glass]] has [[a resonant frequency]],1.0
+conciator,/c/en/conciator/n,RelatedTo,glass,/c/en/glass,,1.0
+口杯,/c/zh/口杯/n,RelatedTo,glass,/c/en/glass,,1.0
+コップ,/c/ja/コップ/n,RelatedTo,glass,/c/en/glass,,1.0
+vitrified,/c/en/vitrified/a,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,быяла,/c/ba/быяла,,1.0
+vas,/c/ca/vas/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,EtymologicallyDerivedFrom,glæs,/c/ang/glæs,,1.0
+گلاس,/c/ur/گلاس/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,പളുങ്കുപാത്രം,/c/ml/പളുങ്കുപാത്രം,,1.0
+schmelze,/c/en/schmelze/n,RelatedTo,glass,/c/en/glass,,1.0
+平光,/c/zh/平光/a,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,glas,/c/lb/glas,,1.0
+glass,/c/en/glass/n,Synonym,მინა,/c/ka/მინა,,1.0
+verrine,/c/en/verrine/n,RelatedTo,glass,/c/en/glass,,1.0
+unglaze,/c/en/unglaze/v,RelatedTo,glass,/c/en/glass,,1.0
+sandiver,/c/en/sandiver/n,RelatedTo,glass,/c/en/glass,,1.0
+saraming,/c/war/saraming/n,RelatedTo,glass,/c/en/glass,,1.0
+구슬,/c/ko/구슬/n,RelatedTo,glass,/c/en/glass,,1.0
+lattice window,/c/en/lattice_window/n,RelatedTo,glass,/c/en/glass,,1.0
+стъкло,/c/bg/стъкло/n,RelatedTo,glass,/c/en/glass,,1.0
+glass onion,/c/en/glass_onion/n,RelatedTo,glass,/c/en/glass,,1.0
+thermionic valve,/c/en/thermionic_valve/n,RelatedTo,glass,/c/en/glass,,1.0
+goto,/c/vec/goto/n,RelatedTo,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,CapableOf,serve as a mirror,/c/en/serve_as_mirror,[[Glass]] can [[serve as a mirror]],1.0
+काच,/c/sa/काच/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,မှန်,/c/my/မှန်,,1.0
+склянка,/c/ru/склянка/n,RelatedTo,glass,/c/en/glass,,1.0
+杯子,/c/zh/杯子,Synonym,glass,/c/en/glass,,1.0
+sash door,/c/en/sash_door/n,RelatedTo,glass,/c/en/glass,,1.0
+lunette,/c/en/lunette/n,RelatedTo,glass,/c/en/glass,,1.0
+მინა,/c/ka/მინა/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+glassman,/c/en/glassman,DerivedFrom,glass,/c/en/glass,,1.0
+goldstone,/c/en/goldstone/n,RelatedTo,glass,/c/en/glass,,1.0
+ուլն,/c/xcl/ուլն/n/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+bägare,/c/sv/bägare/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,HasA,a refractive index,/c/en/refractive_index,[[glass]] has [[a refractive index]],1.0
+gwerenn,/c/br/gwerenn/n,RelatedTo,glass,/c/en/glass,,1.0
+schwarzlot,/c/en/schwarzlot/n,RelatedTo,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,UsedFor,drink from,/c/en/drink_from,You can use [[a glass]] to [[drink from]],1.0
+glass,/c/en/glass/n,Synonym,апкь,/c/ady/апкь,,1.0
+glass frog,/c/en/glass_frog,DerivedFrom,glass,/c/en/glass/n,,1.0
+grogilasi,/c/fi/grogilasi/n,RelatedTo,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,HasProperty,fragile,/c/en/fragile,[[Glass]] is [[fragile]],1.0
+गिलास,/c/hi/गिलास,EtymologicallyDerivedFrom,glass,/c/en/glass,,1.0
+vitrer,/c/fr/vitrer/v,RelatedTo,glass,/c/en/glass,,1.0
+miểng,/c/vi/miểng/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n/opencyc/glass_413,IsA,glass,/c/en/glass/n,,1.0
+glass,/c/en/glass/n,Synonym,saramín,/c/war/saramín,,1.0
+andisol,/c/en/andisol/n,RelatedTo,glass,/c/en/glass,,1.0
+璃,/c/zh/璃,Synonym,glass,/c/en/glass,,1.0
+стеклянный,/c/ru/стеклянный/a,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,HasProperty,solid,/c/en/solid,[[glass]] is [[solid]],1.0
+Some glass,/c/en/glass,ReceivesAction,coated,/c/en/coated,[[Some glass]] is [[coated]],1.0
+хрустальный,/c/ru/хрустальный/a,RelatedTo,glass,/c/en/glass,,1.0
+rimmer,/c/en/rimmer/n,RelatedTo,glass,/c/en/glass,,1.0
+wine glass,/c/en/wine_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+looking glass,/c/en/looking_glass,DerivedFrom,glass,/c/en/glass/n,,1.0
+glas,/c/tpi/glas,EtymologicallyDerivedFrom,glass,/c/en/glass,,1.0
+glassworks,/c/en/glassworks/n,RelatedTo,glass,/c/en/glass,,1.0
+klazi,/c/vot/klazi/n,RelatedTo,glass,/c/en/glass,,1.0
+tea,/c/en/tea/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,шкло,/c/be/шкло,,1.0
+polymethyl methyacrylate,/c/en/polymethyl_methyacrylate/n,RelatedTo,glass,/c/en/glass,,1.0
+vitro,/c/ia/vitro/n,RelatedTo,glass,/c/en/glass,,1.0
+glazen,/c/en/glazen/a,RelatedTo,glass,/c/en/glass,,1.0
+glassmaking,/c/en/glassmaking,DerivedFrom,glass,/c/en/glass,,1.0
+ཤེལ སྒོ,/c/bo/ཤེལ_སྒོ/n,RelatedTo,glass,/c/en/glass,,1.0
+чара,/c/ru/чара/n,RelatedTo,glass,/c/en/glass,,1.0
+pulica,/c/it/pulica/n,RelatedTo,glass,/c/en/glass,,1.0
+caneworking,/c/en/caneworking/n,RelatedTo,glass,/c/en/glass,,1.0
+silicon,/c/en/silicon,RelatedTo,glass,/c/en/glass,,1.0
+はり,/c/ja/はり/n,RelatedTo,glass,/c/en/glass,,1.0
+ຈອກແກ້ວ,/c/lo/ຈອກແກ້ວ/n,RelatedTo,glass,/c/en/glass,,1.0
+玻璃心,/c/zh/玻璃心/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n/opencyc/glass_413,IsA,brittle thing,/c/en/brittle_thing/n,,1.0
+limoncello,/c/en/limoncello/n,RelatedTo,glass,/c/en/glass,,1.0
+vitrinite,/c/en/vitrinite/n,RelatedTo,glass,/c/en/glass,,1.0
+bicchierino,/c/it/bicchierino/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,vitru,/c/scn/vitru,,1.0
+lino,/c/ceb/lino/v/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+ܙܓܘܓܝܬܐ,/c/syc/ܙܓܘܓܝܬܐ/n,RelatedTo,glass,/c/en/glass,,1.0
+斟酌,/c/zh/斟酌/v,RelatedTo,glass,/c/en/glass,,1.0
+crystallophone,/c/en/crystallophone/n,RelatedTo,glass,/c/en/glass,,1.0
+trincar,/c/ca/trincar/v/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+vitro,/c/eo/vitro/n,Synonym,glass,/c/en/glass,,1.0
+pleksilasi,/c/fi/pleksilasi/n,RelatedTo,glass,/c/en/glass,,1.0
+vetriera,/c/it/vetriera/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,пыяла,/c/tt/пыяла,,1.0
+стопка,/c/ru/стопка/n,RelatedTo,glass,/c/en/glass,,1.0
+vidraria,/c/pt/vidraria/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,viero,/c/vec/viero,,1.0
+glass,/c/en/glass/n,Synonym,ຈອກ,/c/lo/ຈອກ,,1.0
+glass,/c/en/glass/n,Synonym,ਸ਼ੀਸ਼ਾ,/c/pa/ਸ਼ੀਸ਼ਾ,,1.0
+spyglass,/c/en/spyglass,DerivedFrom,glass,/c/en/glass/n,,1.0
+sklenka,/c/cs/sklenka/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,steehl,/c/sms/steehl,,1.0
+glass,/c/en/glass/n,Synonym,çüýşe,/c/tk/çüýşe,,1.0
+krośniarz,/c/pl/krośniarz/n,RelatedTo,glass,/c/en/glass,,1.0
+glass soap,/c/en/glass_soap/n,RelatedTo,glass,/c/en/glass,,1.0
+cam,/c/ku/cam/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,ապակի,/c/hy/ապակի,,1.0
+быяла,/c/ba/быяла/n,RelatedTo,glass,/c/en/glass,,1.0
+magnifying glass,/c/en/magnifying_glass,DerivedFrom,glass,/c/en/glass/n,,1.0
+moonroof,/c/en/moonroof/n,RelatedTo,glass,/c/en/glass,,1.0
+hyalescence,/c/en/hyalescence/n,RelatedTo,glass,/c/en/glass,,1.0
+tsésǫʼ,/c/nv/tsésǫʼ/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,стакло,/c/mk/стакло,,1.0
+стекло,/c/ru/стекло/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,ᎤᎸᏌᏗ,/c/chr/ᎤᎸᏌᏗ,,1.0
+glass,/c/en/glass/n,Synonym,tarati,/c/ty/tarati,,1.0
+gwydr,/c/cy/gwydr/n,RelatedTo,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,CapableOf,cup a liquid,/c/en/cup_liquid,[[a glass]] can [[cup a liquid]],1.0
+nonglass,/c/en/nonglass/a,RelatedTo,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,IsA,an amorphous solid,/c/en/amorphous_solid,[[Glass]] is [[an amorphous solid]],1.0
+glass ceramic,/c/en/glass_ceramic/a,RelatedTo,glass,/c/en/glass,,1.0
+absinthe spoon,/c/en/absinthe_spoon/n,RelatedTo,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,IsA,flying implies,/c/en/flying_implies,[[Glass]] was [[flying implies]],1.0
+petalite,/c/en/petalite/n,RelatedTo,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,ReceivesAction,sent for recycling,/c/en/sent_for_recycling,[[Glass]] can be [[sent for recycling]],1.0
+काँच,/c/hi/काँच/n,RelatedTo,glass,/c/en/glass,,1.0
+pepsi,/c/en/pepsi/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,butilya,/c/war/butilya,,1.0
+vitrify,/c/en/vitrify/v,RelatedTo,glass,/c/en/glass,,1.0
+glass wool,/c/en/glass_wool/n,IsA,glass,/c/en/glass,,1.0
+photographic plate,/c/en/photographic_plate/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,แก้ว,/c/th/แก้ว,,1.0
+glas,/c/no/glas/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,sklo,/c/sk/sklo,,1.0
+Glass,/c/en/glass,HasA,reflective qualitities,/c/en/reflective_qualitities,[[Glass]] has [[reflective qualitities]],1.0
+glass,/c/en/glass/n,Synonym,stikls,/c/lv/stikls,,1.0
+glass,/c/en/glass,ReceivesAction,found in a bus,/c/en/found_in_bus,[[glass]] can be [[found in a bus]],1.0
+lapad,/c/ceb/lapad/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,ReceivesAction,tempered,/c/en/tempered,[[glass]] can be [[tempered]],1.0
+glasscutting,/c/en/glasscutting,DerivedFrom,glass,/c/en/glass,,1.0
+glassmaking,/c/en/glassmaking/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,يەينەك,/c/ug/يەينەك,,1.0
+хэшъон,/c/ady/хэшъон/v,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,RelatedTo,solid,/c/en/solid,,1.0
+vial,/c/en/vial/n,RelatedTo,glass,/c/en/glass,,1.0
+kristallglas,/c/de/kristallglas/n,RelatedTo,glass,/c/en/glass,,1.0
+glassfish,/c/en/glassfish,DerivedFrom,glass,/c/en/glass,,1.0
+opalotype,/c/en/opalotype/n,RelatedTo,glass,/c/en/glass,,1.0
+opera glass,/c/en/opera_glass,DerivedFrom,glass,/c/en/glass/n,,1.0
+glasslike,/c/en/glasslike/a,RelatedTo,glass,/c/en/glass,,1.0
+fulgurite,/c/en/fulgurite/n,RelatedTo,glass,/c/en/glass,,1.0
+стёклышко,/c/ru/стёклышко/n,RelatedTo,glass,/c/en/glass,,1.0
+cheval glass,/c/en/cheval_glass,DerivedFrom,glass,/c/en/glass/n,,1.0
+बंग्ली,/c/hi/बंग्ली/n,RelatedTo,glass,/c/en/glass,,1.0
+com,/c/zza/com/n,RelatedTo,glass,/c/en/glass,,1.0
+nonvitrified,/c/en/nonvitrified/a,RelatedTo,glass,/c/en/glass,,1.0
+しょうし,/c/ja/しょうし/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,ReceivesAction,found in a house,/c/en/found_in_house,[[glass]] can be [[found in a house]],1.0
+perdaq,/c/ku/perdaq/n,RelatedTo,glass,/c/en/glass,,1.0
+inuman,/c/fil/inuman/n,RelatedTo,glass,/c/en/glass,,1.0
+電罐仁,/c/zh/電罐仁/n,RelatedTo,glass,/c/en/glass,,1.0
+lens blank,/c/en/lens_blank/n,RelatedTo,glass,/c/en/glass,,1.0
+salamin,/c/fil/salamin/n,RelatedTo,glass,/c/en/glass,,1.0
+abradant,/c/en/abradant/n,RelatedTo,glass,/c/en/glass,,1.0
+crystal ball,/c/en/crystal_ball/n,RelatedTo,glass,/c/en/glass,,1.0
+glasschord,/c/en/glasschord,DerivedFrom,glass,/c/en/glass/n,,1.0
+becherglas,/c/de/becherglas/n,RelatedTo,glass,/c/en/glass,,1.0
+house wine,/c/en/house_wine/n,RelatedTo,glass,/c/en/glass,,1.0
+tanada effect,/c/en/tanada_effect/n,RelatedTo,glass,/c/en/glass,,1.0
+당면,/c/ko/당면/n,RelatedTo,glass,/c/en/glass,,1.0
+The glass,/c/en/glass,ReceivesAction,wrapped in a napkin,/c/en/wrapped_in_napkin,[[The glass]] is [[wrapped in a napkin]],1.0
+koccint,/c/hu/koccint/v,RelatedTo,glass,/c/en/glass,,1.0
+glasswork,/c/en/glasswork,DerivedFrom,glass,/c/en/glass,,1.0
+bansi,/c/fil/bansi/n,RelatedTo,glass,/c/en/glass,,1.0
+pohár,/c/hu/pohár/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,belûr,/c/ku/belûr,,1.0
+glass,/c/en/glass/n,Synonym,шиша,/c/tg/шиша,,1.0
+glass,/c/en/glass/n,Synonym,glas,/c/nl/glas,,1.0
+a bowl,/c/en/bowl,MadeOf,glass,/c/en/glass,[[a bowl]] is made of [[glass]].,1.0
+retouching frame,/c/en/retouching_frame/n,RelatedTo,glass,/c/en/glass,,1.0
+గాజు,/c/te/గాజు/n,RelatedTo,glass,/c/en/glass,,1.0
+sjúss,/c/is/sjúss/n,RelatedTo,glass,/c/en/glass,,1.0
+genstand,/c/da/genstand/n,RelatedTo,glass,/c/en/glass,,1.0
+drinkkilasi,/c/fi/drinkkilasi/n,RelatedTo,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,UsedFor,holding liquids and ice cubes,/c/en/holding_liquids_and_ice_cubes,[[a glass]] is for [[holding liquids and ice cubes]],1.0
+laseittain,/c/fi/laseittain/r,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,stiklas,/c/lt/stiklas,,1.0
+ruit,/c/nl/ruit/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+flacon,/c/en/flacon/n,RelatedTo,glass,/c/en/glass,,1.0
+anticoherer,/c/en/anticoherer/n,RelatedTo,glass,/c/en/glass,,1.0
+glassblower,/c/en/glassblower,DerivedFrom,glass,/c/en/glass/n,,1.0
+vidreiro,/c/pt/vidreiro/n,RelatedTo,glass,/c/en/glass,,1.0
+kelp,/c/en/kelp/n,RelatedTo,glass,/c/en/glass,,1.0
+bierglas,/c/de/bierglas/n,RelatedTo,glass,/c/en/glass,,1.0
+catavino,/c/es/catavino/n,RelatedTo,glass,/c/en/glass,,1.0
+carnival glass,/c/en/carnival_glass,DerivedFrom,glass,/c/en/glass/n,,1.0
+lead crystal,/c/en/lead_crystal/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,viatro,/c/dlm/viatro,,1.0
+trinkglas,/c/de/trinkglas/n,RelatedTo,glass,/c/en/glass,,1.0
+polymethyl methacrylate,/c/en/polymethyl_methacrylate/n,RelatedTo,glass,/c/en/glass,,1.0
+glass ceramic,/c/en/glass_ceramic/n,RelatedTo,glass,/c/en/glass,,1.0
+ჭიქა,/c/oge/ჭიქა/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,glät,/c/vo/glät,,1.0
+art glass,/c/en/art_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+glassless,/c/en/glassless/a,RelatedTo,glass,/c/en/glass,,1.0
+A glass,/c/en/glass,HasProperty,empty,/c/en/empty,[[A glass]] can be [[empty]],1.0
+marver,/c/en/marver/v,RelatedTo,glass,/c/en/glass,,1.0
+borosilicated,/c/en/borosilicated/a,RelatedTo,glass,/c/en/glass,,1.0
+γυαλιά,/c/el/γυαλιά/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,유리,/c/ko/유리,,1.0
+mirror,/c/en/mirror/n,Synonym,glass,/c/en/glass,,1.0
+шишә,/c/ba/шишә/n,RelatedTo,glass,/c/en/glass,,1.0
+dramseller,/c/en/dramseller/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n/opencyc/glass_413,ExternalURL,Glass 413,http://sw.opencyc.org/2012/05/10/concept/en/Glass_413,,1.0
+ܢܩܣܐ,/c/syc/ܢܩܣܐ/n,RelatedTo,glass,/c/en/glass,,1.0
+glassformer,/c/en/glassformer/n,RelatedTo,glass,/c/en/glass,,1.0
+petri dish,/c/en/petri_dish/n,RelatedTo,glass,/c/en/glass,,1.0
+瓶膽,/c/zh/瓶膽/n,RelatedTo,glass,/c/en/glass,,1.0
+齒觳仔,/c/zh/齒觳仔/n,RelatedTo,glass,/c/en/glass,,1.0
+lasipullo,/c/fi/lasipullo/n,RelatedTo,glass,/c/en/glass,,1.0
+劃痕,/c/zh/劃痕/n,RelatedTo,glass,/c/en/glass,,1.0
+jingle,/c/en/jingle/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,ܙܓܘܓܝܬܐ,/c/arc/ܙܓܘܓܝܬܐ,,1.0
+glas,/c/de/glas/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,glas,/c/sv/glas,,1.0
+glass,/c/en/glass/n,Synonym,veri,/c/fur/veri,,1.0
+🔎,/c/mul/🔎,SymbolOf,glass,/c/en/glass,,1.0
+bicchiere,/c/it/bicchiere/n,RelatedTo,glass,/c/en/glass,,1.0
+glassformer,/c/en/glassformer,DerivedFrom,glass,/c/en/glass,,1.0
+cliché verre,/c/en/cliché_verre/n,RelatedTo,glass,/c/en/glass,,1.0
+ապիկի,/c/axm/ապիկի/n,RelatedTo,glass,/c/en/glass,,1.0
+gotë,/c/sq/gotë/n,RelatedTo,glass,/c/en/glass,,1.0
+glasswashing,/c/en/glasswashing,DerivedFrom,glass,/c/en/glass,,1.0
+bicer,/c/vec/bicer/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,شووشه,/c/ku/شووشه,,1.0
+כוסות,/c/he/כוסות/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,RelatedTo,sand,/c/en/sand,,1.0
+glass,/c/en/glass/n,Synonym,абдж,/c/kbd/абдж,,1.0
+glass,/c/en/glass/n,Synonym,υαλοσ,/c/grc/υαλοσ,,1.0
+borophosphosilicate glass,/c/en/borophosphosilicate_glass/n,IsA,glass,/c/en/glass/n/opencyc/silicate_glass,,1.0
+glass,/c/en/glass/n,RelatedTo,magnifying glass,/c/en/magnifying_glass,,1.0
+כוס,/c/he/כוס/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,verre,/c/fr/verre,,1.0
+pot,/c/en/pot/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+prunt,/c/en/prunt/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,стъкло,/c/bg/стъкло,,1.0
+glass,/c/en/glass/n,Synonym,шыны,/c/kk/шыны,,1.0
+sklenice,/c/cs/sklenice/n,RelatedTo,glass,/c/en/glass,,1.0
+чаша,/c/mk/чаша/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,шил,/c/mn/шил,,1.0
+plate glass,/c/en/plate_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+bock,/c/fr/bock/n,RelatedTo,glass,/c/en/glass,,1.0
+gliesen,/c/lb/gliesen/a,RelatedTo,glass,/c/en/glass,,1.0
+vitriform,/c/en/vitriform/a,RelatedTo,glass,/c/en/glass,,1.0
+vitreo,/c/it/vitreo/a,RelatedTo,glass,/c/en/glass,,1.0
+glassformer,/c/en/glassformer,DerivedFrom,glass,/c/en/glass/n,,1.0
+coverglass,/c/en/coverglass,DerivedFrom,glass,/c/en/glass,,1.0
+lasinsiru,/c/fi/lasinsiru/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,કાચ,/c/gu/કાચ,,1.0
+vidreiro,/c/pt/vidreiro/a,RelatedTo,glass,/c/en/glass,,1.0
+bildo,/c/ceb/bildo/n,RelatedTo,glass,/c/en/glass,,1.0
+blow mould,/c/en/blow_mould/n,RelatedTo,glass,/c/en/glass,,1.0
+vetrofusione,/c/it/vetrofusione/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,cam,/c/tr/cam,,1.0
+vacuum tube,/c/en/vacuum_tube,MadeOf,glass,/c/en/glass,[[vacuum tube]] is made of [[glass]].,1.0
+جام,/c/fa/جام/n,RelatedTo,glass,/c/en/glass,,1.0
+lead oxide,/c/en/lead_oxide/n,RelatedTo,glass,/c/en/glass,,1.0
+fensterglas,/c/de/fensterglas/n,RelatedTo,glass,/c/en/glass,,1.0
+bichjeru,/c/co/bichjeru/n,RelatedTo,glass,/c/en/glass,,1.0
+vidro,/c/gl/vidro/n,RelatedTo,glass,/c/en/glass,,1.0
+glas,/c/sv/glas/n,RelatedTo,glass,/c/en/glass,,1.0
+legs,/c/en/legs/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/v,RelatedTo,glaze,/c/en/glaze,,1.0
+Glass,/c/en/glass,IsA,an amorpous solid at room temperature,/c/en/amorpous_solid_at_room_temperature,[[Glass]] is [[an amorpous solid at room temperature]],1.0
+calvados,/c/en/calvados/n,RelatedTo,glass,/c/en/glass,,1.0
+knickerbocker glory,/c/en/knickerbocker_glory/n,RelatedTo,glass,/c/en/glass,,1.0
+kaasstolp,/c/nl/kaasstolp/n,RelatedTo,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,AtLocation,a dishwasher,/c/en/dishwasher,You are likely to find [[a glass]] in [[a dishwasher]],1.0
+silica glass,/c/en/silica_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+vitrifacture,/c/en/vitrifacture/n,RelatedTo,glass,/c/en/glass,,1.0
+véro,/c/vec/véro/n,RelatedTo,glass,/c/en/glass,,1.0
+casserole,/c/en/casserole/n,RelatedTo,glass,/c/en/glass,,1.0
+isinglass,/c/en/isinglass,DerivedFrom,glass,/c/en/glass/n,,1.0
+កែវ,/c/km/កែវ/n,RelatedTo,glass,/c/en/glass,,1.0
+baso,/c/fil/baso/n,RelatedTo,glass,/c/en/glass,,1.0
+玻璃,/c/ja/玻璃/n,RelatedTo,glass,/c/en/glass,,1.0
+garapon,/c/ceb/garapon/n,RelatedTo,glass,/c/en/glass,,1.0
+banne,/c/br/banne/n,RelatedTo,glass,/c/en/glass,,1.0
+乾杯,/c/ja/乾杯/v,RelatedTo,glass,/c/en/glass,,1.0
+matunok,/c/ceb/matunok/v,RelatedTo,glass,/c/en/glass,,1.0
+uviol glass,/c/en/uviol_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+аҵәца,/c/ab/аҵәца/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n/opencyc/glass_413,IsA,inanimate object,/c/en/inanimate_object/n,,1.0
+water gauge,/c/en/water_gauge/n,RelatedTo,glass,/c/en/glass,,1.0
+plate glass,/c/en/plate_glass,DerivedFrom,glass,/c/en/glass/n,,1.0
+strass,/c/en/strass/n,RelatedTo,glass,/c/en/glass,,1.0
+🔍,/c/mul/🔍,SymbolOf,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,UsedFor,drink margaritas out of,/c/en/drink_margaritas_out_of,You can use [[a glass]] to [[drink margaritas out of]],1.0
+drinking,/c/en/drinking,HasPrerequisite,a glass,/c/en/glass,[[drinking]] requires [[a glass]],1.0
+ching,/c/en/ching/n/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+reading stone,/c/en/reading_stone/n,RelatedTo,glass,/c/en/glass,,1.0
+glassification,/c/en/glassification,DerivedFrom,glass,/c/en/glass,,1.0
+astütze,/c/gsw/astütze/v,RelatedTo,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,IsA,a container,/c/en/container,[[Glass]] is a kind of [[a container]].,1.0
+a glass,/c/en/glass,AtLocation,a hand,/c/en/hand,You are likely to find [[a glass]] in [[a hand]],1.0
+glassphalt,/c/en/glassphalt,DerivedFrom,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,IsA,a physical substance,/c/en/physical_substance,[[Glass]] is [[a physical substance]],1.0
+скло,/c/uk/скло/n,RelatedTo,glass,/c/en/glass,,1.0
+absinthiana,/c/en/absinthiana/n,RelatedTo,glass,/c/en/glass,,1.0
+鋼化玻璃,/c/zh/鋼化玻璃/n,RelatedTo,glass,/c/en/glass,,1.0
+🍸,/c/mul/🍸,SymbolOf,glass,/c/en/glass,,1.0
+patt,/c/lb/patt/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+üveg,/c/hu/üveg/n,RelatedTo,glass,/c/en/glass,,1.0
+molle,/c/de/molle/n,Synonym,glass,/c/en/glass,,1.0
+window glass,/c/en/window_glass,DerivedFrom,glass,/c/en/glass/n,,1.0
+glass,/c/en/glass/v/wn/possession,ExternalURL,202340359-v,http://wordnet-rdf.princeton.edu/wn31/202340359-v,,1.0
+bilur,/c/sq/bilur/n,RelatedTo,glass,/c/en/glass,,1.0
+vaporole,/c/en/vaporole/n,RelatedTo,glass,/c/en/glass,,1.0
+andic,/c/en/andic/a,RelatedTo,glass,/c/en/glass,,1.0
+glas,/c/nl/glas/n,RelatedTo,glass,/c/en/glass,,1.0
+sticlă,/c/ro/sticlă/n,RelatedTo,glass,/c/en/glass,,1.0
+glês,/c/fy/glês/n,RelatedTo,glass,/c/en/glass,,1.0
+bioglass,/c/en/bioglass,DerivedFrom,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,cam,/c/ku/cam,,1.0
+গ্লাস,/c/bn/গ্লাস/n,RelatedTo,glass,/c/en/glass,,1.0
+kop,/c/da/kop/n,RelatedTo,glass,/c/en/glass,,1.0
+glasslike,/c/en/glasslike,DerivedFrom,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n/opencyc/glass_413,IsA,solid object,/c/en/solid_object/n,,1.0
+fluitje,/c/nl/fluitje/n,RelatedTo,glass,/c/en/glass,,1.0
+verre,/c/fr/verre/n,Synonym,glass,/c/en/glass,,1.0
+стакан,/c/ru/стакан/n,RelatedTo,glass,/c/en/glass,,1.0
+neto,/c/gl/neto/n/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,ReceivesAction,made from fused silicon dioxide,/c/en/made_from_fused_silicon_dioxide,[[Glass]] is [[made from fused silicon dioxide]],1.0
+glass,/c/en/glass/n,Synonym,玻璃,/c/zh/玻璃,,1.0
+glass,/c/en/glass/n,Synonym,lasi,/c/fi/lasi,,1.0
+glasskår,/c/no/glasskår/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,glas,/c/af/glas,,1.0
+glass,/c/en/glass,UsedFor,holding water,/c/en/holding_water,[[glass]] is used for [[holding water]],1.0
+glass,/c/en/glass/n,Synonym,glas,/c/ku/glas,,1.0
+orotone,/c/en/orotone/n,RelatedTo,glass,/c/en/glass,,1.0
+glasses,/c/en/glasses,MadeOf,glass,/c/en/glass,[[glasses]] can be made of [[glass]],1.0
+glass,/c/en/glass/n,Synonym,ابگینه,/c/fa/ابگینه,,1.0
+computer monitor,/c/en/computer_monitor,MadeOf,glass,/c/en/glass,[[computer monitor]] is made of [[glass]].,1.0
+glass,/c/en/glass/n,Synonym,କାଚ,/c/or/କାଚ,,1.0
+glasspaper,/c/en/glasspaper,DerivedFrom,glass,/c/en/glass,,1.0
+olutlasi,/c/fi/olutlasi/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/v,RelatedTo,mirror,/c/en/mirror,,1.0
+abottle,/c/en/abottle,MadeOf,glass,/c/en/glass,[[abottle]] can be made of [[glass]],1.0
+glass,/c/en/glass/v,RelatedTo,smooth,/c/en/smooth,,1.0
+devitrification,/c/en/devitrification/n,RelatedTo,glass,/c/en/glass,,1.0
+글라스,/c/ko/글라스,EtymologicallyDerivedFrom,glass,/c/en/glass,,1.0
+głoos,/c/wym/głoos/n,RelatedTo,glass,/c/en/glass,,1.0
+mexican breakfast,/c/en/mexican_breakfast/n,RelatedTo,glass,/c/en/glass,,1.0
+tintinnabulation,/c/en/tintinnabulation/n,RelatedTo,glass,/c/en/glass,,1.0
+autochrome,/c/en/autochrome/n,RelatedTo,glass,/c/en/glass,,1.0
+бокал,/c/ru/бокал/n,RelatedTo,glass,/c/en/glass,,1.0
+staup,/c/is/staup/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n/wn/artifact,ExternalURL,103443167-n,http://wordnet-rdf.princeton.edu/wn31/103443167-n,,1.0
+стаклен,/c/mk/стаклен/a,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,стекло,/c/ru/стекло,,1.0
+glass,/c/en/glass/n,Synonym,glas,/c/gsw/glas,,1.0
+portacopos,/c/pt/portacopos/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,авгӕ,/c/os/авгӕ,,1.0
+glass,/c/en/glass/n,Synonym,обгина,/c/tg/обгина,,1.0
+samppanjalasi,/c/fi/samppanjalasi/n,RelatedTo,glass,/c/en/glass,,1.0
+قزاز,/c/ar/قزاز/n,RelatedTo,glass,/c/en/glass,,1.0
+szklanka,/c/pl/szklanka/n,RelatedTo,glass,/c/en/glass,,1.0
+glasswasher,/c/en/glasswasher,DerivedFrom,glass,/c/en/glass,,1.0
+斟茶,/c/zh/斟茶/v,RelatedTo,glass,/c/en/glass,,1.0
+kaca,/c/id/kaca/n,RelatedTo,glass,/c/en/glass,,1.0
+pitchstone,/c/en/pitchstone/n,RelatedTo,glass,/c/en/glass,,1.0
+glainne,/c/gd/glainne/n,RelatedTo,glass,/c/en/glass,,1.0
+glass harmonica,/c/en/glass_harmonica,DerivedFrom,glass,/c/en/glass/n,,1.0
+電瓶膽,/c/zh/電瓶膽/n,RelatedTo,glass,/c/en/glass,,1.0
+unvitrified,/c/en/unvitrified/a,RelatedTo,glass,/c/en/glass,,1.0
+margarita,/c/en/margarita/n,RelatedTo,glass,/c/en/glass,,1.0
+juomalasi,/c/fi/juomalasi/n,RelatedTo,glass,/c/en/glass,,1.0
+pahar,/c/ro/pahar/n,RelatedTo,glass,/c/en/glass,,1.0
+cantucci e vin santo,/c/it/cantucci_e_vin_santo/n,RelatedTo,glass,/c/en/glass,,1.0
+tassó,/c/ca/tassó/n,RelatedTo,glass,/c/en/glass,,1.0
+cocktaillasi,/c/fi/cocktaillasi/n,RelatedTo,glass,/c/en/glass,,1.0
+bead proof,/c/en/bead_proof/n,RelatedTo,glass,/c/en/glass,,1.0
+piyale,/c/ku/piyale/n,RelatedTo,glass,/c/en/glass,,1.0
+cheval de frise,/c/en/cheval_de_frise/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,véro,/c/vec/véro,,1.0
+glasscutter,/c/en/glasscutter/n,RelatedTo,glass,/c/en/glass,,1.0
+จอก,/c/th/จอก/n/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,gelas,/c/jv/gelas,,1.0
+glasseye,/c/en/glasseye,DerivedFrom,glass,/c/en/glass,,1.0
+wine flight,/c/en/wine_flight/n,RelatedTo,glass,/c/en/glass,,1.0
+kelassaq,/c/esu/kelassaq/n,RelatedTo,glass,/c/en/glass,,1.0
+baso,/c/hil/baso/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+go,/c/en/go/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+cam,/c/tr/cam/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,xaltehuilotl,/c/nah/xaltehuilotl,,1.0
+schoppen,/c/de/schoppen/n,RelatedTo,glass,/c/en/glass,,1.0
+ガラス,/c/ja/ガラス/n,RelatedTo,glass,/c/en/glass,,1.0
+объектив,/c/ru/объектив/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,CapableOf,be many different colors,/c/en/many_different_colors,[[glass]] can [[be many different colors]],1.0
+glasi,/c/sw/glasi/n,RelatedTo,glass,/c/en/glass,,1.0
+flasco,/c/la/flasco/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,sticlă,/c/ro/sticlă,,1.0
+lasimaljakko,/c/fi/lasimaljakko/n,RelatedTo,glass,/c/en/glass,,1.0
+wreath,/c/en/wreath/n,RelatedTo,glass,/c/en/glass,,1.0
+fresnel's rhomb,/c/en/fresnel's_rhomb/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,ReceivesAction,found in a taxi,/c/en/found_in_taxi,[[glass]] can be [[found in a taxi]],1.0
+ཤེལ,/c/bo/ཤེལ/n,RelatedTo,glass,/c/en/glass,,1.0
+lasillinen,/c/fi/lasillinen/n,RelatedTo,glass,/c/en/glass,,1.0
+Glass,/c/en/glass,ReceivesAction,tinted,/c/en/tinted,[[Glass]] can be [[tinted]],1.0
+fibreglass,/c/en/fibreglass/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,karaehe,/c/mi/karaehe,,1.0
+glass,/c/en/glass/n,RelatedTo,substance,/c/en/substance,,1.0
+عدسة,/c/ar/عدسة/n,RelatedTo,glass,/c/en/glass,,1.0
+beaufet,/c/en/beaufet/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,RelatedTo,transparent,/c/en/transparent,,1.0
+vidre,/c/ca/vidre/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,ReceivesAction,melted,/c/en/melted,[[glass]] can be [[melted]],1.0
+glass,/c/en/glass/n,Synonym,xham,/c/sq/xham,,1.0
+glass,/c/en/glass/n,Synonym,vetro,/c/it/vetro,,1.0
+glasswort,/c/en/glasswort,DerivedFrom,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,veder,/c/lmo/veder,,1.0
+melonade,/c/en/melonade/n,RelatedTo,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,UsedFor,holding liquids,/c/en/holding_liquids,[[a glass]] is for [[holding liquids]],1.0
+vè,/c/ht/vè/n/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+methamphetamine hydrochloride,/c/en/methamphetamine_hydrochloride/n,Synonym,glass,/c/en/glass,,1.0
+글라스,/c/ko/글라스/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,salamin,/c/fil/salamin,,1.0
+glassblowing,/c/en/glassblowing,DerivedFrom,glass,/c/en/glass/n,,1.0
+conteria,/c/it/conteria/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,cam,/c/zza/cam,,1.0
+gelas,/c/ms/gelas/n,RelatedTo,glass,/c/en/glass,,1.0
+glasses,/c/en/glasses,FormOf,glass,/c/en/glass/v,,1.0
+pint glass,/c/en/pint_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+કાચ,/c/gu/કાચ/n,RelatedTo,glass,/c/en/glass,,1.0
+szkło,/c/pl/szkło/n,RelatedTo,glass,/c/en/glass,,1.0
+fibreglass,/c/en/fibreglass,DerivedFrom,glass,/c/en/glass/n,,1.0
+patio door,/c/en/patio_door/n,RelatedTo,glass,/c/en/glass,,1.0
+glas,/c/is/glas/n,RelatedTo,glass,/c/en/glass,,1.0
+bocca,/c/en/bocca/n,RelatedTo,glass,/c/en/glass,,1.0
+coupe,/c/en/coupe/n,RelatedTo,glass,/c/en/glass,,1.0
+double glazing,/c/en/double_glazing/n,RelatedTo,glass,/c/en/glass,,1.0
+crizzle,/c/en/crizzle/n,RelatedTo,glass,/c/en/glass,,1.0
+sklenice,/c/cs/sklenice/n,Synonym,glass,/c/en/glass,,1.0
+optical glass,/c/en/optical_glass,DerivedFrom,glass,/c/en/glass,,1.0
+skleněný,/c/cs/skleněný/a,RelatedTo,glass,/c/en/glass,,1.0
+glassy,/c/en/glassy/n,RelatedTo,glass,/c/en/glass,,1.0
+גלאז,/c/yi/גלאז/n,RelatedTo,glass,/c/en/glass,,1.0
+玻璃杯,/c/zh/玻璃杯/n,RelatedTo,glass,/c/en/glass,,1.0
+🥂,/c/mul/🥂,SymbolOf,glass,/c/en/glass,,1.0
+light mill,/c/en/light_mill/n,RelatedTo,glass,/c/en/glass,,1.0
+annealing,/c/en/annealing/n,RelatedTo,glass,/c/en/glass,,1.0
+pezsgőspohár,/c/hu/pezsgőspohár/n,RelatedTo,glass,/c/en/glass,,1.0
+copa,/c/es/copa/n,RelatedTo,glass,/c/en/glass,,1.0
+fluorite,/c/en/fluorite/n,RelatedTo,glass,/c/en/glass,,1.0
+dribble glass,/c/en/dribble_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+استکان,/c/fa/استکان/n,RelatedTo,glass,/c/en/glass,,1.0
+ståkkan,/c/sms/ståkkan/n,RelatedTo,glass,/c/en/glass,,1.0
+ճաշակ,/c/xcl/ճաշակ/n,RelatedTo,glass,/c/en/glass,,1.0
+copaço,/c/pt/copaço/n,RelatedTo,glass,/c/en/glass,,1.0
+shiver,/c/en/shiver/n/wikt/en_2,RelatedTo,glass,/c/en/glass,,1.0
+тас,/c/ady/тас/n,RelatedTo,glass,/c/en/glass,,1.0
+windscreen,/c/en/windscreen/n,RelatedTo,glass,/c/en/glass,,1.0
+glassworker,/c/en/glassworker,DerivedFrom,glass,/c/en/glass/n,,1.0
+rasade,/c/fr/rasade/n,RelatedTo,glass,/c/en/glass,,1.0
+şûşe,/c/ku/şûşe/n,RelatedTo,glass,/c/en/glass,,1.0
+ngirathi,/c/ki/ngirathi/n,RelatedTo,glass,/c/en/glass,,1.0
+pair of glasses,/c/en/pair_of_glasses/n,RelatedTo,glass,/c/en/glass,,1.0
+glainne,/c/gd/glainne/a,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass,ReceivesAction,blown,/c/en/blown,[[glass]] can be [[blown]],1.0
+some bins,/c/en/bins,MadeOf,glass,/c/en/glass,[[some bins]] are made of [[glass]],1.0
+glass,/c/en/glass/v,HasContext,uk,/c/en/uk,,1.0
+abalorio,/c/es/abalorio/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,কাঁচ,/c/bn/কাঁচ,,1.0
+bierglas,/c/nl/bierglas/n,RelatedTo,glass,/c/en/glass,,1.0
+paget process,/c/en/paget_process/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,kaca,/c/su/kaca,,1.0
+rruazë,/c/sq/rruazë/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,gwydr,/c/cy/gwydr,,1.0
+tumbler,/c/en/tumbler/n,RelatedTo,glass,/c/en/glass,,1.0
+bolang kristal,/c/ceb/bolang_kristal/n,RelatedTo,glass,/c/en/glass,,1.0
+ܫܝܫܬܐ,/c/syc/ܫܝܫܬܐ/n,RelatedTo,glass,/c/en/glass,,1.0
+量杯,/c/zh/量杯/n,RelatedTo,glass,/c/en/glass,,1.0
+vidru,/c/ast/vidru/n,RelatedTo,glass,/c/en/glass,,1.0
+κρύσταλλο,/c/el/κρύσταλλο/n,RelatedTo,glass,/c/en/glass,,1.0
+transparisteel,/c/en/transparisteel/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,қуған,/c/cjs/қуған,,1.0
+interlayer,/c/en/interlayer/n,RelatedTo,glass,/c/en/glass,,1.0
+bottle bank,/c/en/bottle_bank/n,RelatedTo,glass,/c/en/glass,,1.0
+vitrifiable,/c/en/vitrifiable/a,RelatedTo,glass,/c/en/glass,,1.0
+microscope slide,/c/en/microscope_slide/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,әйнек,/c/kk/әйнек,,1.0
+pony glass,/c/en/pony_glass/n,RelatedTo,glass,/c/en/glass,,1.0
+abaloryo,/c/fil/abaloryo/n,RelatedTo,glass,/c/en/glass,,1.0
+fibre optics,/c/en/fibre_optics/n,RelatedTo,glass,/c/en/glass,,1.0
+ボトルグリーン,/c/ja/ボトルグリーン/n,RelatedTo,glass,/c/en/glass,,1.0
+a glass,/c/en/glass,AtLocation,a sink,/c/en/sink,You are likely to find [[a glass]] in [[a sink]],1.0
+glass,/c/en/glass/n,Synonym,tioata,/c/sm/tioata,,1.0
+got,/c/ca/got/n/wikt/en_1,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/v,RelatedTo,landscape,/c/en/landscape,,1.0
+a glass,/c/en/glass,UsedFor,holding a drink,/c/en/holding_drink,[[a glass]] is for [[holding a drink]],1.0
+אספקלריא,/c/arc/אספקלריא/n,RelatedTo,glass,/c/en/glass,,1.0
+frit brick,/c/en/frit_brick/n,RelatedTo,glass,/c/en/glass,,1.0
+arrotare,/c/it/arrotare/v,HasContext,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,glas,/c/fo/glas,,1.0
+كوب,/c/ar/كوب/n,RelatedTo,glass,/c/en/glass,,1.0
+glass,/c/en/glass/n,Synonym,γυαλι,/c/el/γυαλι,,1.0
+glass pane,/c/en/glass_pane/n,RelatedTo,glass,/c/en/glass,,1.0

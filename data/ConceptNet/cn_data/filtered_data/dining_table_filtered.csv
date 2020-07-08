@@ -1,0 +1,54 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+a dining table,/c/en/dining_table,UsedFor,eat dinner,/c/en/eat_dinner,You can use [[a dining table]] to [[eat dinner]],3.4641016151377544
+a dining table,/c/en/dining_table,UsedFor,playing games on,/c/en/playing_games_on,[[a dining table]] is for [[playing games on]],2.82842712474619
+dinner table,/c/en/dinner_table/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[dinner table]] is a type of [[dining table]],2.0
+high table,/c/en/high_table/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[high table]] is a type of [[dining table]],2.0
+triclinium,/c/en/triclinium/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[triclinium]] is a type of [[dining table]],2.0
+a dining table,/c/en/dining_table,UsedFor,eat dinnner,/c/en/eat_dinnner,You can use [[a dining table]] to [[eat dinnner]],2.0
+dining table,/c/en/dining_table/n/wn/artifact,IsA,table,/c/en/table/n/wn/artifact,[[dining table]] is a type of [[table]],2.0
+dining-room table,/c/en/dining_room_table/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[dining-room table]] is a type of [[dining table]],2.0
+refectory table,/c/en/refectory_table/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[refectory table]] is a type of [[dining table]],2.0
+a dining table,/c/en/dining_table,UsedFor,sitting around with your family,/c/en/sitting_around_with_family,[[a dining table]] is for [[sitting around with your family]],2.0
+a dining table,/c/en/dining_table,UsedFor,serving dinner,/c/en/serving_dinner,[[a dining table]] is for [[serving dinner]],2.0
+a saucer,/c/en/saucer,AtLocation,dining table,/c/en/dining_table,You are likely to find [[a saucer]] in [[dining table]],1.0
+dining table,/c/en/dining_table/n,IsA,table,/c/en/table,,1.0
+a dining table,/c/en/dining_table,UsedFor,family meetings,/c/en/family_meetings,[[a dining table]] is for [[family meetings]],1.0
+a dining table,/c/en/dining_table,UsedFor,placing served food,/c/en/placing_served_food,[[a dining table]] is used for [[placing served food]],1.0
+a dining table,/c/en/dining_table,UsedFor,holding center pieces,/c/en/holding_center_pieces,[[a dining table]] is used for [[holding center pieces]],1.0
+a dining table,/c/en/dining_table,UsedFor,putting food on,/c/en/putting_food_on,[[a dining table]] is for [[putting food on]],1.0
+a dining table,/c/en/dining_table,UsedFor,eating dinner,/c/en/eating_dinner,[[a dining table]] is for [[eating dinner]],1.0
+a dining table,/c/en/dining_table,UsedFor,making love,/c/en/making_love,[[a dining table]] is for [[making love]],1.0
+a dining table,/c/en/dining_table,AtLocation,a house,/c/en/house,You are likely to find [[a dining table]] in [[a house]],1.0
+a dining table,/c/en/dining_table,UsedFor,playing games,/c/en/playing_games,[[a dining table]] is for [[playing games]],1.0
+a dining table,/c/en/dining_table,IsA,an indoor object,/c/en/indoor_object,[[A dining table]] is [[an indoor object]],1.0
+a dining table,/c/en/dining_table,UsedFor,eating a meal,/c/en/eating_meal,[[a dining table]] is for [[eating a meal]],1.0
+a dining table,/c/en/dining_table,UsedFor,eating food,/c/en/eating_food,[[a dining table]] is for [[eating food]],1.0
+a dining table,/c/en/dining_table,HasProperty,paired with chairs,/c/en/paired_with_chairs,[[A dining table]] is [[paired with chairs]],1.0
+a dining table,/c/en/dining_table,UsedFor,doing homework,/c/en/doing_homework,[[a dining table]] is for [[doing homework]],1.0
+dining table,/c/en/dining_table/n/wn/artifact,ExternalURL,103205892-n,http://wordnet-rdf.princeton.edu/wn31/103205892-n,,1.0
+a dining table,/c/en/dining_table,UsedFor,drinking on,/c/en/drinking_on,[[a dining table]] is for [[drinking on]],1.0
+a dining table,/c/en/dining_table,UsedFor,discussions,/c/en/discussions,[[a dining table]] is for [[discussions]],1.0
+a dining table,/c/en/dining_table,UsedFor,holiday meals,/c/en/holiday_meals,[[a dining table]] is for [[holiday meals]],1.0
+a dining table,/c/en/dining_table,UsedFor,leave messages,/c/en/leave_messages,You can use [[a dining table]] to [[leave messages]],1.0
+a dining table,/c/en/dining_table,AtLocation,the formal dining room,/c/en/formal_dining_room,You are likely to find [[a dining table]] in [[the formal dining room]],1.0
+a dining table,/c/en/dining_table,UsedFor,family gatherings,/c/en/family_gatherings,[[a dining table]] is for [[family gatherings]],1.0
+a dining table,/c/en/dining_table,UsedFor,entertain a large group of people,/c/en/entertain_large_group_of_people,You can use [[a dining table]] to [[entertain a large group of people]],1.0
+a dining table,/c/en/dining_table,UsedFor,special occassions,/c/en/special_occassions,[[a dining table]] is for [[special occassions]],1.0
+a dining table,/c/en/dining_table,UsedFor,playing cards sometimes,/c/en/playing_cards_sometimes,[[a dining table]] is used for [[playing cards sometimes]],1.0
+a dining table,/c/en/dining_table,UsedFor,laying with cutlery,/c/en/laying_with_cutlery,[[a dining table]] is for [[laying with cutlery]],1.0
+a dining table,/c/en/dining_table,UsedFor,doing jigsaw puzzles on,/c/en/doing_jigsaw_puzzles_on,[[a dining table]] is for [[doing jigsaw puzzles on]],1.0
+a dining table,/c/en/dining_table,AtLocation,a cafeteria,/c/en/cafeteria,You are likely to find [[a dining table]] in [[a cafeteria]],1.0
+a dining table,/c/en/dining_table,UsedFor,entertain guests,/c/en/entertain_guests,You can use [[a dining table]] to [[entertain guests]],1.0
+a dining table,/c/en/dining_table,UsedFor,dining,/c/en/dining,[[a dining table]] is used for [[dining]],1.0
+a dining table,/c/en/dining_table,UsedFor,leaving papers on,/c/en/leaving_papers_on,[[a dining table]] is for [[leaving papers on]],1.0
+a dining table,/c/en/dining_table,UsedFor,formal dining,/c/en/formal_dining,[[a dining table]] is for [[formal dining]],1.0
+a dining table,/c/en/dining_table,UsedFor,arranging papers,/c/en/arranging_papers,[[a dining table]] is for [[arranging papers]],1.0
+a dining table,/c/en/dining_table,UsedFor,eat dinner on,/c/en/eat_dinner_on,You can use [[a dining table]] to [[eat dinner on]],1.0
+a dining table,/c/en/dining_table,UsedFor,entertaining others,/c/en/entertaining_others,[[a dining table]] is for [[entertaining others]],1.0
+a dining table,/c/en/dining_table,UsedFor,have sex with your spouse,/c/en/have_sex_with_spouse,You can use [[a dining table]] to [[have sex with your spouse]],1.0
+a dining table,/c/en/dining_table,UsedFor,family discussions,/c/en/family_discussions,[[a dining table]] is for [[family discussions]],1.0
+a dining table,/c/en/dining_table,UsedFor,have a gathering of friends,/c/en/have_gathering_of_friends,You can use [[a dining table]] to [[have a gathering of friends]],1.0
+a dining table,/c/en/dining_table,UsedFor,having friends around for dinner,/c/en/having_friends_around_for_dinner,[[a dining table]] is for [[having friends around for dinner]],1.0
+a dining table,/c/en/dining_table,UsedFor,working on a hobby,/c/en/working_on_hobby,[[a dining table]] is for [[working on a hobby]],1.0
+a dining table,/c/en/dining_table,UsedFor,eating dinner on,/c/en/eating_dinner_on,[[a dining table]] is for [[eating dinner on]],1.0
+a dining table,/c/en/dining_table,UsedFor,playing cards,/c/en/playing_cards,[[a dining table]] is for [[playing cards]],1.0

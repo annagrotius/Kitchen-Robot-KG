@@ -1,0 +1,133 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+glasses,/c/en/glasses,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[glasses]],8.0
+a bowl,/c/en/bowl,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a bowl]],7.211102550927979
+plates,/c/en/plates,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[plates]],6.32455532033676
+a mouse,/c/en/mouse,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a mouse]],5.291502622129181
+food,/c/en/food,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[food]],4.898979485566356
+a plate,/c/en/plate,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a plate]] in [[a cupboard]],4.0
+a coffee mug,/c/en/coffee_mug,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a coffee mug]],4.0
+a salad bowl,/c/en/salad_bowl,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a salad bowl]] in [[the cupboard]],3.4641016151377544
+tea,/c/en/tea,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[tea]],3.4641016151377544
+cans of food,/c/en/cans_of_food,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[cans of food]],3.4641016151377544
+a salad spinner,/c/en/salad_spinner,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a salad spinner]] in [[the cupboard]],3.4641016151377544
+ cupboard,/c/en/cupboard,UsedFor,storing your dishes,/c/en/storing_dishes,[[a cupboard]] is used for [[storing your dishes]],3.4641016151377544
+mugs,/c/en/mugs,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[mugs]],3.4641016151377544
+cereal,/c/en/cereal,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[cereal]],3.4641016151377544
+a gravy boat,/c/en/gravy_boat,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a gravy boat]],2.82842712474619
+a container,/c/en/container,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a container]] in [[the cupboard]],2.82842712474619
+a cereal bowl,/c/en/cereal_bowl,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a cereal bowl]] in [[the cupboard]],2.82842712474619
+canned goods,/c/en/canned_goods,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[canned goods]],2.82842712474619
+a can,/c/en/can,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a can]] in [[a cupboard]],2.82842712474619
+coffee cups,/c/en/coffee_cups,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[coffee cups]],2.82842712474619
+a shelf,/c/en/shelf,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a shelf]],2.82842712474619
+jars,/c/en/jars,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[jars]],2.82842712474619
+pots,/c/en/pots,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[pots]],2.0
+ airing cupboard,/c/en/airing_cupboard/n/wn/artifact,IsA, cupboard,/c/en/cupboard/n/wn/artifact,[[airing cupboard]] is a type of [[cupboard]],2.0
+ cupboard,/c/en/cupboard,UsedFor,coffee mugs,/c/en/coffee_mugs,[[a cupboard]] is for [[coffee mugs]],2.0
+supply closet,/c/en/supply_closet/n/wn/artifact,IsA, cupboard,/c/en/cupboard/n/wn/artifact,[[supply closet]] is a type of [[cupboard]],2.0
+flour,/c/en/flour,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[flour]],2.0
+ cupboard,/c/en/cupboard,UsedFor,keeping things clean,/c/en/keeping_things_clean,[[a cupboard]] is for [[keeping things clean]],2.0
+safe,/c/en/safe/n/wn/artifact,IsA, cupboard,/c/en/cupboard/n/wn/artifact,[[safe]] is a type of [[cupboard]],2.0
+stuff to make cookies,/c/en/stuff_to_make_cookies,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[stuff to make cookies]],2.0
+a pot,/c/en/pot,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a pot]] in [[a cupboard]],2.0
+broom closet,/c/en/broom_closet/n/wn/artifact,IsA, cupboard,/c/en/cupboard/n/wn/artifact,[[broom closet]] is a type of [[cupboard]],2.0
+ cupboard,/c/en/cupboard/n/wn/artifact,IsA,storage space,/c/en/storage_space/n/wn/artifact,[[cupboard]] is a type of [[storage space]],2.0
+a mug,/c/en/mug,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a mug]] in [[the cupboard]],2.0
+cups and plates,/c/en/cups_and_plates,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[cups and plates]],2.0
+a sugar,/c/en/sugar,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a sugar]] in [[a cupboard]],2.0
+a saucepan,/c/en/saucepan,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a saucepan]] in [[a cupboard]],2.0
+ cupboard,/c/en/cupboard,IsA,a compound word,/c/en/compound_word,[[cupboard]] is [[a compound word]],2.0
+cans of soup,/c/en/cans_of_soup,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[cans of soup]],2.0
+a tin,/c/en/tin,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a tin]] in [[a cupboard]],2.0
+ cupboard,/c/en/cupboard,UsedFor,storing things,/c/en/storing_things,[[a cupboard]] is for [[storing things]],2.0
+ cupboard,/c/en/cupboard,UsedFor,storing crockery,/c/en/storing_crockery,[[a cupboard]] is for [[Storing crockery]],2.0
+a chess set,/c/en/chess_set,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a chess set]] in [[a cupboard]],2.0
+a jar,/c/en/jar,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a jar]] in [[a cupboard]],2.0
+ cupboard,/c/en/cupboard,CapableOf,store cups,/c/en/store_cups,[[a cupboard]] can [[store cups]],1.0
+spiders,/c/en/spiders,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[spiders]],1.0
+ cupboard,/c/en/cupboard,UsedFor,putting things in,/c/en/putting_things_in,[[a cupboard]] is for [[Putting things in]],1.0
+a tea cup,/c/en/tea_cup,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a tea cup]] in [[the cupboard]],1.0
+ cupboard,/c/en/cupboard,UsedFor,keeping things safe,/c/en/keeping_things_safe,[[a cupboard]] is for [[keeping things safe]],1.0
+acne medication,/c/en/acne_medication,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[acne medication]] in [[a cupboard]],1.0
+in storage,/c/en/in_storage,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[in storage]],1.0
+ cupboard,/c/en/cupboard,UsedFor,keeping things tidy,/c/en/keeping_things_tidy,[[a cupboard]] is for [[keeping things tidy]],1.0
+a wine glass,/c/en/wine_glass,AtLocation, cupboard,/c/en/cupboard,Somewhere [[a wine glass]] can be is in [[a cupboard]],1.0
+spices,/c/en/spices,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[spices]],1.0
+glassware,/c/en/glassware,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[glassware]],1.0
+baked beans,/c/en/baked_beans,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[baked beans]],1.0
+stuff,/c/en/stuff,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[stuff]] in [[a cupboard]].,1.0
+a plastic,/c/en/plastic,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a plastic]] in [[a cupboard]],1.0
+ cupboard,/c/en/cupboard,UsedFor,putting things on top of,/c/en/putting_things_on_top_of,[[a cupboard]] is for [[Putting things on top of]],1.0
+a teakettle,/c/en/teakettle,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a teakettle]] in [[a cupboard]],1.0
+ cupboard,/c/en/cupboard,ExternalURL, cupboard,http://umbel.org/umbel/sc/Cupboard,,1.0
+ cupboard,/c/en/cupboard,UsedFor,keeping cups,/c/en/keeping_cups,[[a cupboard]] is used for [[keeping cups]],1.0
+glasses and dishes,/c/en/glasses_and_dishes,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[glasses and dishes]],1.0
+ cupboard,/c/en/cupboard,UsedFor,storing junk,/c/en/storing_junk,[[a cupboard]] is for [[Storing junk]],1.0
+hidden money,/c/en/hidden_money,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[hidden money]],1.0
+koolaid,/c/en/koolaid,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[koolaid]],1.0
+ cupboard,/c/en/cupboard,AtLocation,a pantry,/c/en/pantry,You are likely to find [[a cupboard]] in [[a pantry]],1.0
+a dustbin,/c/en/dustbin,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a dustbin]] in [[the cupboard]],1.0
+a saltshaker,/c/en/saltshaker,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a saltshaker]] in [[the cupboard]],1.0
+cornmeal,/c/en/cornmeal,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[cornmeal]],1.0
+ cupboard,/c/en/cupboard/n,ExternalURL, cupboard,http://sw.opencyc.org/2012/05/10/concept/en/Cupboard,,1.0
+ cupboard,/c/en/cupboard,AtLocation,your own kitchen,/c/en/own_kitchen,You are likely to find [[a cupboard]] in [[your own kitchen]],1.0
+bone china,/c/en/bone_china,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[bone china]],1.0
+ cupboard,/c/en/cupboard/n,IsA,cabinet,/c/en/cabinet/n/opencyc/cabinet_storage_construction,,1.0
+a clothing shelf,/c/en/clothing_shelf,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a clothing shelf]] in [[a cupboard]],1.0
+ cupboard,/c/en/cupboard,UsedFor,store dishes,/c/en/store_dishes,You can use [[a cupboard]] to [[store dishes]],1.0
+a coffee cup,/c/en/coffee_cup,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a coffee cup]],1.0
+air,/c/en/air,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[air]],1.0
+crockery,/c/en/crockery,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[crockery]],1.0
+crackers,/c/en/crackers,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[crackers]],1.0
+canned food,/c/en/canned_food,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[canned food]],1.0
+ cupboard,/c/en/cupboard/n/wikt/en_1,IsA,cabinet,/c/en/cabinet,,1.0
+ cupboard,/c/en/cupboard,CapableOf,store pots and pans,/c/en/store_pots_and_pans,[[A cupboard]] can [[store pots and pans]],1.0
+a board game,/c/en/board_game,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a board game]] in [[cupboard]],1.0
+soup,/c/en/soup,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[soup]],1.0
+herbal tea,/c/en/herbal_tea,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[herbal tea]],1.0
+ cupboard,/c/en/cupboard,UsedFor,holding silverware,/c/en/holding_silverware,[[a cupboard]] is used for [[holding silverware]],1.0
+a cockroach,/c/en/cockroach,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a cockroach]],1.0
+ants,/c/en/ants,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[ants]],1.0
+a set of china,/c/en/set_of_china,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a set of China]],1.0
+a liquor glass,/c/en/liquor_glass,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a liquor glass]] in [[a cupboard]],1.0
+ cupboard,/c/en/cupboard/n/wikt/en_1,IsA,closet,/c/en/closet,,1.0
+a storage pan,/c/en/storage_pan,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a storage pan]] in [[a cupboard]],1.0
+a pl;ate,/c/en/pl_ate,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a pl;ate]],1.0
+ cupboard,/c/en/cupboard,UsedFor,stacking your dinner plates,/c/en/stacking_dinner_plates,[[a cupboard]] is used for [[stacking your dinner plates]],1.0
+a dinner plate,/c/en/dinner_plate,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a dinner plate]],1.0
+a towel,/c/en/towel,AtLocation, cupboard,/c/en/cupboard,Somewhere [[a towel]] can be is in [[the cupboard]],1.0
+silverware,/c/en/silverware,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[silverware]],1.0
+peanut butter,/c/en/peanut_butter,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[peanut butter]],1.0
+a can of beans,/c/en/can_of_beans,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a can of beans]],1.0
+canned vegtables,/c/en/canned_vegtables,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[canned vegtables]],1.0
+ cupboard,/c/en/cupboard,UsedFor,storing bones,/c/en/storing_bones,[[a cupboard]] is for [[storing bones]],1.0
+a container can,/c/en/container_can,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a container can]] in [[a cupboard]],1.0
+a hook,/c/en/hook,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a hook]],1.0
+corn flakes,/c/en/corn_flakes,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[corn flakes]],1.0
+linens,/c/en/linens,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[linens]],1.0
+ cupboard,/c/en/cupboard,UsedFor,store crockery,/c/en/store_crockery,You can use [[a cupboard]] to [[store crockery]],1.0
+ cupboard,/c/en/cupboard,IsA,closet,/c/en/closet/n,,1.0
+a muffin,/c/en/muffin,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a muffin]],1.0
+ cupboard,/c/en/cupboard,CapableOf,store many different items,/c/en/store_many_different_items,[[a cupboard]] can [[store many different items]],1.0
+ cupboard,/c/en/cupboard,UsedFor,dishes,/c/en/dishes,[[a cupboard]] is for [[dishes]],1.0
+ cupboard,/c/en/cupboard/n/wikt/en_1,IsA,press,/c/en/press,,1.0
+another dimension,/c/en/another_dimension,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[another dimension]],1.0
+old toys,/c/en/old_toys,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[old toys]],1.0
+ cupboard,/c/en/cupboard,UsedFor,giving things a home,/c/en/giving_things_home,[[a cupboard]] is for [[giving things a home]],1.0
+a tea saucer,/c/en/tea_saucer,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a tea saucer]],1.0
+ cupboard,/c/en/cupboard/n/wn/artifact,ExternalURL,103152990-n,http://wordnet-rdf.princeton.edu/wn31/103152990-n,,1.0
+ cupboard,/c/en/cupboard,UsedFor,store bread,/c/en/store_bread,You can use [[a cupboard]] to [[store bread]],1.0
+ cupboard,/c/en/cupboard/n,IsA,part of room,/c/en/part_of_room/n,,1.0
+a flask,/c/en/flask,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a flask]] in [[a cupboard]],1.0
+ cupboard,/c/en/cupboard,ReceivesAction,found in a kitchen,/c/en/found_in_kitchen,[[A cupboard]] is [[found in a kitchen]],1.0
+salt,/c/en/salt,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[salt]],1.0
+ cupboard,/c/en/cupboard,UsedFor,saving counter space,/c/en/saving_counter_space,[[a cupboard]] is for [[saving counter space]],1.0
+ cupboard,/c/en/cupboard,UsedFor,store christmas decorations,/c/en/store_christmas_decorations,You can use [[a cupboard]] to [[store Christmas decorations]],1.0
+utensils,/c/en/utensils,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[utensils]],1.0
+ cupboard,/c/en/cupboard,UsedFor,store cups,/c/en/store_cups,You can use [[a cupboard]] to [[store cups]],1.0
+dinnerware,/c/en/dinnerware,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[dinnerware]],1.0
+a table cloth,/c/en/table_cloth,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a table cloth]],1.0
+a drug,/c/en/drug,AtLocation, cupboard,/c/en/cupboard,You are likely to find [[a drug]] in [[a cupboard]],1.0
+a container of salt,/c/en/container_of_salt,AtLocation, cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a container of salt]],1.0
+ cupboard,/c/en/cupboard,UsedFor,storing food,/c/en/storing_food,[[a cupboard]] is for [[storing food]],1.0
+ cupboard,/c/en/cupboard,UsedFor,board cups,/c/en/board_cups,You can use [[a cupboard]] to [[board cups]],1.0

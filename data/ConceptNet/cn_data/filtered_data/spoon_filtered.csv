@@ -1,0 +1,97 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ spoon,/c/en/spoon,UsedFor,eating,/c/en/eating,[[a spoon]] is for [[Eating]],6.92820323027551
+ spoon,/c/en/spoon,AtLocation,bowl,/c/en/bowl,You are likely to find [[a spoon]] in [[bowl]],2.82842712474619
+ spoon,/c/en/spoon,AtLocation,dinner,/c/en/dinner,*Something you find at [[dinner]] is [[a spoon]],2.82842712474619
+ spoon,/c/en/spoon,IsA,a utensil,/c/en/utensil,[[A spoon]] is [[a utensil]],2.82842712474619
+ spoon,/c/en/spoon/n/wn/quantity,IsA,containerful,/c/en/containerful/n/wn/quantity,[[spoon]] is a type of [[containerful]],2.0
+ dessert spoon,/c/en/dessert_spoon/n/wn/artifact,IsA, spoon,/c/en/spoon/n/wn/artifact,[[dessert spoon]] is a type of [[spoon]],2.0
+ tablespoon,/c/en/tablespoon/n/wn/artifact,IsA, spoon,/c/en/spoon/n/wn/artifact,[[tablespoon]] is a type of [[spoon]],2.0
+ spoon,/c/en/spoon,UsedFor,eating ice cream,/c/en/eating_ice_cream,[[a spoon]] is for [[eating ice cream]],2.0
+ spoon,/c/en/spoon,UsedFor,scooping food,/c/en/scooping_food,[[A spoon]] is for [[scooping food]],2.0
+ spoon,/c/en/spoon/n/wn/artifact,IsA,container,/c/en/container/n/wn/artifact,[[spoon]] is a type of [[container]],2.0
+ spoon,/c/en/spoon/n/wn/artifact,IsA,cutlery,/c/en/cutlery/n/wn/artifact,[[spoon]] is a type of [[cutlery]],2.0
+ spoon,/c/en/spoon,UsedFor,eating cereal,/c/en/eating_cereal,[[a spoon]] is for [[eating cereal]],2.0
+ spoon,/c/en/spoon,UsedFor,stirring coffee,/c/en/stirring_coffee,[[a spoon]] is for [[stirring coffee]],2.0
+ soupspoon,/c/en/soupspoon/n/wn/artifact,IsA, spoon,/c/en/spoon/n/wn/artifact,[[soupspoon]] is a type of [[spoon]],2.0
+ runcible spoon,/c/en/runcible_spoon/n/wn/artifact,IsA, spoon,/c/en/spoon/n/wn/artifact,[[runcible spoon]] is a type of [[spoon]],2.0
+ wooden spoon,/c/en/wooden_spoon/n/wn/artifact,IsA, spoon,/c/en/spoon/n/wn/artifact,[[wooden spoon]] is a type of [[spoon]],2.0
+ sugar spoon,/c/en/sugar_spoon/n/wn/artifact,IsA, spoon,/c/en/spoon/n/wn/artifact,[[sugar spoon]] is a type of [[spoon]],2.0
+ teaspoon,/c/en/teaspoon,IsA, spoon,/c/en/spoon,[[teaspoon]] is [[a spoon]],2.0
+eating ice cream,/c/en/eating_ice_cream,HasPrerequisite, spoon,/c/en/spoon,[[eating ice cream]] requires [[a spoon]],2.0
+tea maker,/c/en/tea_maker/n/wn/artifact,IsA, spoon,/c/en/spoon/n/wn/artifact,[[tea maker]] is a type of [[spoon]],2.0
+ spoon,/c/en/spoon/n/wn/artifact,IsA,wood,/c/en/wood/n/wn/artifact,[[spoon]] is a type of [[wood]],2.0
+ teaspoon,/c/en/teaspoon/n/wn/artifact,IsA, spoon,/c/en/spoon/n/wn/artifact,[[teaspoon]] is a type of [[spoon]],2.0
+ spoon,/c/en/spoon,UsedFor,flinging,/c/en/flinging,[[spoon]] is for [[flinging]],1.0
+ spoon,/c/en/spoon,UsedFor,stir soup,/c/en/stir_soup,You can use [[a spoon]] to [[stir soup]],1.0
+ spoon,/c/en/spoon,UsedFor,drinking,/c/en/drinking,[[a spoon]] is for [[Drinking]],1.0
+ spoon,/c/en/spoon,UsedFor,taking cough syrup,/c/en/taking_cough_syrup,[[a spoon]] is for [[taking cough syrup]],1.0
+ spoon,/c/en/spoon,AtLocation,a table,/c/en/table,*Something you find on [[a table]] is [[a spoon]],1.0
+ spoon,/c/en/spoon,UsedFor,people to eat cereal with,/c/en/people_to_eat_cereal_with,[[a spoon]] is for [[people to eat cereal with]],1.0
+ spoon,/c/en/spoon,UsedFor,eating applesauce,/c/en/eating_applesauce,[[a spoon]] is used for [[eating applesauce]],1.0
+ spoon,/c/en/spoon,UsedFor,serving soup,/c/en/serving_soup,[[a spoon]] is for [[serving soup]],1.0
+ spoon,/c/en/spoon/n,IsA,utensil,/c/en/utensil/n,,1.0
+ spoon,/c/en/spoon,UsedFor,eating liquids,/c/en/eating_liquids,[[a spoon]] is used for [[eating liquids]],1.0
+ spoon,/c/en/spoon,UsedFor,stirring tea,/c/en/stirring_tea,[[a spoon]] is for [[stirring tea]],1.0
+ spoon,/c/en/spoon,AtLocation,a table setting,/c/en/table_setting,You are likely to find [[spoon]] in [[a table setting]],1.0
+ spoon,/c/en/spoon,AtLocation,a bowl of soup,/c/en/bowl_of_soup,You are likely to find [[a spoon]] in [[a bowl of soup]],1.0
+ spoon,/c/en/spoon,UsedFor,eat soup',/c/en/eat_soup,You can use [[a spoon]] to [[eat soup']],1.0
+eating soup,/c/en/eating_soup,HasPrerequisite, spoon,/c/en/spoon,[[Eating soup]] requires [[a spoon]],1.0
+ spoon,/c/en/spoon/n/wn/artifact,ExternalURL,104291479-n,http://wordnet-rdf.princeton.edu/wn31/104291479-n,,1.0
+ spoon,/c/en/spoon/n,ExternalURL, spoon,http://sw.opencyc.org/2012/05/10/concept/en/Spoon,,1.0
+ spoon,/c/en/spoon,IsA,a cooking or eating utensil,/c/en/cooking_or_eating_utensil,[[A spoon]] is [[a cooking or eating utensil]],1.0
+baking a cake,/c/en/baking_cake,HasPrerequisite, spoon,/c/en/spoon,[[baking a cake]] requires [[a spoon]],1.0
+ spoon,/c/en/spoon,AtLocation,a childs sand box,/c/en/childs_sand_box,You are likely to find [[a spoon]] in [[a childs sand box]],1.0
+ wooden spoon,/c/en/wooden_spoon/n,IsA, spoon,/c/en/spoon/n,,1.0
+ spoon,/c/en/spoon,UsedFor,eating cold ceral,/c/en/eating_cold_ceral,[[a spoon]] is for [[eating cold ceral]],1.0
+ spoon,/c/en/spoon,ReceivesAction,needed when eating a meal,/c/en/needed_when_eating_meal,[[a spoon]] is [[needed when eating a meal]],1.0
+ spoon,/c/en/spoon,CapableOf,be use to eat soup,/c/en/use_to_eat_soup,[[a spoon]] can [[be use to eat soup]],1.0
+ spoon,/c/en/spoon/n,IsA,fluid reservoir,/c/en/fluid_reservoir/n,,1.0
+ spoon,/c/en/spoon/n/wn/artifact,ExternalURL,104291140-n,http://wordnet-rdf.princeton.edu/wn31/104291140-n,,1.0
+ spoon,/c/en/spoon,AtLocation,bed,/c/en/bed,You are likely to find [[a spoon]] in [[bed]],1.0
+ spoon,/c/en/spoon,ExternalURL, spoon,http://umbel.org/umbel/sc/Spoon,,1.0
+ spoon,/c/en/spoon,AtLocation,the cutlery drawer,/c/en/cutlery_drawer,You are likely to find [[a spoon]] in [[the cutlery drawer]],1.0
+ spoon,/c/en/spoon,CapableOf,hold dozens of pieces of rice,/c/en/hold_dozens_of_pieces_of_rice,[[a spoon]] can [[hold dozens of pieces of rice]],1.0
+ spoon,/c/en/spoon,UsedFor,consuming something liquid,/c/en/consuming_liquid,[[a spoon]] is used for [[consuming something liquid]],1.0
+ spoon,/c/en/spoon/v/wn/contact,ExternalURL,201582471-v,http://wordnet-rdf.princeton.edu/wn31/201582471-v,,1.0
+ spoon,/c/en/spoon,UsedFor,stir food,/c/en/stir_food,You can use [[a spoon]] to [[stir food]],1.0
+ spoon,/c/en/spoon,AtLocation,a kitchen drawer,/c/en/kitchen_drawer,You are likely to find [[a spoon]] in [[a kitchen drawer]],1.0
+ spoon,/c/en/spoon,AtLocation,the silverware drawer,/c/en/silverware_drawer,You are likely to find [[a spoon]] in [[the silverware drawer]],1.0
+ spoon,/c/en/spoon,HasA,a cupped end and a handle,/c/en/cupped_end_and_handle,[[A spoon]] has [[a cupped end and a handle]],1.0
+ spoon,/c/en/spoon,UsedFor,eat ice cream,/c/en/eat_ice_cream,You can use [[a spoon]] to [[eat ice cream]],1.0
+ spoon,/c/en/spoon,UsedFor,measuring ingredients,/c/en/measuring_ingredients,[[a spoon]] is for [[measuring ingredients]],1.0
+ spoon,/c/en/spoon,AtLocation,a hand,/c/en/hand,You are likely to find [[a spoon]] in [[a hand]],1.0
+ spoon,/c/en/spoon,UsedFor,eat with,/c/en/eat_with,You can use [[a spoon]] to [[eat with]],1.0
+ spoon,/c/en/spoon,AtLocation,a cutlery draw,/c/en/cutlery_draw,You are likely to find [[a spoon]] in [[a cutlery draw]],1.0
+ spoon,/c/en/spoon,UsedFor,mixing ingredients,/c/en/mixing_ingredients,[[a spoon]] is for [[mixing ingredients]],1.0
+ spoon,/c/en/spoon,UsedFor,eating food that isn't very solid,/c/en/eating_food_isn't_very_solid,[[a spoon]] is used for [[eating food that isn't very solid]],1.0
+ spoon,/c/en/spoon,AtLocation,a dishwasher,/c/en/dishwasher,You are likely to find [[a spoon]] in [[a dishwasher]],1.0
+ spoon,/c/en/spoon,ExternalURL, spoon,http://dbpedia.org/resource/Spoon,,1.0
+cooking,/c/en/cooking,HasPrerequisite, spoon,/c/en/spoon,[[cooking]] requires [[a spoon]],1.0
+ spoon,/c/en/spoon/n/wn/quantity,ExternalURL,113792309-n,http://wordnet-rdf.princeton.edu/wn31/113792309-n,,1.0
+ spoon,/c/en/spoon/n,IsA,shaped thing,/c/en/shaped_thing/n,,1.0
+ spoon,/c/en/spoon,AtLocation,soup,/c/en/soup,You are likely to find [[a spoon]] in [[soup]],1.0
+ spoon,/c/en/spoon,UsedFor,mixing soup,/c/en/mixing_soup,[[a spoon]] is for [[mixing soup]],1.0
+ spoon,/c/en/spoon,UsedFor,the dish to run away with,/c/en/dish_to_run_away_with,[[a spoon]] is for [[the dish to run away with]],1.0
+ spoon,/c/en/spoon,UsedFor,eat cereal with,/c/en/eat_cereal_with,[[A spoon]] is used to [[eat cereal with]],1.0
+ spoon,/c/en/spoon,UsedFor,eating food off a plate,/c/en/eating_food_off_plate,[[A spoon]] is used for [[eating food off a plate]],1.0
+ silverware spoon,/c/en/silverware_spoon/n,IsA, spoon,/c/en/spoon/n,,1.0
+ spoon,/c/en/spoon,UsedFor,stir your coffee,/c/en/stir_coffee,You can use [[a spoon]] to [[stir your coffee]],1.0
+ spoon,/c/en/spoon,AtLocation,a fork in the road,/c/en/fork_in_road,*Something you find at [[a fork in the road]] is [[a spoon]],1.0
+ spoon,/c/en/spoon,UsedFor,scoop ice cream\,/c/en/scoop_ice_cream,You can use [[a spoon]] to [[scoop ice cream\]],1.0
+ spoon,/c/en/spoon,UsedFor,eat yogurt,/c/en/eat_yogurt,You can use [[a spoon]] to [[eat yogurt]],1.0
+ spoon,/c/en/spoon,UsedFor,hang on your nose,/c/en/hang_on_nose,You can use [[a spoon]] to [[hang on your nose]],1.0
+ spoon,/c/en/spoon,UsedFor,transporting liquid short distances,/c/en/transporting_liquid_short_distances,[[a spoon]] is used for [[transporting liquid short distances]],1.0
+ spoon something,/c/en/spoon,CapableOf,eat with,/c/en/eat_with,[[A spoon is something you]] can [[eat with]],1.0
+ spoon,/c/en/spoon,UsedFor,people to eat soup with,/c/en/people_to_eat_soup_with,[[a spoon]] is for [[people to eat soup with]],1.0
+ladle,/c/en/ladle/n,IsA, spoon,/c/en/spoon/n,,1.0
+ spoon,/c/en/spoon,ExternalURL,q81895,http://wikidata.dbpedia.org/resource/Q81895,,1.0
+ spoon,/c/en/spoon,UsedFor,drinking soup,/c/en/drinking_soup,[[a spoon]] is for [[drinking soup]],1.0
+ spoon,/c/en/spoon,UsedFor,liquid foods,/c/en/liquid_foods,[[a spoon]] is used for [[liquid foods]],1.0
+ spoon,/c/en/spoon,AtLocation,a serving dish,/c/en/serving_dish,You are likely to find [[a spoon]] in [[a serving dish]],1.0
+ spoon,/c/en/spoon,UsedFor,cooling liquid by stirring,/c/en/cooling_liquid_by_stirring,[[a spoon]] is for [[cooling liquid by stirring]],1.0
+ spoon,/c/en/spoon,UsedFor,eat,/c/en/eat,You can use [[a spoon]] to [[eat]],1.0
+ measuring spoon,/c/en/measuring_spoon/n,IsA, spoon,/c/en/spoon/n,,1.0
+ spoon,/c/en/spoon,AtLocation,a glass of iced tea,/c/en/glass_of_iced_tea,You are likely to find [[a spoon]] in [[a glass of iced tea]],1.0
+ spoon,/c/en/spoon,AtLocation,a resturant,/c/en/resturant,*Something you find at [[a resturant]] is [[a spoon]],1.0
+food,/c/en/food,AtLocation, spoon,/c/en/spoon,You are likely to find [[food]] in [[spoon]].,1.0
+ice cream scoop,/c/en/ice_cream_scoop/n,IsA, spoon,/c/en/spoon/n,,1.0

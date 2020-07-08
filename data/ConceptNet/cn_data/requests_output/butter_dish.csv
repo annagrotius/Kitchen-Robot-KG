@@ -1,0 +1,34 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+manteigueira,/c/pt/manteigueira/n/wn/artifact,Synonym,butter dish,/c/en/butter_dish/n/wn/artifact,[[manteigueira]] is a translation of [[butter dish]],2.0
+butter dish,/c/en/butter_dish/n/wn/artifact,IsA,dish,/c/en/dish/n/wn/artifact,[[butter dish]] is a type of [[dish]],2.0
+portaburro,/c/it/portaburro/n/wn/artifact,Synonym,butter dish,/c/en/butter_dish/n/wn/artifact,[[portaburro]] is a translation of [[butter dish]],2.0
+voiastia,/c/fi/voiastia/n/wn/artifact,Synonym,butter dish,/c/en/butter_dish/n/wn/artifact,[[voiastia]] is a translation of [[butter dish]],2.0
+masielniczka,/c/pl/masielniczka/n/wn/artifact,Synonym,butter dish,/c/en/butter_dish/n/wn/artifact,[[masielniczka]] is a translation of [[butter dish]],2.0
+gurin-ontzi,/c/eu/gurin_ontzi/n/wn/artifact,Synonym,butter dish,/c/en/butter_dish/n/wn/artifact,[[gurin-ontzi]] is a translation of [[butter dish]],2.0
+burriera,/c/it/burriera/n/wn/artifact,Synonym,butter dish,/c/en/butter_dish/n/wn/artifact,[[burriera]] is a translation of [[butter dish]],2.0
+จานใส่เนย,/c/th/จานใส่เนย/n/wn/artifact,Synonym,butter dish,/c/en/butter_dish/n/wn/artifact,[[จานใส่เนย]] is a translation of [[butter dish]],2.0
+maselniczka,/c/pl/maselniczka/n/wn/artifact,Synonym,butter dish,/c/en/butter_dish/n/wn/artifact,[[maselniczka]] is a translation of [[butter dish]],2.0
+mantequera,/c/es/mantequera/n,RelatedTo,butter dish,/c/en/butter_dish,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,beurrier,/c/fr/beurrier,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,burriera,/c/it/burriera,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,beurryi,/c/nrf/beurryi,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,portaburro,/c/it/portaburro,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,butterdose,/c/de/butterdose,,1.0
+beurryi,/c/nrf/beurryi/n,RelatedTo,butter dish,/c/en/butter_dish,,1.0
+butter dish,/c/en/butter_dish,ExternalURL,ButterDish,http://umbel.org/umbel/sc/ButterDish,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,mantequera,/c/es/mantequera,,1.0
+butter dish,/c/en/butter_dish/n/wn/artifact,ExternalURL,102931148-n,http://wordnet-rdf.princeton.edu/wn31/102931148-n,,1.0
+butter dish,/c/en/butter_dish,DerivedFrom,butter,/c/en/butter/n,,1.0
+beurrier,/c/fr/beurrier/n,RelatedTo,butter dish,/c/en/butter_dish,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,smörask,/c/sv/smörask,,1.0
+butter dishes,/c/en/butter_dishes/n,FormOf,butter dish,/c/en/butter_dish,,1.0
+butterdose,/c/de/butterdose/n,Synonym,butter dish,/c/en/butter_dish,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,manteigueira,/c/pt/manteigueira,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,maselniczka,/c/pl/maselniczka,,1.0
+butterdose,/c/de/butterdose/n,RelatedTo,butter dish,/c/en/butter_dish,,1.0
+butter dish,/c/en/butter_dish/n,Synonym,untieră,/c/ro/untieră,,1.0
+portaburro,/c/it/portaburro/n,RelatedTo,butter dish,/c/en/butter_dish,,1.0
+butter dish,/c/en/butter_dish/n,ExternalURL,ButterDish,http://sw.opencyc.org/2012/05/10/concept/en/ButterDish,,1.0
+beurrier,/c/fr/beurrier/n/wikt/fr_2,Synonym,butter dish,/c/en/butter_dish,,1.0
+butter dish,/c/en/butter_dish/n,IsA,serving dish,/c/en/serving_dish/n,,1.0
+butter dish,/c/en/butter_dish,ExternalURL,butter dish,http://en.wiktionary.org/wiki/butter_dish,,0.25

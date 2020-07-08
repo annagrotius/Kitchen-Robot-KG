@@ -1,0 +1,9 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+butter knife,/c/en/butter_knife/n/wn/artifact,IsA,table knife,/c/en/table_knife/n/wn/artifact,[[butter knife]] is a type of [[table knife]],2.0
+butter knife,/c/en/butter_knife,CapableOf,butter bread,/c/en/butter_bread,[[butter knife]] can [[butter bread]],2.0
+butter knife,/c/en/butter_knife/n,IsA,knife,/c/en/knife/n,,1.0
+butter knife,/c/en/butter_knife/n,ExternalURL,butterknife,http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife,,1.0
+butter knife,/c/en/butter_knife/n,IsA,silverware,/c/en/silverware/n,,1.0
+a butter knife,/c/en/butter_knife,UsedFor,spreading butter on bread,/c/en/spreading_butter_on_bread,[[A butter knife]] is for [[spreading butter on bread]],1.0
+butter knife,/c/en/butter_knife/n/wn/artifact,ExternalURL,102931433-n,http://wordnet-rdf.princeton.edu/wn31/102931433-n,,1.0
+butter knife,/c/en/butter_knife,ExternalURL,butterknife,http://umbel.org/umbel/sc/ButterKnife,,1.0

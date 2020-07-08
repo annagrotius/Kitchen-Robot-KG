@@ -1,0 +1,87 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+scrambled egg,/c/en/scrambled_egg/n/wn/food,IsA,dish,/c/en/dish/n/wn/food,[[scrambled egg]] is a type of [[dish]],2.0
+munakokkeli,/c/fi/munakokkeli/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[munakokkeli]] is a translation of [[scrambled egg]],2.0
+scrambled eggs,/c/en/scrambled_eggs/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[scrambled eggs]] is a synonym of [[scrambled egg]],2.0
+ous remenats,/c/ca/ous_remenats/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[ous remenats]] is a translation of [[scrambled egg]],2.0
+jajecznica,/c/pl/jajecznica/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[jajecznica]] is a translation of [[scrambled egg]],2.0
+スクランブルエッグ,/c/ja/スクランブルエッグ/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[スクランブルエッグ]] is a translation of [[scrambled egg]],2.0
+スクランブルドエッグズ,/c/ja/スクランブルドエッグズ/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[スクランブルドエッグズ]] is a translation of [[scrambled egg]],2.0
+arrautza nahasi,/c/eu/arrautza_nahasi/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[arrautza nahasi]] is a translation of [[scrambled egg]],2.0
+ไข่กวน,/c/th/ไข่กวน/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[ไข่กวน]] is a translation of [[scrambled egg]],2.0
+telur aduk goreng,/c/id/telur_aduk_goreng/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[telur aduk goreng]] is a translation of [[scrambled egg]],2.0
+nahaski,/c/eu/nahaski/n/wn/food,Synonym,scrambled egg,/c/en/scrambled_egg/n/wn/food,[[nahaski]] is a translation of [[scrambled egg]],2.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,ไข่คน,/c/th/ไข่คน,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,ពងមាន់ចៀន,/c/km/ពងមាន់ចៀន,,1.0
+scrambled egg,/c/en/scrambled_egg/n,RelatedTo,dish,/c/en/dish,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,jajecznica,/c/pl/jajecznica,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,ovos mexidos,/c/pt/ovos_mexidos,,1.0
+scrambled egg slime mold,/c/en/scrambled_egg_slime_mold,DerivedFrom,scrambled egg,/c/en/scrambled_egg/n,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,kajgana,/c/sh/kajgana,,1.0
+oeu sus l'ticl'ye,/c/nrf/oeu_sus_l'ticl'ye/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,røræg,/c/da/røræg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,кајгана,/c/mk/кајгана,,1.0
+scrambled egg,/c/en/scrambled_egg/n/wn/food,ExternalURL,107858284-n,http://wordnet-rdf.princeton.edu/wn31/107858284-n,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,خاگینه,/c/fa/خاگینه,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,ביצה מקושקשת,/c/he/ביצה_מקושקשת,,1.0
+scrambled egg,/c/en/scrambled_egg/n,RelatedTo,armed forces,/c/en/armed_forces,,1.0
+木須,/c/zh/木須/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,炒蛋,/c/zh/炒蛋,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,wyau wedi u sgramblo,/c/cy/wyau_wedi_u_sgramblo,,1.0
+賽螃蟹,/c/zh/賽螃蟹/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+ไข่คน,/c/th/ไข่คน/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,huevos picados,/c/es/huevos_picados,,1.0
+scrambled egg,/c/en/scrambled_egg/n,HasContext,slang,/c/en/slang,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,rührei,/c/de/rührei,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,tojásrántotta,/c/hu/tojásrántotta,,1.0
+ไข่กวน,/c/th/ไข่กวน/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,HasContext,généralement au pluriel,/c/fr/généralement_au_pluriel,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,яичница болтунья,/c/ru/яичница_болтунья,,1.0
+ביצה מקושקשת,/c/he/ביצה_מקושקשת/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,スクランブルドエッグ,/c/ja/スクランブルドエッグ,,1.0
+scrambled egg,/c/en/scrambled_egg/n,ExternalURL,ScrambledEgg,http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,RelatedTo,beat,/c/en/beat,,1.0
+scrambled egg,/c/en/scrambled_egg/n,RelatedTo,officer,/c/en/officer,,1.0
+scrambled egg,/c/en/scrambled_egg/n,RelatedTo,cook,/c/en/cook,,1.0
+eggerøre,/c/no/eggerøre/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+སྒོང འབྲས,/c/bo/སྒོང_འབྲས/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,볶은 계란,/c/ko/볶은_계란,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,habart tojás,/c/hu/habart_tojás,,1.0
+scrambled egg,/c/en/scrambled_egg/n,RelatedTo,braid,/c/en/braid,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,oy skramblys,/c/kw/oy_skramblys,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,kiaušiniene,/c/lt/kiaušiniene,,1.0
+scrambled egg,/c/en/scrambled_egg/n,IsA,food composite,/c/en/food_composite/n,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,スクランブルエッグ,/c/ja/スクランブルエッグ,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,яичница,/c/ru/яичница,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,χτυπητα αβγα,/c/el/χτυπητα_αβγα,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,äggröra,/c/sv/äggröra,,1.0
+scrambled egg,/c/en/scrambled_egg/n,RelatedTo,cap,/c/en/cap,,1.0
+スクランブルエッグ,/c/ja/スクランブルエッグ,EtymologicallyDerivedFrom,scrambled egg,/c/en/scrambled_egg,,1.0
+スクランブルエッグ,/c/ja/スクランブルエッグ/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,huevos revueltos,/c/es/huevos_revueltos,,1.0
+tofu scramble,/c/en/tofu_scramble/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,munakokkeli,/c/fi/munakokkeli,,1.0
+scrambled egg,/c/en/scrambled_egg/n,HasContext,british,/c/en/british,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,faonküch,/c/wym/faonküch,,1.0
+scrambled egg,/c/en/scrambled_egg/n,IsA,semisolid,/c/en/semisolid/n,,1.0
+scrambled egg,/c/en/scrambled_egg,ExternalURL,ScrambledEgg,http://umbel.org/umbel/sc/ScrambledEgg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,ovo mixita,/c/io/ovo_mixita,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,eggerøre,/c/no/eggerøre,,1.0
+scrambled eggs,/c/en/scrambled_eggs/n,FormOf,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,ათქვეფილი კვერცხები,/c/ka/ათქვეფილი_კვერცხები,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,oohyn bwoailt,/c/gv/oohyn_bwoailt,,1.0
+خاگینه,/c/fa/خاگینه/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,HasContext,préparations,/c/fr/préparations,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,སྒོང འབྲས,/c/bo/སྒོང_འབྲས,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,oeux sus l'ticl'ye,/c/nrf/oeux_sus_l'ticl'ye,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,huevos pericos,/c/es/huevos_pericos,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,rántotta,/c/hu/rántotta,,1.0
+eierspeise,/c/de/eierspeise/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,uova strapazzate,/c/it/uova_strapazzate,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,œufs brouillés,/c/fr/œufs_brouillés,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,ไข่กวน,/c/th/ไข่กวน,,1.0
+akuri,/c/en/akuri/n,RelatedTo,scrambled egg,/c/en/scrambled_egg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,RelatedTo,œufs brouillés,/c/fr/œufs_brouillés,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,uighean pronn,/c/gd/uighean_pronn,,1.0
+scrambled egg,/c/en/scrambled_egg/n,Synonym,滑蛋,/c/zh/滑蛋,,1.0
+scrambled egg,/c/en/scrambled_egg,ExternalURL,scrambled egg,http://en.wiktionary.org/wiki/scrambled_egg,,0.25
+scrambled egg,/c/en/scrambled_egg,ExternalURL,scrambled egg,http://fr.wiktionary.org/wiki/scrambled_egg,,0.25

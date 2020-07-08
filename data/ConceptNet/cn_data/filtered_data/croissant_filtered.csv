@@ -1,0 +1,3 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ croissant,/c/en/croissant,ExternalURL,q207832,http://wikidata.dbpedia.org/resource/Q207832,,1.0
+ croissant,/c/en/croissant,ExternalURL, croissant,http://dbpedia.org/resource/Croissant,,1.0

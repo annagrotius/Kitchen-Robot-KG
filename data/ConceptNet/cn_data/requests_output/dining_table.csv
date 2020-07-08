@@ -1,0 +1,168 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+a dining table,/c/en/dining_table,UsedFor,eat dinner,/c/en/eat_dinner,You can use [[a dining table]] to [[eat dinner]],3.4641016151377544
+a dining table,/c/en/dining_table,UsedFor,playing games on,/c/en/playing_games_on,[[a dining table]] is for [[playing games on]],2.82842712474619
+stół do jadalni,/c/pl/stół_do_jadalni/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[stół do jadalni]] is a translation of [[dining table]],2.0
+ちゃぶ台,/c/ja/ちゃぶ台/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[ちゃぶ台]] is a translation of [[dining table]],2.0
+食卓,/c/ja/食卓/a,Synonym,dining table,/c/en/dining_table,,2.0
+trpeza,/c/sh/trpeza/n,RelatedTo,dining table,/c/en/dining_table,,2.0
+dinner table,/c/en/dinner_table/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[dinner table]] is a type of [[dining table]],2.0
+high table,/c/en/high_table/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[high table]] is a type of [[dining table]],2.0
+meja makan,/c/id/meja_makan/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[meja makan]] is a translation of [[dining table]],2.0
+ダイニング テーブル,/c/ja/ダイニング_テーブル/n,Synonym,dining table,/c/en/dining_table,,2.0
+taula de menjador,/c/ca/taula_de_menjador/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[taula de menjador]] is a translation of [[dining table]],2.0
+mesa,/c/pt/mesa/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[mesa]] is a translation of [[dining table]],2.0
+triclinium,/c/en/triclinium/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[triclinium]] is a type of [[dining table]],2.0
+a dining table,/c/en/dining_table,UsedFor,eat dinnner,/c/en/eat_dinnner,You can use [[a dining table]] to [[eat dinnner]],2.0
+โต๊ะรับประทานอาหาร,/c/th/โต๊ะรับประทานอาหาร/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[โต๊ะรับประทานอาหาร]] is a translation of [[dining table]],2.0
+ruokapöytä,/c/fi/ruokapöytä/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[ruokapöytä]] is a translation of [[dining table]],2.0
+dining table,/c/en/dining_table/n/wn/artifact,IsA,table,/c/en/table/n/wn/artifact,[[dining table]] is a type of [[table]],2.0
+stół jadalniany,/c/pl/stół_jadalniany/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[stół jadalniany]] is a translation of [[dining table]],2.0
+meja makan,/c/ms/meja_makan/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[meja makan]] is a translation of [[dining table]],2.0
+食卓,/c/ja/食卓/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[食卓]] is a translation of [[dining table]],2.0
+飯台,/c/ja/飯台/n,Synonym,dining table,/c/en/dining_table,,2.0
+ダイニングテーブル,/c/ja/ダイニングテーブル/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[ダイニングテーブル]] is a translation of [[dining table]],2.0
+secretária,/c/pt/secretária/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[secretária]] is a translation of [[dining table]],2.0
+שֻׁלְחָן-אֹכֶל,/c/he/שלחן_אכל/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[שֻׁלְחָן-אֹכֶל]] is a translation of [[dining table]],2.0
+ダイニングテーブル,/c/ja/ダイニングテーブル/n,Synonym,dining table,/c/en/dining_table,,2.0
+tavola da pranzo,/c/it/tavola_da_pranzo/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[tavola da pranzo]] is a translation of [[dining table]],2.0
+食膳,/c/ja/食膳/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[食膳]] is a translation of [[dining table]],2.0
+שֻׁלְחָן,/c/he/שלחן/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[שֻׁלְחָן]] is a translation of [[dining table]],2.0
+食台,/c/ja/食台/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[食台]] is a translation of [[dining table]],2.0
+โต๊ะอาหาร,/c/th/โต๊ะอาหาร/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[โต๊ะอาหาร]] is a translation of [[dining table]],2.0
+食膳,/c/ja/食膳/n,Synonym,dining table,/c/en/dining_table,,2.0
+膳,/c/ja/膳/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[膳]] is a translation of [[dining table]],2.0
+board,/c/en/board/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[board]] is a synonym of [[dining table]],2.0
+dining-room table,/c/en/dining_room_table/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[dining-room table]] is a type of [[dining table]],2.0
+refectory table,/c/en/refectory_table/n/wn/artifact,IsA,dining table,/c/en/dining_table/n/wn/artifact,[[refectory table]] is a type of [[dining table]],2.0
+飯台,/c/ja/飯台/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[飯台]] is a translation of [[dining table]],2.0
+a dining table,/c/en/dining_table,UsedFor,sitting around with your family,/c/en/sitting_around_with_family,[[a dining table]] is for [[sitting around with your family]],2.0
+a dining table,/c/en/dining_table,UsedFor,serving dinner,/c/en/serving_dinner,[[a dining table]] is for [[serving dinner]],2.0
+โต๊ะกินข้าว,/c/th/โต๊ะกินข้าว/n/wn/artifact,Synonym,dining table,/c/en/dining_table/n/wn/artifact,[[โต๊ะกินข้าว]] is a translation of [[dining table]],2.0
+飯桌,/c/zh/飯桌,Synonym,dining table,/c/en/dining_table,,1.0
+しっぽく,/c/ja/しっぽく/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+a saucer,/c/en/saucer,AtLocation,dining table,/c/en/dining_table,You are likely to find [[a saucer]] in [[dining table]],1.0
+ēdamgalds,/c/lv/ēdamgalds/n,Synonym,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,esstisch,/c/de/esstisch,,1.0
+dining table,/c/en/dining_table/n,Synonym,餐桌,/c/zh/餐桌,,1.0
+pâraisse,/c/nrf/pâraisse/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,IsA,table,/c/en/table,,1.0
+a dining table,/c/en/dining_table,UsedFor,family meetings,/c/en/family_meetings,[[a dining table]] is for [[family meetings]],1.0
+a dining table,/c/en/dining_table,UsedFor,placing served food,/c/en/placing_served_food,[[a dining table]] is used for [[placing served food]],1.0
+a dining table,/c/en/dining_table,UsedFor,holding center pieces,/c/en/holding_center_pieces,[[a dining table]] is used for [[holding center pieces]],1.0
+a dining table,/c/en/dining_table,UsedFor,putting food on,/c/en/putting_food_on,[[a dining table]] is for [[putting food on]],1.0
+back,/c/de/back/n/wikt/en_1,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,tavolo da pranzo,/c/it/tavolo_da_pranzo,,1.0
+a dining table,/c/en/dining_table,UsedFor,eating dinner,/c/en/eating_dinner,[[a dining table]] is for [[eating dinner]],1.0
+buffetta,/c/scn/buffetta/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining set,/c/en/dining_set/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,making love,/c/en/making_love,[[a dining table]] is for [[making love]],1.0
+食飯桌,/c/zh/食飯桌/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,matbord,/c/sv/matbord,,1.0
+a dining table,/c/en/dining_table,AtLocation,a house,/c/en/house,You are likely to find [[a dining table]] in [[a house]],1.0
+a dining table,/c/en/dining_table,UsedFor,playing games,/c/en/playing_games,[[a dining table]] is for [[playing games]],1.0
+étkezőasztal,/c/hu/étkezőasztal/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,middagsbord,/c/no/middagsbord,,1.0
+A dining table,/c/en/dining_table,IsA,an indoor object,/c/en/indoor_object,[[A dining table]] is [[an indoor object]],1.0
+jídelní stůl,/c/cs/jídelní_stůl,Synonym,dining table,/c/en/dining_table,,1.0
+refectory table,/c/en/refectory_table/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,eating a meal,/c/en/eating_meal,[[a dining table]] is for [[eating a meal]],1.0
+dining table,/c/en/dining_table/n,Synonym,飯桌,/c/zh/飯桌,,1.0
+dining table,/c/en/dining_table/n,Synonym,dulang,/c/fil/dulang,,1.0
+dining table,/c/en/dining_table/n,RelatedTo,dining chair,/c/en/dining_chair,,1.0
+饭桌,/c/zh/饭桌,Synonym,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,eating food,/c/en/eating_food,[[a dining table]] is for [[eating food]],1.0
+dining tables,/c/en/dining_tables/n,FormOf,dining table,/c/en/dining_table,,1.0
+place setting,/c/en/place_setting/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dinner table,/c/en/dinner_table,RelatedTo,dining table,/c/en/dining_table,,1.0
+nerrivik,/c/kl/nerrivik/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,食卓,/c/ja/食卓,,1.0
+high table,/c/en/high_table/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+A dining table,/c/en/dining_table,HasProperty,paired with chairs,/c/en/paired_with_chairs,[[A dining table]] is [[paired with chairs]],1.0
+spisebord,/c/da/spisebord/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,سفرة,/c/ar/سفرة,,1.0
+mahogany,/c/en/mahogany/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,doing homework,/c/en/doing_homework,[[a dining table]] is for [[doing homework]],1.0
+dining table,/c/en/dining_table/n,Synonym,餐檯,/c/zh/餐檯,,1.0
+卓袱,/c/ja/卓袱/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+captain's table,/c/en/captain's_table/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n/wn/artifact,ExternalURL,103205892-n,http://wordnet-rdf.princeton.edu/wn31/103205892-n,,1.0
+dining table,/c/en/dining_table/n,Synonym,обеденный стол,/c/ru/обеденный_стол,,1.0
+a dining table,/c/en/dining_table,UsedFor,drinking on,/c/en/drinking_on,[[a dining table]] is for [[drinking on]],1.0
+a dining table,/c/en/dining_table,UsedFor,discussions,/c/en/discussions,[[a dining table]] is for [[discussions]],1.0
+a dining table,/c/en/dining_table,UsedFor,holiday meals,/c/en/holiday_meals,[[a dining table]] is for [[holiday meals]],1.0
+a dining table,/c/en/dining_table,UsedFor,leave messages,/c/en/leave_messages,You can use [[a dining table]] to [[leave messages]],1.0
+a dining table,/c/en/dining_table,AtLocation,the formal dining room,/c/en/formal_dining_room,You are likely to find [[a dining table]] in [[the formal dining room]],1.0
+dining table,/c/en/dining_table/n,RelatedTo,table à manger,/c/fr/table_à_manger,,1.0
+飯桌,/c/zh/飯桌/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+上桌,/c/zh/上桌/v,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,キッチンテーブル,/c/ja/キッチンテーブル,,1.0
+a dining table,/c/en/dining_table,UsedFor,family gatherings,/c/en/family_gatherings,[[a dining table]] is for [[family gatherings]],1.0
+a dining table,/c/en/dining_table,UsedFor,entertain a large group of people,/c/en/entertain_large_group_of_people,You can use [[a dining table]] to [[entertain a large group of people]],1.0
+食卓,/c/ja/食卓/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,special occassions,/c/en/special_occassions,[[a dining table]] is for [[special occassions]],1.0
+a dining table,/c/en/dining_table,UsedFor,playing cards sometimes,/c/en/playing_cards_sometimes,[[a dining table]] is used for [[playing cards sometimes]],1.0
+tavolo da pranzo,/c/it/tavolo_da_pranzo/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+racetrack table,/c/en/racetrack_table/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,laying with cutlery,/c/en/laying_with_cutlery,[[a dining table]] is for [[laying with cutlery]],1.0
+a dining table,/c/en/dining_table,UsedFor,doing jigsaw puzzles on,/c/en/doing_jigsaw_puzzles_on,[[a dining table]] is for [[doing jigsaw puzzles on]],1.0
+سفرة,/c/ar/سفرة/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining,/c/en/dining/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining chair,/c/en/dining_chair/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,table à manger,/c/fr/table_à_manger,,1.0
+dining table,/c/en/dining_table/n,Synonym,byrddau bwyd,/c/cy/byrddau_bwyd,,1.0
+a dining table,/c/en/dining_table,AtLocation,a cafeteria,/c/en/cafeteria,You are likely to find [[a dining table]] in [[a cafeteria]],1.0
+обеденный стол,/c/ru/обеденный_стол/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,entertain guests,/c/en/entertain_guests,You can use [[a dining table]] to [[entertain guests]],1.0
+dining table,/c/en/dining_table/n,Synonym,yemek masası,/c/tr/yemek_masası,,1.0
+dining table,/c/en/dining_table/n,Synonym,饭桌,/c/zh/饭桌,,1.0
+cruet,/c/en/cruet/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,ճաշասեղան,/c/hy/ճաշասեղան,,1.0
+spisebord,/c/no/spisebord/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,paparahua,/c/mi/paparahua,,1.0
+τραπεζαρία,/c/el/τραπεζαρία/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,dining,/c/en/dining,[[a dining table]] is used for [[dining]],1.0
+dining table,/c/en/dining_table/n,Synonym,餐台,/c/zh/餐台,,1.0
+ճաշասեղան,/c/hy/ճաշասեղան/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,식탁,/c/ko/식탁,,1.0
+a dining table,/c/en/dining_table,UsedFor,leaving papers on,/c/en/leaving_papers_on,[[a dining table]] is for [[leaving papers on]],1.0
+a dining table,/c/en/dining_table,UsedFor,formal dining,/c/en/formal_dining,[[a dining table]] is for [[formal dining]],1.0
+table decoration,/c/en/table_decoration/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,arranging papers,/c/en/arranging_papers,[[a dining table]] is for [[arranging papers]],1.0
+a dining table,/c/en/dining_table,UsedFor,eat dinner on,/c/en/eat_dinner_on,You can use [[a dining table]] to [[eat dinner on]],1.0
+dining table,/c/en/dining_table/n,Synonym,spisebord,/c/da/spisebord,,1.0
+餐桌,/c/zh/餐桌/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,RelatedTo,dining room,/c/en/dining_room,,1.0
+dining table,/c/en/dining_table/n,RelatedTo,dinner table,/c/en/dinner_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,entertaining others,/c/en/entertaining_others,[[a dining table]] is for [[entertaining others]],1.0
+kiddie table,/c/en/kiddie_table/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+餐桌,/c/zh/餐桌,Synonym,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,RelatedTo,dining set,/c/en/dining_set,,1.0
+dining table,/c/en/dining_table/n,Synonym,bwrdd bwyd,/c/cy/bwrdd_bwyd,,1.0
+a dining table,/c/en/dining_table,UsedFor,have sex with your spouse,/c/en/have_sex_with_spouse,You can use [[a dining table]] to [[have sex with your spouse]],1.0
+a dining table,/c/en/dining_table,UsedFor,family discussions,/c/en/family_discussions,[[a dining table]] is for [[family discussions]],1.0
+table à manger,/c/fr/table_à_manger/n,Synonym,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,have a gathering of friends,/c/en/have_gathering_of_friends,You can use [[a dining table]] to [[have a gathering of friends]],1.0
+dining table,/c/en/dining_table/n,Synonym,mesa de xantar,/c/gl/mesa_de_xantar,,1.0
+esstisch,/c/de/esstisch/n,Synonym,dining table,/c/en/dining_table,,1.0
+a dining table,/c/en/dining_table,UsedFor,having friends around for dinner,/c/en/having_friends_around_for_dinner,[[a dining table]] is for [[having friends around for dinner]],1.0
+a dining table,/c/en/dining_table,UsedFor,working on a hobby,/c/en/working_on_hobby,[[a dining table]] is for [[working on a hobby]],1.0
+tablecloth,/c/en/tablecloth/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+salt cellar,/c/en/salt_cellar/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+софра,/c/mk/софра/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,трпезариска маса,/c/mk/трпезариска_маса,,1.0
+dining table,/c/en/dining_table/n,Synonym,étkezőasztal,/c/hu/étkezőasztal,,1.0
+dining table,/c/en/dining_table/n,Synonym,食卓,/c/ko/食卓,,1.0
+dining table,/c/en/dining_table/n,Synonym,餐枱,/c/zh/餐枱,,1.0
+middagsbord,/c/no/middagsbord/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,ruokapöytä,/c/fi/ruokapöytä,,1.0
+dining table,/c/en/dining_table/n,Synonym,pâraisse,/c/nrf/pâraisse,,1.0
+crumbcloth,/c/en/crumbcloth/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,spisebord,/c/no/spisebord,,1.0
+a dining table,/c/en/dining_table,UsedFor,eating dinner on,/c/en/eating_dinner_on,[[a dining table]] is for [[eating dinner on]],1.0
+dining table,/c/en/dining_table/n,Synonym,mesa de jantar,/c/pt/mesa_de_jantar,,1.0
+pispis,/c/fil/pispis/n/wikt/en_1,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining table,/c/en/dining_table/n,Synonym,hapag kainan,/c/fil/hapag_kainan,,1.0
+a dining table,/c/en/dining_table,UsedFor,playing cards,/c/en/playing_cards,[[a dining table]] is for [[playing cards]],1.0
+plate,/c/en/plate,RelatedTo,dining table,/c/en/dining_table,[[plate]] is related to [[dining table]],0.38900000000000023
+dining table,/c/en/dining_table,ExternalURL,dining table,http://fr.wiktionary.org/wiki/dining_table,,0.25
+dining table,/c/en/dining_table,ExternalURL,dining table,http://en.wiktionary.org/wiki/dining_table,,0.25

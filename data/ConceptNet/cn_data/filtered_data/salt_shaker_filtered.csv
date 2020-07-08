@@ -1,0 +1,9 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+a salt shaker,/c/en/salt_shaker,AtLocation,a fast-food restaurant,/c/en/fast_food_restaurant,*Something you find at [[a fast-food restaurant]] is [[a salt shaker]],2.0
+a salt shaker,/c/en/salt_shaker,HasA,thousands of grains of salt,/c/en/thousands_of_grains_of_salt,[[A salt shaker]] contains [[thousands of grains of salt]],1.0
+salt shaker,/c/en/salt_shaker,ExternalURL,saltshaker,http://umbel.org/umbel/sc/SaltShaker,,1.0
+salt shaker,/c/en/salt_shaker/n,IsA,shaker,/c/en/shaker/n,,1.0
+salt shaker,/c/en/salt_shaker/n,ExternalURL,saltshaker,http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker,,1.0
+a salt shaker,/c/en/salt_shaker,IsA,a small container for table salt,/c/en/small_container_for_table_salt,[[A salt shaker]] is [[a small container for table salt]],1.0
+a salt shaker,/c/en/salt_shaker,AtLocation,a table,/c/en/table,*Something you find on [[a table]] is [[a salt shaker]],1.0
+salt shaker,/c/en/salt_shaker/n,IsA,kitchenware,/c/en/kitchenware/n,,1.0

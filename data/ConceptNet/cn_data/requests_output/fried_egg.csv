@@ -1,0 +1,125 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+paistettu kananmuna,/c/fi/paistettu_kananmuna/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[paistettu kananmuna]] is a translation of [[fried egg]],2.0
+ไข่ดาว,/c/th/ไข่ดาว/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[ไข่ดาว]] is a translation of [[fried egg]],2.0
+telur mata sapi,/c/id/telur_mata_sapi/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[telur mata sapi]] is a translation of [[fried egg]],2.0
+œuf au plat,/c/fr/œuf_au_plat/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[œuf au plat]] is a translation of [[fried egg]],2.0
+ou ferrat,/c/ca/ou_ferrat/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[ou ferrat]] is a translation of [[fried egg]],2.0
+jajko sadzone,/c/pl/jajko_sadzone/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[jajko sadzone]] is a translation of [[fried egg]],2.0
+fried egg,/c/en/fried_egg/n,Synonym,œuf sur le plat,/c/fr/œuf_sur_le_plat,,2.0
+oef au miroir,/c/fr/oef_au_miroir/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[oef au miroir]] is a translation of [[fried egg]],2.0
+telur mata lembu,/c/ms/telur_mata_lembu/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[telur mata lembu]] is a translation of [[fried egg]],2.0
+œuf sur le plat,/c/fr/œuf_sur_le_plat/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[œuf sur le plat]] is a translation of [[fried egg]],2.0
+目玉焼き,/c/ja/目玉焼き/n/wn/food,Synonym,fried egg,/c/en/fried_egg/n/wn/food,[[目玉焼き]] is a translation of [[fried egg]],2.0
+fried egg,/c/en/fried_egg/n/wn/food,IsA,dish,/c/en/dish/n/wn/food,[[fried egg]] is a type of [[dish]],2.0
+fried egg,/c/en/fried_egg/n,Synonym,荷包蛋,/c/zh/荷包蛋,,1.0
+ձվածեղ,/c/hy/ձվածեղ/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,huevo frito,/c/es/huevo_frito,,1.0
+spiegelei,/c/de/spiegelei/n,Synonym,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,spejlæg,/c/da/spejlæg,,1.0
+oeu fricachi,/c/nrf/oeu_fricachi/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+ochsenauge,/c/de/ochsenauge/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,stokt egg,/c/fo/stokt_egg,,1.0
+煎蛋,/c/zh/煎蛋,Synonym,fried egg,/c/en/fried_egg,,1.0
+ไข่ดาว,/c/th/ไข่ดาว/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,spiegelei,/c/de/spiegelei,,1.0
+fried egg,/c/en/fried_egg/n/wn/food,ExternalURL,107859612-n,http://wordnet-rdf.princeton.edu/wn31/107859612-n,,1.0
+αβγό μάτι,/c/el/αβγό_μάτι/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,spiegelei,/c/nl/spiegelei,,1.0
+spejle,/c/da/spejle/v/wikt/en_1,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,speilegg,/c/no/speilegg,,1.0
+fried eggs,/c/en/fried_eggs/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+tükörtojás,/c/hu/tükörtojás/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+egg sandwich,/c/en/egg_sandwich/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,RelatedTo,œuf sur le plat,/c/fr/œuf_sur_le_plat,,1.0
+fried egg,/c/en/fried_egg/n,RelatedTo,bunker,/c/en/bunker,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,volské oko,/c/cs/volské_oko,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,spigelee,/c/lb/spigelee,,1.0
+eggs and bacon,/c/en/eggs_and_bacon/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+oopperavoileipä,/c/fi/oopperavoileipä/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+boiled egg,/c/en/boiled_egg,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,HasContext,slang,/c/en/slang,,1.0
+alla bismarck,/c/it/alla_bismarck/a,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,jajko sadzone,/c/pl/jajko_sadzone,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,tükörtojás,/c/hu/tükörtojás,,1.0
+fried egg,/c/en/fried_egg/n,IsA,meal,/c/en/meal,,1.0
+荷包蛋,/c/zh/荷包蛋/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+глазунья,/c/ru/глазунья/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried eggs,/c/en/fried_eggs/n,FormOf,fried egg,/c/en/fried_egg,,1.0
+fried eggs,/c/en/fried_eggs,FormOf,fried egg,/c/en/fried_egg/n,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,bee sting,/c/en/bee_sting,,1.0
+spiegelei,/c/de/spiegelei/n/wikt/en_1,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+huevos rancheros,/c/en/huevos_rancheros/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,ձվածեղ,/c/hy/ձվածեղ,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,яичница глазунья,/c/ru/яичница_глазунья,,1.0
+fried egg,/c/en/fried_egg/n,RelatedTo,egg,/c/en/egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,煎雞蛋,/c/zh/煎雞蛋,,1.0
+fried egg,/c/en/fried_egg/n,IsA,dish,/c/en/dish,,1.0
+tapsilog,/c/ceb/tapsilog/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+달걀 프라이,/c/ko/달걀_프라이/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+bangsilog,/c/ceb/bangsilog/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+ไข่ทอด,/c/th/ไข่ทอด/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+ביצייה,/c/he/ביצייה/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+telur mata sapi,/c/id/telur_mata_sapi/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+hamsilog,/c/ceb/hamsilog/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+tosilog,/c/ceb/tosilog/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,계란 후라이,/c/ko/계란_후라이,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,目玉焼き,/c/ja/目玉焼き,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,шарсан өндөг,/c/mn/шарсан_өндөг,,1.0
+trứng ốp la,/c/vi/trứng_ốp_la/n,Synonym,fried egg,/c/en/fried_egg,,1.0
+huevos rotos,/c/es/huevos_rotos/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,œuf au plat,/c/fr/œuf_au_plat,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,spælegg,/c/is/spælegg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,ovo estrelado,/c/pt/ovo_estrelado,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,steikt egg,/c/is/steikt_egg,,1.0
+over easy,/c/en/over_easy,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+speilegg,/c/no/speilegg/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+a fried egg,/c/en/fried_egg,AtLocation,a plate,/c/en/plate,*Something you find on [[a plate]] is [[a fried egg]],1.0
+egg slice,/c/en/egg_slice/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,huevo estrellado,/c/es/huevo_estrellado,,1.0
+trứng ốp la,/c/vi/trứng_ốp_la/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+ovo estrelado,/c/pt/ovo_estrelado/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+œuf sur le plat,/c/fr/œuf_sur_le_plat/n,Synonym,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,яичница,/c/ru/яичница,,1.0
+fried egg,/c/en/fried_egg/n,RelatedTo,sunny side up,/c/en/sunny_side_up,,1.0
+volské oko,/c/cs/volské_oko/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+eggburger,/c/en/eggburger/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,RelatedTo,shallow fry,/c/en/shallow_fry,,1.0
+silog,/c/ceb/silog/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,uovo al tegamino,/c/it/uovo_al_tegamino,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,τηγανητο αβγο,/c/el/τηγανητο_αβγο,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,stekt ägg,/c/sv/stekt_ägg,,1.0
+bife a cavalo,/c/pt/bife_a_cavalo/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+telor ceplok,/c/id/telor_ceplok/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,계란 프라이,/c/ko/계란_프라이,,1.0
+spiegelei,/c/nl/spiegelei/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+huevo frito,/c/es/huevo_frito/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+spigelee,/c/lb/spigelee/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+croque madame,/c/en/croque_madame/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+œuf miroir,/c/fr/œuf_miroir/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+longsilog,/c/ceb/longsilog/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fry up,/c/en/fry_up/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,œuf miroir,/c/fr/œuf_miroir,,1.0
+over medium,/c/en/over_medium/r,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+loco moco,/c/en/loco_moco/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,IsA,hot,/c/en/hot,,1.0
+egg banjo,/c/en/egg_banjo/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+œuf sur le plat,/c/fr/œuf_sur_le_plat/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,paistettu muna,/c/fi/paistettu_muna,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,ไข่ทอด,/c/th/ไข่ทอด,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,steikt egg,/c/fo/steikt_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,煎鸡蛋,/c/zh/煎鸡蛋,,1.0
+卵包,/c/zh/卵包/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,ไข่ดาว,/c/th/ไข่ดาว,,1.0
+sunny side up,/c/en/sunny_side_up/r,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+uovo al tegamino,/c/it/uovo_al_tegamino/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+huevos divorciados,/c/en/huevos_divorciados/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,oeu fricachi,/c/nrf/oeu_fricachi,,1.0
+fried egg,/c/en/fried_egg/n,RelatedTo,over easy,/c/en/over_easy,,1.0
+煎蛋,/c/zh/煎蛋/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,煎蛋,/c/zh/煎蛋,,1.0
+mcmuffin,/c/en/mcmuffin/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,Synonym,ovo frito,/c/pt/ovo_frito,,1.0
+目玉焼き,/c/ja/目玉焼き/n,RelatedTo,fried egg,/c/en/fried_egg,,1.0
+fried egg,/c/en/fried_egg/n,HasContext,golf,/c/en/golf,,1.0
+fried egg,/c/en/fried_egg,ExternalURL,fried egg,http://fr.wiktionary.org/wiki/fried_egg,,0.25
+fried egg,/c/en/fried_egg,ExternalURL,fried egg,http://en.wiktionary.org/wiki/fried_egg,,0.25

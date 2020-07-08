@@ -1,0 +1,184 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+orange juice,/c/en/orange_juice,AtLocation,the fridge,/c/en/fridge,*Something you find in [[the fridge]] is [[orange juice]],3.4641016151377544
+Orange juice,/c/en/orange_juice,HasA,vitamin c,/c/en/vitamin_c,[[Orange juice]] contains [[vitamin c]],2.0
+orange juice,/c/en/orange_juice/n/wn/food,IsA,fruit juice,/c/en/fruit_juice/n/wn/food,[[orange juice]] is a type of [[fruit juice]],2.0
+laranja-ur,/c/eu/laranja_ur/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[laranja-ur]] is a translation of [[orange juice]],2.0
+Orange juice,/c/en/orange_juice,ReceivesAction,made from oranges,/c/en/made_from_oranges,[[Orange juice]] is [[made from oranges]],2.0
+suco de laranja,/c/pt/suco_de_laranja/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[suco de laranja]] is a translation of [[orange juice]],2.0
+appelsiinimehu,/c/fi/appelsiinimehu/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[appelsiinimehu]] is a translation of [[orange juice]],2.0
+オレンジジュース,/c/ja/オレンジジュース/n,Synonym,orange juice,/c/en/orange_juice,,2.0
+jus jeruk,/c/id/jus_jeruk/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[jus jeruk]] is a translation of [[orange juice]],2.0
+taronjada,/c/ca/taronjada/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[taronjada]] is a translation of [[orange juice]],2.0
+jus jeruk,/c/ms/jus_jeruk/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[jus jeruk]] is a translation of [[orange juice]],2.0
+frozen orange juice,/c/en/frozen_orange_juice/n/wn/food,IsA,orange juice,/c/en/orange_juice/n/wn/food,[[frozen orange juice]] is a type of [[orange juice]],2.0
+sari buah jeruk,/c/id/sari_buah_jeruk/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[sari buah jeruk]] is a translation of [[orange juice]],2.0
+น้ำส้ม,/c/th/น้ําส้ม/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[น้ำส้ม]] is a translation of [[orange juice]],2.0
+オレンジジュース,/c/ja/オレンジジュース/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[オレンジジュース]] is a translation of [[orange juice]],2.0
+orange juice,/c/en/orange_juice,IsA,a common source of vitamin c,/c/en/common_source_of_vitamin_c,[[orange juice]] is [[a common source of vitamin c]],2.0
+laranja-zuku,/c/eu/laranja_zuku/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[laranja-zuku]] is a translation of [[orange juice]],2.0
+น้ำส้มคั้น,/c/th/น้ําส้มคั้น/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[น้ำส้มคั้น]] is a translation of [[orange juice]],2.0
+sok pomarańczowy,/c/pl/sok_pomarańczowy/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[sok pomarańczowy]] is a translation of [[orange juice]],2.0
+zumo de naranja,/c/es/zumo_de_naranja/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[zumo de naranja]] is a translation of [[orange juice]],2.0
+orange juice,/c/en/orange_juice,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[orange juice]],2.0
+suc de taronja,/c/ca/suc_de_taronja/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[suc de taronja]] is a translation of [[orange juice]],2.0
+jus d'orange,/c/fr/jus_d_orange/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[jus d'orange]] is a translation of [[orange juice]],2.0
+aranciata,/c/it/aranciata/n/wn/food,Synonym,orange juice,/c/en/orange_juice/n/wn/food,[[aranciata]] is a translation of [[orange juice]],2.0
+オレンジ ジュース,/c/ja/オレンジ_ジュース/n,Synonym,orange juice,/c/en/orange_juice,,2.0
+橙汁,/c/zh/橙汁,Synonym,orange juice,/c/en/orange_juice,,1.5
+orange juice,/c/en/orange_juice/n,IsA,beverage,/c/en/beverage/n,,1.0
+sinesappelsop,/c/fy/sinesappelsop/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+Orange juice,/c/en/orange_juice,UsedFor,drinking,/c/en/drinking,[[Orange juice]] is for [[drinking]],1.0
+orange juice,/c/en/orange_juice/n,Synonym,katas ng kahel,/c/fil/katas_ng_kahel,,1.0
+bronx,/c/en/bronx/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice,ExternalURL,Orange juice,http://umbel.org/umbel/sc/Orange_juice,,1.0
+xnipec,/c/en/xnipec/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+sex on beach,/c/en/sex_on_beach/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+pomerančový džus,/c/cs/pomerančový_džus/a,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice concentrate,/c/en/orange_juice_concentrate,DerivedFrom,orange juice,/c/en/orange_juice/n,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,sinaasappelsap,/c/nl/sinaasappelsap,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,maji ya machungwa,/c/sw/maji_ya_machungwa,,1.0
+orange juice,/c/en/orange_juice/n,RelatedTo,squeeze,/c/en/squeeze,,1.0
+orangeade,/c/en/orangeade/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,апельсиновий сік,/c/uk/апельсиновий_сік,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,ཚ ལུ མའི ཁུ བ,/c/bo/ཚ_ལུ_མའི_ཁུ_བ,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,柳丁汁,/c/zh/柳丁汁,,1.0
+apelsinimahl,/c/et/apelsinimahl/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,RelatedTo,cocktail,/c/en/cocktail,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,suco sumo de laranja,/c/pt/suco_sumo_de_laranja,,1.0
+buck's fizz,/c/en/buck's_fizz/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,ExternalURL,OrangeJuice,http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice,,1.0
+oj,/c/en/oj/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,RelatedTo,orange,/c/fr/orange,,1.0
+jus d orange,/c/nl/jus_d_orange/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+portakal suyu,/c/tr/portakal_suyu/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+screwdriver,/c/en/screwdriver/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+appelsiinimehu,/c/fi/appelsiinimehu/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,橘汁,/c/zh/橘汁,,1.0
+apelsinjuice,/c/sv/apelsinjuice/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,sari buah jeruk,/c/id/sari_buah_jeruk,,1.0
+柳橙汁,/c/zh/柳橙汁,Synonym,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,apelsinjuice,/c/sv/apelsinjuice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,jus d orange,/c/nl/jus_d_orange,,1.0
+jus d orange,/c/fr/jus_d_orange/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,RelatedTo,jus,/c/fr/jus,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,jus oren,/c/ms/jus_oren,,1.0
+orange juice,/c/en/orange_juice,ExternalURL,Orange juice,http://dbpedia.org/resource/Orange_juice,,1.0
+apelsīnu sula,/c/lv/apelsīnu_sula/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+appelsínusafi,/c/is/appelsínusafi/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+tequila sunrise,/c/en/tequila_sunrise/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+橘子汁,/c/zh/橘子汁,Synonym,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,appelsiinimehu,/c/fi/appelsiinimehu,,1.0
+jus d’ orange,/c/fr/jus_d’_orange/n,Synonym,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,오렌지 주스,/c/ko/오렌지_주스,,1.0
+shirley temple,/c/en/shirley_temple/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,o saft,/c/de/o_saft,,1.0
+オレンジジュース,/c/ja/オレンジジュース/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+apfelsinensaft,/c/de/apfelsinensaft/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+오렌지 주스,/c/ko/오렌지_주스/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice,DerivedFrom,juice,/c/en/juice/n/wikt/en_1,,1.0
+harvey wallbanger,/c/en/harvey_wallbanger/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice,ExternalURL,OrangeJuice,http://umbel.org/umbel/sc/OrangeJuice,,1.0
+orange juices,/c/en/orange_juices/n,FormOf,orange juice,/c/en/orange_juice,,1.0
+zumo de naranja,/c/es/zumo_de_naranja/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,ExternalURL,Orange juice,http://sw.opencyc.org/2012/05/10/concept/en/Orange_juice,,1.0
+Orange juice,/c/en/orange_juice,IsA,acidic,/c/en/acidic,[[Orange juice]] is [[acidic]],1.0
+orange juice,/c/en/orange_juice,AtLocation,a carton,/c/en/carton,You are likely to find [[orange juice]] in [[a carton]].,1.0
+succo d arancia,/c/it/succo_d_arancia/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,oranžni sok,/c/sl/oranžni_sok,,1.0
+orange juice,/c/en/orange_juice,IsA,a liquid,/c/en/liquid,[[orange juice]] is [[a liquid]],1.0
+orange juice,/c/en/orange_juice/n,Synonym,jus d orange,/c/fr/jus_d_orange,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,柳橙汁,/c/zh/柳橙汁,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,柳丁汁,/c/hak/柳丁汁,,1.0
+Orange juice,/c/en/orange_juice,IsA,a complex liquid,/c/en/complex_liquid,[[Orange juice]] is [[a complex liquid]],1.0
+tizana,/c/es/tizana/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,sok pomarańczowy,/c/pl/sok_pomarańczowy,,1.0
+appelsinsákta,/c/se/appelsinsákta/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+oj,/c/en/oj,DerivedFrom,orange juice,/c/en/orange_juice/n,,1.0
+오렌지 주스,/c/ko/오렌지_주스,EtymologicallyDerivedFrom,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,suc de taronja,/c/ca/suc_de_taronja,,1.0
+orange juice,/c/en/orange_juice/n/wn/food,ExternalURL,107941074-n,http://wordnet-rdf.princeton.edu/wn31/107941074-n,,1.0
+appelsinjuice,/c/da/appelsinjuice/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+campari,/c/en/campari/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,IsA,sweet thing,/c/en/sweet_thing/n,,1.0
+maji ya machungwa,/c/sw/maji_ya_machungwa/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,pomerančový džus,/c/cs/pomerančový_džus,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,χυμοσ πορτοκαλιου,/c/el/χυμοσ_πορτοκαλιου,,1.0
+orange juice,/c/en/orange_juice/n,RelatedTo,beverage,/c/en/beverage,,1.0
+orangensaft,/c/de/orangensaft/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+橘汁,/c/zh/橘汁/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,portakal suyu,/c/tr/portakal_suyu,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,柳丁汁,/c/nan/柳丁汁,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,オレンジジュース,/c/ja/オレンジジュース,,1.0
+orange juice,/c/en/orange_juice/n,IsA,juice,/c/en/juice/n,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,chʼil łitsxooí bitooʼ,/c/nv/chʼil_łitsxooí_bitooʼ,,1.0
+πορτοκαλάδα,/c/el/πορτοκαλάδα/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,appelsínusafi,/c/is/appelsínusafi,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,appelsiinitäysmehu,/c/fi/appelsiinitäysmehu,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,narancslé,/c/hu/narancslé,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,succo d arancia,/c/it/succo_d_arancia,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,橙汁,/c/zh/橙汁,,1.0
+orange juice,/c/en/orange_juice,ExternalURL,Q219059,http://wikidata.dbpedia.org/resource/Q219059,,1.0
+sinaasappelsap,/c/nl/sinaasappelsap/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,сок од портокал,/c/mk/сок_од_портокал,,1.0
+橙汁,/c/zh/橙汁/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+ទឹកក្រូច,/c/km/ទឹកក្រូច/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,appelsinjuice,/c/da/appelsinjuice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,מיץ תפוזים,/c/he/מיץ_תפוזים,,1.0
+orange juice,/c/en/orange_juice/n,IsA,mixture,/c/en/mixture/n,,1.0
+appelsiensap,/c/nl/appelsiensap/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,appilsindjús,/c/fo/appilsindjús,,1.0
+orangensaft,/c/de/orangensaft/n,Synonym,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,zumo de naranja,/c/es/zumo_de_naranja,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,橘子汁,/c/zh/橘子汁,,1.0
+mimosa,/c/en/mimosa/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+апельсиновый сок,/c/ru/апельсиновый_сок/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,apelsīnu sula,/c/lv/apelsīnu_sula,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,jugo de naranja,/c/es/jugo_de_naranja,,1.0
+appilsindjús,/c/fo/appilsindjús/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+alabama slammer,/c/en/alabama_slammer/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+tuoremehu,/c/fi/tuoremehu/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,orangensaft,/c/de/orangensaft,,1.0
+Orange juice,/c/en/orange_juice,HasProperty,one kind of breakfast drink,/c/en/one_kind_of_breakfast_drink,[[Orange juice]] is [[one kind of breakfast drink]],1.0
+orange juice,/c/en/orange_juice/n,Synonym,апельсиновый сок,/c/ru/апельсиновый_сок,,1.0
+orange juice,/c/en/orange_juice,HasA,pulp in it,/c/en/pulp_in,[[orange juice]] has [[pulp in it]],1.0
+orange juice,/c/en/orange_juice/n,Synonym,apelsinu sultys,/c/lt/apelsinu_sultys,,1.0
+น้ําส้ม,/c/th/น้ําส้ม/n,RelatedTo,orange juice,/c/en/orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,Synonym,sùgh orainds,/c/gd/sùgh_orainds,,1.0
+nước cam,/c/vi/nước_cam,Synonym,orange juice,/c/en/orange_juice,,0.5
+orange juice,/c/en/orange_juice,IsA,beverage,/c/en/beverage/n,,0.5
+նարնջի հյութ,/c/hy/նարնջի_հյութ,Synonym,orange juice,/c/en/orange_juice,,0.5
+orange juice,/c/en/orange_juice,Synonym,orange juice,/c/en/orange_juice,,0.5
+آب پرتقال,/c/fa/آب_پرتقال,Synonym,orange juice,/c/en/orange_juice,,0.5
+πορτοκαλάδα,/c/el/πορτοκαλάδα,Synonym,orange juice,/c/en/orange_juice,,0.5
+عصير برتقال,/c/ar/عصير_برتقال,Synonym,orange juice,/c/en/orange_juice,,0.5
+zumo de naranja,/c/es/zumo_de_naranja,Synonym,orange juice,/c/en/orange_juice,,0.5
+appelsinjuice,/c/da/appelsinjuice,Synonym,orange juice,/c/en/orange_juice,,0.5
+succo d arancia,/c/it/succo_d_arancia,Synonym,orange juice,/c/en/orange_juice,,0.5
+ஆரஞ்சுச் சாறு,/c/ta/ஆரஞ்சுச்_சாறு,Synonym,orange juice,/c/en/orange_juice,,0.5
+narancslé,/c/hu/narancslé,Synonym,orange juice,/c/en/orange_juice,,0.5
+suco de laranja,/c/pt/suco_de_laranja,Synonym,orange juice,/c/en/orange_juice,,0.5
+नारङ्गफलरसः,/c/sa/नारङ्गफलरसः,Synonym,orange juice,/c/en/orange_juice,,0.5
+מאראנצן זאפט,/c/yi/מאראנצן_זאפט,Synonym,orange juice,/c/en/orange_juice,,0.5
+appelsínusafi,/c/is/appelsínusafi,Synonym,orange juice,/c/en/orange_juice,,0.5
+sari buah jeruk,/c/id/sari_buah_jeruk,Synonym,orange juice,/c/en/orange_juice,,0.5
+апельсиновый сок,/c/ru/апельсиновый_сок,Synonym,orange juice,/c/en/orange_juice,,0.5
+апельсиновий сік,/c/uk/апельсиновий_сік,Synonym,orange juice,/c/en/orange_juice,,0.5
+appelsiinimehu,/c/fi/appelsiinimehu,Synonym,orange juice,/c/en/orange_juice,,0.5
+oranĝsuko,/c/eo/oranĝsuko,Synonym,orange juice,/c/en/orange_juice,,0.5
+appelsinjuice,/c/no/appelsinjuice,Synonym,orange juice,/c/en/orange_juice,,0.5
+oranger juice,/c/sco/oranger_juice,Synonym,orange juice,/c/en/orange_juice,,0.5
+portakal suyu,/c/tr/portakal_suyu,Synonym,orange juice,/c/en/orange_juice,,0.5
+zume de laranxa,/c/gl/zume_de_laranxa,Synonym,orange juice,/c/en/orange_juice,,0.5
+sú oráistí,/c/ga/sú_oráistí,Synonym,orange juice,/c/en/orange_juice,,0.5
+오렌지 주스,/c/ko/오렌지_주스,Synonym,orange juice,/c/en/orange_juice,,0.5
+น้ําส้ม,/c/th/น้ําส้ม,Synonym,orange juice,/c/en/orange_juice,,0.5
+מיץ תפוזים,/c/he/מיץ_תפוזים,Synonym,orange juice,/c/en/orange_juice,,0.5
+sinaasappelsap,/c/nl/sinaasappelsap,Synonym,orange juice,/c/en/orange_juice,,0.5
+портокалов сок,/c/bg/портокалов_сок,Synonym,orange juice,/c/en/orange_juice,,0.5
+orangensaft,/c/de/orangensaft,Synonym,orange juice,/c/en/orange_juice,,0.5
+jus d orange,/c/fr/jus_d_orange,Synonym,orange juice,/c/en/orange_juice,,0.5
+sok pomarańczowy,/c/pl/sok_pomarańczowy,Synonym,orange juice,/c/en/orange_juice,,0.5
+オレンジジュース,/c/ja/オレンジジュース,Synonym,orange juice,/c/en/orange_juice,,0.5
+オレンジジュース,/c/ja/オレンジジュース,EtymologicallyRelatedTo,orange juice,/c/en/orange_juice,,0.25
+orange juice,/c/en/orange_juice,ExternalURL,orange juice,http://en.wiktionary.org/wiki/orange_juice,,0.25
+orange juice,/c/en/orange_juice,ExternalURL,orange juice,http://fr.wiktionary.org/wiki/orange_juice,,0.25

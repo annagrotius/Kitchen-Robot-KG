@@ -1,0 +1,11 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+bread basket,/c/en/bread_basket/n,FormOf,breadbasket,/c/en/breadbasket,,2.0
+bread baskets,/c/en/bread_baskets/n,FormOf,bread basket,/c/en/bread_basket,,2.0
+molotov breadbasket,/c/en/molotov_breadbasket,DerivedFrom,bread basket,/c/en/bread_basket,,1.0
+糧倉,/c/zh/糧倉,Synonym,bread basket,/c/en/bread_basket,,1.0
+brotkorb,/c/de/brotkorb/n,Synonym,bread basket,/c/en/bread_basket,,1.0
+bread basket,/c/en/bread_basket,DerivedFrom,basket,/c/en/basket/n,,1.0
+糧倉,/c/zh/糧倉/n,RelatedTo,bread basket,/c/en/bread_basket,,1.0
+粮仓,/c/zh/粮仓,Synonym,bread basket,/c/en/bread_basket,,1.0
+bread basket,/c/en/bread_basket,ExternalURL,bread basket,http://en.wiktionary.org/wiki/bread_basket,,0.25
+bread basket,/c/en/bread_basket,ExternalURL,bread-basket,http://en.wiktionary.org/wiki/bread-basket,,0.25

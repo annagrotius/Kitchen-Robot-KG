@@ -1,0 +1,83 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+salt shaker,/c/en/salt_shaker/n,Synonym,solanik,/c/sh/solanik,,2.0
+a salt shaker,/c/en/salt_shaker,AtLocation,a fast-food restaurant,/c/en/fast_food_restaurant,*Something you find at [[a fast-food restaurant]] is [[a salt shaker]],2.0
+salt shaker,/c/en/salt_shaker/n,Synonym,slanik,/c/sh/slanik,,2.0
+塩入れ,/c/ja/塩入れ/n,Synonym,salt shaker,/c/en/salt_shaker,,2.0
+salt shaker,/c/en/salt_shaker/n,Synonym,tuzluk,/c/sh/tuzluk,,2.0
+salt shaker,/c/en/salt_shaker/n/wn/artifact,Synonym,saltshaker,/c/en/saltshaker/n/wn/artifact,[[salt shaker]] is a synonym of [[saltshaker]],2.0
+鹽瓶,/c/zh/鹽瓶/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+солонка,/c/ru/солонка/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+saleiro,/c/gl/saleiro/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,saltbørse,/c/no/saltbørse,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,salière,/c/fr/salière,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,نمکدان,/c/fa/نمکدان,,1.0
+salero,/c/es/salero/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,RelatedTo,container,/c/en/container,,1.0
+spargisale,/c/it/spargisale/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+tuzluk,/c/tr/tuzluk/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,salt cellar,/c/en/salt_cellar,,1.0
+saleiro,/c/pt/saleiro/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,salzstreuer,/c/de/salzstreuer,,1.0
+A salt shaker,/c/en/salt_shaker,HasA,thousands of grains of salt,/c/en/thousands_of_grains_of_salt,[[A salt shaker]] contains [[thousands of grains of salt]],1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,saleiro,/c/pt/saleiro,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,sótartó,/c/hu/sótartó,,1.0
+xwêdank,/c/ku/xwêdank/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,RelatedTo,seasoning,/c/en/seasoning,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,աղաման,/c/hy/աղաման,,1.0
+solniczka,/c/pl/solniczka/n,Synonym,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,αλατιερα,/c/el/αλατιερα,,1.0
+salt shakers,/c/en/salt_shakers/n,FormOf,salt shaker,/c/en/salt_shaker,,1.0
+salzstreuer,/c/de/salzstreuer/n,Synonym,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker,ExternalURL,SaltShaker,http://umbel.org/umbel/sc/SaltShaker,,1.0
+saupoudreuse,/c/fr/saupoudreuse/n/wikt/fr_1,Synonym,salt shaker,/c/en/salt_shaker,,1.0
+slánka,/c/cs/slánka/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,солонка,/c/ru/солонка,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,塩入れ,/c/ja/塩入れ,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,소금병,/c/ko/소금병,,1.0
+salzfass,/c/de/salzfass/n,Synonym,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,saliera,/c/it/saliera,,1.0
+salt shaker,/c/en/salt_shaker/n,IsA,shaker,/c/en/shaker/n,,1.0
+salière,/c/fr/salière/n,Synonym,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,رشاشة الملح,/c/ar/رشاشة_الملح,,1.0
+salt shaker,/c/en/salt_shaker/n,ExternalURL,SaltShaker,http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker,,1.0
+salt shaker,/c/en/salt_shaker/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,saltkar,/c/sv/saltkar,,1.0
+salt shaker,/c/en/salt_shaker,DerivedFrom,shaker,/c/en/shaker/n,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,gatzontzi,/c/eu/gatzontzi,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,salzfässchen,/c/de/salzfässchen,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,сільничка,/c/uk/сільничка,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,鹽瓶,/c/zh/鹽瓶,,1.0
+salt cellar,/c/en/salt_cellar/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,соларник,/c/mk/соларник,,1.0
+pepper shaker,/c/en/pepper_shaker,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,solniczka,/c/pl/solniczka,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,suolasirotin,/c/fi/suolasirotin,,1.0
+salzstreuer,/c/de/salzstreuer/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+suolasirotin,/c/fi/suolasirotin/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,خوێدان,/c/ku/خوێدان,,1.0
+نمکدان,/c/fa/نمکدان/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt cellar,/c/en/salt_cellar/n,Synonym,salt shaker,/c/en/salt_shaker,,1.0
+sander,/c/en/sander/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,slánka,/c/cs/slánka,,1.0
+salière,/c/fr/salière/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,solnička,/c/cs/solnička,,1.0
+salt shaker,/c/en/salt_shaker/n,RelatedTo,salière,/c/fr/salière,,1.0
+saltshaker,/c/en/saltshaker/n,FormOf,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,tuzluk,/c/tr/tuzluk,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,солница,/c/bg/солница,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,saltbøsse,/c/da/saltbøsse,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,盐瓶,/c/zh/盐瓶,,1.0
+salt shaker,/c/en/salt_shaker/n,RelatedTo,facilitate,/c/en/facilitate,,1.0
+A salt shaker,/c/en/salt_shaker,IsA,a small container for table salt,/c/en/small_container_for_table_salt,[[A salt shaker]] is [[a small container for table salt]],1.0
+αλατιέρα,/c/el/αλατιέρα/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+a salt shaker,/c/en/salt_shaker,AtLocation,a table,/c/en/table,*Something you find on [[a table]] is [[a salt shaker]],1.0
+salt shaker,/c/en/salt_shaker/n,IsA,kitchenware,/c/en/kitchenware/n,,1.0
+salt shakers,/c/en/salt_shakers/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+соларник,/c/mk/соларник/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+solniczka,/c/pl/solniczka/n,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,saltbøsse,/c/no/saltbøsse,,1.0
+salt shaker,/c/en/salt_shaker/n,RelatedTo,sprinkling,/c/en/sprinkling,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,salero,/c/es/salero,,1.0
+salt shaker,/c/en/salt_shaker/n,Synonym,salujo,/c/eo/salujo,,1.0
+salt shaker,/c/en/salt_shaker,ExternalURL,salt shaker,http://fr.wiktionary.org/wiki/salt_shaker,,0.25
+salt shaker,/c/en/salt_shaker,ExternalURL,salt shaker,http://en.wiktionary.org/wiki/salt_shaker,,0.25

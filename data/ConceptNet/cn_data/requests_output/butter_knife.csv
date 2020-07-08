@@ -1,0 +1,42 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+バター ナイフ,/c/ja/バター_ナイフ/n,Synonym,butter knife,/c/en/butter_knife,,2.0
+butter knife,/c/en/butter_knife/n/wn/artifact,IsA,table knife,/c/en/table_knife/n/wn/artifact,[[butter knife]] is a type of [[table knife]],2.0
+バターナイフ,/c/ja/バターナイフ/n,Synonym,butter knife,/c/en/butter_knife,,2.0
+バターナイフ,/c/ja/バターナイフ/n/wn/artifact,Synonym,butter knife,/c/en/butter_knife/n/wn/artifact,[[バターナイフ]] is a translation of [[butter knife]],2.0
+butter knife,/c/en/butter_knife,CapableOf,butter bread,/c/en/butter_bread,[[butter knife]] can [[butter bread]],2.0
+couteau à beurre,/c/fr/couteau_à_beurre/n/wn/artifact,Synonym,butter knife,/c/en/butter_knife/n/wn/artifact,[[couteau à beurre]] is a translation of [[butter knife]],2.0
+coltellino da burro,/c/it/coltellino_da_burro/n/wn/artifact,Synonym,butter knife,/c/en/butter_knife/n/wn/artifact,[[coltellino da burro]] is a translation of [[butter knife]],2.0
+มีดปาดเนย,/c/th/มีดปาดเนย/n/wn/artifact,Synonym,butter knife,/c/en/butter_knife/n/wn/artifact,[[มีดปาดเนย]] is a translation of [[butter knife]],2.0
+voiveitsi,/c/fi/voiveitsi/n/wn/artifact,Synonym,butter knife,/c/en/butter_knife/n/wn/artifact,[[voiveitsi]] is a translation of [[butter knife]],2.0
+voiveitsi,/c/fi/voiveitsi/n,RelatedTo,butter knife,/c/en/butter_knife,,1.0
+butter knife,/c/en/butter_knife/n,IsA,knife,/c/en/knife/n,,1.0
+couteau à beurre,/c/fr/couteau_à_beurre/n,Synonym,butter knife,/c/en/butter_knife,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,黃油刀,/c/zh/黃油刀,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,coltello da burro,/c/it/coltello_da_burro,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,нож для масла,/c/ru/нож_для_масла,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,smjörhnífur,/c/is/smjörhnífur,,1.0
+butter knives,/c/en/butter_knives/n,RelatedTo,butter knife,/c/en/butter_knife,,1.0
+butter knife,/c/en/butter_knife/n,RelatedTo,table,/c/en/table,,1.0
+butter knife,/c/en/butter_knife/n,RelatedTo,couteau à beurre,/c/fr/couteau_à_beurre,,1.0
+buttermesser,/c/de/buttermesser/n,RelatedTo,butter knife,/c/en/butter_knife,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,buttermesser,/c/de/buttermesser,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,voiveitsi,/c/fi/voiveitsi,,1.0
+butter knife,/c/en/butter_knife/n,ExternalURL,ButterKnife,http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife,,1.0
+butter knife,/c/en/butter_knife/n,IsA,silverware,/c/en/silverware/n,,1.0
+smjörhnífur,/c/is/smjörhnífur/n,RelatedTo,butter knife,/c/en/butter_knife,,1.0
+butter knife,/c/en/butter_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+A butter knife,/c/en/butter_knife,UsedFor,spreading butter on bread,/c/en/spreading_butter_on_bread,[[A butter knife]] is for [[spreading butter on bread]],1.0
+butter knives,/c/en/butter_knives/n,FormOf,butter knife,/c/en/butter_knife,,1.0
+butterknife,/c/en/butterknife/n,FormOf,butter knife,/c/en/butter_knife,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,バターナイフ,/c/ja/バターナイフ,,1.0
+butter knife,/c/en/butter_knife/n/wn/artifact,ExternalURL,102931433-n,http://wordnet-rdf.princeton.edu/wn31/102931433-n,,1.0
+couteau à beurre,/c/fr/couteau_à_beurre/n,RelatedTo,butter knife,/c/en/butter_knife,,1.0
+buttermesser,/c/de/buttermesser/n,Synonym,butter knife,/c/en/butter_knife,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,黄油刀,/c/zh/黄油刀,,1.0
+butter knife,/c/en/butter_knife/n,RelatedTo,serrated,/c/en/serrated,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,butter spreader,/c/en/butter_spreader,,1.0
+butter knife,/c/en/butter_knife/n,Synonym,couteau à beurre,/c/fr/couteau_à_beurre,,1.0
+butter knife,/c/en/butter_knife,ExternalURL,ButterKnife,http://umbel.org/umbel/sc/ButterKnife,,1.0
+butterknife,/c/en/butterknife,FormOf,butter knife,/c/en/butter_knife/n,,1.0
+butter knife,/c/en/butter_knife,ExternalURL,butter knife,http://fr.wiktionary.org/wiki/butter_knife,,0.25
+butter knife,/c/en/butter_knife,ExternalURL,butter knife,http://en.wiktionary.org/wiki/butter_knife,,0.25

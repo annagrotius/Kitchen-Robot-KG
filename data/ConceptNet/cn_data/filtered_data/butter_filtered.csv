@@ -1,0 +1,54 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ butter,/c/en/butter,IsA,a food,/c/en/food,[[butter]] is [[a food]],7.483314773547883
+ butter,/c/en/butter,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[butter]],6.0
+ butter,/c/en/butter,HasProperty,yellow,/c/en/yellow,[[Butter]] is [[yellow]],5.656854249492381
+ butter,/c/en/butter,CapableOf,spread at room temperature,/c/en/spread_at_room_temperature,[[Butter]] can [[spread at room temperature]],5.291502622129181
+ butter,/c/en/butter,ReceivesAction,made from milk,/c/en/made_from_milk,[[Butter]] is [[made from milk]],5.291502622129181
+ butter,/c/en/butter,IsA,a dairy product,/c/en/dairy_product,[[Butter]] is [[a dairy product]],4.898979485566356
+ butter,/c/en/butter,AtLocation,the fridge,/c/en/fridge,*Something you find in [[the fridge]] is [[butter]],4.898979485566356
+ butter,/c/en/butter,CapableOf,spread on bread,/c/en/spread_on_bread,[[Butter]] can [[spread on bread]],4.898979485566356
+ butter,/c/en/butter,AtLocation,a restaurant,/c/en/restaurant,*Something you find in [[a restaurant]] is [[butter]],4.47213595499958
+ butter,/c/en/butter,AtLocation,a pastry,/c/en/pastry,You are likely to find [[butter]] in [[a pastry]],4.47213595499958
+a knife,/c/en/knife,UsedFor, butter,/c/en/butter,[[a knife]] is used for [[butter]],4.0
+ butter,/c/en/butter,ReceivesAction,made from cream,/c/en/made_from_cream,[[Butter]] is [[made from cream]],4.0
+ butter,/c/en/butter,ReceivesAction,eaten with toast,/c/en/eaten_with_toast,[[butter]] is [[eaten with toast]],4.0
+ butter,/c/en/butter,IsA,an ingredient often,/c/en/ingredient_often,[[butter]] is [[an ingredient often]],4.0
+ yak butter,/c/en/yak_butter/n/wn/food,IsA, butter,/c/en/butter/n/wn/food,[[yak butter]] is a type of [[butter]],2.0
+ butter,/c/en/butter,ReceivesAction,made from churned milk,/c/en/made_from_churned_milk,[[Butter]] is [[made from churned milk]],2.0
+ butter,/c/en/butter/n/wn/food,IsA,food,/c/en/food/n/wn/food,[[butter]] is a type of [[food]],2.0
+ butter,/c/en/butter,HasProperty,soft,/c/en/soft,[[butter]] is generally [[soft]],2.0
+ clarified butter,/c/en/clarified_butter/n/wn/food,IsA, butter,/c/en/butter/n/wn/food,[[clarified butter]] is a type of [[butter]],2.0
+ brown butter,/c/en/brown_butter/n/wn/food,IsA, butter,/c/en/butter/n/wn/food,[[brown butter]] is a type of [[butter]],2.0
+ meuniere butter,/c/en/meuniere_butter/n/wn/food,IsA, butter,/c/en/butter/n/wn/food,[[Meuniere butter]] is a type of [[butter]],2.0
+ butter,/c/en/butter,ReceivesAction,used in many baking recipes,/c/en/used_in_many_baking_recipes,[[Butter]] is [[used in many baking recipes]],2.0
+stick,/c/en/stick/n/wn/food,IsA, butter,/c/en/butter/n/wn/food,[[stick]] is a type of [[butter]],2.0
+ butter,/c/en/butter,HasProperty,pale yellow,/c/en/pale_yellow,[[butter]] is generally [[pale yellow]],2.0
+ butter,/c/en/butter,CapableOf,coat a frying pan,/c/en/coat_frying_pan,[[Butter]] can [[coat a frying pan]],2.0
+ butter,/c/en/butter/n/wn/person,IsA,combatant,/c/en/combatant/n/wn/person,[[butter]] is a type of [[combatant]],2.0
+ butter,/c/en/butter,AtLocation,a store,/c/en/store,You are likely to find [[butter]] in [[a store]].,2.0
+ butter,/c/en/butter,UsedFor,flavoring,/c/en/flavoring,[[butter]] is for [[flavoring]].,2.0
+ butter,/c/en/butter,ReceivesAction,served at a restaurant,/c/en/served_at_restaurant,[[butter]] is [[served at a restaurant]],2.0
+ butter,/c/en/butter/n/wn/food,IsA,dairy product,/c/en/dairy_product/n/wn/food,[[butter]] is a type of [[dairy product]],2.0
+ butter,/c/en/butter/n,IsA,dairy product,/c/en/dairy_product/n,,1.0
+ butter,/c/en/butter/v/wn/contact,ExternalURL,201270562-v,http://wordnet-rdf.princeton.edu/wn31/201270562-v,,1.0
+ butter,/c/en/butter/n,IsA,bendable thing,/c/en/bendable_thing/n,,1.0
+ pat butter,/c/en/pat_of_butter/n,IsA, butter,/c/en/butter/n,,1.0
+ butter,/c/en/butter/n,IsA,grocery,/c/en/grocery/n,,1.0
+ butter,/c/en/butter/n,IsA,solid object,/c/en/solid_object/n,,1.0
+ butter,/c/en/butter/n,ExternalURL, butter,http://sw.opencyc.org/2012/05/10/concept/en/Butter,,1.0
+ butter,/c/en/butter/n/wn/food,ExternalURL,107864314-n,http://wordnet-rdf.princeton.edu/wn31/107864314-n,,1.0
+ butter,/c/en/butter,HasProperty,edible,/c/en/edible,[[butter]] is [[edible]],1.0
+ butter,/c/en/butter/n,IsA,condiment,/c/en/condiment/n,,1.0
+ butter,/c/en/butter/n/wn/person,ExternalURL,109904267-n,http://wordnet-rdf.princeton.edu/wn31/109904267-n,,1.0
+ butter,/c/en/butter/n,IsA,mixture,/c/en/mixture/n,,1.0
+ butter,/c/en/butter,ExternalURL, butter,http://dbpedia.org/resource/Butter,,1.0
+ butter,/c/en/butter,ExternalURL,q34172,http://wikidata.dbpedia.org/resource/Q34172,,1.0
+ butter,/c/en/butter/n,IsA,homogeneous structure,/c/en/homogeneous_structure/n,,1.0
+ butter,/c/en/butter,AtLocation,homes,/c/en/homes,You are likely to find [[butter]] in [[homes]].,1.0
+ butter,/c/en/butter/n,IsA,spread,/c/en/spread/n/opencyc/spread_food,,1.0
+ butter,/c/en/butter,ReceivesAction,eaten,/c/en/eaten,[[butter]] can be [[eaten]],1.0
+ butter,/c/en/butter,IsA,like solid milk,/c/en/like_solid_milk,[[Butter]] is [[like solid milk]],1.0
+ butter,/c/en/butter/n,IsA,yellow,/c/en/yellow/n,,1.0
+ butter,/c/en/butter/n,IsA,fat,/c/en/fat/n/opencyc/edible_fat,,1.0
+ butter,/c/en/butter,MadeOf,milk,/c/en/milk,[[butter]] is made of [[milk]],1.0
+ butter,/c/en/butter,ExternalURL, butter,http://umbel.org/umbel/sc/Butter,,1.0

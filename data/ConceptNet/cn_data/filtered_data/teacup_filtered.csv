@@ -1,0 +1,8 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ teacup,/c/en/teacup/n/wn/quantity,IsA,containerful,/c/en/containerful/n/wn/quantity,[[teacup]] is a type of [[containerful]],2.0
+handle,/c/en/handle/n/wn/artifact,PartOf, teacup,/c/en/teacup/n/wn/artifact,[[handle]] is a part of [[teacup]],2.0
+ teacup,/c/en/teacup/n/wn/artifact,IsA,cup,/c/en/cup/n/wn/artifact,[[teacup]] is a type of [[cup]],2.0
+ teacup,/c/en/teacup,IsA,a dish,/c/en/dish,[[A teacup]] is [[a dish]],1.0
+ teacup,/c/en/teacup/n/wn/artifact,ExternalURL,104404587-n,http://wordnet-rdf.princeton.edu/wn31/104404587-n,,1.0
+ teacup,/c/en/teacup/n/wn/quantity,ExternalURL,113792775-n,http://wordnet-rdf.princeton.edu/wn31/113792775-n,,1.0
+ teacup,/c/en/teacup,IsA,a container,/c/en/container,[[a teacup]] is [[a container]],1.0

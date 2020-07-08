@@ -1,0 +1,3 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+hardboiled egg,/c/en/hardboiled_egg,FormOf,hard boiled egg,/c/en/hard_boiled_egg/n,,1.0
+hardboiled eggs,/c/en/hardboiled_eggs/n,RelatedTo,hardboiled egg,/c/en/hardboiled_egg,,1.0

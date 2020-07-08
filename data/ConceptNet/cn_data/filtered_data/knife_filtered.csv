@@ -1,0 +1,200 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ knife,/c/en/knife,CapableOf,spread butter,/c/en/spread_butter,[[knife]] can [[spread butter]],9.38083151964686
+ knife,/c/en/knife,AtLocation,the kitchen,/c/en/kitchen,*Something you find in [[the kitchen]] is [[a knife]],6.92820323027551
+ knife,/c/en/knife,CapableOf,spread peanut butter,/c/en/spread_peanut_butter,[[A knife]] can [[spread peanut butter]],6.0
+ knife,/c/en/knife,UsedFor,stabbing,/c/en/stabbing,[[knife]] is for [[stabbing]],5.656854249492381
+ knife,/c/en/knife,AtLocation,a drawer,/c/en/drawer,*Something you find in [[a drawer]] is [[a knife]],4.47213595499958
+ knife,/c/en/knife,UsedFor,butter,/c/en/butter,[[a knife]] is used for [[butter]],4.0
+the blade,/c/en/blade,PartOf, knife,/c/en/knife,[[The blade]] is part of [[a knife]],4.0
+ knife,/c/en/knife,UsedFor,cutting food,/c/en/cutting_food,[[a knife]] is for [[cutting food]],3.4641016151377544
+ knife,/c/en/knife,AtLocation,a pocket,/c/en/pocket,*Something you find in [[a pocket]] is [[knife]],3.4641016151377544
+ knife,/c/en/knife,IsA,tool,/c/en/tool,[[A knife]] is a type of [[tool]],3.4641016151377544
+ knife,/c/en/knife,CapableOf,butter bread,/c/en/butter_bread,[[a knife]] can [[butter bread]],3.4641016151377544
+ knife,/c/en/knife,AtLocation,the kitchen drawer,/c/en/kitchen_drawer,You are likely to find [[a knife]] in [[the kitchen drawer]],3.4641016151377544
+ knife,/c/en/knife,CapableOf,hurt a dog,/c/en/hurt_dog,[[a knife]] can [[hurt a dog]],3.4641016151377544
+ knife,/c/en/knife,CapableOf,cut,/c/en/cut,[[A knife]] can [[cut]],3.4641016151377544
+ knife,/c/en/knife,CapableOf,cut that apple,/c/en/cut_apple,[[a knife]] can [[cut that apple]],3.4641016151377544
+ knife,/c/en/knife,CapableOf,hurt,/c/en/hurt,[[a knife]] can [[hurt]],2.82842712474619
+ knife,/c/en/knife,UsedFor,slicing,/c/en/slicing,[[a knife]] is used for [[slicing]],2.82842712474619
+ knife,/c/en/knife,UsedFor,carving wood,/c/en/carving_wood,[[a knife]] is used for [[carving wood]],2.82842712474619
+machete,/c/en/machete/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[machete]] is a type of [[knife]],2.0
+khukuri,/c/en/khukuri/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[khukuri]] is a type of [[knife]],2.0
+ bread knife,/c/en/bread_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[bread knife]] is a type of [[knife]],2.0
+ knife,/c/en/knife,UsedFor,killing,/c/en/killing,[[a knife]] is used for [[killing]],2.0
+yataghan,/c/en/yataghan/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[yataghan]] is a type of [[knife]],2.0
+ knife,/c/en/knife/n/wn/artifact,UsedFor,cut,/c/en/cut/v/wn/contact,[[knife]] is used for [[cut]],2.0
+ knife,/c/en/knife,UsedFor,pare an apple,/c/en/pare_apple,You can use [[a knife]] to [[pare an apple]],2.0
+ pruning knife,/c/en/pruning_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[pruning knife]] is a type of [[knife]],2.0
+ pocketknife,/c/en/pocketknife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[pocketknife]] is a type of [[knife]],2.0
+barong,/c/en/barong/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[barong]] is a type of [[knife]],2.0
+ knife,/c/en/knife/n/wn/artifact,UsedFor,stab,/c/en/stab/v/wn/contact,[[knife]] is used for [[stab]],2.0
+ knife,/c/en/knife,UsedFor,cut meat with,/c/en/cut_meat_with,You can use [[a knife]] to [[cut meat with]],2.0
+ linoleum knife,/c/en/linoleum_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[linoleum knife]] is a type of [[knife]],2.0
+ knife,/c/en/knife,UsedFor,cutting steak,/c/en/cutting_steak,[[a knife]] is used for [[cutting steak]],2.0
+ surgical knife,/c/en/surgical_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[surgical knife]] is a type of [[knife]],2.0
+ knife,/c/en/knife/n/wn/artifact,UsedFor,cut,/c/en/cut/n/wn/state,[[knife]] is used for [[cut]],2.0
+ knife,/c/en/knife,UsedFor,slicing bread,/c/en/slicing_bread,[[a knife]] is used for [[slicing bread]],2.0
+ knife,/c/en/knife/n/wn/artifact,UsedFor,cut,/c/en/cut/n/wn/act,[[knife]] is used for [[cut]],2.0
+slicer,/c/en/slicer/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[slicer]] is a type of [[knife]],2.0
+ knife,/c/en/knife/n/wn/artifact,IsA,weapon,/c/en/weapon/n/wn/artifact,[[knife]] is a type of [[weapon]],2.0
+ butcher knife,/c/en/butcher_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[butcher knife]] is a type of [[knife]],2.0
+parer,/c/en/parer/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[parer]] is a type of [[knife]],2.0
+ trench knife,/c/en/trench_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[trench knife]] is a type of [[knife]],2.0
+dagger,/c/en/dagger/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[dagger]] is a type of [[knife]],2.0
+ knife,/c/en/knife,UsedFor,scratching,/c/en/scratching,[[a knife]] is used for [[scratching]],2.0
+cleaver,/c/en/cleaver/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[cleaver]] is a type of [[knife]],2.0
+haft,/c/en/haft/n/wn/artifact,PartOf, knife,/c/en/knife/n/wn/artifact,[[haft]] is a part of [[knife]],2.0
+point,/c/en/point/n/wn/artifact,PartOf, knife,/c/en/knife/n/wn/artifact,[[point]] is a part of [[knife]],2.0
+blade,/c/en/blade/n/wn/artifact,PartOf, knife,/c/en/knife/n/wn/artifact,[[blade]] is a part of [[knife]],2.0
+bolo,/c/en/bolo/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[bolo]] is a type of [[knife]],2.0
+parang,/c/en/parang/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[parang]] is a type of [[knife]],2.0
+ knife,/c/en/knife,UsedFor,cutting,/c/en/cutting,[[Knife]] is for [[cutting]],2.0
+point,/c/en/point/n/wn/shape,PartOf, knife,/c/en/knife/n/wn/artifact,[[point]] is a part of [[knife]],2.0
+ knife blade,/c/en/knife_blade/n/wn/artifact,PartOf, knife,/c/en/knife/n/wn/artifact,[[knife blade]] is a part of [[knife]],2.0
+ knife,/c/en/knife,UsedFor,cut string,/c/en/cut_string,You can use [[a knife]] to [[cut string]],2.0
+shiv,/c/en/shiv/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[shiv]] is a type of [[knife]],2.0
+ carving knife,/c/en/carving_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[carving knife]] is a type of [[knife]],2.0
+letter opener,/c/en/letter_opener/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[letter opener]] is a type of [[knife]],2.0
+stabbing to death,/c/en/stabbing_to_death,HasPrerequisite, knife,/c/en/knife,[[stabbing to death]] requires [[a knife]],2.0
+ drawknife,/c/en/drawknife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[drawknife]] is a type of [[knife]],2.0
+ bowie knife,/c/en/bowie_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[Bowie knife]] is a type of [[knife]],2.0
+ case knife,/c/en/case_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[case knife]] is a type of [[knife]],2.0
+ knife,/c/en/knife,UsedFor,boning,/c/en/boning,[[a knife]] is used for [[boning]],2.0
+ table knife,/c/en/table_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[table knife]] is a type of [[knife]],2.0
+ knife,/c/en/knife/n/wn/artifact,IsA,edge tool,/c/en/edge_tool/n/wn/artifact,[[knife]] is a type of [[edge tool]],2.0
+ hunting knife,/c/en/hunting_knife/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[hunting knife]] is a type of [[knife]],2.0
+bayonet,/c/en/bayonet/n/wn/artifact,IsA, knife,/c/en/knife/n/wn/artifact,[[bayonet]] is a type of [[knife]],2.0
+ knife,/c/en/knife,UsedFor,opening,/c/en/opening,[[a knife]] is used for [[opening]],1.0
+ knife,/c/en/knife,CapableOf,divide bread,/c/en/divide_bread,[[A knife]] can [[divide bread]],1.0
+ knife,/c/en/knife,CapableOf,divide a string,/c/en/divide_string,[[a knife]] can [[divide a string]],1.0
+meat cleaver,/c/en/meat_cleaver/n,IsA, knife,/c/en/knife/n,,1.0
+ knife,/c/en/knife,UsedFor,engraving,/c/en/engraving,[[a knife]] is used for [[engraving]],1.0
+ knife,/c/en/knife,UsedFor,a tool in a shop,/c/en/tool_in_shop,[[a knife]] is used for [[a tool in a shop]],1.0
+ knife,/c/en/knife,UsedFor,splitting,/c/en/splitting,[[a knife]] is used for [[splitting]],1.0
+ knife,/c/en/knife,ExternalURL, knife,http://dbpedia.org/resource/Knife,,1.0
+ knife,/c/en/knife,UsedFor,skinning animals,/c/en/skinning_animals,[[a knife]] is used for [[skinning animals]],1.0
+ knife,/c/en/knife,UsedFor,digging,/c/en/digging,[[a knife]] is used for [[digging]],1.0
+ knife,/c/en/knife,CapableOf,stick you in the ribs,/c/en/stick_in_ribs,[[a knife]] can [[stick you in the ribs]],1.0
+ knife,/c/en/knife,AtLocation, knife store,/c/en/knife_store,You are likely to find [[a knife]] in [[a knife store]],1.0
+ knife,/c/en/knife,CapableOf,quarter a cake,/c/en/quarter_cake,[[a knife]] can [[quarter a cake]],1.0
+ butter knife,/c/en/butter_knife/n,IsA, knife,/c/en/knife/n,,1.0
+ knife,/c/en/knife,UsedFor,carving initials,/c/en/carving_initials,[[a knife]] is used for [[carving initials]],1.0
+ knife,/c/en/knife,UsedFor,chopping vegetables,/c/en/chopping_vegetables,[[a knife]] is used for [[chopping vegetables]],1.0
+ knife,/c/en/knife,UsedFor,mashing,/c/en/mashing,[[a knife]] is used for [[mashing]],1.0
+ knife,/c/en/knife,UsedFor,spreading jam,/c/en/spreading_jam,[[a knife]] is used for [[spreading jam]],1.0
+ knife,/c/en/knife/n,ExternalURL, knife,http://sw.opencyc.org/2012/05/10/concept/en/Knife,,1.0
+ knife,/c/en/knife,UsedFor,eating food,/c/en/eating_food,[[a knife]] is for [[eating food]],1.0
+ knife,/c/en/knife,UsedFor,cut food,/c/en/cut_food,[[A knife]] is used to [[cut food]],1.0
+ knife,/c/en/knife,AtLocation, knife block,/c/en/knife_block,You are likely to find [[a knife]] in [[a knife block]],1.0
+ knife,/c/en/knife,AtLocation,a backpack,/c/en/backpack,*Something you find in [[a backpack]] is [[a knife]],1.0
+ knife,/c/en/knife,UsedFor,paring,/c/en/paring,[[a knife]] is used for [[paring]],1.0
+ knife,/c/en/knife,UsedFor,making a mark,/c/en/making_mark,[[a knife]] is used for [[making a mark]],1.0
+ knife,/c/en/knife,HasProperty,dull,/c/en/dull,[[a knife]] can be [[dull]],1.0
+ knife,/c/en/knife,UsedFor,cutting string,/c/en/cutting_string,[[a knife]] is for [[cutting string]],1.0
+ knife,/c/en/knife,AtLocation,your back,/c/en/back,You are likely to find [[a knife]] in [[your back]],1.0
+ knife,/c/en/knife,UsedFor,gouging,/c/en/gouging,[[a knife]] is used for [[gouging]],1.0
+ steak knife,/c/en/steak_knife/n,IsA, knife,/c/en/knife/n,,1.0
+ knife,/c/en/knife,UsedFor,unraveling,/c/en/unraveling,[[a knife]] is used for [[unraveling]],1.0
+ knife,/c/en/knife,UsedFor,kitchen work,/c/en/kitchen_work,[[a knife]] is used for [[kitchen work]],1.0
+ knife,/c/en/knife,UsedFor,outdoors living,/c/en/outdoors_living,[[a knife]] is used for [[outdoors living]],1.0
+ knife,/c/en/knife,UsedFor,separating,/c/en/separating,[[a knife]] is used for [[separating]],1.0
+ knife,/c/en/knife,CapableOf,spread butter on bread,/c/en/spread_butter_on_bread,[[A knife]] can [[spread butter on bread]],1.0
+ knife,/c/en/knife,UsedFor,putting a butcher block,/c/en/putting_butcher_block,[[a knife]] is used for [[putting a butcher block]],1.0
+ knife,/c/en/knife,UsedFor,cutting meat,/c/en/cutting_meat,[[a knife]] is used for [[Cutting meat]],1.0
+ knife,/c/en/knife,AtLocation,a stabbing victim,/c/en/stabbing_victim,You are likely to find [[a knife]] in [[a stabbing victim]],1.0
+ knife,/c/en/knife,UsedFor,pricking skin,/c/en/pricking_skin,[[a knife]] is used for [[pricking skin]],1.0
+ knife,/c/en/knife,UsedFor,spearing pieces,/c/en/spearing_pieces,[[a knife]] is used for [[spearing pieces]],1.0
+ knife,/c/en/knife,CapableOf,spread margarine,/c/en/spread_margarine,[[knife]] can [[spread margarine]],1.0
+ knife,/c/en/knife,UsedFor,cracking open,/c/en/cracking_open,[[a knife]] is used for [[cracking open]],1.0
+machete,/c/de/machete,IsA, knife,/c/en/knife/n,,1.0
+a mind that is all logic,/c/en/mind_all_logic,IsA, knife,/c/en/knife,[[A mind that is all logic]] is [[a knife]],1.0
+ knife,/c/en/knife,UsedFor,letting blood,/c/en/letting_blood,[[a knife]] is used for [[letting blood]],1.0
+ knife,/c/en/knife,UsedFor,attaching to a rifle,/c/en/attaching_to_rifle,[[a knife]] is used for [[attaching to a rifle]],1.0
+machete,/c/en/machete/n,IsA, knife,/c/en/knife/n,,1.0
+ knife,/c/en/knife,CapableOf,be cutting food,/c/en/cutting_food,[[a knife]] can [[be cutting food]],1.0
+ knife,/c/en/knife,UsedFor,removing labels,/c/en/removing_labels,[[a knife]] is used for [[removing labels]],1.0
+ knife,/c/en/knife,ReceivesAction,sharp,/c/en/sharp,[[a knife]] can be [[sharp]],1.0
+ knife,/c/en/knife,ExternalURL, knife,http://umbel.org/umbel/sc/Knife,,1.0
+ knife,/c/en/knife,UsedFor,turning a screw,/c/en/turning_screw,[[a knife]] is used for [[turning a screw]],1.0
+switchblade,/c/en/switchblade/n,IsA, knife,/c/en/knife/n,,1.0
+ knife,/c/en/knife,UsedFor,prying open,/c/en/prying_open,[[a knife]] is used for [[prying open]],1.0
+ knife,/c/en/knife,UsedFor,taking off ends,/c/en/taking_off_ends,[[a knife]] is used for [[taking off ends]],1.0
+ knife,/c/en/knife,UsedFor,a tool in a backpack,/c/en/tool_in_backpack,[[a knife]] is used for [[a tool in a backpack]],1.0
+ knife,/c/en/knife,UsedFor,trimming,/c/en/trimming,[[a knife]] is used for [[trimming]],1.0
+ knife,/c/en/knife,UsedFor,severing,/c/en/severing,[[a knife]] is used for [[severing]],1.0
+ knife,/c/en/knife,UsedFor,making a groove,/c/en/making_groove,[[a knife]] is used for [[making a groove]],1.0
+ knife,/c/en/knife,UsedFor,attacking an enemy,/c/en/attacking_enemy,[[a knife]] is used for [[attacking an enemy]],1.0
+ knife,/c/en/knife,CapableOf,cut most things,/c/en/cut_most_things,[[A knife]] can [[cut most things]],1.0
+ knife,/c/en/knife,CapableOf,cut leather,/c/en/cut_leather,[[a knife]] can [[cut leather]],1.0
+ knife,/c/en/knife,HasProperty,dangerous,/c/en/dangerous,[[a knife]] can be [[dangerous]],1.0
+ knife,/c/en/knife,UsedFor,threatening someone,/c/en/threatening,[[a knife]] is used for [[threatening someone]],1.0
+ knife,/c/en/knife,UsedFor,gashing,/c/en/gashing,[[a knife]] is used for [[gashing]],1.0
+ knife,/c/en/knife,UsedFor,spreading cheese,/c/en/spreading_cheese,[[a knife]] is used for [[spreading cheese]],1.0
+ knife,/c/en/knife,CapableOf,butter a piece of toast,/c/en/butter_piece_of_toast,[[a knife]] can [[butter a piece of toast]],1.0
+ knife,/c/en/knife,UsedFor,piercing,/c/en/piercing,[[a knife]] is used for [[piercing]],1.0
+ knife,/c/en/knife,UsedFor,alter length of string or rope,/c/en/alter_length_of_string_or_rope,[[a knife]] is used for [[alter length of string or rope]],1.0
+ knife,/c/en/knife,ReceivesAction,found in a kitchen,/c/en/found_in_kitchen,[[a knife]] can be [[found in a kitchen]],1.0
+ knife,/c/en/knife,ReceivesAction,used as a weapon,/c/en/used_as_weapon,[[A knife]] can be [[used as a weapon]],1.0
+ knife,/c/en/knife,MadeOf,steel,/c/en/steel,[[A knife]] is made of [[steel]],1.0
+ knife,/c/en/knife,AtLocation,a silverware drawer,/c/en/silverware_drawer,You are likely to find [[a knife]] in [[a silverware drawer]],1.0
+ knife,/c/en/knife,UsedFor,open a plastic package,/c/en/open_plastic_package,You can use [[a knife]] to [[open a plastic package]],1.0
+ knife,/c/en/knife/n,IsA,manual tool,/c/en/manual_tool/n,,1.0
+ knife,/c/en/knife,IsA,a speciality of thiers in france,/c/en/speciality_of_thiers_in_france,[[knife]] is [[a speciality of Thiers in France]],1.0
+ knife,/c/en/knife,AtLocation, knife-holder,/c/en/knife_holder,You are likely to find [[a knife]] in [[a knife-holder]],1.0
+ knife,/c/en/knife,CapableOf,cut a man's hand,/c/en/cut_man's_hand,[[a knife]] can [[cut a man's hand]],1.0
+ knife,/c/en/knife,UsedFor,complementing a spoon and fork,/c/en/complementing_spoon_and_fork,[[a knife]] is used for [[complementing a spoon and fork]],1.0
+ knife,/c/en/knife,UsedFor,kill a person,/c/en/kill_person,[[a knife]] can be used to [[kill a person]],1.0
+ knife,/c/en/knife/n/wn/artifact,ExternalURL,103628765-n,http://wordnet-rdf.princeton.edu/wn31/103628765-n,,1.0
+ knife,/c/en/knife,UsedFor,forceful moves,/c/en/forceful_moves,[[a knife]] is used for [[forceful moves]],1.0
+ knife,/c/en/knife,UsedFor,lacerating,/c/en/lacerating,[[a knife]] is used for [[lacerating]],1.0
+ knife,/c/en/knife,UsedFor,an eating utensil,/c/en/eating_utensil,[[a knife]] is used for [[an eating utensil]],1.0
+ knife,/c/en/knife,UsedFor,spreading,/c/en/spreading,[[a knife]] is used for [[spreading]],1.0
+ knife,/c/en/knife,UsedFor,fighting,/c/en/fighting,[[a knife]] is used for [[fighting]],1.0
+ knife,/c/en/knife,UsedFor,peeling,/c/en/peeling,[[a knife]] is used for [[peeling]],1.0
+ knife,/c/en/knife,UsedFor,pare apples,/c/en/pare_apples,[[A knife]] is used to [[pare apples]],1.0
+ knife,/c/en/knife,UsedFor,making models,/c/en/making_models,[[a knife]] is used for [[making models]],1.0
+ knife,/c/en/knife,CapableOf,saw bread,/c/en/saw_bread,[[a knife]] can [[saw bread]],1.0
+ knife,/c/en/knife,UsedFor,prying things out,/c/en/prying_things_out,[[a knife]] is used for [[prying things out]],1.0
+ knife,/c/en/knife,UsedFor,counting pills,/c/en/counting_pills,[[a knife]] is used for [[counting pills]],1.0
+ knife,/c/en/knife,AtLocation,your ex husbands back,/c/en/ex_husbands_back,You are likely to find [[a knife]] in [[your ex husbands back]],1.0
+ knife,/c/en/knife,UsedFor,completing a place setting,/c/en/completing_place_setting,[[a knife]] is used for [[completing a place setting]],1.0
+scalpel,/c/en/scalpel/n,IsA, knife,/c/en/knife,,1.0
+ knife,/c/en/knife,UsedFor,disect,/c/en/disect,[[a knife]] can be used to [[disect]],1.0
+ knife,/c/en/knife,UsedFor,notching,/c/en/notching,[[a knife]] is used for [[notching]],1.0
+ knife,/c/en/knife,ExternalURL,q32489,http://wikidata.dbpedia.org/resource/Q32489,,1.0
+ knife,/c/en/knife,UsedFor,making a hole,/c/en/making_hole,[[a knife]] is used for [[making a hole]],1.0
+ knife,/c/en/knife,UsedFor,cut a rope,/c/en/cut_rope,You can use [[a knife]] to [[cut a rope]],1.0
+ knife,/c/en/knife/n,IsA,user powered device,/c/en/user_powered_device/n,,1.0
+killing people,/c/en/killing_people,UsedFor, knife,/c/en/knife,[[killing people]] is for [[knife]],1.0
+ knife,/c/en/knife,UsedFor,shaving,/c/en/shaving,[[a knife]] is used for [[shaving]],1.0
+stiletto,/c/en/stiletto/n,IsA, knife,/c/en/knife,,1.0
+ knife,/c/en/knife,AtLocation,a drawer in a kitchen,/c/en/drawer_in_kitchen,You are likely to find [[a knife]] in [[a drawer in a kitchen]],1.0
+ knife,/c/en/knife,CapableOf,free one's soul,/c/en/free_one's_soul,[[A knife]] can [[free one's soul]],1.0
+ table knife,/c/en/table_knife/n,IsA, knife,/c/en/knife/n,,1.0
+ knife,/c/en/knife,CapableOf,divide a pie,/c/en/divide_pie,[[a knife]] can [[divide a pie]],1.0
+ knife,/c/en/knife,UsedFor,prying things open,/c/en/prying_things_open,[[a knife]] is used for [[prying things open]],1.0
+ knife,/c/en/knife,UsedFor,scoring,/c/en/scoring,[[a knife]] is used for [[scoring]],1.0
+ knife,/c/en/knife,UsedFor,military purposes,/c/en/military_purposes,[[a knife]] is used for [[military purposes]],1.0
+ knife,/c/en/knife,UsedFor,carving features,/c/en/carving_features,[[a knife]] is used for [[carving features]],1.0
+ knife,/c/en/knife,UsedFor,picking things out,/c/en/picking_things_out,[[a knife]] is used for [[picking things out]],1.0
+ carving knife,/c/en/carving_knife/n,IsA, knife,/c/en/knife/n,,1.0
+ pocketknife,/c/en/pocketknife/n,IsA, knife,/c/en/knife/n,,1.0
+ knife,/c/en/knife,AtLocation,a plate,/c/en/plate,You are likely to find [[a knife]] in [[a plate]],1.0
+ knife,/c/en/knife,UsedFor,dividing,/c/en/dividing,[[a knife]] is used for [[dividing]],1.0
+ hunting knife,/c/en/hunting_knife/n,IsA, knife,/c/en/knife/n,,1.0
+ knife,/c/en/knife,UsedFor,decorating a cake,/c/en/decorating_cake,[[a knife]] is used for [[decorating a cake]],1.0
+ knife,/c/en/knife,HasProperty,important for making food,/c/en/important_for_making_food,[[a knife]] is [[important for making food]],1.0
+ knife,/c/en/knife,CapableOf,cut that cake,/c/en/cut_cake,[[a knife]] can [[cut that cake]],1.0
+ knife,/c/en/knife,AtLocation,a war,/c/en/war,You are likely to find [[a knife]] in [[a war]].,1.0
+ knife,/c/en/knife,CapableOf,quarter soft solids,/c/en/quarter_soft_solids,[[A knife]] can [[quarter soft solids]],1.0
+ knife,/c/en/knife,AtLocation,the table,/c/en/table,*Something you find on [[the table]] is [[a knife]],1.0
+ knife,/c/en/knife,CapableOf,harm living creatures,/c/en/harm_living_creatures,[[a knife]] can [[harm living creatures]],1.0
+ knife,/c/en/knife,UsedFor,playing throwing games,/c/en/playing_throwing_games,[[a knife]] is used for [[playing throwing games]],1.0
+ knife,/c/en/knife,UsedFor,cut chicken,/c/en/cut_chicken,You can use [[a knife]] to [[cut chicken]],1.0
+ knife,/c/en/knife,ExternalURL,q741471,http://wikidata.dbpedia.org/resource/Q741471,,1.0
+ knife,/c/en/knife,UsedFor,ripping,/c/en/ripping,[[a knife]] is used for [[ripping]],1.0
+ knife,/c/en/knife,UsedFor,working with wood,/c/en/working_with_wood,[[a knife]] is used for [[working with wood]],1.0
+ knife,/c/en/knife,UsedFor,breaking down into pieces,/c/en/breaking_down_into_pieces,[[a knife]] is used for [[breaking down into pieces]],1.0
+ knife,/c/en/knife,UsedFor,coring,/c/en/coring,[[a knife]] is used for [[coring]],1.0
+ knife,/c/en/knife,HasProperty,very useful to cut meat,/c/en/very_useful_to_cut_meat,[[knife]] is [[very useful to cut meat]],1.0
+ knife,/c/en/knife,UsedFor,slitting,/c/en/slitting,[[a knife]] is used for [[slitting]],1.0

@@ -1,0 +1,494 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+glasses,/c/en/glasses,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[glasses]],8.0
+a bowl,/c/en/bowl,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a bowl]],7.211102550927979
+plates,/c/en/plates,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[plates]],6.32455532033676
+a mouse,/c/en/mouse,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a mouse]],5.291502622129181
+food,/c/en/food,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[food]],4.898979485566356
+a plate,/c/en/plate,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a plate]] in [[a cupboard]],4.0
+a coffee mug,/c/en/coffee_mug,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a coffee mug]],4.0
+a salad bowl,/c/en/salad_bowl,AtLocation,the cupboard,/c/en/cupboard,You are likely to find [[a salad bowl]] in [[the cupboard]],3.4641016151377544
+tea,/c/en/tea,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[tea]],3.4641016151377544
+cans of food,/c/en/cans_of_food,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[cans of food]],3.4641016151377544
+a salad spinner,/c/en/salad_spinner,AtLocation,the cupboard,/c/en/cupboard,You are likely to find [[a salad spinner]] in [[the cupboard]],3.4641016151377544
+a cupboard,/c/en/cupboard,UsedFor,storing your dishes,/c/en/storing_dishes,[[a cupboard]] is used for [[storing your dishes]],3.4641016151377544
+mugs,/c/en/mugs,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[mugs]],3.4641016151377544
+cereal,/c/en/cereal,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[cereal]],3.4641016151377544
+a gravy boat,/c/en/gravy_boat,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a gravy boat]],2.82842712474619
+a container,/c/en/container,AtLocation,the cupboard,/c/en/cupboard,You are likely to find [[a container]] in [[the cupboard]],2.82842712474619
+a cereal bowl,/c/en/cereal_bowl,AtLocation,the cupboard,/c/en/cupboard,You are likely to find [[a cereal bowl]] in [[the cupboard]],2.82842712474619
+canned goods,/c/en/canned_goods,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[canned goods]],2.82842712474619
+a can,/c/en/can,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a can]] in [[a cupboard]],2.82842712474619
+coffee cups,/c/en/coffee_cups,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[coffee cups]],2.82842712474619
+a shelf,/c/en/shelf,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a shelf]],2.82842712474619
+jars,/c/en/jars,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[jars]],2.82842712474619
+ripostiglio,/c/it/ripostiglio/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[ripostiglio]] is a translation of [[cupboard]],2.0
+下駄箱,/c/ja/下駄箱/n,Synonym,cupboard,/c/en/cupboard,,2.0
+komórka,/c/pl/komórka/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[komórka]] is a translation of [[cupboard]],2.0
+クローゼット,/c/ja/クローゼット/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[クローゼット]] is a translation of [[cupboard]],2.0
+armario,/c/gl/armario/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[armario]] is a translation of [[cupboard]],2.0
+stor kecil,/c/ms/stor_kecil/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[stor kecil]] is a translation of [[cupboard]],2.0
+押込み,/c/ja/押込み/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[押込み]] is a translation of [[cupboard]],2.0
+pots,/c/en/pots,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[pots]],2.0
+airing cupboard,/c/en/airing_cupboard/n/wn/artifact,IsA,cupboard,/c/en/cupboard/n/wn/artifact,[[airing cupboard]] is a type of [[cupboard]],2.0
+armairu,/c/eu/armairu/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[armairu]] is a translation of [[cupboard]],2.0
+a cupboard,/c/en/cupboard,UsedFor,coffee mugs,/c/en/coffee_mugs,[[a cupboard]] is for [[coffee mugs]],2.0
+げた箱,/c/ja/げた箱/n,Synonym,cupboard,/c/en/cupboard,,2.0
+supply closet,/c/en/supply_closet/n/wn/artifact,IsA,cupboard,/c/en/cupboard/n/wn/artifact,[[supply closet]] is a type of [[cupboard]],2.0
+ตู้,/c/th/ตู้/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[ตู้]] is a translation of [[cupboard]],2.0
+食器棚,/c/ja/食器棚/n,Synonym,cupboard,/c/en/cupboard,,2.0
+estante,/c/pt/estante/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[estante]] is a translation of [[cupboard]],2.0
+収納家具,/c/ja/収納家具/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[収納家具]] is a translation of [[cupboard]],2.0
+flour,/c/en/flour,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[flour]],2.0
+stipo,/c/it/stipo/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[stipo]] is a translation of [[cupboard]],2.0
+戸棚,/c/ja/戸棚/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[戸棚]] is a translation of [[cupboard]],2.0
+almari,/c/ms/almari/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[almari]] is a translation of [[cupboard]],2.0
+収納室,/c/ja/収納室/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[収納室]] is a translation of [[cupboard]],2.0
+a cupboard,/c/en/cupboard,UsedFor,keeping things clean,/c/en/keeping_things_clean,[[a cupboard]] is for [[keeping things clean]],2.0
+compartiment,/c/ca/compartiment/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[compartiment]] is a translation of [[cupboard]],2.0
+水屋,/c/ja/水屋,Synonym,cupboard,/c/en/cupboard,,2.0
+safe,/c/en/safe/n/wn/artifact,IsA,cupboard,/c/en/cupboard/n/wn/artifact,[[safe]] is a type of [[cupboard]],2.0
+キャビネット,/c/ja/キャビネット/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[キャビネット]] is a translation of [[cupboard]],2.0
+stuff to make cookies,/c/en/stuff_to_make_cookies,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[stuff to make cookies]],2.0
+a pot,/c/en/pot,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a pot]] in [[a cupboard]],2.0
+skrytka,/c/pl/skrytka/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[skrytka]] is a translation of [[cupboard]],2.0
+ห้องเก็บของ,/c/th/ห้องเก็บของ/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[ห้องเก็บของ]] is a translation of [[cupboard]],2.0
+broom closet,/c/en/broom_closet/n/wn/artifact,IsA,cupboard,/c/en/cupboard/n/wn/artifact,[[broom closet]] is a type of [[cupboard]],2.0
+گنجه,/c/fa/گنجه/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[گنجه]] is a translation of [[cupboard]],2.0
+buffet,/c/fr/buffet/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[buffet]] is a translation of [[cupboard]],2.0
+magazynek,/c/pl/magazynek/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[magazynek]] is a translation of [[cupboard]],2.0
+قفسه,/c/fa/قفسه/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[قفسه]] is a translation of [[cupboard]],2.0
+kantorek,/c/pl/kantorek/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[kantorek]] is a translation of [[cupboard]],2.0
+gerobok,/c/id/gerobok/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[gerobok]] is a translation of [[cupboard]],2.0
+cupboard,/c/en/cupboard/n/wn/artifact,IsA,storage space,/c/en/storage_space/n/wn/artifact,[[cupboard]] is a type of [[storage space]],2.0
+a mug,/c/en/mug,AtLocation,the cupboard,/c/en/cupboard,You are likely to find [[a mug]] in [[the cupboard]],2.0
+cups and plates,/c/en/cups_and_plates,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[cups and plates]],2.0
+closet,/c/en/closet/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[closet]] is a synonym of [[cupboard]],2.0
+押し込み,/c/ja/押し込み/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[押し込み]] is a translation of [[cupboard]],2.0
+armário,/c/pt/armário/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[armário]] is a translation of [[cupboard]],2.0
+lemari,/c/id/lemari/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[lemari]] is a translation of [[cupboard]],2.0
+カップボード,/c/ja/カップボード/n,Synonym,cupboard,/c/en/cupboard,,2.0
+komero,/c/fi/komero/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[komero]] is a translation of [[cupboard]],2.0
+almari,/c/id/almari/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[almari]] is a translation of [[cupboard]],2.0
+a sugar,/c/en/sugar,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a sugar]] in [[a cupboard]],2.0
+dispensa,/c/it/dispensa/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[dispensa]] is a translation of [[cupboard]],2.0
+a saucepan,/c/en/saucepan,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a saucepan]] in [[a cupboard]],2.0
+armario,/c/es/armario/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[armario]] is a translation of [[cupboard]],2.0
+אָרוֹן,/c/he/ארון/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[אָרוֹן]] is a translation of [[cupboard]],2.0
+クロゼット,/c/ja/クロゼット/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[クロゼット]] is a translation of [[cupboard]],2.0
+skab,/c/da/skab/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[skab]] is a translation of [[cupboard]],2.0
+押込,/c/ja/押込/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[押込]] is a translation of [[cupboard]],2.0
+cupboard,/c/en/cupboard,IsA,a compound word,/c/en/compound_word,[[cupboard]] is [[a compound word]],2.0
+戸棚,/c/ja/戸棚/n,Synonym,cupboard,/c/en/cupboard,,2.0
+skap,/c/no/skap/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[skap]] is a translation of [[cupboard]],2.0
+押し入れ,/c/ja/押し入れ/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[押し入れ]] is a translation of [[cupboard]],2.0
+押入,/c/ja/押入/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[押入]] is a translation of [[cupboard]],2.0
+cans of soup,/c/en/cans_of_soup,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[cans of soup]],2.0
+a tin,/c/en/tin,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a tin]] in [[a cupboard]],2.0
+kaappi,/c/fi/kaappi/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[kaappi]] is a translation of [[cupboard]],2.0
+armoire,/c/fr/armoire/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[armoire]] is a translation of [[cupboard]],2.0
+stor kecil,/c/id/stor_kecil/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[stor kecil]] is a translation of [[cupboard]],2.0
+a cupboard,/c/en/cupboard,UsedFor,storing things,/c/en/storing_things,[[a cupboard]] is for [[storing things]],2.0
+押入れ,/c/ja/押入れ/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[押入れ]] is a translation of [[cupboard]],2.0
+カップボード,/c/ja/カップボード/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[カップボード]] is a translation of [[cupboard]],2.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,kredenac,/c/sh/kredenac,,2.0
+収納庫,/c/ja/収納庫/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[収納庫]] is a translation of [[cupboard]],2.0
+schowek,/c/pl/schowek/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[schowek]] is a translation of [[cupboard]],2.0
+a cupboard,/c/en/cupboard,UsedFor,Storing crockery,/c/en/storing_crockery,[[a cupboard]] is for [[Storing crockery]],2.0
+a chess set,/c/en/chess_set,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a chess set]] in [[a cupboard]],2.0
+a jar,/c/en/jar,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a jar]] in [[a cupboard]],2.0
+armari,/c/ca/armari/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[armari]] is a translation of [[cupboard]],2.0
+placard,/c/fr/placard/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[placard]] is a translation of [[cupboard]],2.0
+konpartimentu,/c/eu/konpartimentu/n/wn/artifact,Synonym,cupboard,/c/en/cupboard/n/wn/artifact,[[konpartimentu]] is a translation of [[cupboard]],2.0
+plate,/c/en/plate,RelatedTo,cupboard,/c/en/cupboard,[[plate]] is related to [[cupboard]],1.0499999999999998
+aparador,/c/hil/aparador/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,skab,/c/da/skab,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,schååp,/c/frr/schååp,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,柜子,/c/zh/柜子,,1.0
+a cupboard,/c/en/cupboard,CapableOf,store cups,/c/en/store_cups,[[a cupboard]] can [[store cups]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,الماری,/c/ur/الماری,,1.0
+skab,/c/da/skab/n/wikt/en_2,RelatedTo,cupboard,/c/en/cupboard,,1.0
+schaf,/c/lb/schaf/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cuddy,/c/en/cuddy/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+mettitutto,/c/it/mettitutto/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+قفسه,/c/fa/قفسه/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+պահարան,/c/hy/պահարան/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+wardrobe,/c/en/wardrobe/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,бюфет,/c/bg/бюфет,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,RelatedTo,intend,/c/en/intend,,1.0
+chuchichäschtli,/c/gsw/chuchichäschtli/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+pantry,/c/en/pantry/n,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/v/wikt/en_2,RelatedTo,collect,/c/en/collect,,1.0
+ទូ,/c/km/ទូ/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+صوان,/c/ar/صوان/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n,HasContext,meubles,/c/fr/meubles,,1.0
+lade,/c/cim/lade/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+kabati,/c/sw/kabati/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+spiders,/c/en/spiders,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[spiders]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,RelatedTo,furniture,/c/en/furniture,,1.0
+碗櫃,/c/zh/碗櫃,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,шафа,/c/uk/шафа,,1.0
+cupboards,/c/en/cupboards,FormOf,cupboard,/c/en/cupboard/n,,1.0
+a cupboard,/c/en/cupboard,UsedFor,Putting things in,/c/en/putting_things_in,[[a cupboard]] is for [[Putting things in]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,dolap,/c/tr/dolap,,1.0
+cupboardless,/c/en/cupboardless,DerivedFrom,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armari,/c/ca/armari,,1.0
+a tea cup,/c/en/tea_cup,AtLocation,the cupboard,/c/en/cupboard,You are likely to find [[a tea cup]] in [[the cupboard]],1.0
+armadietto,/c/it/armadietto/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+armouaithe,/c/nrf/armouaithe/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+armaro,/c/vec/armaro/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,prios,/c/ga/prios,,1.0
+కోశము,/c/te/కోశము/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+碗櫃,/c/zh/碗櫃/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+しょっきだな,/c/ja/しょっきだな/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+とだな,/c/ja/とだな/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a cupboard,/c/en/cupboard,UsedFor,keeping things safe,/c/en/keeping_things_safe,[[a cupboard]] is for [[keeping things safe]],1.0
+acne medication,/c/en/acne_medication,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[acne medication]] in [[a cupboard]],1.0
+in storage,/c/en/in_storage,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[in storage]],1.0
+a cupboard,/c/en/cupboard,UsedFor,keeping things tidy,/c/en/keeping_things_tidy,[[a cupboard]] is for [[keeping things tidy]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,sideboard,/c/en/sideboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,буфет,/c/uk/буфет,,1.0
+meat safe,/c/en/meat_safe/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a wine glass,/c/en/wine_glass,AtLocation,a cupboard,/c/en/cupboard,Somewhere [[a wine glass]] can be is in [[a cupboard]],1.0
+ikhabhathi,/c/xh/ikhabhathi/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+spices,/c/en/spices,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[spices]],1.0
+armoire,/c/en/armoire/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+beaufet,/c/en/beaufet/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+glassware,/c/en/glassware,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[glassware]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armário,/c/pt/armário,,1.0
+壁櫥,/c/zh/壁櫥/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,dollap,/c/sq/dollap,,1.0
+cupboard,/c/en/cupboard,DerivedFrom,board,/c/en/board,,1.0
+baked beans,/c/en/baked_beans,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[baked beans]],1.0
+sarang,/c/tpi/sarang/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+barokkikaappi,/c/fi/barokkikaappi/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+ŝranko,/c/eo/ŝranko/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+armario,/c/gl/armario/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+stuff,/c/en/stuff,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[stuff]] in [[a cupboard]].,1.0
+a plastic,/c/en/plastic,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a plastic]] in [[a cupboard]],1.0
+armario,/c/es/armario/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+ตู้,/c/th/ตู้/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,szafa,/c/pl/szafa,,1.0
+a cupboard,/c/en/cupboard,UsedFor,Putting things on top of,/c/en/putting_things_on_top_of,[[a cupboard]] is for [[Putting things on top of]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,gänterli,/c/gsw/gänterli,,1.0
+armar,/c/ro/armar/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,tủ búp phê,/c/vi/tủ_búp_phê,,1.0
+lemari,/c/ms/lemari/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armèri,/c/egl/armèri,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armàri,/c/egl/armàri,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,alacena,/c/es/alacena,,1.0
+a teakettle,/c/en/teakettle,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a teakettle]] in [[a cupboard]],1.0
+cupboard,/c/en/cupboard,ExternalURL,Cupboard,http://umbel.org/umbel/sc/Cupboard,,1.0
+schrank,/c/de/schrank/n,Synonym,cupboard,/c/en/cupboard,,1.0
+gänterli,/c/gsw/gänterli/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a cupboard,/c/en/cupboard,UsedFor,keeping cups,/c/en/keeping_cups,[[a cupboard]] is used for [[keeping cups]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,skápur,/c/is/skápur,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,amary,/c/kw/amary,,1.0
+szekrény,/c/hu/szekrény/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboarded,/c/en/cupboarded/v,FormOf,cupboard,/c/en/cupboard,,1.0
+storagewall,/c/en/storagewall/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+promptuarium,/c/la/promptuarium/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,eskaapat,/c/esu/eskaapat,,1.0
+шкаф,/c/bg/шкаф/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+kapp,/c/et/kapp/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+ντουλάπι,/c/el/ντουλάπι/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n,RelatedTo,armoire,/c/fr/armoire,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,RelatedTo,shelves,/c/en/shelves,,1.0
+armari,/c/ca/armari/n,Synonym,cupboard,/c/en/cupboard,,1.0
+glasses and dishes,/c/en/glasses_and_dishes,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[glasses and dishes]],1.0
+sungkab,/c/ceb/sungkab/v,RelatedTo,cupboard,/c/en/cupboard,,1.0
+aanrechtbank,/c/nl/aanrechtbank/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,spižka,/c/dsb/spižka,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,ekhabetheni,/c/zu/ekhabetheni,,1.0
+a cupboard,/c/en/cupboard,UsedFor,Storing junk,/c/en/storing_junk,[[a cupboard]] is for [[Storing junk]],1.0
+box,/c/en/box/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+ਅਲਮਾਰੀ,/c/pa/ਅਲਮਾਰੀ/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+tridarn,/c/en/tridarn/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,碗柜,/c/zh/碗柜,,1.0
+hidden money,/c/en/hidden_money,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[hidden money]],1.0
+kasten,/c/de/kasten/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+schååp,/c/frr/schååp/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+skap,/c/no/skap/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,credenza,/c/it/credenza,,1.0
+koolaid,/c/en/koolaid,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[koolaid]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,platera,/c/fil/platera,,1.0
+a cupboard,/c/en/cupboard,AtLocation,a pantry,/c/en/pantry,You are likely to find [[a cupboard]] in [[a pantry]],1.0
+armoreto,/c/io/armoreto/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+अलमारी,/c/hi/अलमारी/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+crédence,/c/fr/crédence/n,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboarded,/c/en/cupboarded/v,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cocktail cabinet,/c/en/cocktail_cabinet/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+madia,/c/it/madia/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a dustbin,/c/en/dustbin,AtLocation,the cupboard,/c/en/cupboard,You are likely to find [[a dustbin]] in [[the cupboard]],1.0
+chaschte,/c/gsw/chaschte/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a saltshaker,/c/en/saltshaker,AtLocation,the cupboard,/c/en/cupboard,You are likely to find [[a saltshaker]] in [[the cupboard]],1.0
+cornmeal,/c/en/cornmeal,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[cornmeal]],1.0
+armàri,/c/egl/armàri/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+kasi,/c/srn/kasi/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n,ExternalURL,Cupboard,http://sw.opencyc.org/2012/05/10/concept/en/Cupboard,,1.0
+medicine cabinet,/c/en/medicine_cabinet/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+glory hole,/c/en/glory_hole/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+press,/c/en/press/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a cupboard,/c/en/cupboard,AtLocation,your own kitchen,/c/en/own_kitchen,You are likely to find [[a cupboard]] in [[your own kitchen]],1.0
+armaryo,/c/lad/armaryo/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+bone china,/c/en/bone_china,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[bone china]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,astiakaappi,/c/fi/astiakaappi,,1.0
+cupboard,/c/en/cupboard/n,IsA,cabinet,/c/en/cabinet/n/opencyc/cabinet_storage_construction,,1.0
+櫃,/c/zh/櫃,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,lemari,/c/id/lemari,,1.0
+ormouère,/c/nrf/ormouère/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,paminggalan,/c/fil/paminggalan,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,aparador,/c/ceb/aparador,,1.0
+橱柜,/c/zh/橱柜,Synonym,cupboard,/c/en/cupboard,,1.0
+الماری,/c/ur/الماری/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+closet,/c/en/closet/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+astiakaappi,/c/fi/astiakaappi/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboarding,/c/en/cupboarding/v,FormOf,cupboard,/c/en/cupboard,,1.0
+a clothing shelf,/c/en/clothing_shelf,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a clothing shelf]] in [[a cupboard]],1.0
+cupboards,/c/en/cupboards/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a cupboard,/c/en/cupboard,UsedFor,store dishes,/c/en/store_dishes,You can use [[a cupboard]] to [[store dishes]],1.0
+a coffee cup,/c/en/coffee_cup,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a coffee cup]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,گنجه,/c/fa/گنجه,,1.0
+cupboardlike,/c/en/cupboardlike/a,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,shkaf,/c/uz/shkaf,,1.0
+櫥櫃,/c/zh/櫥櫃,Synonym,cupboard,/c/en/cupboard,,1.0
+jonkmanskas,/c/en/jonkmanskas/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+küchenschrank,/c/de/küchenschrank/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+kast,/c/en/kast/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+skáp,/c/fo/skáp/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+california cooler,/c/en/california_cooler/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+air,/c/en/air,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[air]],1.0
+muurkas,/c/en/muurkas/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,almóir,/c/ga/almóir,,1.0
+ຕູ້,/c/lo/ຕູ້/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cantoniera,/c/it/cantoniera/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,pantry,/c/en/pantry,,1.0
+skříň,/c/cs/skříň/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+კარადა,/c/ka/კარადა/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,tủ,/c/vi/tủ,,1.0
+cupboardful,/c/en/cupboardful,DerivedFrom,cupboard,/c/en/cupboard,,1.0
+crockery,/c/en/crockery,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[crockery]],1.0
+vitrin,/c/sv/vitrin/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+crackers,/c/en/crackers,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[crackers]],1.0
+canned food,/c/en/canned_food,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[canned food]],1.0
+食器棚,/c/ja/食器棚/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,aparador,/c/fil/aparador,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,IsA,cabinet,/c/en/cabinet,,1.0
+A cupboard,/c/en/cupboard,CapableOf,store pots and pans,/c/en/store_pots_and_pans,[[A cupboard]] can [[store pots and pans]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,preas,/c/gd/preas,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armouaithe,/c/nrf/armouaithe,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,պահարան,/c/hy/պահարան,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,अलमारी,/c/hi/अलमारी,,1.0
+schrein,/c/de/schrein/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboardwise,/c/en/cupboardwise,DerivedFrom,cupboard,/c/en/cupboard,,1.0
+a board game,/c/en/board_game,AtLocation,cupboard,/c/en/cupboard,You are likely to find [[a board game]] in [[cupboard]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,сервант,/c/uk/сервант,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,კარადა,/c/ka/კარადა,,1.0
+soup,/c/en/soup,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[soup]],1.0
+herbal tea,/c/en/herbal_tea,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[herbal tea]],1.0
+armário,/c/pt/armário/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,skříň,/c/cs/skříň,,1.0
+櫃子,/c/zh/櫃子,Synonym,cupboard,/c/en/cupboard,,1.0
+찬장,/c/ko/찬장/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+armarium,/c/la/armarium/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,vitrina,/c/es/vitrina,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armoro,/c/io/armoro,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,schrank,/c/de/schrank,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,שאפע,/c/yi/שאפע,,1.0
+a cupboard,/c/en/cupboard,UsedFor,holding silverware,/c/en/holding_silverware,[[a cupboard]] is used for [[holding silverware]],1.0
+a cockroach,/c/en/cockroach,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a cockroach]],1.0
+ants,/c/en/ants,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[ants]],1.0
+armoro,/c/io/armoro/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a set of China,/c/en/set_of_china,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a set of China]],1.0
+skänk,/c/sv/skänk/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboardy,/c/en/cupboardy,DerivedFrom,cupboard,/c/en/cupboard,,1.0
+kast,/c/nl/kast/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a liquor glass,/c/en/liquor_glass,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a liquor glass]] in [[a cupboard]],1.0
+ambry,/c/en/ambry/n,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,IsA,closet,/c/en/closet,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,RelatedTo,cabinet,/c/en/cabinet,,1.0
+cupboard,/c/en/cupboard,EtymologicallyDerivedFrom,copbord,/c/enm/copbord,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,kaappi,/c/fi/kaappi,,1.0
+a storage pan,/c/en/storage_pan,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a storage pan]] in [[a cupboard]],1.0
+a pl;ate,/c/en/pl_ate,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a pl;ate]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,碗櫃,/c/zh/碗櫃,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,canterano,/c/ca/canterano,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,bufe,/c/sq/bufe,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,kabati,/c/sw/kabati,,1.0
+a cupboard,/c/en/cupboard,UsedFor,stacking your dinner plates,/c/en/stacking_dinner_plates,[[a cupboard]] is used for [[stacking your dinner plates]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,calaixera,/c/ca/calaixera,,1.0
+preas,/c/gd/preas/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+skåp,/c/sv/skåp/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a dinner plate,/c/en/dinner_plate,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a dinner plate]],1.0
+a towel,/c/en/towel,AtLocation,the cupboard,/c/en/cupboard,Somewhere [[a towel]] can be is in [[the cupboard]],1.0
+silverware,/c/en/silverware,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[silverware]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,almari,/c/ms/almari,,1.0
+دولاب,/c/ar/دولاب/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+креденец,/c/mk/креденец/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+spižka,/c/dsb/spižka/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+almairo,/c/mwl/almairo/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+долап,/c/mk/долап/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+σκευοθήκη,/c/el/σκευοθήκη/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,RelatedTo,cookware,/c/en/cookware,,1.0
+sideboard,/c/en/sideboard/n,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armadio,/c/it/armadio,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,ντουλαπι,/c/el/ντουλαπι,,1.0
+cupboard,/c/en/cupboard/n,Synonym,wardrobe,/c/en/wardrobe,,1.0
+schroi,/c/cim/schroi/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,szekrény,/c/hu/szekrény,,1.0
+peanut butter,/c/en/peanut_butter,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[peanut butter]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,spinta,/c/lt/spinta,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,RelatedTo,food,/c/en/food,,1.0
+a can of beans,/c/en/can_of_beans,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a can of beans]],1.0
+worksurface,/c/en/worksurface/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+espeteira,/c/gl/espeteira/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+柜子,/c/zh/柜子,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,skap,/c/no/skap,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armariu,/c/scn/armariu,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,буфет,/c/ru/буфет,,1.0
+canned vegtables,/c/en/canned_vegtables,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[canned vegtables]],1.0
+a cupboard,/c/en/cupboard,UsedFor,storing bones,/c/en/storing_bones,[[a cupboard]] is for [[storing bones]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,şkaf,/c/az/şkaf,,1.0
+a container can,/c/en/container_can,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a container can]] in [[a cupboard]],1.0
+ascham,/c/en/ascham/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+armadio,/c/it/armadio/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a hook,/c/en/hook,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a hook]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,kredenca,/c/sl/kredenca,,1.0
+awmry,/c/en/awmry/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cwpwrdd,/c/cy/cwpwrdd/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+corn flakes,/c/en/corn_flakes,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[corn flakes]],1.0
+sottolavello,/c/it/sottolavello/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+linens,/c/en/linens,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[linens]],1.0
+kas,/c/af/kas/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+hoosier,/c/en/hoosier/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+amary,/c/kw/amary/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+ארון,/c/he/ארון/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+skapis,/c/lv/skapis/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,almariu,/c/ast/almariu,,1.0
+armèri,/c/egl/armèri/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a cupboard,/c/en/cupboard,UsedFor,store crockery,/c/en/store_crockery,You can use [[a cupboard]] to [[store crockery]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,橱柜,/c/zh/橱柜,,1.0
+cupboard,/c/en/cupboard,IsA,closet,/c/en/closet/n,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,үкүг,/c/xwo/үкүг,,1.0
+cupboardlike,/c/en/cupboardlike,DerivedFrom,cupboard,/c/en/cupboard,,1.0
+ikhabethe,/c/zu/ikhabethe/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,kabinet,/c/hil/kabinet,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,cwpwrdd,/c/cy/cwpwrdd,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,찬장,/c/ko/찬장,,1.0
+a muffin,/c/en/muffin,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a muffin]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,skapis,/c/lv/skapis,,1.0
+a cupboard,/c/en/cupboard,CapableOf,store many different items,/c/en/store_many_different_items,[[a cupboard]] can [[store many different items]],1.0
+a cupboard,/c/en/cupboard,UsedFor,dishes,/c/en/dishes,[[a cupboard]] is for [[dishes]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,kast,/c/nl/kast,,1.0
+kaappi,/c/vot/kaappi/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+櫥櫃,/c/zh/櫥櫃/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+buffet,/c/fr/buffet/n/wikt/fr_1,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,שאפקע,/c/yi/שאפקע,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,IsA,press,/c/en/press,,1.0
+床頭櫃,/c/zh/床頭櫃/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,櫃子,/c/zh/櫃子,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,шкаф,/c/ru/шкаф,,1.0
+another dimension,/c/en/another_dimension,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[another dimension]],1.0
+벽장,/c/ko/벽장/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+dressoir,/c/fr/dressoir/n/wikt/fr_1,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armarium,/c/la/armarium,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,omara,/c/sl/omara,,1.0
+cupboardful,/c/en/cupboardful/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+placard,/c/fr/placard/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+櫃子,/c/zh/櫃子/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+armoire,/c/fr/armoire/n,Synonym,cupboard,/c/en/cupboard,,1.0
+old toys,/c/en/old_toys,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[old toys]],1.0
+a cupboard,/c/en/cupboard,UsedFor,giving things a home,/c/en/giving_things_home,[[a cupboard]] is for [[giving things a home]],1.0
+wallpress,/c/en/wallpress/n,Synonym,cupboard,/c/en/cupboard,,1.0
+almirah,/c/en/almirah/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a tea saucer,/c/en/tea_saucer,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[a tea saucer]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,kapp,/c/et/kapp,,1.0
+cupboard,/c/en/cupboard/v/wikt/en_2,RelatedTo,hoard,/c/en/hoard,,1.0
+шкафчик,/c/ru/шкафчик/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wn/artifact,ExternalURL,103152990-n,http://wordnet-rdf.princeton.edu/wn31/103152990-n,,1.0
+ikhabhathi,/c/xh/ikhabhathi,EtymologicallyDerivedFrom,cupboard,/c/en/cupboard,,1.0
+कोश,/c/sa/कोश/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboards,/c/en/cupboards/n,FormOf,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,וואנטשאפקע,/c/yi/וואנטשאפקע,,1.0
+skápur,/c/is/skápur/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a cupboard,/c/en/cupboard,UsedFor,store bread,/c/en/store_bread,You can use [[a cupboard]] to [[store bread]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armoire,/c/fr/armoire,,1.0
+cartonnier,/c/en/cartonnier/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+کابینت,/c/fa/کابینت/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+тумба,/c/ru/тумба/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,шкаф,/c/kk/шкаф,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,almairo,/c/mwl/almairo,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,ตู้อาหาร,/c/th/ตู้อาหาร,,1.0
+دلاب,/c/ar/دلاب/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,벽장,/c/ko/벽장,,1.0
+cupboard,/c/en/cupboard/n,IsA,part of room,/c/en/part_of_room/n,,1.0
+pensile,/c/it/pensile/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+خزانة,/c/ar/خزانة/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n,Synonym,press,/c/fr/press,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,armario,/c/es/armario,,1.0
+encoignure,/c/en/encoignure/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+戸棚,/c/ja/戸棚/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,binggal,/c/fil/binggal,,1.0
+a flask,/c/en/flask,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a flask]] in [[a cupboard]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,خزانة,/c/ar/خزانة,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,шкаф,/c/bg/шкаф,,1.0
+kaappi,/c/fi/kaappi/n,Synonym,cupboard,/c/en/cupboard,,1.0
+कपाट,/c/mr/कपाट/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+柜,/c/zh/柜,Synonym,cupboard,/c/en/cupboard,,1.0
+A cupboard,/c/en/cupboard,ReceivesAction,found in a kitchen,/c/en/found_in_kitchen,[[A cupboard]] is [[found in a kitchen]],1.0
+salt,/c/en/salt,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[salt]],1.0
+abacus,/c/en/abacus/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+الماری,/c/pa/الماری/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+besenschrank,/c/de/besenschrank/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a cupboard,/c/en/cupboard,UsedFor,saving counter space,/c/en/saving_counter_space,[[a cupboard]] is for [[saving counter space]],1.0
+kabati,/c/sw/kabati,EtymologicallyDerivedFrom,cupboard,/c/en/cupboard,,1.0
+szafa,/c/pl/szafa/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+schrank,/c/de/schrank/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a cupboard,/c/en/cupboard,UsedFor,store Christmas decorations,/c/en/store_christmas_decorations,You can use [[a cupboard]] to [[store Christmas decorations]],1.0
+ikhabethe,/c/zu/ikhabethe,EtymologicallyDerivedFrom,cupboard,/c/en/cupboard,,1.0
+sottoscala,/c/it/sottoscala/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+碗柜,/c/zh/碗柜,Synonym,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,RelatedTo,dishware,/c/en/dishware,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,omarica,/c/sl/omarica,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,шафа,/c/be/шафа,,1.0
+utensils,/c/en/utensils,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[utensils]],1.0
+worktop,/c/en/worktop/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,kas,/c/af/kas,,1.0
+deuddarn,/c/en/deuddarn/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,ตู้กับข้าว,/c/th/ตู้กับข้าว,,1.0
+cabinet,/c/en/cabinet/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a cupboard,/c/en/cupboard,UsedFor,store cups,/c/en/store_cups,You can use [[a cupboard]] to [[store cups]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,RelatedTo,closet,/c/en/closet,,1.0
+dinnerware,/c/en/dinnerware,AtLocation,the cupboard,/c/en/cupboard,*Something you find in [[the cupboard]] is [[dinnerware]],1.0
+almari,/c/ms/almari/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,食器棚,/c/ja/食器棚,,1.0
+cupboardless,/c/en/cupboardless/a,RelatedTo,cupboard,/c/en/cupboard,,1.0
+spind,/c/de/spind/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+碗櫥,/c/zh/碗櫥/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+almóir,/c/ga/almóir/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,tủ đựng chén,/c/vi/tủ_đựng_chén,,1.0
+a table cloth,/c/en/table_cloth,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a table cloth]],1.0
+tủ,/c/vi/tủ/n/wikt/en_1,RelatedTo,cupboard,/c/en/cupboard,,1.0
+a drug,/c/en/drug,AtLocation,a cupboard,/c/en/cupboard,You are likely to find [[a drug]] in [[a cupboard]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,دلاب,/c/ar/دلاب,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,櫥櫃,/c/zh/櫥櫃,,1.0
+skåp,/c/no/skåp/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+шкаф,/c/ru/шкаф/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+dolap,/c/lad/dolap/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,dulap,/c/ro/dulap,,1.0
+a container of salt,/c/en/container_of_salt,AtLocation,a cupboard,/c/en/cupboard,*Something you find in [[a cupboard]] is [[a container of salt]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,cypyrddau,/c/cy/cypyrddau,,1.0
+cupboard,/c/en/cupboard,DerivedFrom,cup,/c/en/cup,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,ตู้,/c/th/ตู้,,1.0
+a cupboard,/c/en/cupboard,UsedFor,storing food,/c/en/storing_food,[[a cupboard]] is for [[storing food]],1.0
+a cupboard,/c/en/cupboard,UsedFor,board cups,/c/en/board_cups,You can use [[a cupboard]] to [[board cups]],1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,placard,/c/fr/placard,,1.0
+angoliera,/c/it/angoliera/n,RelatedTo,cupboard,/c/en/cupboard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,cupard,/c/ga/cupard,,1.0
+cupboard,/c/en/cupboard/n/wikt/en_1,Synonym,kāpata,/c/mi/kāpata,,1.0
+locker,/c/en/locker,RelatedTo,cupboard,/c/en/cupboard,[[locker]] is related to [[cupboard]],0.5339999999999998
+cabinet,/c/en/cabinet,RelatedTo,cupboard,/c/en/cupboard,[[cabinet]] is related to [[cupboard]],0.3780000000000001
+closet,/c/en/closet,RelatedTo,cupboard,/c/en/cupboard,[[closet]] is related to [[cupboard]],0.3460000000000001
+cupboard,/c/en/cupboard,ExternalURL,cupboard,http://fr.wiktionary.org/wiki/cupboard,,0.25
+cupboard,/c/en/cupboard,ExternalURL,cupboard,http://en.wiktionary.org/wiki/cupboard,,0.25
+cupboard,/c/en/cupboard,EtymologicallyRelatedTo,cupbord,/c/enm/cupbord,,0.25
+glass,/c/en/glass,RelatedTo,cupboard,/c/en/cupboard,[[glass]] is related to [[cupboard]],0.13600000000000012

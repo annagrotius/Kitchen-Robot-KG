@@ -1,0 +1,7 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+pepper shaker,/c/en/pepper_shaker/n/wn/artifact,IsA,shaker,/c/en/shaker/n/wn/artifact,[[pepper shaker]] is a type of [[shaker]],2.0
+pepper shaker,/c/en/pepper_shaker/n/wn/artifact,ExternalURL,103920557-n,http://wordnet-rdf.princeton.edu/wn31/103920557-n,,1.0
+pepper shaker,/c/en/pepper_shaker/n,ExternalURL,peppershaker,http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,IsA,kitchenware,/c/en/kitchenware/n,,1.0
+pepper shaker,/c/en/pepper_shaker,ExternalURL,peppershaker,http://umbel.org/umbel/sc/PepperShaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,IsA,shaker,/c/en/shaker/n,,1.0

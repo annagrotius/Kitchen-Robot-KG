@@ -1,0 +1,21 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+apple juice,/c/en/apple_juice/n/wn/food,IsA,fruit juice,/c/en/fruit_juice/n/wn/food,[[apple juice]] is a type of [[fruit juice]],2.0
+apple juice,/c/en/apple_juice,ReceivesAction,made from squeezed apples,/c/en/made_from_squeezed_apples,[[Apple juice]] is [[made from squeezed apples]],1.0
+apple juice,/c/en/apple_juice,ExternalURL,apple juice,http://umbel.org/umbel/sc/Apple_juice,,1.0
+apple juice,/c/en/apple_juice,HasA,a pale yellow color,/c/en/pale_yellow_color,[[Apple juice]] has [[a pale yellow color]],1.0
+apple juice,/c/en/apple_juice,IsA,fattening,/c/en/fattening,[[apple juice]] is [[fattening]],1.0
+apple juice,/c/en/apple_juice,ReceivesAction,made from crushed apples,/c/en/made_from_crushed_apples,[[Apple juice]] is [[made from crushed apples]],1.0
+apple juice,/c/en/apple_juice,HasProperty,very refreshing,/c/en/very_refreshing,[[Apple juice]] is [[very refreshing]],1.0
+apple juice,/c/en/apple_juice/n,IsA,juice,/c/en/juice/n,,1.0
+apple juice,/c/en/apple_juice,HasProperty,good for your health,/c/en/good_for_health,[[Apple juice]] is [[good for your health]],1.0
+apple juice,/c/en/apple_juice,MadeOf,apples,/c/en/apples,[[apple juice]] is made of [[apples]],1.0
+apple juice,/c/en/apple_juice,IsA,tastier than water,/c/en/tastier_than_water,[[apple juice]] is [[tastier than water]],1.0
+apple juice,/c/en/apple_juice/n,IsA,mixture,/c/en/mixture/n,,1.0
+apple juice,/c/en/apple_juice,IsA,a good thirst quencher,/c/en/good_thirst_quencher,[[Apple juice]] is [[a good thirst quencher]],1.0
+apple juice,/c/en/apple_juice/n,IsA,beverage,/c/en/beverage/n,,1.0
+apple juice,/c/en/apple_juice,HasProperty,good,/c/en/good,[[apple juice]] is [[good]],1.0
+apple juice,/c/en/apple_juice/n,IsA,sweet thing,/c/en/sweet_thing/n,,1.0
+apple juice,/c/en/apple_juice/n,ExternalURL,apple juice,http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice,,1.0
+apple juice,/c/en/apple_juice/n/wn/food,ExternalURL,107940606-n,http://wordnet-rdf.princeton.edu/wn31/107940606-n,,1.0
+apple juice,/c/en/apple_juice,HasProperty,refreshing to drink,/c/en/refreshing_to_drink,[[apple juice]] is [[refreshing to drink]],1.0
+apple juice,/c/en/apple_juice/n,IsA,fruit juice,/c/en/fruit_juice,,1.0

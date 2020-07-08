@@ -1,0 +1,1001 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+knife,/c/en/knife,CapableOf,spread butter,/c/en/spread_butter,[[knife]] can [[spread butter]],9.38083151964686
+a knife,/c/en/knife,AtLocation,the kitchen,/c/en/kitchen,*Something you find in [[the kitchen]] is [[a knife]],6.928203230275509
+cut,/c/en/cut,RelatedTo,knife,/c/en/knife,[[cut]] is related to [[knife]],6.679520940905867
+A knife,/c/en/knife,CapableOf,spread peanut butter,/c/en/spread_peanut_butter,[[A knife]] can [[spread peanut butter]],6.0
+knife,/c/en/knife,UsedFor,stabbing,/c/en/stabbing,[[knife]] is for [[stabbing]],5.656854249492381
+a knife,/c/en/knife,AtLocation,a drawer,/c/en/drawer,*Something you find in [[a drawer]] is [[a knife]],4.47213595499958
+blade,/c/en/blade,RelatedTo,knife,/c/en/knife,[[blade]] is related to [[knife]],4.098292327299263
+a knife,/c/en/knife,UsedFor,butter,/c/en/butter,[[a knife]] is used for [[butter]],4.0
+The blade,/c/en/blade,PartOf,a knife,/c/en/knife,[[The blade]] is part of [[a knife]],4.0
+a knife,/c/en/knife,UsedFor,cutting food,/c/en/cutting_food,[[a knife]] is for [[cutting food]],3.4641016151377544
+knife,/c/en/knife,AtLocation,a pocket,/c/en/pocket,*Something you find in [[a pocket]] is [[knife]],3.4641016151377544
+A knife,/c/en/knife,IsA,tool,/c/en/tool,[[A knife]] is a type of [[tool]],3.4641016151377544
+a knife,/c/en/knife,CapableOf,butter bread,/c/en/butter_bread,[[a knife]] can [[butter bread]],3.4641016151377544
+سِكِّين,/c/ar/سكين/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[سِكِّين]] is a translation of [[knife]],3.4641016151377544
+a knife,/c/en/knife,AtLocation,the kitchen drawer,/c/en/kitchen_drawer,You are likely to find [[a knife]] in [[the kitchen drawer]],3.4641016151377544
+a knife,/c/en/knife,CapableOf,hurt a dog,/c/en/hurt_dog,[[a knife]] can [[hurt a dog]],3.4641016151377544
+A knife,/c/en/knife,CapableOf,cut,/c/en/cut,[[A knife]] can [[cut]],3.4641016151377544
+a knife,/c/en/knife,CapableOf,cut that apple,/c/en/cut_apple,[[a knife]] can [[cut that apple]],3.4641016151377544
+edge,/c/en/edge,RelatedTo,knife,/c/en/knife,[[edge]] is related to [[knife]],3.2606747767908413
+a knife,/c/en/knife,CapableOf,hurt,/c/en/hurt,[[a knife]] can [[hurt]],2.82842712474619
+a knife,/c/en/knife,UsedFor,slicing,/c/en/slicing,[[a knife]] is used for [[slicing]],2.82842712474619
+a knife,/c/en/knife,UsedFor,carving wood,/c/en/carving_wood,[[a knife]] is used for [[carving wood]],2.82842712474619
+machete,/c/en/machete/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[machete]] is a type of [[knife]],2.0
+khukuri,/c/en/khukuri/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[khukuri]] is a type of [[knife]],2.0
+bread knife,/c/en/bread_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[bread knife]] is a type of [[knife]],2.0
+سِكِّيْنَة,/c/ar/سكينة/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[سِكِّيْنَة]] is a translation of [[knife]],2.0
+a knife,/c/en/knife,UsedFor,killing,/c/en/killing,[[a knife]] is used for [[killing]],2.0
+出刃包丁,/c/ja/出刃包丁/n,Synonym,knife,/c/en/knife,,2.0
+yataghan,/c/en/yataghan/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[yataghan]] is a type of [[knife]],2.0
+merujah,/c/id/merujah/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[merujah]] is a translation of [[knife]],2.0
+ナイフ,/c/ja/ナイフ/n,Synonym,knife,/c/en/knife,,2.0
+طَعَنَ,/c/ar/طعن/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[طَعَنَ]] is a translation of [[knife]],2.0
+knife,/c/en/knife/n/wn/artifact,UsedFor,cut,/c/en/cut/v/wn/contact,[[knife]] is used for [[cut]],2.0
+coltello,/c/it/coltello/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[coltello]] is a translation of [[knife]],2.0
+a knife,/c/en/knife,UsedFor,pare an apple,/c/en/pare_apple,You can use [[a knife]] to [[pare an apple]],2.0
+kniv,/c/no/kniv/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[kniv]] is a translation of [[knife]],2.0
+どす,/c/ja/どす/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[どす]] is a translation of [[knife]],2.0
+pugnalare,/c/it/pugnalare/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[pugnalare]] is a translation of [[knife]],2.0
+อาวุธมีคม,/c/th/อาวุธมีคม/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[อาวุธมีคม]] is a translation of [[knife]],2.0
+knife,/c/en/knife/n,Synonym,nož,/c/sh/nož,,2.0
+camuk,/c/id/camuk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[camuk]] is a translation of [[knife]],2.0
+suduk,/c/ms/suduk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[suduk]] is a translation of [[knife]],2.0
+cuchillo,/c/es/cuchillo/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[cuchillo]] is a translation of [[knife]],2.0
+acoltellar,/c/ca/acoltellar/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[acoltellar]] is a translation of [[knife]],2.0
+چاقو,/c/fa/چاقو/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[چاقو]] is a translation of [[knife]],2.0
+bičak,/c/sh/bičak/n,RelatedTo,knife,/c/en/knife,,2.0
+tersengsam,/c/ms/tersengsam/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[tersengsam]] is a translation of [[knife]],2.0
+mencamuk,/c/id/mencamuk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[mencamuk]] is a translation of [[knife]],2.0
+nóż,/c/pl/nóż/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[nóż]] is a translation of [[knife]],2.0
+menusuk,/c/ms/menusuk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[menusuk]] is a translation of [[knife]],2.0
+ศาสตราวุธ,/c/th/ศาสตราวุธ/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[ศาสตราวุธ]] is a translation of [[knife]],2.0
+coltell,/c/ca/coltell/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[coltell]] is a translation of [[knife]],2.0
+合い口,/c/ja/合い口/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[合い口]] is a translation of [[knife]],2.0
+pruning knife,/c/en/pruning_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[pruning knife]] is a type of [[knife]],2.0
+突刺す,/c/ja/突刺す/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[突刺す]] is a translation of [[knife]],2.0
+memotong,/c/ms/memotong/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[memotong]] is a translation of [[knife]],2.0
+pocketknife,/c/en/pocketknife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[pocketknife]] is a type of [[knife]],2.0
+nožić,/c/sh/nožić/n,RelatedTo,knife,/c/en/knife,,2.0
+couteau,/c/fr/couteau/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[couteau]] is a translation of [[knife]],2.0
+刀,/c/ja/刀,Synonym,knife,/c/en/knife,,2.0
+trafiggere,/c/it/trafiggere/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[trafiggere]] is a translation of [[knife]],2.0
+刺突+する,/c/ja/刺突_する/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[刺突+する]] is a translation of [[knife]],2.0
+knife,/c/en/knife/n/wn/artifact,RelatedTo,cutter,/c/en/cutter/n/wn/person,[[knife]] is related to [[cutter]],2.0
+มีด,/c/th/มีด/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[มีด]] is a translation of [[knife]],2.0
+dicucuk,/c/id/dicucuk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[dicucuk]] is a translation of [[knife]],2.0
+小刀,/c/ja/小刀/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[小刀]] is a translation of [[knife]],2.0
+stick frog,/c/en/stick_frog/n,RelatedTo,knife,/c/en/knife,,2.0
+membacok,/c/id/membacok/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[membacok]] is a translation of [[knife]],2.0
+包丁,/c/ja/包丁/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[包丁]] is a translation of [[knife]],2.0
+barong,/c/en/barong/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[barong]] is a type of [[knife]],2.0
+出刃,/c/ja/出刃/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[出刃]] is a translation of [[knife]],2.0
+突く,/c/ja/突く/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[突く]] is a translation of [[knife]],2.0
+匕首,/c/ja/匕首/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[匕首]] is a translation of [[knife]],2.0
+刺す,/c/ja/刺す/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[刺す]] is a translation of [[knife]],2.0
+قَتَلَ بِسِكِّين,/c/ar/قتل_بسكين/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[قَتَلَ بِسِكِّين]] is a translation of [[knife]],2.0
+probosti,/c/sh/probosti/v,RelatedTo,knife,/c/en/knife,,2.0
+knife,/c/en/knife/n/wn/artifact,UsedFor,stab,/c/en/stab/v/wn/contact,[[knife]] is used for [[stab]],2.0
+knife edge,/c/en/knife_edge,DerivedFrom,knife,/c/en/knife/n,,2.0
+knife,/c/en/knife/v/wn/contact,MannerOf,injure,/c/en/injure/v/wn/body,[[knife]] is a way to [[injure]],2.0
+a knife,/c/en/knife,UsedFor,cut meat with,/c/en/cut_meat_with,You can use [[a knife]] to [[cut meat with]],2.0
+faca,/c/pt/faca/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[faca]] is a translation of [[knife]],2.0
+stab,/c/en/stab/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[stab]] is a synonym of [[knife]],2.0
+linoleum knife,/c/en/linoleum_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[linoleum knife]] is a type of [[knife]],2.0
+bayonet,/c/en/bayonet/v/wn/contact,MannerOf,knife,/c/en/knife/v/wn/contact,[[bayonet]] is a way to [[knife]],2.0
+poniard,/c/en/poniard/v/wn/contact,MannerOf,knife,/c/en/knife/v/wn/contact,[[poniard]] is a way to [[knife]],2.0
+a knife,/c/en/knife,UsedFor,cutting steak,/c/en/cutting_steak,[[a knife]] is used for [[cutting steak]],2.0
+surgical knife,/c/en/surgical_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[surgical knife]] is a type of [[knife]],2.0
+labana,/c/eu/labana/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[labana]] is a translation of [[knife]],2.0
+knife,/c/en/knife/n/wn/artifact,UsedFor,cut,/c/en/cut/n/wn/state,[[knife]] is used for [[cut]],2.0
+aizto,/c/eu/aizto/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[aizto]] is a translation of [[knife]],2.0
+tikam,/c/id/tikam/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[tikam]] is a translation of [[knife]],2.0
+probadati,/c/sh/probadati/v,RelatedTo,knife,/c/en/knife,,2.0
+merodok,/c/ms/merodok/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[merodok]] is a translation of [[knife]],2.0
+aferroar,/c/pt/aferroar/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[aferroar]] is a translation of [[knife]],2.0
+a knife,/c/en/knife,UsedFor,slicing bread,/c/en/slicing_bread,[[a knife]] is used for [[slicing bread]],2.0
+knife,/c/en/knife/n/wn/artifact,UsedFor,cut,/c/en/cut/n/wn/act,[[knife]] is used for [[cut]],2.0
+slicer,/c/en/slicer/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[slicer]] is a type of [[knife]],2.0
+九寸五分,/c/ja/九寸五分/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[九寸五分]] is a translation of [[knife]],2.0
+短剣,/c/ja/短剣/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[短剣]] is a translation of [[knife]],2.0
+thikë,/c/sq/thikë/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[thikë]] is a translation of [[knife]],2.0
+knife,/c/en/knife/n,Synonym,mes,/c/nl/mes,,2.0
+合口,/c/ja/合口/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[合口]] is a translation of [[knife]],2.0
+ganivet,/c/ca/ganivet/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[ganivet]] is a translation of [[knife]],2.0
+sastatu,/c/eu/sastatu/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[sastatu]] is a translation of [[knife]],2.0
+menembus,/c/id/menembus/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[menembus]] is a translation of [[knife]],2.0
+庖丁,/c/ja/庖丁/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[庖丁]] is a translation of [[knife]],2.0
+tikam,/c/ms/tikam/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[tikam]] is a translation of [[knife]],2.0
+knife,/c/en/knife/n/wn/artifact,IsA,weapon,/c/en/weapon/n/wn/artifact,[[knife]] is a type of [[weapon]],2.0
+butcher knife,/c/en/butcher_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[butcher knife]] is a type of [[knife]],2.0
+تیغه,/c/fa/تیغه/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[تیغه]] is a translation of [[knife]],2.0
+tersengsam,/c/id/tersengsam/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[tersengsam]] is a translation of [[knife]],2.0
+coitelo,/c/pt/coitelo/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[coitelo]] is a translation of [[knife]],2.0
+tusuk,/c/ms/tusuk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[tusuk]] is a translation of [[knife]],2.0
+parer,/c/en/parer/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[parer]] is a type of [[knife]],2.0
+trench knife,/c/en/trench_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[trench knife]] is a type of [[knife]],2.0
+camuk,/c/ms/camuk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[camuk]] is a translation of [[knife]],2.0
+dagger,/c/en/dagger/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[dagger]] is a type of [[knife]],2.0
+a knife,/c/en/knife,UsedFor,scratching,/c/en/scratching,[[a knife]] is used for [[scratching]],2.0
+menembus,/c/ms/menembus/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[menembus]] is a translation of [[knife]],2.0
+cleaver,/c/en/cleaver/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[cleaver]] is a type of [[knife]],2.0
+nož,/c/sh/nož/n,RelatedTo,knife,/c/en/knife,,2.0
+突きたてる,/c/ja/突きたてる/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[突きたてる]] is a translation of [[knife]],2.0
+haft,/c/en/haft/n/wn/artifact,PartOf,knife,/c/en/knife/n/wn/artifact,[[haft]] is a part of [[knife]],2.0
+突き刺す,/c/ja/突き刺す/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[突き刺す]] is a translation of [[knife]],2.0
+短刀,/c/ja/短刀/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[短刀]] is a translation of [[knife]],2.0
+ganibet,/c/eu/ganibet/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[ganibet]] is a translation of [[knife]],2.0
+突きさす,/c/ja/突きさす/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[突きさす]] is a translation of [[knife]],2.0
+point,/c/en/point/n/wn/artifact,PartOf,knife,/c/en/knife/n/wn/artifact,[[point]] is a part of [[knife]],2.0
+blade,/c/en/blade/n/wn/artifact,PartOf,knife,/c/en/knife/n/wn/artifact,[[blade]] is a part of [[knife]],2.0
+bolo,/c/en/bolo/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[bolo]] is a type of [[knife]],2.0
+merunjam,/c/id/merunjam/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[merunjam]] is a translation of [[knife]],2.0
+puukottaa,/c/fi/puukottaa/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[puukottaa]] is a translation of [[knife]],2.0
+ナイフ,/c/ja/ナイフ/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[ナイフ]] is a translation of [[knife]],2.0
+tusuk,/c/id/tusuk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[tusuk]] is a translation of [[knife]],2.0
+どす,/c/ja/どす/n/jmdict/1,Synonym,knife,/c/en/knife,,2.0
+esfaquear,/c/pt/esfaquear/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[esfaquear]] is a translation of [[knife]],2.0
+parang,/c/en/parang/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[parang]] is a type of [[knife]],2.0
+Knife,/c/en/knife,UsedFor,cutting,/c/en/cutting,[[Knife]] is for [[cutting]],2.0
+point,/c/en/point/n/wn/shape,PartOf,knife,/c/en/knife/n/wn/artifact,[[point]] is a part of [[knife]],2.0
+pisau,/c/id/pisau/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[pisau]] is a translation of [[knife]],2.0
+menikam,/c/ms/menikam/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[menikam]] is a translation of [[knife]],2.0
+刀剣,/c/ja/刀剣/n,Synonym,knife,/c/en/knife,,2.0
+جَرَحَ بِسِكِّين,/c/ar/جرح_بسكين/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[جَرَحَ بِسِكِّين]] is a translation of [[knife]],2.0
+kniv,/c/da/kniv/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[kniv]] is a translation of [[knife]],2.0
+چاقو زدن,/c/fa/چاقو_زدن/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[چاقو زدن]] is a translation of [[knife]],2.0
+couteau,/c/fr/couteau/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[couteau]] is a translation of [[knife]],2.0
+knife blade,/c/en/knife_blade/n/wn/artifact,PartOf,knife,/c/en/knife/n/wn/artifact,[[knife blade]] is a part of [[knife]],2.0
+a knife,/c/en/knife,UsedFor,cut string,/c/en/cut_string,You can use [[a knife]] to [[cut string]],2.0
+کارد,/c/fa/کارد/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[کارد]] is a translation of [[knife]],2.0
+จ้วงแทง,/c/th/จ้วงแทง/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[จ้วงแทง]] is a translation of [[knife]],2.0
+meradak,/c/id/meradak/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[meradak]] is a translation of [[knife]],2.0
+出刃,/c/ja/出刃/n,Synonym,knife,/c/en/knife,,2.0
+meradak,/c/ms/meradak/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[meradak]] is a translation of [[knife]],2.0
+shiv,/c/en/shiv/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[shiv]] is a type of [[knife]],2.0
+carving knife,/c/en/carving_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[carving knife]] is a type of [[knife]],2.0
+刀,/c/ja/刀/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[刀]] is a translation of [[knife]],2.0
+letter opener,/c/en/letter_opener/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[letter opener]] is a type of [[knife]],2.0
+แทง,/c/th/แทง/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[แทง]] is a translation of [[knife]],2.0
+stabbing to death,/c/en/stabbing_to_death,HasPrerequisite,a knife,/c/en/knife,[[stabbing to death]] requires [[a knife]],2.0
+iskeä veitsellä,/c/fi/iskeä_veitsellä/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[iskeä veitsellä]] is a translation of [[knife]],2.0
+poignarder,/c/fr/poignarder/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[poignarder]] is a translation of [[knife]],2.0
+กระซวก,/c/th/กระซวก/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[กระซวก]] is a translation of [[knife]],2.0
+dicucuk,/c/ms/dicucuk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[dicucuk]] is a translation of [[knife]],2.0
+merunjang,/c/id/merunjang/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[merunjang]] is a translation of [[knife]],2.0
+knife,/c/en/knife/n,Synonym,couteau,/c/fr/couteau,,2.0
+drawknife,/c/en/drawknife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[drawknife]] is a type of [[knife]],2.0
+pisau,/c/ms/pisau/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[pisau]] is a translation of [[knife]],2.0
+puukko,/c/fi/puukko/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[puukko]] is a translation of [[knife]],2.0
+Bowie knife,/c/en/bowie_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[Bowie knife]] is a type of [[knife]],2.0
+coitelo,/c/gl/coitelo/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[coitelo]] is a translation of [[knife]],2.0
+accoltellare,/c/it/accoltellare/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[accoltellare]] is a translation of [[knife]],2.0
+menusuk,/c/id/menusuk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[menusuk]] is a translation of [[knife]],2.0
+case knife,/c/en/case_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[case knife]] is a type of [[knife]],2.0
+出刃包丁,/c/ja/出刃包丁/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[出刃包丁]] is a translation of [[knife]],2.0
+coltellejar,/c/ca/coltellejar/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[coltellejar]] is a translation of [[knife]],2.0
+knife,/c/en/knife/n,Synonym,nuga,/c/et/nuga,,2.0
+a knife,/c/en/knife,UsedFor,boning,/c/en/boning,[[a knife]] is used for [[boning]],2.0
+memotong,/c/id/memotong/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[memotong]] is a translation of [[knife]],2.0
+خنجر زدن,/c/fa/خنجر_زدن/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[خنجر زدن]] is a translation of [[knife]],2.0
+table knife,/c/en/table_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[table knife]] is a type of [[knife]],2.0
+menikam,/c/id/menikam/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[menikam]] is a translation of [[knife]],2.0
+knife,/c/en/knife/n,Synonym,kniv,/c/da/kniv,,2.0
+knife,/c/en/knife/n/wn/shape,Synonym,tongue,/c/en/tongue/n/wn/shape,[[knife]] is a synonym of [[tongue]],2.0
+ドス,/c/ja/ドス/n/jmdict/1,Synonym,knife,/c/en/knife,,2.0
+knife,/c/en/knife/n/wn/artifact,IsA,edge tool,/c/en/edge_tool/n/wn/artifact,[[knife]] is a type of [[edge tool]],2.0
+knife,/c/en/knife/n,Synonym,coltello,/c/it/coltello,,2.0
+زخم زدن,/c/fa/زخم_زدن/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[زخم زدن]] is a translation of [[knife]],2.0
+veitsi,/c/fi/veitsi/n/wn/artifact,Synonym,knife,/c/en/knife/n/wn/artifact,[[veitsi]] is a translation of [[knife]],2.0
+出刃庖丁,/c/ja/出刃庖丁/n,Synonym,knife,/c/en/knife,,2.0
+merodok,/c/id/merodok/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[merodok]] is a translation of [[knife]],2.0
+suduk,/c/id/suduk/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[suduk]] is a translation of [[knife]],2.0
+apunyalar,/c/ca/apunyalar/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[apunyalar]] is a translation of [[knife]],2.0
+hunting knife,/c/en/hunting_knife/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[hunting knife]] is a type of [[knife]],2.0
+bayonet,/c/en/bayonet/n/wn/artifact,IsA,knife,/c/en/knife/n/wn/artifact,[[bayonet]] is a type of [[knife]],2.0
+mengerat,/c/ms/mengerat/v/wn/contact,Synonym,knife,/c/en/knife/v/wn/contact,[[mengerat]] is a translation of [[knife]],2.0
+cleaver,/c/en/cleaver,RelatedTo,knife,/c/en/knife,[[cleaver]] is related to [[knife]],1.9210000000000003
+小刀,/c/zh/小刀,Synonym,knife,/c/en/knife,,1.5
+plate,/c/en/plate,RelatedTo,knife,/c/en/knife,[[plate]] is related to [[knife]],1.089
+dagger,/c/en/dagger,RelatedTo,knife,/c/en/knife,[[dagger]] is related to [[knife]],1.0010000000000003
+stickfrog,/c/en/stickfrog/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,RelatedTo,poniard,/c/en/poniard,,1.0
+a knife,/c/en/knife,UsedFor,opening,/c/en/opening,[[a knife]] is used for [[opening]],1.0
+knife,/c/en/knife/n,Synonym,छुरी,/c/sa/छुरी,,1.0
+A knife,/c/en/knife,CapableOf,divide bread,/c/en/divide_bread,[[A knife]] can [[divide bread]],1.0
+coltello,/c/it/coltello/n,RelatedTo,knife,/c/en/knife,,1.0
+clicker,/c/en/clicker/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,cyllyll,/c/cy/cyllyll,,1.0
+日本刀,/c/zh/日本刀/n,RelatedTo,knife,/c/en/knife,,1.0
+chinse,/c/en/chinse/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,pisau,/c/id/pisau,,1.0
+scian,/c/ga/scian/n,RelatedTo,knife,/c/en/knife,,1.0
+kutsilyo,/c/ceb/kutsilyo/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/v,RelatedTo,political,/c/en/political,,1.0
+table knife,/c/en/table_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+sweating iron,/c/en/sweating_iron/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,RelatedTo,stab,/c/en/stab,,1.0
+knife,/c/en/knife/n,RelatedTo,bayonet,/c/en/bayonet,,1.0
+gully,/c/sco/gully/n,RelatedTo,knife,/c/en/knife,,1.0
+wḏꜣt,/c/egx/wḏꜣt/n,RelatedTo,knife,/c/en/knife,,1.0
+histodiamond,/c/en/histodiamond/a,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,CapableOf,divide a string,/c/en/divide_string,[[a knife]] can [[divide a string]],1.0
+catling,/c/en/catling/n,RelatedTo,knife,/c/en/knife,,1.0
+ผ่า,/c/th/ผ่า/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,lading,/c/jv/lading,,1.0
+leikata,/c/fi/leikata/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife,EtymologicallyDerivedFrom,knyf,/c/enm/knyf,,1.0
+nefi,/c/srn/nefi,EtymologicallyDerivedFrom,knife,/c/en/knife,,1.0
+刀子,/c/zh/刀子,Synonym,knife,/c/en/knife,,1.0
+kukri,/c/en/kukri/n,RelatedTo,knife,/c/en/knife,,1.0
+flick knife,/c/en/flick_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+knifing,/c/en/knifing/n,RelatedTo,knife,/c/en/knife,,1.0
+нож,/c/mk/нож/n,RelatedTo,knife,/c/en/knife,,1.0
+meat cleaver,/c/en/meat_cleaver/n,IsA,knife,/c/en/knife/n,,1.0
+knife,/c/en/knife/n,Synonym,나이프,/c/ko/나이프,,1.0
+knife,/c/en/knife/n,Synonym,ᓴᕕᒃ,/c/iu/ᓴᕕᒃ,,1.0
+a knife,/c/en/knife,UsedFor,engraving,/c/en/engraving,[[a knife]] is used for [[engraving]],1.0
+刀锯鼎镬,/c/zh/刀锯鼎镬,Synonym,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,jackknife,/c/en/jackknife,,1.0
+σμίλη,/c/grc/σμίλη/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,a tool in a shop,/c/en/tool_in_shop,[[a knife]] is used for [[a tool in a shop]],1.0
+clunaclus,/c/la/clunaclus/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,splitting,/c/en/splitting,[[a knife]] is used for [[splitting]],1.0
+knife,/c/en/knife/n,RelatedTo,stiletto,/c/en/stiletto,,1.0
+rũhiũ,/c/ki/rũhiũ/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,tutyns,/c/ltg/tutyns,,1.0
+knife,/c/en/knife,ExternalURL,Knife,http://dbpedia.org/resource/Knife,,1.0
+knife,/c/en/knife/n,Synonym,imela,/c/xh/imela,,1.0
+abrecartas,/c/es/abrecartas/n,RelatedTo,knife,/c/en/knife,,1.0
+messer,/c/de/messer/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+cultel,/c/fro/cultel/n,RelatedTo,knife,/c/en/knife,,1.0
+couoté,/c/nrf/couoté/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,couté,/c/nrf/couté,,1.0
+knife,/c/en/knife/n,Synonym,מעסער,/c/yi/מעסער,,1.0
+knife,/c/en/knife/n,Synonym,hnífur,/c/is/hnífur,,1.0
+soaks,/c/stq/soaks/n,RelatedTo,knife,/c/en/knife,,1.0
+sisip,/c/fil/sisip/n,RelatedTo,knife,/c/en/knife,,1.0
+rambo,/c/en/rambo/n,RelatedTo,knife,/c/en/knife,,1.0
+thikë,/c/sq/thikë/n,RelatedTo,knife,/c/en/knife,,1.0
+нус,/c/av/нус/n,RelatedTo,knife,/c/en/knife,,1.0
+aizto,/c/eu/aizto/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,cultello,/c/ie/cultello,,1.0
+knife,/c/en/knife/n,Synonym,nazs,/c/ltg/nazs,,1.0
+սուր,/c/xcl/սուր/n,RelatedTo,knife,/c/en/knife,,1.0
+གྲི,/c/bo/གྲི/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,skinning animals,/c/en/skinning_animals,[[a knife]] is used for [[skinning animals]],1.0
+fork,/c/en/fork,RelatedTo,knife,/c/en/knife,,1.0
+cuntè,/c/rm/cuntè/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,nóż,/c/pl/nóż,,1.0
+σκάλμη,/c/grc/σκάλμη/n,RelatedTo,knife,/c/en/knife,,1.0
+cultriform,/c/en/cultriform/a,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,digging,/c/en/digging,[[a knife]] is used for [[digging]],1.0
+🗡,/c/mul/🗡,RelatedTo,knife,/c/en/knife,,1.0
+knifing,/c/en/knifing,FormOf,knife,/c/en/knife/v,,1.0
+a knife,/c/en/knife,CapableOf,stick you in the ribs,/c/en/stick_in_ribs,[[a knife]] can [[stick you in the ribs]],1.0
+dunggab,/c/ceb/dunggab/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,culter,/c/la/culter,,1.0
+knife,/c/en/knife/n,Synonym,ganivet,/c/ca/ganivet,,1.0
+刀喙口,/c/zh/刀喙口/n,RelatedTo,knife,/c/en/knife,,1.0
+利刃,/c/zh/利刃/n,RelatedTo,knife,/c/en/knife,,1.0
+skynn,/c/gv/skynn/n,RelatedTo,knife,/c/en/knife,,1.0
+칼집,/c/ko/칼집/n,RelatedTo,knife,/c/en/knife,,1.0
+coutel,/c/fro/coutel/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,AtLocation,a knife store,/c/en/knife_store,You are likely to find [[a knife]] in [[a knife store]],1.0
+a knife,/c/en/knife,CapableOf,quarter a cake,/c/en/quarter_cake,[[a knife]] can [[quarter a cake]],1.0
+knife,/c/en/knife/n,Synonym,tranĉilo,/c/eo/tranĉilo,,1.0
+couté,/c/nrf/couté/n,RelatedTo,knife,/c/en/knife,,1.0
+нож,/c/bg/нож/n,Synonym,knife,/c/en/knife,,1.0
+curtelã,/c/rup/curtelã/n,RelatedTo,knife,/c/en/knife,,1.0
+butter knife,/c/en/butter_knife/n,IsA,knife,/c/en/knife/n,,1.0
+knife,/c/en/knife/n,Synonym,కత్తి,/c/te/కత్తి,,1.0
+కత్తి,/c/te/కత్తి/n,RelatedTo,knife,/c/en/knife,,1.0
+sax,/c/enm/sax/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,thikë,/c/sq/thikë,,1.0
+scarnatoio,/c/it/scarnatoio/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,چاړه,/c/ps/چاړه,,1.0
+хутга,/c/mn/хутга/n,RelatedTo,knife,/c/en/knife,,1.0
+knives,/c/en/knives/n,FormOf,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,carving initials,/c/en/carving_initials,[[a knife]] is used for [[carving initials]],1.0
+a knife,/c/en/knife,UsedFor,chopping vegetables,/c/en/chopping_vegetables,[[a knife]] is used for [[chopping vegetables]],1.0
+knife,/c/en/knife/n,Synonym,mookomaan,/c/oj/mookomaan,,1.0
+چاقو,/c/ur/چاقو/n,RelatedTo,knife,/c/en/knife,,1.0
+kisu,/c/sw/kisu/n,RelatedTo,knife,/c/en/knife,,1.0
+nůž,/c/cs/nůž/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,mashing,/c/en/mashing,[[a knife]] is used for [[mashing]],1.0
+knife,/c/en/knife/n,Synonym,cyllell,/c/cy/cyllell,,1.0
+lann,/c/gd/lann/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+couteau à fruit,/c/fr/couteau_à_fruit/n,RelatedTo,knife,/c/en/knife,,1.0
+bistoury,/c/en/bistoury/n,RelatedTo,knife,/c/en/knife,,1.0
+khuchuna,/c/qu/khuchuna/n,RelatedTo,knife,/c/en/knife,,1.0
+tenotome,/c/en/tenotome/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,aizto,/c/eu/aizto,,1.0
+macharomancy,/c/en/macharomancy/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,amesheta,/c/ccc/amesheta,,1.0
+bıçak,/c/tr/bıçak/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,spreading jam,/c/en/spreading_jam,[[a knife]] is used for [[spreading jam]],1.0
+knife,/c/en/knife/n,Synonym,கத்தி,/c/ta/கத்தி,,1.0
+bayonet,/c/en/bayonet/n,RelatedTo,knife,/c/en/knife,,1.0
+chef,/c/en/chef/v,RelatedTo,knife,/c/en/knife,,1.0
+ナイフ,/c/ja/ナイフ/n,RelatedTo,knife,/c/en/knife,,1.0
+coteler,/c/enm/coteler/n,RelatedTo,knife,/c/en/knife,,1.0
+칼날,/c/ko/칼날/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,RelatedTo,weapon,/c/en/weapon,,1.0
+knife,/c/en/knife/n,ExternalURL,Knife,http://sw.opencyc.org/2012/05/10/concept/en/Knife,,1.0
+a knife,/c/en/knife,UsedFor,eating food,/c/en/eating_food,[[a knife]] is for [[eating food]],1.0
+ǃqáũ,/c/nmn/ǃqáũ/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+trench knife,/c/en/trench_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+A knife,/c/en/knife,UsedFor,cut food,/c/en/cut_food,[[A knife]] is used to [[cut food]],1.0
+knife,/c/en/knife/n,Synonym,μαχαιρα,/c/grc/μαχαιρα,,1.0
+gurteddu,/c/sc/gurteddu/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,imbugita,/c/rw/imbugita,,1.0
+刀刃,/c/zh/刀刃/n,RelatedTo,knife,/c/en/knife,,1.0
+tamahagane,/c/en/tamahagane/n,RelatedTo,knife,/c/en/knife,,1.0
+toadsticker,/c/en/toadsticker/n,RelatedTo,knife,/c/en/knife,,1.0
+pagiwa,/c/ilo/pagiwa/n,RelatedTo,knife,/c/en/knife,,1.0
+canivete,/c/gl/canivete/n,RelatedTo,knife,/c/en/knife,,1.0
+messer,/c/lb/messer/n,RelatedTo,knife,/c/en/knife,,1.0
+parang,/c/en/parang/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+knifemaking,/c/en/knifemaking/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,AtLocation,a knife block,/c/en/knife_block,You are likely to find [[a knife]] in [[a knife block]],1.0
+diving knife,/c/en/diving_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+短刀,/c/ja/短刀/n,RelatedTo,knife,/c/en/knife,,1.0
+nefi,/c/srn/nefi/n,RelatedTo,knife,/c/en/knife,,1.0
+刀柄,/c/zh/刀柄/n,RelatedTo,knife,/c/en/knife,,1.0
+dah,/c/en/dah/n/wikt/en_2,RelatedTo,knife,/c/en/knife,,1.0
+dao,/c/vi/dao/n,Synonym,knife,/c/en/knife,,1.0
+khuchuy,/c/qu/khuchuy/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,нож,/c/be/нож,,1.0
+鋒頭,/c/zh/鋒頭/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,AtLocation,a backpack,/c/en/backpack,*Something you find in [[a backpack]] is [[a knife]],1.0
+کێرد,/c/ku/کێرد/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,paring,/c/en/paring,[[a knife]] is used for [[paring]],1.0
+microknife,/c/en/microknife/n,RelatedTo,knife,/c/en/knife,,1.0
+kniv,/c/sv/kniv/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,making a mark,/c/en/making_mark,[[a knife]] is used for [[making a mark]],1.0
+knife,/c/en/knife/n,Synonym,khallana,/c/qu/khallana,,1.0
+knife,/c/en/knife/n,Synonym,ছুরি,/c/bn/ছুরি,,1.0
+knifelike,/c/en/knifelike/a,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,HasProperty,dull,/c/en/dull,[[a knife]] can be [[dull]],1.0
+knife,/c/en/knife/n,Synonym,pichoq,/c/uz/pichoq,,1.0
+scían,/c/sga/scían/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,cutting string,/c/en/cutting_string,[[a knife]] is for [[cutting string]],1.0
+a knife,/c/en/knife,AtLocation,your back,/c/en/back,You are likely to find [[a knife]] in [[your back]],1.0
+cake slice,/c/en/cake_slice/n,RelatedTo,knife,/c/en/knife,,1.0
+werpmes,/c/nl/werpmes/n,RelatedTo,knife,/c/en/knife,,1.0
+couteau,/c/fr/couteau/n,Synonym,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,gouging,/c/en/gouging,[[a knife]] is used for [[gouging]],1.0
+steak knife,/c/en/steak_knife/n,IsA,knife,/c/en/knife/n,,1.0
+a knife,/c/en/knife,UsedFor,unraveling,/c/en/unraveling,[[a knife]] is used for [[unraveling]],1.0
+knifegrinder,/c/en/knifegrinder,DerivedFrom,knife,/c/en/knife,,1.0
+knife,/c/en/knife/v,RelatedTo,ignore,/c/en/ignore,,1.0
+zombie knife,/c/en/zombie_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+wounded,/c/en/wounded/a,RelatedTo,knife,/c/en/knife,,1.0
+carving knife,/c/en/carving_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+cutsut,/c/rup/cutsut/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,RelatedTo,tool,/c/en/tool,,1.0
+nazis,/c/lv/nazis/n,RelatedTo,knife,/c/en/knife,,1.0
+нож,/c/bg/нож/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,kitchen work,/c/en/kitchen_work,[[a knife]] is used for [[kitchen work]],1.0
+нож,/c/ru/нож/n,RelatedTo,knife,/c/en/knife,,1.0
+鉄,/c/ja/鉄/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+knifed,/c/en/knifed/v,RelatedTo,knife,/c/en/knife,,1.0
+nož,/c/dsb/nož/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,bıçaq,/c/az/bıçaq,,1.0
+knife,/c/en/knife/n,Synonym,бычак,/c/alt/бычак,,1.0
+a knife,/c/en/knife,UsedFor,outdoors living,/c/en/outdoors_living,[[a knife]] is used for [[outdoors living]],1.0
+pisaw,/c/ceb/pisaw/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,separating,/c/en/separating,[[a knife]] is used for [[separating]],1.0
+刀背,/c/zh/刀背/n,RelatedTo,knife,/c/en/knife,,1.0
+knifeplay,/c/en/knifeplay,DerivedFrom,knife,/c/en/knife,,1.0
+تیغ,/c/fa/تیغ/n,RelatedTo,knife,/c/en/knife,,1.0
+A knife,/c/en/knife,CapableOf,spread butter on bread,/c/en/spread_butter_on_bread,[[A knife]] can [[spread butter on bread]],1.0
+ᮕᮦᮞᮧ,/c/su/ᮕᮦᮞᮧ/n,RelatedTo,knife,/c/en/knife,,1.0
+cheese knife,/c/en/cheese_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+knifes,/c/en/knifes/v,RelatedTo,knife,/c/en/knife,,1.0
+sloyd,/c/en/sloyd/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,neiʹbb,/c/sms/neiʹbb,,1.0
+шпахтель,/c/ru/шпахтель/n,RelatedTo,knife,/c/en/knife,,1.0
+coutellerie,/c/fr/coutellerie/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,চাকু,/c/bn/চাকু,,1.0
+knife,/c/en/knife/n,Synonym,cortial,/c/dlm/cortial,,1.0
+ϭⲟⲣⲧⲉ,/c/cop/ϭⲟⲣⲧⲉ/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,putting a butcher block,/c/en/putting_butcher_block,[[a knife]] is used for [[putting a butcher block]],1.0
+suwab,/c/ceb/suwab/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,костура,/c/rue/костура,,1.0
+चक्कु,/c/ne/चक्कु/n,RelatedTo,knife,/c/en/knife,,1.0
+penknife,/c/en/penknife,DerivedFrom,knife,/c/en/knife,,1.0
+storyknife,/c/en/storyknife/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/v,RelatedTo,weapon,/c/en/weapon,,1.0
+hysterotome,/c/en/hysterotome/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,coitelo,/c/gl/coitelo,,1.0
+a knife,/c/en/knife,UsedFor,Cutting meat,/c/en/cutting_meat,[[a knife]] is used for [[Cutting meat]],1.0
+a knife,/c/en/knife,AtLocation,a stabbing victim,/c/en/stabbing_victim,You are likely to find [[a knife]] in [[a stabbing victim]],1.0
+knife,/c/en/knife/n,Synonym,бычак,/c/ky/бычак,,1.0
+knife,/c/en/knife/n,Synonym,cotèl,/c/oc/cotèl,,1.0
+knife,/c/en/knife/n,Synonym,刀,/c/zh/刀,,1.0
+a knife,/c/en/knife,UsedFor,pricking skin,/c/en/pricking_skin,[[a knife]] is used for [[pricking skin]],1.0
+a knife,/c/en/knife,UsedFor,spearing pieces,/c/en/spearing_pieces,[[a knife]] is used for [[spearing pieces]],1.0
+пурт,/c/udm/пурт/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife,CapableOf,spread margarine,/c/en/spread_margarine,[[knife]] can [[spread margarine]],1.0
+knifeman,/c/en/knifeman/n,RelatedTo,knife,/c/en/knife,,1.0
+sundang,/c/fil/sundang/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,debitsi,/c/na/debitsi,,1.0
+knife,/c/en/knife/n,Synonym,nazis,/c/lv/nazis,,1.0
+bot,/c/fy/bot/a,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,cracking open,/c/en/cracking_open,[[a knife]] is used for [[cracking open]],1.0
+machete,/c/de/machete,IsA,knife,/c/en/knife/n,,1.0
+सुरी,/c/mr/सुरी/n,RelatedTo,knife,/c/en/knife,,1.0
+junghia,/c/ro/junghia/v,RelatedTo,knife,/c/en/knife,,1.0
+cuchilla,/c/es/cuchilla/n,RelatedTo,knife,/c/en/knife,,1.0
+A mind that is all logic,/c/en/mind_all_logic,IsA,a knife,/c/en/knife,[[A mind that is all logic]] is [[a knife]],1.0
+knife,/c/en/knife/n,RelatedTo,slash,/c/en/slash,,1.0
+knifegrinder,/c/en/knifegrinder/n,RelatedTo,knife,/c/en/knife,,1.0
+pisau,/c/ms/pisau/n,RelatedTo,knife,/c/en/knife,,1.0
+hnífur,/c/is/hnífur/n,Synonym,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,letting blood,/c/en/letting_blood,[[a knife]] is used for [[letting blood]],1.0
+hnífur,/c/is/hnífur/n,RelatedTo,knife,/c/en/knife,,1.0
+butterfly knife,/c/en/butterfly_knife,DerivedFrom,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,attaching to a rifle,/c/en/attaching_to_rifle,[[a knife]] is used for [[attaching to a rifle]],1.0
+savik,/c/kl/savik/n,RelatedTo,knife,/c/en/knife,,1.0
+pocketknife,/c/en/pocketknife/n,RelatedTo,knife,/c/en/knife,,1.0
+کشری,/c/ur/کشری/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ummese,/c/zu/ummese,,1.0
+knife,/c/en/knife/n,Synonym,shuri,/c/rom/shuri,,1.0
+chaira,/c/gl/chaira/n,RelatedTo,knife,/c/en/knife,,1.0
+itztli,/c/nci/itztli/n,RelatedTo,knife,/c/en/knife,,1.0
+зарезать,/c/ru/зарезать/v/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+sgian,/c/gd/sgian/n,RelatedTo,knife,/c/en/knife,,1.0
+surin,/c/fr/surin/n,RelatedTo,knife,/c/en/knife,,1.0
+machete,/c/en/machete/n,IsA,knife,/c/en/knife/n,,1.0
+飛刀,/c/zh/飛刀/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,faca,/c/pt/faca,,1.0
+knife,/c/en/knife/n,Synonym,ཀ ཀྲ ལ,/c/bo/ཀ_ཀྲ_ལ,,1.0
+knifes,/c/en/knifes,FormOf,knife,/c/en/knife/v,,1.0
+a knife,/c/en/knife,CapableOf,be cutting food,/c/en/cutting_food,[[a knife]] can [[be cutting food]],1.0
+knife,/c/en/knife/n,Synonym,ⲑⲟⲕ,/c/cop/ⲑⲟⲕ,,1.0
+bolster,/c/en/bolster/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,пычақ,/c/cjs/пычақ,,1.0
+knife,/c/en/knife/n,Synonym,kuraz,/c/vot/kuraz,,1.0
+a knife,/c/en/knife,UsedFor,removing labels,/c/en/removing_labels,[[a knife]] is used for [[removing labels]],1.0
+knife,/c/en/knife/n,Synonym,កាំបិត,/c/km/កាំបិត,,1.0
+knife,/c/en/knife/n,Synonym,peilis,/c/lt/peilis,,1.0
+knife,/c/en/knife/n,Synonym,корд,/c/tg/корд,,1.0
+چەقۆ,/c/ku/چەقۆ/n,RelatedTo,knife,/c/en/knife,,1.0
+джасэ,/c/ady/джасэ/n,RelatedTo,knife,/c/en/knife,,1.0
+書刀,/c/zh/書刀/n,RelatedTo,knife,/c/en/knife,,1.0
+刀口,/c/zh/刀口/n,RelatedTo,knife,/c/en/knife,,1.0
+พร้า,/c/th/พร้า/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,ReceivesAction,sharp,/c/en/sharp,[[a knife]] can be [[sharp]],1.0
+knife,/c/en/knife,ExternalURL,Knife,http://umbel.org/umbel/sc/Knife,,1.0
+scorticatoio,/c/it/scorticatoio/n,RelatedTo,knife,/c/en/knife,,1.0
+kniv,/c/no/kniv/n,RelatedTo,knife,/c/en/knife,,1.0
+skeng,/c/en/skeng/n,RelatedTo,knife,/c/en/knife,,1.0
+scalpellum,/c/la/scalpellum/n,RelatedTo,knife,/c/en/knife,,1.0
+puukko,/c/en/puukko/n,RelatedTo,knife,/c/en/knife,,1.0
+مدية,/c/ar/مدية/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,puukko,/c/fi/puukko,,1.0
+𐎈𐎗𐎁,/c/uga/𐎈𐎗𐎁/n,RelatedTo,knife,/c/en/knife,,1.0
+屠刀,/c/zh/屠刀/n,RelatedTo,knife,/c/en/knife,,1.0
+ພ້າ,/c/lo/ພ້າ/n,RelatedTo,knife,/c/en/knife,,1.0
+cuchiello,/c/osp/cuchiello/n,RelatedTo,knife,/c/en/knife,,1.0
+ມີດ,/c/lo/ມີດ/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,turning a screw,/c/en/turning_screw,[[a knife]] is used for [[turning a screw]],1.0
+switchblade,/c/en/switchblade/n,IsA,knife,/c/en/knife/n,,1.0
+a knife,/c/en/knife,UsedFor,prying open,/c/en/prying_open,[[a knife]] is used for [[prying open]],1.0
+edge,/c/en/edge/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,taking off ends,/c/en/taking_off_ends,[[a knife]] is used for [[taking off ends]],1.0
+se'se,/c/ch/se'se/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ацҳа,/c/ab/ацҳа,,1.0
+knife,/c/en/knife/n,Synonym,小刀,/c/ja/小刀,,1.0
+knifecrime,/c/en/knifecrime,DerivedFrom,knife,/c/en/knife,,1.0
+nazis,/c/lv/nazis/n,Synonym,knife,/c/en/knife,,1.0
+utak,/c/hil/utak/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,છરી,/c/gu/છરી,,1.0
+ܣܘܛܦܐ,/c/syc/ܣܘܛܦܐ/n,RelatedTo,knife,/c/en/knife,,1.0
+knifeproof,/c/en/knifeproof/a,RelatedTo,knife,/c/en/knife,,1.0
+cuchillo,/c/es/cuchillo/n,RelatedTo,knife,/c/en/knife,,1.0
+accoltellare,/c/it/accoltellare/v,RelatedTo,knife,/c/en/knife,,1.0
+brauktas,/c/lt/brauktas/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,දණහිස,/c/si/දණහිස,,1.0
+folder,/c/en/folder/n,RelatedTo,knife,/c/en/knife,,1.0
+cut,/c/en/cut/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,пышақ,/c/kk/пышақ,,1.0
+kizë,/c/sq/kizë/n,RelatedTo,knife,/c/en/knife,,1.0
+athame,/c/en/athame/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,a tool in a backpack,/c/en/tool_in_backpack,[[a knife]] is used for [[a tool in a backpack]],1.0
+acuchillar,/c/es/acuchillar/v,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,trimming,/c/en/trimming,[[a knife]] is used for [[trimming]],1.0
+利刀,/c/zh/利刀,Synonym,knife,/c/en/knife,,1.0
+kardi,/c/zza/kardi/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,coltell,/c/ca/coltell,,1.0
+zft,/c/egx/zft/n,RelatedTo,knife,/c/en/knife,,1.0
+小柄,/c/ja/小柄/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,curtìš,/c/fur/curtìš,,1.0
+suriner,/c/fr/suriner/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,cultella,/c/co/cultella,,1.0
+cuteddu,/c/scn/cuteddu/n,RelatedTo,knife,/c/en/knife,,1.0
+arrotatore,/c/it/arrotatore/n,RelatedTo,knife,/c/en/knife,,1.0
+knifework,/c/en/knifework,DerivedFrom,knife,/c/en/knife,,1.0
+karambit,/c/en/karambit/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,severing,/c/en/severing,[[a knife]] is used for [[severing]],1.0
+ganivet,/c/ca/ganivet/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ಕತ್ತಿ,/c/kn/ಕತ್ತಿ,,1.0
+a knife,/c/en/knife,UsedFor,making a groove,/c/en/making_groove,[[a knife]] is used for [[making a groove]],1.0
+a knife,/c/en/knife,UsedFor,attacking an enemy,/c/en/attacking_enemy,[[a knife]] is used for [[attacking an enemy]],1.0
+gladiolus,/c/la/gladiolus/n,RelatedTo,knife,/c/en/knife,,1.0
+刀仔囝,/c/zh/刀仔囝/n,RelatedTo,knife,/c/en/knife,,1.0
+கத்தி,/c/ta/கத்தி/n,RelatedTo,knife,/c/en/knife,,1.0
+knifepoint,/c/en/knifepoint/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,มีด,/c/th/มีด,,1.0
+knife control,/c/en/knife_control/n,RelatedTo,knife,/c/en/knife,,1.0
+knifemaker,/c/en/knifemaker/n,RelatedTo,knife,/c/en/knife,,1.0
+скобель,/c/ru/скобель/n,RelatedTo,knife,/c/en/knife,,1.0
+wristband,/c/en/wristband/n,RelatedTo,knife,/c/en/knife,,1.0
+culter,/c/la/culter/n,RelatedTo,knife,/c/en/knife,,1.0
+A knife,/c/en/knife,CapableOf,cut most things,/c/en/cut_most_things,[[A knife]] can [[cut most things]],1.0
+shiv,/c/en/shiv/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/v,RelatedTo,slate,/c/en/slate,,1.0
+a knife,/c/en/knife,CapableOf,cut leather,/c/en/cut_leather,[[a knife]] can [[cut leather]],1.0
+cutlery,/c/en/cutlery/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,HasProperty,dangerous,/c/en/dangerous,[[a knife]] can be [[dangerous]],1.0
+bashpo,/c/cic/bashpo/n,RelatedTo,knife,/c/en/knife,,1.0
+霍霍,/c/zh/霍霍,RelatedTo,knife,/c/en/knife,,1.0
+gamma knife,/c/en/gamma_knife,DerivedFrom,knife,/c/en/knife,,1.0
+cortial,/c/dlm/cortial/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,threatening someone,/c/en/threatening,[[a knife]] is used for [[threatening someone]],1.0
+a knife,/c/en/knife,UsedFor,gashing,/c/en/gashing,[[a knife]] is used for [[gashing]],1.0
+a knife,/c/en/knife,UsedFor,spreading cheese,/c/en/spreading_cheese,[[a knife]] is used for [[spreading cheese]],1.0
+knifed,/c/en/knifed,FormOf,knife,/c/en/knife/v,,1.0
+knife,/c/en/knife/n,Synonym,veičči,/c/krl/veičči,,1.0
+roncolo,/c/it/roncolo/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+histoknife,/c/en/histoknife,DerivedFrom,knife,/c/en/knife,,1.0
+刀鋸斧鉞,/c/zh/刀鋸斧鉞,Synonym,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,刀,/c/nan/刀,,1.0
+stiletto,/c/en/stiletto/n,RelatedTo,knife,/c/en/knife,,1.0
+knifes,/c/en/knifes/v,FormOf,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,CapableOf,butter a piece of toast,/c/en/butter_piece_of_toast,[[a knife]] can [[butter a piece of toast]],1.0
+binangon,/c/hil/binangon/n,RelatedTo,knife,/c/en/knife,,1.0
+affilacoltelli,/c/it/affilacoltelli/n,RelatedTo,knife,/c/en/knife,,1.0
+buneng,/c/ilo/buneng/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,piercing,/c/en/piercing,[[a knife]] is used for [[piercing]],1.0
+storyknife,/c/en/storyknife,DerivedFrom,knife,/c/en/knife,,1.0
+pasivat,/c/chl/pasivat/n,RelatedTo,knife,/c/en/knife,,1.0
+barbur,/c/ro/barbur/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,blade,/c/de/blade,,1.0
+knife,/c/en/knife/n,Synonym,couoté,/c/nrf/couoté,,1.0
+刀攕,/c/zh/刀攕/n,RelatedTo,knife,/c/en/knife,,1.0
+cotel,/c/fro/cotel/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,alter length of string or rope,/c/en/alter_length_of_string_or_rope,[[a knife]] is used for [[alter length of string or rope]],1.0
+knife,/c/en/knife/n,Synonym,刀子,/c/zh/刀子,,1.0
+knife,/c/en/knife/v,RelatedTo,injure,/c/en/injure,,1.0
+knifeboard,/c/en/knifeboard,DerivedFrom,knife,/c/en/knife,,1.0
+鋒芒,/c/zh/鋒芒/n,RelatedTo,knife,/c/en/knife,,1.0
+messerspitze,/c/de/messerspitze/n,RelatedTo,knife,/c/en/knife,,1.0
+갈래,/c/ko/갈래/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,ReceivesAction,found in a kitchen,/c/en/found_in_kitchen,[[a knife]] can be [[found in a kitchen]],1.0
+დანა,/c/ka/დანა/n,RelatedTo,knife,/c/en/knife,,1.0
+忍び,/c/ja/忍び/n,RelatedTo,knife,/c/en/knife,,1.0
+A knife,/c/en/knife,ReceivesAction,used as a weapon,/c/en/used_as_weapon,[[A knife]] can be [[used as a weapon]],1.0
+knifejaw,/c/en/knifejaw,DerivedFrom,knife,/c/en/knife,,1.0
+veitsi,/c/fi/veitsi/n,RelatedTo,knife,/c/en/knife,,1.0
+arma blanca,/c/es/arma_blanca/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,nuussiq,/c/esu/nuussiq,,1.0
+seax,/c/ang/seax/n,RelatedTo,knife,/c/en/knife,,1.0
+knife grinder,/c/en/knife_grinder,DerivedFrom,knife,/c/en/knife/n,,1.0
+knife,/c/en/knife/n,Synonym,cuchiellu,/c/ast/cuchiellu,,1.0
+serpette,/c/en/serpette/n,RelatedTo,knife,/c/en/knife,,1.0
+nůž,/c/cs/nůž/n,Synonym,knife,/c/en/knife,,1.0
+kés,/c/hu/kés/n,RelatedTo,knife,/c/en/knife,,1.0
+A knife,/c/en/knife,MadeOf,steel,/c/en/steel,[[A knife]] is made of [[steel]],1.0
+boot knife,/c/en/boot_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+cuchillito,/c/es/cuchillito/n,RelatedTo,knife,/c/en/knife,,1.0
+ǃqáũ,/c/nmn/ǃqáũ/a/wikt/en_2,RelatedTo,knife,/c/en/knife,,1.0
+castratoio,/c/it/castratoio/n,RelatedTo,knife,/c/en/knife,,1.0
+kniv,/c/sv/kniv/n,Synonym,knife,/c/en/knife,,1.0
+switchblade,/c/en/switchblade/n,RelatedTo,knife,/c/en/knife,,1.0
+скребло,/c/ru/скребло/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+刀锯斧钺,/c/zh/刀锯斧钺,Synonym,knife,/c/en/knife,,1.0
+cystotome,/c/en/cystotome/n,RelatedTo,knife,/c/en/knife,,1.0
+busnaip,/c/tpi/busnaip/n,RelatedTo,knife,/c/en/knife,,1.0
+naismith,/c/en/naismith/n,RelatedTo,knife,/c/en/knife,,1.0
+sägemesser,/c/de/sägemesser/n,RelatedTo,knife,/c/en/knife,,1.0
+nôž,/c/sk/nôž/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,AtLocation,a silverware drawer,/c/en/silverware_drawer,You are likely to find [[a knife]] in [[a silverware drawer]],1.0
+դան,/c/xcl/դան/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,open a plastic package,/c/en/open_plastic_package,You can use [[a knife]] to [[open a plastic package]],1.0
+ds,/c/egx/ds/n/wikt/en_2,RelatedTo,knife,/c/en/knife,,1.0
+käsemesser,/c/de/käsemesser/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,IsA,manual tool,/c/en/manual_tool/n,,1.0
+刀鋩,/c/zh/刀鋩/n,RelatedTo,knife,/c/en/knife,,1.0
+maoser,/c/wym/maoser/n,RelatedTo,knife,/c/en/knife,,1.0
+tomato knife,/c/en/tomato_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+knifeproof,/c/en/knifeproof,DerivedFrom,knife,/c/en/knife,,1.0
+knifeplay,/c/en/knifeplay/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,RelatedTo,scalpel,/c/en/scalpel,,1.0
+knifeless,/c/en/knifeless,DerivedFrom,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ቢላ,/c/am/ቢላ,,1.0
+knife,/c/en/knife,IsA,a speciality of Thiers in France,/c/en/speciality_of_thiers_in_france,[[knife]] is [[a speciality of Thiers in France]],1.0
+veičči,/c/krl/veičči/n,RelatedTo,knife,/c/en/knife,,1.0
+deer horn knife,/c/en/deer_horn_knife,DerivedFrom,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,കത്തി,/c/ml/കത്തി,,1.0
+刀圭,/c/zh/刀圭/n,RelatedTo,knife,/c/en/knife,,1.0
+бәке,/c/ba/бәке/n,RelatedTo,knife,/c/en/knife,,1.0
+柄,/c/ja/柄/n/wikt/en_7,RelatedTo,knife,/c/en/knife,,1.0
+paperknife,/c/en/paperknife,DerivedFrom,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,cuțit,/c/ro/cuțit,,1.0
+imela,/c/xh/imela/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,AtLocation,a knife-holder,/c/en/knife_holder,You are likely to find [[a knife]] in [[a knife-holder]],1.0
+messerwerfer,/c/de/messerwerfer/n,RelatedTo,knife,/c/en/knife,,1.0
+yellowknife,/c/en/yellowknife,DerivedFrom,knife,/c/en/knife,,1.0
+väits,/c/et/väits/n,RelatedTo,knife,/c/en/knife,,1.0
+кард,/c/os/кард/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,talkoosa,/c/akz/talkoosa,,1.0
+knifesmith,/c/en/knifesmith/n,RelatedTo,knife,/c/en/knife,,1.0
+nož,/c/sl/nož/n,RelatedTo,knife,/c/en/knife,,1.0
+patalim,/c/fil/patalim/n,RelatedTo,knife,/c/en/knife,,1.0
+kuchú,/c/pap/kuchú/n,RelatedTo,knife,/c/en/knife,,1.0
+とうす,/c/ja/とうす/n,RelatedTo,knife,/c/en/knife,,1.0
+faca,/c/pt/faca/n,Synonym,knife,/c/en/knife,,1.0
+μαχαίρα,/c/el/μαχαίρα/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,დანა,/c/ka/დანა,,1.0
+knife,/c/en/knife/n,Synonym,knyfe,/c/sco/knyfe,,1.0
+coltellame,/c/it/coltellame/n,RelatedTo,knife,/c/en/knife,,1.0
+sipol,/c/war/sipol/n,RelatedTo,knife,/c/en/knife,,1.0
+酥鏢,/c/zh/酥鏢/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,niibi,/c/se/niibi,,1.0
+kudla,/c/cs/kudla/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,سكين,/c/ar/سكين,,1.0
+мэс,/c/mn/мэс/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,CapableOf,cut a man's hand,/c/en/cut_man's_hand,[[a knife]] can [[cut a man's hand]],1.0
+ножик,/c/ru/ножик/n,RelatedTo,knife,/c/en/knife,,1.0
+kucijo,/c/arn/kucijo/n,RelatedTo,knife,/c/en/knife,,1.0
+coltellino,/c/it/coltellino/n,RelatedTo,knife,/c/en/knife,,1.0
+nóż,/c/pl/nóż/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,lance,/c/en/lance,,1.0
+tukvash,/c/chl/tukvash/n,RelatedTo,knife,/c/en/knife,,1.0
+bladesmith,/c/en/bladesmith/n,RelatedTo,knife,/c/en/knife,,1.0
+innestatoio,/c/it/innestatoio/n,RelatedTo,knife,/c/en/knife,,1.0
+usuba bocho,/c/en/usuba_bocho/n,RelatedTo,knife,/c/en/knife,,1.0
+موس,/c/ar/موس/n,RelatedTo,knife,/c/en/knife,,1.0
+bolo,/c/en/bolo/v/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+cacha,/c/ast/cacha/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,complementing a spoon and fork,/c/en/complementing_spoon_and_fork,[[a knife]] is used for [[complementing a spoon and fork]],1.0
+a knife,/c/en/knife,UsedFor,kill a person,/c/en/kill_person,[[a knife]] can be used to [[kill a person]],1.0
+knife,/c/en/knife/n/wn/artifact,ExternalURL,103628765-n,http://wordnet-rdf.princeton.edu/wn31/103628765-n,,1.0
+ніж,/c/uk/ніж/n,RelatedTo,knife,/c/en/knife,,1.0
+موسى,/c/ar/موسى/n/wikt/en_2,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,forceful moves,/c/en/forceful_moves,[[a knife]] is used for [[forceful moves]],1.0
+چاقو,/c/fa/چاقو/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,kontell,/c/br/kontell,,1.0
+knife,/c/en/knife/n,Synonym,нож,/c/mk/нож,,1.0
+knife,/c/en/knife/n,Synonym,چەقۆ,/c/ku/چەقۆ,,1.0
+a knife,/c/en/knife,UsedFor,lacerating,/c/en/lacerating,[[a knife]] is used for [[lacerating]],1.0
+knifemaking,/c/en/knifemaking,DerivedFrom,knife,/c/en/knife,,1.0
+eräpuukko,/c/fi/eräpuukko/n,RelatedTo,knife,/c/en/knife,,1.0
+szúr,/c/hu/szúr/v,RelatedTo,knife,/c/en/knife,,1.0
+cochiello,/c/osp/cochiello/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,an eating utensil,/c/en/eating_utensil,[[a knife]] is used for [[an eating utensil]],1.0
+рубильник,/c/ru/рубильник/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,spreading,/c/en/spreading,[[a knife]] is used for [[spreading]],1.0
+くない,/c/ja/くない/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,kampit,/c/fil/kampit,,1.0
+umukhwa,/c/zu/umukhwa/n,RelatedTo,knife,/c/en/knife,,1.0
+hedelmäveitsi,/c/fi/hedelmäveitsi/n,RelatedTo,knife,/c/en/knife,,1.0
+刺身包丁,/c/ja/刺身包丁/n,RelatedTo,knife,/c/en/knife,,1.0
+動刀,/c/zh/動刀/v,RelatedTo,knife,/c/en/knife,,1.0
+دشنه,/c/fa/دشنه/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+🍽,/c/mul/🍽,SymbolOf,knife,/c/en/knife,,1.0
+knife,/c/en/knife/v,Synonym,stab,/c/de/stab,,1.0
+αμαχαίρωτοσ,/c/el/αμαχαίρωτοσ/a,RelatedTo,knife,/c/en/knife,,1.0
+dao,/c/vi/dao/n,RelatedTo,knife,/c/en/knife,,1.0
+מעסער,/c/yi/מעסער/n,RelatedTo,knife,/c/en/knife,,1.0
+snickersnee,/c/en/snickersnee/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,pėilis,/c/lt/pėilis,,1.0
+нож,/c/be/нож/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,fighting,/c/en/fighting,[[a knife]] is used for [[fighting]],1.0
+knife,/c/en/knife/n,Synonym,ဓား,/c/my/ဓား,,1.0
+sele,/c/fj/sele/n,RelatedTo,knife,/c/en/knife,,1.0
+🍴,/c/mul/🍴,SymbolOf,knife,/c/en/knife,,1.0
+béésh,/c/nv/béésh/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,peeling,/c/en/peeling,[[a knife]] is used for [[peeling]],1.0
+knife,/c/en/knife,Synonym,knife,/c/en/knife,,1.0
+A knife,/c/en/knife,UsedFor,pare apples,/c/en/pare_apples,[[A knife]] is used to [[pare apples]],1.0
+獵刀,/c/zh/獵刀/n,RelatedTo,knife,/c/en/knife,,1.0
+sikkina,/c/mt/sikkina/n,RelatedTo,knife,/c/en/knife,,1.0
+charrasca,/c/es/charrasca/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,making models,/c/en/making_models,[[a knife]] is used for [[making models]],1.0
+knife,/c/en/knife/n,Synonym,ナイフ,/c/ja/ナイフ,,1.0
+칼,/c/ko/칼/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,CapableOf,saw bread,/c/en/saw_bread,[[a knife]] can [[saw bread]],1.0
+eating knife,/c/en/eating_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ножь,/c/cu/ножь,,1.0
+fenditoio,/c/it/fenditoio/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,бысаҡ,/c/ba/бысаҡ,,1.0
+jack knife,/c/en/jack_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+knyf,/c/enm/knyf/n,RelatedTo,knife,/c/en/knife,,1.0
+survival knife,/c/en/survival_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,cultedhu,/c/sc/cultedhu,,1.0
+tesák,/c/cs/tesák/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,prying things out,/c/en/prying_things_out,[[a knife]] is used for [[prying things out]],1.0
+knife,/c/en/knife/n,Synonym,gurteddu,/c/sc/gurteddu,,1.0
+도,/c/ko/도/n/wikt/en_2,RelatedTo,knife,/c/en/knife,,1.0
+shuri,/c/rom/shuri/n,RelatedTo,knife,/c/en/knife,,1.0
+ecraseur,/c/en/ecraseur/n,RelatedTo,knife,/c/en/knife,,1.0
+быһах,/c/sah/быһах/n,RelatedTo,knife,/c/en/knife,,1.0
+медвежатник,/c/ru/медвежатник/n,RelatedTo,knife,/c/en/knife,,1.0
+scotennatoio,/c/it/scotennatoio/n,RelatedTo,knife,/c/en/knife,,1.0
+cutting edge,/c/en/cutting_edge/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,kés,/c/hu/kés,,1.0
+paring knife,/c/en/paring_knife/n,RelatedTo,knife,/c/en/knife,,1.0
+бижек,/c/tyv/бижек/n,RelatedTo,knife,/c/en/knife,,1.0
+перо,/c/ru/перо/n,RelatedTo,knife,/c/en/knife,,1.0
+knifemaker,/c/en/knifemaker,DerivedFrom,knife,/c/en/knife,,1.0
+切刀,/c/zh/切刀,Synonym,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,counting pills,/c/en/counting_pills,[[a knife]] is used for [[counting pills]],1.0
+刀身,/c/zh/刀身/n,RelatedTo,knife,/c/en/knife,,1.0
+makali ya kisu,/c/sw/makali_ya_kisu/v,RelatedTo,knife,/c/en/knife,,1.0
+knifesmith,/c/en/knifesmith,DerivedFrom,knife,/c/en/knife,,1.0
+spreader,/c/en/spreader/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,AtLocation,your ex husbands back,/c/en/ex_husbands_back,You are likely to find [[a knife]] in [[your ex husbands back]],1.0
+knife,/c/en/knife/n,Synonym,mes,/c/af/mes,,1.0
+whittle,/c/en/whittle/v/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+solla,/c/gl/solla/n,RelatedTo,knife,/c/en/knife,,1.0
+cunti,/c/rm/cunti/n,RelatedTo,knife,/c/en/knife,,1.0
+meteseax,/c/ang/meteseax/n,RelatedTo,knife,/c/en/knife,,1.0
+knifestory,/c/en/knifestory,DerivedFrom,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,completing a place setting,/c/en/completing_place_setting,[[a knife]] is used for [[completing a place setting]],1.0
+knife,/c/en/knife/n,Synonym,kniv,/c/sv/kniv,,1.0
+knife,/c/en/knife/n,Synonym,kniv,/c/no/kniv,,1.0
+knife,/c/en/knife/n,Synonym,pyçak,/c/tk/pyçak,,1.0
+knife,/c/en/knife/n,Synonym,messer,/c/lb/messer,,1.0
+neiʹbb,/c/sms/neiʹbb/n,RelatedTo,knife,/c/en/knife,,1.0
+knivblad,/c/no/knivblad/n,RelatedTo,knife,/c/en/knife,,1.0
+scalpel,/c/en/scalpel/n,IsA,knife,/c/en/knife,,1.0
+चाकू,/c/hi/चाकू/n,RelatedTo,knife,/c/en/knife,,1.0
+gláede,/c/mga/gláede/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,paaka,/c/wo/paaka,,1.0
+knife,/c/en/knife/n,Synonym,soaks,/c/stq/soaks,,1.0
+a knife,/c/en/knife,UsedFor,disect,/c/en/disect,[[a knife]] can be used to [[disect]],1.0
+knife,/c/en/knife/n,Synonym,bıçak,/c/gag/bıçak,,1.0
+🔪,/c/mul/🔪,SymbolOf,knife,/c/en/knife,,1.0
+ᎭᏰᎵᏍᏓ,/c/chr/ᎭᏰᎵᏍᏓ/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,corteo,/c/vec/corteo,,1.0
+couteau,/c/fr/couteau/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,cãtsut,/c/rup/cãtsut,,1.0
+puukonhaava,/c/fi/puukonhaava/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,notching,/c/en/notching,[[a knife]] is used for [[notching]],1.0
+knife,/c/en/knife/n,Synonym,གྲི,/c/bo/གྲི,,1.0
+chopper,/c/en/chopper/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife,ExternalURL,Q32489,http://wikidata.dbpedia.org/resource/Q32489,,1.0
+hvass,/c/is/hvass/a,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,bulteddu,/c/sc/bulteddu,,1.0
+knifeboard,/c/en/knifeboard/n,RelatedTo,knife,/c/en/knife,,1.0
+開口,/c/zh/開口/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ಚಾಕು,/c/kn/ಚಾಕು,,1.0
+a knife,/c/en/knife,UsedFor,making a hole,/c/en/making_hole,[[a knife]] is used for [[making a hole]],1.0
+cuntel,/c/rm/cuntel/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,cut a rope,/c/en/cut_rope,You can use [[a knife]] to [[cut a rope]],1.0
+mookomaan,/c/oj/mookomaan/n,RelatedTo,knife,/c/en/knife,,1.0
+刀鐮,/c/zh/刀鐮/n,RelatedTo,knife,/c/en/knife,,1.0
+tecpatl,/c/nci/tecpatl/n,RelatedTo,knife,/c/en/knife,,1.0
+amesheta,/c/ccc/amesheta/n,RelatedTo,knife,/c/en/knife,,1.0
+knive,/c/en/knive/v,FormOf,knife,/c/en/knife,,1.0
+剞劂,/c/zh/剞劂/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,урс,/c/ce/урс,,1.0
+colter,/c/en/colter/n,RelatedTo,knife,/c/en/knife,,1.0
+texas toothpick,/c/en/texas_toothpick/n,RelatedTo,knife,/c/en/knife,,1.0
+나이프,/c/ko/나이프,EtymologicallyDerivedFrom,knife,/c/en/knife,,1.0
+kiotome,/c/en/kiotome/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,khuchuna,/c/qu/khuchuna,,1.0
+pig sticker,/c/en/pig_sticker/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,wuƙa,/c/ha/wuƙa,,1.0
+ganibet,/c/eu/ganibet/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,sikkina,/c/mt/sikkina,,1.0
+knife,/c/en/knife/n,IsA,user powered device,/c/en/user_powered_device/n,,1.0
+彈簧刀,/c/zh/彈簧刀/n,RelatedTo,knife,/c/en/knife,,1.0
+killing people,/c/en/killing_people,UsedFor,knife,/c/en/knife,[[killing people]] is for [[knife]],1.0
+knife,/c/en/knife/n,RelatedTo,cake slice,/c/en/cake_slice,,1.0
+портупея,/c/ru/портупея/n,RelatedTo,knife,/c/en/knife,,1.0
+knivspids,/c/da/knivspids/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ϭⲟⲣⲧⲉ,/c/cop/ϭⲟⲣⲧⲉ,,1.0
+ⱀⱁⰶⱐ,/c/cu/ⱀⱁⰶⱐ/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,kultelo,/c/io/kultelo,,1.0
+knife,/c/en/knife/n,RelatedTo,dagger,/c/en/dagger,,1.0
+knife switch,/c/en/knife_switch/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,shaving,/c/en/shaving,[[a knife]] is used for [[shaving]],1.0
+knife,/c/en/knife/n,Synonym,칼,/c/ko/칼,,1.0
+knife,/c/en/knife/n,Synonym,ມີດ,/c/lo/ມີດ,,1.0
+knivstikk,/c/no/knivstikk/n,RelatedTo,knife,/c/en/knife,,1.0
+אזמל,/c/he/אזמל/n,RelatedTo,knife,/c/en/knife,,1.0
+mes,/c/nl/mes/n,RelatedTo,knife,/c/en/knife,,1.0
+刀子,/c/zh/刀子/n,RelatedTo,knife,/c/en/knife,,1.0
+slicer,/c/en/slicer/n,RelatedTo,knife,/c/en/knife,,1.0
+ummese,/c/zu/ummese/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,naihi,/c/mi/naihi,,1.0
+knife,/c/en/knife/n,Synonym,seax,/c/ang/seax,,1.0
+knife,/c/en/knife/n,Synonym,դանակ,/c/hy/դանակ,,1.0
+knife,/c/en/knife/n,Synonym,isele,/c/fj/isele,,1.0
+刀身,/c/ja/刀身/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,mets,/c/li/mets,,1.0
+knife,/c/en/knife/n,Synonym,culteddu,/c/sc/culteddu,,1.0
+бысаҡ,/c/ba/бысаҡ/n,RelatedTo,knife,/c/en/knife,,1.0
+coutelet,/c/frm/coutelet/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,nůž,/c/cs/nůž,,1.0
+kuti,/c/is/kuti/n,RelatedTo,knife,/c/en/knife,,1.0
+hot knife,/c/en/hot_knife/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/v,RelatedTo,kill,/c/en/kill,,1.0
+knife,/c/en/knife/n,RelatedTo,chipper,/c/en/chipper,,1.0
+ܫܠܦܐ,/c/syc/ܫܠܦܐ/n/wikt/en_2,RelatedTo,knife,/c/en/knife,,1.0
+stiletto,/c/en/stiletto/n,IsA,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,mässer,/c/gsw/mässer,,1.0
+gainshire,/c/en/gainshire/n,RelatedTo,knife,/c/en/knife,,1.0
+ᑭᐦᒋᒨᐦᑯᒫᓂᒧ,/c/oj/ᑭᐦᒋᒨᐦᑯᒫᓂᒧ/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,AtLocation,a drawer in a kitchen,/c/en/drawer_in_kitchen,You are likely to find [[a knife]] in [[a drawer in a kitchen]],1.0
+knife,/c/en/knife/n,Synonym,нож,/c/ru/нож,,1.0
+A knife,/c/en/knife,CapableOf,free one's soul,/c/en/free_one's_soul,[[A knife]] can [[free one's soul]],1.0
+table knife,/c/en/table_knife/n,IsA,knife,/c/en/knife/n,,1.0
+knife,/c/en/knife/n,Synonym,kardî,/c/zza/kardî,,1.0
+knife,/c/en/knife/n,Synonym,kyse,/c/gn/kyse,,1.0
+a knife,/c/en/knife,CapableOf,divide a pie,/c/en/divide_pie,[[a knife]] can [[divide a pie]],1.0
+neif,/c/vo/neif/n,RelatedTo,knife,/c/en/knife,,1.0
+scheermes,/c/nl/scheermes/n,RelatedTo,knife,/c/en/knife,,1.0
+jockteleg,/c/en/jockteleg/n,RelatedTo,knife,/c/en/knife,,1.0
+veis,/c/liv/veis/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,prying things open,/c/en/prying_things_open,[[a knife]] is used for [[prying things open]],1.0
+kontell,/c/br/kontell/n,RelatedTo,knife,/c/en/knife,,1.0
+totin chip,/c/en/totin_chip/n,RelatedTo,knife,/c/en/knife,,1.0
+سكين,/c/ar/سكين/n,RelatedTo,knife,/c/en/knife,,1.0
+դանակ,/c/xcl/դանակ/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ਚਾਕੂ,/c/pa/ਚਾਕੂ,,1.0
+knife,/c/en/knife/n,Synonym,cortell,/c/lmo/cortell,,1.0
+erstechen,/c/de/erstechen/v,Synonym,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,scoring,/c/en/scoring,[[a knife]] is used for [[scoring]],1.0
+knife,/c/en/knife/n,Synonym,kollel,/c/kw/kollel,,1.0
+a knife,/c/en/knife,UsedFor,military purposes,/c/en/military_purposes,[[a knife]] is used for [[military purposes]],1.0
+அரிவாள்மணை,/c/ta/அரிவாள்மணை/n,RelatedTo,knife,/c/en/knife,,1.0
+चक्कू,/c/raj/चक्कू/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,carving features,/c/en/carving_features,[[a knife]] is used for [[carving features]],1.0
+knife,/c/en/knife/n,Synonym,чоқу,/c/tg/чоқу,,1.0
+mína,/c/dak/mína/n,RelatedTo,knife,/c/en/knife,,1.0
+tudik,/c/tet/tudik/n,RelatedTo,knife,/c/en/knife,,1.0
+μαχαιρίδιο,/c/el/μαχαιρίδιο/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,péso,/c/su/péso,,1.0
+cousteau,/c/frm/cousteau/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,savik,/c/kl/savik,,1.0
+veittsi,/c/vot/veittsi/n,RelatedTo,knife,/c/en/knife,,1.0
+yepe,/c/txb/yepe/n,RelatedTo,knife,/c/en/knife,,1.0
+gully,/c/en/gully/n/wikt/en_2,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ଛୁରୀ,/c/or/ଛୁରୀ,,1.0
+knife,/c/en/knife/n,Synonym,mbɛlí,/c/ln/mbɛlí,,1.0
+labana,/c/eu/labana/n,RelatedTo,knife,/c/en/knife,,1.0
+slice,/c/en/slice/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,ᎭᏰᎳᏍᏗ,/c/chr/ᎭᏰᎳᏍᏗ,,1.0
+a knife,/c/en/knife,UsedFor,picking things out,/c/en/picking_things_out,[[a knife]] is used for [[picking things out]],1.0
+knives,/c/en/knives/n,RelatedTo,knife,/c/en/knife,,1.0
+mezzisahs,/c/goh/mezzisahs/n,RelatedTo,knife,/c/en/knife,,1.0
+şpatel,/c/crh/şpatel/n,RelatedTo,knife,/c/en/knife,,1.0
+knifes,/c/en/knifes/n,FormOf,knife,/c/en/knife,,1.0
+بیچاق,/c/ota/بیچاق/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,кард,/c/os/кард,,1.0
+કીસુ,/c/gu/કીસુ/n,RelatedTo,knife,/c/en/knife,,1.0
+finger steel,/c/en/finger_steel/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,пычак,/c/tt/пычак,,1.0
+histoknife,/c/en/histoknife/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,scian,/c/ga/scian,,1.0
+carving knife,/c/en/carving_knife/n,IsA,knife,/c/en/knife/n,,1.0
+さしみぼうちょう,/c/ja/さしみぼうちょう/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,putshari,/c/zdj/putshari,,1.0
+mest,/c/nds/mest/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,RelatedTo,athame,/c/en/athame,,1.0
+mes,/c/af/mes/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,cutsut,/c/rup/cutsut,,1.0
+microknife,/c/en/microknife,DerivedFrom,knife,/c/en/knife,,1.0
+finger bar,/c/en/finger_bar/n,RelatedTo,knife,/c/en/knife,,1.0
+veitsiteline,/c/fi/veitsiteline/n,RelatedTo,knife,/c/en/knife,,1.0
+pocketknife,/c/en/pocketknife/n,IsA,knife,/c/en/knife/n,,1.0
+cuțit,/c/ro/cuțit/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,AtLocation,a plate,/c/en/plate,You are likely to find [[a knife]] in [[a plate]],1.0
+cyberknife,/c/en/cyberknife,DerivedFrom,knife,/c/en/knife,,1.0
+pare,/c/en/pare/v,RelatedTo,knife,/c/en/knife,,1.0
+altán scine,/c/ga/altán_scine/n,RelatedTo,knife,/c/en/knife,,1.0
+coltell,/c/ca/coltell/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,veittsi,/c/vot/veittsi,,1.0
+cnif,/c/ang/cnif/n,RelatedTo,knife,/c/en/knife,,1.0
+cotèl,/c/oc/cotèl/n,RelatedTo,knife,/c/en/knife,,1.0
+niibi,/c/se/niibi/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,labana,/c/eu/labana,,1.0
+chavetazo,/c/es/chavetazo/n,RelatedTo,knife,/c/en/knife,,1.0
+eggjárn,/c/is/eggjárn/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,dividing,/c/en/dividing,[[a knife]] is used for [[dividing]],1.0
+peixeira,/c/pt/peixeira/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,kouto,/c/ht/kouto,,1.0
+סכין,/c/he/סכין/n,RelatedTo,knife,/c/en/knife,,1.0
+knífr,/c/non/knífr/n,RelatedTo,knife,/c/en/knife,,1.0
+knives,/c/en/knives,FormOf,knife,/c/en/knife/n,,1.0
+coltellaccio,/c/it/coltellaccio/n,RelatedTo,knife,/c/en/knife,,1.0
+ひごのかみ,/c/ja/ひごのかみ/n,RelatedTo,knife,/c/en/knife,,1.0
+hunting knife,/c/en/hunting_knife/n,IsA,knife,/c/en/knife/n,,1.0
+transfixion,/c/en/transfixion/n,RelatedTo,knife,/c/en/knife,,1.0
+stab,/c/en/stab/v,RelatedTo,knife,/c/en/knife,,1.0
+エトゥ,/c/ain/エトゥ/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,کارد,/c/fa/کارد,,1.0
+tang,/c/en/tang/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+whittle,/c/en/whittle/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+сэ,/c/ady/сэ/n,RelatedTo,knife,/c/en/knife,,1.0
+sgian dubh,/c/en/sgian_dubh/n,RelatedTo,knife,/c/en/knife,,1.0
+kniv,/c/da/kniv/n,RelatedTo,knife,/c/en/knife,,1.0
+kamë,/c/sq/kamë/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife,EtymologicallyDerivedFrom,cnif,/c/ang/cnif,,1.0
+kuraz,/c/vot/kuraz/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,decorating a cake,/c/en/decorating_cake,[[a knife]] is used for [[decorating a cake]],1.0
+прокалывать,/c/ru/прокалывать/v,RelatedTo,knife,/c/en/knife,,1.0
+affettare,/c/it/affettare/v,RelatedTo,knife,/c/en/knife,,1.0
+شفرة,/c/ar/شفرة/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,curtielo,/c/ist/curtielo,,1.0
+пышақ,/c/kk/пышақ/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,HasProperty,important for making food,/c/en/important_for_making_food,[[a knife]] is [[important for making food]],1.0
+palang,/c/fil/palang/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,CapableOf,cut that cake,/c/en/cut_cake,[[a knife]] can [[cut that cake]],1.0
+a knife,/c/en/knife,AtLocation,a war,/c/en/war,You are likely to find [[a knife]] in [[a war]].,1.0
+A knife,/c/en/knife,CapableOf,quarter soft solids,/c/en/quarter_soft_solids,[[A knife]] can [[quarter soft solids]],1.0
+obstmesser,/c/de/obstmesser/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,AtLocation,the table,/c/en/table,*Something you find on [[the table]] is [[a knife]],1.0
+刃物,/c/ja/刃物/n,RelatedTo,knife,/c/en/knife,,1.0
+小刀,/c/ja/小刀/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+knork,/c/en/knork,DerivedFrom,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,nož,/c/sl/nož,,1.0
+paring knife,/c/en/paring_knife,DerivedFrom,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,сэ,/c/ady/сэ,,1.0
+cultelle,/c/ie/cultelle/n,RelatedTo,knife,/c/en/knife,,1.0
+mezzar,/c/cim/mezzar/n,RelatedTo,knife,/c/en/knife,,1.0
+cultellus,/c/la/cultellus/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,CapableOf,harm living creatures,/c/en/harm_living_creatures,[[a knife]] can [[harm living creatures]],1.0
+มีด,/c/th/มีด/n,RelatedTo,knife,/c/en/knife,,1.0
+cortèo,/c/vec/cortèo/n,RelatedTo,knife,/c/en/knife,,1.0
+ᐅᓗ,/c/iu/ᐅᓗ/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,چھری,/c/ur/چھری,,1.0
+knife,/c/en/knife/n,Synonym,thipa,/c/st/thipa,,1.0
+secespita,/c/la/secespita/n,RelatedTo,knife,/c/en/knife,,1.0
+blade,/c/en/blade/n,RelatedTo,knife,/c/en/knife,,1.0
+knifer,/c/en/knifer/n,RelatedTo,knife,/c/en/knife,,1.0
+تیخ,/c/fa/تیخ/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,playing throwing games,/c/en/playing_throwing_games,[[a knife]] is used for [[playing throwing games]],1.0
+a knife,/c/en/knife,UsedFor,cut chicken,/c/en/cut_chicken,You can use [[a knife]] to [[cut chicken]],1.0
+knívur,/c/fo/knívur/n,RelatedTo,knife,/c/en/knife,,1.0
+sese,/c/ch/sese/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,хутга,/c/mn/хутга,,1.0
+fileointiveitsi,/c/fi/fileointiveitsi/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,бычакъ,/c/krc/бычакъ,,1.0
+scarification,/c/en/scarification/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,सुरी,/c/mr/सुरी,,1.0
+cuitiello,/c/an/cuitiello/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife,EtymologicallyDerivedFrom,knífr,/c/non/knífr,,1.0
+ꜣwt,/c/egx/ꜣwt/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife,ExternalURL,Q741471,http://wikidata.dbpedia.org/resource/Q741471,,1.0
+fearrat,/c/se/fearrat/v,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,gorteddu,/c/sc/gorteddu,,1.0
+a knife,/c/en/knife,UsedFor,ripping,/c/en/ripping,[[a knife]] is used for [[ripping]],1.0
+knife,/c/en/knife/n,Synonym,бичакъ,/c/kum/бичакъ,,1.0
+knief,/c/nds/knief/n,RelatedTo,knife,/c/en/knife,,1.0
+knifeless,/c/en/knifeless/a,RelatedTo,knife,/c/en/knife,,1.0
+cacha,/c/es/cacha/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,working with wood,/c/en/working_with_wood,[[a knife]] is used for [[working with wood]],1.0
+cuchiellu,/c/ast/cuchiellu/n,RelatedTo,knife,/c/en/knife,,1.0
+cnivet,/c/fro/cnivet/n,RelatedTo,knife,/c/en/knife,,1.0
+դանակ,/c/hy/դանակ/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,Synonym,nôž,/c/sk/nôž,,1.0
+असि,/c/sa/असि/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,breaking down into pieces,/c/en/breaking_down_into_pieces,[[a knife]] is used for [[breaking down into pieces]],1.0
+ܣܟܝܢܐ,/c/syc/ܣܟܝܢܐ/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,coring,/c/en/coring,[[a knife]] is used for [[coring]],1.0
+knife,/c/en/knife,HasProperty,very useful to cut meat,/c/en/very_useful_to_cut_meat,[[knife]] is [[very useful to cut meat]],1.0
+kultelo,/c/io/kultelo/n,RelatedTo,knife,/c/en/knife,,1.0
+galvanocautery,/c/en/galvanocautery/n,RelatedTo,knife,/c/en/knife,,1.0
+мөр,/c/mn/мөр/n/wikt/en_1,RelatedTo,knife,/c/en/knife,,1.0
+ဓား,/c/my/ဓား/n,RelatedTo,knife,/c/en/knife,,1.0
+ulu,/c/en/ulu/n,RelatedTo,knife,/c/en/knife,,1.0
+sundang,/c/war/sundang/n,RelatedTo,knife,/c/en/knife,,1.0
+knife,/c/en/knife/n,RelatedTo,handle,/c/en/handle,,1.0
+umese,/c/zu/umese/n,RelatedTo,knife,/c/en/knife,,1.0
+a knife,/c/en/knife,UsedFor,slitting,/c/en/slitting,[[a knife]] is used for [[slitting]],1.0

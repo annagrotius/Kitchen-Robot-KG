@@ -1,0 +1,934 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+a spoon,/c/en/spoon,UsedFor,Eating,/c/en/eating,[[a spoon]] is for [[Eating]],6.928203230275509
+a spoon,/c/en/spoon,AtLocation,bowl,/c/en/bowl,You are likely to find [[a spoon]] in [[bowl]],2.82842712474619
+a spoon,/c/en/spoon,AtLocation,dinner,/c/en/dinner,*Something you find at [[dinner]] is [[a spoon]],2.82842712474619
+A spoon,/c/en/spoon,IsA,a utensil,/c/en/utensil,[[A spoon]] is [[a utensil]],2.82842712474619
+cuillère,/c/fr/cuillère/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[cuillère]] is a translation of [[spoon]],2.0
+colher,/c/pt/colher/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[colher]] is a translation of [[spoon]],2.0
+匕,/c/ja/匕/n,Synonym,spoon,/c/en/spoon,,2.0
+ช้อน,/c/th/ช้อน/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[ช้อน]] is a translation of [[spoon]],2.0
+spoon,/c/en/spoon/n/wn/quantity,IsA,containerful,/c/en/containerful/n/wn/quantity,[[spoon]] is a type of [[containerful]],2.0
+culler,/c/gl/culler/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[culler]] is a translation of [[spoon]],2.0
+"sudu penuh,camca penuh",/c/id/sudu_penuh_camca_penuh/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,"[[sudu penuh,camca penuh]] is a translation of [[spoon]]",2.0
+mazza da golf a cucchiaio,/c/it/mazza_da_golf_a_cucchiaio/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[mazza da golf a cucchiaio]] is a translation of [[spoon]],2.0
+dessert spoon,/c/en/dessert_spoon/n/wn/artifact,IsA,spoon,/c/en/spoon/n/wn/artifact,[[dessert spoon]] is a type of [[spoon]],2.0
+kauhoa,/c/fi/kauhoa/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[kauhoa]] is a translation of [[spoon]],2.0
+cucharear,/c/es/cucharear/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[cucharear]] is a translation of [[spoon]],2.0
+sudu,/c/ms/sudu/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[sudu]] is a translation of [[spoon]],2.0
+勺,/c/zh/勺/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[勺]] is a translation of [[spoon]],2.0
+כַּף,/c/he/כף/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[כַּף]] is a translation of [[spoon]],2.0
+cucchiaio,/c/it/cucchiaio/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[cucchiaio]] is a translation of [[spoon]],2.0
+cuillère,/c/fr/cuillère/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[cuillère]] is a translation of [[spoon]],2.0
+colher,/c/pt/colher/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[colher]] is a translation of [[spoon]],2.0
+camca,/c/id/camca/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[camca]] is a translation of [[spoon]],2.0
+lusikallinen,/c/fi/lusikallinen/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[lusikallinen]] is a translation of [[spoon]],2.0
+湯匙,/c/zh/湯匙/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[湯匙]] is a translation of [[spoon]],2.0
+cuchara,/c/es/cuchara/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[cuchara]] is a translation of [[spoon]],2.0
+刀圭,/c/ja/刀圭/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[刀圭]] is a translation of [[spoon]],2.0
+kašika,/c/sh/kašika/n,RelatedTo,spoon,/c/en/spoon,,2.0
+お匙,/c/ja/お匙/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[お匙]] is a translation of [[spoon]],2.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,žlica,/c/sh/žlica,,2.0
+lusikoida,/c/fi/lusikoida/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[lusikoida]] is a translation of [[spoon]],2.0
+杓,/c/zh/杓/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[杓]] is a translation of [[spoon]],2.0
+قاشق,/c/fa/قاشق/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[قاشق]] is a translation of [[spoon]],2.0
+調羹,/c/zh/調羹/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[調羹]] is a translation of [[spoon]],2.0
+cuiller,/c/fr/cuiller/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[cuiller]] is a translation of [[spoon]],2.0
+כַּף,/c/he/כף/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[כַּף]] is a translation of [[spoon]],2.0
+スプーン１杯,/c/ja/スプーン_1_杯/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[スプーン１杯]] is a translation of [[spoon]],2.0
+lusikka,/c/fi/lusikka/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[lusikka]] is a translation of [[spoon]],2.0
+スプーン,/c/ja/スプーン/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[スプーン]] is a translation of [[spoon]],2.0
+spoonful,/c/en/spoonful/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[spoonful]] is a synonym of [[spoon]],2.0
+golf-makila,/c/eu/golf_makila/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[golf-makila]] is a translation of [[spoon]],2.0
+camca penuh,/c/ms/camca_penuh/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[camca penuh]] is a translation of [[spoon]],2.0
+cullerada,/c/ca/cullerada/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[cullerada]] is a translation of [[spoon]],2.0
+koilaraz mugitu,/c/eu/koilaraz_mugitu/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[koilaraz mugitu]] is a translation of [[spoon]],2.0
+スプン,/c/ja/スプン/n,Synonym,spoon,/c/en/spoon,,2.0
+tablespoon,/c/en/tablespoon/n/wn/artifact,IsA,spoon,/c/en/spoon/n/wn/artifact,[[tablespoon]] is a type of [[spoon]],2.0
+a spoon,/c/en/spoon,UsedFor,eating ice cream,/c/en/eating_ice_cream,[[a spoon]] is for [[eating ice cream]],2.0
+spuuni,/c/fi/spuuni/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[spuuni]] is a translation of [[spoon]],2.0
+A spoon,/c/en/spoon,UsedFor,scooping food,/c/en/scooping_food,[[A spoon]] is for [[scooping food]],2.0
+御匙,/c/ja/御匙/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[御匙]] is a translation of [[spoon]],2.0
+ฉลองพระหัตถ์ช้อน,/c/th/ฉลองพระหัตถ์ช้อน/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[ฉลองพระหัตถ์ช้อน]] is a translation of [[spoon]],2.0
+camca penuh,/c/id/camca_penuh/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[camca penuh]] is a translation of [[spoon]],2.0
+スプン,/c/ja/スプン/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[スプン]] is a translation of [[spoon]],2.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ližka,/c/sh/ližka,,2.0
+koilarakada,/c/eu/koilarakada/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[koilarakada]] is a translation of [[spoon]],2.0
+colherada,/c/pt/colherada/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[colherada]] is a translation of [[spoon]],2.0
+agafar amb la cullera,/c/ca/agafar_amb_la_cullera/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[agafar amb la cullera]] is a translation of [[spoon]],2.0
+ตักด้วยช้อน,/c/th/ตักด้วยช้อน/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[ตักด้วยช้อน]] is a translation of [[spoon]],2.0
+łyżka,/c/pl/łyżka/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[łyżka]] is a translation of [[spoon]],2.0
+sudu penuh,/c/id/sudu_penuh/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[sudu penuh]] is a translation of [[spoon]],2.0
+cuiller,/c/fr/cuiller/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[cuiller]] is a translation of [[spoon]],2.0
+cucchiaio,/c/it/cucchiaio/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[cucchiaio]] is a translation of [[spoon]],2.0
+مِلْعَقَة,/c/ar/ملعقة/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[مِلْعَقَة]] is a translation of [[spoon]],2.0
+skje,/c/no/skje/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[skje]] is a translation of [[spoon]],2.0
+ske,/c/da/ske/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[ske]] is a translation of [[spoon]],2.0
+ช้อนตัก,/c/th/ช้อนตัก/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[ช้อนตัก]] is a translation of [[spoon]],2.0
+spoon,/c/en/spoon/n/wn/artifact,IsA,container,/c/en/container/n/wn/artifact,[[spoon]] is a type of [[container]],2.0
+cullera,/c/ca/cullera/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[cullera]] is a translation of [[spoon]],2.0
+"sudu penuh,camca penuh",/c/ms/sudu_penuh_camca_penuh/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,"[[sudu penuh,camca penuh]] is a translation of [[spoon]]",2.0
+skei,/c/no/skei/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[skei]] is a translation of [[spoon]],2.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kašika,/c/sh/kašika,,2.0
+spoon,/c/en/spoon/n/wn/artifact,IsA,cutlery,/c/en/cutlery/n/wn/artifact,[[spoon]] is a type of [[cutlery]],2.0
+sudu,/c/id/sudu/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[sudu]] is a translation of [[spoon]],2.0
+a spoon,/c/en/spoon,UsedFor,eating cereal,/c/en/eating_cereal,[[a spoon]] is for [[eating cereal]],2.0
+a spoon,/c/en/spoon,UsedFor,stirring coffee,/c/en/stirring_coffee,[[a spoon]] is for [[stirring coffee]],2.0
+secamca,/c/id/secamca/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[secamca]] is a translation of [[spoon]],2.0
+spoon,/c/en/spoon/v/wn/contact,Synonym,smooch,/c/en/smooch/v/wn/contact,[[spoon]] is a synonym of [[smooch]],2.0
+spoon,/c/en/spoon/v/wn/contact,MannerOf,remove,/c/en/remove/v/wn/change,[[spoon]] is a way to [[remove]],2.0
+匙,/c/ja/匙/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[匙]] is a translation of [[spoon]],2.0
+soupspoon,/c/en/soupspoon/n/wn/artifact,IsA,spoon,/c/en/spoon/n/wn/artifact,[[soupspoon]] is a type of [[spoon]],2.0
+spoon,/c/fi/spoon/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[spoon]] is a translation of [[spoon]],2.0
+調羹,/c/zh/調羹/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[調羹]] is a translation of [[spoon]],2.0
+runcible spoon,/c/en/runcible_spoon/n/wn/artifact,IsA,spoon,/c/en/spoon/n/wn/artifact,[[runcible spoon]] is a type of [[spoon]],2.0
+cullerada,/c/gl/cullerada/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[cullerada]] is a translation of [[spoon]],2.0
+cuiller,/c/fr/cuiller/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[cuiller]] is a translation of [[spoon]],2.0
+mencedok,/c/ms/mencedok/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[mencedok]] is a translation of [[spoon]],2.0
+wooden spoon,/c/en/wooden_spoon/n/wn/artifact,IsA,spoon,/c/en/spoon/n/wn/artifact,[[wooden spoon]] is a type of [[spoon]],2.0
+cullera,/c/ca/cullera/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[cullera]] is a translation of [[spoon]],2.0
+žlica,/c/sh/žlica/n,RelatedTo,spoon,/c/en/spoon,,2.0
+湯匙,/c/zh/湯匙/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[湯匙]] is a translation of [[spoon]],2.0
+sudu penuh,/c/ms/sudu_penuh/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[sudu penuh]] is a translation of [[spoon]],2.0
+sugar spoon,/c/en/sugar_spoon/n/wn/artifact,IsA,spoon,/c/en/spoon/n/wn/artifact,[[sugar spoon]] is a type of [[spoon]],2.0
+teaspoon,/c/en/teaspoon,IsA,a spoon,/c/en/spoon,[[teaspoon]] is [[a spoon]],2.0
+eating ice cream,/c/en/eating_ice_cream,HasPrerequisite,a spoon,/c/en/spoon,[[eating ice cream]] requires [[a spoon]],2.0
+tea maker,/c/en/tea_maker/n/wn/artifact,IsA,spoon,/c/en/spoon/n/wn/artifact,[[tea maker]] is a type of [[spoon]],2.0
+چمچه,/c/fa/چمچه/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[چمچه]] is a translation of [[spoon]],2.0
+スプーン,/c/ja/スプーン/n,Synonym,spoon,/c/en/spoon,,2.0
+koilara,/c/eu/koilara/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[koilara]] is a translation of [[spoon]],2.0
+spoon,/c/en/spoon/n/wn/artifact,IsA,wood,/c/en/wood/n/wn/artifact,[[spoon]] is a type of [[wood]],2.0
+lusikka,/c/fi/lusikka/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[lusikka]] is a translation of [[spoon]],2.0
+secamca,/c/ms/secamca/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[secamca]] is a translation of [[spoon]],2.0
+menyendok,/c/id/menyendok/v/wn/contact,Synonym,spoon,/c/en/spoon/v/wn/contact,[[menyendok]] is a translation of [[spoon]],2.0
+teaspoon,/c/en/teaspoon/n/wn/artifact,IsA,spoon,/c/en/spoon/n/wn/artifact,[[teaspoon]] is a type of [[spoon]],2.0
+杓子,/c/zh/杓子/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[杓子]] is a translation of [[spoon]],2.0
+匙,/c/ja/匙/n,Synonym,spoon,/c/en/spoon,,2.0
+sendok,/c/ms/sendok/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[sendok]] is a translation of [[spoon]],2.0
+camca,/c/id/camca/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[camca]] is a translation of [[spoon]],2.0
+cuillerée,/c/fr/cuillerée/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[cuillerée]] is a translation of [[spoon]],2.0
+sendok,/c/id/sendok/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[sendok]] is a translation of [[spoon]],2.0
+sudu,/c/id/sudu/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[sudu]] is a translation of [[spoon]],2.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lažica,/c/sh/lažica,,2.0
+spoon,/c/en/spoon/v/wn/contact,Entails,immerse,/c/en/immerse/v/wn/contact,[[spoon]] entails [[immerse]],2.0
+ช้อน,/c/th/ช้อน/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[ช้อน]] is a translation of [[spoon]],2.0
+勺子,/c/zh/勺子/n/wn/artifact,Synonym,spoon,/c/en/spoon/n/wn/artifact,[[勺子]] is a translation of [[spoon]],2.0
+cuillère,/c/fr/cuillère/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[cuillère]] is a translation of [[spoon]],2.0
+camca,/c/ms/camca/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[camca]] is a translation of [[spoon]],2.0
+cucchiaiata,/c/it/cucchiaiata/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[cucchiaiata]] is a translation of [[spoon]],2.0
+sudu,/c/ms/sudu/n/wn/quantity,Synonym,spoon,/c/en/spoon/n/wn/quantity,[[sudu]] is a translation of [[spoon]],2.0
+spoon,/c/en/spoon,RelatedTo,ladle,/c/en/ladle,[[spoon]] is related to [[ladle]],1.6139999999999999
+匙,/c/zh/匙,Synonym,spoon,/c/en/spoon,,1.5
+plate,/c/en/plate,RelatedTo,spoon,/c/en/spoon,[[plate]] is related to [[spoon]],1.2309999999999999
+fork,/c/en/fork,RelatedTo,spoon,/c/en/spoon,[[fork]] is related to [[spoon]],1.17
+spoon,/c/en/spoon,RelatedTo,silverware,/c/en/silverware,[[spoon]] is related to [[silverware]],1.1029999999999998
+spoon,/c/en/spoon,EtymologicallyDerivedFrom,spon,/c/ang/spon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cuillère,/c/fr/cuillère,,1.0
+level spoon,/c/en/level_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+勺子,/c/zh/勺子/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,colher,/c/pt/colher,,1.0
+cochleare,/c/en/cochleare/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spunil,/c/vo/spunil,,1.0
+lepelaar,/c/nl/lepelaar/n/wikt/en_2,RelatedTo,spoon,/c/en/spoon,,1.0
+قاشق,/c/fa/قاشق/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kijiko,/c/sw/kijiko,,1.0
+spoon,/c/en/spoon,UsedFor,flinging,/c/en/flinging,[[spoon]] is for [[flinging]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,куцю,/c/mdf/куцю,,1.0
+teaspoon,/c/en/teaspoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,HasContext,golf,/c/en/golf,,1.0
+a spoon,/c/en/spoon,UsedFor,stir soup,/c/en/stir_soup,You can use [[a spoon]] to [[stir soup]],1.0
+a spoon,/c/en/spoon,UsedFor,Drinking,/c/en/drinking,[[a spoon]] is for [[Drinking]],1.0
+飯勺,/c/zh/飯勺/n,RelatedTo,spoon,/c/en/spoon,,1.0
+හැන්ද,/c/si/හැන්ද/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,taking cough syrup,/c/en/taking_cough_syrup,[[a spoon]] is for [[taking cough syrup]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ܬܪܘܕܐ,/c/arc/ܬܪܘܕܐ,,1.0
+அகப்பை,/c/ta/அகப்பை/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,loa,/c/br/loa,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,alussaat,/c/kl/alussaat,,1.0
+spatula,/c/la/spatula/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,emikwaanens,/c/oj/emikwaanens,,1.0
+గంటె,/c/te/గంటె/n,RelatedTo,spoon,/c/en/spoon,,1.0
+rudicula,/c/la/rudicula/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,spooney,/c/en/spooney,,1.0
+llwy,/c/cy/llwy/n,RelatedTo,spoon,/c/en/spoon,,1.0
+lyžica,/c/sk/lyžica/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoons,/c/en/spoons/v,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,skeið,/c/is/skeið,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,puna,/c/haw/puna,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,wixü,/c/arn/wixü,,1.0
+ladle,/c/en/ladle/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cuiller,/c/fr/cuiller,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,luzik,/c/vep/luzik,,1.0
+ช้อน,/c/th/ช้อน/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonwood,/c/en/spoonwood,DerivedFrom,spoon,/c/en/spoon,,1.0
+hopealusikka,/c/fi/hopealusikka/n,RelatedTo,spoon,/c/en/spoon,,1.0
+kutsara,/c/hil/kutsara/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,liach,/c/sga/liach,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,vareška,/c/sk/vareška,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ᐊᓘᑦ,/c/iu/ᐊᓘᑦ,,1.0
+kevçî,/c/ku/kevçî/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,a table,/c/en/table,*Something you find on [[a table]] is [[a spoon]],1.0
+spun,/c/tpi/spun/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ملعقة,/c/ar/ملعقة/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kgaba,/c/st/kgaba,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,羹,/c/zh/羹,,1.0
+kuddu,/c/wo/kuddu/n,RelatedTo,spoon,/c/en/spoon,,1.0
+sipun,/c/chk/sipun,EtymologicallyDerivedFrom,spoon,/c/en/spoon,,1.0
+湯勺,/c/zh/湯勺/n,RelatedTo,spoon,/c/en/spoon,,1.0
+గరిటె,/c/te/గరిటె/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,muỗng,/c/vi/muỗng,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,چمچ,/c/ur/چمچ,,1.0
+cuciaro,/c/vec/cuciaro/n,RelatedTo,spoon,/c/en/spoon,,1.0
+łòkʼútuną,/c/twf/łòkʼútuną/n,RelatedTo,spoon,/c/en/spoon,,1.0
+柶,/c/zh/柶,Synonym,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,숟가락,/c/ko/숟가락,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,ladle,/c/en/ladle,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,μυστρον,/c/grc/μυστρον,,1.0
+a spoon,/c/en/spoon,UsedFor,people to eat cereal with,/c/en/people_to_eat_cereal_with,[[a spoon]] is for [[people to eat cereal with]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ચમચો,/c/gu/ચમચો,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ṣíbí,/c/yo/ṣíbí,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,bééshʼadeeʼ,/c/nv/bééshʼadeeʼ,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,concave,/c/en/concave,,1.0
+spork,/c/en/spork/n,RelatedTo,spoon,/c/en/spoon,,1.0
+runcible spoon,/c/en/runcible_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,قاشق,/c/fa/قاشق,,1.0
+isipunu,/c/zu/isipunu,EtymologicallyDerivedFrom,spoon,/c/en/spoon,,1.0
+filambotra,/c/mg/filambotra/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,spoonful,/c/en/spoonful,,1.0
+spoonful,/c/en/spoonful,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cullera,/c/ca/cullera,,1.0
+cucchiara,/c/scn/cucchiara/n,RelatedTo,spoon,/c/en/spoon,,1.0
+sup,/c/en/sup/v/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,karote,/c/lv/karote,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,łyżka,/c/szl/łyżka,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,джэмышх,/c/ady/джэмышх,,1.0
+ማንካ,/c/am/ማንካ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+grapefruitlöffel,/c/de/grapefruitlöffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,çemçe,/c/tk/çemçe,,1.0
+spoon drift,/c/en/spoon_drift,DerivedFrom,spoon,/c/en/spoon/v/wikt/en_2,,1.0
+spúnn,/c/is/spúnn/n,RelatedTo,spoon,/c/en/spoon,,1.0
+лъжица,/c/bg/лъжица/n,RelatedTo,spoon,/c/en/spoon,,1.0
+measuring spoon,/c/en/measuring_spoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,лажица,/c/mk/лажица,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,கரண்டி,/c/ta/கரண்டி,,1.0
+ӏайг,/c/ce/ӏайг/n,RelatedTo,spoon,/c/en/spoon,,1.0
+camca,/c/ms/camca/n,RelatedTo,spoon,/c/en/spoon,,1.0
+colher,/c/pt/colher/n/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+kulero,/c/eo/kulero/n,Synonym,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,eating applesauce,/c/en/eating_applesauce,[[a spoon]] is used for [[eating applesauce]],1.0
+spoon,/c/en/spoon/v/wikt/en_1,RelatedTo,interact,/c/en/interact,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,HasContext,sports,/c/en/sports,,1.0
+spoonplug,/c/en/spoonplug,DerivedFrom,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,serving soup,/c/en/serving_soup,[[a spoon]] is for [[serving soup]],1.0
+kuliero,/c/io/kuliero/n,RelatedTo,spoon,/c/en/spoon,,1.0
+調羹,/c/zh/調羹,Synonym,spoon,/c/en/spoon,,1.0
+qaşıq,/c/az/qaşıq/n,RelatedTo,spoon,/c/en/spoon,,1.0
+כף,/c/arc/כף/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,пуньы,/c/udm/пуньы,,1.0
+spoon,/c/en/spoon/v,RelatedTo,cuillère,/c/fr/cuillère,,1.0
+杓子,/c/zh/杓子/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spooneth,/c/en/spooneth/v,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kutsara,/c/fil/kutsara,,1.0
+luha,/c/fi/luha/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,RelatedTo,nestle,/c/en/nestle,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,халбага,/c/mn/халбага,,1.0
+big spoon,/c/en/big_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+瓢羹,/c/zh/瓢羹/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,चमचा,/c/mr/चमचा,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,കരണ്ടി,/c/ml/കരണ്ടി,,1.0
+gag me with spoon,/c/en/gag_me_with_spoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+ske,/c/da/ske/n/wikt/en_2,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ekijiiko,/c/ln/ekijiiko,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,معلقة,/c/ar/معلقة,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spàin,/c/gd/spàin,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,sponn,/c/non/sponn,,1.0
+kulero,/c/eo/kulero/n/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,гъуд,/c/av/гъуд,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,湯匙,/c/zh/湯匙,,1.0
+spoon,/c/en/spoon/n,IsA,utensil,/c/en/utensil/n,,1.0
+mestatoio,/c/it/mestatoio/n,RelatedTo,spoon,/c/en/spoon,,1.0
+კოვზი,/c/ka/კოვზი/n,RelatedTo,spoon,/c/en/spoon,,1.0
+tchulyi,/c/nrf/tchulyi/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spúnóg,/c/ga/spúnóg,EtymologicallyDerivedFrom,spoon,/c/en/spoon,,1.0
+wooden spoon,/c/en/wooden_spoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+a spoon,/c/en/spoon,UsedFor,eating liquids,/c/en/eating_liquids,[[a spoon]] is used for [[eating liquids]],1.0
+cuillère,/c/fr/cuillère/n,Synonym,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,stirring tea,/c/en/stirring_tea,[[a spoon]] is for [[stirring tea]],1.0
+چمچہ,/c/bal/چمچہ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+wixu,/c/arn/wixu/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v,RelatedTo,empilé,/c/fr/empilé,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kaşık,/c/gag/kaşık,,1.0
+三号木杆,/c/zh/三号木杆,Synonym,spoon,/c/en/spoon,,1.0
+gadanha,/c/pt/gadanha/n,RelatedTo,spoon,/c/en/spoon,,1.0
+listric,/c/en/listric/a,RelatedTo,spoon,/c/en/spoon,,1.0
+ސަމްސާ,/c/dv/ސަމްސާ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spork,/c/en/spork,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kutu,/c/bm/kutu,,1.0
+spoon,/c/en/spoon/n,RelatedTo,cuillère,/c/fr/cuillère,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,spoon excavator,/c/en/spoon_excavator,,1.0
+ស្លាបព្រា,/c/km/ស្លាបព្រា/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ложка,/c/uk/ложка/n,RelatedTo,spoon,/c/en/spoon,,1.0
+معلقة,/c/ar/معلقة/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,culhèr,/c/oc/culhèr,,1.0
+spoonmeat,/c/en/spoonmeat,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,സ്പൂണ്‍,/c/ml/സ്പൂണ്‍,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,RelatedTo,reminiscent,/c/en/reminiscent,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,coyire,/c/wa/coyire,,1.0
+skimmer,/c/en/skimmer/n/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon feed,/c/en/spoon_feed,DerivedFrom,spoon,/c/en/spoon/v/wikt/en_1,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,лъжица,/c/bg/лъжица,,1.0
+鍉,/c/zh/鍉,Synonym,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,łyżka,/c/pl/łyżka,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lingură,/c/ro/lingură,,1.0
+evőeszköz,/c/hu/evőeszköz/n,RelatedTo,spoon,/c/en/spoon,,1.0
+כף,/c/he/כף/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,luuskaaq,/c/esu/luuskaaq,,1.0
+spooner,/c/en/spooner,DerivedFrom,spoon,/c/en/spoon/v/wikt/en_1,,1.0
+dessertspoon,/c/en/dessertspoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon,AtLocation,a table setting,/c/en/table_setting,You are likely to find [[spoon]] in [[a table setting]],1.0
+spooner,/c/en/spooner,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+tschadun,/c/rm/tschadun/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,лъжица,/c/cu/лъжица,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,sotro,/c/mg/sotro,,1.0
+🥄,/c/mul/🥄,SymbolOf,spoon,/c/en/spoon,,1.0
+pune,/c/mi/pune/n,RelatedTo,spoon,/c/en/spoon,,1.0
+cochlearium,/c/la/cochlearium/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,a bowl of soup,/c/en/bowl_of_soup,You are likely to find [[a spoon]] in [[a bowl of soup]],1.0
+łžica,/c/hsb/łžica/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cuyar,/c/ast/cuyar,,1.0
+cuyar,/c/ast/cuyar/n,RelatedTo,spoon,/c/en/spoon,,1.0
+teaspoon,/c/en/teaspoon,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoonless,/c/en/spoonless/a,RelatedTo,spoon,/c/en/spoon,,1.0
+қажық,/c/cjs/қажық/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,RelatedTo,court,/c/en/court,,1.0
+a spoon,/c/en/spoon,UsedFor,eat soup',/c/en/eat_soup,You can use [[a spoon]] to [[eat soup']],1.0
+soupspoon,/c/en/soupspoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+匙,/c/ja/匙,RelatedTo,spoon,/c/en/spoon,,1.0
+зачерпнуть,/c/ru/зачерпнуть/v,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,კოვზი,/c/ka/კოვზი,,1.0
+glyrna,/c/is/glyrna/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,匙,/c/ja/匙,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,coclare,/c/ie/coclare,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ማንካ,/c/am/ማንካ,,1.0
+Eating soup,/c/en/eating_soup,HasPrerequisite,a spoon,/c/en/spoon,[[Eating soup]] requires [[a spoon]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ଚାମଚ,/c/or/ଚାମଚ,,1.0
+thìa,/c/vi/thìa/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonest,/c/en/spoonest/v,RelatedTo,spoon,/c/en/spoon,,1.0
+earspoon,/c/en/earspoon,DerivedFrom,spoon,/c/en/spoon,,1.0
+kaşık,/c/tr/kaşık/n,Synonym,spoon,/c/en/spoon,,1.0
+दर्वी,/c/sa/दर्वी/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lepel,/c/af/lepel,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cazuol,/c/lld/cazuol,,1.0
+spoon,/c/en/spoon/n/wn/artifact,ExternalURL,104291479-n,http://wordnet-rdf.princeton.edu/wn31/104291479-n,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cullara,/c/an/cullara,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ӏайг,/c/ce/ӏайг,,1.0
+spooner,/c/en/spooner,DerivedFrom,spoon,/c/en/spoon,,1.0
+lingură,/c/ro/lingură/n,RelatedTo,spoon,/c/en/spoon,,1.0
+cuillère à moutarde,/c/fr/cuillère_à_moutarde/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,スプーン,/c/ja/スプーン,,1.0
+spoon,/c/en/spoon/v,RelatedTo,sexuel,/c/fr/sexuel,,1.0
+spoon,/c/en/spoon/n,ExternalURL,Spoon,http://sw.opencyc.org/2012/05/10/concept/en/Spoon,,1.0
+runcible spoon,/c/en/runcible_spoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,HasContext,fishing,/c/en/fishing,,1.0
+κουταλάκι,/c/el/κουταλάκι/n,RelatedTo,spoon,/c/en/spoon,,1.0
+sipun,/c/chk/sipun/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ચમચી,/c/gu/ચમચી,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,κουταλι,/c/el/κουταλι,,1.0
+wooden spoon,/c/en/wooden_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonless,/c/en/spoonless,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,łžyca,/c/dsb/łžyca,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spon,/c/ofs/spon,,1.0
+ᮞᮦᮔ᮪ᮓᮧᮊ᮪,/c/su/ᮞᮦᮔ᮪ᮓᮧᮊ᮪/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kanál,/c/hu/kanál,,1.0
+весло,/c/ru/весло/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ᦋᦸᧃᧉ,/c/khb/ᦋᦸᧃᧉ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ཁེམ བུ,/c/bo/ཁེམ_བུ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+kutsara,/c/ceb/kutsara/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,כף,/c/he/כף,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ಚಮಚ,/c/kn/ಚಮಚ,,1.0
+spooned,/c/en/spooned/v,RelatedTo,spoon,/c/en/spoon,,1.0
+skei,/c/no/skei/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n,RelatedTo,cuiller,/c/fr/cuiller,,1.0
+spoonways,/c/en/spoonways,DerivedFrom,spoon,/c/en/spoon,,1.0
+spooned,/c/en/spooned/v,FormOf,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,кажык,/c/alt/кажык,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,llwy,/c/cy/llwy,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spoen,/c/fy/spoen,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ស្លាបព្រា,/c/km/ស្លាបព្រា,,1.0
+spoon off,/c/en/spoon_off,DerivedFrom,spoon,/c/en/spoon/v/wikt/en_1,,1.0
+qaşıq,/c/tt/qaşıq/n,RelatedTo,spoon,/c/en/spoon,,1.0
+lusikoida,/c/fi/lusikoida/v,RelatedTo,spoon,/c/en/spoon,,1.0
+löffel,/c/gsw/löffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+plastiklöffel,/c/de/plastiklöffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spúnóg,/c/ga/spúnóg/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,dawwaar,/c/aa/dawwaar,,1.0
+cucchiaio,/c/it/cucchiaio/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,գդալ,/c/hy/գդալ,,1.0
+A spoon,/c/en/spoon,IsA,a cooking or eating utensil,/c/en/cooking_or_eating_utensil,[[A spoon]] is [[a cooking or eating utensil]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,wooden spoon,/c/en/wooden_spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lyžica,/c/sk/lyžica,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,RelatedTo,serve,/c/en/serve,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,mgħarfa,/c/mt/mgħarfa,,1.0
+spoon feed,/c/en/spoon_feed,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+숟가락,/c/ko/숟가락/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,چمچو,/c/sd/چمچو,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,HasContext,us,/c/en/us,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,кашык,/c/ky/кашык,,1.0
+cuillère à soda,/c/fr/cuillère_à_soda/n,RelatedTo,spoon,/c/en/spoon,,1.0
+baking a cake,/c/en/baking_cake,HasPrerequisite,a spoon,/c/en/spoon,[[baking a cake]] requires [[a spoon]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lusikas,/c/et/lusikas,,1.0
+cuillère à glace,/c/fr/cuillère_à_glace/n,RelatedTo,spoon,/c/en/spoon,,1.0
+líach,/c/sga/líach/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spanna,/c/goh/spanna,,1.0
+璇璣,/c/zh/璇璣/n,RelatedTo,spoon,/c/en/spoon,,1.0
+lžíce,/c/cs/lžíce/n,Synonym,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,کاچوغه,/c/ps/کاچوغه,,1.0
+κουτάλι,/c/el/κουτάλι/n,RelatedTo,spoon,/c/en/spoon,,1.0
+coclear,/c/la/coclear/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v,RelatedTo,allonger,/c/fr/allonger,,1.0
+skumslev,/c/sv/skumslev/n,RelatedTo,spoon,/c/en/spoon,,1.0
+匙,/c/ja/匙/n/wikt/en_5,RelatedTo,spoon,/c/en/spoon,,1.0
+לעפל,/c/yi/לעפל/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,چمچہ,/c/ur/چمچہ,,1.0
+a spoon,/c/en/spoon,AtLocation,a childs sand box,/c/en/childs_sand_box,You are likely to find [[a spoon]] in [[a childs sand box]],1.0
+spoonbread,/c/en/spoonbread/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonbender,/c/en/spoonbender,DerivedFrom,spoon,/c/en/spoon,,1.0
+dessert spoon,/c/en/dessert_spoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,pune,/c/mi/pune,,1.0
+spoonable,/c/en/spoonable,DerivedFrom,spoon,/c/en/spoon,,1.0
+అగప,/c/te/అగప/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonable,/c/en/spoonable/a,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,table spoon,/c/en/table_spoon,,1.0
+spoonbending,/c/en/spoonbending,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v,RelatedTo,enlacer,/c/fr/enlacer,,1.0
+gob stick,/c/en/gob_stick/n,RelatedTo,spoon,/c/en/spoon,,1.0
+löffel,/c/de/löffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+cutty,/c/en/cutty/n,RelatedTo,spoon,/c/en/spoon,,1.0
+wooden spoon,/c/en/wooden_spoon/n,IsA,spoon,/c/en/spoon/n,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,匙子,/c/zh/匙子,,1.0
+spoon excavator,/c/en/spoon_excavator,DerivedFrom,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,eating cold ceral,/c/en/eating_cold_ceral,[[a spoon]] is for [[eating cold ceral]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,চামচ,/c/bn/চামচ,,1.0
+a spoon,/c/en/spoon,ReceivesAction,needed when eating a meal,/c/en/needed_when_eating_meal,[[a spoon]] is [[needed when eating a meal]],1.0
+kutsarain,/c/fil/kutsarain/v,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,匙,/c/zh/匙,,1.0
+cochleariform,/c/en/cochleariform/a,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonlike,/c/en/spoonlike,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoonwort,/c/en/spoonwort,DerivedFrom,spoon,/c/en/spoon,,1.0
+cucharón,/c/es/cucharón/n,RelatedTo,spoon,/c/en/spoon,,1.0
+lugë,/c/sq/lugë/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonflower,/c/en/spoonflower,DerivedFrom,spoon,/c/en/spoon,,1.0
+cuillère à thé glacé,/c/fr/cuillère_à_thé_glacé/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ухр,/c/xwo/ухр,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ske,/c/da/ske,,1.0
+spooning,/c/en/spooning/v,FormOf,spoon,/c/en/spoon,,1.0
+coclear,/c/ia/coclear/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,CapableOf,be use to eat soup,/c/en/use_to_eat_soup,[[a spoon]] can [[be use to eat soup]],1.0
+love spoon,/c/en/love_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ньуоска,/c/sah/ньуоска,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,RelatedTo,flirt,/c/en/flirt,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ложка,/c/ru/ложка,,1.0
+kašika,/c/sh/kašika,Synonym,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,sudu,/c/id/sudu,,1.0
+fork,/c/en/fork/n,DistinctFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,tschadun,/c/rm/tschadun,,1.0
+spoon,/c/en/spoon/n,IsA,fluid reservoir,/c/en/fluid_reservoir/n,,1.0
+spoonworm,/c/en/spoonworm,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lugë,/c/sq/lugë,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,چمچه,/c/fa/چمچه,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,қасық,/c/kk/қасық,,1.0
+cuillère à pamplemousse,/c/fr/cuillère_à_pamplemousse/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v,RelatedTo,puiser,/c/fr/puiser,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,चम्मच,/c/hi/चम्मच,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,చెమ్చా,/c/te/చెమ్చా,,1.0
+saltspoon,/c/en/saltspoon,DerivedFrom,spoon,/c/en/spoon,,1.0
+wislla,/c/qu/wislla/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,mwiko,/c/sw/mwiko,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spun,/c/vo/spun,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,luzikku,/c/krl/luzikku,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ማንካ,/c/ti/ማንካ,,1.0
+muỗng,/c/vi/muỗng/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wn/artifact,ExternalURL,104291140-n,http://wordnet-rdf.princeton.edu/wn31/104291140-n,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,匙羹,/c/zh/匙羹,,1.0
+spoonful,/c/en/spoonful/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,scoop,/c/en/scoop,,1.0
+бжэмышх,/c/kbd/бжэмышх/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,چمچہ,/c/bal/چمچہ,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,hand grenade,/c/en/hand_grenade,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ບ່ວງ,/c/lo/ບ່ວງ,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,goilare,/c/eu/goilare,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,baste,/c/se/baste,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,къашыкъ,/c/krc/къашыкъ,,1.0
+cochlear,/c/la/cochlear/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,که‌وچک,/c/ku/که‌وچک,,1.0
+匙子,/c/zh/匙子/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ܟܦܬܐ,/c/syc/ܟܦܬܐ/n/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+spone,/c/enm/spone/n/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+лыжка,/c/be/лыжка/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,къашыкъ,/c/kum/къашыкъ,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kulero,/c/eo/kulero,,1.0
+slev,/c/sv/slev/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ཁེམ བུ,/c/bo/ཁེམ_བུ,,1.0
+кашык,/c/ky/кашык/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoons,/c/en/spoons,FormOf,spoon,/c/en/spoon/n,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spiún,/c/ga/spiún,,1.0
+a spoon,/c/en/spoon,AtLocation,bed,/c/en/bed,You are likely to find [[a spoon]] in [[bed]],1.0
+łyżka,/c/pl/łyżka/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon,RelatedTo,cutlery,/c/en/cutlery,,1.0
+eating irons,/c/en/eating_irons/n,RelatedTo,spoon,/c/en/spoon,,1.0
+tablespoon,/c/en/tablespoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+sugar spoon,/c/en/sugar_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ملعقة,/c/ar/ملعقة,,1.0
+spoon,/c/en/spoon,ExternalURL,Spoon,http://umbel.org/umbel/sc/Spoon,,1.0
+big spoon,/c/en/big_spoon,DerivedFrom,spoon,/c/en/spoon/v/wikt/en_1,,1.0
+kutsara,/c/fil/kutsara/n,RelatedTo,spoon,/c/en/spoon,,1.0
+skeið,/c/is/skeið/n/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,isipunu,/c/zu/isipunu,,1.0
+a spoon,/c/en/spoon,AtLocation,the cutlery drawer,/c/en/cutlery_drawer,You are likely to find [[a spoon]] in [[the cutlery drawer]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,勺子,/c/zh/勺子,,1.0
+spoonwise,/c/en/spoonwise/r,RelatedTo,spoon,/c/en/spoon,,1.0
+silver service,/c/en/silver_service/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v/wikt/en_2,Synonym,లంగరు,/c/te/లంగరు,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,coclear,/c/ia/coclear,,1.0
+culhièr,/c/oc/culhièr/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,CapableOf,hold dozens of pieces of rice,/c/en/hold_dozens_of_pieces_of_rice,[[a spoon]] can [[hold dozens of pieces of rice]],1.0
+lžíce,/c/cs/lžíce/n,RelatedTo,spoon,/c/en/spoon,,1.0
+술,/c/ko/술/n/wikt/en_2,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,തവി,/c/ml/തവി,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spónur,/c/fo/spónur,,1.0
+spoonbill,/c/en/spoonbill,DerivedFrom,spoon,/c/en/spoon,,1.0
+icephe,/c/xh/icephe/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,qoshiq,/c/uz/qoshiq,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,хамыйах,/c/sah/хамыйах,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kuyɛri,/c/bm/kuyɛri,,1.0
+三號木桿,/c/zh/三號木桿,Synonym,spoon,/c/en/spoon,,1.0
+cochlearium,/c/en/cochlearium/n,RelatedTo,spoon,/c/en/spoon,,1.0
+lusikkahaarukka,/c/fi/lusikkahaarukka/n,RelatedTo,spoon,/c/en/spoon,,1.0
+스푼,/c/ko/스푼/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,HasContext,archaic,/c/en/archaic,,1.0
+a spoon,/c/en/spoon,UsedFor,consuming something liquid,/c/en/consuming_liquid,[[a spoon]] is used for [[consuming something liquid]],1.0
+löffeln,/c/de/löffeln/v,RelatedTo,spoon,/c/en/spoon,,1.0
+goilare,/c/eu/goilare/n,Synonym,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v/wn/contact,ExternalURL,201582471-v,http://wordnet-rdf.princeton.edu/wn31/201582471-v,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,simpleton,/c/en/simpleton,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,lure,/c/en/lure,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,koilara,/c/eu/koilara,,1.0
+a spoon,/c/en/spoon,UsedFor,stir food,/c/en/stir_food,You can use [[a spoon]] to [[stir food]],1.0
+skje,/c/no/skje/n/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,wislla,/c/qu/wislla,,1.0
+चम्मच,/c/hi/चम्मच/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,läffel,/c/lb/läffel,,1.0
+spoon,/c/en/spoon/v,RelatedTo,connotation,/c/fr/connotation,,1.0
+culler,/c/gl/culler/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,łefuł,/c/wym/łefuł,,1.0
+a spoon,/c/en/spoon,AtLocation,a kitchen drawer,/c/en/kitchen_drawer,You are likely to find [[a spoon]] in [[a kitchen drawer]],1.0
+చెమ్చా,/c/te/చెమ్చా/n,RelatedTo,spoon,/c/en/spoon,,1.0
+läffel,/c/gsw/läffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoons,/c/en/spoons/n,FormOf,spoon,/c/en/spoon,,1.0
+lusikas,/c/et/lusikas/n,RelatedTo,spoon,/c/en/spoon,,1.0
+soupspoon,/c/en/soupspoon,DerivedFrom,spoon,/c/en/spoon,,1.0
+senflöffel,/c/de/senflöffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+sleif,/c/is/sleif/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,šaukštas,/c/lt/šaukštas,,1.0
+ausa,/c/is/ausa/n,RelatedTo,spoon,/c/en/spoon,,1.0
+lepel,/c/nl/lepel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,the silverware drawer,/c/en/silverware_drawer,You are likely to find [[a spoon]] in [[the silverware drawer]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,омааш,/c/tyv/омааш,,1.0
+调羹,/c/zh/调羹,Synonym,spoon,/c/en/spoon,,1.0
+A spoon,/c/en/spoon,HasA,a cupped end and a handle,/c/en/cupped_end_and_handle,[[A spoon]] has [[a cupped end and a handle]],1.0
+ложка,/c/ru/ложка/n,RelatedTo,spoon,/c/en/spoon,,1.0
+চামচ,/c/bn/চামচ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon bowl,/c/en/spoon_bowl/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lo,/c/kw/lo,,1.0
+cuillère à œuf,/c/fr/cuillère_à_œuf/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ложка,/c/rue/ложка,,1.0
+a spoon,/c/en/spoon,UsedFor,eat ice cream,/c/en/eat_ice_cream,You can use [[a spoon]] to [[eat ice cream]],1.0
+sendok,/c/id/sendok/n,RelatedTo,spoon,/c/en/spoon,,1.0
+lútu,/c/ln/lútu/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,चम्चा,/c/ne/चम्चा,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cuchara,/c/es/cuchara,,1.0
+spoodle,/c/en/spoodle/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,measuring ingredients,/c/en/measuring_ingredients,[[a spoon]] is for [[measuring ingredients]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ဇွန်း,/c/my/ဇွန်း,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,sendok,/c/id/sendok,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,skei,/c/no/skei,,1.0
+лажица,/c/mk/лажица/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonwise,/c/en/spoonwise,DerivedFrom,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,a hand,/c/en/hand,You are likely to find [[a spoon]] in [[a hand]],1.0
+a spoon,/c/en/spoon,UsedFor,eat with,/c/en/eat_with,You can use [[a spoon]] to [[eat with]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,sked,/c/sv/sked,,1.0
+spoonlike,/c/en/spoonlike/a,RelatedTo,spoon,/c/en/spoon,,1.0
+läffel,/c/lb/läffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonist,/c/en/spoonist,DerivedFrom,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,a cutlery draw,/c/en/cutlery_draw,You are likely to find [[a spoon]] in [[a cutlery draw]],1.0
+ҡалаҡ,/c/ba/ҡалаҡ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+mwiko,/c/sw/mwiko/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,калбак,/c/alt/калбак,,1.0
+ҡашыҡ,/c/ba/ҡашыҡ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ҡалаҡ,/c/ba/ҡалаҡ,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,löffel,/c/de/löffel,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ਚਮਚਾ,/c/pa/ਚਮਚਾ,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,RelatedTo,contours,/c/en/contours,,1.0
+spoon feed,/c/en/spoon_feed/v,RelatedTo,spoon,/c/en/spoon,,1.0
+spife,/c/en/spife,DerivedFrom,spoon,/c/en/spoon,,1.0
+lusikka,/c/fi/lusikka/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n,HasContext,royaume uni,/c/fr/royaume_uni,,1.0
+a spoon,/c/en/spoon,UsedFor,mixing ingredients,/c/en/mixing_ingredients,[[a spoon]] is for [[mixing ingredients]],1.0
+μυστροθήκη,/c/grc/μυστροθήκη/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,eating food that isn't very solid,/c/en/eating_food_isn't_very_solid,[[a spoon]] is used for [[eating food that isn't very solid]],1.0
+kijiko,/c/sw/kijiko/n,RelatedTo,spoon,/c/en/spoon,,1.0
+炒勺,/c/zh/炒勺/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,a dishwasher,/c/en/dishwasher,You are likely to find [[a spoon]] in [[a dishwasher]],1.0
+cuchara,/c/es/cuchara/n,RelatedTo,spoon,/c/en/spoon,,1.0
+splade,/c/en/splade/n,RelatedTo,spoon,/c/en/spoon,,1.0
+飯匙,/c/zh/飯匙/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon bread,/c/en/spoon_bread,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,golf club,/c/en/golf_club,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cōkàlī,/c/ha/cōkàlī,,1.0
+cucharear,/c/es/cucharear/v,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lusikka,/c/fi/lusikka,,1.0
+ܬܪܘܕܐ,/c/syc/ܬܪܘܕܐ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+चम्मच,/c/hi/चम्मच/n,Synonym,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon,ExternalURL,Spoon,http://dbpedia.org/resource/Spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,skje,/c/no/skje,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,maskab k ab,/c/yua/maskab_k_ab,,1.0
+saltspoon,/c/en/saltspoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,HasContext,tennis,/c/en/tennis,,1.0
+qaado,/c/so/qaado/n,RelatedTo,spoon,/c/en/spoon,,1.0
+勺,/c/zh/勺,Synonym,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,RelatedTo,hit,/c/en/hit,,1.0
+foon,/c/en/foon,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoons,/c/en/spoons/v,FormOf,spoon,/c/en/spoon,,1.0
+matskeið,/c/is/matskeið/n,RelatedTo,spoon,/c/en/spoon,,1.0
+chį́ška,/c/dak/chį́ška/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,luits,/c/et/luits,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,HasContext,military,/c/en/military,,1.0
+ложечка,/c/ru/ложечка/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spon,/c/ang/spon,,1.0
+چمچ,/c/ur/چمچ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ikiyiko,/c/rw/ikiyiko,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,調羹,/c/zh/調羹,,1.0
+கரண்டி,/c/ta/கரண்டி/n,RelatedTo,spoon,/c/en/spoon,,1.0
+nappare,/c/it/nappare/v,RelatedTo,spoon,/c/en/spoon,,1.0
+գդալ,/c/hy/գդալ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+cacha,/c/ast/cacha/n,RelatedTo,spoon,/c/en/spoon,,1.0
+luzik,/c/vep/luzik/n,RelatedTo,spoon,/c/en/spoon,,1.0
+slotted spoon,/c/en/slotted_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,skeið,/c/fo/skeið,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,चम्चा,/c/hi/चम्चा,,1.0
+ଚାମଚ,/c/or/ଚାମଚ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,qaşıq,/c/crh/qaşıq,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,łeffuł,/c/wym/łeffuł,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,culler,/c/gl/culler,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,кашык,/c/tt/кашык,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lapihchi,/c/akz/lapihchi,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,thìa,/c/vi/thìa,,1.0
+löffel,/c/de/löffel/n,Synonym,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lžíce,/c/cs/lžíce,,1.0
+dessertspoon,/c/en/dessertspoon,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/v/wikt/en_2,Synonym,kijiko,/c/sw/kijiko,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cucchiaio,/c/it/cucchiaio,,1.0
+łefuł,/c/wym/łefuł/n,RelatedTo,spoon,/c/en/spoon,,1.0
+қошуқ,/c/tg/қошуқ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kuchara,/c/pap/kuchara,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,HasContext,dentistry,/c/en/dentistry,,1.0
+spoon,/c/en/spoon/v/wikt/en_1,HasContext,croquet,/c/en/croquet,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,varecha,/c/sk/varecha,,1.0
+choke pear,/c/en/choke_pear/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lizeika,/c/ltg/lizeika,,1.0
+γλυκό του κουταλιού,/c/el/γλυκό_του_κουταλιού/n,RelatedTo,spoon,/c/en/spoon,,1.0
+silver spoon,/c/en/silver_spoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+isipunu,/c/zu/isipunu/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ложечка,/c/ru/ложечка,,1.0
+spuin,/c/sco/spuin/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kuddu,/c/wo/kuddu,,1.0
+spoons,/c/en/spoons/n,RelatedTo,spoon,/c/en/spoon,,1.0
+スプーン,/c/ja/スプーン,EtymologicallyDerivedFrom,spoon,/c/en/spoon,,1.0
+dahon,/c/fil/dahon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lapihchosi,/c/akz/lapihchosi,,1.0
+cuillère,/c/fr/cuillère/n,RelatedTo,spoon,/c/en/spoon,,1.0
+տարգալ,/c/xcl/տարգալ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+lo,/c/kw/lo/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonbill,/c/en/spoonbill,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+spoon,/c/en/spoon/v/wikt/en_2,Synonym,laveren,/c/nl/laveren,,1.0
+saltspoon,/c/en/saltspoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+lepeltje lepeltje,/c/nl/lepeltje_lepeltje/r,RelatedTo,spoon,/c/en/spoon,,1.0
+תרודא,/c/arc/תרודא/n,RelatedTo,spoon,/c/en/spoon,,1.0
+lingurã,/c/rup/lingurã/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,utensil,/c/en/utensil,,1.0
+ಚಮಚ,/c/kn/ಚಮಚ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,уидыг,/c/os/уидыг,,1.0
+cooking,/c/en/cooking,HasPrerequisite,a spoon,/c/en/spoon,[[cooking]] requires [[a spoon]],1.0
+apostle spoon,/c/en/apostle_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+چمچه,/c/fa/چمچه/n,RelatedTo,spoon,/c/en/spoon,,1.0
+sculiero,/c/vec/sculiero/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ဇွန်း,/c/my/ဇွန်း/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,HasContext,slang,/c/en/slang,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kuliero,/c/io/kuliero,,1.0
+leffel,/c/gsw/leffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,łžica,/c/hsb/łžica,,1.0
+szedőkanál,/c/hu/szedőkanál/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wn/quantity,ExternalURL,113792309-n,http://wordnet-rdf.princeton.edu/wn31/113792309-n,,1.0
+spoon,/c/en/spoon/n,IsA,shaped thing,/c/en/shaped_thing/n,,1.0
+spoon meat,/c/en/spoon_meat/n,RelatedTo,spoon,/c/en/spoon,,1.0
+adeeʼ,/c/nv/adeeʼ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+джэмышх,/c/ady/джэмышх/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ζαχαρώνω,/c/el/ζαχαρώνω/v,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,soup,/c/en/soup,You are likely to find [[a spoon]] in [[soup]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,three wood,/c/en/three_wood,,1.0
+spoon,/c/en/spoon,DerivedFrom,밥,/c/ko/밥/n,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,스푼,/c/ko/스푼,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,лыжка,/c/be/лыжка,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,调羹,/c/zh/调羹,,1.0
+კოვზი,/c/oge/კოვზი/n,RelatedTo,spoon,/c/en/spoon,,1.0
+kumal,/c/chl/kumal/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ช้อน,/c/th/ช้อน,,1.0
+karote,/c/lv/karote/n,RelatedTo,spoon,/c/en/spoon,,1.0
+tablespoon,/c/en/tablespoon,DerivedFrom,spoon,/c/en/spoon,,1.0
+kanalas,/c/hu/kanalas/a,RelatedTo,spoon,/c/en/spoon,,1.0
+schiumarola,/c/it/schiumarola/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,амҳаҵә,/c/ab/амҳаҵә,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,culhièr,/c/oc/culhièr,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,قوشۇق,/c/ug/قوشۇق,,1.0
+spoon,/c/en/spoon/v/wikt/en_2,Synonym,cuchara,/c/es/cuchara,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,spúnóg,/c/ga/spúnóg,,1.0
+bééshʼadeeʼ,/c/nv/bééshʼadeeʼ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+löffelchen,/c/de/löffelchen/n,RelatedTo,spoon,/c/en/spoon,,1.0
+absinthe spoon,/c/en/absinthe_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon,EtymologicallyDerivedFrom,spoon,/c/enm/spoon,,1.0
+koilara,/c/eu/koilara/n,RelatedTo,spoon,/c/en/spoon,,1.0
+qoshiq,/c/uz/qoshiq/n,RelatedTo,spoon,/c/en/spoon,,1.0
+sked,/c/sv/sked/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,mixing soup,/c/en/mixing_soup,[[a spoon]] is for [[mixing soup]],1.0
+spoonbread,/c/en/spoonbread,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n,RelatedTo,intelligent,/c/fr/intelligent,,1.0
+қасық,/c/kk/қасық/n,RelatedTo,spoon,/c/en/spoon,,1.0
+漏勺,/c/zh/漏勺/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,the dish to run away with,/c/en/dish_to_run_away_with,[[a spoon]] is for [[the dish to run away with]],1.0
+warzecha,/c/pl/warzecha/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spónur,/c/fo/spónur/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ᐊᓘᑦ,/c/iu/ᐊᓘᑦ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ܡܢܝܩܝܬܐ,/c/syc/ܡܢܝܩܝܬܐ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+łeffuł,/c/wym/łeffuł/n,RelatedTo,spoon,/c/en/spoon,,1.0
+cullera,/c/ca/cullera/n/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+चमचा,/c/mr/चमचा/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon feed,/c/en/spoon_feed,DerivedFrom,spoon,/c/en/spoon,,1.0
+A spoon,/c/en/spoon,UsedFor,eat cereal with,/c/en/eat_cereal_with,[[A spoon]] is used to [[eat cereal with]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,adeeʼ,/c/nv/adeeʼ,,1.0
+A spoon,/c/en/spoon,UsedFor,eating food off a plate,/c/en/eating_food_off_plate,[[A spoon]] is used for [[eating food off a plate]],1.0
+çemçe,/c/tk/çemçe/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,ложка,/c/uk/ложка,,1.0
+caviar spoon,/c/en/caviar_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,sutru,/c/zdj/sutru,,1.0
+kaffeelöffel,/c/de/kaffeelöffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ચમચી,/c/gu/ચમચી/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lyžička,/c/sk/lyžička,,1.0
+beuzgeng,/c/za/beuzgeng/n,RelatedTo,spoon,/c/en/spoon,,1.0
+silverware spoon,/c/en/silverware_spoon/n,IsA,spoon,/c/en/spoon/n,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,RelatedTo,measure,/c/en/measure,,1.0
+hålslev,/c/sv/hålslev/n,RelatedTo,spoon,/c/en/spoon,,1.0
+κουτάλα,/c/el/κουτάλα/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,qaşıq,/c/az/qaşıq,,1.0
+spoodle,/c/en/spoodle,DerivedFrom,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,лъжька,/c/orv/лъжька,,1.0
+a spoon,/c/en/spoon,UsedFor,stir your coffee,/c/en/stir_coffee,You can use [[a spoon]] to [[stir your coffee]],1.0
+μύστρον,/c/grc/μύστρον/n,RelatedTo,spoon,/c/en/spoon,,1.0
+kaşık,/c/tr/kaşık/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,a fork in the road,/c/en/fork_in_road,*Something you find at [[a fork in the road]] is [[a spoon]],1.0
+curette,/c/en/curette/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,scoop ice cream\,/c/en/scoop_ice_cream,You can use [[a spoon]] to [[scoop ice cream\]],1.0
+lepel,/c/dum/lepel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,හැන්ද,/c/si/හැන්ද,,1.0
+수저,/c/ko/수저/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,yiko,/c/rw/yiko,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,icephe,/c/xh/icephe,,1.0
+كاچوغه,/c/ps/كاچوغه/n,RelatedTo,spoon,/c/en/spoon,,1.0
+sudu,/c/ms/sudu/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon sweet,/c/en/spoon_sweet,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,қошуқ,/c/tg/қошуқ,,1.0
+a spoon,/c/en/spoon,UsedFor,eat yogurt,/c/en/eat_yogurt,You can use [[a spoon]] to [[eat yogurt]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,汤匙,/c/zh/汤匙,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,łyżeczka,/c/pl/łyżeczka,,1.0
+a spoon,/c/en/spoon,UsedFor,hang on your nose,/c/en/hang_on_nose,You can use [[a spoon]] to [[hang on your nose]],1.0
+a spoon,/c/en/spoon,UsedFor,transporting liquid short distances,/c/en/transporting_liquid_short_distances,[[a spoon]] is used for [[transporting liquid short distances]],1.0
+A spoon is something you,/c/en/spoon,CapableOf,eat with,/c/en/eat_with,[[A spoon is something you]] can [[eat with]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lepel,/c/li/lepel,,1.0
+a spoon,/c/en/spoon,UsedFor,people to eat soup with,/c/en/people_to_eat_soup_with,[[a spoon]] is for [[people to eat soup with]],1.0
+匙,/c/ja/匙/n/wikt/en_6,RelatedTo,spoon,/c/en/spoon,,1.0
+スプーン,/c/ja/スプーン/n,RelatedTo,spoon,/c/en/spoon,,1.0
+colherada,/c/pt/colherada/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spooning,/c/en/spooning/v,RelatedTo,spoon,/c/en/spoon,,1.0
+cokali,/c/ha/cokali/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n,Synonym,colher,/c/pt/colher,,1.0
+cibi,/c/ha/cibi/n,RelatedTo,spoon,/c/en/spoon,,1.0
+šaukštas,/c/lt/šaukštas/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ladle,/c/en/ladle/n,IsA,spoon,/c/en/spoon/n,,1.0
+spoon,/c/en/spoon,ExternalURL,Q81895,http://wikidata.dbpedia.org/resource/Q81895,,1.0
+little spoon,/c/en/little_spoon/n,RelatedTo,spoon,/c/en/spoon,,1.0
+ບ່ວງ,/c/lo/ບ່ວງ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,パラパスイ,/c/ain/パラパスイ,,1.0
+a spoon,/c/en/spoon,UsedFor,drinking soup,/c/en/drinking_soup,[[a spoon]] is for [[drinking soup]],1.0
+spun,/c/vo/spun/n,RelatedTo,spoon,/c/en/spoon,,1.0
+skeið,/c/fo/skeið/n/wikt/en_1,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,liquid foods,/c/en/liquid_foods,[[a spoon]] is used for [[liquid foods]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,sedon,/c/fur/sedon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,kaşık,/c/tr/kaşık,,1.0
+mgħarfa,/c/mt/mgħarfa/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,löffel,/c/gsw/löffel,,1.0
+a spoon,/c/en/spoon,AtLocation,a serving dish,/c/en/serving_dish,You are likely to find [[a spoon]] in [[a serving dish]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,leppel,/c/fy/leppel,,1.0
+löffl,/c/cim/löffl/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,cooling liquid by stirring,/c/en/cooling_liquid_by_stirring,[[a spoon]] is for [[cooling liquid by stirring]],1.0
+mestolame,/c/it/mestolame/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,beuzgeng,/c/za/beuzgeng,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,самнах,/c/kjh/самнах,,1.0
+baste,/c/se/baste/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,κοχλιαριον,/c/grc/κοχλιαριον,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,lepel,/c/nl/lepel,,1.0
+さじ,/c/ja/さじ/n,RelatedTo,spoon,/c/en/spoon,,1.0
+eierlöffel,/c/de/eierlöffel/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,UsedFor,eat,/c/en/eat,You can use [[a spoon]] to [[eat]],1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,пенч,/c/myv/пенч,,1.0
+spoonbilled,/c/en/spoonbilled,DerivedFrom,spoon,/c/en/spoon,,1.0
+sàsoa,/c/lij/sàsoa/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,лошкӏэ,/c/kbd/лошкӏэ,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,לעפל,/c/yi/לעפל,,1.0
+sleva,/c/sv/sleva/v,RelatedTo,spoon,/c/en/spoon,,1.0
+limonare,/c/it/limonare/v,RelatedTo,spoon,/c/en/spoon,,1.0
+soup spoon,/c/en/soup_spoon,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+measuring spoon,/c/en/measuring_spoon/n,IsA,spoon,/c/en/spoon/n,,1.0
+spoon,/c/en/spoon/v/wikt/en_2,FormOf,spoom,/c/en/spoom,,1.0
+халбага,/c/mn/халбага/n,RelatedTo,spoon,/c/en/spoon,,1.0
+омааш,/c/tyv/омааш/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoonwing,/c/en/spoonwing,DerivedFrom,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,a glass of iced tea,/c/en/glass_of_iced_tea,You are likely to find [[a spoon]] in [[a glass of iced tea]],1.0
+puna,/c/haw/puna/n,RelatedTo,spoon,/c/en/spoon,,1.0
+a spoon,/c/en/spoon,AtLocation,a resturant,/c/en/resturant,*Something you find at [[a resturant]] is [[a spoon]],1.0
+spàin,/c/gd/spàin/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,mkoɓe,/c/zdj/mkoɓe,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,žlica,/c/sl/žlica,,1.0
+luuskaaq,/c/esu/luuskaaq/n,RelatedTo,spoon,/c/en/spoon,,1.0
+do dishes,/c/en/do_dishes/v,RelatedTo,spoon,/c/en/spoon,,1.0
+spoons position,/c/en/spoons_position,DerivedFrom,spoon,/c/en/spoon/n/wikt/en_1,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,coyî,/c/wa/coyî,,1.0
+匙羹,/c/zh/匙羹/n,RelatedTo,spoon,/c/en/spoon,,1.0
+gĩciko,/c/ki/gĩciko/n,RelatedTo,spoon,/c/en/spoon,,1.0
+food,/c/en/food,AtLocation,spoon,/c/en/spoon,You are likely to find [[food]] in [[spoon]].,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cochlearium,/c/la/cochlearium,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,sudu,/c/ms/sudu,,1.0
+ice cream scoop,/c/en/ice_cream_scoop/n,IsA,spoon,/c/en/spoon/n,,1.0
+kanál,/c/hu/kanál/n,RelatedTo,spoon,/c/en/spoon,,1.0
+spoon,/c/en/spoon/n/wikt/en_1,Synonym,cuciaro,/c/vec/cuciaro,,1.0
+spoon,/c/en/spoon,RelatedTo,eating,/c/en/eating,[[spoon]] is related to [[eating]],0.9450000000000003
+utensil,/c/en/utensil,RelatedTo,spoon,/c/en/spoon,[[utensil]] is related to [[spoon]],0.931
+spoon,/c/en/spoon,RelatedTo,utensil,/c/en/utensil,[[spoon]] is related to [[utensil]],0.7549999999999999
+spoon,/c/en/spoon,RelatedTo,handle,/c/en/handle,[[spoon]] is related to [[handle]],0.5499999999999998
+лыжка,/c/be/лыжка,Synonym,spoon,/c/en/spoon,,0.5
+séndok,/c/su/séndok,Synonym,spoon,/c/en/spoon,,0.5
+spoon,/c/en/spoon,RelatedTo,silver,/c/en/silver,,0.5
+lepel,/c/af/lepel,Synonym,spoon,/c/en/spoon,,0.5
+قاشق,/c/fa/قاشق,Synonym,spoon,/c/en/spoon,,0.5
+cuyar,/c/ast/cuyar,Synonym,spoon,/c/en/spoon,,0.5
+スプーン,/c/ja/スプーン,Synonym,spoon,/c/en/spoon,,0.5
+spoon,/c/sco/spoon,Synonym,spoon,/c/en/spoon,,0.5
+lepel,/c/nl/lepel/n/wp/bestek,Synonym,spoon,/c/en/spoon,,0.5
+šaukštas,/c/lt/šaukštas,Synonym,spoon,/c/en/spoon,,0.5
+лъжица,/c/bg/лъжица,Synonym,spoon,/c/en/spoon,,0.5
+culler,/c/gl/culler,Synonym,spoon,/c/en/spoon,,0.5
+kiyè,/c/ht/kiyè,Synonym,spoon,/c/en/spoon,,0.5
+sendok,/c/id/sendok,Synonym,spoon,/c/en/spoon,,0.5
+łyżka,/c/pl/łyżka/n/wp/sztuciec,Synonym,spoon,/c/en/spoon,,0.5
+ложка,/c/ru/ложка,Synonym,spoon,/c/en/spoon,,0.5
+చెంచా,/c/te/చెంచా,Synonym,spoon,/c/en/spoon,,0.5
+kulero,/c/eo/kulero,Synonym,spoon,/c/en/spoon,,0.5
+lžíce,/c/cs/lžíce,Synonym,spoon,/c/en/spoon,,0.5
+қошуқ,/c/tg/қошуқ,Synonym,spoon,/c/en/spoon,,0.5
+skje,/c/no/skje,Synonym,spoon,/c/en/spoon,,0.5
+kevçî,/c/ku/kevçî,Synonym,spoon,/c/en/spoon,,0.5
+கரண்டி,/c/ta/கரண்டி,Synonym,spoon,/c/en/spoon,,0.5
+lusikka,/c/fi/lusikka,Synonym,spoon,/c/en/spoon,,0.5
+kuliero,/c/io/kuliero,Synonym,spoon,/c/en/spoon,,0.5
+lingură,/c/ro/lingură,Synonym,spoon,/c/en/spoon,,0.5
+ملعقة,/c/ar/ملعقة,Synonym,spoon,/c/en/spoon,,0.5
+כף,/c/he/כף,Synonym,spoon,/c/en/spoon,,0.5
+koilara,/c/eu/koilara,Synonym,spoon,/c/en/spoon,,0.5
+চামচ,/c/bn/চামচ,Synonym,spoon,/c/en/spoon,,0.5
+skei,/c/no/skei,Synonym,spoon,/c/en/spoon,,0.5
+ӏайг,/c/ce/ӏайг,Synonym,spoon,/c/en/spoon,,0.5
+cucchiara,/c/scn/cucchiara,Synonym,spoon,/c/en/spoon,,0.5
+sudu,/c/ms/sudu,Synonym,spoon,/c/en/spoon,,0.5
+കരണ്ടി,/c/ml/കരണ്ടി,Synonym,spoon,/c/en/spoon,,0.5
+colher,/c/pt/colher,Synonym,spoon,/c/en/spoon,,0.5
+cucchiaio,/c/it/cucchiaio,Synonym,spoon,/c/en/spoon,,0.5
+karote,/c/lv/karote,Synonym,spoon,/c/en/spoon,,0.5
+ช้อน,/c/th/ช้อน,Synonym,spoon,/c/en/spoon,,0.5
+culhièr,/c/oc/culhièr,Synonym,spoon,/c/en/spoon,,0.5
+ske,/c/da/ske,Synonym,spoon,/c/en/spoon,,0.5
+cuillère,/c/fr/cuillère,Synonym,spoon,/c/en/spoon,,0.5
+숟가락,/c/ko/숟가락,Synonym,spoon,/c/en/spoon,,0.5
+cullera,/c/ca/cullera,Synonym,spoon,/c/en/spoon,,0.5
+sked,/c/sv/sked,Synonym,spoon,/c/en/spoon,,0.5
+kaşık,/c/tr/kaşık,Synonym,spoon,/c/en/spoon,,0.5
+cuciaro,/c/vec/cuciaro,Synonym,spoon,/c/en/spoon,,0.5
+හැඳි,/c/si/හැඳි,Synonym,spoon,/c/en/spoon,,0.5
+muỗng,/c/vi/muỗng,Synonym,spoon,/c/en/spoon,,0.5
+cugiar,/c/lmo/cugiar,Synonym,spoon,/c/en/spoon,,0.5
+kuchara,/c/qu/kuchara,Synonym,spoon,/c/en/spoon,,0.5
+läffel,/c/lb/läffel,Synonym,spoon,/c/en/spoon,,0.5
+ложка,/c/uk/ложка,Synonym,spoon,/c/en/spoon,,0.5
+cuchara,/c/es/cuchara,Synonym,spoon,/c/en/spoon,,0.5
+kanál,/c/hu/kanál,Synonym,spoon,/c/en/spoon,,0.5
+spúnóg,/c/ga/spúnóg,Synonym,spoon,/c/en/spoon,,0.5
+चमचा,/c/hi/चमचा,Synonym,spoon,/c/en/spoon,,0.5
+cullara,/c/an/cullara,Synonym,spoon,/c/en/spoon,,0.5
+loa,/c/br/loa,Synonym,spoon,/c/en/spoon,,0.5
+qoshiq,/c/uz/qoshiq,Synonym,spoon,/c/en/spoon,,0.5
+séndhok,/c/jv/séndhok,Synonym,spoon,/c/en/spoon,,0.5
+κουτάλι,/c/el/κουτάλι,Synonym,spoon,/c/en/spoon,,0.5
+žlica,/c/sh/žlica,Synonym,spoon,/c/en/spoon,,0.5
+spoon,/c/en/spoon,Synonym,spoon,/c/en/spoon,,0.5
+spoon,/c/en/spoon,RelatedTo,soup,/c/en/soup,[[spoon]] is related to [[soup]],0.44499999999999984
+soup,/c/en/soup,RelatedTo,spoon,/c/en/spoon,[[soup]] is related to [[spoon]],0.42700000000000005
+spoon,/c/en/spoon,RelatedTo,eating utensil,/c/en/eating_utensil,[[spoon]] is related to [[eating utensil]],0.4249999999999998
+spatula,/c/en/spatula,RelatedTo,spoon,/c/en/spoon,[[spatula]] is related to [[spoon]],0.375
+fork,/c/en/fork,DistinctFrom,spoon,/c/en/spoon,[[fork]] is not [[spoon]],0.3639999999999999
+spoon,/c/en/spoon,Antonym,fork,/c/en/fork,[[spoon]] is the opposite of [[fork]],0.359
+tablespoon,/c/en/tablespoon,RelatedTo,spoon,/c/en/spoon,[[tablespoon]] is related to [[spoon]],0.33899999999999997
+spoon,/c/en/spoon,RelatedTo,fork,/c/en/fork,[[spoon]] is related to [[fork]],0.2789999999999999
+plate,/c/en/plate,DistinctFrom,spoon,/c/en/spoon,[[plate]] is not [[spoon]],0.2560000000000002
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spónn,/c/is/spónn,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spun,/c/sco/spun,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spon,/c/no/spon,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spoen,/c/fy/spoen,,0.25
+splade,/c/en/splade,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spónur,/c/fo/spónur,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spoom,/c/en/spoom,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,σφην,/c/grc/σφην,,0.25
+spoun,/c/lb/spoun,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+spoon,/c/en/spoon,ExternalURL,spoon,http://fr.wiktionary.org/wiki/spoon,,0.25
+ffon,/c/cy/ffon,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+spoune,/c/stq/spoune,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+spun,/c/tpi/spun,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spánn,/c/is/spánn,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spån,/c/sv/spån,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spoune,/c/enm/spoune,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spoune,/c/stq/spoune,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spon,/c/sco/spon,,0.25
+spään,/c/gsw/spään,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spone,/c/enm/spone,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spon,/c/enm/spon,,0.25
+spoon,/c/en/spoon,ExternalURL,spoon,http://en.wiktionary.org/wiki/spoon,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,span,/c/de/span,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spoon,/c/nds/spoon,,0.25
+spick and span,/c/en/spick_and_span,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+spoon,/c/nds/spoon,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+span,/c/de/span,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+spoon,/c/en/spoon,EtymologicallyRelatedTo,spaan,/c/nl/spaan,,0.25
+스푼,/c/ko/스푼,EtymologicallyRelatedTo,spoon,/c/en/spoon,,0.25
+spoon,/c/en/spoon,RelatedTo,round,/c/en/round,[[spoon]] is related to [[round]],0.23499999999999988
+spoon,/c/en/spoon,RelatedTo,metal,/c/en/metal,[[spoon]] is related to [[metal]],0.2240000000000002
+spoon,/c/en/spoon,RelatedTo,eating soup,/c/en/eating_soup,[[spoon]] is related to [[eating soup]],0.19399999999999995
+spoon,/c/en/spoon,RelatedTo,soups,/c/en/soups,[[spoon]] is related to [[soups]],0.16500000000000004
+spoon,/c/en/spoon,RelatedTo,for soups,/c/en/for_soups,[[spoon]] is related to [[for soups]],0.16500000000000004
+steel,/c/en/steel,RelatedTo,spoon,/c/en/spoon,[[steel]] is related to [[spoon]],0.1429999999999998
+oar,/c/en/oar,RelatedTo,spoon,/c/en/spoon,[[oar]] is related to [[spoon]],0.12199999999999989
+sugar,/c/en/sugar,RelatedTo,spoon,/c/en/spoon,[[sugar]] is related to [[spoon]],0.1120000000000001

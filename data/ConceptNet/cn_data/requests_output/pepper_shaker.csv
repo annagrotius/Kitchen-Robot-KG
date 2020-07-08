@@ -1,0 +1,63 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ขวดพริกไทย,/c/th/ขวดพริกไทย/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[ขวดพริกไทย]] is a translation of [[pepper shaker]],2.0
+pippuriastia,/c/fi/pippuriastia/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[pippuriastia]] is a translation of [[pepper shaker]],2.0
+pippurinsirotin,/c/fi/pippurinsirotin/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[pippurinsirotin]] is a translation of [[pepper shaker]],2.0
+solniczka,/c/pl/solniczka/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[solniczka]] is a translation of [[pepper shaker]],2.0
+胡椒入れ,/c/ja/胡椒入れ/n,Synonym,pepper shaker,/c/en/pepper_shaker,,2.0
+pepper pot,/c/en/pepper_pot/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[pepper pot]] is a synonym of [[pepper shaker]],2.0
+pepaiola,/c/it/pepaiola/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[pepaiola]] is a translation of [[pepper shaker]],2.0
+pepper box,/c/en/pepper_box/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[pepper box]] is a synonym of [[pepper shaker]],2.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,bibernik,/c/sh/bibernik,,2.0
+胡椒入れ,/c/ja/胡椒入れ/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[胡椒入れ]] is a translation of [[pepper shaker]],2.0
+pepper shaker,/c/en/pepper_shaker/n/wn/artifact,IsA,shaker,/c/en/shaker/n/wn/artifact,[[pepper shaker]] is a type of [[shaker]],2.0
+poivrière,/c/fr/poivrière/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[poivrière]] is a translation of [[pepper shaker]],2.0
+piperbeltz-ontzi,/c/eu/piperbeltz_ontzi/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[piperbeltz-ontzi]] is a translation of [[pepper shaker]],2.0
+pippurisirotin,/c/fi/pippurisirotin/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[pippurisirotin]] is a translation of [[pepper shaker]],2.0
+pepiera,/c/it/pepiera/n/wn/artifact,Synonym,pepper shaker,/c/en/pepper_shaker/n/wn/artifact,[[pepiera]] is a translation of [[pepper shaker]],2.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,コショウ入れ,/c/ja/コショウ入れ,,1.0
+spargipepe,/c/it/spargipepe/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,pieprzniczka,/c/pl/pieprzniczka,,1.0
+перечница,/c/ru/перечница/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+salt shaker,/c/en/salt_shaker/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+胡椒瓶,/c/zh/胡椒瓶/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,pepper pot,/c/en/pepper_pot,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,kishtey pibbyragh,/c/gv/kishtey_pibbyragh,,1.0
+biberlik,/c/tr/biberlik/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker,RelatedTo,salt shaker,/c/en/salt_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,pfefferstreuer,/c/de/pfefferstreuer,,1.0
+pepper shaker,/c/en/pepper_shaker/n/wn/artifact,ExternalURL,103920557-n,http://wordnet-rdf.princeton.edu/wn31/103920557-n,,1.0
+pieprzniczka,/c/pl/pieprzniczka/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,胡椒瓶,/c/zh/胡椒瓶,,1.0
+îsotdank,/c/ku/îsotdank/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,ExternalURL,PepperShaker,http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker,,1.0
+kishtey pibbyragh,/c/gv/kishtey_pibbyragh/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+peppershaker,/c/en/peppershaker/n,FormOf,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,IsA,kitchenware,/c/en/kitchenware/n,,1.0
+pepper shaker,/c/en/pepper_shaker/n,RelatedTo,seasoning,/c/en/seasoning,,1.0
+pepper shaker,/c/en/pepper_shaker/n,RelatedTo,sprinkling,/c/en/sprinkling,,1.0
+pibbyrane,/c/gv/pibbyrane/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,pibbyrane,/c/gv/pibbyrane,,1.0
+pepper shakers,/c/en/pepper_shakers/n,FormOf,pepper shaker,/c/en/pepper_shaker,,1.0
+pfefferstreuer,/c/de/pfefferstreuer/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,պղպեղաման,/c/hy/պղպեղաման,,1.0
+pepper shaker,/c/en/pepper_shaker,ExternalURL,PepperShaker,http://umbel.org/umbel/sc/PepperShaker,,1.0
+pepper,/c/en/pepper/v,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,poht pibbyragh,/c/gv/poht_pibbyragh,,1.0
+pfefferstreuer,/c/de/pfefferstreuer/n,Synonym,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,RelatedTo,container,/c/en/container,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,pepřenka,/c/cs/pepřenka,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,poivrier,/c/fr/poivrier,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,перечница,/c/ru/перечница,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,pippurisirotin,/c/fi/pippurisirotin,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,biberlik,/c/tr/biberlik,,1.0
+pippurisirotin,/c/fi/pippurisirotin/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,pepiera,/c/it/pepiera,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,биберник,/c/mk/биберник,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,poivrière,/c/fr/poivrière,,1.0
+pepper shaker,/c/en/pepper_shaker/n,Synonym,pimenteiro,/c/pt/pimenteiro,,1.0
+pepper shaker,/c/en/pepper_shaker,RelatedTo,pepper mill,/c/en/pepper_mill,,1.0
+pepper mill,/c/en/pepper_mill,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepřenka,/c/cs/pepřenka/n,RelatedTo,pepper shaker,/c/en/pepper_shaker,,1.0
+pepper shaker,/c/en/pepper_shaker/n,IsA,shaker,/c/en/shaker/n,,1.0
+salt,/c/en/salt,RelatedTo,pepper shaker,/c/en/pepper_shaker,[[salt]] is related to [[pepper shaker]],0.3799999999999999
+pepper shaker,/c/en/pepper_shaker,ExternalURL,pepper shaker,http://en.wiktionary.org/wiki/pepper_shaker,,0.25

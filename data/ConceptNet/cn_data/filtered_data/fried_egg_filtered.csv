@@ -1,0 +1,7 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+fried egg,/c/en/fried_egg/n/wn/food,IsA,dish,/c/en/dish/n/wn/food,[[fried egg]] is a type of [[dish]],2.0
+fried egg,/c/en/fried_egg/n/wn/food,ExternalURL,107859612-n,http://wordnet-rdf.princeton.edu/wn31/107859612-n,,1.0
+fried egg,/c/en/fried_egg/n,IsA,meal,/c/en/meal,,1.0
+fried egg,/c/en/fried_egg/n,IsA,dish,/c/en/dish,,1.0
+a fried egg,/c/en/fried_egg,AtLocation,a plate,/c/en/plate,*Something you find on [[a plate]] is [[a fried egg]],1.0
+fried egg,/c/en/fried_egg/n,IsA,hot,/c/en/hot,,1.0

@@ -1,0 +1,144 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ glass,/c/en/glass,UsedFor,drinking,/c/en/drinking,[[a glass]] is used for [[drinking]],7.211102550927979
+ glass,/c/en/glass,ReceivesAction,broken,/c/en/broken,[[A glass]] can be [[broken]],5.291502622129181
+ glass,/c/en/glass,CapableOf,hold liquid,/c/en/hold_liquid,[[A glass]] can [[hold liquid]],4.898979485566356
+ glass,/c/en/glass,HasProperty,clear,/c/en/clear,[[glass]] is [[clear]],4.0
+ glass,/c/en/glass,UsedFor,holding liquid,/c/en/holding_liquid,[[a glass]] is for [[holding liquid]],4.0
+water,/c/en/water,AtLocation, glass,/c/en/glass,You are likely to find [[water]] in [[a glass]],4.0
+ glass,/c/en/glass,UsedFor,seeing through,/c/en/seeing_through,[[a glass]] is for [[seeing through]],4.0
+ glass,/c/en/glass,HasProperty,recyclable,/c/en/recyclable,[[Glass]] is [[recyclable]],4.0
+ glass,/c/en/glass,ReceivesAction,recycled,/c/en/recycled,[[Glass]] can be [[recycled]],4.0
+ glass,/c/en/glass,AtLocation,the cabinet,/c/en/cabinet,You are likely to find [[a glass]] in [[the cabinet]],4.0
+ glass,/c/en/glass,CapableOf,break easily,/c/en/break_easily,[[glass]] can [[break easily]],4.0
+ glass,/c/en/glass,AtLocation,a window,/c/en/window,You are likely to find [[a glass]] in [[a window]],3.4641016151377544
+ glass,/c/en/glass,ReceivesAction,made from sand,/c/en/made_from_sand,[[Glass]] is [[made from sand]],3.4641016151377544
+ glass,/c/en/glass,PartOf,a window,/c/en/window,[[The glass]] is part of [[a window]],3.4641016151377544
+ glass,/c/en/glass,HasProperty,very fragile,/c/en/very_fragile,[[glass]] is [[very fragile]],3.4641016151377544
+ glass,/c/en/glass,AtLocation,a kitchen,/c/en/kitchen,You are likely to find [[a glass]] in [[a kitchen]],2.82842712474619
+some lenses,/c/en/lenses,MadeOf, glass,/c/en/glass,[[Some lenses]] are made of [[glass]],2.82842712474619
+a lens,/c/en/lens,MadeOf, glass,/c/en/glass,[[A lens]] is made of [[glass]].,2.82842712474619
+ glass,/c/en/glass,CapableOf,hold water,/c/en/hold_water,[[a glass]] can [[hold water]],2.82842712474619
+ glass,/c/en/glass,IsA,a solid,/c/en/solid,[[Glass]] is [[a solid]],2.82842712474619
+ natural glass,/c/en/natural_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[natural glass]] is a type of [[glass]],2.0
+ optical glass,/c/en/optical_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[optical glass]] is a type of [[glass]],2.0
+ glass,/c/en/glass/n/wn/substance,IsA,solid,/c/en/solid/n/wn/substance,[[glass]] is a type of [[solid]],2.0
+ ground glass,/c/en/ground_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[ground glass]] is a type of [[glass]],2.0
+ glass,/c/en/glass,HasProperty,dirty,/c/en/dirty,[[A glass]] can be [[dirty]],2.0
+ glass,/c/en/glass,HasProperty,clean,/c/en/clean,[[A glass]] can be [[clean]],2.0
+ beer glass,/c/en/beer_glass/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[beer glass]] is a type of [[glass]],2.0
+ water glass,/c/en/water_glass/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[water glass]] is a type of [[glass]],2.0
+ wire glass,/c/en/wire_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[wire glass]] is a type of [[glass]],2.0
+rummer,/c/en/rummer/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[rummer]] is a type of [[glass]],2.0
+ liqueur glass,/c/en/liqueur_glass/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[liqueur glass]] is a type of [[glass]],2.0
+ wineglass,/c/en/wineglass/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[wineglass]] is a type of [[glass]],2.0
+ highball glass,/c/en/highball_glass/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[highball glass]] is a type of [[glass]],2.0
+tumbler,/c/en/tumbler/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[tumbler]] is a type of [[glass]],2.0
+schooner,/c/en/schooner/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[schooner]] is a type of [[glass]],2.0
+bumper,/c/en/bumper/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[bumper]] is a type of [[glass]],2.0
+ stained glass,/c/en/stained_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[stained glass]] is a type of [[glass]],2.0
+ lead glass,/c/en/lead_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[lead glass]] is a type of [[glass]],2.0
+ glass,/c/en/glass,ReceivesAction,found in a kitchen,/c/en/found_in_kitchen,[[a glass]] can be [[found in a kitchen]],2.0
+ glass,/c/en/glass,HasProperty,half empty,/c/en/half_empty,[[the glass]] is [[half empty]],2.0
+snifter,/c/en/snifter/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[snifter]] is a type of [[glass]],2.0
+ safety glass,/c/en/safety_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[safety glass]] is a type of [[glass]],2.0
+ glass,/c/en/glass/n/wn/artifact,IsA, glassware,/c/en/glassware/n/wn/artifact,[[glass]] is a type of [[glassware]],2.0
+ glass,/c/en/glass,AtLocation,the table,/c/en/table,*Something you find on [[the table]] is [[a glass]],2.0
+ glass,/c/en/glass,MadeOf,sand,/c/en/sand,[[Glass]] is made of [[sand]].,2.0
+crt,/c/en/crt,MadeOf, glass,/c/en/glass,[[crt]] is made of [[glass]].,2.0
+ opal glass,/c/en/opal_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[opal glass]] is a type of [[glass]],2.0
+ shot glass,/c/en/shot_glass/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[shot glass]] is a type of [[glass]],2.0
+ crown glass,/c/en/crown_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[crown glass]] is a type of [[glass]],2.0
+tv,/c/en/tv,MadeOf, glass,/c/en/glass,[[tv]] is made of [[glass]].,2.0
+ parfait glass,/c/en/parfait_glass/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[parfait glass]] is a type of [[glass]],2.0
+ glass,/c/en/glass/n/wn/artifact,IsA,container,/c/en/container/n/wn/artifact,[[glass]] is a type of [[container]],2.0
+seidel,/c/en/seidel/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[seidel]] is a type of [[glass]],2.0
+ glass,/c/en/glass/n/wn/substance,PartOf, glass,/c/en/glass/n/wn/artifact,[[glass]] is a part of [[glass]],2.0
+ soft glass,/c/en/soft_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[soft glass]] is a type of [[glass]],2.0
+ soluble glass,/c/en/soluble_glass/n/wn/substance,IsA, glass,/c/en/glass/n/wn/substance,[[soluble glass]] is a type of [[glass]],2.0
+many bottles,/c/en/many_bottles,MadeOf, glass,/c/en/glass,[[Many bottles]] are made of [[glass]],2.0
+goblet,/c/en/goblet/n/wn/artifact,IsA, glass,/c/en/glass/n/wn/artifact,[[goblet]] is a type of [[glass]],2.0
+ glass,/c/en/glass,UsedFor,drinking liquid from,/c/en/drinking_liquid_from,[[a glass]] is for [[drinking liquid from]],2.0
+ glass,/c/en/glass/n/wn/artifact,UsedFor,hold,/c/en/hold/v/wn/stative,[[glass]] is used for [[hold]],2.0
+ glass,/c/en/glass,UsedFor,drinking from,/c/en/drinking_from,[[a glass]] is for [[drinking from]],2.0
+ glass,/c/en/glass/n/wn/quantity,IsA,containerful,/c/en/containerful/n/wn/quantity,[[glass]] is a type of [[containerful]],2.0
+ glass,/c/en/glass,UsedFor,drinking out of,/c/en/drinking_out_of,[[a glass]] is for [[drinking out of]],2.0
+ glass,/c/en/glass,HasProperty,green,/c/en/green,[[some glass]] is [[green]],1.0
+ glass,/c/en/glass/n,IsA,solid,/c/en/solid/n/opencyc/solid_state_of_matter,,1.0
+ glass,/c/en/glass,ExternalURL, glass,http://umbel.org/umbel/sc/Glass,,1.0
+ glass,/c/en/glass,IsA,a liquid at room tempeature,/c/en/liquid_at_room_tempeature,[[glass]] is [[a liquid at room tempeature]],1.0
+the traditional covering for greenhouses,/c/en/traditional_covering_for_greenhouses,IsA, glass,/c/en/glass,[[The traditional covering for greenhouses]] is [[glass]],1.0
+many containers,/c/en/many_containers,MadeOf, glass,/c/en/glass,[[many containers]] are made of [[glass]],1.0
+ glass,/c/en/glass,UsedFor,making windows and for drinking cups,/c/en/making_windows_and_for_drinking_cups,[[Glass]] is used for [[making windows and for drinking cups]],1.0
+ glass,/c/en/glass,HasProperty,non porous,/c/en/non_porous,[[glass]] is [[non porous]],1.0
+ glass,/c/en/glass,ReceivesAction,found in a building,/c/en/found_in_building,[[glass]] can be [[found in a building]],1.0
+ glass,/c/en/glass,ExternalURL, glass,http://dbpedia.org/resource/Glass,,1.0
+ glass,/c/en/glass,PartOf, eyeglasses,/c/en/eyeglasses,[[glass]] is part of [[eyeglasses]].,1.0
+ glass,/c/en/glass/n,IsA,inorganic substance,/c/en/inorganic_substance/n,,1.0
+a plate,/c/en/plate,MadeOf, glass,/c/en/glass,[[A plate]] may be made of [[glass]],1.0
+ glass,/c/en/glass,AtLocation,a,/c/en/a,You are likely to find [[a glass]] in [[a]],1.0
+ glass,/c/en/glass,AtLocation,a dining room,/c/en/dining_room,You are likely to find [[a glass]] in [[a dining room]],1.0
+ plate glass,/c/en/plate_glass/n,IsA, glass,/c/en/glass/n/opencyc/glass_413,,1.0
+ glass,/c/en/glass/n/opencyc/silicate_glass,ExternalURL, silicateglass,http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass,,1.0
+ clear glass,/c/en/clear_glass/n,IsA, glass,/c/en/glass/n/opencyc/glass_413,,1.0
+ glass,/c/en/glass,AtLocation,a street,/c/en/street,*Something you find in [[a street]] is [[glass]],1.0
+ glass,/c/en/glass,IsA,something you,/c/en/something_you,[[A glass]] is [[something you]],1.0
+ glass,/c/en/glass/n/wn/substance,ExternalURL,114905454-n,http://wordnet-rdf.princeton.edu/wn31/114905454-n,,1.0
+ glass,/c/en/glass,HasProperty,half full,/c/en/half_full,[[A glass]] can be [[half full]],1.0
+ glass,/c/en/glass,HasProperty,a ceramic,/c/en/ceramic,[[Glass]] is [[a ceramic]],1.0
+ art glass,/c/en/art_glass/n,IsA, glass,/c/en/glass/n/opencyc/glass_413,,1.0
+ glass,/c/en/glass,HasProperty,sharp,/c/en/sharp,[[glass]] can be [[sharp]],1.0
+ glass,/c/en/glass,IsA,a vehicle,/c/en/vehicle,[[A glass]] is [[a vehicle]],1.0
+ glass,/c/en/glass,HasProperty,opaque,/c/en/opaque,[[some glass]] is [[opaque]],1.0
+ glass,/c/en/glass,CapableOf,appear empty,/c/en/appear_empty,[[a glass]] can [[appear empty]],1.0
+ glass,/c/en/glass,CapableOf,harness the power of the sun,/c/en/harness_power_of_sun,[[glass]] can [[harness the power of the sun]],1.0
+ glass,/c/en/glass,ReceivesAction,blown into shapes,/c/en/blown_into_shapes,[[glass]] can be [[blown into shapes]],1.0
+ glass,/c/en/glass,HasA,a resonant frequency,/c/en/resonant_frequency,[[A glass]] has [[a resonant frequency]],1.0
+ glass,/c/en/glass,CapableOf,serve as a mirror,/c/en/serve_as_mirror,[[Glass]] can [[serve as a mirror]],1.0
+ glass,/c/en/glass,HasA,a refractive index,/c/en/refractive_index,[[glass]] has [[a refractive index]],1.0
+ glass,/c/en/glass,UsedFor,drink from,/c/en/drink_from,You can use [[a glass]] to [[drink from]],1.0
+ glass,/c/en/glass,HasProperty,fragile,/c/en/fragile,[[Glass]] is [[fragile]],1.0
+ glass,/c/en/glass/n/opencyc/glass_413,IsA, glass,/c/en/glass/n,,1.0
+ glass,/c/en/glass,HasProperty,solid,/c/en/solid,[[glass]] is [[solid]],1.0
+ glass,/c/en/glass,ReceivesAction,coated,/c/en/coated,[[Some glass]] is [[coated]],1.0
+ glass,/c/en/glass/n/opencyc/glass_413,IsA,brittle thing,/c/en/brittle_thing/n,,1.0
+ glass,/c/en/glass,CapableOf,cup a liquid,/c/en/cup_liquid,[[a glass]] can [[cup a liquid]],1.0
+ glass,/c/en/glass,IsA,an amorphous solid,/c/en/amorphous_solid,[[Glass]] is [[an amorphous solid]],1.0
+ glass,/c/en/glass,IsA,flying implies,/c/en/flying_implies,[[Glass]] was [[flying implies]],1.0
+ glass,/c/en/glass,ReceivesAction,sent for recycling,/c/en/sent_for_recycling,[[Glass]] can be [[sent for recycling]],1.0
+ glass wool,/c/en/glass_wool/n,IsA, glass,/c/en/glass,,1.0
+ glass,/c/en/glass,HasA,reflective qualitities,/c/en/reflective_qualitities,[[Glass]] has [[reflective qualitities]],1.0
+ glass,/c/en/glass,ReceivesAction,found in a bus,/c/en/found_in_bus,[[glass]] can be [[found in a bus]],1.0
+ glass,/c/en/glass,ReceivesAction,tempered,/c/en/tempered,[[glass]] can be [[tempered]],1.0
+ glass,/c/en/glass,ReceivesAction,found in a house,/c/en/found_in_house,[[glass]] can be [[found in a house]],1.0
+ glass,/c/en/glass,ReceivesAction,wrapped in a napkin,/c/en/wrapped_in_napkin,[[The glass]] is [[wrapped in a napkin]],1.0
+a bowl,/c/en/bowl,MadeOf, glass,/c/en/glass,[[a bowl]] is made of [[glass]].,1.0
+ glass,/c/en/glass,UsedFor,holding liquids and ice cubes,/c/en/holding_liquids_and_ice_cubes,[[a glass]] is for [[holding liquids and ice cubes]],1.0
+ glass,/c/en/glass,HasProperty,empty,/c/en/empty,[[A glass]] can be [[empty]],1.0
+ glass,/c/en/glass/n/opencyc/glass_413,ExternalURL, glass 413,http://sw.opencyc.org/2012/05/10/concept/en/Glass_413,,1.0
+ borophosphosilicate glass,/c/en/borophosphosilicate_glass/n,IsA, glass,/c/en/glass/n/opencyc/silicate_glass,,1.0
+vacuum tube,/c/en/vacuum_tube,MadeOf, glass,/c/en/glass,[[vacuum tube]] is made of [[glass]].,1.0
+ glass,/c/en/glass,IsA,an amorpous solid at room temperature,/c/en/amorpous_solid_at_room_temperature,[[Glass]] is [[an amorpous solid at room temperature]],1.0
+ glass,/c/en/glass,AtLocation,a dishwasher,/c/en/dishwasher,You are likely to find [[a glass]] in [[a dishwasher]],1.0
+ glass,/c/en/glass/n/opencyc/glass_413,IsA,inanimate object,/c/en/inanimate_object/n,,1.0
+ glass,/c/en/glass,UsedFor,drink margaritas out of,/c/en/drink_margaritas_out_of,You can use [[a glass]] to [[drink margaritas out of]],1.0
+drinking,/c/en/drinking,HasPrerequisite, glass,/c/en/glass,[[drinking]] requires [[a glass]],1.0
+ glass,/c/en/glass,IsA,a container,/c/en/container,[[Glass]] is a kind of [[a container]].,1.0
+ glass,/c/en/glass,AtLocation,a hand,/c/en/hand,You are likely to find [[a glass]] in [[a hand]],1.0
+ glass,/c/en/glass,IsA,a physical substance,/c/en/physical_substance,[[Glass]] is [[a physical substance]],1.0
+ glass,/c/en/glass/v/wn/possession,ExternalURL,202340359-v,http://wordnet-rdf.princeton.edu/wn31/202340359-v,,1.0
+ glass,/c/en/glass/n/opencyc/glass_413,IsA,solid object,/c/en/solid_object/n,,1.0
+ glass,/c/en/glass,ReceivesAction,made from fused silicon dioxide,/c/en/made_from_fused_silicon_dioxide,[[Glass]] is [[made from fused silicon dioxide]],1.0
+ glass,/c/en/glass,UsedFor,holding water,/c/en/holding_water,[[glass]] is used for [[holding water]],1.0
+ glasses,/c/en/glasses,MadeOf, glass,/c/en/glass,[[glasses]] can be made of [[glass]],1.0
+computer monitor,/c/en/computer_monitor,MadeOf, glass,/c/en/glass,[[computer monitor]] is made of [[glass]].,1.0
+abottle,/c/en/abottle,MadeOf, glass,/c/en/glass,[[abottle]] can be made of [[glass]],1.0
+ glass,/c/en/glass/n/wn/artifact,ExternalURL,103443167-n,http://wordnet-rdf.princeton.edu/wn31/103443167-n,,1.0
+ glass,/c/en/glass,CapableOf,be many different colors,/c/en/many_different_colors,[[glass]] can [[be many different colors]],1.0
+ glass,/c/en/glass,ReceivesAction,found in a taxi,/c/en/found_in_taxi,[[glass]] can be [[found in a taxi]],1.0
+ glass,/c/en/glass,ReceivesAction,tinted,/c/en/tinted,[[Glass]] can be [[tinted]],1.0
+ glass,/c/en/glass,ReceivesAction,melted,/c/en/melted,[[glass]] can be [[melted]],1.0
+ glass,/c/en/glass,UsedFor,holding liquids,/c/en/holding_liquids,[[a glass]] is for [[holding liquids]],1.0
+ glass,/c/en/glass,ReceivesAction,blown,/c/en/blown,[[glass]] can be [[blown]],1.0
+some bins,/c/en/bins,MadeOf, glass,/c/en/glass,[[some bins]] are made of [[glass]],1.0
+ glass,/c/en/glass,AtLocation,a sink,/c/en/sink,You are likely to find [[a glass]] in [[a sink]],1.0
+ glass,/c/en/glass,UsedFor,holding a drink,/c/en/holding_drink,[[a glass]] is for [[holding a drink]],1.0

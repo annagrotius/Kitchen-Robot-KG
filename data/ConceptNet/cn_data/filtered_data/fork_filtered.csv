@@ -1,0 +1,75 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ fork,/c/en/fork,AtLocation,the kitchen,/c/en/kitchen,*Something you find in [[the kitchen]] is [[a fork]],5.291502622129181
+ fork,/c/en/fork,AtLocation,a table,/c/en/table,*Something you find on [[a table]] is [[a fork]],4.898979485566356
+ fork,/c/en/fork,UsedFor,eating food,/c/en/eating_food,[[a fork]] is used for [[eating food]],4.47213595499958
+ fork,/c/en/fork,AtLocation,drawer,/c/en/drawer,You are likely to find [[a fork]] in [[drawer]].,4.0
+ fork,/c/en/fork,AtLocation,a plate,/c/en/plate,*Something you find on [[a plate]] is [[a fork]],2.82842712474619
+ fork,/c/en/fork,AtLocation,the road,/c/en/road,You are likely to find [[a fork]] in [[the road]],2.82842712474619
+ fork,/c/en/fork,IsA,eating utensil,/c/en/eating_utensil,[[A fork]] is a type of [[eating utensil]],2.0
+ fork,/c/en/fork,UsedFor,eat food,/c/en/eat_food,You can use [[a fork]] to [[eat food]],2.0
+prong,/c/en/prong/n/wn/artifact,PartOf, fork,/c/en/fork/n/wn/artifact,[[prong]] is a part of [[fork]],2.0
+tine,/c/en/tine/n/wn/artifact,PartOf, fork,/c/en/fork/n/wn/artifact,[[tine]] is a part of [[fork]],2.0
+ toasting fork,/c/en/toasting_fork/n/wn/artifact,IsA, fork,/c/en/fork/n/wn/artifact,[[toasting fork]] is a type of [[fork]],2.0
+ fork,/c/en/fork,UsedFor,eat a meal,/c/en/eat_meal,You can use [[a fork]] to [[eat a meal]],2.0
+ salad fork,/c/en/salad_fork/n/wn/artifact,IsA, fork,/c/en/fork/n/wn/artifact,[[salad fork]] is a type of [[fork]],2.0
+ fork,/c/en/fork,UsedFor,picking up food,/c/en/picking_up_food,[[a fork]] is used for [[picking up food]],2.0
+ fork,/c/en/fork,CapableOf,move the food to your mouth,/c/en/move_food_to_mouth,[[A fork]] can [[move the food to your mouth]],2.0
+ carving fork,/c/en/carving_fork/n/wn/artifact,IsA, fork,/c/en/fork/n/wn/artifact,[[carving fork]] is a type of [[fork]],2.0
+ fork,/c/en/fork,AtLocation,a plane,/c/en/plane,*Something you find in [[a plane]] is [[fork]],2.0
+ hayfork,/c/en/hayfork/n/wn/artifact,IsA, fork,/c/en/fork/n/wn/artifact,[[hayfork]] is a type of [[fork]],2.0
+ fork,/c/en/fork,UsedFor,eat dinner,/c/en/eat_dinner,You can use [[a fork]] to [[eat dinner]],2.0
+ fork,/c/en/fork/n/wn/artifact,IsA,cutlery,/c/en/cutlery/n/wn/artifact,[[fork]] is a type of [[cutlery]],2.0
+ tablefork,/c/en/tablefork/n/wn/artifact,IsA, fork,/c/en/fork/n/wn/artifact,[[tablefork]] is a type of [[fork]],2.0
+ fork,/c/en/fork/n/wn/artifact,IsA,tool,/c/en/tool/n/wn/artifact,[[fork]] is a type of [[tool]],2.0
+ fork,/c/en/fork,AtLocation,a kitchen drawer,/c/en/kitchen_drawer,You are likely to find [[a fork]] in [[a kitchen drawer]],2.0
+ fork,/c/en/fork,HasA,prongs,/c/en/prongs,[[A fork]] has [[prongs]],2.0
+ fork,/c/en/fork,AtLocation,a resturant,/c/en/resturant,*Something you find at [[a resturant]] is [[a fork]],1.0
+ fork,/c/en/fork,UsedFor,lifting food from plate to mouth,/c/en/lifting_food_from_plate_to_mouth,[[a fork]] is used for [[lifting food from plate to mouth]],1.0
+ fork,/c/en/fork/v/wn/change,ExternalURL,200141734-v,http://wordnet-rdf.princeton.edu/wn31/200141734-v,,1.0
+ fork,/c/en/fork,UsedFor,eating meat,/c/en/eating_meat,[[a fork]] is for [[eating meat]],1.0
+ fork,/c/en/fork/n,IsA,kitchenware,/c/en/kitchenware,,1.0
+bifurcation,/c/en/bifurcation/n,SimilarTo, fork,/c/en/fork,,1.0
+ fork,/c/en/fork,UsedFor,dividing a road in two,/c/en/dividing_road_in_two,[[a fork]] is for [[dividing a road in two]],1.0
+ fork,/c/en/fork,UsedFor,lift food to your mouth,/c/en/lift_food_to_mouth,[[A fork]] can be used to [[lift food to your mouth]],1.0
+ fork,/c/en/fork,CapableOf,be in a road,/c/en/in_road,[[a fork]] may [[be in a road]],1.0
+ fork,/c/en/fork/v/wn/chess,ExternalURL,201121306-v,http://wordnet-rdf.princeton.edu/wn31/201121306-v,,1.0
+ fork,/c/en/fork,UsedFor,providing a choice,/c/en/providing_choice,[[a fork]] is for [[providing a choice]],1.0
+ fork,/c/en/fork,CapableOf,hold things,/c/en/hold_things,[[A fork]] can [[hold things]],1.0
+ fork,/c/en/fork,UsedFor,eat,/c/en/eat,"*When you want to [[eat]], you will use [[a fork]]",1.0
+ fork,/c/en/fork,AtLocation,a cutlery drawer,/c/en/cutlery_drawer,You are likely to find [[a fork]] in [[a cutlery drawer]],1.0
+ salad fork,/c/en/salad_fork/n,IsA, fork,/c/en/fork/n,,1.0
+eating dinner,/c/en/eating_dinner,HasPrerequisite, fork,/c/en/fork,[[eating dinner]] requires [[a fork]],1.0
+ fork,/c/en/fork/n,IsA,cutlery,/c/en/cutlery,,1.0
+ fork,/c/en/fork/n,IsA,silverware,/c/en/silverware/n,,1.0
+ fork,/c/en/fork,AtLocation,a,/c/en/a,You are likely to find [[a fork]] in [[a]],1.0
+ fork,/c/en/fork,UsedFor,eat meat,/c/en/eat_meat,You can use [[a fork]] to [[eat meat]],1.0
+ fork,/c/en/fork/n/wn/artifact,ExternalURL,103389013-n,http://wordnet-rdf.princeton.edu/wn31/103389013-n,,1.0
+ fork,/c/en/fork,ReceivesAction,used when eating,/c/en/used_when_eating,[[A fork]] is [[used when eating]],1.0
+ fork,/c/en/fork,UsedFor,holding food,/c/en/holding_food,[[a fork]] is for [[holding food]],1.0
+ fork,/c/en/fork,HasA,tines,/c/en/tines,[[A fork]] has [[tines]],1.0
+ fork,/c/en/fork,AtLocation,a housewares store,/c/en/housewares_store,You are likely to find [[a fork]] in [[a housewares store]],1.0
+ fork,/c/en/fork,AtLocation,a untensil drawer,/c/en/untensil_drawer,You are likely to find [[a fork]] in [[a untensil drawer]],1.0
+ fork,/c/en/fork,AtLocation,a silverware drawer,/c/en/silverware_drawer,You are likely to find [[a fork]] in [[a silverware drawer]],1.0
+ fork,/c/en/fork,UsedFor,turning soil,/c/en/turning_soil,[[a fork]] is for [[turning soil]],1.0
+ fork,/c/en/fork,UsedFor,eating pie,/c/en/eating_pie,[[a fork]] is used for [[eating pie]],1.0
+ fork,/c/en/fork/n/wn/artifact,ExternalURL,103388794-n,http://wordnet-rdf.princeton.edu/wn31/103388794-n,,1.0
+ fork,/c/en/fork,UsedFor,piercing food,/c/en/piercing_food,[[a fork]] is used for [[piercing food]],1.0
+ fork,/c/en/fork,UsedFor,eating food off a plate,/c/en/eating_food_off_plate,[[A fork]] is used for [[eating food off a plate]],1.0
+ fork,/c/en/fork,UsedFor,eat your vegetables,/c/en/eat_vegetables,You can use [[a fork]] to [[eat your vegetables]],1.0
+ fork,/c/en/fork,MadeOf,metal,/c/en/metal,[[fork]] is made of [[metal]].,1.0
+ fork,/c/en/fork/n,IsA,tableware,/c/en/tableware,,1.0
+ fork,/c/en/fork,ExternalURL, fork silverwarepiece,http://umbel.org/umbel/sc/Fork_SilverwarePiece,,1.0
+ fork,/c/en/fork,AtLocation,my back,/c/en/back,You are likely to find [[a fork]] in [[my back]],1.0
+eating noodles,/c/en/eating_noodles,HasPrerequisite, fork,/c/en/fork,[[Eating noodles]] requires [[a fork]],1.0
+ fork,/c/en/fork,UsedFor,moving food to the mouth,/c/en/moving_food_to_mouth,[[a fork]] is used for [[moving food to the mouth]],1.0
+ fork,/c/en/fork,UsedFor,eating food with,/c/en/eating_food_with,[[a fork]] is for [[eating food with]],1.0
+ fork,/c/en/fork/n,ExternalURL, fork silverwarepiece,http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece,,1.0
+ fork,/c/en/fork,PartOf,a dining set,/c/en/dining_set,[[A fork]] is part of [[a dining set]],1.0
+ fork,/c/en/fork,IsA,a utensil that can stab something,/c/en/utensil_can_stab,[[A fork]] is [[a utensil that can stab something]],1.0
+ fork,/c/en/fork,UsedFor,eating vegetables,/c/en/eating_vegetables,[[a fork]] is for [[eating vegetables]],1.0
+ fork,/c/en/fork,IsA,a kitchen utensil,/c/en/kitchen_utensil,[[a fork]] is [[a kitchen utensil]],1.0
+ fork,/c/en/fork,UsedFor,eating,/c/en/eating,[[a fork]] is for [[eating]],1.0
+ fork,/c/en/fork,AtLocation,a napkin,/c/en/napkin,You are likely to find [[a fork]] in [[a napkin]],1.0
+ fork,/c/en/fork,UsedFor,eat a steak,/c/en/eat_steak,[[A fork]] is used to [[eat a steak]],1.0
+ fork,/c/en/fork,ReceivesAction,needed when eating a meal,/c/en/needed_when_eating_meal,[[a fork]] is [[needed when eating a meal]],1.0
+ dinner fork,/c/en/dinner_fork/n,IsA, fork,/c/en/fork/n,,1.0

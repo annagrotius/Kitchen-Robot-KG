@@ -1,0 +1,9 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ garnish,/c/en/garnish/n/wn/food,IsA,decoration,/c/en/decoration/n/wn/artifact,[[garnish]] is a type of [[decoration]],2.0
+ garnish,/c/en/garnish/n/wn/artifact,IsA,decoration,/c/en/decoration/n/wn/artifact,[[garnish]] is a type of [[decoration]],2.0
+topping,/c/en/topping/n/wn/food,IsA, garnish,/c/en/garnish/n/wn/food,[[topping]] is a type of [[garnish]],2.0
+ garnish,/c/en/garnish/n/wn/artifact,ExternalURL,103425350-n,http://wordnet-rdf.princeton.edu/wn31/103425350-n,,1.0
+a pickle,/c/en/pickle,UsedFor, garnish,/c/en/garnish,[[A pickle]] is used for [[a garnish]],1.0
+topping,/c/en/topping/n,SimilarTo, garnish,/c/en/garnish,,1.0
+a fruit,/c/en/fruit,UsedFor, garnish,/c/en/garnish,[[a fruit]] is for [[garnish]],1.0
+ garnish,/c/en/garnish/n/wn/food,ExternalURL,107637227-n,http://wordnet-rdf.princeton.edu/wn31/107637227-n,,1.0

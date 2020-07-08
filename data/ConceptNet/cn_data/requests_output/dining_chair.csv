@@ -1,0 +1,12 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+dining chair,/c/en/dining_chair/n,Synonym,餐椅,/c/zh/餐椅,,1.0
+dining set,/c/en/dining_set/n,RelatedTo,dining chair,/c/en/dining_chair,,1.0
+dining chairs,/c/en/dining_chairs/n,FormOf,dining chair,/c/en/dining_chair,,1.0
+dining chair,/c/en/dining_chair/n,RelatedTo,dining set,/c/en/dining_set,,1.0
+餐椅,/c/zh/餐椅/n,RelatedTo,dining chair,/c/en/dining_chair,,1.0
+dining chair,/c/en/dining_chair/n,Synonym,ruokapöydän tuoli,/c/fi/ruokapöydän_tuoli,,1.0
+dining table,/c/en/dining_table/n,RelatedTo,dining chair,/c/en/dining_chair,,1.0
+dining chair,/c/en/dining_chair/n,RelatedTo,dining room,/c/en/dining_room,,1.0
+dining chair,/c/en/dining_chair/n,RelatedTo,dinner table,/c/en/dinner_table,,1.0
+dining chair,/c/en/dining_chair/n,RelatedTo,dining table,/c/en/dining_table,,1.0
+dining chair,/c/en/dining_chair,ExternalURL,dining chair,http://en.wiktionary.org/wiki/dining_chair,,0.25

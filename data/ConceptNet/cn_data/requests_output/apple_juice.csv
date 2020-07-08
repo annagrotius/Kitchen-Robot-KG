@@ -1,0 +1,114 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+sumo de maçã,/c/pt/sumo_de_maçã/n/wn/food,Synonym,apple juice,/c/en/apple_juice/n/wn/food,[[sumo de maçã]] is a translation of [[apple juice]],2.0
+apple juice,/c/en/apple_juice,DerivedFrom,apple,/c/en/apple/n,,2.0
+sok jabłkowy,/c/pl/sok_jabłkowy/n/wn/food,Synonym,apple juice,/c/en/apple_juice/n/wn/food,[[sok jabłkowy]] is a translation of [[apple juice]],2.0
+omenamehu,/c/fi/omenamehu/n/wn/food,Synonym,apple juice,/c/en/apple_juice/n/wn/food,[[omenamehu]] is a translation of [[apple juice]],2.0
+jus de pomme,/c/fr/jus_de_pomme/n/wn/food,Synonym,apple juice,/c/en/apple_juice/n/wn/food,[[jus de pomme]] is a translation of [[apple juice]],2.0
+apple juice,/c/en/apple_juice/n/wn/food,IsA,fruit juice,/c/en/fruit_juice/n/wn/food,[[apple juice]] is a type of [[fruit juice]],2.0
+Suco de maçã,/c/pt/suco_de_maçã/n/wn/food,Synonym,apple juice,/c/en/apple_juice/n/wn/food,[[Suco de maçã]] is a translation of [[apple juice]],2.0
+sagar-zuku,/c/eu/sagar_zuku/n/wn/food,Synonym,apple juice,/c/en/apple_juice/n/wn/food,[[sagar-zuku]] is a translation of [[apple juice]],2.0
+apple juice,/c/en/apple_juice/n,Synonym,jus de pomme,/c/fr/jus_de_pomme,,2.0
+zumo de manzana,/c/es/zumo_de_manzana/n/wn/food,Synonym,apple juice,/c/en/apple_juice/n/wn/food,[[zumo de manzana]] is a translation of [[apple juice]],2.0
+น้ำแอปเปิ้ล,/c/th/น้ําแอปเปิ้ล/n/wn/food,Synonym,apple juice,/c/en/apple_juice/n/wn/food,[[น้ำแอปเปิ้ล]] is a translation of [[apple juice]],2.0
+apple juice,/c/en/apple_juice/n,Synonym,jabučni sok,/c/sh/jabučni_sok,,2.0
+jus de pomme,/c/fr/jus_de_pomme/n,Synonym,apple juice,/c/en/apple_juice,,2.0
+suc de poma,/c/ca/suc_de_poma/n/wn/food,Synonym,apple juice,/c/en/apple_juice/n/wn/food,[[suc de poma]] is a translation of [[apple juice]],2.0
+apple juice,/c/en/apple_juice/n,Synonym,リンゴジュース,/c/ja/リンゴジュース,,1.0
+äppeljus,/c/lb/äppeljus/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,HasContext,rare au pluriel,/c/fr/rare_au_pluriel,,1.0
+Apple juice,/c/en/apple_juice,ReceivesAction,made from squeezed apples,/c/en/made_from_squeezed_apples,[[Apple juice]] is [[made from squeezed apples]],1.0
+saudi champagne,/c/en/saudi_champagne/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+jablečný mošt,/c/cs/jablečný_mošt/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,suco sumo de maçã,/c/pt/suco_sumo_de_maçã,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,almalé,/c/hu/almalé,,1.0
+appelsap,/c/nl/appelsap/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apfelsaft,/c/de/apfelsaft/n,Synonym,apple juice,/c/en/apple_juice,,1.0
+蘋果汁,/c/zh/蘋果汁/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,jabolčni sok,/c/sl/jabolčni_sok,,1.0
+apple juice,/c/en/apple_juice,ExternalURL,Apple juice,http://umbel.org/umbel/sc/Apple_juice,,1.0
+Apple juice,/c/en/apple_juice,HasA,a pale yellow color,/c/en/pale_yellow_color,[[Apple juice]] has [[a pale yellow color]],1.0
+æblejuice,/c/kl/æblejuice/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice,IsA,fattening,/c/en/fattening,[[apple juice]] is [[fattening]],1.0
+apple juice,/c/en/apple_juice/n,Synonym,olma sharbati,/c/uz/olma_sharbati,,1.0
+蘋果汁,/c/zh/蘋果汁,Synonym,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,äppeljuice,/c/sv/äppeljuice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,meraq tat tuffieħ,/c/mt/meraq_tat_tuffieħ,,1.0
+katas ng mansanas,/c/fil/katas_ng_mansanas/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+omenamehu,/c/fi/omenamehu/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+æblesaft,/c/da/æblesaft/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,æblemost,/c/da/æblemost,,1.0
+appletini,/c/en/appletini/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,алма шырыны,/c/kk/алма_шырыны,,1.0
+bilasáana bitooʼ,/c/nv/bilasáana_bitooʼ/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+Apple juice,/c/en/apple_juice,ReceivesAction,made from crushed apples,/c/en/made_from_crushed_apples,[[Apple juice]] is [[made from crushed apples]],1.0
+apple juice,/c/en/apple_juice,DerivedFrom,juice,/c/en/juice/n/wikt/en_1,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,katas ng mansanas,/c/fil/katas_ng_mansanas,,1.0
+almalé,/c/hu/almalé/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+eplasafi,/c/is/eplasafi/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,äppeljos,/c/sv/äppeljos,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,اب سیب,/c/fa/اب_سیب,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,nước táo,/c/vi/nước_táo,,1.0
+Apple juice,/c/en/apple_juice,HasProperty,very refreshing,/c/en/very_refreshing,[[Apple juice]] is [[very refreshing]],1.0
+apple juice,/c/en/apple_juice/n,IsA,juice,/c/en/juice/n,,1.0
+zumo de manzana,/c/es/zumo_de_manzana/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+mishiiminaaboo,/c/oj/mishiiminaaboo/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+æblejuice,/c/da/æblejuice/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juices,/c/en/apple_juices/n,FormOf,apple juice,/c/en/apple_juice,,1.0
+мыӏэрысэпсы,/c/ady/мыӏэрысэпсы/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,eplasafi,/c/is/eplasafi,,1.0
+jus de pomme,/c/fr/jus_de_pomme/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,алма ширеси,/c/ky/алма_ширеси,,1.0
+Apple juice,/c/en/apple_juice,HasProperty,good for your health,/c/en/good_for_health,[[Apple juice]] is [[good for your health]],1.0
+apple juice,/c/en/apple_juice/n,Synonym,алма һуты,/c/ba/алма_һуты,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,maji ya matofaa,/c/sw/maji_ya_matofaa,,1.0
+χυμόσ μήλου,/c/el/χυμόσ_μήλου/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,æblejuice,/c/kl/æblejuice,,1.0
+apple cider,/c/en/apple_cider/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,苹果汁,/c/zh/苹果汁,,1.0
+apple juices,/c/en/apple_juices,FormOf,apple juice,/c/en/apple_juice/n,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,jugo de manzana,/c/es/jugo_de_manzana,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,яблочный сок,/c/ru/яблочный_сок,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,jablečný džus,/c/cs/jablečný_džus,,1.0
+apple juice,/c/en/apple_juice,MadeOf,apples,/c/en/apples,[[apple juice]] is made of [[apples]],1.0
+apple juice,/c/en/apple_juice/n,Synonym,elma suyu,/c/tr/elma_suyu,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,alma şirəsi,/c/az/alma_şirəsi,,1.0
+sparkling cider,/c/en/sparkling_cider/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+hard cider,/c/en/hard_cider/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice,IsA,tastier than water,/c/en/tastier_than_water,[[apple juice]] is [[tastier than water]],1.0
+äppeljuice,/c/sv/äppeljuice/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+súrepladjús,/c/fo/súrepladjús/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,sùgh ubhail,/c/gd/sùgh_ubhail,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,apfelsaft,/c/de/apfelsaft,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,zumo de manzana,/c/es/zumo_de_manzana,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,bilasáana bitooʼ,/c/nv/bilasáana_bitooʼ,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,улма шывӗ,/c/cv/улма_шывӗ,,1.0
+apple juice,/c/en/apple_juice/n,IsA,mixture,/c/en/mixture/n,,1.0
+apfelsaft,/c/de/apfelsaft/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+Apple juice,/c/en/apple_juice,IsA,a good thirst quencher,/c/en/good_thirst_quencher,[[Apple juice]] is [[a good thirst quencher]],1.0
+apple juice,/c/en/apple_juice/n,Synonym,عصير التفاح,/c/ar/عصير_التفاح,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,蘋果汁,/c/zh/蘋果汁,,1.0
+elma suyu,/c/tr/elma_suyu/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,IsA,beverage,/c/en/beverage/n,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,ябълков сок,/c/bg/ябълков_сок,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,사과 주스,/c/ko/사과_주스,,1.0
+苹果汁,/c/zh/苹果汁,Synonym,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,æblejuice,/c/da/æblejuice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,æblesaft,/c/da/æblesaft,,1.0
+apple juice,/c/en/apple_juice,HasProperty,good,/c/en/good,[[apple juice]] is [[good]],1.0
+apple juice,/c/en/apple_juice/n,Synonym,appelsap,/c/nl/appelsap,,1.0
+apfelschorle,/c/de/apfelschorle/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,alma şiresi,/c/tk/alma_şiresi,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,алма суы,/c/tt/алма_суы,,1.0
+apple juice,/c/en/apple_juice/n,IsA,sweet thing,/c/en/sweet_thing/n,,1.0
+õunamahl,/c/et/õunamahl/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,ExternalURL,Apple juice,http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,RelatedTo,jus de pomme,/c/fr/jus_de_pomme,,1.0
+apple juice,/c/en/apple_juice/n/wn/food,ExternalURL,107940606-n,http://wordnet-rdf.princeton.edu/wn31/107940606-n,,1.0
+apple juice,/c/en/apple_juice,HasProperty,refreshing to drink,/c/en/refreshing_to_drink,[[apple juice]] is [[refreshing to drink]],1.0
+apple juice,/c/en/apple_juice/n,Synonym,omenamehu,/c/fi/omenamehu,,1.0
+яблочный сок,/c/ru/яблочный_сок/n,RelatedTo,apple juice,/c/en/apple_juice,,1.0
+apple juice,/c/en/apple_juice/n,IsA,fruit juice,/c/en/fruit_juice,,1.0
+apple juice,/c/en/apple_juice/n,Synonym,χυμοσ μηλου,/c/el/χυμοσ_μηλου,,1.0
+cider,/c/en/cider,RelatedTo,apple juice,/c/en/apple_juice,[[cider]] is related to [[apple juice]],0.39800000000000013
+apple juice,/c/en/apple_juice,ExternalURL,apple juice,http://en.wiktionary.org/wiki/apple_juice,,0.25
+apple juice,/c/en/apple_juice,ExternalURL,apple juice,http://fr.wiktionary.org/wiki/apple_juice,,0.25

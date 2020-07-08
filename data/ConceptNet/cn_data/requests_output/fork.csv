@@ -1,0 +1,753 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+a fork,/c/en/fork,AtLocation,the kitchen,/c/en/kitchen,*Something you find in [[the kitchen]] is [[a fork]],5.291502622129181
+a fork,/c/en/fork,AtLocation,a table,/c/en/table,*Something you find on [[a table]] is [[a fork]],4.898979485566356
+a fork,/c/en/fork,UsedFor,eating food,/c/en/eating_food,[[a fork]] is used for [[eating food]],4.47213595499958
+a fork,/c/en/fork,AtLocation,drawer,/c/en/drawer,You are likely to find [[a fork]] in [[drawer]].,4.0
+a fork,/c/en/fork,AtLocation,a plate,/c/en/plate,*Something you find on [[a plate]] is [[a fork]],2.82842712474619
+a fork,/c/en/fork,AtLocation,the road,/c/en/road,You are likely to find [[a fork]] in [[the road]],2.82842712474619
+plate,/c/en/plate,RelatedTo,fork,/c/en/fork,[[plate]] is related to [[fork]],2.376552124402071
+garpu,/c/ms/garpu/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[garpu]] is a translation of [[fork]],2.0
+A fork,/c/en/fork,IsA,eating utensil,/c/en/eating_utensil,[[A fork]] is a type of [[eating utensil]],2.0
+叉,/c/ja/叉,Synonym,fork,/c/en/fork,,2.0
+penggembur,/c/ms/penggembur/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[penggembur]] is a translation of [[fork]],2.0
+衢,/c/ja/衢,Synonym,fork,/c/en/fork,,2.0
+a fork,/c/en/fork,UsedFor,eat food,/c/en/eat_food,You can use [[a fork]] to [[eat food]],2.0
+ส้อม,/c/th/ส้อม/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[ส้อม]] is a translation of [[fork]],2.0
+bifurcation,/c/fr/bifurcation/v/wn/change,Synonym,fork,/c/en/fork/v/wn/change,[[bifurcation]] is a translation of [[fork]],2.0
+fork,/c/en/fork/v/wn/chess,MannerOf,attack,/c/en/attack/v/wn/competition,[[fork]] is a way to [[attack]],2.0
+sepit udang,/c/ms/sepit_udang/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[sepit udang]] is a translation of [[fork]],2.0
+cabang,/c/ms/cabang/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[cabang]] is a translation of [[fork]],2.0
+岐,/c/ja/岐,Synonym,fork,/c/en/fork,,2.0
+prong,/c/en/prong/n/wn/artifact,PartOf,fork,/c/en/fork/n/wn/artifact,[[prong]] is a part of [[fork]],2.0
+haarautua,/c/fi/haarautua/v/wn/chess,Synonym,fork,/c/en/fork/v/wn/chess,[[haarautua]] is a translation of [[fork]],2.0
+別れ,/c/ja/別れ/n,Synonym,fork,/c/en/fork,,2.0
+vilica,/c/sh/vilica/n,RelatedTo,fork,/c/en/fork,,2.0
+tine,/c/en/tine/n/wn/artifact,PartOf,fork,/c/en/fork/n/wn/artifact,[[tine]] is a part of [[fork]],2.0
+toasting fork,/c/en/toasting_fork/n/wn/artifact,IsA,fork,/c/en/fork/n/wn/artifact,[[toasting fork]] is a type of [[fork]],2.0
+cagak,/c/id/cagak/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[cagak]] is a translation of [[fork]],2.0
+corbar,/c/ca/corbar/v/wn/change,Synonym,fork,/c/en/fork/v/wn/change,[[corbar]] is a translation of [[fork]],2.0
+a fork,/c/en/fork,UsedFor,eat a meal,/c/en/eat_meal,You can use [[a fork]] to [[eat a meal]],2.0
+salad fork,/c/en/salad_fork/n/wn/artifact,IsA,fork,/c/en/fork/n/wn/artifact,[[salad fork]] is a type of [[fork]],2.0
+a fork,/c/en/fork,UsedFor,picking up food,/c/en/picking_up_food,[[a fork]] is used for [[picking up food]],2.0
+ホーク,/c/ja/ホーク/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[ホーク]] is a translation of [[fork]],2.0
+フォーク,/c/ja/フォーク/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[フォーク]] is a translation of [[fork]],2.0
+dijeliti,/c/sh/dijeliti/v,RelatedTo,fork,/c/en/fork,,2.0
+podijeliti,/c/sh/podijeliti/v,RelatedTo,fork,/c/en/fork,,2.0
+fork,/c/en/fork/n,Synonym,vile,/c/sh/vile,,2.0
+widelec,/c/pl/widelec/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[widelec]] is a translation of [[fork]],2.0
+A fork,/c/en/fork,CapableOf,move the food to your mouth,/c/en/move_food_to_mouth,[[A fork]] can [[move the food to your mouth]],2.0
+分れる,/c/ja/分れる/v/jmdict/1,Synonym,fork,/c/en/fork,,2.0
+ทำเป็นส้อม,/c/th/ทําเป็นส้อม/v/wn/change,Synonym,fork,/c/en/fork/v/wn/change,[[ทำเป็นส้อม]] is a translation of [[fork]],2.0
+巷,/c/ja/巷,Synonym,fork,/c/en/fork,,2.0
+別れ目,/c/ja/別れ目/n/jmdict/1,Synonym,fork,/c/en/fork,,2.0
+分れ目,/c/ja/分れ目/n/jmdict/1,Synonym,fork,/c/en/fork,,2.0
+俣,/c/ja/俣,Synonym,fork,/c/en/fork,,2.0
+股,/c/ja/股,Synonym,fork,/c/en/fork,,2.0
+razdeliti,/c/sh/razdeliti/v,RelatedTo,fork,/c/en/fork,,2.0
+cabang,/c/id/cabang/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[cabang]] is a translation of [[fork]],2.0
+胯,/c/ja/胯,Synonym,fork,/c/en/fork,,2.0
+熊手,/c/ja/熊手/n,Synonym,fork,/c/en/fork,,2.0
+razdijeliti,/c/sh/razdijeliti/v,RelatedTo,fork,/c/en/fork,,2.0
+fourche,/c/fr/fourche/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[fourche]] is a translation of [[fork]],2.0
+garfo,/c/pt/garfo/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[garfo]] is a translation of [[fork]],2.0
+carving fork,/c/en/carving_fork/n/wn/artifact,IsA,fork,/c/en/fork/n/wn/artifact,[[carving fork]] is a type of [[fork]],2.0
+fork,/c/en/fork,AtLocation,a plane,/c/en/plane,*Something you find in [[a plane]] is [[fork]],2.0
+pirun,/c/sh/pirun/n,RelatedTo,fork,/c/en/fork,,2.0
+ส้อมพรวน,/c/th/ส้อมพรวน/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[ส้อมพรวน]] is a translation of [[fork]],2.0
+fourchette,/c/fr/fourchette/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[fourchette]] is a translation of [[fork]],2.0
+gaffel,/c/da/gaffel/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[gaffel]] is a translation of [[fork]],2.0
+gaffel,/c/no/gaffel/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[gaffel]] is a translation of [[fork]],2.0
+分かれ目,/c/ja/分かれ目/n/jmdict/1,Synonym,fork,/c/en/fork,,2.0
+hayfork,/c/en/hayfork/n/wn/artifact,IsA,fork,/c/en/fork/n/wn/artifact,[[hayfork]] is a type of [[fork]],2.0
+fork,/c/en/fork/n/wn/act,Synonym,branching,/c/en/branching/n/wn/act,[[fork]] is a synonym of [[branching]],2.0
+a fork,/c/en/fork,UsedFor,eat dinner,/c/en/eat_dinner,You can use [[a fork]] to [[eat dinner]],2.0
+fork,/c/en/fork/n/wn/body,Synonym,crotch,/c/en/crotch/n/wn/body,[[fork]] is a synonym of [[crotch]],2.0
+podeliti,/c/sh/podeliti/v,RelatedTo,fork,/c/en/fork,,2.0
+forchetta,/c/it/forchetta/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[forchetta]] is a translation of [[fork]],2.0
+bifurcation,/c/fr/bifurcation/v/wn/chess,Synonym,fork,/c/en/fork/v/wn/chess,[[bifurcation]] is a translation of [[fork]],2.0
+blegar,/c/ca/blegar/v/wn/change,Synonym,fork,/c/en/fork/v/wn/change,[[blegar]] is a translation of [[fork]],2.0
+fork,/c/en/fork/v/wn/chess,HasContext,chess,/c/en/chess/n/wn/act,[[fork]] is used in the context of [[chess]],2.0
+garpu,/c/id/garpu/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[garpu]] is a translation of [[fork]],2.0
+fork,/c/en/fork/n/wn/artifact,IsA,cutlery,/c/en/cutlery/n/wn/artifact,[[fork]] is a type of [[cutlery]],2.0
+fourchette,/c/fr/fourchette/v/wn/chess,Synonym,fork,/c/en/fork/v/wn/chess,[[fourchette]] is a translation of [[fork]],2.0
+fork,/c/en/fork/v/wn/change,MannerOf,form,/c/en/form/v/wn/change,[[fork]] is a way to [[form]],2.0
+razdeljivati,/c/sh/razdeljivati/v,RelatedTo,fork,/c/en/fork,,2.0
+fork,/c/en/fork/v/wn/contact,Synonym,pitchfork,/c/en/pitchfork/v/wn/contact,[[fork]] is a synonym of [[pitchfork]],2.0
+フォーク,/c/ja/フォーク/n/jmdict/1,Synonym,fork,/c/en/fork,,2.0
+cagak,/c/ms/cagak/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[cagak]] is a translation of [[fork]],2.0
+razdjeljivati,/c/sh/razdjeljivati/v,RelatedTo,fork,/c/en/fork,,2.0
+sarde,/c/eu/sarde/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[sarde]] is a translation of [[fork]],2.0
+hanko,/c/fi/hanko/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[hanko]] is a translation of [[fork]],2.0
+tablefork,/c/en/tablefork/n/wn/artifact,IsA,fork,/c/en/fork/n/wn/artifact,[[tablefork]] is a type of [[fork]],2.0
+fourchette,/c/fr/fourchette/v/wn/change,Synonym,fork,/c/en/fork/v/wn/change,[[fourchette]] is a translation of [[fork]],2.0
+fork,/c/en/fork/v/wn/change,Synonym,branch,/c/en/branch/v/wn/change,[[fork]] is a synonym of [[branch]],2.0
+sardexka,/c/eu/sardexka/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[sardexka]] is a translation of [[fork]],2.0
+deliti,/c/sh/deliti/v,RelatedTo,fork,/c/en/fork,,2.0
+garfo,/c/gl/garfo/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[garfo]] is a translation of [[fork]],2.0
+fork,/c/en/fork/n,RelatedTo,trident,/c/en/trident,,2.0
+viljuška,/c/sh/viljuška/n,RelatedTo,fork,/c/en/fork,,2.0
+fork,/c/en/fork/n/wn/artifact,IsA,tool,/c/en/tool/n/wn/artifact,[[fork]] is a type of [[tool]],2.0
+sepit udang,/c/id/sepit_udang/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[sepit udang]] is a translation of [[fork]],2.0
+penggembur,/c/id/penggembur/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[penggembur]] is a translation of [[fork]],2.0
+forquilla,/c/ca/forquilla/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[forquilla]] is a translation of [[fork]],2.0
+叉子,/c/zh/叉子/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[叉子]] is a translation of [[fork]],2.0
+a fork,/c/en/fork,AtLocation,a kitchen drawer,/c/en/kitchen_drawer,You are likely to find [[a fork]] in [[a kitchen drawer]],2.0
+ส้อมพรวนดิน,/c/th/ส้อมพรวนดิน/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[ส้อมพรวนดิน]] is a translation of [[fork]],2.0
+haarukka,/c/fi/haarukka/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[haarukka]] is a translation of [[fork]],2.0
+農業用フォーク,/c/ja/農業用フォーク/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[農業用フォーク]] is a translation of [[fork]],2.0
+A fork,/c/en/fork,HasA,prongs,/c/en/prongs,[[A fork]] has [[prongs]],2.0
+分かれる,/c/ja/分かれる/v/jmdict/1,Synonym,fork,/c/en/fork,,2.0
+harottaa,/c/fi/harottaa/v/wn/change,Synonym,fork,/c/en/fork/v/wn/change,[[harottaa]] is a translation of [[fork]],2.0
+forcone,/c/it/forcone/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[forcone]] is a translation of [[fork]],2.0
+分かれ,/c/ja/分かれ/n,Synonym,fork,/c/en/fork,,2.0
+talikko,/c/fi/talikko/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[talikko]] is a translation of [[fork]],2.0
+krak,/c/sh/krak/n,RelatedTo,fork,/c/en/fork,,2.0
+bifurcation,/c/fr/bifurcation/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[bifurcation]] is a translation of [[fork]],2.0
+serampang,/c/id/serampang/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[serampang]] is a translation of [[fork]],2.0
+fork,/c/en/fork/n/wn/shape,Synonym,crotch,/c/en/crotch/n/wn/shape,[[fork]] is a synonym of [[crotch]],2.0
+ホーク,/c/ja/ホーク/n/jmdict/1,Synonym,fork,/c/en/fork,,2.0
+serampang,/c/ms/serampang/n/wn/artifact,Synonym,fork,/c/en/fork/n/wn/artifact,[[serampang]] is a translation of [[fork]],2.0
+fork,/c/en/fork,RelatedTo,spoon,/c/en/spoon,[[fork]] is related to [[spoon]],1.17
+fuorcha,/c/rm/fuorcha/n,RelatedTo,fork,/c/en/fork,,1.0
+gaffel,/c/nl/gaffel/n,RelatedTo,fork,/c/en/fork,,1.0
+fok,/c/vo/fok/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,fourchette,/c/fr/fourchette,,1.0
+forky,/c/en/forky,DerivedFrom,fork,/c/en/fork,,1.0
+heugabel,/c/de/heugabel/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v,RelatedTo,duplicate,/c/en/duplicate,,1.0
+a fork,/c/en/fork,AtLocation,a resturant,/c/en/resturant,*Something you find at [[a resturant]] is [[a fork]],1.0
+dakša,/c/lv/dakša/n,RelatedTo,fork,/c/en/fork,,1.0
+foarke,/c/fy/foarke/n,RelatedTo,fork,/c/en/fork,,1.0
+fforch,/c/cy/fforch/n,RelatedTo,fork,/c/en/fork,,1.0
+galladura,/c/gl/galladura/n,RelatedTo,fork,/c/en/fork,,1.0
+garpu,/c/id/garpu/n,RelatedTo,fork,/c/en/fork,,1.0
+сянгине,/c/myv/сянгине/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,鍬,/c/ja/鍬,,1.0
+fork,/c/en/fork/n,RelatedTo,free software,/c/en/free_software,,1.0
+分岐,/c/ja/分岐/v,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,lifting food from plate to mouth,/c/en/lifting_food_from_plate_to_mouth,[[a fork]] is used for [[lifting food from plate to mouth]],1.0
+salad fork,/c/en/salad_fork/n,RelatedTo,fork,/c/en/fork,,1.0
+furcilla,/c/la/furcilla/n,RelatedTo,fork,/c/en/fork,,1.0
+bivio,/c/it/bivio/n,RelatedTo,fork,/c/en/fork,,1.0
+garfo,/c/pt/garfo/n,RelatedTo,fork,/c/en/fork,,1.0
+پنجه,/c/fa/پنجه/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,HasContext,cycling,/c/en/cycling,,1.0
+fork,/c/en/fork/n,Synonym,forcone,/c/it/forcone,,1.0
+fork,/c/en/fork/n,RelatedTo,separate,/c/en/separate,,1.0
+fork,/c/en/fork/n,Synonym,gable,/c/gsw/gable,,1.0
+haarauma,/c/fi/haarauma/n,RelatedTo,fork,/c/en/fork,,1.0
+forkless,/c/en/forkless,DerivedFrom,fork,/c/en/fork,,1.0
+forkful,/c/en/forkful,DerivedFrom,fork,/c/en/fork,,1.0
+fork,/c/da/fork/n,RelatedTo,fork,/c/en/fork,,1.0
+crotch,/c/en/crotch/n,RelatedTo,fork,/c/en/fork,,1.0
+shakefork,/c/en/shakefork,DerivedFrom,fork,/c/en/fork,,1.0
+multifircating,/c/en/multifircating/a,RelatedTo,fork,/c/en/fork,,1.0
+шанышқы,/c/kk/шанышқы/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,viljuška,/c/sh/viljuška,,1.0
+چنگال,/c/fa/چنگال/n,RelatedTo,fork,/c/en/fork,,1.0
+gafol,/c/ang/gafol/n/wikt/en_2,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,fork,/c/da/fork,,1.0
+gowuł,/c/wym/gowuł/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,furcă,/c/ro/furcă,,1.0
+савар,/c/mn/савар/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v/wn/change,ExternalURL,200141734-v,http://wordnet-rdf.princeton.edu/wn31/200141734-v,,1.0
+trifurcate,/c/en/trifurcate/v,RelatedTo,fork,/c/en/fork,,1.0
+кӏэтал,/c/ady/кӏэтал/n,RelatedTo,fork,/c/en/fork,,1.0
+tuning fork,/c/en/tuning_fork/n,Synonym,fork,/c/en/fork,,1.0
+gaffel,/c/sv/gaffel/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork,RelatedTo,knife,/c/en/knife,,1.0
+開叉,/c/zh/開叉/v,RelatedTo,fork,/c/en/fork,,1.0
+ສ້ອມ,/c/lo/ສ້ອມ/n,RelatedTo,fork,/c/en/fork,,1.0
+gaffle,/c/en/gaffle/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+oksanhanka,/c/fi/oksanhanka/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,greb,/c/da/greb,,1.0
+goabel,/c/stq/goabel/n,RelatedTo,fork,/c/en/fork,,1.0
+haarukka,/c/fi/haarukka/n,Synonym,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,furca,/c/la/furca,,1.0
+fork,/c/en/fork/v,HasContext,british,/c/en/british,,1.0
+แพร่ง,/c/th/แพร่ง/n,RelatedTo,fork,/c/en/fork,,1.0
+frouque à vrai,/c/nrf/frouque_à_vrai/n,RelatedTo,fork,/c/en/fork,,1.0
+сэрээ,/c/mn/сэрээ/n,RelatedTo,fork,/c/en/fork,,1.0
+vorke,/c/dum/vorke/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,HasContext,geography,/c/en/geography,,1.0
+fork,/c/en/fork/n,Synonym,høtyv,/c/da/høtyv,,1.0
+fork over,/c/en/fork_over,DerivedFrom,fork,/c/en/fork/v,,1.0
+forking,/c/en/forking/v,FormOf,fork,/c/en/fork,,1.0
+garpu,/c/ms/garpu/n,RelatedTo,fork,/c/en/fork,,1.0
+húsvilla,/c/hu/húsvilla/n,RelatedTo,fork,/c/en/fork,,1.0
+weggabelung,/c/de/weggabelung/n,Synonym,fork,/c/en/fork,,1.0
+պատառաքաղ,/c/hy/պատառաքաղ/n,Synonym,fork,/c/en/fork,,1.0
+sara,/c/vep/sara/n,RelatedTo,fork,/c/en/fork,,1.0
+развилка,/c/ru/развилка/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,eating meat,/c/en/eating_meat,[[a fork]] is for [[eating meat]],1.0
+gaffil,/c/fo/gaffil/n,RelatedTo,fork,/c/en/fork,,1.0
+fuarca,/c/dlm/fuarca/n,RelatedTo,fork,/c/en/fork,,1.0
+forquilha,/c/pt/forquilha/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,solid,/c/en/solid,,1.0
+fourche,/c/fr/fourche/n,RelatedTo,fork,/c/en/fork,,1.0
+wiinpa,/c/pjt/wiinpa/n,RelatedTo,fork,/c/en/fork,,1.0
+పంగ,/c/te/పంగ/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,vurk,/c/af/vurk,,1.0
+ifolokhwe,/c/xh/ifolokhwe/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,frouque,/c/nrf/frouque,,1.0
+çatal,/c/crh/çatal/n,RelatedTo,fork,/c/en/fork,,1.0
+runcible spoon,/c/en/runcible_spoon/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,IsA,kitchenware,/c/en/kitchenware,,1.0
+fork,/c/en/fork/n,Synonym,furkettun,/c/mt/furkettun,,1.0
+պատառաքաղ,/c/xcl/պատառաքաղ/n,RelatedTo,fork,/c/en/fork,,1.0
+forklift,/c/en/forklift,DerivedFrom,fork,/c/en/fork,,1.0
+виделка,/c/uk/виделка/n,RelatedTo,fork,/c/en/fork,,1.0
+grain,/c/en/grain/n/wikt/en_2,RelatedTo,fork,/c/en/fork,,1.0
+silver service,/c/en/silver_service/n,RelatedTo,fork,/c/en/fork,,1.0
+bifurcation,/c/en/bifurcation/n,SimilarTo,fork,/c/en/fork,,1.0
+furcina,/c/co/furcina/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,development,/c/en/development,,1.0
+ventilabrum,/c/la/ventilabrum/n,RelatedTo,fork,/c/en/fork,,1.0
+biforcare,/c/it/biforcare/v,RelatedTo,fork,/c/en/fork,,1.0
+forchettone,/c/it/forchettone/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,gafl,/c/cy/gafl,,1.0
+raña,/c/gl/raña/n,RelatedTo,fork,/c/en/fork,,1.0
+forktail,/c/en/forktail,DerivedFrom,fork,/c/en/fork,,1.0
+角仔,/c/zh/角仔/n,RelatedTo,fork,/c/en/fork,,1.0
+forcje,/c/fur/forcje/n,RelatedTo,fork,/c/en/fork,,1.0
+forks,/c/en/forks/v,RelatedTo,fork,/c/en/fork,,1.0
+forker,/c/en/forker/n,RelatedTo,fork,/c/en/fork,,1.0
+dungfork,/c/en/dungfork,DerivedFrom,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,dividing a road in two,/c/en/dividing_road_in_two,[[a fork]] is for [[dividing a road in two]],1.0
+A fork,/c/en/fork,UsedFor,lift food to your mouth,/c/en/lift_food_to_mouth,[[A fork]] can be used to [[lift food to your mouth]],1.0
+a fork,/c/en/fork,CapableOf,be in a road,/c/en/in_road,[[a fork]] may [[be in a road]],1.0
+fourchure,/c/fr/fourchure/n,Synonym,fork,/c/en/fork,,1.0
+forkful,/c/en/forkful/n,RelatedTo,fork,/c/en/fork,,1.0
+forconata,/c/it/forconata/n,RelatedTo,fork,/c/en/fork,,1.0
+forkmaker,/c/en/forkmaker,DerivedFrom,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,talikko,/c/fi/talikko,,1.0
+πιρούνι,/c/el/πιρούνι/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,tuning fork,/c/en/tuning_fork,,1.0
+forkable,/c/en/forkable/a,RelatedTo,fork,/c/en/fork,,1.0
+forked,/c/en/forked/v,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,trinche,/c/es/trinche,,1.0
+bifurcate,/c/en/bifurcate/v,RelatedTo,fork,/c/en/fork,,1.0
+garfada,/c/pt/garfada/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,forcada,/c/gl/forcada,,1.0
+garfelo,/c/gl/garfelo/n,RelatedTo,fork,/c/en/fork,,1.0
+furcation,/c/en/furcation/n,RelatedTo,fork,/c/en/fork,,1.0
+forca,/c/it/forca/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v/wn/chess,ExternalURL,201121306-v,http://wordnet-rdf.princeton.edu/wn31/201121306-v,,1.0
+dakšiņa,/c/lv/dakšiņa/n,RelatedTo,fork,/c/en/fork,,1.0
+do dishes,/c/en/do_dishes/v,RelatedTo,fork,/c/en/fork,,1.0
+вилочка,/c/ru/вилочка/n,RelatedTo,fork,/c/en/fork,,1.0
+포크,/c/ko/포크/n,RelatedTo,fork,/c/en/fork,,1.0
+forkmaker,/c/en/forkmaker/n,RelatedTo,fork,/c/en/fork,,1.0
+forks,/c/en/forks/n,RelatedTo,fork,/c/en/fork,,1.0
+разветвляться,/c/ru/разветвляться/v,RelatedTo,fork,/c/en/fork,,1.0
+pirunã,/c/rup/pirunã/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,two,/c/en/two,,1.0
+a fork,/c/en/fork,UsedFor,providing a choice,/c/en/providing_choice,[[a fork]] is for [[providing a choice]],1.0
+dividersi,/c/it/dividersi/v,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,եղան,/c/hy/եղան,,1.0
+fork,/c/en/fork/n,Synonym,вила,/c/bg/вила,,1.0
+bifurcation,/c/fr/bifurcation/n,Synonym,fork,/c/en/fork,,1.0
+knork,/c/en/knork/n,RelatedTo,fork,/c/en/fork,,1.0
+forko,/c/eo/forko/n,RelatedTo,fork,/c/en/fork,,1.0
+forker,/c/fr/forker/v,Synonym,fork,/c/en/fork,,1.0
+tand,/c/sv/tand/n,RelatedTo,fork,/c/en/fork,,1.0
+A fork,/c/en/fork,CapableOf,hold things,/c/en/hold_things,[[A fork]] can [[hold things]],1.0
+gear shift,/c/en/gear_shift/n,RelatedTo,fork,/c/en/fork,,1.0
+odnož,/c/cs/odnož/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork,EtymologicallyDerivedFrom,forke,/c/enm/forke,,1.0
+gaffel,/c/da/gaffel/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,galleta,/c/gl/galleta,,1.0
+gollan,/c/gv/gollan/n,RelatedTo,fork,/c/en/fork,,1.0
+kahveli,/c/fi/kahveli/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,intersection,/c/en/intersection,,1.0
+fork,/c/en/fork/n,Synonym,garpu,/c/id/garpu,,1.0
+forken,/c/en/forken,DerivedFrom,fork,/c/en/fork,,1.0
+дыкъуакъуэ,/c/kbd/дыкъуакъуэ/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,eat,/c/en/eat,"*When you want to [[eat]], you will use [[a fork]]",1.0
+fork,/c/en/fork/n,Synonym,އޫ,/c/dv/އޫ,,1.0
+uil'kaq,/c/esu/uil'kaq/n,RelatedTo,fork,/c/en/fork,,1.0
+gabel,/c/de/gabel/n,RelatedTo,fork,/c/en/fork,,1.0
+샅,/c/ko/샅/n,RelatedTo,fork,/c/en/fork,,1.0
+senek,/c/crh/senek/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v,RelatedTo,kick,/c/en/kick,,1.0
+uma,/c/sw/uma/n,RelatedTo,fork,/c/en/fork,,1.0
+sardexka,/c/eu/sardexka/n,RelatedTo,fork,/c/en/fork,,1.0
+չանգալ,/c/hy/չանգալ/n,RelatedTo,fork,/c/en/fork,,1.0
+вилушка,/c/mk/вилушка/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,AtLocation,a cutlery drawer,/c/en/cutlery_drawer,You are likely to find [[a fork]] in [[a cutlery drawer]],1.0
+fork,/c/en/fork/n,RelatedTo,waterway,/c/en/waterway,,1.0
+clough,/c/en/clough/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,ピッチフォーク,/c/ja/ピッチフォーク,,1.0
+丫,/c/zh/丫,Synonym,fork,/c/en/fork,,1.0
+三叉,/c/ja/三叉/n/wikt/en_2,RelatedTo,fork,/c/en/fork,,1.0
+swallowtailed,/c/en/swallowtailed/a,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,furca,/c/ie/furca,,1.0
+furculitsã,/c/rup/furculitsã/n,RelatedTo,fork,/c/en/fork,,1.0
+フォーク,/c/ja/フォーク,EtymologicallyDerivedFrom,fork,/c/en/fork,,1.0
+vara,/c/la/vara/n,RelatedTo,fork,/c/en/fork,,1.0
+rozcestí,/c/cs/rozcestí/n,RelatedTo,fork,/c/en/fork,,1.0
+inforcare,/c/it/inforcare/v,RelatedTo,fork,/c/en/fork,,1.0
+τρικράνι,/c/el/τρικράνι/n,RelatedTo,fork,/c/en/fork,,1.0
+three forked,/c/en/three_forked/a,RelatedTo,fork,/c/en/fork,,1.0
+trivium,/c/la/trivium/n,RelatedTo,fork,/c/en/fork,,1.0
+sea thongs,/c/en/sea_thongs/n,RelatedTo,fork,/c/en/fork,,1.0
+набождам,/c/bg/набождам/v,RelatedTo,fork,/c/en/fork,,1.0
+גאפל,/c/yi/גאפל/n,RelatedTo,fork,/c/en/fork,,1.0
+gaffel,/c/no/gaffel/n,RelatedTo,fork,/c/en/fork,,1.0
+forko,/c/eo/forko,EtymologicallyDerivedFrom,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,attack,/c/en/attack,,1.0
+frameset,/c/en/frameset/n,RelatedTo,fork,/c/en/fork,,1.0
+widlicki,/c/dsb/widlicki/n,RelatedTo,fork,/c/en/fork,,1.0
+вилица,/c/mk/вилица/n,RelatedTo,fork,/c/en/fork,,1.0
+šakutė,/c/lt/šakutė/n,RelatedTo,fork,/c/en/fork,,1.0
+quadrifurcate,/c/en/quadrifurcate/v/wikt/en_2,RelatedTo,fork,/c/en/fork,,1.0
+afsplitsing,/c/nl/afsplitsing/n,RelatedTo,fork,/c/en/fork,,1.0
+forkbeard,/c/en/forkbeard,DerivedFrom,fork,/c/en/fork,,1.0
+pudas,/c/fi/pudas/n,RelatedTo,fork,/c/en/fork,,1.0
+fourchette,/c/fr/fourchette/n,Synonym,fork,/c/en/fork,,1.0
+bifurcação,/c/pt/bifurcação/n,RelatedTo,fork,/c/en/fork,,1.0
+🍽,/c/mul/🍽,SymbolOf,fork,/c/en/fork,,1.0
+vidlička,/c/cs/vidlička/n,RelatedTo,fork,/c/en/fork,,1.0
+salad fork,/c/en/salad_fork/n,IsA,fork,/c/en/fork/n,,1.0
+gobhal,/c/gd/gobhal/n,RelatedTo,fork,/c/en/fork,,1.0
+forc,/c/sga/forc/n,RelatedTo,fork,/c/en/fork,,1.0
+gabel,/c/de/gabel/n,Synonym,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,utensil,/c/en/utensil,,1.0
+haarukkapala,/c/fi/haarukkapala/n,RelatedTo,fork,/c/en/fork,,1.0
+三叉,/c/ja/三叉/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+kuchengabel,/c/de/kuchengabel/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,open source,/c/en/open_source,,1.0
+fork,/c/en/fork/n,RelatedTo,steer,/c/en/steer,,1.0
+fork,/c/en/fork/n,Synonym,вила,/c/mk/вила,,1.0
+fork,/c/en/fork/n,HasContext,échecs,/c/fr/échecs,,1.0
+eating dinner,/c/en/eating_dinner,HasPrerequisite,a fork,/c/en/fork,[[eating dinner]] requires [[a fork]],1.0
+forking,/c/en/forking/v,RelatedTo,fork,/c/en/fork,,1.0
+çəngəl,/c/az/çəngəl/n,RelatedTo,fork,/c/en/fork,,1.0
+furcă,/c/ro/furcă/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,road,/c/en/road,,1.0
+furcette,/c/ie/furcette/n,RelatedTo,fork,/c/en/fork,,1.0
+kubyertos,/c/ceb/kubyertos/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,diapason,/c/fr/diapason,,1.0
+fork,/c/en/fork/v,RelatedTo,blade,/c/en/blade,,1.0
+fork,/c/en/fork/n,RelatedTo,forklift,/c/en/forklift,,1.0
+haara,/c/fi/haara/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,execute,/c/en/execute,,1.0
+furcate,/c/en/furcate/v,RelatedTo,fork,/c/en/fork,,1.0
+餐叉,/c/zh/餐叉/n,RelatedTo,fork,/c/en/fork,,1.0
+biforcarsi,/c/it/biforcarsi/v,RelatedTo,fork,/c/en/fork,,1.0
+patia kai,/c/rap/patia_kai/n,RelatedTo,fork,/c/en/fork,,1.0
+eelspear,/c/en/eelspear/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,IsA,cutlery,/c/en/cutlery,,1.0
+fork,/c/en/fork/n,IsA,silverware,/c/en/silverware/n,,1.0
+పలవ,/c/te/పలవ/n,RelatedTo,fork,/c/en/fork,,1.0
+splade,/c/en/splade/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,gràpa,/c/gd/gràpa,,1.0
+a fork,/c/en/fork,AtLocation,a,/c/en/a,You are likely to find [[a fork]] in [[a]],1.0
+cavallo,/c/it/cavallo/n,RelatedTo,fork,/c/en/fork,,1.0
+gaffla,/c/sv/gaffla/v,RelatedTo,fork,/c/en/fork,,1.0
+trinche,/c/es/trinche/n,RelatedTo,fork,/c/en/fork,,1.0
+forko,/c/eo/forko/n,Synonym,fork,/c/en/fork,,1.0
+dipygus,/c/en/dipygus/n,RelatedTo,fork,/c/en/fork,,1.0
+spork,/c/en/spork,DerivedFrom,fork,/c/en/fork,,1.0
+garfo,/c/gl/garfo/n,RelatedTo,fork,/c/en/fork,,1.0
+攕仔,/c/zh/攕仔/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,eat meat,/c/en/eat_meat,You can use [[a fork]] to [[eat meat]],1.0
+diramazione,/c/it/diramazione/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n/wn/artifact,ExternalURL,103389013-n,http://wordnet-rdf.princeton.edu/wn31/103389013-n,,1.0
+sardeska,/c/eu/sardeska/n,Synonym,fork,/c/en/fork,,1.0
+furca,/c/la/furca/n,RelatedTo,fork,/c/en/fork,,1.0
+شوكة,/c/ar/شوكة/n,RelatedTo,fork,/c/en/fork,,1.0
+A fork,/c/en/fork,ReceivesAction,used when eating,/c/en/used_when_eating,[[A fork]] is [[used when eating]],1.0
+gabeln,/c/de/gabeln/v,RelatedTo,fork,/c/en/fork,,1.0
+suorgi,/c/se/suorgi/n,RelatedTo,fork,/c/en/fork,,1.0
+divisura,/c/la/divisura/n,RelatedTo,fork,/c/en/fork,,1.0
+forklike,/c/en/forklike,DerivedFrom,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v,RelatedTo,processus,/c/fr/processus,,1.0
+fork,/c/en/fork/n,RelatedTo,denture,/c/en/denture,,1.0
+galla,/c/gl/galla/n,RelatedTo,fork,/c/en/fork,,1.0
+gafel,/c/lb/gafel/n,RelatedTo,fork,/c/en/fork,,1.0
+מזלג,/c/he/מזלג/n,RelatedTo,fork,/c/en/fork,,1.0
+forken,/c/enm/forken/v/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+dungfork,/c/en/dungfork/n,RelatedTo,fork,/c/en/fork,,1.0
+tenedor,/c/es/tenedor/n,RelatedTo,fork,/c/en/fork,,1.0
+candlestick telephone,/c/en/candlestick_telephone/n,RelatedTo,fork,/c/en/fork,,1.0
+fork bomb,/c/en/fork_bomb,DerivedFrom,fork,/c/en/fork/v,,1.0
+ац,/c/mn/ац/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+essgabel,/c/de/essgabel/n,RelatedTo,fork,/c/en/fork,,1.0
+vurk,/c/af/vurk/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,gafel,/c/lb/gafel,,1.0
+inforcatura,/c/it/inforcatura/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,šakes,/c/lt/šakes,,1.0
+fork,/c/en/fork/n,Synonym,dakša,/c/lv/dakša,,1.0
+丫杈,/c/zh/丫杈/n,RelatedTo,fork,/c/en/fork,,1.0
+丫杈,/c/zh/丫杈,Synonym,fork,/c/en/fork,,1.0
+forked,/c/en/forked/v,FormOf,fork,/c/en/fork,,1.0
+glac,/c/ga/glac/n,RelatedTo,fork,/c/en/fork,,1.0
+fish fork,/c/en/fish_fork/n,RelatedTo,fork,/c/en/fork,,1.0
+gabhlóg,/c/ga/gabhlóg/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,program,/c/en/program,,1.0
+xiên,/c/vi/xiên/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+imfologo,/c/zu/imfologo,EtymologicallyDerivedFrom,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,food,/c/en/food,,1.0
+forkable,/c/en/forkable,DerivedFrom,fork,/c/en/fork,,1.0
+vilice,/c/sl/vilice/n,RelatedTo,fork,/c/en/fork,,1.0
+biforcazione,/c/it/biforcazione/n,RelatedTo,fork,/c/en/fork,,1.0
+swallowtail,/c/en/swallowtail/n,RelatedTo,fork,/c/en/fork,,1.0
+fourcher,/c/fr/fourcher/v,RelatedTo,fork,/c/en/fork,,1.0
+kahvel,/c/et/kahvel/n,RelatedTo,fork,/c/en/fork,,1.0
+ჩანგალი,/c/ka/ჩანგალი/n,RelatedTo,fork,/c/en/fork,,1.0
+mainline,/c/en/mainline/n,RelatedTo,fork,/c/en/fork,,1.0
+gobhlan,/c/gd/gobhlan/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,вілы,/c/be/вілы,,1.0
+fork,/c/en/fork/n,Synonym,gaffel,/c/nl/gaffel,,1.0
+garfela,/c/gl/garfela/n,RelatedTo,fork,/c/en/fork,,1.0
+forquilla,/c/ca/forquilla/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,holding food,/c/en/holding_food,[[a fork]] is for [[holding food]],1.0
+fork,/c/en/fork/n,RelatedTo,tool,/c/en/tool,,1.0
+gabelung,/c/de/gabelung/n,RelatedTo,fork,/c/en/fork,,1.0
+forks,/c/en/forks/v,FormOf,fork,/c/en/fork,,1.0
+A fork,/c/en/fork,HasA,tines,/c/en/tines,[[A fork]] has [[tines]],1.0
+fork,/c/en/fork/n,HasContext,musique,/c/fr/musique,,1.0
+spork,/c/en/spork/n,RelatedTo,fork,/c/en/fork,,1.0
+çatal,/c/tr/çatal/n,RelatedTo,fork,/c/en/fork,,1.0
+widelec,/c/pl/widelec/n,RelatedTo,fork,/c/en/fork,,1.0
+biforcatura,/c/it/biforcatura/n,RelatedTo,fork,/c/en/fork,,1.0
+kvísla,/c/is/kvísla/v,RelatedTo,fork,/c/en/fork,,1.0
+forca,/c/ca/forca/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,DistinctFrom,spoon,/c/en/spoon,,1.0
+pitchfork,/c/en/pitchfork,DerivedFrom,fork,/c/en/fork,,1.0
+forko,/c/io/forko,EtymologicallyDerivedFrom,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,spike,/c/en/spike,,1.0
+పంగనామము,/c/te/పంగనామము/n,RelatedTo,fork,/c/en/fork,,1.0
+포크,/c/ko/포크,EtymologicallyDerivedFrom,fork,/c/en/fork,,1.0
+multifork,/c/en/multifork,DerivedFrom,fork,/c/en/fork,,1.0
+tinidor,/c/fil/tinidor/n,RelatedTo,fork,/c/en/fork,,1.0
+fourchette à découper,/c/fr/fourchette_à_découper/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,widły,/c/pl/widły,,1.0
+ส้อม,/c/th/ส้อม/n,RelatedTo,fork,/c/en/fork,,1.0
+imfologo,/c/zu/imfologo/n,RelatedTo,fork,/c/en/fork,,1.0
+piron,/c/vec/piron/n,RelatedTo,fork,/c/en/fork,,1.0
+⑂,/c/mul/⑂,RelatedTo,fork,/c/en/fork,,1.0
+fitrebika,/c/mg/fitrebika/n,RelatedTo,fork,/c/en/fork,,1.0
+tenedor,/c/ast/tenedor/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,AtLocation,a housewares store,/c/en/housewares_store,You are likely to find [[a fork]] in [[a housewares store]],1.0
+fork,/c/en/fork/n,RelatedTo,path,/c/en/path,,1.0
+rozwidlenie,/c/pl/rozwidlenie/n,RelatedTo,fork,/c/en/fork,,1.0
+gaffel,/c/sv/gaffel/n,Synonym,fork,/c/en/fork,,1.0
+forkhead,/c/en/forkhead,DerivedFrom,fork,/c/en/fork,,1.0
+fforc,/c/cy/fforc/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,one,/c/en/one,,1.0
+कांटा,/c/hi/कांटा/n,RelatedTo,fork,/c/en/fork,,1.0
+frouque,/c/nrf/frouque/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,fereko,/c/st/fereko,,1.0
+丫巴兒,/c/zh/丫巴兒,Synonym,fork,/c/en/fork,,1.0
+gaffall,/c/is/gaffall/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,forke,/c/de/forke,,1.0
+fork,/c/en/fork/n,RelatedTo,adversary,/c/en/adversary,,1.0
+a fork,/c/en/fork,AtLocation,a untensil drawer,/c/en/untensil_drawer,You are likely to find [[a fork]] in [[a untensil drawer]],1.0
+forks,/c/en/forks/n,FormOf,fork,/c/en/fork,,1.0
+дзасэ,/c/kbd/дзасэ/n,RelatedTo,fork,/c/en/fork,,1.0
+headset,/c/en/headset/n,RelatedTo,fork,/c/en/fork,,1.0
+叉,/c/zh/叉,Synonym,fork,/c/en/fork,,1.0
+bifurca,/c/ro/bifurca/v,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,AtLocation,a silverware drawer,/c/en/silverware_drawer,You are likely to find [[a fork]] in [[a silverware drawer]],1.0
+fork,/c/en/fork/n,Synonym,forc'h,/c/br/forc'h,,1.0
+mbogoro,/c/ki/mbogoro/n,RelatedTo,fork,/c/en/fork,,1.0
+stgagna,/c/rm/stgagna/n,RelatedTo,fork,/c/en/fork,,1.0
+forketo,/c/io/forketo/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,fortchete,/c/wa/fortchete,,1.0
+fonduegabel,/c/de/fonduegabel/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,һәнәк,/c/ba/һәнәк,,1.0
+multifork,/c/en/multifork/a,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,galla,/c/gl/galla,,1.0
+forchetta,/c/it/forchetta/n,RelatedTo,fork,/c/en/fork,,1.0
+horqueta,/c/es/horqueta/n,RelatedTo,fork,/c/en/fork,,1.0
+prefork,/c/en/prefork/v,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,furca,/c/ia/furca,,1.0
+sule,/c/no/sule/n,RelatedTo,fork,/c/en/fork,,1.0
+fork f,/c/en/fork_f/n,RelatedTo,fork,/c/en/fork,,1.0
+សម,/c/km/សម/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+ꜣmꜥt,/c/egx/ꜣmꜥt/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,crotch,/c/en/crotch,,1.0
+fork,/c/en/fork/n,Synonym,쇠스랑,/c/ko/쇠스랑,,1.0
+fork,/c/en/fork/n,Synonym,forko,/c/io/forko,,1.0
+叉子,/c/zh/叉子/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,process,/c/en/process,,1.0
+talikko,/c/fi/talikko/n,RelatedTo,fork,/c/en/fork,,1.0
+набода,/c/bg/набода/v,RelatedTo,fork,/c/en/fork,,1.0
+tuning fork,/c/en/tuning_fork/n,RelatedTo,fork,/c/en/fork,,1.0
+afgeleide,/c/nl/afgeleide/n,RelatedTo,fork,/c/en/fork,,1.0
+furtga,/c/rm/furtga/n,RelatedTo,fork,/c/en/fork,,1.0
+扠,/c/zh/扠,Synonym,fork,/c/en/fork,,1.0
+crotched,/c/en/crotched/a,RelatedTo,fork,/c/en/fork,,1.0
+forkball,/c/en/forkball,DerivedFrom,fork,/c/en/fork,,1.0
+fuortga,/c/rm/fuortga/n,RelatedTo,fork,/c/en/fork,,1.0
+分叉,/c/zh/分叉/v,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,turning soil,/c/en/turning_soil,[[a fork]] is for [[turning soil]],1.0
+fork,/c/nl/fork,EtymologicallyDerivedFrom,fork,/c/en/fork,,1.0
+forschett,/c/lb/forschett/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v,HasContext,échecs,/c/fr/échecs,,1.0
+fork,/c/en/fork/n,Synonym,goobel,/c/frr/goobel,,1.0
+бунела,/c/mk/бунела/n,RelatedTo,fork,/c/en/fork,,1.0
+vork,/c/nl/vork/n,RelatedTo,fork,/c/en/fork,,1.0
+ʻō,/c/haw/ʻō/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,eating pie,/c/en/eating_pie,[[a fork]] is used for [[eating pie]],1.0
+fork,/c/en/fork/n,Synonym,fourche,/c/fr/fourche,,1.0
+forc,/c/gd/forc/n,RelatedTo,fork,/c/en/fork,,1.0
+gabeln,/c/de/gabeln/v,Synonym,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n/wn/artifact,ExternalURL,103388794-n,http://wordnet-rdf.princeton.edu/wn31/103388794-n,,1.0
+bratengabel,/c/de/bratengabel/n,RelatedTo,fork,/c/en/fork,,1.0
+ᦏᦴᧈᦉᦱᧂ,/c/khb/ᦏᦴᧈᦉᦱᧂ/n,RelatedTo,fork,/c/en/fork,,1.0
+pok,/c/tpi/pok/n,RelatedTo,fork,/c/en/fork,,1.0
+y,/c/pt/y/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork,EtymologicallyDerivedFrom,furca,/c/la/furca,,1.0
+furcular,/c/en/furcular/a,RelatedTo,fork,/c/en/fork,,1.0
+gabhal,/c/ga/gabhal/n,RelatedTo,fork,/c/en/fork,,1.0
+horquilla,/c/es/horquilla/n,RelatedTo,fork,/c/en/fork,,1.0
+股,/c/ja/股/n,RelatedTo,fork,/c/en/fork,,1.0
+fók,/c/chk/fók,EtymologicallyDerivedFrom,fork,/c/en/fork,,1.0
+вилка,/c/ru/вилка/n,RelatedTo,fork,/c/en/fork,,1.0
+わかれる,/c/ja/わかれる/v,RelatedTo,fork,/c/en/fork,,1.0
+foon,/c/en/foon,DerivedFrom,fork,/c/en/fork,,1.0
+fork,/c/en/fork,EtymologicallyDerivedFrom,force,/c/ang/force,,1.0
+fork,/c/en/fork/n,Synonym,gaffel,/c/no/gaffel,,1.0
+villa,/c/hu/villa/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,HasContext,computer science,/c/en/computer_science,,1.0
+greimire,/c/gd/greimire/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,tributary,/c/en/tributary,,1.0
+цацэ,/c/ady/цацэ/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,piercing food,/c/en/piercing_food,[[a fork]] is used for [[piercing food]],1.0
+角魚,/c/zh/角魚/n,RelatedTo,fork,/c/en/fork,,1.0
+forchetta,/c/it/forchetta/n,Synonym,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,tīrou,/c/mi/tīrou,,1.0
+weggabel,/c/de/weggabel/n,Synonym,fork,/c/en/fork,,1.0
+ramo,/c/it/ramo/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/de/fork/n,Synonym,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,mestvork,/c/nl/mestvork,,1.0
+бииккэ,/c/sah/бииккэ/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,frameset,/c/en/frameset,,1.0
+сәнске,/c/ba/сәнске/n,RelatedTo,fork,/c/en/fork,,1.0
+bifurcation,/c/en/bifurcation/n,RelatedTo,fork,/c/en/fork,,1.0
+bifurcum,/c/la/bifurcum/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,forkego,/c/eo/forkego,,1.0
+forks,/c/en/forks,FormOf,fork,/c/en/fork/n,,1.0
+A fork,/c/en/fork,UsedFor,eating food off a plate,/c/en/eating_food_off_plate,[[A fork]] is used for [[eating food off a plate]],1.0
+tinidor,/c/ceb/tinidor/n,RelatedTo,fork,/c/en/fork,,1.0
+forchettina,/c/it/forchettina/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,eat your vegetables,/c/en/eat_vegetables,You can use [[a fork]] to [[eat your vegetables]],1.0
+fork,/c/en/fork/n,Synonym,hark,/c/et/hark,,1.0
+fork,/c/en/fork/n,DistinctFrom,knife,/c/en/knife,,1.0
+frouque à réchinnes,/c/nrf/frouque_à_réchinnes/n,RelatedTo,fork,/c/en/fork,,1.0
+fók,/c/chk/fók/n,RelatedTo,fork,/c/en/fork,,1.0
+forke,/c/enm/forke/n,RelatedTo,fork,/c/en/fork,,1.0
+bifurcación,/c/es/bifurcación/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork,MadeOf,metal,/c/en/metal,[[fork]] is made of [[metal]].,1.0
+forked,/c/en/forked/a,RelatedTo,fork,/c/en/fork,,1.0
+ágazik,/c/hu/ágazik/v,RelatedTo,fork,/c/en/fork,,1.0
+gràpa,/c/gd/gràpa/n,RelatedTo,fork,/c/en/fork,,1.0
+adhal,/c/ga/adhal/n,RelatedTo,fork,/c/en/fork,,1.0
+forklift,/c/en/forklift/n,RelatedTo,fork,/c/en/fork,,1.0
+vidlička,/c/sk/vidlička/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,píce,/c/ga/píce,,1.0
+gabalus,/c/la/gabalus/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v,RelatedTo,bifurcation,/c/fr/bifurcation,,1.0
+gafla,/c/csb/gafla/n,RelatedTo,fork,/c/en/fork,,1.0
+फिङ्गक,/c/sa/फिङ्गक/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,вила,/c/uk/вила,,1.0
+furcula,/c/la/furcula/n,RelatedTo,fork,/c/en/fork,,1.0
+fourchette à gâteau,/c/fr/fourchette_à_gâteau/n,RelatedTo,fork,/c/en/fork,,1.0
+hang,/c/et/hang/n,RelatedTo,fork,/c/en/fork,,1.0
+nĩa,/c/vi/nĩa/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v,RelatedTo,split,/c/en/split,,1.0
+píce,/c/ga/píce/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,forcado,/c/pt/forcado,,1.0
+haça,/c/tr/haça/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,simultaneous,/c/en/simultaneous,,1.0
+fork,/c/en/fork/n,IsA,tableware,/c/en/tableware,,1.0
+fork,/c/en/fork/n,RelatedTo,dig,/c/en/dig,,1.0
+haarukoida,/c/fi/haarukoida/v,RelatedTo,fork,/c/en/fork,,1.0
+savetscha,/c/rm/savetscha/n,RelatedTo,fork,/c/en/fork,,1.0
+виљушка,/c/mk/виљушка/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v,RelatedTo,spawn,/c/en/spawn,,1.0
+fork,/c/en/fork/n,HasContext,chess,/c/en/chess,,1.0
+goobel,/c/frr/goobel/n,RelatedTo,fork,/c/en/fork,,1.0
+multiforked,/c/en/multiforked/a,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork,ExternalURL,Fork SilverwarePiece,http://umbel.org/umbel/sc/Fork_SilverwarePiece,,1.0
+unforking,/c/en/unforking/a,RelatedTo,fork,/c/en/fork,,1.0
+forking,/c/en/forking/n,RelatedTo,fork,/c/en/fork,,1.0
+みつまた,/c/ja/みつまた/n,RelatedTo,fork,/c/en/fork,,1.0
+ตะเกียบ,/c/th/ตะเกียบ/n,RelatedTo,fork,/c/en/fork,,1.0
+fourchette,/c/fr/fourchette/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,AtLocation,my back,/c/en/back,You are likely to find [[a fork]] in [[my back]],1.0
+pitchfork,/c/en/pitchfork/n,RelatedTo,fork,/c/en/fork,,1.0
+μαχαιροπίρουνο,/c/el/μαχαιροπίρουνο/n,RelatedTo,fork,/c/en/fork,,1.0
+Eating noodles,/c/en/eating_noodles,HasPrerequisite,a fork,/c/en/fork,[[Eating noodles]] requires [[a fork]],1.0
+a fork,/c/en/fork,UsedFor,moving food to the mouth,/c/en/moving_food_to_mouth,[[a fork]] is used for [[moving food to the mouth]],1.0
+fork off,/c/en/fork_off,DerivedFrom,fork,/c/en/fork/v,,1.0
+head tube,/c/en/head_tube/n,RelatedTo,fork,/c/en/fork,,1.0
+hanka,/c/fi/hanka/n,RelatedTo,fork,/c/en/fork,,1.0
+dĩa,/c/vi/dĩa/n,RelatedTo,fork,/c/en/fork,,1.0
+गभस्ति,/c/sa/गभस्ति/n,RelatedTo,fork,/c/en/fork,,1.0
+haarukka,/c/fi/haarukka/n,RelatedTo,fork,/c/en/fork,,1.0
+fourchette,/c/nrf/fourchette/n,RelatedTo,fork,/c/en/fork,,1.0
+wfk,/c/en/wfk/n,RelatedTo,fork,/c/en/fork,,1.0
+ခရင်း,/c/my/ခရင်း/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,project,/c/en/project,,1.0
+kvísl,/c/is/kvísl/n,RelatedTo,fork,/c/en/fork,,1.0
+forker,/c/en/forker,DerivedFrom,fork,/c/en/fork,,1.0
+فرشطة,/c/ar/فرشطة/n,RelatedTo,fork,/c/en/fork,,1.0
+gable,/c/gsw/gable/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork,EtymologicallyDerivedFrom,forque,/c/fro/forque,,1.0
+multifurcate,/c/en/multifurcate/v,RelatedTo,fork,/c/en/fork,,1.0
+forc,/c/ga/forc/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,eating food with,/c/en/eating_food_with,[[a fork]] is for [[eating food with]],1.0
+fork,/c/en/fork/n,Synonym,vidly,/c/sk/vidly,,1.0
+fuscinula,/c/la/fuscinula/n,RelatedTo,fork,/c/en/fork,,1.0
+embranchement,/c/fr/embranchement/n,RelatedTo,fork,/c/en/fork,,1.0
+piron,/c/lad/piron/n,RelatedTo,fork,/c/en/fork,,1.0
+fourché,/c/en/fourché/a,RelatedTo,fork,/c/en/fork,,1.0
+eating irons,/c/en/eating_irons/n,RelatedTo,fork,/c/en/fork,,1.0
+telędúnenemą,/c/twf/telędúnenemą/n,RelatedTo,fork,/c/en/fork,,1.0
+steerer tube,/c/en/steerer_tube/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,вилы,/c/ru/вилы,,1.0
+ง่าม,/c/th/ง่าม/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,fourchette,/c/fr/fourchette,,1.0
+ܚܓܐ,/c/syc/ܚܓܐ/n/wikt/en_2,RelatedTo,fork,/c/en/fork,,1.0
+hacker,/c/en/hacker/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,ExternalURL,Fork SilverwarePiece,http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece,,1.0
+fork,/c/en/fork/n,Synonym,forca,/c/ca/forca,,1.0
+fork,/c/en/fork/n,Synonym,hooivork,/c/nl/hooivork,,1.0
+pirù,/c/cim/pirù/n,RelatedTo,fork,/c/en/fork,,1.0
+フォーク,/c/ja/フォーク/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+fork out,/c/en/fork_out,DerivedFrom,fork,/c/en/fork/v,,1.0
+A fork,/c/en/fork,PartOf,a dining set,/c/en/dining_set,[[A fork]] is part of [[a dining set]],1.0
+刀攕,/c/zh/刀攕/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,tuinvurk,/c/af/tuinvurk,,1.0
+cutlery,/c/en/cutlery/n,RelatedTo,fork,/c/en/fork,,1.0
+forcola,/c/it/forcola/n,RelatedTo,fork,/c/en/fork,,1.0
+furciform,/c/en/furciform/a,RelatedTo,fork,/c/en/fork,,1.0
+fourtchi,/c/nrf/fourtchi/v,RelatedTo,fork,/c/en/fork,,1.0
+sambat,/c/fil/sambat/n,RelatedTo,fork,/c/en/fork,,1.0
+bifurcarse,/c/es/bifurcarse/v,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/v,HasContext,computer science,/c/en/computer_science,,1.0
+luha,/c/fi/luha/n,RelatedTo,fork,/c/en/fork,,1.0
+forkless,/c/en/forkless/a,RelatedTo,fork,/c/en/fork,,1.0
+prefork,/c/en/prefork,DerivedFrom,fork,/c/en/fork,,1.0
+forko,/c/io/forko/n,RelatedTo,fork,/c/en/fork,,1.0
+叉子,/c/zh/叉子,Synonym,fork,/c/en/fork,,1.0
+պատառաքաղ,/c/hy/պատառաքաղ/n,RelatedTo,fork,/c/en/fork,,1.0
+gallo,/c/gl/gallo/n,RelatedTo,fork,/c/en/fork,,1.0
+chip fork,/c/en/chip_fork/n,RelatedTo,fork,/c/en/fork,,1.0
+갈림길,/c/ko/갈림길/n,RelatedTo,fork,/c/en/fork,,1.0
+A fork,/c/en/fork,IsA,a utensil that can stab something,/c/en/utensil_can_stab,[[A fork]] is [[a utensil that can stab something]],1.0
+丫巴儿,/c/zh/丫巴儿,Synonym,fork,/c/en/fork,,1.0
+lusikkahaarukka,/c/fi/lusikkahaarukka/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,eating vegetables,/c/en/eating_vegetables,[[a fork]] is for [[eating vegetables]],1.0
+forcella,/c/it/forcella/n,RelatedTo,fork,/c/en/fork,,1.0
+翼紅娘魚,/c/zh/翼紅娘魚/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,IsA,a kitchen utensil,/c/en/kitchen_utensil,[[a fork]] is [[a kitchen utensil]],1.0
+ramificazione,/c/it/ramificazione/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,software,/c/en/software,,1.0
+gabelung,/c/de/gabelung/n,Synonym,fork,/c/en/fork,,1.0
+furtgetta,/c/rm/furtgetta/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,Synonym,갈퀴,/c/ko/갈퀴,,1.0
+gabul,/c/sga/gabul/n,RelatedTo,fork,/c/en/fork,,1.0
+ܟܠܒܬܐ,/c/syc/ܟܠܒܬܐ/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,mouth,/c/en/mouth,,1.0
+🍴,/c/mul/🍴,SymbolOf,fork,/c/en/fork,,1.0
+haarautuma,/c/fi/haarautuma/n,RelatedTo,fork,/c/en/fork,,1.0
+fondyyhaarukka,/c/fi/fondyyhaarukka/n,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,fourche,/c/fr/fourche,,1.0
+fork,/c/en/fork/n,Synonym,gabel,/c/de/gabel,,1.0
+fork,/c/en/fork/n,Synonym,vasvilla,/c/hu/vasvilla,,1.0
+分叉,/c/zh/分叉,Synonym,fork,/c/en/fork,,1.0
+tjuga,/c/sv/tjuga/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,split,/c/en/split,,1.0
+fuurke,/c/stq/fuurke/n,RelatedTo,fork,/c/en/fork,,1.0
+⑃,/c/mul/⑃,RelatedTo,fork,/c/en/fork,,1.0
+fork,/c/en/fork/n,RelatedTo,bicycle,/c/en/bicycle,,1.0
+kapel,/c/mh/kapel/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,UsedFor,eating,/c/en/eating,[[a fork]] is for [[eating]],1.0
+fork,/c/en/fork/n,Synonym,grep,/c/sv/grep,,1.0
+fork,/c/en/fork/v,RelatedTo,corn,/c/en/corn,,1.0
+trichotomous,/c/en/trichotomous/a,RelatedTo,fork,/c/en/fork,,1.0
+furchetta,/c/scn/furchetta/n,RelatedTo,fork,/c/en/fork,,1.0
+chạc,/c/vi/chạc/n,RelatedTo,fork,/c/en/fork,,1.0
+fork over,/c/en/fork_over/v,RelatedTo,fork,/c/en/fork,,1.0
+evőeszköz,/c/hu/evőeszköz/n,RelatedTo,fork,/c/en/fork,,1.0
+furculiță,/c/ro/furculiță/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,AtLocation,a napkin,/c/en/napkin,You are likely to find [[a fork]] in [[a napkin]],1.0
+fork,/c/en/fork/n,HasContext,british,/c/en/british,,1.0
+fork,/c/en/fork/n,Synonym,horca,/c/es/horca,,1.0
+fork,/c/en/fork/n,Synonym,δικρανι,/c/el/δικρανι,,1.0
+æl,/c/ang/æl/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+fourchette à fondue,/c/fr/fourchette_à_fondue/n,RelatedTo,fork,/c/en/fork,,1.0
+ܫܢܐ,/c/syc/ܫܢܐ/n/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+갈래,/c/ko/갈래/n,RelatedTo,fork,/c/en/fork,,1.0
+forcone,/c/it/forcone/n,RelatedTo,fork,/c/en/fork,,1.0
+haarautumiskohta,/c/fi/haarautumiskohta/n,RelatedTo,fork,/c/en/fork,,1.0
+forqueta,/c/ca/forqueta/n,RelatedTo,fork,/c/en/fork,,1.0
+A fork,/c/en/fork,UsedFor,eat a steak,/c/en/eat_steak,[[A fork]] is used to [[eat a steak]],1.0
+froutchie,/c/nrf/froutchie/n,RelatedTo,fork,/c/en/fork,,1.0
+prong,/c/en/prong/n,RelatedTo,fork,/c/en/fork,,1.0
+takje,/c/stq/takje/v,RelatedTo,fork,/c/en/fork,,1.0
+haarautua,/c/fi/haarautua/v,RelatedTo,fork,/c/en/fork,,1.0
+काँटा,/c/hi/काँटा/n,RelatedTo,fork,/c/en/fork,,1.0
+a fork,/c/en/fork,ReceivesAction,needed when eating a meal,/c/en/needed_when_eating_meal,[[a fork]] is [[needed when eating a meal]],1.0
+fork,/c/en/fork/n,Synonym,hang,/c/et/hang,,1.0
+quadrifurcated,/c/en/quadrifurcated/a/wikt/en_1,RelatedTo,fork,/c/en/fork,,1.0
+furchetta,/c/rm/furchetta/n,RelatedTo,fork,/c/en/fork,,1.0
+pirun,/c/sq/pirun/n,RelatedTo,fork,/c/en/fork,,1.0
+şatal,/c/crh/şatal/n,RelatedTo,fork,/c/en/fork,,1.0
+އޫ,/c/dv/އޫ/n,RelatedTo,fork,/c/en/fork,,1.0
+dinner fork,/c/en/dinner_fork/n,IsA,fork,/c/en/fork/n,,1.0
+knork,/c/en/knork,DerivedFrom,fork,/c/en/fork,,1.0
+forklike,/c/en/forklike/a,RelatedTo,fork,/c/en/fork,,1.0
+branch,/c/en/branch,RelatedTo,fork,/c/en/fork,[[branch]] is related to [[fork]],0.8420000000000001
+utensil,/c/en/utensil,RelatedTo,fork,/c/en/fork,[[utensil]] is related to [[fork]],0.7509999999999999
+rake,/c/en/rake,RelatedTo,fork,/c/en/fork,[[rake]] is related to [[fork]],0.6299999999999999
+fork,/c/en/fork,RelatedTo,utensil,/c/en/utensil,[[fork]] is related to [[utensil]],0.5670000000000002
+fork,/c/en/fork,RelatedTo,eating,/c/en/eating,[[fork]] is related to [[eating]],0.44700000000000006
+fork,/c/en/fork,DistinctFrom,spoon,/c/en/spoon,[[fork]] is not [[spoon]],0.3639999999999999
+spoon,/c/en/spoon,Antonym,fork,/c/en/fork,[[spoon]] is the opposite of [[fork]],0.359
+fork,/c/en/fork,RelatedTo,cutlery,/c/en/cutlery,[[fork]] is related to [[cutlery]],0.3330000000000002
+tablespoon,/c/en/tablespoon,RelatedTo,fork,/c/en/fork,[[tablespoon]] is related to [[fork]],0.3039999999999998
+plate,/c/en/plate,DistinctFrom,fork,/c/en/fork,[[plate]] is not [[fork]],0.2999999999999998
+fork,/c/en/fork,RelatedTo,tines,/c/en/tines,[[fork]] is related to [[tines]],0.29400000000000004
+spoon,/c/en/spoon,RelatedTo,fork,/c/en/fork,[[spoon]] is related to [[fork]],0.2789999999999999
+fork,/c/en/fork,RelatedTo,eating utensil,/c/en/eating_utensil,[[fork]] is related to [[eating utensil]],0.274
+fork,/c/en/fork,EtymologicallyRelatedTo,vork,/c/nl/vork,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,ferkal,/c/osx/ferkal,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,furca,/c/la/furca,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,fourche,/c/fr/fourche,,0.25
+pok,/c/tpi/pok,EtymologicallyRelatedTo,fork,/c/en/fork,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,gafol,/c/ang/gafol,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,forclas,/c/ang/forclas,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,forca,/c/ang/forca,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,fork,/c/sv/fork,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,forche,/c/fro/forche,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,forkr,/c/non/forkr,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,geafel,/c/ang/geafel,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,fork,/c/da/fork,,0.25
+fork,/c/en/fork,ExternalURL,fork,http://fr.wiktionary.org/wiki/fork,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,forck,/c/frr/forck,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,fork,/c/no/fork,,0.25
+forke,/c/de/forke,EtymologicallyRelatedTo,fork,/c/en/fork,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,forke,/c/de/forke,,0.25
+duke,/c/en/duke,EtymologicallyRelatedTo,fork,/c/en/fork,,0.25
+fuurke,/c/stq/fuurke,EtymologicallyRelatedTo,fork,/c/en/fork,,0.25
+fork,/c/en/fork,ExternalURL,fork,http://en.wiktionary.org/wiki/fork,,0.25
+fork,/c/en/fork,EtymologicallyRelatedTo,geafle,/c/ang/geafle,,0.25
+fork,/c/en/fork,Antonym,knife,/c/en/knife,[[fork]] is the opposite of [[knife]],0.242
+fork,/c/en/fork,DistinctFrom,knife,/c/en/knife,[[fork]] is not [[knife]],0.2240000000000002
+tablespoon,/c/en/tablespoon,DistinctFrom,fork,/c/en/fork,[[tablespoon]] is not [[fork]],0.22100000000000009
+napkin,/c/en/napkin,RelatedTo,fork,/c/en/fork,[[napkin]] is related to [[fork]],0.20999999999999996
+fork,/c/en/fork,RelatedTo,table utensil,/c/en/table_utensil,[[fork]] is related to [[table utensil]],0.18400000000000016
+fork,/c/en/fork,RelatedTo,table,/c/en/table,[[fork]] is related to [[table]],0.18400000000000016
+fork,/c/en/fork,RelatedTo,spoon mate,/c/en/spoon_mate,[[fork]] is related to [[spoon mate]],0.16999999999999993
+fork,/c/en/fork,RelatedTo,mate,/c/en/mate,[[fork]] is related to [[mate]],0.16999999999999993
+plate,/c/en/plate,Antonym,fork,/c/en/fork,[[plate]] is the opposite of [[fork]],0.1549999999999998
+fork,/c/en/fork,RelatedTo,has,/c/en/has,[[fork]] is related to [[has]],0.14400000000000013
+fork,/c/en/fork,RelatedTo,has tines,/c/en/has_tines,[[fork]] is related to [[has tines]],0.14400000000000013
+farmer,/c/en/farmer,RelatedTo,fork,/c/en/fork,[[farmer]] is related to [[fork]],0.137
+fork,/c/en/fork,RelatedTo,teeth,/c/en/teeth,[[fork]] is related to [[teeth]],0.1030000000000002

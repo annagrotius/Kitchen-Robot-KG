@@ -1,0 +1,7 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+scrambled egg,/c/en/scrambled_egg/n/wn/food,IsA,dish,/c/en/dish/n/wn/food,[[scrambled egg]] is a type of [[dish]],2.0
+scrambled egg,/c/en/scrambled_egg/n/wn/food,ExternalURL,107858284-n,http://wordnet-rdf.princeton.edu/wn31/107858284-n,,1.0
+scrambled egg,/c/en/scrambled_egg/n,ExternalURL,scrambledegg,http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg,,1.0
+scrambled egg,/c/en/scrambled_egg/n,IsA,food composite,/c/en/food_composite/n,,1.0
+scrambled egg,/c/en/scrambled_egg/n,IsA,semisolid,/c/en/semisolid/n,,1.0
+scrambled egg,/c/en/scrambled_egg,ExternalURL,scrambledegg,http://umbel.org/umbel/sc/ScrambledEgg,,1.0

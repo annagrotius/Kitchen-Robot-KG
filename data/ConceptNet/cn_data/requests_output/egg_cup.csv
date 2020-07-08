@@ -1,0 +1,17 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+egg cup,/c/en/egg_cup/n/wn/artifact,Synonym,eggcup,/c/en/eggcup/n/wn/artifact,[[egg cup]] is a synonym of [[eggcup]],2.0
+eierbecher,/c/de/eierbecher/n,RelatedTo,egg cup,/c/en/egg_cup,,1.0
+munakuppi,/c/fi/munakuppi/n,RelatedTo,egg cup,/c/en/egg_cup,,1.0
+eierbecher,/c/de/eierbecher/n,Synonym,egg cup,/c/en/egg_cup,,1.0
+egg cup,/c/en/egg_cup/n,RelatedTo,coquetier,/c/fr/coquetier,,1.0
+egg cups,/c/en/egg_cups/n,RelatedTo,egg cup,/c/en/egg_cup,,1.0
+coquetier,/c/fr/coquetier/n/wikt/fr_1,Synonym,egg cup,/c/en/egg_cup,,1.0
+egg cups,/c/en/egg_cups/n,FormOf,egg cup,/c/en/egg_cup,,1.0
+egg cup,/c/en/egg_cup,FormOf,eggcup,/c/en/eggcup/n,,1.0
+eggcup,/c/en/eggcup,FormOf,egg cup,/c/en/egg_cup/n,,1.0
+egg cup,/c/en/egg_cup/n,HasContext,cuisine,/c/fr/cuisine,,1.0
+portauova,/c/it/portauova/n,RelatedTo,egg cup,/c/en/egg_cup,,1.0
+egg cup,/c/en/egg_cup/n,FormOf,eggcup,/c/en/eggcup,,1.0
+egg cup,/c/en/egg_cup,DerivedFrom,cup,/c/en/cup/n,,1.0
+egg cup,/c/en/egg_cup,ExternalURL,egg cup,http://fr.wiktionary.org/wiki/egg_cup,,0.25
+egg cup,/c/en/egg_cup,ExternalURL,egg cup,http://en.wiktionary.org/wiki/egg_cup,,0.25

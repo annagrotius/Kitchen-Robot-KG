@@ -1,0 +1,26 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+orange juice,/c/en/orange_juice,AtLocation,the fridge,/c/en/fridge,*Something you find in [[the fridge]] is [[orange juice]],3.4641016151377544
+orange juice,/c/en/orange_juice,HasA,vitamin c,/c/en/vitamin_c,[[Orange juice]] contains [[vitamin c]],2.0
+orange juice,/c/en/orange_juice/n/wn/food,IsA,fruit juice,/c/en/fruit_juice/n/wn/food,[[orange juice]] is a type of [[fruit juice]],2.0
+orange juice,/c/en/orange_juice,ReceivesAction,made from oranges,/c/en/made_from_oranges,[[Orange juice]] is [[made from oranges]],2.0
+frozen orange juice,/c/en/frozen_orange_juice/n/wn/food,IsA,orange juice,/c/en/orange_juice/n/wn/food,[[frozen orange juice]] is a type of [[orange juice]],2.0
+orange juice,/c/en/orange_juice,IsA,a common source of vitamin c,/c/en/common_source_of_vitamin_c,[[orange juice]] is [[a common source of vitamin c]],2.0
+orange juice,/c/en/orange_juice,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[orange juice]],2.0
+orange juice,/c/en/orange_juice/n,IsA,beverage,/c/en/beverage/n,,1.0
+orange juice,/c/en/orange_juice,UsedFor,drinking,/c/en/drinking,[[Orange juice]] is for [[drinking]],1.0
+orange juice,/c/en/orange_juice,ExternalURL,orange juice,http://umbel.org/umbel/sc/Orange_juice,,1.0
+orange juice,/c/en/orange_juice/n,ExternalURL,orangejuice,http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice,,1.0
+orange juice,/c/en/orange_juice,ExternalURL,orange juice,http://dbpedia.org/resource/Orange_juice,,1.0
+orange juice,/c/en/orange_juice,ExternalURL,orangejuice,http://umbel.org/umbel/sc/OrangeJuice,,1.0
+orange juice,/c/en/orange_juice/n,ExternalURL,orange juice,http://sw.opencyc.org/2012/05/10/concept/en/Orange_juice,,1.0
+orange juice,/c/en/orange_juice,IsA,acidic,/c/en/acidic,[[Orange juice]] is [[acidic]],1.0
+orange juice,/c/en/orange_juice,AtLocation,a carton,/c/en/carton,You are likely to find [[orange juice]] in [[a carton]].,1.0
+orange juice,/c/en/orange_juice,IsA,a liquid,/c/en/liquid,[[orange juice]] is [[a liquid]],1.0
+orange juice,/c/en/orange_juice,IsA,a complex liquid,/c/en/complex_liquid,[[Orange juice]] is [[a complex liquid]],1.0
+orange juice,/c/en/orange_juice/n/wn/food,ExternalURL,107941074-n,http://wordnet-rdf.princeton.edu/wn31/107941074-n,,1.0
+orange juice,/c/en/orange_juice/n,IsA,sweet thing,/c/en/sweet_thing/n,,1.0
+orange juice,/c/en/orange_juice/n,IsA,juice,/c/en/juice/n,,1.0
+orange juice,/c/en/orange_juice,ExternalURL,q219059,http://wikidata.dbpedia.org/resource/Q219059,,1.0
+orange juice,/c/en/orange_juice/n,IsA,mixture,/c/en/mixture/n,,1.0
+orange juice,/c/en/orange_juice,HasProperty,one kind of breakfast drink,/c/en/one_kind_of_breakfast_drink,[[Orange juice]] is [[one kind of breakfast drink]],1.0
+orange juice,/c/en/orange_juice,HasA,pulp in it,/c/en/pulp_in,[[orange juice]] has [[pulp in it]],1.0

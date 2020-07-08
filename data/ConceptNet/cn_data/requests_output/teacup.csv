@@ -1,0 +1,112 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+فنجان چای,/c/fa/فنجان_چای/n/wn/artifact,Synonym,teacup,/c/en/teacup/n/wn/artifact,[[فنجان چای]] is a translation of [[teacup]],2.0
+teacupful,/c/en/teacupful/n/wn/quantity,Synonym,teacup,/c/en/teacup/n/wn/quantity,[[teacupful]] is a synonym of [[teacup]],2.0
+tasse à thé,/c/fr/tasse_à_thé/n/wn/quantity,Synonym,teacup,/c/en/teacup/n/wn/quantity,[[tasse à thé]] is a translation of [[teacup]],2.0
+kikara,/c/eu/kikara/n/wn/artifact,Synonym,teacup,/c/en/teacup/n/wn/artifact,[[kikara]] is a translation of [[teacup]],2.0
+teekuppi,/c/fi/teekuppi/n/wn/artifact,Synonym,teacup,/c/en/teacup/n/wn/artifact,[[teekuppi]] is a translation of [[teacup]],2.0
+湯呑み,/c/ja/湯呑み/n,Synonym,teacup,/c/en/teacup,,2.0
+茶わん,/c/ja/茶わん/n,Synonym,teacup,/c/en/teacup,,2.0
+ティーカップ,/c/ja/ティーカップ/n,Synonym,teacup,/c/en/teacup,,2.0
+ถ้วยชา,/c/th/ถ้วยชา/n/wn/quantity,Synonym,teacup,/c/en/teacup/n/wn/quantity,[[ถ้วยชา]] is a translation of [[teacup]],2.0
+secangkir teh,/c/id/secangkir_teh/n/wn/quantity,Synonym,teacup,/c/en/teacup/n/wn/quantity,[[secangkir teh]] is a translation of [[teacup]],2.0
+teekupillinen,/c/fi/teekupillinen/n/wn/quantity,Synonym,teacup,/c/en/teacup/n/wn/quantity,[[teekupillinen]] is a translation of [[teacup]],2.0
+ティーカップ,/c/ja/ティーカップ/n/wn/artifact,Synonym,teacup,/c/en/teacup/n/wn/artifact,[[ティーカップ]] is a translation of [[teacup]],2.0
+湯のみ,/c/ja/湯のみ/n,Synonym,teacup,/c/en/teacup,,2.0
+湯飲み,/c/ja/湯飲み/n,Synonym,teacup,/c/en/teacup,,2.0
+tea cup,/c/en/tea_cup/n,FormOf,teacup,/c/en/teacup,,2.0
+te-katilu,/c/eu/te_katilu/n/wn/artifact,Synonym,teacup,/c/en/teacup/n/wn/artifact,[[te-katilu]] is a translation of [[teacup]],2.0
+te-katilukada,/c/eu/te_katilukada/n/wn/quantity,Synonym,teacup,/c/en/teacup/n/wn/quantity,[[te-katilukada]] is a translation of [[teacup]],2.0
+tasse à thé,/c/fr/tasse_à_thé/n/wn/artifact,Synonym,teacup,/c/en/teacup/n/wn/artifact,[[tasse à thé]] is a translation of [[teacup]],2.0
+cawan teh,/c/ms/cawan_teh/n/wn/artifact,Synonym,teacup,/c/en/teacup/n/wn/artifact,[[cawan teh]] is a translation of [[teacup]],2.0
+teacup,/c/en/teacup/n/wn/quantity,IsA,containerful,/c/en/containerful/n/wn/quantity,[[teacup]] is a type of [[containerful]],2.0
+cawan teh,/c/id/cawan_teh/n/wn/artifact,Synonym,teacup,/c/en/teacup/n/wn/artifact,[[cawan teh]] is a translation of [[teacup]],2.0
+จอก,/c/th/จอก/n/wn/quantity,Synonym,teacup,/c/en/teacup/n/wn/quantity,[[จอก]] is a translation of [[teacup]],2.0
+茶碗,/c/ja/茶碗/n,Synonym,teacup,/c/en/teacup,,2.0
+จอกชา,/c/th/จอกชา/n/wn/artifact,Synonym,teacup,/c/en/teacup/n/wn/artifact,[[จอกชา]] is a translation of [[teacup]],2.0
+handle,/c/en/handle/n/wn/artifact,PartOf,teacup,/c/en/teacup/n/wn/artifact,[[handle]] is a part of [[teacup]],2.0
+teacup,/c/en/teacup/n/wn/artifact,IsA,cup,/c/en/cup/n/wn/artifact,[[teacup]] is a type of [[cup]],2.0
+茶飲み茶碗,/c/ja/茶飲み茶碗/n,Synonym,teacup,/c/en/teacup,,2.0
+teacup,/c/en/teacup/a,RelatedTo,smaller,/c/en/smaller,,1.0
+teacup,/c/en/teacup/n,RelatedTo,drinking,/c/en/drinking,,1.0
+tekopp,/c/no/tekopp/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,чашка,/c/bg/чашка,,1.0
+teacup,/c/en/teacup/n,RelatedTo,tea,/c/en/tea,,1.0
+teacup,/c/en/teacup/n,Synonym,찻잔,/c/ko/찻잔,,1.0
+teacuplike,/c/en/teacuplike/a,RelatedTo,teacup,/c/en/teacup,,1.0
+teetasse,/c/de/teetasse/n,Synonym,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,чајна шолја,/c/mk/чајна_шолја,,1.0
+A teacup,/c/en/teacup,IsA,a dish,/c/en/dish,[[A teacup]] is [[a dish]],1.0
+ティーカップ,/c/ja/ティーカップ/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,tekop,/c/da/tekop,,1.0
+teacup,/c/en/teacup/n,Synonym,чашка,/c/ru/чашка,,1.0
+teacup,/c/en/teacup/n,Synonym,teetasse,/c/de/teetasse,,1.0
+tasse à thé,/c/fr/tasse_à_thé/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacuplike,/c/en/teacuplike,DerivedFrom,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,RelatedTo,saucer,/c/en/saucer,,1.0
+teacup,/c/en/teacup/n,Synonym,xícara,/c/pt/xícara,,1.0
+teacup,/c/en/teacup/n,Synonym,cupán tae,/c/ga/cupán_tae,,1.0
+teacup,/c/en/teacup/n,Synonym,茶杯,/c/zh/茶杯,,1.0
+teacup,/c/en/teacup/n,RelatedTo,teacupful,/c/en/teacupful,,1.0
+茶碗,/c/zh/茶碗/n,RelatedTo,teacup,/c/en/teacup,,1.0
+філіжанка,/c/be/філіжанка/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,шолја за чај,/c/mk/шолја_за_чај,,1.0
+tea strainer,/c/en/tea_strainer/n,RelatedTo,teacup,/c/en/teacup,,1.0
+茶碗,/c/zh/茶碗,Synonym,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,RelatedTo,cup of tea,/c/en/cup_of_tea,,1.0
+teacup,/c/en/teacup/n,RelatedTo,handle,/c/en/handle,,1.0
+teacup,/c/en/teacup/n,Synonym,theekopje,/c/nl/theekopje,,1.0
+teacup,/c/en/teacup/n,Synonym,filiżanka,/c/pl/filiżanka,,1.0
+teacup,/c/en/teacup,DerivedFrom,cup,/c/en/cup/n,,1.0
+teacup,/c/en/teacup/n,RelatedTo,measure,/c/en/measure,,1.0
+teacup,/c/en/teacup/n,Synonym,湯呑み,/c/ja/湯呑み,,1.0
+teacup,/c/en/teacup/n/wn/artifact,ExternalURL,104404587-n,http://wordnet-rdf.princeton.edu/wn31/104404587-n,,1.0
+tasse à thé,/c/fr/tasse_à_thé,Synonym,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup,DerivedFrom,tea,/c/en/tea,,1.0
+teekuppi,/c/fi/teekuppi/n,RelatedTo,teacup,/c/en/teacup,,1.0
+tasse à thé,/c/fr/tasse_à_thé/n,Synonym,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,湯飲み,/c/ja/湯飲み,,1.0
+tiitorfik,/c/kl/tiitorfik/n,RelatedTo,teacup,/c/en/teacup,,1.0
+🍵,/c/mul/🍵,SymbolOf,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,φλιτζανι τσαγιου,/c/el/φλιτζανι_τσαγιου,,1.0
+teekupillinen,/c/fi/teekupillinen/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,chén uống trà,/c/vi/chén_uống_trà,,1.0
+teacup,/c/en/teacup/n,Synonym,teekuppi,/c/fi/teekuppi,,1.0
+teacup,/c/en/teacup/n,Synonym,цайны аяга,/c/mn/цайны_аяга,,1.0
+teetass,/c/et/teetass/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,чей курки,/c/cv/чей_курки,,1.0
+teacup,/c/en/teacup/n,Synonym,茶碗,/c/zh/茶碗,,1.0
+teacup,/c/en/teacup/n,Synonym,ཇ དཀར,/c/bo/ཇ_དཀར,,1.0
+teacup,/c/en/teacup/n,Synonym,茶碗,/c/ja/茶碗,,1.0
+tas,/c/liv/tas/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,tasse à thé,/c/fr/tasse_à_thé,,1.0
+ティーカップ,/c/ja/ティーカップ,EtymologicallyDerivedFrom,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,tīkapu,/c/mi/tīkapu,,1.0
+ちゃわん,/c/ja/ちゃわん/n,RelatedTo,teacup,/c/en/teacup,,1.0
+茶杯,/c/zh/茶杯,Synonym,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup,DerivedFrom,cup,/c/en/cup,,1.0
+teetasse,/c/de/teetasse/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,RelatedTo,tea set,/c/en/tea_set,,1.0
+ཇ དཀར,/c/bo/ཇ_དཀར/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,tekopp,/c/sv/tekopp,,1.0
+teacup,/c/en/teacup/n,Synonym,taechupán,/c/ga/taechupán,,1.0
+teacup,/c/en/teacup/n,Synonym,chávena,/c/pt/chávena,,1.0
+teacups,/c/en/teacups/n,FormOf,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,teetass,/c/et/teetass,,1.0
+湯呑み,/c/ja/湯呑み/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacupful,/c/en/teacupful/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,Synonym,чайная чашка,/c/ru/чайная_чашка,,1.0
+filiżanka,/c/pl/filiżanka/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup/n,RelatedTo,tasse à thé,/c/fr/tasse_à_thé,,1.0
+teacup,/c/en/teacup/n/wn/quantity,ExternalURL,113792775-n,http://wordnet-rdf.princeton.edu/wn31/113792775-n,,1.0
+teacup,/c/en/teacup/n,Synonym,tekopp,/c/no/tekopp,,1.0
+teacup,/c/en/teacup/n,RelatedTo,cup,/c/en/cup,,1.0
+teacup,/c/en/teacup,RelatedTo,ass over teacups,/c/en/ass_over_teacups,,1.0
+teacupful,/c/en/teacupful,DerivedFrom,teacup,/c/en/teacup,,1.0
+slop bowl,/c/en/slop_bowl/n,RelatedTo,teacup,/c/en/teacup,,1.0
+茶碗,/c/ja/茶碗/n,RelatedTo,teacup,/c/en/teacup,,1.0
+a teacup,/c/en/teacup,IsA,a container,/c/en/container,[[a teacup]] is [[a container]],1.0
+teacups,/c/en/teacups/n,RelatedTo,teacup,/c/en/teacup,,1.0
+茶杯,/c/zh/茶杯/n,RelatedTo,teacup,/c/en/teacup,,1.0
+ゆのみ,/c/ja/ゆのみ/n,RelatedTo,teacup,/c/en/teacup,,1.0
+teacup,/c/en/teacup,ExternalURL,teacup,http://fr.wiktionary.org/wiki/teacup,,0.25
+teacup,/c/en/teacup,ExternalURL,teacup,http://en.wiktionary.org/wiki/teacup,,0.25

@@ -1,0 +1,1001 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+butter,/c/en/butter,IsA,a food,/c/en/food,[[butter]] is [[a food]],7.483314773547882
+butter,/c/en/butter,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[butter]],6.0
+Butter,/c/en/butter,HasProperty,yellow,/c/en/yellow,[[Butter]] is [[yellow]],5.656854249492381
+Butter,/c/en/butter,CapableOf,spread at room temperature,/c/en/spread_at_room_temperature,[[Butter]] can [[spread at room temperature]],5.291502622129181
+Butter,/c/en/butter,ReceivesAction,made from milk,/c/en/made_from_milk,[[Butter]] is [[made from milk]],5.291502622129181
+Butter,/c/en/butter,IsA,a dairy product,/c/en/dairy_product,[[Butter]] is [[a dairy product]],4.898979485566356
+butter,/c/en/butter,AtLocation,the fridge,/c/en/fridge,*Something you find in [[the fridge]] is [[butter]],4.898979485566356
+Butter,/c/en/butter,CapableOf,spread on bread,/c/en/spread_on_bread,[[Butter]] can [[spread on bread]],4.898979485566356
+butter,/c/en/butter,AtLocation,a restaurant,/c/en/restaurant,*Something you find in [[a restaurant]] is [[butter]],4.47213595499958
+butter,/c/en/butter,AtLocation,a pastry,/c/en/pastry,You are likely to find [[butter]] in [[a pastry]],4.47213595499958
+a knife,/c/en/knife,UsedFor,butter,/c/en/butter,[[a knife]] is used for [[butter]],4.0
+Butter,/c/en/butter,ReceivesAction,made from cream,/c/en/made_from_cream,[[Butter]] is [[made from cream]],4.0
+butter,/c/en/butter,ReceivesAction,eaten with toast,/c/en/eaten_with_toast,[[butter]] is [[eaten with toast]],4.0
+butter,/c/en/butter,IsA,an ingredient often,/c/en/ingredient_often,[[butter]] is [[an ingredient often]],4.0
+bread,/c/en/bread,RelatedTo,butter,/c/en/butter,[[bread]] is related to [[butter]],2.679552201394852
+butter,/c/en/butter,RelatedTo,bread,/c/en/bread,[[butter]] is related to [[bread]],2.4421302176583453
+yak butter,/c/en/yak_butter/n/wn/food,IsA,butter,/c/en/butter/n/wn/food,[[yak butter]] is a type of [[butter]],2.0
+manteiga,/c/pt/manteiga/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[manteiga]] is a translation of [[butter]],2.0
+روغن,/c/fa/روغن/n/wn/person,Synonym,butter,/c/en/butter/n/wn/person,[[روغن]] is a translation of [[butter]],2.0
+beurre,/c/fr/beurre/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[beurre]] is a translation of [[butter]],2.0
+beurrer,/c/fr/beurrer/v/wn/contact,Synonym,butter,/c/en/butter/v/wn/contact,[[beurrer]] is a translation of [[butter]],2.0
+butter,/c/en/butter/v/wn/contact,MannerOf,cover,/c/en/cover/v/wn/contact,[[butter]] is a way to [[cover]],2.0
+乳酪,/c/ja/乳酪/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[乳酪]] is a translation of [[butter]],2.0
+Butter,/c/en/butter,ReceivesAction,made from churned milk,/c/en/made_from_churned_milk,[[Butter]] is [[made from churned milk]],2.0
+butter,/c/en/butter/n/wn/food,IsA,food,/c/en/food/n/wn/food,[[butter]] is a type of [[food]],2.0
+voidella,/c/fi/voidella/v/wn/contact,Synonym,butter,/c/en/butter/v/wn/contact,[[voidella]] is a translation of [[butter]],2.0
+バタ,/c/ja/バタ/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[バタ]] is a translation of [[butter]],2.0
+pôr manteiga,/c/pt/pôr_manteiga/v/wn/contact,Synonym,butter,/c/en/butter/v/wn/contact,[[pôr manteiga]] is a translation of [[butter]],2.0
+butter,/c/en/butter,HasProperty,soft,/c/en/soft,[[butter]] is generally [[soft]],2.0
+mentega,/c/ms/mentega/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[mentega]] is a translation of [[butter]],2.0
+beurre,/c/fr/beurre/n,Synonym,butter,/c/en/butter,,2.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,puter,/c/sh/puter,,2.0
+beurre,/c/fr/beurre/v/wn/contact,Synonym,butter,/c/en/butter/v/wn/contact,[[beurre]] is a translation of [[butter]],2.0
+clarified butter,/c/en/clarified_butter/n/wn/food,IsA,butter,/c/en/butter/n/wn/food,[[clarified butter]] is a type of [[butter]],2.0
+manteiga,/c/gl/manteiga/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[manteiga]] is a translation of [[butter]],2.0
+amanteigar,/c/pt/amanteigar/v/wn/contact,Synonym,butter,/c/en/butter/v/wn/contact,[[amanteigar]] is a translation of [[butter]],2.0
+burro,/c/it/burro/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[burro]] is a translation of [[butter]],2.0
+gjalpi,/c/sq/gjalpi/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[gjalpi]] is a translation of [[butter]],2.0
+mantega,/c/ca/mantega/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[mantega]] is a translation of [[butter]],2.0
+牛酪,/c/ja/牛酪/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[牛酪]] is a translation of [[butter]],2.0
+brown butter,/c/en/brown_butter/n/wn/food,IsA,butter,/c/en/butter/n/wn/food,[[brown butter]] is a type of [[butter]],2.0
+کره,/c/fa/کره/n/wn/person,Synonym,butter,/c/en/butter/n/wn/person,[[کره]] is a translation of [[butter]],2.0
+کره,/c/fa/کره/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[کره]] is a translation of [[butter]],2.0
+smør,/c/da/smør/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[smør]] is a translation of [[butter]],2.0
+imburrare,/c/it/imburrare/v/wn/contact,Synonym,butter,/c/en/butter/v/wn/contact,[[imburrare]] is a translation of [[butter]],2.0
+voi,/c/fi/voi/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[voi]] is a translation of [[butter]],2.0
+minyak sapi,/c/id/minyak_sapi/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[minyak sapi]] is a translation of [[butter]],2.0
+Meuniere butter,/c/en/meuniere_butter/n/wn/food,IsA,butter,/c/en/butter/n/wn/food,[[Meuniere butter]] is a type of [[butter]],2.0
+gurin,/c/eu/gurin/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[gurin]] is a translation of [[butter]],2.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,maslac,/c/sh/maslac,,2.0
+Butter,/c/en/butter,ReceivesAction,used in many baking recipes,/c/en/used_in_many_baking_recipes,[[Butter]] is [[used in many baking recipes]],2.0
+バター,/c/ja/バター/n/wn/person,Synonym,butter,/c/en/butter/n/wn/person,[[バター]] is a translation of [[butter]],2.0
+バター,/c/ja/バター/n,Synonym,butter,/c/en/butter,,2.0
+stick,/c/en/stick/n/wn/food,IsA,butter,/c/en/butter/n/wn/food,[[stick]] is a type of [[butter]],2.0
+butter,/c/en/butter,HasProperty,pale yellow,/c/en/pale_yellow,[[butter]] is generally [[pale yellow]],2.0
+mantequilla,/c/es/mantequilla/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[mantequilla]] is a translation of [[butter]],2.0
+חֶמְאָה,/c/he/חמאה/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[חֶמְאָה]] is a translation of [[butter]],2.0
+buruarekin jotzen duen borrokalari,/c/eu/buruarekin_jotzen_duen_borrokalari/n/wn/person,Synonym,butter,/c/en/butter/n/wn/person,[[buruarekin jotzen duen borrokalari]] is a translation of [[butter]],2.0
+Butter,/c/en/butter,CapableOf,coat a frying pan,/c/en/coat_frying_pan,[[Butter]] can [[coat a frying pan]],2.0
+minyak sapi,/c/ms/minyak_sapi/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[minyak sapi]] is a translation of [[butter]],2.0
+maslo,/c/sh/maslo/n,RelatedTo,butter,/c/en/butter,,2.0
+menyapukan mentega,/c/ms/menyapukan_mentega/v/wn/contact,Synonym,butter,/c/en/butter/v/wn/contact,[[menyapukan mentega]] is a translation of [[butter]],2.0
+butter,/c/en/butter/n/wn/person,IsA,combatant,/c/en/combatant/n/wn/person,[[butter]] is a type of [[combatant]],2.0
+زُبْدَة,/c/ar/زبدة/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[زُبْدَة]] is a translation of [[butter]],2.0
+smør,/c/no/smør/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[smør]] is a translation of [[butter]],2.0
+butter,/c/en/butter,AtLocation,a store,/c/en/store,You are likely to find [[butter]] in [[a store]].,2.0
+butter,/c/en/butter,UsedFor,flavoring,/c/en/flavoring,[[butter]] is for [[flavoring]].,2.0
+maslac,/c/sh/maslac/n,RelatedTo,butter,/c/en/butter,,2.0
+butter,/c/en/butter,ReceivesAction,served at a restaurant,/c/en/served_at_restaurant,[[butter]] is [[served at a restaurant]],2.0
+memberi mentega,/c/id/memberi_mentega/v/wn/contact,Synonym,butter,/c/en/butter/v/wn/contact,[[memberi mentega]] is a translation of [[butter]],2.0
+mentega,/c/id/mentega/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[mentega]] is a translation of [[butter]],2.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,botter,/c/nds/botter,,2.0
+ทาเนย,/c/th/ทาเนย/v/wn/contact,Synonym,butter,/c/en/butter/v/wn/contact,[[ทาเนย]] is a translation of [[butter]],2.0
+バター,/c/ja/バター/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[バター]] is a translation of [[butter]],2.0
+puskija,/c/fi/puskija/n/wn/person,Synonym,butter,/c/en/butter/n/wn/person,[[puskija]] is a translation of [[butter]],2.0
+beurre,/c/fr/beurre/n/wn/person,Synonym,butter,/c/en/butter/n/wn/person,[[beurre]] is a translation of [[butter]],2.0
+เนย,/c/th/เนย/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[เนย]] is a translation of [[butter]],2.0
+butter,/c/en/butter/n/wn/food,IsA,dairy product,/c/en/dairy_product/n/wn/food,[[butter]] is a type of [[dairy product]],2.0
+牛酪,/c/ja/牛酪/n,Synonym,butter,/c/en/butter,,2.0
+masło,/c/pl/masło/n/wn/food,Synonym,butter,/c/en/butter/n/wn/food,[[masło]] is a translation of [[butter]],2.0
+puter,/c/sh/puter/n,RelatedTo,butter,/c/en/butter,,2.0
+butter,/c/en/butter,RelatedTo,margarine,/c/en/margarine,[[butter]] is related to [[margarine]],1.681
+butter,/c/en/butter,RelatedTo,yellow,/c/en/yellow,[[butter]] is related to [[yellow]],1.6760000000000002
+黄油,/c/zh/黄油,Synonym,butter,/c/en/butter,,1.5
+butter,/c/en/butter,RelatedTo,dairy,/c/en/dairy,[[butter]] is related to [[dairy]],1.415
+butter,/c/en/butter,RelatedTo,spread,/c/en/spread,[[butter]] is related to [[spread]],1.396
+butter,/c/en/butter,RelatedTo,milk,/c/en/milk,[[butter]] is related to [[milk]],1.193
+butter,/c/en/butter,RelatedTo,toast,/c/en/toast,[[butter]] is related to [[toast]],1.072
+butter,/c/en/butter/n/wikt/en_1,Synonym,tereyağı,/c/tr/tereyağı,,1.0
+ymenyn,/c/cy/ymenyn/n,RelatedTo,butter,/c/en/butter,,1.0
+manteiga,/c/tet/manteiga/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,май,/c/tt/май,,1.0
+smørelse,/c/da/smørelse/n,RelatedTo,butter,/c/en/butter,,1.0
+voidella,/c/fi/voidella/v,RelatedTo,butter,/c/en/butter,,1.0
+cannabutter,/c/en/cannabutter,DerivedFrom,butter,/c/en/butter,,1.0
+にゅうらく,/c/ja/にゅうらく/n,RelatedTo,butter,/c/en/butter,,1.0
+unbuttered,/c/en/unbuttered/a,RelatedTo,butter,/c/en/butter,,1.0
+churning,/c/en/churning/n,RelatedTo,butter,/c/en/butter,,1.0
+baluga,/c/gl/baluga/n,RelatedTo,butter,/c/en/butter,,1.0
+tartine,/c/en/tartine/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,سېرىق ماي,/c/ug/سېرىق_ماي,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bá tah,/c/nan/bá_tah,,1.0
+moy,/c/uz/moy/n,RelatedTo,butter,/c/en/butter,,1.0
+सर्पिस्,/c/sa/सर्पिस्/n,RelatedTo,butter,/c/en/butter,,1.0
+sarı yağ,/c/crh/sarı_yağ/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_2,RelatedTo,butt in,/c/en/butt_in,,1.0
+маслёнка,/c/ru/маслёнка/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,май,/c/kk/май,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,เนย,/c/th/เนย,,1.0
+cannabutter,/c/en/cannabutter/n,RelatedTo,butter,/c/en/butter,,1.0
+renovated butter,/c/en/renovated_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+thrusting,/c/en/thrusting/n,RelatedTo,butter,/c/en/butter,,1.0
+teacake,/c/en/teacake/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,کره,/c/fa/کره,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,白脱,/c/zh/白脱,,1.0
+in bianco,/c/it/in_bianco/a,RelatedTo,butter,/c/en/butter,,1.0
+butters,/c/en/butters/n,RelatedTo,butter,/c/en/butter,,1.0
+butter slide,/c/en/butter_slide/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,сармай,/c/kk/сармай,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bata,/c/tpi/bata,,1.0
+milkhouse,/c/en/milkhouse/n,RelatedTo,butter,/c/en/butter,,1.0
+škubánky,/c/cs/škubánky/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,RelatedTo,butter ham,/c/en/butter_ham,,1.0
+smör,/c/sv/smör/n,RelatedTo,butter,/c/en/butter,,1.0
+butir,/c/mt/butir/n,RelatedTo,butter,/c/en/butter,,1.0
+beurrer,/c/fr/beurrer/v,RelatedTo,butter,/c/en/butter,,1.0
+enllyn,/c/cy/enllyn/n,RelatedTo,butter,/c/en/butter,,1.0
+bata prut,/c/tpi/bata_prut,EtymologicallyDerivedFrom,butter,/c/en/butter,,1.0
+knob,/c/en/knob/n,RelatedTo,butter,/c/en/butter,,1.0
+تره‌یاغی,/c/ota/تره‌یاغی/n,RelatedTo,butter,/c/en/butter,,1.0
+cheese,/c/en/cheese/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butterbutt,/c/en/butterbutt,DerivedFrom,butter,/c/en/butter,,1.0
+ensaymada,/c/ceb/ensaymada/n,RelatedTo,butter,/c/en/butter,,1.0
+buttre,/c/ie/buttre/n,RelatedTo,butter,/c/en/butter,,1.0
+buttering,/c/en/buttering/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,masslaaq,/c/esu/masslaaq,,1.0
+сливочное масло,/c/ru/сливочное_масло/n,RelatedTo,butter,/c/en/butter,,1.0
+butterwoman,/c/en/butterwoman,DerivedFrom,butter,/c/en/butter,,1.0
+beurre,/c/fr/beurre/n,RelatedTo,butter,/c/en/butter,,1.0
+heavy cake,/c/en/heavy_cake/n,RelatedTo,butter,/c/en/butter,,1.0
+wing sauce,/c/en/wing_sauce/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bótter,/c/li/bótter,,1.0
+buttered,/c/en/buttered/a,RelatedTo,butter,/c/en/butter,,1.0
+boter,/c/dum/boter/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n,IsA,dairy product,/c/en/dairy_product/n,,1.0
+margarine,/c/en/margarine/n,RelatedTo,butter,/c/en/butter,,1.0
+butterleaf,/c/en/butterleaf,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butter,/c/gsw/butter,,1.0
+butir,/c/dlm/butir/n,RelatedTo,butter,/c/en/butter,,1.0
+חמאה,/c/he/חמאה/n,RelatedTo,butter,/c/en/butter,,1.0
+vaj,/c/hu/vaj/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bata,/c/fj/bata,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,burro,/c/it/burro,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,კარაქი,/c/ka/კარაქი,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bür,/c/nrf/bür,,1.0
+butere,/c/ang/butere/n,RelatedTo,butter,/c/en/butter,,1.0
+butter salt,/c/en/butter_salt/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,boter,/c/nl/boter,,1.0
+चुपड़ना,/c/hi/चुपड़ना/v,RelatedTo,butter,/c/en/butter,,1.0
+burre,/c/nrf/burre/n,RelatedTo,butter,/c/en/butter,,1.0
+butterhead,/c/en/butterhead,DerivedFrom,butter,/c/en/butter,,1.0
+smarować,/c/pl/smarować/v,RelatedTo,butter,/c/en/butter,,1.0
+smaltz,/c/cim/smaltz/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,menyn,/c/cy/menyn,,1.0
+roomboter,/c/nl/roomboter/n,RelatedTo,butter,/c/en/butter,,1.0
+butterless,/c/en/butterless,DerivedFrom,butter,/c/en/butter/n,,1.0
+chokladboll,/c/sv/chokladboll/n,RelatedTo,butter,/c/en/butter,,1.0
+osełka,/c/pl/osełka/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,masło,/c/pl/masło,,1.0
+churn,/c/en/churn/n,RelatedTo,butter,/c/en/butter,,1.0
+voisilmäpulla,/c/fi/voisilmäpulla/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,сары май,/c/kk/сары_май,,1.0
+butter,/c/en/butter/v/wn/contact,ExternalURL,201270562-v,http://wordnet-rdf.princeton.edu/wn31/201270562-v,,1.0
+kouign amann,/c/br/kouign_amann/n,RelatedTo,butter,/c/en/butter,,1.0
+牛油,/c/zh/牛油,Synonym,butter,/c/en/butter,,1.0
+dairy,/c/en/dairy/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter,EtymologicallyDerivedFrom,buter,/c/enm/buter,,1.0
+slipcoat,/c/en/slipcoat/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n,IsA,bendable thing,/c/en/bendable_thing/n,,1.0
+buttered,/c/en/buttered,FormOf,butter,/c/en/butter/v,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,नौनी,/c/ne/नौनी,,1.0
+ìm,/c/gd/ìm/n,RelatedTo,butter,/c/en/butter,,1.0
+hollandaise sauce,/c/en/hollandaise_sauce/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,pata,/c/mi/pata,,1.0
+jakboter,/c/nl/jakboter/n,RelatedTo,butter,/c/en/butter,,1.0
+rantakala,/c/fi/rantakala/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,མར,/c/bo/མར,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ខ្លាញ់ទឹកដោះ,/c/km/ខ្លាញ់ទឹកដោះ,,1.0
+butterfish,/c/en/butterfish,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,வெண்ணெய்,/c/ta/வெண்ணெய்,,1.0
+duxelles,/c/en/duxelles/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,vaj,/c/hu/vaj,,1.0
+maustevoi,/c/fi/maustevoi/n,RelatedTo,butter,/c/en/butter,,1.0
+persiljavoi,/c/fi/persiljavoi/n,RelatedTo,butter,/c/en/butter,,1.0
+butters,/c/en/butters/n,FormOf,butter,/c/en/butter,,1.0
+dutch hand,/c/en/dutch_hand/n,RelatedTo,butter,/c/en/butter,,1.0
+тос,/c/mn/тос/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,زبدة,/c/ar/زبدة,,1.0
+pat of butter,/c/en/pat_of_butter/n,IsA,butter,/c/en/butter/n,,1.0
+churner,/c/en/churner/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,сүт май,/c/ky/сүт_май,,1.0
+shortening,/c/en/shortening/n,RelatedTo,butter,/c/en/butter,,1.0
+butero,/c/eo/butero/n,RelatedTo,butter,/c/en/butter,,1.0
+smøre,/c/da/smøre/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mantega,/c/ast/mantega,,1.0
+ერბო,/c/ka/ერბო/n,RelatedTo,butter,/c/en/butter,,1.0
+mertéga,/c/jv/mertéga/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/v/wikt/en_1,RelatedTo,spread,/c/en/spread,,1.0
+knoblauchbutter,/c/de/knoblauchbutter/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,май,/c/ba/май,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,gurin,/c/eu/gurin,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ቅቤ,/c/am/ቅቤ,,1.0
+naijyouz,/c/za/naijyouz/n,RelatedTo,butter,/c/en/butter,,1.0
+კარაქი,/c/ka/კარაქი/n,RelatedTo,butter,/c/en/butter,,1.0
+ϭⲉⲗⲓ,/c/cop/ϭⲉⲗⲓ/n,RelatedTo,butter,/c/en/butter,,1.0
+маслить,/c/ru/маслить/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ထောပတ်,/c/my/ထောပတ်,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,gjalpë,/c/sq/gjalpë,,1.0
+ܟܪܥܐ,/c/syc/ܟܪܥܐ/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+βούτυρο,/c/el/βούτυρο/n,RelatedTo,butter,/c/en/butter,,1.0
+نونی,/c/ur/نونی/n,RelatedTo,butter,/c/en/butter,,1.0
+tarte tatin,/c/en/tarte_tatin/n,RelatedTo,butter,/c/en/butter,,1.0
+soupe maigre,/c/en/soupe_maigre/n,RelatedTo,butter,/c/en/butter,,1.0
+beurre,/c/nrf/beurre/n,RelatedTo,butter,/c/en/butter,,1.0
+butterlike,/c/en/butterlike,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,maslo,/c/sl/maslo,,1.0
+alfredo,/c/en/alfredo/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ᎪᏢᏅ,/c/chr/ᎪᏢᏅ,,1.0
+voisilmä,/c/fi/voisilmä/n,RelatedTo,butter,/c/en/butter,,1.0
+bơ,/c/vi/bơ/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+may,/c/crh/may/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ເບີ,/c/lo/ເບີ,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butir,/c/dlm/butir,,1.0
+butter,/c/de/butter/n,Synonym,butter,/c/en/butter,,1.0
+boterberg,/c/nl/boterberg/n,RelatedTo,butter,/c/en/butter,,1.0
+bull butter,/c/en/bull_butter,DerivedFrom,butter,/c/en/butter,,1.0
+scotch hands,/c/en/scotch_hands/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,వెన్న,/c/te/వెన్న,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,unt,/c/ro/unt,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,saryogʻ,/c/uz/saryogʻ,,1.0
+yellow,/c/en/yellow/n,RelatedTo,butter,/c/en/butter,,1.0
+butrizar,/c/io/butrizar/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,beurre,/c/fr/beurre,,1.0
+whipped butter,/c/en/whipped_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bör,/c/vo/bör,,1.0
+blini,/c/en/blini/n,RelatedTo,butter,/c/en/butter,,1.0
+バター,/c/ja/バター/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,黃油,/c/zh/黃油,,1.0
+mandagíiya,/c/nv/mandagíiya/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ܚܐܘܬܐ,/c/syc/ܚܐܘܬܐ,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bơ,/c/vi/bơ,,1.0
+butter,/c/en/butter/n,IsA,grocery,/c/en/grocery/n,,1.0
+βούτυρον,/c/grc/βούτυρον/n,RelatedTo,butter,/c/en/butter,,1.0
+butyrous,/c/en/butyrous/a,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,RelatedTo,churn,/c/en/churn,,1.0
+butro,/c/io/butro,EtymologicallyDerivedFrom,butter,/c/en/butter,,1.0
+butters,/c/en/butters/v,FormOf,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,白塔,/c/hak/白塔,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,vuõjj,/c/sms/vuõjj,,1.0
+buttercream,/c/en/buttercream/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n,IsA,solid object,/c/en/solid_object/n,,1.0
+cookie butter,/c/en/cookie_butter,DerivedFrom,butter,/c/en/butter,,1.0
+ܚܐܘܬܐ,/c/syc/ܚܐܘܬܐ/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,buttre,/c/ie/buttre,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,maslo,/c/sk/maslo,,1.0
+mantega,/c/ast/mantega/n,RelatedTo,butter,/c/en/butter,,1.0
+կարագ,/c/hy/կարագ/n,Synonym,butter,/c/en/butter,,1.0
+buterpano,/c/eo/buterpano/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butro,/c/io/butro,,1.0
+voileipä,/c/fi/voileipä/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,boter,/c/lmo/boter,,1.0
+butterbrot,/c/de/butterbrot/n,RelatedTo,butter,/c/en/butter,,1.0
+kailkenny,/c/en/kailkenny/n,RelatedTo,butter,/c/en/butter,,1.0
+marquise,/c/en/marquise/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mandagíiya,/c/nv/mandagíiya,,1.0
+masło,/c/pl/masło/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,май сүйкөө,/c/ky/май_сүйкөө,,1.0
+пивтембарь,/c/myv/пивтембарь/n,RelatedTo,butter,/c/en/butter,,1.0
+brown butter,/c/en/brown_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,បឺរ,/c/km/បឺរ,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,svėists,/c/lt/svėists,,1.0
+ぎゅうらく,/c/ja/ぎゅうらく/n,RelatedTo,butter,/c/en/butter,,1.0
+vuõjj,/c/sms/vuõjj/n,RelatedTo,butter,/c/en/butter,,1.0
+beurrerie,/c/fr/beurrerie/n,RelatedTo,butter,/c/en/butter,,1.0
+butterfly,/c/en/butterfly,DerivedFrom,butter,/c/en/butter,,1.0
+sviests,/c/lv/sviests/n,RelatedTo,butter,/c/en/butter,,1.0
+цөцгийн тос,/c/mn/цөцгийн_тос/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butyrum,/c/la/butyrum,,1.0
+tablet,/c/en/tablet/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,تره‌یاغی,/c/ota/تره‌یاغی,,1.0
+zangola,/c/it/zangola/n,RelatedTo,butter,/c/en/butter,,1.0
+ribod,/c/br/ribod/n,RelatedTo,butter,/c/en/butter,,1.0
+makhani,/c/en/makhani/a,RelatedTo,butter,/c/en/butter,,1.0
+バター,/c/ja/バター,EtymologicallyDerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,burre,/c/nrf/burre,,1.0
+amann,/c/br/amann/n,RelatedTo,butter,/c/en/butter,,1.0
+牛油,/c/zh/牛油/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,माखणे,/c/mr/माखणे,,1.0
+cumberland rum butter,/c/en/cumberland_rum_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n,ExternalURL,Butter,http://sw.opencyc.org/2012/05/10/concept/en/Butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,פוטער,/c/yi/פוטער,,1.0
+chicken kiev,/c/en/chicken_kiev/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mantikilya,/c/war/mantikilya,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mantega,/c/ca/mantega,,1.0
+burro,/c/it/burro/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,паста,/c/ky/паста,,1.0
+depression cake,/c/en/depression_cake/n,RelatedTo,butter,/c/en/butter,,1.0
+strokka,/c/is/strokka/v,RelatedTo,butter,/c/en/butter,,1.0
+knob of butter,/c/en/knob_of_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+pinch cake,/c/en/pinch_cake/n,RelatedTo,butter,/c/en/butter,,1.0
+buttery,/c/en/buttery,DerivedFrom,butter,/c/en/butter,,1.0
+ᮙᮔ᮪ᮒᮦᮌ,/c/su/ᮙᮔ᮪ᮒᮦᮌ/n,RelatedTo,butter,/c/en/butter,,1.0
+soldier,/c/en/soldier/n,RelatedTo,butter,/c/en/butter,,1.0
+botter,/c/af/botter/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wn/food,ExternalURL,107864314-n,http://wordnet-rdf.princeton.edu/wn31/107864314-n,,1.0
+Butter,/c/en/butter,NotHasProperty,alive,/c/en/alive,[[Butter]] is not [[alive]],1.0
+butter,/c/en/butter,HasProperty,edible,/c/en/edible,[[butter]] is [[edible]],1.0
+gráði,/c/is/gráði/n,RelatedTo,butter,/c/en/butter,,1.0
+valerin,/c/en/valerin/n,RelatedTo,butter,/c/en/butter,,1.0
+toffee,/c/en/toffee/n,RelatedTo,butter,/c/en/butter,,1.0
+buttery,/c/en/buttery/a/wikt/en_2,RelatedTo,butter,/c/en/butter,,1.0
+beurrer,/c/fr/beurrer/v,Synonym,butter,/c/en/butter,,1.0
+butyrum,/c/la/butyrum/n,RelatedTo,butter,/c/en/butter,,1.0
+버터,/c/ko/버터/n,RelatedTo,butter,/c/en/butter,,1.0
+burriera,/c/it/burriera/n,RelatedTo,butter,/c/en/butter,,1.0
+prebuttered,/c/en/prebuttered/a,RelatedTo,butter,/c/en/butter,,1.0
+maslac,/c/sh/maslac,Synonym,butter,/c/en/butter,,1.0
+amanteigar,/c/pt/amanteigar/v,RelatedTo,butter,/c/en/butter,,1.0
+rösti,/c/en/rösti/n,RelatedTo,butter,/c/en/butter,,1.0
+raspeball,/c/no/raspeball/n,RelatedTo,butter,/c/en/butter,,1.0
+choux pastry,/c/en/choux_pastry/n,RelatedTo,butter,/c/en/butter,,1.0
+bûter,/c/fy/bûter/n,RelatedTo,butter,/c/en/butter,,1.0
+کره,/c/fa/کره/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+ఉట్టిమీద వెన్న వుండగా వూరెల్లా నేతికి దేవులాడనేల,/c/te/ఉట్టిమీద_వెన్న_వుండగా_వూరెల్లా_నేతికి_దేవులాడనేల,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mertéga,/c/jv/mertéga,,1.0
+butter,/c/en/butter/n/wikt/en_1,RelatedTo,cream,/c/en/cream,,1.0
+масло,/c/ru/масло/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,puter,/c/sl/puter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,amanenn,/c/br/amanenn,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,сливочное масло,/c/ru/сливочное_масло,,1.0
+botter,/c/nds/botter/n,RelatedTo,butter,/c/en/butter,,1.0
+enllyn gwyn,/c/cy/enllyn_gwyn/n,RelatedTo,butter,/c/en/butter,,1.0
+sahnebutter,/c/de/sahnebutter/n,RelatedTo,butter,/c/en/butter,,1.0
+gurin,/c/eu/gurin/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,sereledi,/c/st/sereledi,,1.0
+whitepot,/c/en/whitepot/n,RelatedTo,butter,/c/en/butter,,1.0
+菠蘿油,/c/zh/菠蘿油/n,RelatedTo,butter,/c/en/butter,,1.0
+маст,/c/mk/маст/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n,RelatedTo,beurre,/c/fr/beurre,,1.0
+butter,/c/de/butter/n,RelatedTo,butter,/c/en/butter,,1.0
+bread and scrape,/c/en/bread_and_scrape/n,RelatedTo,butter,/c/en/butter,,1.0
+smør,/c/fo/smør/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,مسکه,/c/fa/مسکه,,1.0
+butter,/c/en/butter/n,IsA,condiment,/c/en/condiment/n,,1.0
+butterlike,/c/en/butterlike/a,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wn/person,ExternalURL,109904267-n,http://wordnet-rdf.princeton.edu/wn31/109904267-n,,1.0
+puter,/c/sh/puter/n,Synonym,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n,IsA,mixture,/c/en/mixture/n,,1.0
+pineapple cake,/c/en/pineapple_cake/n,RelatedTo,butter,/c/en/butter,,1.0
+peanut butter,/c/en/peanut_butter,DerivedFrom,butter,/c/en/butter/n,,1.0
+pankeyk,/c/ceb/pankeyk/n,RelatedTo,butter,/c/en/butter,,1.0
+bóor,/c/wo/bóor/n,RelatedTo,butter,/c/en/butter,,1.0
+bath oliver,/c/en/bath_oliver/n,RelatedTo,butter,/c/en/butter,,1.0
+масло,/c/cu/масло/n,RelatedTo,butter,/c/en/butter,,1.0
+máselnice,/c/cs/máselnice/n,RelatedTo,butter,/c/en/butter,,1.0
+butterless,/c/en/butterless,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,බටර්,/c/si/බටර්,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,牛油,/c/nan/牛油,,1.0
+मखानी,/c/hi/मखानी/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/v/wikt/en_1,RelatedTo,butyraceous,/c/en/butyraceous,,1.0
+maître d butter,/c/en/maître_d_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,manteiga,/c/gl/manteiga,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,乳油,/c/hak/乳油,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,گھی,/c/ur/گھی,,1.0
+crempog,/c/en/crempog/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,manteca,/c/an/manteca,,1.0
+trocken brot,/c/de/trocken_brot/n,RelatedTo,butter,/c/en/butter,,1.0
+searcher,/c/en/searcher/n,RelatedTo,butter,/c/en/butter,,1.0
+valkosipulivoi,/c/fi/valkosipulivoi/n,RelatedTo,butter,/c/en/butter,,1.0
+pela,/c/gl/pela/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butterless,/c/en/butterless/a,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butiro,/c/vec/butiro,,1.0
+liire,/c/gsw/liire/n,RelatedTo,butter,/c/en/butter,,1.0
+bör,/c/vo/bör/n,RelatedTo,butter,/c/en/butter,,1.0
+酥油,/c/zh/酥油/n,RelatedTo,butter,/c/en/butter,,1.0
+maalaisvoi,/c/fi/maalaisvoi/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,путер,/c/mk/путер,,1.0
+酥油,/c/zh/酥油,Synonym,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,માખણ,/c/gu/માખણ,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,મસ્કો,/c/gu/મસ્કો,,1.0
+тхъу,/c/ady/тхъу/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,масло,/c/ru/масло,,1.0
+মাখন,/c/bn/মাখন/n,RelatedTo,butter,/c/en/butter,,1.0
+मक्खन लगाना,/c/hi/मक्खन_लगाना/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,siagi,/c/sw/siagi,,1.0
+schmier,/c/lb/schmier/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,amavuta,/c/rw/amavuta,,1.0
+вӧй,/c/udm/вӧй/n,RelatedTo,butter,/c/en/butter,,1.0
+butterwoman,/c/en/butterwoman/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butiru,/c/co/butiru,,1.0
+butter,/c/en/butter,ExternalURL,Butter,http://dbpedia.org/resource/Butter,,1.0
+botro,/c/srn/botro/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,subag,/c/so/subag,,1.0
+כרעא,/c/arc/כרעא/n,RelatedTo,butter,/c/en/butter,,1.0
+butterweed,/c/en/butterweed,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,diw,/c/wo/diw,,1.0
+grilled cheese,/c/en/grilled_cheese/n,RelatedTo,butter,/c/en/butter,,1.0
+maslo,/c/sk/maslo/n,RelatedTo,butter,/c/en/butter,,1.0
+kouign amann,/c/fr/kouign_amann/n,RelatedTo,butter,/c/en/butter,,1.0
+beleggen,/c/nl/beleggen/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,バター,/c/ja/バター,,1.0
+botter,/c/af/botter/v/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,повидло,/c/ky/повидло,,1.0
+cacio e pepe,/c/it/cacio_e_pepe/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,乳酪,/c/ja/乳酪,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,buter,/c/lmo/buter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,smör,/c/sv/smör,,1.0
+వెన్న,/c/te/వెన్న/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,máslo,/c/cs/máslo,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,boure,/c/wa/boure,,1.0
+butiro,/c/vec/butiro/n,RelatedTo,butter,/c/en/butter,,1.0
+beurre manié,/c/en/beurre_manié/n,RelatedTo,butter,/c/en/butter,,1.0
+smjör,/c/is/smjör/n,RelatedTo,butter,/c/en/butter,,1.0
+voisula,/c/fi/voisula/n,RelatedTo,butter,/c/en/butter,,1.0
+白脱,/c/zh/白脱,Synonym,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,βουτυρον,/c/grc/βουτυρον,,1.0
+butterable,/c/en/butterable/a,RelatedTo,butter,/c/en/butter,,1.0
+yakbutter,/c/de/yakbutter/n,RelatedTo,butter,/c/en/butter,,1.0
+butter dish,/c/en/butter_dish,DerivedFrom,butter,/c/en/butter/n,,1.0
+butter tart,/c/en/butter_tart/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butyro,/c/ia/butyro,,1.0
+buttered,/c/en/buttered/v,RelatedTo,butter,/c/en/butter,,1.0
+roux,/c/en/roux/n,RelatedTo,butter,/c/en/butter,,1.0
+epankeik,/c/na/epankeik/n,RelatedTo,butter,/c/en/butter,,1.0
+लोणी,/c/mr/लोणी/n,RelatedTo,butter,/c/en/butter,,1.0
+زبد,/c/ar/زبد/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+voimme,/c/fi/voimme/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+bata,/c/tpi/bata/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+rebutter,/c/en/rebutter/v/wikt/en_2,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butre,/c/nov/butre,,1.0
+گھی,/c/ur/گھی/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,sviestas,/c/lt/sviestas,,1.0
+puskija,/c/fi/puskija/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,vuodja,/c/se/vuodja,,1.0
+butter,/c/en/butter,ExternalURL,Q34172,http://wikidata.dbpedia.org/resource/Q34172,,1.0
+smør,/c/no/smør/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butterburger,/c/en/butterburger/n,RelatedTo,butter,/c/en/butter,,1.0
+կոգի,/c/hy/կոգի/n,RelatedTo,butter,/c/en/butter,,1.0
+piccata,/c/it/piccata/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,smjör,/c/is/smjör,,1.0
+moonshine pudding,/c/en/moonshine_pudding/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,黄油,/c/zh/黄油,,1.0
+sweet butter,/c/en/sweet_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+nonbuttered,/c/en/nonbuttered/a,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,گيہہ,/c/sd/گيہہ,,1.0
+शुक्ल,/c/sa/शुक्ल/n,RelatedTo,butter,/c/en/butter,,1.0
+vuojâ,/c/smn/vuojâ/n,RelatedTo,butter,/c/en/butter,,1.0
+sviestas,/c/lt/sviestas/n,Synonym,butter,/c/en/butter,,1.0
+vuodja,/c/se/vuodja/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,paintg,/c/rm/paintg,,1.0
+shortbread,/c/en/shortbread/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,botter,/c/lb/botter,,1.0
+butra,/c/dsb/butra/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mesge,/c/tk/mesge,,1.0
+կարագ,/c/hy/կարագ/n,RelatedTo,butter,/c/en/butter,,1.0
+牛酪,/c/zh/牛酪/n,RelatedTo,butter,/c/en/butter,,1.0
+bööder,/c/frr/bööder/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,сары май,/c/ky/сары_май,,1.0
+torma,/c/en/torma/n,RelatedTo,butter,/c/en/butter,,1.0
+negerboll,/c/sv/negerboll/n,RelatedTo,butter,/c/en/butter,,1.0
+beurrier,/c/fr/beurrier/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,manteca,/c/es/manteca,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,yağ,/c/az/yağ,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,կարագ,/c/hy/կարագ,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,버터,/c/ko/버터,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,नवनीत,/c/sa/नवनीत,,1.0
+buttermint,/c/en/buttermint,DerivedFrom,butter,/c/en/butter,,1.0
+battre lé beurre,/c/nrf/battre_lé_beurre/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,buutere,/c/stq/buutere,,1.0
+butteroil,/c/en/butteroil,DerivedFrom,butter,/c/en/butter,,1.0
+bür,/c/nrf/bür/n,RelatedTo,butter,/c/en/butter,,1.0
+pound cake,/c/en/pound_cake/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,anke,/c/gsw/anke,,1.0
+путер,/c/mk/путер/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,масла,/c/be/масла,,1.0
+havregrynskugle,/c/da/havregrynskugle/n,RelatedTo,butter,/c/en/butter,,1.0
+ой,/c/myv/ой/n,RelatedTo,butter,/c/en/butter,,1.0
+sürmek,/c/tr/sürmek/v/wikt/en_2,RelatedTo,butter,/c/en/butter,,1.0
+või,/c/vot/või/n/wikt/en_2,RelatedTo,butter,/c/en/butter,,1.0
+白脫,/c/zh/白脫/n,RelatedTo,butter,/c/en/butter,,1.0
+mantega,/c/id/mantega/n,RelatedTo,butter,/c/en/butter,,1.0
+butteroil,/c/en/butteroil/n,RelatedTo,butter,/c/en/butter,,1.0
+beurrer,/c/nrf/beurrer/v,RelatedTo,butter,/c/en/butter,,1.0
+buter,/c/enm/buter/n,RelatedTo,butter,/c/en/butter,,1.0
+buttercrunch,/c/en/buttercrunch,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter,DerivedFrom,butt,/c/en/butt,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ой,/c/myv/ой,,1.0
+punneq,/c/kl/punneq/n,RelatedTo,butter,/c/en/butter,,1.0
+või,/c/et/või/n/wikt/en_2,RelatedTo,butter,/c/en/butter,,1.0
+brown sauce,/c/en/brown_sauce/n,RelatedTo,butter,/c/en/butter,,1.0
+butters,/c/en/butters,FormOf,butter,/c/en/butter/v,,1.0
+sürülmemek,/c/tr/sürülmemek/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,βουτυρο,/c/el/βουτυρο,,1.0
+voi,/c/fi/voi/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+buttercross,/c/en/buttercross,DerivedFrom,butter,/c/en/butter,,1.0
+või,/c/et/või/n,Synonym,butter,/c/en/butter,,1.0
+tèrrinne à beurre,/c/nrf/tèrrinne_à_beurre/n,RelatedTo,butter,/c/en/butter,,1.0
+bordelaise sauce,/c/en/bordelaise_sauce/n,RelatedTo,butter,/c/en/butter,,1.0
+ancho,/c/goh/ancho/n,RelatedTo,butter,/c/en/butter,,1.0
+lemon curd,/c/en/lemon_curd/n,RelatedTo,butter,/c/en/butter,,1.0
+amanyn,/c/kw/amanyn/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bodre,/c/oc/bodre,,1.0
+ಬೆಣ್ಣೆ,/c/kn/ಬೆಣ್ಣೆ/n,RelatedTo,butter,/c/en/butter,,1.0
+schmieren,/c/de/schmieren/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ياغ,/c/ota/ياغ,,1.0
+dritteli,/c/fi/dritteli/n,RelatedTo,butter,/c/en/butter,,1.0
+नोनी,/c/hi/नोनी/n,RelatedTo,butter,/c/en/butter,,1.0
+gjalpë,/c/sq/gjalpë/n,RelatedTo,butter,/c/en/butter,,1.0
+friture,/c/fr/friture/n,RelatedTo,butter,/c/en/butter,,1.0
+黃油,/c/zh/黃油,Synonym,butter,/c/en/butter,,1.0
+bog butter,/c/en/bog_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+lac concretum,/c/la/lac_concretum/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butiru,/c/sc/butiru,,1.0
+caprylic acid,/c/en/caprylic_acid/n,RelatedTo,butter,/c/en/butter,,1.0
+herb butter,/c/en/herb_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+mantega,/c/ca/mantega/n,Synonym,butter,/c/en/butter,,1.0
+butterbird,/c/en/butterbird,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mentega,/c/ms/mentega,,1.0
+primrosing,/c/en/primrosing/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,umtu,/c/rup/umtu,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,که‌ره‌,/c/ku/که‌ره‌,,1.0
+mantequilla,/c/es/mantequilla/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,घी,/c/hi/घी,,1.0
+butyro,/c/ia/butyro/n,RelatedTo,butter,/c/en/butter,,1.0
+butre,/c/nov/butre/n,RelatedTo,butter,/c/en/butter,,1.0
+पिण्ड,/c/sa/पिण्ड/n,RelatedTo,butter,/c/en/butter,,1.0
+नवनीत,/c/sa/नवनीत/n,RelatedTo,butter,/c/en/butter,,1.0
+imburrare,/c/it/imburrare/v,RelatedTo,butter,/c/en/butter,,1.0
+genoa cake,/c/en/genoa_cake/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,RelatedTo,butterfly,/c/en/butterfly,,1.0
+arricciaburro,/c/it/arricciaburro/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter,EtymologicallyDerivedFrom,butere,/c/ang/butere,,1.0
+butterer,/c/en/butterer,DerivedFrom,butter,/c/en/butter,,1.0
+butters,/c/en/butters,FormOf,butter,/c/en/butter/n,,1.0
+spalmare,/c/it/spalmare/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,man shanu,/c/ha/man_shanu,,1.0
+buttermilk,/c/en/buttermilk/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,масло,/c/cu/масло,,1.0
+མར,/c/bo/མར/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butterer,/c/en/butterer/n,RelatedTo,butter,/c/en/butter,,1.0
+bathette,/c/nrf/bathette/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mantikilya,/c/fil/mantikilya,,1.0
+butterman,/c/en/butterman,DerivedFrom,butter,/c/en/butter,,1.0
+կոգի,/c/xcl/կոգի/n,RelatedTo,butter,/c/en/butter,,1.0
+niidleblääjer,/c/gsw/niidleblääjer/n,RelatedTo,butter,/c/en/butter,,1.0
+ᎪᏢᏅ,/c/chr/ᎪᏢᏅ/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mentega,/c/id/mentega,,1.0
+aarti,/c/en/aarti/n,RelatedTo,butter,/c/en/butter,,1.0
+mentéga,/c/jv/mentéga/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,buure,/c/nrf/buure,,1.0
+tereyağı,/c/tr/tereyağı/n,RelatedTo,butter,/c/en/butter,,1.0
+sacher torte,/c/en/sacher_torte/n,RelatedTo,butter,/c/en/butter,,1.0
+pintos,/c/ceb/pintos/n,RelatedTo,butter,/c/en/butter,,1.0
+pancake,/c/en/pancake/n,RelatedTo,butter,/c/en/butter,,1.0
+buttern,/c/de/buttern/v,RelatedTo,butter,/c/en/butter,,1.0
+నవనీతము,/c/te/నవనీతము/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,牛酪,/c/ja/牛酪,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,牛油,/c/hak/牛油,,1.0
+butter muslin,/c/en/butter_muslin/n,RelatedTo,butter,/c/en/butter,,1.0
+butterman,/c/en/butterman/n,RelatedTo,butter,/c/en/butter,,1.0
+αβουτύρωτοσ,/c/el/αβουτύρωτοσ/a,RelatedTo,butter,/c/en/butter,,1.0
+hard sauce,/c/en/hard_sauce/n,RelatedTo,butter,/c/en/butter,,1.0
+botter,/c/lb/botter/n,RelatedTo,butter,/c/en/butter,,1.0
+gurin,/c/eu/gurin/n,Synonym,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,eeym,/c/gv/eeym,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butter,/c/de/butter,,1.0
+panade,/c/fr/panade/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,חמאה,/c/he/חמאה,,1.0
+май,/c/kk/май/n,RelatedTo,butter,/c/en/butter,,1.0
+butterburger,/c/en/butterburger,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter,EtymologicallyDerivedFrom,βουτυρον,/c/grc/βουτυρον,,1.0
+voinappi,/c/fi/voinappi/n,RelatedTo,butter,/c/en/butter,,1.0
+pea butter,/c/en/pea_butter,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,punneq,/c/kl/punneq,,1.0
+butterball,/c/en/butterball,DerivedFrom,butter,/c/en/butter,,1.0
+buttering,/c/en/buttering,FormOf,butter,/c/en/butter/v,,1.0
+麻森,/c/zh/麻森/n,RelatedTo,butter,/c/en/butter,,1.0
+võid,/c/et/võid/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n,IsA,homogeneous structure,/c/en/homogeneous_structure/n,,1.0
+sviestas,/c/lt/sviestas/n,RelatedTo,butter,/c/en/butter,,1.0
+bitsukoy,/c/ceb/bitsukoy/n,RelatedTo,butter,/c/en/butter,,1.0
+dra,/c/sq/dra/n,RelatedTo,butter,/c/en/butter,,1.0
+smøre,/c/no/smøre/v,RelatedTo,butter,/c/en/butter,,1.0
+mentega,/c/id/mentega/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,घृत,/c/sa/घृत,,1.0
+burrificio,/c/it/burrificio/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,pata,/c/sm/pata,,1.0
+butiru,/c/co/butiru/n,RelatedTo,butter,/c/en/butter,,1.0
+corn oyster,/c/en/corn_oyster/n,RelatedTo,butter,/c/en/butter,,1.0
+醍醐,/c/ja/醍醐/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,imb,/c/sga/imb,,1.0
+imb,/c/sga/imb/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,amanyn,/c/kw/amanyn,,1.0
+pöytävoi,/c/fi/pöytävoi/n,RelatedTo,butter,/c/en/butter,,1.0
+smør,/c/da/smør/n,RelatedTo,butter,/c/en/butter,,1.0
+buttering,/c/en/buttering/v,FormOf,butter,/c/en/butter,,1.0
+جهر,/c/ar/جهر/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bûter,/c/fy/bûter,,1.0
+ibhotela,/c/zu/ibhotela/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,svīsts,/c/ltg/svīsts,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ເນີຍ,/c/lo/ເນີຍ,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,масло,/c/uk/масло,,1.0
+smyrja,/c/is/smyrja/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter,AtLocation,homes,/c/en/homes,You are likely to find [[butter]] in [[homes]].,1.0
+icebox pie,/c/en/icebox_pie/n,RelatedTo,butter,/c/en/butter,,1.0
+spreader,/c/en/spreader/n,RelatedTo,butter,/c/en/butter,,1.0
+oyster rockefeller,/c/en/oyster_rockefeller/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,масло,/c/bg/масло,,1.0
+butterable,/c/en/butterable,DerivedFrom,butter,/c/en/butter,,1.0
+butterfingers,/c/en/butterfingers,DerivedFrom,butter,/c/en/butter,,1.0
+butternut,/c/en/butternut,DerivedFrom,butter,/c/en/butter,,1.0
+butero,/c/eo/butero,EtymologicallyDerivedFrom,butter,/c/en/butter,,1.0
+hatkeyk,/c/ceb/hatkeyk/n,RelatedTo,butter,/c/en/butter,,1.0
+butterball,/c/en/butterball/n,RelatedTo,butter,/c/en/butter,,1.0
+bean pie,/c/en/bean_pie/n,RelatedTo,butter,/c/en/butter,,1.0
+café de paris sauce,/c/en/café_de_paris_sauce/n,RelatedTo,butter,/c/en/butter,,1.0
+diw,/c/wo/diw/n,RelatedTo,butter,/c/en/butter,,1.0
+butter ham,/c/en/butter_ham,DerivedFrom,butter,/c/en/butter,,1.0
+manteiga,/c/gl/manteiga/n,RelatedTo,butter,/c/en/butter,,1.0
+butterscotch,/c/en/butterscotch/n,RelatedTo,butter,/c/en/butter,,1.0
+زبد,/c/ar/زبد/v/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+voitamme,/c/fi/voitamme/n,RelatedTo,butter,/c/en/butter,,1.0
+yağ,/c/crh/yağ/n,RelatedTo,butter,/c/en/butter,,1.0
+pâte brisée,/c/en/pâte_brisée/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n,HasContext,cuisine,/c/fr/cuisine,,1.0
+menyn,/c/cy/menyn/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,གསོལ མར,/c/bo/གསོལ_མར,,1.0
+βούτυροσ,/c/grc/βούτυροσ/n,RelatedTo,butter,/c/en/butter,,1.0
+իւղ,/c/xcl/իւղ/n,RelatedTo,butter,/c/en/butter,,1.0
+smeren,/c/nl/smeren/v/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,smør,/c/da/smør,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,botiro,/c/vec/botiro,,1.0
+scalloped oyster,/c/en/scalloped_oyster/n,RelatedTo,butter,/c/en/butter,,1.0
+nonbutter,/c/en/nonbutter,DerivedFrom,butter,/c/en/butter,,1.0
+manteca,/c/es/manteca/n,RelatedTo,butter,/c/en/butter,,1.0
+rebutter,/c/en/rebutter,DerivedFrom,butter,/c/en/butter,,1.0
+կարագ,/c/axm/կարագ/n,RelatedTo,butter,/c/en/butter,,1.0
+नवनी,/c/hi/नवनी/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,voi,/c/fi/voi,,1.0
+масло,/c/uk/масло/n,RelatedTo,butter,/c/en/butter,,1.0
+boter,/c/nl/boter/n,RelatedTo,butter,/c/en/butter,,1.0
+मक्खन,/c/hi/मक्खन/n,RelatedTo,butter,/c/en/butter,,1.0
+buttercup,/c/en/buttercup,DerivedFrom,butter,/c/en/butter,,1.0
+botergeel,/c/nl/botergeel/a,RelatedTo,butter,/c/en/butter,,1.0
+масляный,/c/ru/масляный/a,RelatedTo,butter,/c/en/butter,,1.0
+buttered,/c/en/buttered/v,FormOf,butter,/c/en/butter,,1.0
+βουτυροκομία,/c/el/βουτυροκομία/n,RelatedTo,butter,/c/en/butter,,1.0
+नवनीत,/c/hi/नवनीत/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,smør,/c/fo/smør,,1.0
+tabl'ye à beurre,/c/nrf/tabl'ye_à_beurre/n,RelatedTo,butter,/c/en/butter,,1.0
+奶油,/c/zh/奶油/n,RelatedTo,butter,/c/en/butter,,1.0
+ᎪᏒᏅ,/c/chr/ᎪᏒᏅ/n,RelatedTo,butter,/c/en/butter,,1.0
+white sauce,/c/en/white_sauce/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ama vuta,/c/rw/ama_vuta,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,মাখন,/c/bn/মাখন,,1.0
+tartine,/c/fr/tartine/n,RelatedTo,butter,/c/en/butter,,1.0
+dough,/c/en/dough/n,RelatedTo,butter,/c/en/butter,,1.0
+dibera,/c/mg/dibera/n,RelatedTo,butter,/c/en/butter,,1.0
+sarı may,/c/crh/sarı_may/n,RelatedTo,butter,/c/en/butter,,1.0
+butterhorn,/c/en/butterhorn/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butra,/c/dsb/butra,,1.0
+mentega,/c/ms/mentega/n,RelatedTo,butter,/c/en/butter,,1.0
+bimide,/c/oj/bimide/n,RelatedTo,butter,/c/en/butter,,1.0
+baste,/c/en/baste/v/wikt/en_2,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter,EtymologicallyDerivedFrom,butyrum,/c/la/butyrum,,1.0
+butter,/c/en/butter/n,IsA,spread,/c/en/spread/n/opencyc/spread_food,,1.0
+buttercream,/c/en/buttercream,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter,ReceivesAction,eaten,/c/en/eaten,[[butter]] can be [[eaten]],1.0
+colcannon,/c/en/colcannon/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,равғани зард,/c/tg/равғани_зард,,1.0
+karelian pasty,/c/en/karelian_pasty/n,RelatedTo,butter,/c/en/butter,,1.0
+siagi,/c/sw/siagi/n,RelatedTo,butter,/c/en/butter,,1.0
+арыы,/c/sah/арыы/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bè,/c/ht/bè,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mileg,/c/vo/mileg,,1.0
+زبدة,/c/ar/زبدة/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,माखन,/c/hi/माखन,,1.0
+butterweich,/c/de/butterweich/a,RelatedTo,butter,/c/en/butter,,1.0
+apposet,/c/fi/apposet/n,RelatedTo,butter,/c/en/butter,,1.0
+boterkoek,/c/nl/boterkoek/n,RelatedTo,butter,/c/en/butter,,1.0
+buturo,/c/osp/buturo/n,RelatedTo,butter,/c/en/butter,,1.0
+butterwort,/c/en/butterwort,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,sviests,/c/lv/sviests,,1.0
+butterbur,/c/en/butterbur,DerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,牛油,/c/zh/牛油,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ibhotela,/c/zu/ibhotela,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butere,/c/ang/butere,,1.0
+牛酪,/c/ja/牛酪/n,RelatedTo,butter,/c/en/butter,,1.0
+ibhotolo,/c/xh/ibhotolo/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ϭⲉⲗⲓ,/c/cop/ϭⲉⲗⲓ,,1.0
+ibhotela,/c/zu/ibhotela,EtymologicallyDerivedFrom,butter,/c/en/butter,,1.0
+canne à beurre,/c/nrf/canne_à_beurre/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,burre,/c/oc/burre,,1.0
+mantikilya,/c/fil/mantikilya/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,waiūpaka,/c/haw/waiūpaka,,1.0
+eeym,/c/gv/eeym/n,RelatedTo,butter,/c/en/butter,,1.0
+maslo,/c/sl/maslo/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,im,/c/ga/im,,1.0
+bơ,/c/vi/bơ/n,Synonym,butter,/c/en/butter,,1.0
+butterbeer,/c/en/butterbeer,DerivedFrom,butter,/c/en/butter,,1.0
+raupenleim,/c/de/raupenleim/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,botter,/c/af/botter,,1.0
+مکھن,/c/ur/مکھن/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,нæлхæ,/c/os/нæлхæ,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ਮੱਖਣ,/c/pa/ਮੱਖਣ,,1.0
+umtu,/c/rup/umtu/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+myristin,/c/en/myristin/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bööder,/c/frr/bööder,,1.0
+vajaz,/c/hu/vajaz/v,RelatedTo,butter,/c/en/butter,,1.0
+เนย,/c/th/เนย/n,RelatedTo,butter,/c/en/butter,,1.0
+បឺរ,/c/km/បឺរ/n,RelatedTo,butter,/c/en/butter,,1.0
+ထောပတ်,/c/my/ထောပတ်/n,RelatedTo,butter,/c/en/butter,,1.0
+白脫,/c/zh/白脫,EtymologicallyDerivedFrom,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butir,/c/mt/butir,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,butero,/c/eo/butero,,1.0
+putter,/c/wym/putter/n,RelatedTo,butter,/c/en/butter,,1.0
+ເບີ,/c/lo/ເບີ/n,RelatedTo,butter,/c/en/butter,,1.0
+acetoin,/c/en/acetoin/n,RelatedTo,butter,/c/en/butter,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+manteiga,/c/pt/manteiga/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,putter,/c/wym/putter,,1.0
+im,/c/ga/im/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+масла,/c/be/масла/n,RelatedTo,butter,/c/en/butter,,1.0
+माखण,/c/mr/माखण/n,RelatedTo,butter,/c/en/butter,,1.0
+pelota,/c/gl/pelota/n,RelatedTo,butter,/c/en/butter,,1.0
+anke,/c/gsw/anke/n,RelatedTo,butter,/c/en/butter,,1.0
+ⲥⲁⲓⲣⲉ,/c/cop/ⲥⲁⲓⲣⲉ/n,RelatedTo,butter,/c/en/butter,,1.0
+béchamel sauce,/c/en/béchamel_sauce/n,RelatedTo,butter,/c/en/butter,,1.0
+ខ្លាញ់ទឹកដោះ,/c/km/ខ្លាញ់ទឹកដោះ/n,RelatedTo,butter,/c/en/butter,,1.0
+bata,/c/tpi/bata,EtymologicallyDerivedFrom,butter,/c/en/butter,,1.0
+butyric acid,/c/en/butyric_acid/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,beurre,/c/nrf/beurre,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,smør,/c/no/smør,,1.0
+مسکه,/c/fa/مسکه/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,manteiga,/c/tet/manteiga,,1.0
+سمان,/c/ar/سمان/n/wikt/en_2,RelatedTo,butter,/c/en/butter,,1.0
+máslo,/c/cs/máslo/n,RelatedTo,butter,/c/en/butter,,1.0
+sürülmek,/c/tr/sürülmek/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,白脫,/c/zh/白脫,,1.0
+май,/c/ky/май/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,май,/c/ky/май,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ಬೆಣ್ಣೆ,/c/kn/ಬೆಣ್ಣೆ,,1.0
+shorten,/c/en/shorten/v,RelatedTo,butter,/c/en/butter,,1.0
+voi,/c/vep/voi/n,RelatedTo,butter,/c/en/butter,,1.0
+Butter,/c/en/butter,IsA,like solid milk,/c/en/like_solid_milk,[[Butter]] is [[like solid milk]],1.0
+steak diane,/c/en/steak_diane/n,RelatedTo,butter,/c/en/butter,,1.0
+butters,/c/en/butters/v,RelatedTo,butter,/c/en/butter,,1.0
+man shanu,/c/ha/man_shanu/n,RelatedTo,butter,/c/en/butter,,1.0
+potted shrimp,/c/en/potted_shrimp/n,RelatedTo,butter,/c/en/butter,,1.0
+pommes anna,/c/en/pommes_anna/n,RelatedTo,butter,/c/en/butter,,1.0
+نونیت,/c/ur/نونیت/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,𒉌𒉣𒈾,/c/akk/𒉌𒉣𒈾,,1.0
+butter,/c/en/butter/n,IsA,yellow,/c/en/yellow/n,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,ìm,/c/gd/ìm,,1.0
+butter tea,/c/en/butter_tea/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n,IsA,fat,/c/en/fat/n/opencyc/edible_fat,,1.0
+sürmemek,/c/tr/sürmemek/v,RelatedTo,butter,/c/en/butter,,1.0
+butro,/c/io/butro/n,RelatedTo,butter,/c/en/butter,,1.0
+pat,/c/en/pat/n/wikt/en_1,RelatedTo,butter,/c/en/butter,,1.0
+fairy butter,/c/en/fairy_butter/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/v/wikt/en_1,RelatedTo,ghee,/c/en/ghee,,1.0
+פוטער,/c/yi/פוטער/n,RelatedTo,butter,/c/en/butter,,1.0
+mantequero,/c/es/mantequero/a,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,manteiga,/c/pt/manteiga,,1.0
+butter,/c/en/butter/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mantequilla,/c/es/mantequilla,,1.0
+май,/c/ba/май/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,või,/c/vot/või,,1.0
+voi,/c/fi/voi/n,Synonym,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,मक्खन,/c/ne/मक्खन,,1.0
+βουτυρώνω,/c/el/βουτυρώνω/v,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,равған,/c/tg/равған,,1.0
+máslový,/c/cs/máslový/a,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,mantikilla,/c/qu/mantikilla,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,või,/c/et/või,,1.0
+mantequero,/c/es/mantequero/n,RelatedTo,butter,/c/en/butter,,1.0
+buttermint,/c/en/buttermint/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_2,RelatedTo,butt,/c/en/butt,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,bóor,/c/wo/bóor,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,sponğhe,/c/fur/sponğhe,,1.0
+subag,/c/so/subag/n,RelatedTo,butter,/c/en/butter,,1.0
+butter curler,/c/en/butter_curler/n,RelatedTo,butter,/c/en/butter,,1.0
+奶油,/c/zh/奶油,Synonym,butter,/c/en/butter,,1.0
+meijerivoi,/c/fi/meijerivoi/n,RelatedTo,butter,/c/en/butter,,1.0
+butter paddle,/c/en/butter_paddle/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,مکھن,/c/ur/مکھن,,1.0
+burgoo,/c/en/burgoo/n,RelatedTo,butter,/c/en/butter,,1.0
+butyraceous,/c/en/butyraceous/a,RelatedTo,butter,/c/en/butter,,1.0
+黃油,/c/zh/黃油/n,RelatedTo,butter,/c/en/butter,,1.0
+panettatrice,/c/it/panettatrice/n,RelatedTo,butter,/c/en/butter,,1.0
+mount,/c/en/mount/v/wikt/en_2,RelatedTo,butter,/c/en/butter,,1.0
+بغرير,/c/ar/بغرير/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter,MadeOf,milk,/c/en/milk,[[butter]] is made of [[milk]],1.0
+unt,/c/ro/unt/n,RelatedTo,butter,/c/en/butter,,1.0
+shortcake,/c/en/shortcake/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,मक्खन,/c/hi/मक्खन,,1.0
+白脫,/c/zh/白脫,Synonym,butter,/c/en/butter,,1.0
+umtos,/c/rup/umtos/a,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter,ExternalURL,Butter,http://umbel.org/umbel/sc/Butter,,1.0
+clouting,/c/en/clouting/n,RelatedTo,butter,/c/en/butter,,1.0
+버터,/c/ko/버터,EtymologicallyDerivedFrom,butter,/c/en/butter,,1.0
+ensomada,/c/ceb/ensomada/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/n/wikt/en_1,Synonym,цөцгийн тос,/c/mn/цөцгийн_тос,,1.0
+nantua sauce,/c/en/nantua_sauce/n,RelatedTo,butter,/c/en/butter,,1.0
+alla mugnaia,/c/it/alla_mugnaia/a,RelatedTo,butter,/c/en/butter,,1.0
+smør,/c/no/smør/n,RelatedTo,butter,/c/en/butter,,1.0
+buttersosse,/c/de/buttersosse/n,RelatedTo,butter,/c/en/butter,,1.0
+żalàtt,/c/egl/żalàtt/n,RelatedTo,butter,/c/en/butter,,1.0
+waiūpaka,/c/haw/waiūpaka/n,RelatedTo,butter,/c/en/butter,,1.0
+mantega,/c/ca/mantega/n,RelatedTo,butter,/c/en/butter,,1.0
+butanoic acid,/c/en/butanoic_acid/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter/v,RelatedTo,beurrer,/c/fr/beurrer,,1.0
+panettaio,/c/it/panettaio/n,RelatedTo,butter,/c/en/butter,,1.0
+butter,/c/en/butter,RelatedTo,food,/c/en/food,[[butter]] is related to [[food]],0.9670000000000001
+butter,/c/en/butter,RelatedTo,product,/c/en/product,[[butter]] is related to [[product]],0.9390000000000001
+butter,/c/en/butter,DistinctFrom,margarine,/c/en/margarine,[[butter]] is not [[margarine]],0.7069999999999999
+butter,/c/en/butter,RelatedTo,cream,/c/en/cream,[[butter]] is related to [[cream]],0.5899999999999999
+amanenn,/c/br/amanenn,Synonym,butter,/c/en/butter,,0.5
+مکھن,/c/ur/مکھن,Synonym,butter,/c/en/butter,,0.5
+sviestas,/c/lt/sviestas,Synonym,butter,/c/en/butter,,0.5
+manteiga,/c/gl/manteiga,Synonym,butter,/c/en/butter,,0.5
+bûter,/c/fy/bûter,Synonym,butter,/c/en/butter,,0.5
+butter,/c/de/butter,Synonym,butter,/c/en/butter,,0.5
+mentega,/c/ms/mentega,Synonym,butter,/c/en/butter,,0.5
+मक्खन,/c/hi/मक्खन,Synonym,butter,/c/en/butter,,0.5
+tereyağı,/c/tr/tereyağı,Synonym,butter,/c/en/butter,,0.5
+വെണ്ണ,/c/ml/വെണ്ണ,Synonym,butter,/c/en/butter,,0.5
+βούτυρο,/c/el/βούτυρο,Synonym,butter,/c/en/butter,,0.5
+नौनी,/c/ne/नौनी,Synonym,butter,/c/en/butter,,0.5
+voi,/c/fi/voi,Synonym,butter,/c/en/butter,,0.5
+వెన్న,/c/te/వెన్న,Synonym,butter,/c/en/butter,,0.5
+краве масло,/c/bg/краве_масло,Synonym,butter,/c/en/butter,,0.5
+mantikilya,/c/war/mantikilya,Synonym,butter,/c/en/butter,,0.5
+butero,/c/eo/butero,Synonym,butter,/c/en/butter,,0.5
+mantéga,/c/su/mantéga,Synonym,butter,/c/en/butter,,0.5
+smjör,/c/is/smjör,Synonym,butter,/c/en/butter,,0.5
+butter,/c/en/butter,Synonym,butter,/c/en/butter,,0.5
+sviests,/c/lv/sviests,Synonym,butter,/c/en/butter,,0.5
+মাখন,/c/bn/মাখন,Synonym,butter,/c/en/butter,,0.5
+માખણ,/c/gu/માખણ,Synonym,butter,/c/en/butter,,0.5
+gurin,/c/eu/gurin,Synonym,butter,/c/en/butter,,0.5
+масло вершкове,/c/uk/масло_вершкове,Synonym,butter,/c/en/butter,,0.5
+boter,/c/nl/boter/n/wp/zuivel,Synonym,butter,/c/en/butter,,0.5
+sariyogʻ,/c/uz/sariyogʻ,Synonym,butter,/c/en/butter,,0.5
+mantega,/c/ast/mantega,Synonym,butter,/c/en/butter,,0.5
+බටර්,/c/si/බටර්,Synonym,butter,/c/en/butter,,0.5
+butter,/c/sco/butter,Synonym,butter,/c/en/butter,,0.5
+नवनीतम्,/c/sa/नवनीतम्,Synonym,butter,/c/en/butter,,0.5
+ਮੱਖਣ,/c/pa/ਮੱਖਣ,Synonym,butter,/c/en/butter,,0.5
+smör,/c/sv/smör,Synonym,butter,/c/en/butter,,0.5
+mentega,/c/id/mentega,Synonym,butter,/c/en/butter,,0.5
+botter,/c/nds/botter,Synonym,butter,/c/en/butter,,0.5
+masło,/c/pl/masło,Synonym,butter,/c/en/butter,,0.5
+beurre,/c/fr/beurre,Synonym,butter,/c/en/butter,,0.5
+mantega,/c/ca/mantega,Synonym,butter,/c/en/butter,,0.5
+botter,/c/af/botter,Synonym,butter,/c/en/butter,,0.5
+bơ,/c/vi/bơ,Synonym,butter,/c/en/butter,,0.5
+burre,/c/oc/burre,Synonym,butter,/c/en/butter,,0.5
+ಬೆಣ್ಣೆ,/c/kn/ಬೆಣ್ಣೆ,Synonym,butter,/c/en/butter,,0.5
+butiro,/c/vec/butiro,Synonym,butter,/c/en/butter,,0.5
+butro,/c/io/butro,Synonym,butter,/c/en/butter,,0.5
+atlan may,/c/tt/atlan_may,Synonym,butter,/c/en/butter,,0.5
+boure,/c/wa/boure,Synonym,butter,/c/en/butter,,0.5
+kərə yağı,/c/az/kərə_yağı,Synonym,butter,/c/en/butter,,0.5
+butirru,/c/scn/butirru,Synonym,butter,/c/en/butter,,0.5
+mertéga,/c/jv/mertéga,Synonym,butter,/c/en/butter,,0.5
+vaj,/c/hu/vaj,Synonym,butter,/c/en/butter,,0.5
+manteiga,/c/pt/manteiga,Synonym,butter,/c/en/butter,,0.5
+сметанковае масла,/c/be/сметанковае_масла,Synonym,butter,/c/en/butter,,0.5
+või,/c/et/või,Synonym,butter,/c/en/butter,,0.5
+menyn,/c/cy/menyn,Synonym,butter,/c/en/butter,,0.5
+im,/c/ga/im,Synonym,butter,/c/en/butter,,0.5
+کره,/c/fa/کره/n/wp/لبنیات,Synonym,butter,/c/en/butter,,0.5
+burro,/c/it/burro,Synonym,butter,/c/en/butter,,0.5
+béchamel sauce,/c/en/béchamel_sauce,InstanceOf,butter,/c/en/butter,,0.5
+равғани зард,/c/tg/равғани_зард,Synonym,butter,/c/en/butter,,0.5
+maslo,/c/sl/maslo,Synonym,butter,/c/en/butter,,0.5
+կարագ,/c/hy/կարագ,Synonym,butter,/c/en/butter,,0.5
+வெண்ணெய்,/c/ta/வெண்ணெய்,Synonym,butter,/c/en/butter,,0.5
+nivîşk,/c/ku/nivîşk,Synonym,butter,/c/en/butter,,0.5
+сливочное масло,/c/ru/сливочное_масло,Synonym,butter,/c/en/butter,,0.5
+unt,/c/ro/unt,Synonym,butter,/c/en/butter,,0.5
+smør,/c/no/smør,Synonym,butter,/c/en/butter,,0.5
+버터,/c/ko/버터,Synonym,butter,/c/en/butter,,0.5
+smør,/c/da/smør,Synonym,butter,/c/en/butter,,0.5
+კარაქი,/c/ka/კარაქი,Synonym,butter,/c/en/butter,,0.5
+butter,/c/lmo/butter,Synonym,butter,/c/en/butter,,0.5
+botter,/c/lb/botter,Synonym,butter,/c/en/butter,,0.5
+mantequilla,/c/es/mantequilla,Synonym,butter,/c/en/butter,,0.5
+арыы,/c/sah/арыы/n/wp/үрүҥ_ас,Synonym,butter,/c/en/butter,,0.5
+maslo,/c/sk/maslo,Synonym,butter,/c/en/butter,,0.5
+เนย,/c/th/เนย,Synonym,butter,/c/en/butter,,0.5
+smør,/c/fo/smør,Synonym,butter,/c/en/butter,,0.5
+bè,/c/ht/bè,Synonym,butter,/c/en/butter,,0.5
+زبدة,/c/ar/زبدة,Synonym,butter,/c/en/butter,,0.5
+máslo,/c/cs/máslo,Synonym,butter,/c/en/butter,,0.5
+バター,/c/ja/バター,Synonym,butter,/c/en/butter,,0.5
+חמאה,/c/he/חמאה,Synonym,butter,/c/en/butter,,0.5
+लोणी,/c/mr/लोणी,Synonym,butter,/c/en/butter,,0.5
+butyrum,/c/la/butyrum,Synonym,butter,/c/en/butter,,0.5
+mantikilla,/c/qu/mantikilla,Synonym,butter,/c/en/butter,,0.5
+פוטער,/c/yi/פוטער,Synonym,butter,/c/en/butter,,0.5
+manteca,/c/an/manteca,Synonym,butter,/c/en/butter,,0.5
+ထောပတ်,/c/my/ထောပတ်,Synonym,butter,/c/en/butter,,0.5
+butter,/c/en/butter,RelatedTo,churned,/c/en/churned,[[butter]] is related to [[churned]],0.4910000000000001
+butter,/c/en/butter,RelatedTo,milk product,/c/en/milk_product,[[butter]] is related to [[milk product]],0.47299999999999986
+butter,/c/en/butter,RelatedTo,dairy product,/c/en/dairy_product,[[butter]] is related to [[dairy product]],0.4660000000000002
+butter,/c/en/butter,RelatedTo,lard,/c/en/lard,[[butter]] is related to [[lard]],0.44799999999999995
+roll,/c/en/roll,RelatedTo,butter,/c/en/butter,[[roll]] is related to [[butter]],0.4460000000000002
+butter,/c/en/butter,RelatedTo,cooking,/c/en/cooking,[[butter]] is related to [[cooking]],0.39800000000000013
+toast,/c/en/toast,RelatedTo,butter,/c/en/butter,[[toast]] is related to [[butter]],0.379
+corn,/c/en/corn,RelatedTo,butter,/c/en/butter,[[corn]] is related to [[butter]],0.3679999999999999
+butter,/c/en/butter,RelatedTo,bread spread,/c/en/bread_spread,[[butter]] is related to [[bread spread]],0.3620000000000001
+butter,/c/en/butter,RelatedTo,oil,/c/en/oil,[[butter]] is related to [[oil]],0.35199999999999987
+butter,/c/en/butter,RelatedTo,bread and,/c/en/bread_and,[[butter]] is related to [[bread and]],0.351
+butter,/c/en/butter,RelatedTo,on toast,/c/en/on_toast,[[butter]] is related to [[on toast]],0.2919999999999998
+butter,/c/en/butter,RelatedTo,like,/c/en/like,[[butter]] is related to [[like]],0.2669999999999999
+butter,/c/en/butter,RelatedTo,like margarine,/c/en/like_margarine,[[butter]] is related to [[like margarine]],0.2669999999999999
+butter,/c/en/butter,RelatedTo,produce,/c/en/produce,[[butter]] is related to [[produce]],0.2650000000000001
+butter,/c/en/butter,RelatedTo,oleo,/c/en/oleo,[[butter]] is related to [[oleo]],0.2650000000000001
+butter,/c/en/butter,RelatedTo,made,/c/en/made,[[butter]] is related to [[made]],0.2650000000000001
+butter,/c/en/butter,RelatedTo,dairy produce,/c/en/dairy_produce,[[butter]] is related to [[dairy produce]],0.2650000000000001
+butter,/c/en/butter,RelatedTo,milk made,/c/en/milk_made,[[butter]] is related to [[milk made]],0.2650000000000001
+butter,/c/en/butter,RelatedTo,margarine spread,/c/en/margarine_spread,[[butter]] is related to [[margarine spread]],0.2650000000000001
+butter,/c/en/butter,RelatedTo,yellow cream,/c/en/yellow_cream,[[butter]] is related to [[yellow cream]],0.262
+butter,/c/en/butter,RelatedTo,fat,/c/en/fat,[[butter]] is related to [[fat]],0.2589999999999999
+butter,/c/en/butter,RelatedTo,animal fat,/c/en/animal_fat,[[butter]] is related to [[animal fat]],0.2589999999999999
+butter,/c/en/butter,RelatedTo,animal,/c/en/animal,[[butter]] is related to [[animal]],0.2589999999999999
+butter,/c/en/butter,RelatedTo,on bread,/c/en/on_bread,[[butter]] is related to [[on bread]],0.2519999999999998
+butter,/c/en/butter,EtymologicallyRelatedTo,butter,/c/enm/butter,,0.25
+butter,/c/en/butter,ExternalURL,butter,http://fr.wiktionary.org/wiki/butter,,0.25
+botter,/c/lb/botter,EtymologicallyRelatedTo,butter,/c/en/butter,,0.25
+butter,/c/en/butter,EtymologicallyRelatedTo,boter,/c/nl/boter,,0.25
+waiūpaka,/c/haw/waiūpaka,EtymologicallyRelatedTo,butter,/c/en/butter,,0.25
+butterfly,/c/en/butterfly,EtymologicallyRelatedTo,butter,/c/en/butter,,0.25
+buttery,/c/en/buttery,EtymologicallyRelatedTo,butter,/c/en/butter,,0.25
+butane,/c/en/butane,EtymologicallyRelatedTo,butter,/c/en/butter,,0.25
+butter,/c/en/butter,EtymologicallyRelatedTo,geþweor,/c/ang/geþweor,,0.25
+butter,/c/en/butter,EtymologicallyRelatedTo,творог,/c/ru/творог,,0.25
+butter,/c/en/butter,EtymologicallyRelatedTo,butter,/c/de/butter,,0.25
+bûter,/c/fy/bûter,EtymologicallyRelatedTo,butter,/c/en/butter,,0.25
+butter,/c/en/butter,EtymologicallyRelatedTo,𐬌𐬭𐬌𐬏𐬙,/c/ae/𐬌𐬭𐬌𐬏𐬙,,0.25
+butter,/c/en/butter,EtymologicallyRelatedTo,þweran,/c/ang/þweran,,0.25
+butter,/c/en/butter,EtymologicallyRelatedTo,bûter,/c/fy/bûter,,0.25
+butter,/c/en/butter,ExternalURL,butter,http://en.wiktionary.org/wiki/butter,,0.25
+butter,/c/en/butter,EtymologicallyRelatedTo,τυροσ,/c/grc/τυροσ,,0.25
+butter,/c/en/butter,EtymologicallyRelatedTo,βουσ,/c/grc/βουσ,,0.25
+botter,/c/nds/botter,EtymologicallyRelatedTo,butter,/c/en/butter,,0.25
+butter,/c/en/butter,RelatedTo,spreadable,/c/en/spreadable,[[butter]] is related to [[spreadable]],0.238
+butter,/c/en/butter,RelatedTo,yellow lard,/c/en/yellow_lard,[[butter]] is related to [[yellow lard]],0.2240000000000002
+jelly,/c/en/jelly,Antonym,butter,/c/en/butter,[[jelly]] is the opposite of [[butter]],0.21899999999999986
+butter,/c/en/butter,RelatedTo,toast spread,/c/en/toast_spread,[[butter]] is related to [[toast spread]],0.20999999999999996
+butter,/c/en/butter,RelatedTo,isle,/c/en/isle,[[butter]] is related to [[isle]],0.19799999999999995
+butter,/c/en/butter,RelatedTo,dairy isle,/c/en/dairy_isle,[[butter]] is related to [[dairy isle]],0.19799999999999995
+bread,/c/en/bread,Antonym,butter,/c/en/butter,[[bread]] is the opposite of [[butter]],0.18599999999999994
+butter,/c/en/butter,RelatedTo,and bread,/c/en/and_bread,[[butter]] is related to [[and bread]],0.18400000000000016
+butter,/c/en/butter,RelatedTo,colour,/c/en/colour,[[butter]] is related to [[colour]],0.18400000000000016
+butter,/c/en/butter,RelatedTo,yellow colour,/c/en/yellow_colour,[[butter]] is related to [[yellow colour]],0.18400000000000016
+butter,/c/en/butter,RelatedTo,cook food,/c/en/cook_food,[[butter]] is related to [[cook food]],0.18000000000000016
+butter,/c/en/butter,RelatedTo,cook,/c/en/cook,[[butter]] is related to [[cook]],0.18000000000000016
+drop,/c/en/drop,RelatedTo,butter,/c/en/butter,[[drop]] is related to [[butter]],0.17899999999999983
+butter,/c/en/butter,RelatedTo,kitchen oil,/c/en/kitchen_oil,[[butter]] is related to [[kitchen oil]],0.17700000000000005
+butter,/c/en/butter,RelatedTo,kitchen,/c/en/kitchen,[[butter]] is related to [[kitchen]],0.17700000000000005
+butter,/c/en/butter,RelatedTo,solid,/c/en/solid,[[butter]] is related to [[solid]],0.17499999999999982
+butter,/c/en/butter,RelatedTo,solid milk,/c/en/solid_milk,[[butter]] is related to [[solid milk]],0.17499999999999982
+butter,/c/en/butter,RelatedTo,cows,/c/en/cows,[[butter]] is related to [[cows]],0.17399999999999993
+butter,/c/en/butter,RelatedTo,from cows,/c/en/from_cows,[[butter]] is related to [[from cows]],0.17399999999999993
+toaster,/c/en/toaster,RelatedTo,butter,/c/en/butter,[[toaster]] is related to [[butter]],0.17399999999999993
+butter,/c/en/butter,RelatedTo,bagels,/c/en/bagels,[[butter]] is related to [[bagels]],0.17300000000000004
+butter,/c/en/butter,RelatedTo,on bagels,/c/en/on_bagels,[[butter]] is related to [[on bagels]],0.17300000000000004
+butter,/c/en/butter,RelatedTo,yellow milk,/c/en/yellow_milk,[[butter]] is related to [[yellow milk]],0.17099999999999982
+butter,/c/en/butter,RelatedTo,churned dairy,/c/en/churned_dairy,[[butter]] is related to [[churned dairy]],0.16999999999999993
+butter,/c/en/butter,RelatedTo,churned milk,/c/en/churned_milk,[[butter]] is related to [[churned milk]],0.16999999999999993
+butter,/c/en/butter,RelatedTo,with bread,/c/en/with_bread,[[butter]] is related to [[with bread]],0.16500000000000004
+butter,/c/en/butter,RelatedTo,sandwich,/c/en/sandwich,[[butter]] is related to [[sandwich]],0.16500000000000004
+butter,/c/en/butter,DistinctFrom,oleo,/c/en/oleo,[[butter]] is not [[oleo]],0.16400000000000015
+butter,/c/en/butter,RelatedTo,pan,/c/en/pan,[[butter]] is related to [[pan]],0.16100000000000003
+butter,/c/en/butter,RelatedTo,dairy spread,/c/en/dairy_spread,[[butter]] is related to [[dairy spread]],0.15799999999999992
+butter,/c/en/butter,RelatedTo,churned cream,/c/en/churned_cream,[[butter]] is related to [[churned cream]],0.1549999999999998
+butter,/c/en/butter,RelatedTo,smooth as,/c/en/smooth_as,[[butter]] is related to [[smooth as]],0.14800000000000013
+jelly,/c/en/jelly,RelatedTo,butter,/c/en/butter,[[jelly]] is related to [[butter]],0.14800000000000013
+butter,/c/en/butter,RelatedTo,smooth,/c/en/smooth,[[butter]] is related to [[smooth]],0.14800000000000013
+butter,/c/en/butter,RelatedTo,churning,/c/en/churning,[[butter]] is related to [[churning]],0.14500000000000002
+jar,/c/en/jar,RelatedTo,butter,/c/en/butter,[[jar]] is related to [[butter]],0.14400000000000013
+butter,/c/en/butter,RelatedTo,popcorn,/c/en/popcorn,[[butter]] is related to [[popcorn]],0.1379999999999999
+butter,/c/en/butter,Antonym,margarine,/c/en/margarine,[[butter]] is the opposite of [[margarine]],0.137
+rudder,/c/en/rudder,RelatedTo,butter,/c/en/butter,[[rudder]] is related to [[butter]],0.129
+butter,/c/en/butter,RelatedTo,salted,/c/en/salted,[[butter]] is related to [[salted]],0.1259999999999999
+butter,/c/en/butter,RelatedTo,yellow spread,/c/en/yellow_spread,[[butter]] is related to [[yellow spread]],0.1259999999999999
+butter,/c/en/butter,RelatedTo,lightly salted,/c/en/lightly_salted,[[butter]] is related to [[lightly salted]],0.1259999999999999
