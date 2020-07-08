@@ -15,7 +15,7 @@ cnr = create_namespace(cn_graph, "http://api.conceptnet.io/r/", 'cnr')
 wi = create_namespace(cn_graph, "http://purl.org/ontology/wi/core#", 'wi')
 
 # read csv files with concept net data and add the triples to a graph
-for file in glob.glob(f'../../Data/ConceptNet/cn_data/filtered_data/*.csv'): 
+for file in glob.glob(f'../cn_data/filtered_data/*.csv'): 
     ifile = open(file, 'rt', encoding="utf8")
     reader = csv.reader(ifile)
     rownum = 0
