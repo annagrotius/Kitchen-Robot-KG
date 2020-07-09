@@ -17,7 +17,7 @@ with aff:
 
     class Action(Thing): pass
 
-#qualities
+# properties
 with aff:
     class quality(KitchenEntity>>Quality): pass
 
@@ -31,6 +31,8 @@ with aff:
         range = [str]
 
     class implies(Quality>>Affordance): pass
+
+    class affords(KitchenEntity>>Action): pass
 
 # save ontology
 aff.save(file = "affordance.owl", format = "rdfxml")

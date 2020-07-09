@@ -33,6 +33,11 @@
   <rdfs:range rdf:resource="#Affordance"/>
 </owl:ObjectProperty>
 
+<owl:ObjectProperty rdf:about="#affords">
+  <rdfs:domain rdf:resource="#KitchenEntity"/>
+  <rdfs:range rdf:resource="#Action"/>
+</owl:ObjectProperty>
+
 <owl:Class rdf:about="#KitchenEntity">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>

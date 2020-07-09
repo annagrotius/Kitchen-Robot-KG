@@ -7,6 +7,10 @@
 
 <http://test.org/affordance.owl> a owl:Ontology .
 
+aff:affords a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Action .
+
 aff:color a owl:ObjectProperty ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf aff:quality .
@@ -23,11 +27,11 @@ aff:location a owl:ObjectProperty ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf aff:quality .
 
-aff:Action a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
 aff:Affordance a owl:Class ;
     rdfs:isDefinedBy aff:Action ;
+    rdfs:subClassOf owl:Thing .
+
+aff:Action a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
 aff:KitchenEntity a owl:Class ;

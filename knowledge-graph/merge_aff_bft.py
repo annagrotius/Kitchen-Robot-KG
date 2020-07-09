@@ -52,5 +52,6 @@ def main():
 
     reasoner(merged_g)
 
+
 if __name__ == "__main__":
     main()

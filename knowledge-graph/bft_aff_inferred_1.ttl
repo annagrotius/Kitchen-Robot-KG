@@ -852,142 +852,142 @@ owl:Thing a owl:Class ;
     owl:sameAs owl:Thing .
 
 _:ub2bL227C1 a owl:AllDisjointClasses ;
-    owl:members _:f2d91e4b4be254465933b5ace505cb14eb4 ;
+    owl:members _:f100fc034da514625bb6963b4ee0ad082b4 ;
     owl:sameAs _:ub2bL227C1 .
 
 _:ub2bL230C1 a owl:AllDisjointClasses ;
-    owl:members _:f2d91e4b4be254465933b5ace505cb14eb7 ;
+    owl:members _:f100fc034da514625bb6963b4ee0ad082b7 ;
     owl:sameAs _:ub2bL230C1 .
 
 _:ub2bL233C1 a owl:AllDifferent ;
-    owl:distinctMembers _:f2d91e4b4be254465933b5ace505cb14eb11 ;
+    owl:distinctMembers _:f100fc034da514625bb6963b4ee0ad082b11 ;
     owl:sameAs _:ub2bL233C1 .
 
 _:ub2bL236C1 a owl:AllDifferent ;
-    owl:distinctMembers _:f2d91e4b4be254465933b5ace505cb14eb15 ;
+    owl:distinctMembers _:f100fc034da514625bb6963b4ee0ad082b15 ;
     owl:sameAs _:ub2bL236C1 .
 
 _:ub2bL239C1 a owl:AllDisjointClasses ;
-    owl:members _:f2d91e4b4be254465933b5ace505cb14eb18 ;
+    owl:members _:f100fc034da514625bb6963b4ee0ad082b18 ;
     owl:sameAs _:ub2bL239C1 .
 
 _:ub2bL242C1 a owl:AllDisjointClasses ;
-    owl:members _:f2d91e4b4be254465933b5ace505cb14eb23 ;
+    owl:members _:f100fc034da514625bb6963b4ee0ad082b23 ;
     owl:sameAs _:ub2bL242C1 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb1 rdf:first bft:hardboiled ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb2 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb1 .
+_:f100fc034da514625bb6963b4ee0ad082b1 rdf:first bft:hardboiled ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b2 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b1 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb10 rdf:first bft:Tea ;
+_:f100fc034da514625bb6963b4ee0ad082b10 rdf:first bft:Tea ;
     rdf:rest () ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb10 .
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b10 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb11 rdf:first bft:sauce_dish ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb12 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb11 .
+_:f100fc034da514625bb6963b4ee0ad082b11 rdf:first bft:sauce_dish ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b12 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b11 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb12 rdf:first bft:bread_plate ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb13 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb12 .
+_:f100fc034da514625bb6963b4ee0ad082b12 rdf:first bft:bread_plate ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b13 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b12 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb13 rdf:first bft:butter_dish ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb14 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb13 .
+_:f100fc034da514625bb6963b4ee0ad082b13 rdf:first bft:butter_dish ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b14 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b13 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb14 rdf:first bft:teacup_plate ;
+_:f100fc034da514625bb6963b4ee0ad082b14 rdf:first bft:teacup_plate ;
     rdf:rest () ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb14 .
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b14 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb15 rdf:first bft:hardboiled ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb16 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb15 .
+_:f100fc034da514625bb6963b4ee0ad082b15 rdf:first bft:hardboiled ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b16 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b15 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb16 rdf:first bft:scrambled ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb17 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb16 .
+_:f100fc034da514625bb6963b4ee0ad082b16 rdf:first bft:scrambled ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b17 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b16 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb17 rdf:first bft:fried ;
+_:f100fc034da514625bb6963b4ee0ad082b17 rdf:first bft:fried ;
     rdf:rest () ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb17 .
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b17 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb18 rdf:first bft:Glassware ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb19 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb18 .
+_:f100fc034da514625bb6963b4ee0ad082b18 rdf:first bft:Glassware ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b19 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b18 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb19 rdf:first bft:Plate ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb20 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb19 .
+_:f100fc034da514625bb6963b4ee0ad082b19 rdf:first bft:Plate ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b20 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b19 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb2 rdf:first bft:scrambled ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb3 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb2 .
+_:f100fc034da514625bb6963b4ee0ad082b2 rdf:first bft:scrambled ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b3 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b2 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb20 rdf:first bft:Fork ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb21 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb20 .
+_:f100fc034da514625bb6963b4ee0ad082b20 rdf:first bft:Fork ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b21 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b20 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb21 rdf:first bft:Knife ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb22 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb21 .
+_:f100fc034da514625bb6963b4ee0ad082b21 rdf:first bft:Knife ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b22 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b21 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb22 rdf:first bft:Spoon ;
+_:f100fc034da514625bb6963b4ee0ad082b22 rdf:first bft:Spoon ;
     rdf:rest () ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb22 .
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b22 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb23 rdf:first bft:Food ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb24 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb23 .
+_:f100fc034da514625bb6963b4ee0ad082b23 rdf:first bft:Food ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b24 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b23 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb24 rdf:first bft:Drink ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb25 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb24 .
+_:f100fc034da514625bb6963b4ee0ad082b24 rdf:first bft:Drink ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b25 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b24 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb25 rdf:first bft:Storage ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb26 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb25 .
+_:f100fc034da514625bb6963b4ee0ad082b25 rdf:first bft:Storage ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b26 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b25 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb26 rdf:first bft:Kitchenware ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb27 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb26 .
+_:f100fc034da514625bb6963b4ee0ad082b26 rdf:first bft:Kitchenware ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b27 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b26 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb27 rdf:first bft:Furniture ;
+_:f100fc034da514625bb6963b4ee0ad082b27 rdf:first bft:Furniture ;
     rdf:rest () ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb27 .
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b27 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb3 rdf:first bft:fried ;
+_:f100fc034da514625bb6963b4ee0ad082b3 rdf:first bft:fried ;
     rdf:rest () ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb3 .
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b3 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb4 rdf:first bft:Bread ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb5 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb4 .
+_:f100fc034da514625bb6963b4ee0ad082b4 rdf:first bft:Bread ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b5 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b4 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb5 rdf:first bft:Egg ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb6 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb5 .
+_:f100fc034da514625bb6963b4ee0ad082b5 rdf:first bft:Egg ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b6 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b5 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb6 rdf:first bft:Condiment ;
+_:f100fc034da514625bb6963b4ee0ad082b6 rdf:first bft:Condiment ;
     rdf:rest () ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb6 .
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b6 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb7 rdf:first bft:Juice ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb8 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb7 .
+_:f100fc034da514625bb6963b4ee0ad082b7 rdf:first bft:Juice ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b8 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b7 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb8 rdf:first bft:Coffee ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb9 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb8 .
+_:f100fc034da514625bb6963b4ee0ad082b8 rdf:first bft:Coffee ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b9 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b8 .
 
-_:f2d91e4b4be254465933b5ace505cb14eb9 rdf:first bft:Milk ;
-    rdf:rest _:f2d91e4b4be254465933b5ace505cb14eb10 ;
-    owl:sameAs _:f2d91e4b4be254465933b5ace505cb14eb9 .
+_:f100fc034da514625bb6963b4ee0ad082b9 rdf:first bft:Milk ;
+    rdf:rest _:f100fc034da514625bb6963b4ee0ad082b10 ;
+    owl:sameAs _:f100fc034da514625bb6963b4ee0ad082b9 .
 
 _:ub2bL202C21 a owl:Class ;
     rdfs:subClassOf _:ub2bL202C21,
         owl:Thing ;
     owl:equivalentClass _:ub2bL202C21 ;
-    owl:oneOf _:f2d91e4b4be254465933b5ace505cb14eb1 ;
+    owl:oneOf _:f100fc034da514625bb6963b4ee0ad082b1 ;
     owl:sameAs _:ub2bL202C21 .
 
 _:ub2bL222C21 a owl:Restriction ;
