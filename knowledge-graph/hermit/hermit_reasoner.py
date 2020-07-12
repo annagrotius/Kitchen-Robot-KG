@@ -9,8 +9,6 @@ bft_onto = get_ontology("../ontologies/bft/bft.owl").load()
 
 print(list(aff_onto.classes()))
 print(list(aff_onto.individuals()))
-
-# create closed world and no closed world option
 #
 # print(list(bft_onto.classes()))
 # print(list(bft_onto.individuals()))

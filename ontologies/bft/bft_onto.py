@@ -3,11 +3,24 @@ from rdflib import Graph, Namespace, URIRef
 owlready2.JAVA_EXE ='C:\\Program Files\\Java\\jre1.8.0_191\\bin\\java.exe'
 
 
+def onto_to_graph(ontology, ontology_namespace, ontology_prefix, filename):
+    """
+    Takes an ontology and saves it as an owl file and  ttl file.
+    """
+    ontology.save(file = f'{filename}.owl', format = "rdfxml")
+    g = Graph()
+    g.bind(ontology_prefix, ontology_namespace)
+    g.parse(f'{filename}.owl')
+    g.serialize(f'{filename}.ttl', format='turtle')
+    g.serialize(f'{filename}.nt', format='ntriples')
+
+
 def main():
 
     # initialize ontology
     bft_uri = "http://test.org/bft.owl#"
     bft = get_ontology(bft_uri)
+    bft_namespace = Namespace(bft_uri)
 
     # classes
     with bft:
@@ -120,14 +133,14 @@ def main():
     Furniture.is_edible = [False]
     Storage.is_edible = [False]
 
-    # save ontology and create graph
-    bft.save(file = "bft.owl", format = "rdfxml")
-    bft_g = Graph()
-    bft_namespace = Namespace(bft_uri)
-    bft_g.bind('bft', bft_namespace)
-    bft_g.parse("bft.owl")
-    bft_g.serialize("bft_graph.ttl", format='turtle')
+    # save ontology not closing the world
+    onto_to_graph(bft, bft_namespace, 'bft', 'bft_onto_not_closed')
 
+    # closing world and save this version
+    classes = [Furniture,Kitchenware, Drink, Food, Storage]
+    for c in classes:
+        close_world(c)
+    onto_to_graph(bft, bft_namespace, 'bft', 'bft_onto_closed')
 
 
 if __name__ == "__main__":

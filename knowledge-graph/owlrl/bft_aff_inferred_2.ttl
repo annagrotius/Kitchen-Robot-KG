@@ -65,7 +65,7 @@ _:ub3bL202C21 a rdfs:Class,
         rdfs:Resource,
         owl:Thing ;
     owl:equivalentClass _:ub3bL202C21 ;
-    owl:oneOf _:fc3c69bd958b24e7d8b8d32e05d214c69b1 ;
+    owl:oneOf _:f6b8dd63d9f0b4740a4f3492dd9e397f4b1 ;
     owl:sameAs _:ub3bL202C21 .
 
 _:ub3bL222C21 a rdfs:Class,
@@ -2803,225 +2803,225 @@ false a rdfs:Literal,
 _:ub3bL227C1 a rdfs:Resource,
         owl:AllDisjointClasses,
         owl:Thing ;
-    owl:members _:fc3c69bd958b24e7d8b8d32e05d214c69b4 ;
+    owl:members _:f6b8dd63d9f0b4740a4f3492dd9e397f4b4 ;
     owl:sameAs _:ub3bL227C1 .
 
 _:ub3bL230C1 a rdfs:Resource,
         owl:AllDisjointClasses,
         owl:Thing ;
-    owl:members _:fc3c69bd958b24e7d8b8d32e05d214c69b7 ;
+    owl:members _:f6b8dd63d9f0b4740a4f3492dd9e397f4b7 ;
     owl:sameAs _:ub3bL230C1 .
 
 _:ub3bL233C1 a rdfs:Resource,
         owl:AllDifferent,
         owl:Thing ;
-    owl:distinctMembers _:fc3c69bd958b24e7d8b8d32e05d214c69b11 ;
+    owl:distinctMembers _:f6b8dd63d9f0b4740a4f3492dd9e397f4b11 ;
     owl:sameAs _:ub3bL233C1 .
 
 _:ub3bL236C1 a rdfs:Resource,
         owl:AllDifferent,
         owl:Thing ;
-    owl:distinctMembers _:fc3c69bd958b24e7d8b8d32e05d214c69b15 ;
+    owl:distinctMembers _:f6b8dd63d9f0b4740a4f3492dd9e397f4b15 ;
     owl:sameAs _:ub3bL236C1 .
 
 _:ub3bL239C1 a rdfs:Resource,
         owl:AllDisjointClasses,
         owl:Thing ;
-    owl:members _:fc3c69bd958b24e7d8b8d32e05d214c69b18 ;
+    owl:members _:f6b8dd63d9f0b4740a4f3492dd9e397f4b18 ;
     owl:sameAs _:ub3bL239C1 .
 
 _:ub3bL242C1 a rdfs:Resource,
         owl:AllDisjointClasses,
         owl:Thing ;
-    owl:members _:fc3c69bd958b24e7d8b8d32e05d214c69b23 ;
+    owl:members _:f6b8dd63d9f0b4740a4f3492dd9e397f4b23 ;
     owl:sameAs _:ub3bL242C1 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b1 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b1 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:hardboiled ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b2 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b1 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b2 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b1 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b10 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b10 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Tea ;
     rdf:rest () ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b10 .
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b10 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b11 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b11 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:sauce_dish ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b12 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b11 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b12 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b11 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b12 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b12 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:bread_plate ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b13 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b12 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b13 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b12 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b13 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b13 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:butter_dish ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b14 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b13 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b14 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b13 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b14 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b14 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:teacup_plate ;
     rdf:rest () ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b14 .
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b14 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b15 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b15 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:hardboiled ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b16 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b15 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b16 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b15 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b16 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b16 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:scrambled ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b17 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b16 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b17 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b16 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b17 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b17 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:fried ;
     rdf:rest () ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b17 .
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b17 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b18 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b18 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Glassware ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b19 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b18 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b19 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b18 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b19 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b19 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Plate ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b20 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b19 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b20 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b19 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b2 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b2 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:scrambled ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b3 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b2 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b3 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b2 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b20 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b20 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Fork ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b21 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b20 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b21 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b20 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b21 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b21 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Knife ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b22 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b21 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b22 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b21 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b22 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b22 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Spoon ;
     rdf:rest () ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b22 .
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b22 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b23 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b23 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Food ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b24 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b23 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b24 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b23 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b24 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b24 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Drink ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b25 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b24 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b25 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b24 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b25 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b25 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Storage ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b26 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b25 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b26 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b25 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b26 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b26 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Kitchenware ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b27 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b26 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b27 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b26 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b27 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b27 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Furniture ;
     rdf:rest () ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b27 .
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b27 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b3 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b3 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:fried ;
     rdf:rest () ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b3 .
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b3 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b4 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b4 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Bread ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b5 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b4 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b5 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b4 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b5 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b5 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Egg ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b6 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b5 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b6 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b5 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b6 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b6 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Condiment ;
     rdf:rest () ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b6 .
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b6 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b7 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b7 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Juice ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b8 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b7 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b8 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b7 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b8 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b8 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Coffee ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b9 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b8 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b9 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b8 .
 
-_:fc3c69bd958b24e7d8b8d32e05d214c69b9 a rdf:List,
+_:f6b8dd63d9f0b4740a4f3492dd9e397f4b9 a rdf:List,
         rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Milk ;
-    rdf:rest _:fc3c69bd958b24e7d8b8d32e05d214c69b10 ;
-    owl:sameAs _:fc3c69bd958b24e7d8b8d32e05d214c69b9 .
+    rdf:rest _:f6b8dd63d9f0b4740a4f3492dd9e397f4b10 ;
+    owl:sameAs _:f6b8dd63d9f0b4740a4f3492dd9e397f4b9 .
 

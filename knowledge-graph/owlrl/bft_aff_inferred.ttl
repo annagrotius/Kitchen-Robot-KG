@@ -41,14 +41,14 @@ bft:apple_juice a bft:Drink,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:bread_basket a _:ub2bL158C21,
+bft:bread_basket a _:ub1bL196C21,
         bft:Kitchenware,
         bft:Tableware,
         rdfs:Resource,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:butter_knife a _:ub2bL158C21,
+bft:butter_knife a _:ub1bL196C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Knife,
@@ -63,40 +63,40 @@ bft:can_cut a rdfs:Resource,
     rdfs:domain bft:Cutlery ;
     rdfs:range bft:Food .
 
-bft:croissant a _:ub2bL184C21,
+bft:croissant a _:ub1bL222C21,
         bft:Bread,
         bft:Food,
         rdfs:Resource,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:cupboard a _:ub2bL128C21,
+bft:cupboard a _:ub1bL162C21,
         bft:Storage,
         rdfs:Resource,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:dining_chair a _:ub2bL146C21,
+bft:dining_chair a _:ub1bL184C21,
         bft:Chair,
         bft:Furniture,
         rdfs:Resource,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:egg_cup a _:ub2bL158C21,
+bft:egg_cup a _:ub1bL196C21,
         bft:Kitchenware,
         bft:Tableware,
         rdfs:Resource,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:garnish a _:ub2bL184C21,
+bft:garnish a _:ub1bL222C21,
         bft:Food,
         rdfs:Resource,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:glass a _:ub2bL158C21,
+bft:glass a _:ub1bL196C21,
         bft:Glassware,
         bft:Kitchenware,
         bft:Tableware,
@@ -104,7 +104,7 @@ bft:glass a _:ub2bL158C21,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:milk_pitcher a _:ub2bL158C21,
+bft:milk_pitcher a _:ub1bL196C21,
         bft:Kitchenware,
         rdfs:Resource,
         owl:NamedIndividual,
@@ -116,7 +116,7 @@ bft:orange_juice a bft:Drink,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:pepper_shaker a _:ub2bL158C21,
+bft:pepper_shaker a _:ub1bL196C21,
         bft:Kitchenware,
         bft:Tableware,
         rdfs:Resource,
@@ -127,7 +127,7 @@ bft:primary_usage a rdfs:Resource,
         owl:DatatypeProperty ;
     rdfs:range xsd:string .
 
-bft:salt_shaker a _:ub2bL158C21,
+bft:salt_shaker a _:ub1bL196C21,
         bft:Kitchenware,
         bft:Tableware,
         rdfs:Resource,
@@ -145,14 +145,14 @@ bft:spread_on a rdfs:Resource,
     rdfs:domain bft:Spread ;
     rdfs:range bft:Food .
 
-bft:table a _:ub2bL146C21,
+bft:table a _:ub1bL184C21,
         bft:Furniture,
         bft:Table,
         rdfs:Resource,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:teacup a _:ub2bL158C21,
+bft:teacup a _:ub1bL196C21,
         bft:Glassware,
         bft:Kitchenware,
         bft:Tableware,
@@ -183,7 +183,7 @@ bft:Coffee a rdfs:Resource,
 
 bft:Fork a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL158C21,
+    rdfs:subClassOf _:ub1bL196C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Tableware,
@@ -196,7 +196,7 @@ bft:Milk a rdfs:Resource,
 
 bft:Spoon a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL158C21,
+    rdfs:subClassOf _:ub1bL196C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Tableware,
@@ -204,7 +204,7 @@ bft:Spoon a rdfs:Resource,
 
 bft:Table a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL146C21,
+    rdfs:subClassOf _:ub1bL184C21,
         bft:Furniture,
         owl:Thing ;
     owl:disjointWith bft:Chair .
@@ -214,7 +214,7 @@ bft:Tea a rdfs:Resource,
     rdfs:subClassOf bft:Drink,
         owl:Thing .
 
-bft:bread_plate a _:ub2bL158C21,
+bft:bread_plate a _:ub1bL196C21,
         bft:Kitchenware,
         bft:Plate,
         bft:Tableware,
@@ -222,7 +222,7 @@ bft:bread_plate a _:ub2bL158C21,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:butter a _:ub2bL184C21,
+bft:butter a _:ub1bL222C21,
         bft:Condiment,
         bft:Food,
         bft:Spread,
@@ -230,7 +230,7 @@ bft:butter a _:ub2bL184C21,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:butter_dish a _:ub2bL158C21,
+bft:butter_dish a _:ub1bL196C21,
         bft:Kitchenware,
         bft:Plate,
         bft:Tableware,
@@ -245,7 +245,7 @@ bft:can_spread a rdf:Property,
     rdfs:range bft:Food ;
     rdfs:subPropertyOf bft:can_spread .
 
-bft:sauce_dish a _:ub2bL158C21,
+bft:sauce_dish a _:ub1bL196C21,
         bft:Kitchenware,
         bft:Plate,
         bft:Tableware,
@@ -253,7 +253,7 @@ bft:sauce_dish a _:ub2bL158C21,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:teacup_plate a _:ub2bL158C21,
+bft:teacup_plate a _:ub1bL196C21,
         bft:Kitchenware,
         bft:Plate,
         bft:Tableware,
@@ -320,19 +320,19 @@ aff:Quality a rdfs:Resource,
 
 bft:Bread a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL184C21,
+    rdfs:subClassOf _:ub1bL222C21,
         bft:Food,
         owl:Thing .
 
 bft:Chair a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL146C21,
+    rdfs:subClassOf _:ub1bL184C21,
         bft:Furniture,
         owl:Thing .
 
 bft:Knife a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL158C21,
+    rdfs:subClassOf _:ub1bL196C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Tableware,
@@ -340,34 +340,34 @@ bft:Knife a rdfs:Resource,
 
 bft:Spread a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL184C21,
+    rdfs:subClassOf _:ub1bL222C21,
         bft:Condiment,
         bft:Food,
         owl:Thing .
 
 bft:Storage a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL128C21,
+    rdfs:subClassOf _:ub1bL162C21,
         owl:Thing .
 
-bft:fried a _:ub2bL164C21,
-        _:ub2bL184C21,
+bft:fried a _:ub1bL202C21,
+        _:ub1bL222C21,
         bft:Egg,
         bft:Food,
         rdfs:Resource,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:hardboiled a _:ub2bL164C21,
-        _:ub2bL184C21,
+bft:hardboiled a _:ub1bL202C21,
+        _:ub1bL222C21,
         bft:Egg,
         bft:Food,
         rdfs:Resource,
         owl:NamedIndividual,
         owl:Thing .
 
-bft:scrambled a _:ub2bL164C21,
-        _:ub2bL184C21,
+bft:scrambled a _:ub1bL202C21,
+        _:ub1bL222C21,
         bft:Egg,
         bft:Food,
         rdfs:Resource,
@@ -389,7 +389,7 @@ aff:quality a rdfs:Resource,
 
 bft:Glassware a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL158C21,
+    rdfs:subClassOf _:ub1bL196C21,
         bft:Kitchenware,
         bft:Tableware,
         owl:Thing .
@@ -403,14 +403,14 @@ false a rdfs:Resource .
 
 bft:Condiment a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL184C21,
+    rdfs:subClassOf _:ub1bL222C21,
         bft:Food,
         owl:Thing .
 
 bft:Egg a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL164C21,
-        _:ub2bL184C21,
+    rdfs:subClassOf _:ub1bL202C21,
+        _:ub1bL222C21,
         bft:Food,
         owl:Thing .
 
@@ -426,19 +426,19 @@ owl:Restriction a rdfs:Resource .
 
 bft:Furniture a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL146C21,
+    rdfs:subClassOf _:ub1bL184C21,
         owl:Thing .
 
 bft:Plate a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL158C21,
+    rdfs:subClassOf _:ub1bL196C21,
         bft:Kitchenware,
         bft:Tableware,
         owl:Thing .
 
 bft:Cutlery a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL158C21,
+    rdfs:subClassOf _:ub1bL196C21,
         bft:Kitchenware,
         bft:Tableware,
         owl:Thing .
@@ -453,18 +453,18 @@ owl:ObjectProperty a rdfs:Resource .
 
 bft:Food a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL184C21,
+    rdfs:subClassOf _:ub1bL222C21,
         owl:Thing .
 
 bft:Tableware a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL158C21,
+    rdfs:subClassOf _:ub1bL196C21,
         bft:Kitchenware,
         owl:Thing .
 
 bft:Kitchenware a rdfs:Resource,
         owl:Class ;
-    rdfs:subClassOf _:ub2bL158C21,
+    rdfs:subClassOf _:ub1bL196C21,
         owl:Thing .
 
 owl:NamedIndividual a rdfs:Resource .
@@ -545,7 +545,7 @@ owl:Thing a rdfs:Resource .
                                             rdf:first bft:Furniture ;
                                             rdf:rest () ] ] ] ] ] .
 
-_:f6172ac9f713f42bbbd8e31d01106da2bb1 a rdfs:Resource ;
+_:fc4ef12a4b83941a69c73ce15e06d87b0b1 a rdfs:Resource ;
     rdf:first bft:hardboiled ;
     rdf:rest [ a rdfs:Resource ;
             rdf:first bft:scrambled ;
@@ -553,26 +553,26 @@ _:f6172ac9f713f42bbbd8e31d01106da2bb1 a rdfs:Resource ;
                     rdf:first bft:fried ;
                     rdf:rest () ] ] .
 
-_:ub2bL128C21 a rdfs:Resource,
+_:ub1bL162C21 a rdfs:Resource,
         owl:Restriction ;
     owl:hasValue false ;
     owl:onProperty bft:is_edible .
 
-_:ub2bL164C21 a rdfs:Resource,
+_:ub1bL202C21 a rdfs:Resource,
         owl:Class ;
-    owl:oneOf _:f6172ac9f713f42bbbd8e31d01106da2bb1 .
+    owl:oneOf _:fc4ef12a4b83941a69c73ce15e06d87b0b1 .
 
-_:ub2bL146C21 a rdfs:Resource,
+_:ub1bL184C21 a rdfs:Resource,
         owl:Restriction ;
     owl:hasValue false ;
     owl:onProperty bft:is_edible .
 
-_:ub2bL184C21 a rdfs:Resource,
+_:ub1bL222C21 a rdfs:Resource,
         owl:Restriction ;
     owl:hasValue true ;
     owl:onProperty bft:is_edible .
 
-_:ub2bL158C21 a rdfs:Resource,
+_:ub1bL196C21 a rdfs:Resource,
         owl:Restriction ;
     owl:hasValue false ;
     owl:onProperty bft:is_edible .
