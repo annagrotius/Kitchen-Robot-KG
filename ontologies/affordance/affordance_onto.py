@@ -63,23 +63,5 @@ def main():
     onto_to_graph(aff, aff_namespace, 'aff', 'aff_onto_closed')
 
 
-    # # close world and save
-    # classes = [KitchenEntity, Quality, Affordance, Action, quality, color, location, form, implies, affords]
-    # for c in classes:
-    #     close_world(c)
-
-    # # save ontology
-    # aff.save(file = "affordance.owl", format = "rdfxml")
-    #
-    # # create graph to store the ontology
-    # aff_g = Graph()
-    # aff_g.bind('aff', aff_namespace)
-    # aff_g.parse("affordance.owl")
-    # # add necessary triples
-    # aff_g.add ( (aff_namespace.Affordance, RDFS.isDefinedBy, aff_namespace.Action) )
-    # # serialize the final affordance ontology graph
-    # aff_g.serialize("aff_graph.ttl", format='turtle')
-    # aff_g.serialize("aff_graph.nt", format='ntriples')
-
 if __name__ == "__main__":
     main()

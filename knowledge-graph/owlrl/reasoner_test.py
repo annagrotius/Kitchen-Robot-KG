@@ -11,7 +11,7 @@ OWLRL_Extension=False):
         - output_filename: output filename
         - RDFS_Semantics: (default True; one of owlrl reasoners)
         - OWLRL_Semantics: (default False; one of owlrl reasoners)
-        -OWLRL_Extension: (default False; one of owlrl reasoners)
+        - OWLRL_Extension: (default False; one of owlrl reasoners)
     Input: a graph file, filename for output
     Output: a file saved in specified destination
     """
@@ -24,9 +24,9 @@ OWLRL_Extension=False):
     elif OWLRL_Semantics:
         DeductiveClosure(OWLRL_Semantics).expand(g)
         # print("RDFS closure of the graph has {} triples".format(len(g)))
-    elif OWLRL_Extension:
-        DeductiveClosure(OWLRL_Extension, rdfs_closure = True,
-        axiomatic_triples = True, datatype_axioms = True).expand(g)
+    # elif OWLRL_Extension:
+    #     DeductiveClosure(OWLRL_Extension, rdfs_closure = True,
+    #     axiomatic_triples = True, datatype_axioms = True).expand(g)
 
     print("RDFS closure of the graph has {} triples".format(len(g)))
     g.serialize(destination=f'{output_filename}.ttl', format='turtle')

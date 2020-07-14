@@ -343,3 +343,4 @@ bft:Food a owl:Class ;
 
 [] a owl:AllDisjointClasses ;
     owl:members ( bft:Bread bft:Egg bft:Condiment ) .
+

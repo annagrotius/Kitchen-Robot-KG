@@ -36,6 +36,10 @@ def get_graph(ontology_file, onto_namespace, onto_prefix):
 
 def merge_graphs(graph1, graph2, output_filename='merged_graph.ttl'):
     """
+    Args:
+        - graph1: a graph object to be merged with another graph
+        - graph2: a graph object to be merged with another graph
+        - output_filename: (default 'merged_graph.ttl') filename of merged graph file output
     Input: two graph objects.
     Ouput: one merged graph.
     """
@@ -60,6 +64,7 @@ def main():
     aff_closed_g = get_graph(closed_aff_onto_file, "http://test.org/affordance.owl#", 'aff')
     bft_closed_g = get_graph(closed_bft_onto_file, "http://test.org/bft.owl#", 'bft')
     merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.ttl')
+    merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.nt')
 
     # non-closed ontologies
     open_aff_onto_file = "../ontologies/affordance/aff_onto_not_closed.ttl"
