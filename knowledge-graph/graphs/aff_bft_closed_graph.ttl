@@ -1,3 +1,4 @@
+@prefix aff: <http://test.org/affordance.owl#> .
 @prefix bft: <http://test.org/bft.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -5,7 +6,11 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://test.org/affordance.owl> a owl:Ontology .
+
 <http://test.org/bft.owl> a owl:Ontology .
+
+bft:KitchenEntity owl:equivalentClass aff:KitchenEntity .
 
 bft:primary_usage a owl:DatatypeProperty ;
     rdfs:range xsd:string .
@@ -15,6 +20,32 @@ bft:used_with a owl:ObjectProperty,
     rdfs:domain bft:Cutlery,
         bft:Plate ;
     rdfs:range bft:Food .
+
+aff:Action a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+aff:Affordance a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+aff:affords a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Action .
+
+aff:color a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+aff:form a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+aff:implies a owl:ObjectProperty ;
+    rdfs:domain aff:Quality ;
+    rdfs:range aff:Affordance .
+
+aff:location a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
 
 bft:Coffee a owl:Class ;
     rdfs:subClassOf bft:Drink .
@@ -57,6 +88,12 @@ bft:garnish a bft:Food,
 
 bft:milk_pitcher a bft:Kitchenware,
         owl:NamedIndividual .
+
+aff:Quality a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty aff:implies ],
+        owl:Thing .
 
 bft:Bread a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
@@ -130,6 +167,24 @@ bft:spread_on a owl:ObjectProperty ;
 bft:table a bft:Table,
         owl:NamedIndividual .
 
+aff:KitchenEntity a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty aff:quality ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty aff:location ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty aff:affords ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty aff:color ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty aff:form ],
+        owl:Thing .
+
 bft:Condiment a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
             owl:oneOf ( bft:butter ) ],
@@ -183,6 +238,10 @@ bft:served_with a owl:ObjectProperty,
 
 bft:teacup a bft:Glassware,
         owl:NamedIndividual .
+
+aff:quality a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Quality .
 
 bft:Egg a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
@@ -284,4 +343,3 @@ bft:Food a owl:Class ;
 
 [] a owl:AllDisjointClasses ;
     owl:members ( bft:Bread bft:Egg bft:Condiment ) .
-

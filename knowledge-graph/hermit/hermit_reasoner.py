@@ -13,11 +13,11 @@ print(list(aff_onto.individuals()))
 # print(list(bft_onto.classes()))
 # print(list(bft_onto.individuals()))
 
-# onto = bft_onto.imported_ontologies.append(aff_onto) # did not work
+onto = bft_onto.imported_ontologies.append(aff_onto) # did not work
 
 # print(list(onto.classes()))
 bft_aff_inferred = get_ontology("http://test.org/bft_aff_inferred.owl")
-with bft_aff_inferred:
+with onto:
     sync_reasoner([bft_onto, aff_onto], infer_property_values = True)
 
 bft_aff_inferred.save('test.owl')

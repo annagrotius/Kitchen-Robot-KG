@@ -1,3 +1,8 @@
+"""
+This script creates the breakfast table ontology and saves a close world and non closed world
+version of the ontology as a owl file format and different graph file formats (.ttl, .nt).
+"""
+
 from owlready2 import *
 from rdflib import Graph, Namespace, URIRef
 owlready2.JAVA_EXE ='C:\\Program Files\\Java\\jre1.8.0_191\\bin\\java.exe'
@@ -5,7 +10,7 @@ owlready2.JAVA_EXE ='C:\\Program Files\\Java\\jre1.8.0_191\\bin\\java.exe'
 
 def onto_to_graph(ontology, ontology_namespace, ontology_prefix, filename):
     """
-    Takes an ontology and saves it as an owl file and  ttl file.
+    Takes an ontology and saves it as an ntriple file and  ttl file.
     """
     ontology.save(file = f'{filename}.owl', format = "rdfxml")
     g = Graph()

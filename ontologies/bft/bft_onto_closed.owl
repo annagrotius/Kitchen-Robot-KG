@@ -73,18 +73,18 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#bread_basket"/>
-        <rdf:Description rdf:about="#butter_dish"/>
+        <rdf:Description rdf:about="#teacup_plate"/>
+        <rdf:Description rdf:about="#pepper_shaker"/>
+        <rdf:Description rdf:about="#bread_plate"/>
+        <rdf:Description rdf:about="#teacup"/>
+        <rdf:Description rdf:about="#milk_pitcher"/>
         <rdf:Description rdf:about="#egg_cup"/>
         <rdf:Description rdf:about="#glass"/>
-        <rdf:Description rdf:about="#milk_pitcher"/>
-        <rdf:Description rdf:about="#pepper_shaker"/>
-        <rdf:Description rdf:about="#salt_shaker"/>
-        <rdf:Description rdf:about="#butter_knife"/>
-        <rdf:Description rdf:about="#teacup"/>
         <rdf:Description rdf:about="#sauce_dish"/>
-        <rdf:Description rdf:about="#bread_plate"/>
-        <rdf:Description rdf:about="#teacup_plate"/>
+        <rdf:Description rdf:about="#butter_dish"/>
+        <rdf:Description rdf:about="#butter_knife"/>
+        <rdf:Description rdf:about="#salt_shaker"/>
+        <rdf:Description rdf:about="#bread_basket"/>
       </owl:oneOf>
     </owl:Class>
   </rdfs:subClassOf>
@@ -113,12 +113,12 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#butter"/>
-        <rdf:Description rdf:about="#garnish"/>
-        <rdf:Description rdf:about="#scrambled"/>
-        <rdf:Description rdf:about="#hardboiled"/>
         <rdf:Description rdf:about="#fried"/>
+        <rdf:Description rdf:about="#hardboiled"/>
         <rdf:Description rdf:about="#croissant"/>
+        <rdf:Description rdf:about="#butter"/>
+        <rdf:Description rdf:about="#scrambled"/>
+        <rdf:Description rdf:about="#garnish"/>
       </owl:oneOf>
     </owl:Class>
   </rdfs:subClassOf>
@@ -146,17 +146,17 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#bread_basket"/>
-        <rdf:Description rdf:about="#butter_dish"/>
+        <rdf:Description rdf:about="#teacup_plate"/>
+        <rdf:Description rdf:about="#pepper_shaker"/>
+        <rdf:Description rdf:about="#bread_plate"/>
+        <rdf:Description rdf:about="#teacup"/>
         <rdf:Description rdf:about="#egg_cup"/>
         <rdf:Description rdf:about="#glass"/>
-        <rdf:Description rdf:about="#pepper_shaker"/>
-        <rdf:Description rdf:about="#salt_shaker"/>
-        <rdf:Description rdf:about="#butter_knife"/>
-        <rdf:Description rdf:about="#teacup"/>
         <rdf:Description rdf:about="#sauce_dish"/>
-        <rdf:Description rdf:about="#bread_plate"/>
-        <rdf:Description rdf:about="#teacup_plate"/>
+        <rdf:Description rdf:about="#butter_dish"/>
+        <rdf:Description rdf:about="#butter_knife"/>
+        <rdf:Description rdf:about="#salt_shaker"/>
+        <rdf:Description rdf:about="#bread_basket"/>
       </owl:oneOf>
     </owl:Class>
   </rdfs:subClassOf>
@@ -179,10 +179,10 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#butter_dish"/>
-        <rdf:Description rdf:about="#teacup_plate"/>
         <rdf:Description rdf:about="#sauce_dish"/>
         <rdf:Description rdf:about="#bread_plate"/>
+        <rdf:Description rdf:about="#butter_dish"/>
+        <rdf:Description rdf:about="#teacup_plate"/>
       </owl:oneOf>
     </owl:Class>
   </rdfs:subClassOf>

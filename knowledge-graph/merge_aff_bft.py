@@ -1,10 +1,14 @@
+
 from rdflib import Graph, Namespace, RDF, URIRef, RDFS
 from rdflib.namespace import OWL
-from owlrl import DeductiveClosure, RDFS_Semantics
 
 
 def create_namespace(graph, namespace, prefix):
     """
+    Args:
+        - graph: graph object
+        - namespace: uri of the namespace to be bound to the graph
+        - prefix: the prefix of the given namespace
     Input: a graph Object, namespace URI, prefix for the namespace
     Output: namespace instance bound to a specified graph
     """
@@ -14,43 +18,60 @@ def create_namespace(graph, namespace, prefix):
     return ns
 
 
-def reasoner(g, filename):
+def get_graph(ontology_file, onto_namespace, onto_prefix):
     """
-    Input: a graph Object, filename for output
-    Output: a file saved in specified destination
+    Args:
+        - ontology_file: file with triples to be parsed into graph object
+        - onto_namespace: the ontology's namespace
+        - onto_prefix: the ontology's given prefix
     """
-    DeductiveClosure(RDFS_Semantics).expand(g)
-    print("RDFS closure of the graph has {} triples".format(len(g)))
-    g.serialize(destination=filename, format='turtle')
+    g = Graph()
+    g_ns = create_namespace(g, onto_namespace, onto_prefix)
+    file_format = ontology_file[3:].split('.')[1]
+    g.parse(ontology_file, format=file_format)
+    print(f'{ontology_file} graph has {len(g)} triples')
+
+    return g
+
+
+def merge_graphs(graph1, graph2, output_filename='merged_graph.ttl'):
+    """
+    Input: two graph objects.
+    Ouput: one merged graph.
+    """
+    merged_g = graph1 + graph2
+    classes = ['Condiment', 'Cutlery', 'Drink', 'Food', 'Furniture', 'Kitchenware', 'Tableware']
+    for c in classes:
+        uri_string = f'http://test.org/bft.owl#{c}'
+        merged_g.add( (URIRef(f'http://test.org/bft.owl#KitchenEntity'), OWL.equivalentClass, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
+    print("Merged graphs have {} triples".format(len(merged_g)))
+    file_format = output_filename[3:].split('.')[1]
+    merged_g.serialize(destination= f'{output_filename}', format=file_format)
 
     return
 
 
 def main():
 
-    affordance_g = Graph()
-    aff_ns = create_namespace(affordance_g,"http://test.org/affordance.owl#", 'aff')
-    bft_g = Graph()
-    bft_ns = create_namespace(bft_g,"http://test.org/bft.owl#", 'bft')
+    # closed ontologies
+    closed_aff_onto_file = "../ontologies/affordance/aff_onto_closed.ttl"
+    closed_bft_onto_file = "../ontologies/bft/bft_onto_closed.ttl"
 
-    affordance_g.parse("../ontologies/affordance/aff_graph.ttl", format="ttl")
-    bft_g.parse("../ontologies/bft/bft_graph.ttl", format="ttl")
+    aff_closed_g = get_graph(closed_aff_onto_file, "http://test.org/affordance.owl#", 'aff')
+    bft_closed_g = get_graph(closed_bft_onto_file, "http://test.org/bft.owl#", 'bft')
+    merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.ttl')
 
-    merged_g = bft_g + affordance_g
-    classes = ['Condiment', 'Cutlery', 'Drink', 'Food', 'Furniture', 'Kitchenware', 'Tableware']
-    for bft_class in classes:
-        uri_string = f'http://test.org/bft.owl#{bft_class}'
-        merged_g.add( (URIRef(f'http://test.org/bft.owl#KitchenEntity'), OWL.sameAs, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
+    # non-closed ontologies
+    open_aff_onto_file = "../ontologies/affordance/aff_onto_not_closed.ttl"
+    open_bft_onto_file = "../ontologies/bft/bft_onto_not_closed.ttl"
+
+    aff_open_g = get_graph(open_aff_onto_file, "http://test.org/affordance.owl#", 'aff')
+    bft_open_g = get_graph(open_bft_onto_file, "http://test.org/bft.owl#", 'bft')
+    merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.ttl')
+    merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.nt')
 
 
-    print("Affordance graph has {} triples".format(len(affordance_g)))
-    print("Bft graph has {} triples".format(len(bft_g)))
-    print("Merged graphs have {} triples".format(len(merged_g)))
-    print("\n")
-
-    merged_g.serialize(destination='./graphs/bft_aff_kg.ttl', format='turtle')
-
-    reasoner(merged_g)
+    return
 
 
 if __name__ == "__main__":

@@ -1,3 +1,8 @@
+"""
+This script creates the affordance ontology and saves a close world and non closed world
+version of the ontology as a owl file format and different graph file formats (.ttl, .nt).
+"""
+
 from owlready2 import *
 from rdflib import Graph, Literal, Namespace, RDF, URIRef, OWL, RDFS
 owlready2.JAVA_EXE ='C:\\Program Files\\Java\\jre1.8.0_191\\bin\\java.exe'  # for reasoning
@@ -5,7 +10,7 @@ owlready2.JAVA_EXE ='C:\\Program Files\\Java\\jre1.8.0_191\\bin\\java.exe'  # fo
 
 def onto_to_graph(ontology, ontology_namespace, ontology_prefix, filename):
     """
-    Takes an ontology and saves it as an owl file and  ttl file.
+    Takes an ontology and saves it as an ntriple file and  ttl file.
     """
     ontology.save(file = f'{filename}.owl', format = "rdfxml")
     g = Graph()
@@ -58,10 +63,10 @@ def main():
     onto_to_graph(aff, aff_namespace, 'aff', 'aff_onto_closed')
 
 
-    # close world and save
-    classes = [KitchenEntity, Quality, Affordance, Action, quality, color, location, form, implies, affords]
-    for c in classes:
-        close_world(c)
+    # # close world and save
+    # classes = [KitchenEntity, Quality, Affordance, Action, quality, color, location, form, implies, affords]
+    # for c in classes:
+    #     close_world(c)
 
     # # save ontology
     # aff.save(file = "affordance.owl", format = "rdfxml")

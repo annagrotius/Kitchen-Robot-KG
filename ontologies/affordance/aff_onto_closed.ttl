@@ -39,7 +39,7 @@ aff:KitchenEntity a owl:Class ;
             owl:onProperty aff:quality ],
         [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
-            owl:onProperty aff:form ],
+            owl:onProperty aff:location ],
         [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
             owl:onProperty aff:affords ],
@@ -48,7 +48,7 @@ aff:KitchenEntity a owl:Class ;
             owl:onProperty aff:color ],
         [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
-            owl:onProperty aff:location ],
+            owl:onProperty aff:form ],
         owl:Thing .
 
 aff:Quality a owl:Class ;
