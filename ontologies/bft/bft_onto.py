@@ -10,7 +10,12 @@ owlready2.JAVA_EXE ='C:\\Program Files\\Java\\jre1.8.0_191\\bin\\java.exe'
 
 def onto_to_graph(ontology, ontology_namespace, ontology_prefix, filename):
     """
-    Takes an ontology and saves it as an ntriple file and  ttl file.
+    Args:
+        - ontology: ontology to be parsed
+        - ontology_namespace: namespace of the ontology
+        - ontology_prefix: prefix of the ontology
+        - filename: filename under which to name the ontology
+    Output: An ontology saves as an ntriple file and  ttl file.
     """
     ontology.save(file = f'{filename}.owl', format = "rdfxml")
     g = Graph()
@@ -82,7 +87,6 @@ def main():
             pass
         class spread_on(ObjectProperty, Spread >> Food):
             pass
-
         class can_spread(ObjectProperty, Cutlery >> Food):
             pass
         class used_with(ObjectProperty, SymmetricProperty):
@@ -105,6 +109,8 @@ def main():
 
     oj = Juice("orange_juice")
     apple_juice = Juice("apple_juice")
+
+    green_tea = Tea("green_tea")
 
     butter = Spread("butter")
 

@@ -1,6 +1,7 @@
 from rdflib import Graph, Namespace, RDF, URIRef, RDFS
 from rdflib.namespace import OWL
-from owlrl import DeductiveClosure, RDFS_Semantics,OWLRL_Semantics, OWLRL_Extension
+from owlrl import *
+# DeductiveClosure, RDFS_Semantics,OWLRL_Semantics, OWLRL_Extension
 
 
 def reasoner(graph_file, output_filename, RDFS_Semantics=True, OWLRL_Semantics=False,
@@ -16,13 +17,14 @@ OWLRL_Extension=False):
     Output: a file saved in specified destination
     """
     g = Graph()
-    g.parse(graph_file)
+    file_format = graph_file[3:].split('.')[1]
+    g.parse(graph_file, format=file_format)
 
     if RDFS_Semantics:
-        DeductiveClosure(RDFS_Semantics).expand(g)
+        DeductiveClosure(RDFSClosure.RDFS_Semantics).expand(g)
         # print("RDFS closure of the graph has {} triples".format(len(g)))
     elif OWLRL_Semantics:
-        DeductiveClosure(OWLRL_Semantics).expand(g)
+        DeductiveClosure(OWLRL.OWLRL_Semantics).expand(g)
         # print("RDFS closure of the graph has {} triples".format(len(g)))
     # elif OWLRL_Extension:
     #     DeductiveClosure(OWLRL_Extension, rdfs_closure = True,
@@ -37,16 +39,19 @@ OWLRL_Extension=False):
 def main():
 
     closed_graph = "../graphs/aff_bft_closed_graph.ttl"
-    reasoner(closed_graph, "./closed_rdfs_semantics.ttl")
-    reasoner(closed_graph, "./closed_owlrl_semantics.ttl", RDFS_Semantics=False, OWLRL_Semantics=True)
-    reasoner(closed_graph, "./closed_owlrl_extension.ttl", RDFS_Semantics=False, OWLRL_Semantics=False,
-    OWLRL_Extension=True)
-
     open_graph = "../graphs/aff_bft_open_graph.ttl"
-    reasoner(open_graph, "./open_rdfs_semantics.ttl")
-    reasoner(open_graph, "./open_owlrl_semantics.ttl", RDFS_Semantics=False, OWLRL_Semantics=True)
-    reasoner(open_graph, "./open_owlrl_extension.ttl", RDFS_Semantics=False, OWLRL_Semantics=False,
-    OWLRL_Extension=True)
+    reasoner(closed_graph, "./closed_rdfs_semantics")
+    reasoner(closed_graph, "./closed_owlrl_semantics", RDFS_Semantics=False, OWLRL_Semantics=True)
+    reasoner(open_graph, "./open_rdfs_semantics")
+    reasoner(open_graph, "./open_owlrl_semantics", RDFS_Semantics=False, OWLRL_Semantics=True)
+    # reasoner(closed_graph, "./closed_owlrl_extension.ttl", RDFS_Semantics=False, OWLRL_Semantics=False,
+    # OWLRL_Extension=True)
+
+    # open_graph = "../graphs/aff_bft_open_graph.ttl"
+    # reasoner(open_graph, "./open_rdfs_semantics.ttl")
+    # reasoner(open_graph, "./open_owlrl_semantics.ttl", RDFS_Semantics=False, OWLRL_Semantics=True)
+    # reasoner(open_graph, "./open_owlrl_extension.ttl", RDFS_Semantics=False, OWLRL_Semantics=False,
+    # OWLRL_Extension=True)
 
 
 if __name__ == "__main__":

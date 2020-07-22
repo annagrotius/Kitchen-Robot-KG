@@ -1,10 +1,13 @@
 @prefix aff: <http://test.org/affordance.owl#> .
 @prefix bft: <http://test.org/bft.owl#> .
+@prefix kitchen_kg: <../graphs/aff_bft_closed_graph2.nt#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///C:/Users/annag/OneDrive/Desktop/Kitchen-Robot-KG/knowledge-graph/graphs/aff_bft_closed_graph2.nt> a owl:Ontology .
 
 bft:primary_usage a owl:DatatypeProperty ;
     rdfs:range xsd:string .
@@ -14,8 +17,6 @@ bft:used_with a owl:ObjectProperty,
     rdfs:domain bft:Cutlery,
         bft:Plate ;
     rdfs:range bft:Food .
-
-<http://test.org/kchn.owl#> a owl:Ontology .
 
 aff:Action a owl:Class ;
     rdfs:subClassOf owl:Thing .
@@ -44,7 +45,8 @@ aff:location a owl:ObjectProperty ;
     rdfs:subPropertyOf aff:quality .
 
 bft:Coffee a owl:Class ;
-    rdfs:subClassOf bft:Drink .
+    rdfs:subClassOf bft:Drink ;
+    owl:equivalentClass owl:Nothing .
 
 bft:Fork a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
@@ -53,19 +55,22 @@ bft:Fork a owl:Class ;
         [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
             owl:onProperty bft:can_cut ],
-        bft:Cutlery .
+        bft:Cutlery ;
+    owl:equivalentClass owl:Nothing .
 
 bft:Milk a owl:Class ;
-    rdfs:subClassOf bft:Drink .
+    rdfs:subClassOf bft:Drink ;
+    owl:equivalentClass owl:Nothing .
 
 bft:Spoon a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:can_spread ],
+            owl:onProperty bft:can_cut ],
         [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:can_cut ],
-        bft:Cutlery .
+            owl:onProperty bft:can_spread ],
+        bft:Cutlery ;
+    owl:equivalentClass owl:Nothing .
 
 bft:Table a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
@@ -97,29 +102,6 @@ bft:Chair a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
             owl:oneOf ( bft:dining_chair ) ],
         bft:Furniture .
-
-bft:Knife a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ;
-            owl:allValuesFrom [ a owl:Class ;
-                    owl:oneOf ( bft:butter ) ] ;
-            owl:onProperty bft:can_spread ],
-        [ a owl:Class ;
-            owl:oneOf ( bft:butter_knife ) ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:can_cut ],
-        bft:Cutlery .
-
-bft:Spread a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ;
-            owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:spread_on ],
-        [ a owl:Class ;
-            owl:oneOf ( bft:butter ) ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:served_with ],
-        bft:Condiment .
 
 bft:Storage a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
@@ -169,20 +151,12 @@ bft:spread_on a owl:ObjectProperty ;
 bft:table a bft:Table,
         owl:NamedIndividual .
 
-bft:Condiment a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ;
-            owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:served_with ],
-        [ a owl:Class ;
-            owl:oneOf ( bft:butter ) ],
-        bft:Food .
-
 bft:Furniture a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ;
+    rdfs:subClassOf [ a owl:Class ;
+            owl:oneOf ( bft:table bft:dining_chair ) ],
+        [ a owl:Restriction ;
             owl:hasValue false ;
             owl:onProperty bft:is_edible ],
-        [ a owl:Class ;
-            owl:oneOf ( bft:table bft:dining_chair ) ],
         aff:KitchenEntity,
         owl:Thing .
 
@@ -204,6 +178,32 @@ bft:Kitchenware a owl:Class ;
             owl:onProperty bft:is_edible ],
         aff:KitchenEntity,
         owl:Thing .
+
+bft:Knife a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty bft:can_cut ],
+        [ a owl:Class ;
+            owl:oneOf ( bft:butter_knife ) ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:oneOf ( bft:butter ) ] ;
+            owl:onProperty bft:can_spread ],
+        bft:Cutlery ;
+    owl:equivalentClass bft:Cutlery .
+
+bft:Spread a owl:Class ;
+    rdfs:subClassOf [ a owl:Class ;
+            owl:oneOf ( bft:butter ) ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty bft:spread_on ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty bft:served_with ],
+        bft:Condiment,
+        bft:Food ;
+    owl:equivalentClass bft:Condiment .
 
 bft:fried a bft:Egg,
         owl:NamedIndividual .
@@ -241,12 +241,13 @@ bft:butter_dish a bft:Plate,
         owl:NamedIndividual .
 
 bft:butter_knife a [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty bft:can_cut ],
+        [ a owl:Restriction ;
             owl:allValuesFrom [ a owl:Class ;
                     owl:oneOf ( bft:butter ) ] ;
             owl:onProperty bft:can_spread ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:can_cut ],
+        bft:Cutlery,
         bft:Knife,
         owl:NamedIndividual ;
     bft:can_spread bft:butter .
@@ -259,6 +260,15 @@ bft:sauce_dish a bft:Plate,
 
 bft:teacup_plate a bft:Plate,
         owl:NamedIndividual .
+
+bft:Condiment a owl:Class ;
+    rdfs:subClassOf [ a owl:Class ;
+            owl:oneOf ( bft:butter ) ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty bft:served_with ],
+        bft:Food ;
+    owl:equivalentClass bft:Spread .
 
 bft:Drink a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
@@ -274,18 +284,6 @@ bft:can_spread a owl:ObjectProperty ;
     rdfs:domain bft:Cutlery ;
     rdfs:range bft:Food .
 
-bft:Cutlery a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ;
-            owl:allValuesFrom [ a owl:Class ;
-                    owl:oneOf ( bft:butter ) ] ;
-            owl:onProperty bft:can_spread ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:can_cut ],
-        [ a owl:Class ;
-            owl:oneOf ( bft:butter_knife ) ],
-        bft:Tableware .
-
 bft:Plate a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
             owl:oneOf ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) ],
@@ -294,19 +292,19 @@ bft:Plate a owl:Class ;
 aff:KitchenEntity a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
+            owl:onProperty aff:affords ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty aff:form ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
             owl:onProperty aff:quality ],
         [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
             owl:onProperty aff:location ],
         [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
-            owl:onProperty aff:affords ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom owl:Nothing ;
             owl:onProperty aff:color ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom owl:Nothing ;
-            owl:onProperty aff:form ],
         owl:Thing .
 
 bft:Tableware a owl:Class ;
@@ -316,12 +314,26 @@ bft:Tableware a owl:Class ;
 
 bft:butter a [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:spread_on ],
+            owl:onProperty bft:served_with ],
         [ a owl:Restriction ;
             owl:allValuesFrom owl:Nothing ;
-            owl:onProperty bft:served_with ],
+            owl:onProperty bft:spread_on ],
+        bft:Condiment,
         bft:Spread,
         owl:NamedIndividual .
+
+bft:Cutlery a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom owl:Nothing ;
+            owl:onProperty bft:can_cut ],
+        [ a owl:Class ;
+            owl:oneOf ( bft:butter_knife ) ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:oneOf ( bft:butter ) ] ;
+            owl:onProperty bft:can_spread ],
+        bft:Tableware ;
+    owl:equivalentClass bft:Knife .
 
 bft:Food a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
@@ -333,20 +345,20 @@ bft:Food a owl:Class ;
         owl:Thing .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( bft:Juice bft:Coffee bft:Milk bft:Tea ) .
-
-[] a owl:AllDifferent ;
-    owl:distinctMembers ( bft:hardboiled bft:scrambled bft:fried ) .
+    owl:members ( bft:Bread bft:Egg bft:Condiment ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
+    owl:members ( bft:Juice bft:Coffee bft:Milk bft:Tea ) .
 
 [] a owl:AllDifferent ;
     owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( bft:Bread bft:Egg bft:Condiment ) .
+    owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( bft:Glassware bft:Plate bft:Fork bft:Knife bft:Spoon ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( bft:hardboiled bft:scrambled bft:fried ) .
 

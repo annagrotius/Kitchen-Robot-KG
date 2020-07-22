@@ -6,8 +6,6 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://test.org/affordance.owl> a owl:Ontology .
-
 aff:affords a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;
     rdfs:range aff:Action .
@@ -27,10 +25,6 @@ aff:implies a owl:ObjectProperty ;
 aff:location a owl:ObjectProperty ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf aff:quality .
-
-<http://test.org/bft.owl> a owl:Ontology .
-
-bft:KitchenEntity owl:equivalentClass aff:KitchenEntity .
 
 bft:apple_juice a bft:Juice,
         owl:NamedIndividual .
@@ -66,6 +60,9 @@ bft:garnish a bft:Food,
         owl:NamedIndividual .
 
 bft:glass a bft:Glassware,
+        owl:NamedIndividual .
+
+bft:green_tea a bft:Tea,
         owl:NamedIndividual .
 
 bft:milk_pitcher a bft:Kitchenware,
@@ -104,6 +101,8 @@ bft:used_with a owl:ObjectProperty,
         bft:Plate ;
     rdfs:range bft:Food .
 
+<http://test.org/kchn.owl#> a owl:Ontology .
+
 aff:Action a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
@@ -125,9 +124,6 @@ bft:Spoon a owl:Class ;
 bft:Table a owl:Class ;
     rdfs:subClassOf bft:Furniture ;
     owl:disjointWith bft:Chair .
-
-bft:Tea a owl:Class ;
-    rdfs:subClassOf bft:Drink .
 
 bft:bread_plate a bft:Plate,
         owl:NamedIndividual .
@@ -163,7 +159,11 @@ bft:Storage a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:hasValue false ;
             owl:onProperty bft:is_edible ],
+        aff:KitchenEntity,
         owl:Thing .
+
+bft:Tea a owl:Class ;
+    rdfs:subClassOf bft:Drink .
 
 bft:fried a bft:Egg,
         owl:NamedIndividual .
@@ -173,9 +173,6 @@ bft:hardboiled a bft:Egg,
 
 bft:scrambled a bft:Egg,
         owl:NamedIndividual .
-
-aff:KitchenEntity a owl:Class ;
-    rdfs:subClassOf owl:Thing .
 
 aff:quality a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;
@@ -188,6 +185,7 @@ bft:Furniture a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:hasValue false ;
             owl:onProperty bft:is_edible ],
+        aff:KitchenEntity,
         owl:Thing .
 
 bft:Glassware a owl:Class ;
@@ -200,6 +198,7 @@ bft:Kitchenware a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:hasValue false ;
             owl:onProperty bft:is_edible ],
+        aff:KitchenEntity,
         owl:Thing .
 
 bft:Egg a owl:Class ;
@@ -211,13 +210,17 @@ bft:is_edible a owl:DatatypeProperty ;
     rdfs:range xsd:boolean .
 
 bft:Drink a owl:Class ;
-    rdfs:subClassOf owl:Thing .
+    rdfs:subClassOf aff:KitchenEntity,
+        owl:Thing .
 
 bft:Cutlery a owl:Class ;
     rdfs:subClassOf bft:Tableware .
 
 bft:Plate a owl:Class ;
     rdfs:subClassOf bft:Tableware .
+
+aff:KitchenEntity a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 bft:Tableware a owl:Class ;
     rdfs:subClassOf bft:Kitchenware .
@@ -226,23 +229,24 @@ bft:Food a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:hasValue true ;
             owl:onProperty bft:is_edible ],
+        aff:KitchenEntity,
         owl:Thing .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Glassware bft:Plate bft:Fork bft:Knife bft:Spoon ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Bread bft:Egg bft:Condiment ) .
 
 [] a owl:AllDifferent ;
     owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( bft:Bread bft:Egg bft:Condiment ) .
-
-[] a owl:AllDisjointClasses ;
     owl:members ( bft:Juice bft:Coffee bft:Milk bft:Tea ) .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
 
 [] a owl:AllDifferent ;
     owl:distinctMembers ( bft:hardboiled bft:scrambled bft:fried ) .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( bft:Glassware bft:Plate bft:Fork bft:Knife bft:Spoon ) .
 

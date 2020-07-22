@@ -1,15 +1,18 @@
-
+"""
+This script takes two ontologies, parses them into graphs, and then merges these graphs. The script does this for
+closed and open versions of the ontologies. The ontologies used in this script are the bft and affordance ontologies.
+"""
 from rdflib import Graph, Namespace, RDF, URIRef, RDFS
 from rdflib.namespace import OWL
 
 
 def create_namespace(graph, namespace, prefix):
     """
+    Binds a namespace to a given graph.
     Args:
         - graph: graph object
         - namespace: uri of the namespace to be bound to the graph
         - prefix: the prefix of the given namespace
-    Input: a graph Object, namespace URI, prefix for the namespace
     Output: namespace instance bound to a specified graph
     """
     ns = Namespace(namespace)
@@ -20,10 +23,12 @@ def create_namespace(graph, namespace, prefix):
 
 def get_graph(ontology_file, onto_namespace, onto_prefix):
     """
+    Creates a graph from a given ontology.
     Args:
         - ontology_file: file with triples to be parsed into graph object
         - onto_namespace: the ontology's namespace
         - onto_prefix: the ontology's given prefix
+    Output: a graph object with ontology axioms
     """
     g = Graph()
     g_ns = create_namespace(g, onto_namespace, onto_prefix)
@@ -44,12 +49,24 @@ def merge_graphs(graph1, graph2, output_filename='merged_graph.ttl'):
     Ouput: one merged graph.
     """
     merged_g = graph1 + graph2
-    classes = ['Condiment', 'Cutlery', 'Drink', 'Food', 'Furniture', 'Kitchenware', 'Tableware']
+    classes = ['Drink', 'Food', 'Furniture', 'Kitchenware', 'Storage']
     for c in classes:
         uri_string = f'http://test.org/bft.owl#{c}'
-        merged_g.add( (URIRef(f'http://test.org/bft.owl#KitchenEntity'), OWL.equivalentClass, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
+        merged_g.add( (URIRef(uri_string), RDFS.subClassOf, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
+        # merged_g.add( (URIRef(f'http://test.org/bft.owl#KitchenEntity'), OWL.equivalentClass, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
+
+    # remove the ontology declarations
+    merged_g.remove( (None, RDF.type, OWL.Ontology) )
+    # merged_g.remove( (URIRef('http://test.org/affordance.owl'), RDF.type, OWL.Ontology) )
+    # merged_g.remove( (URIRef('http://test.org/bft.owl'), RDF.type, OWL.Ontology) )
+    # bft_aff_ns = create_namespace(merged_g,'http://test.org/kchn.owl#', 'kchn')
+    merged_g.add( (URIRef('http://test.org/kchn.owl#'), RDF.type, OWL.Ontology) )
     print("Merged graphs have {} triples".format(len(merged_g)))
     file_format = output_filename[3:].split('.')[1]
+
+    if file_format == 'owl':
+        file_format = 'xml'
+
     merged_g.serialize(destination= f'{output_filename}', format=file_format)
 
     return
@@ -65,8 +82,10 @@ def main():
     bft_closed_g = get_graph(closed_bft_onto_file, "http://test.org/bft.owl#", 'bft')
     merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.ttl')
     merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.nt')
+    merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.owl')
 
-    # non-closed ontologies
+
+    # open ontologies
     open_aff_onto_file = "../ontologies/affordance/aff_onto_not_closed.ttl"
     open_bft_onto_file = "../ontologies/bft/bft_onto_not_closed.ttl"
 
@@ -74,6 +93,8 @@ def main():
     bft_open_g = get_graph(open_bft_onto_file, "http://test.org/bft.owl#", 'bft')
     merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.ttl')
     merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.nt')
+    merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.owl')
+
 
 
     return
