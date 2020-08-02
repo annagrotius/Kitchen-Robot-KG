@@ -60,8 +60,7 @@ def merge_graphs(graph1, graph2, output_filename='merged_graph.ttl'):
     # merged_g.remove( (URIRef('http://test.org/affordance.owl'), RDF.type, OWL.Ontology) )
     # merged_g.remove( (URIRef('http://test.org/bft.owl'), RDF.type, OWL.Ontology) )
     # bft_aff_ns = create_namespace(merged_g,'http://test.org/kchn.owl#', 'kchn')
-    kchn_ns = create_namespace(merged_g, 'http://test.org/kitchen.owl#', 'kchn')
-    merged_g.add( (URIRef('http://test.org/kitchen.owl'), RDF.type, OWL.Ontology) )
+    merged_g.add( (URIRef('http://test.org/kchn.owl#'), RDF.type, OWL.Ontology) )
     print("Merged graphs have {} triples".format(len(merged_g)))
     file_format = output_filename[3:].split('.')[1]
 
@@ -75,15 +74,16 @@ def merge_graphs(graph1, graph2, output_filename='merged_graph.ttl'):
 
 def main():
 
-#     # closed ontologies
-#     closed_aff_onto_file = "../ontologies/affordance/aff_onto_closed.ttl"
-#     closed_bft_onto_file = "../ontologies/bft/bft_onto_closed.ttl"
+    # closed ontologies
+    closed_aff_onto_file = "../ontologies/affordance/aff_onto_closed.ttl"
+    closed_bft_onto_file = "../ontologies/bft/bft_onto_closed.ttl"
 
-#     aff_closed_g = get_graph(closed_aff_onto_file, "http://test.org/affordance.owl#", 'aff')
-#     bft_closed_g = get_graph(closed_bft_onto_file, "http://test.org/bft.owl#", 'bft')
-#     merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.ttl')
-#     merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.nt')
-#     merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.owl')
+    aff_closed_g = get_graph(closed_aff_onto_file, "http://test.org/affordance.owl#", 'aff')
+    bft_closed_g = get_graph(closed_bft_onto_file, "http://test.org/bft.owl#", 'bft')
+    merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.ttl')
+    merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.nt')
+    merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.owl')
+
 
     # open ontologies
     open_aff_onto_file = "../ontologies/affordance/aff_onto_not_closed.ttl"
@@ -91,19 +91,11 @@ def main():
 
     aff_open_g = get_graph(open_aff_onto_file, "http://test.org/affordance.owl#", 'aff')
     bft_open_g = get_graph(open_bft_onto_file, "http://test.org/bft.owl#", 'bft')
-    merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph2.ttl')
-    # merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.nt')
-    # merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.owl')
+    merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.ttl')
+    merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.nt')
+    merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.owl')
 
-#     if cn:
-#         base_graph_file = "./graphs/aff_bft_open_graph.ttl"
-#         cn_graph_file = "../data/ConceptNet/parse/cn_graph.ttl"
 
-#         base_g = get_graph(base_graph_file, "http://test.org/kchn.owl#", "kchn")
-#         cn_g = get_graph(cn_graph_file, "http://api.conceptnet.io/", "cn")
-#         cnr_ns = create_namespace(cn_g, "http://api.conceptnet.io/r/", "cnr")
-#         cnc_ns = create_namespace(cn_g, "http://api.conceptnet.io/c/", "cnc")
-#         wi_ns = create_namespace(cn_g, "http://purl.org/ontology/wi/core#", "wi")
 
     return
 

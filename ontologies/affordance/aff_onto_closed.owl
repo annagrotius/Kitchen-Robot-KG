@@ -75,6 +75,14 @@
 <owl:Class rdf:about="#Quality">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   <rdfs:subClassOf>
+    <owl:Class>
+      <owl:oneOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#soft"/>
+        <rdf:Description rdf:about="#hard"/>
+      </owl:oneOf>
+    </owl:Class>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
     <owl:Restriction>
       <owl:onProperty rdf:resource="#implies"/>
       <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
@@ -84,11 +92,58 @@
 
 <owl:Class rdf:about="#Affordance">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf>
+    <owl:Class>
+      <owl:oneOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#eatable"/>
+      </owl:oneOf>
+    </owl:Class>
+  </rdfs:subClassOf>
 </owl:Class>
 
 <owl:Class rdf:about="#Action">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf>
+    <owl:Class>
+      <owl:oneOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#eat"/>
+        <rdf:Description rdf:about="#cut"/>
+      </owl:oneOf>
+    </owl:Class>
+  </rdfs:subClassOf>
 </owl:Class>
+
+<Action rdf:about="#cut">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Action>
+
+<Action rdf:about="#eat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Action>
+
+<Quality rdf:about="#soft">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#implies"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
+</Quality>
+
+<Quality rdf:about="#hard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#implies"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
+</Quality>
+
+<Affordance rdf:about="#eatable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Affordance>
 
 
 </rdf:RDF>

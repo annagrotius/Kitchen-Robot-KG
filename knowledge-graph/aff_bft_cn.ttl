@@ -1,8 +1,13 @@
+@prefix aff: <http://test.org/affordance.owl#> .
+@prefix bft: <http://test.org/bft.owl#> .
 @prefix cn: <http://api.conceptnet.io/> .
 @prefix cnc: <http://api.conceptnet.io/c/> .
 @prefix cnr: <http://api.conceptnet.io/r/> .
+@prefix kchn: <http://test.org/kitchen.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wi: <http://purl.org/ontology/wi/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -5950,6 +5955,342 @@
     rdf:subject <http://api.conceptnet.io/c/en/spoon> ;
     rdf:value "[[a spoon]] is used for [[transporting liquid short distances]]" .
 
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/apple_juice> kchn:CanBe <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/made_from_crushed_apples>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/made_from_squeezed_apples> .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/baking_cake> a aff:Action .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/blade> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/blade/n/wn/artifact> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/butter> kchn:CanBe <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/eaten>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/eaten_with_toast>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/made_from_churned_milk>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/made_from_cream>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/made_from_milk>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/served_at_restaurant>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/used_in_many_baking_recipes> .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/ceramic> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/clean> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/clear> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/cooking> a aff:Action .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/cupboard> kchn:CanBe <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/found_in_kitchen> .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/dangerous> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/dirty> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/drinking> a aff:Action .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/dull> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/eating_dinner> a aff:Action .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/eating_ice_cream> a aff:Action .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/eating_noodles> a aff:Action .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/eating_soup> a aff:Action .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/edible> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/empty> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/fork> a aff:Quality ;
+    kchn:CanBe <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/needed_when_eating_meal>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/used_when_eating> .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/fragile> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/glass> a aff:Quality ;
+    kchn:CanBe <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/blown>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/blown_into_shapes>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/broken>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/coated>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/found_in_building>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/found_in_bus>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/found_in_house>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/found_in_kitchen>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/found_in_taxi>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/made_from_fused_silicon_dioxide>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/made_from_sand>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/melted>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/recycled>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/sent_for_recycling>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/tempered>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/tinted>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/wrapped_in_napkin> .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/glass/n/wn/substance> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/good> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/good_for_health> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/green> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/haft/n/wn/artifact> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/half_empty> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/half_full> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/handle/n/wn/artifact> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/important_for_making_food> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/knife> kchn:CanBe <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/found_in_kitchen>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/sharp>,
+        <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/used_as_weapon> .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/knife_blade/n/wn/artifact> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/non_porous> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/one_kind_of_breakfast_drink> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/opaque> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/orange_juice> kchn:CanBe <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/made_from_oranges> .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/paired_with_chairs> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/pale_yellow> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/point/n/wn/artifact> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/point/n/wn/shape> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/prong/n/wn/artifact> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/recyclable> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/refreshing_to_drink> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/soft> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/solid> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/spoon> kchn:CanBe <http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/needed_when_eating_meal> .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/stabbing_to_death> a aff:Action .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/tine/n/wn/artifact> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/very_fragile> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/very_refreshing> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/very_useful_to_cut_meat> a aff:Quality .
+
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/yellow> a aff:Quality .
+
+aff:affords a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Action .
+
+aff:color a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+aff:form a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+aff:implies a owl:ObjectProperty ;
+    rdfs:domain aff:Quality ;
+    rdfs:range aff:Affordance .
+
+aff:location a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+bft:apple_juice a bft:Juice,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/apple_juice>,
+        <http://api.conceptnet.io/c/en/apple_juice/n> .
+
+bft:bread_basket a bft:Tableware,
+        owl:NamedIndividual .
+
+bft:butter_knife a bft:Knife,
+        owl:NamedIndividual ;
+    bft:can_spread bft:butter ;
+    owl:sameAs <http://api.conceptnet.io/c/en/butter_knife>,
+        <http://api.conceptnet.io/c/en/butter_knife/n> .
+
+bft:can_cut a owl:ObjectProperty ;
+    rdfs:domain bft:Cutlery ;
+    rdfs:range bft:Food .
+
+bft:can_spread a owl:ObjectProperty ;
+    rdfs:domain bft:Cutlery ;
+    rdfs:range bft:Food .
+
+bft:croissant a bft:Bread,
+        owl:NamedIndividual .
+
+bft:cupboard a bft:Storage,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/cupboard>,
+        <http://api.conceptnet.io/c/en/cupboard/n> ;
+    skos:closeMatch <http://api.conceptnet.io/c/ring_cupboard/n/wn/artifact> .
+
+bft:dining_chair a bft:Chair,
+        owl:NamedIndividual .
+
+bft:dining_table owl:sameAs <http://api.conceptnet.io/c/en/dining_table>,
+        <http://api.conceptnet.io/c/en/dining_table/n> .
+
+bft:egg_cup a bft:Tableware,
+        owl:NamedIndividual .
+
+bft:fork owl:sameAs <http://api.conceptnet.io/c/en/fork> ;
+    skos:closeMatch <http://api.conceptnet.io/c/asting_fork/n/wn/artifact>,
+        <http://api.conceptnet.io/c/blefork/n/wn/artifact>,
+        <http://api.conceptnet.io/c/lad_fork/n>,
+        <http://api.conceptnet.io/c/lad_fork/n/wn/artifact>,
+        cnc:mplementing_spoon_and_fork,
+        <http://api.conceptnet.io/c/nner_fork/n>,
+        <http://api.conceptnet.io/c/rving_fork/n/wn/artifact>,
+        <http://api.conceptnet.io/c/yfork/n/wn/artifact> .
+
+bft:fried_egg owl:sameAs <http://api.conceptnet.io/c/en/fried_egg>,
+        <http://api.conceptnet.io/c/en/fried_egg/n> .
+
+bft:garnish a bft:Food,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/garnish> .
+
+bft:glass a bft:Glassware,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/glass>,
+        <http://api.conceptnet.io/c/en/glass/n>,
+        <http://api.conceptnet.io/c/en/glasses> ;
+    skos:closeMatch <http://api.conceptnet.io/c/ad_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/ained_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/al_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/ass/n/opencyc/glass_413>,
+        <http://api.conceptnet.io/c/ass/n/opencyc/silicate_glass>,
+        <http://api.conceptnet.io/c/ate_glass/n>,
+        <http://api.conceptnet.io/c/ear_glass/n>,
+        cnc:eglasses,
+        <http://api.conceptnet.io/c/er_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/fety_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/ft_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/ghball_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/luble_glass/n/wn/substance>,
+        cnc:ne_glass,
+        <http://api.conceptnet.io/c/neglass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/ot_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/ound_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/own_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/queur_glass/n/wn/artifact>,
+        cnc:quor_glass,
+        <http://api.conceptnet.io/c/re_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/rfait_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/rophosphosilicate_glass/n>,
+        <http://api.conceptnet.io/c/t_glass/n>,
+        <http://api.conceptnet.io/c/ter_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/tical_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/tural_glass/n/wn/substance> .
+
+bft:green_tea a bft:Tea,
+        owl:NamedIndividual .
+
+bft:knife owl:sameAs <http://api.conceptnet.io/c/en/knife>,
+        <http://api.conceptnet.io/c/en/knife/n> ;
+    skos:closeMatch <http://api.conceptnet.io/c/awknife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/ble_knife/n>,
+        <http://api.conceptnet.io/c/ble_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/cketknife/n>,
+        <http://api.conceptnet.io/c/cketknife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/ead_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/eak_knife/n>,
+        <http://api.conceptnet.io/c/ench_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/noleum_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/nting_knife/n>,
+        <http://api.conceptnet.io/c/nting_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/rgical_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/rving_knife/n>,
+        <http://api.conceptnet.io/c/rving_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/se_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/tcher_knife/n/wn/artifact>,
+        cnc:tter_knife,
+        <http://api.conceptnet.io/c/tter_knife/n>,
+        <http://api.conceptnet.io/c/tter_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/uning_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/wie_knife/n/wn/artifact> .
+
+bft:milk_pitcher a bft:Kitchenware,
+        owl:NamedIndividual .
+
+bft:orange_juice a bft:Juice,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/orange_juice>,
+        <http://api.conceptnet.io/c/en/orange_juice/n> ;
+    skos:closeMatch <http://api.conceptnet.io/c/ozen_orange_juice/n/wn/food> .
+
+bft:pepper_shaker a bft:Tableware,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/pepper_shaker/n> .
+
+bft:primary_usage a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+bft:salt_shaker a bft:Tableware,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/salt_shaker>,
+        <http://api.conceptnet.io/c/en/salt_shaker/n>,
+        <http://api.conceptnet.io/c/en/saltshaker> .
+
+bft:scrambled_egg owl:sameAs <http://api.conceptnet.io/c/en/scrambled_egg/n> .
+
+bft:served_with a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain bft:Condiment ;
+    rdfs:range bft:Food .
+
+bft:spoon owl:sameAs <http://api.conceptnet.io/c/en/spoon>,
+        <http://api.conceptnet.io/c/en/spoon/n> ;
+    skos:closeMatch cnc:aspoon,
+        <http://api.conceptnet.io/c/aspoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/asuring_spoon/n>,
+        <http://api.conceptnet.io/c/blespoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/gar_spoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/lverware_spoon/n>,
+        cnc:mplementing_spoon_and_fork,
+        <http://api.conceptnet.io/c/ncible_spoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/oden_spoon/n>,
+        <http://api.conceptnet.io/c/oden_spoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/ssert_spoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/upspoon/n/wn/artifact> .
+
+bft:spread_on a owl:ObjectProperty ;
+    rdfs:domain bft:Spread ;
+    rdfs:range bft:Food .
+
+bft:table a bft:Table,
+        owl:NamedIndividual .
+
+bft:teacup a bft:Glassware,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/tea_cup>,
+        <http://api.conceptnet.io/c/en/teacup> .
+
+bft:used_with a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain bft:Tableware ;
+    rdfs:range bft:Food .
+
+<http://test.org/kitchen.owl> a owl:Ontology .
+
 <http://api.conceptnet.io/c/de/machete> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
@@ -6145,9 +6486,6 @@
 <http://api.conceptnet.io/c/en/dining_room_table/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/dining_table/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/table> .
-
 <http://api.conceptnet.io/c/en/dinner_fork/n> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/fork/n> .
 
@@ -6186,9 +6524,6 @@
 
 <http://api.conceptnet.io/c/en/fork/v/wn/chess> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201121306-v> .
-
-<http://api.conceptnet.io/c/en/fried_egg> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/plate> .
 
 <http://api.conceptnet.io/c/en/frozen_orange_juice/n/wn/food> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/orange_juice/n/wn/food> .
@@ -6436,9 +6771,6 @@
 <http://api.conceptnet.io/c/en/salt> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/saltshaker> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
 <http://api.conceptnet.io/c/en/saucepan> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
@@ -6553,9 +6885,6 @@
 <http://api.conceptnet.io/c/en/tea> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/tea_cup> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
 <http://api.conceptnet.io/c/en/tea_maker/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
@@ -6637,6 +6966,55 @@
 <http://api.conceptnet.io/c/en/yataghan/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
+<http://api.conceptnet.io/c/http://api.conceptnet.io/c/en/sharp> a aff:Quality .
+
+aff:Affordance a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+bft:Coffee a owl:Class ;
+    rdfs:subClassOf bft:Drink .
+
+bft:Fork a owl:Class ;
+    rdfs:subClassOf bft:Cutlery .
+
+bft:Milk a owl:Class ;
+    rdfs:subClassOf bft:Drink .
+
+bft:Spoon a owl:Class ;
+    rdfs:subClassOf bft:Cutlery .
+
+bft:Table a owl:Class ;
+    rdfs:subClassOf bft:Furniture ;
+    owl:disjointWith bft:Chair .
+
+bft:bread_plate a bft:Plate,
+        owl:NamedIndividual .
+
+bft:butter a bft:Spread,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/butter>,
+        <http://api.conceptnet.io/c/en/butter/n> ;
+    skos:closeMatch cnc:anut_butter,
+        <http://api.conceptnet.io/c/arified_butter/n/wn/food>,
+        <http://api.conceptnet.io/c/k_butter/n/wn/food>,
+        <http://api.conceptnet.io/c/own_butter/n/wn/food>,
+        cnc:read_butter,
+        cnc:read_butter_on_bread,
+        cnc:read_peanut_butter,
+        cnc:reading_butter_on_bread,
+        <http://api.conceptnet.io/c/t_of_butter/n>,
+        <http://api.conceptnet.io/c/uniere_butter/n/wn/food> .
+
+bft:butter_dish a bft:Plate,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/butter_dish/n> .
+
+bft:sauce_dish a bft:Plate,
+        owl:NamedIndividual .
+
+bft:teacup_plate a bft:Plate,
+        owl:NamedIndividual .
+
 <http://api.conceptnet.io/c/en/acidic> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/alter_length_of_string_or_rope> a rdfs:Resource .
@@ -6686,10 +7064,6 @@
 <http://api.conceptnet.io/c/en/butter/n/wn/person> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/109904267-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/combatant/n/wn/person> .
-
-<http://api.conceptnet.io/c/en/butter_dish/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterDish> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/serving_dish/n> .
 
 <http://api.conceptnet.io/c/en/butter_dish/n/wn/artifact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/102931148-n> ;
@@ -6826,6 +7200,9 @@
 <http://api.conceptnet.io/c/en/dining_room> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/dining_set> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/dining_table/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/table> .
 
 <http://api.conceptnet.io/c/en/dinner> a rdfs:Resource .
 
@@ -6985,6 +7362,9 @@
 
 <http://api.conceptnet.io/c/en/free_one's_soul> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/fried_egg> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/plate> .
+
 <http://api.conceptnet.io/c/en/fried_egg/n/wn/food> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107859612-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/food> .
@@ -7000,10 +7380,6 @@
 <http://api.conceptnet.io/c/en/giving_things_home> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/glass_of_iced_tea> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/glasses> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
 <http://api.conceptnet.io/c/en/glassware/n/wn/artifact> a rdfs:Resource .
 
@@ -7309,6 +7685,9 @@
 
 <http://api.conceptnet.io/c/en/road> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/saltshaker> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
 <http://api.conceptnet.io/c/en/sand> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/saving_counter_space> a rdfs:Resource .
@@ -7475,9 +7854,8 @@
 
 <http://api.conceptnet.io/c/en/tastier_than_water> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/teacup> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/container>,
-        <http://api.conceptnet.io/c/en/dish> .
+<http://api.conceptnet.io/c/en/tea_cup> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/teacup/n/wn/quantity> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/113792775-n> ;
@@ -7597,6 +7975,37 @@
 
 <http://sw.opencyc.org/2012/05/10/concept/en/Spoon> a rdfs:Resource .
 
+bft:Bread a owl:Class ;
+    rdfs:subClassOf bft:Food .
+
+bft:Chair a owl:Class ;
+    rdfs:subClassOf bft:Furniture .
+
+bft:Knife a owl:Class ;
+    rdfs:subClassOf bft:Cutlery .
+
+bft:Spread a owl:Class ;
+    rdfs:subClassOf bft:Condiment .
+
+bft:Storage a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue false ;
+            owl:onProperty bft:is_edible ],
+        owl:Thing .
+
+bft:Tea a owl:Class ;
+    rdfs:subClassOf bft:Drink .
+
+bft:fried a bft:Egg,
+        owl:NamedIndividual .
+
+bft:hardboiled a bft:Egg,
+        owl:NamedIndividual .
+
+bft:scrambled a bft:Egg,
+        owl:NamedIndividual .
+
 <http://umbel.org/umbel/sc/Apple_juice> a rdfs:Resource .
 
 <http://umbel.org/umbel/sc/Butter> a rdfs:Resource .
@@ -7693,20 +8102,9 @@
 
 <http://wordnet-rdf.princeton.edu/wn31/202340359-v> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/butter_knife> a rdfs:Resource ;
-    cnr:CapableOf <http://api.conceptnet.io/c/en/butter_bread> ;
-    cnr:ExternalURL <http://umbel.org/umbel/sc/ButterKnife> ;
-    cnr:UsedFor <http://api.conceptnet.io/c/en/spreading_butter_on_bread> .
-
-<http://api.conceptnet.io/c/en/butter_knife/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n>,
-        <http://api.conceptnet.io/c/en/silverware/n> .
-
-<http://api.conceptnet.io/c/en/cupboard/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Cupboard> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/cabinet/n/opencyc/cabinet_storage_construction>,
-        <http://api.conceptnet.io/c/en/part_of_room/n> .
+<http://api.conceptnet.io/c/en/butter_dish/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterDish> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/serving_dish/n> .
 
 <http://api.conceptnet.io/c/en/cupboard/n/wikt/en_1> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/cabinet>,
@@ -7719,34 +8117,45 @@
 <http://api.conceptnet.io/c/en/eating_ice_cream> a rdfs:Resource ;
     cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
 
-<http://api.conceptnet.io/c/en/fried_egg/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/dish>,
-        <http://api.conceptnet.io/c/en/hot>,
-        <http://api.conceptnet.io/c/en/meal> .
-
 <http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass> .
 
-<http://api.conceptnet.io/c/en/pepper_shaker/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
-        <http://api.conceptnet.io/c/en/shaker/n> .
-
-<http://api.conceptnet.io/c/en/salt_shaker/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
-        <http://api.conceptnet.io/c/en/shaker/n> .
-
-<http://api.conceptnet.io/c/en/scrambled_egg/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/food_composite/n>,
-        <http://api.conceptnet.io/c/en/semisolid/n> .
+<http://api.conceptnet.io/c/en/glasses> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
 <http://api.conceptnet.io/c/en/soup> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/table_knife/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/teacup> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/container>,
+        <http://api.conceptnet.io/c/en/dish> .
+
+bft:Condiment a owl:Class ;
+    rdfs:subClassOf bft:Food .
+
+bft:Furniture a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue false ;
+            owl:onProperty bft:is_edible ],
+        owl:Thing .
+
+bft:Glassware a owl:Class ;
+    rdfs:subClassOf bft:Tableware .
+
+bft:Juice a owl:Class ;
+    rdfs:subClassOf bft:Drink .
+
+bft:Kitchenware a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue false ;
+            owl:onProperty bft:is_edible ],
+        owl:Thing .
 
 <http://api.conceptnet.io/c/en/a> a rdfs:Resource .
 
@@ -7760,9 +8169,24 @@
 
 <http://api.conceptnet.io/c/en/butter_bread> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/butter_knife> a rdfs:Resource ;
+    cnr:CapableOf <http://api.conceptnet.io/c/en/butter_bread> ;
+    cnr:ExternalURL <http://umbel.org/umbel/sc/ButterKnife> ;
+    cnr:UsedFor <http://api.conceptnet.io/c/en/spreading_butter_on_bread> .
+
+<http://api.conceptnet.io/c/en/butter_knife/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n>,
+        <http://api.conceptnet.io/c/en/silverware/n> .
+
 <http://api.conceptnet.io/c/en/cabinet> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/container/n/wn/artifact> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/cupboard/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Cupboard> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/cabinet/n/opencyc/cabinet_storage_construction>,
+        <http://api.conceptnet.io/c/en/part_of_room/n> .
 
 <http://api.conceptnet.io/c/en/cutlery/n/wn/artifact> a rdfs:Resource .
 
@@ -7798,15 +8222,16 @@
 
 <http://api.conceptnet.io/c/en/fridge> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/fried_egg/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dish>,
+        <http://api.conceptnet.io/c/en/hot>,
+        <http://api.conceptnet.io/c/en/meal> .
+
 <http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/garnish/n/wn/food> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107637227-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/decoration/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/glass/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/inorganic_substance/n>,
-        <http://api.conceptnet.io/c/en/solid/n/opencyc/solid_state_of_matter> .
 
 <http://api.conceptnet.io/c/en/hand> a rdfs:Resource .
 
@@ -7820,9 +8245,24 @@
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107941074-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> .
 
+<http://api.conceptnet.io/c/en/pepper_shaker/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
+        <http://api.conceptnet.io/c/en/shaker/n> .
+
 <http://api.conceptnet.io/c/en/refrigerator> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/resturant> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/salt_shaker/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
+        <http://api.conceptnet.io/c/en/shaker/n> .
+
+<http://api.conceptnet.io/c/en/scrambled_egg/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/food_composite/n>,
+        <http://api.conceptnet.io/c/en/semisolid/n> .
 
 <http://api.conceptnet.io/c/en/shaker/n> a rdfs:Resource .
 
@@ -7844,8 +8284,42 @@
 
 <http://api.conceptnet.io/c/en/window> a rdfs:Resource .
 
+bft:Egg a owl:Class ;
+    rdfs:subClassOf [ a owl:Class ;
+            owl:oneOf ( bft:hardboiled bft:scrambled bft:fried ) ],
+        bft:Food .
+
+bft:is_edible a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean .
+
 <http://api.conceptnet.io/c/en/container> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
+<http://api.conceptnet.io/c/en/glass/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/inorganic_substance/n>,
+        <http://api.conceptnet.io/c/en/solid/n/opencyc/solid_state_of_matter> .
+
+bft:Cutlery a owl:Class ;
+    rdfs:subClassOf bft:Tableware .
+
+bft:Drink a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+bft:Plate a owl:Class ;
+    rdfs:subClassOf bft:Tableware .
+
+<http://api.conceptnet.io/c/en/containerful/n/wn/quantity> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/eating_food> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/found_in_kitchen> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/kitchen> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/kitchen_drawer> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/mixture/n> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/salt_shaker> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/fast_food_restaurant>,
@@ -7853,6 +8327,8 @@
     cnr:ExternalURL <http://umbel.org/umbel/sc/SaltShaker> ;
     cnr:HasA <http://api.conceptnet.io/c/en/thousands_of_grains_of_salt> ;
     cnr:IsA <http://api.conceptnet.io/c/en/small_container_for_table_salt> .
+
+<http://api.conceptnet.io/c/en/silverware_drawer> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/apple_juice/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice> ;
@@ -7862,19 +8338,10 @@
         <http://api.conceptnet.io/c/en/mixture/n>,
         <http://api.conceptnet.io/c/en/sweet_thing/n> .
 
-<http://api.conceptnet.io/c/en/containerful/n/wn/quantity> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/eating_food> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/found_in_kitchen> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/drinking> a rdfs:Resource ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/glass> .
 
 <http://api.conceptnet.io/c/en/garnish> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/kitchen> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/kitchen_drawer> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/mixture/n> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/orange_juice/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice>,
@@ -7884,14 +8351,19 @@
         <http://api.conceptnet.io/c/en/mixture/n>,
         <http://api.conceptnet.io/c/en/sweet_thing/n> .
 
-<http://api.conceptnet.io/c/en/silverware_drawer> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/drinking> a rdfs:Resource ;
-    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/glass> .
+aff:KitchenEntity a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 <http://api.conceptnet.io/c/en/plate> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
     cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+
+aff:quality a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Quality .
+
+bft:Tableware a owl:Class ;
+    rdfs:subClassOf bft:Kitchenware .
 
 <http://api.conceptnet.io/c/en/fork/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece> ;
@@ -7900,9 +8372,21 @@
         <http://api.conceptnet.io/c/en/silverware/n>,
         <http://api.conceptnet.io/c/en/tableware> .
 
+aff:Action a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
 <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103152990-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/storage_space/n/wn/artifact> .
+
+cnr:HasA rdfs:subPropertyOf aff:quality .
+
+bft:Food a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue true ;
+            owl:onProperty bft:is_edible ],
+        owl:Thing .
 
 <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Glass_413> ;
@@ -7910,6 +8394,12 @@
         <http://api.conceptnet.io/c/en/glass/n>,
         <http://api.conceptnet.io/c/en/inanimate_object/n>,
         <http://api.conceptnet.io/c/en/solid_object/n> .
+
+<http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103205892-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/table/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/table> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/apple_juice> a rdfs:Resource ;
     cnr:ExternalURL <http://umbel.org/umbel/sc/Apple_juice> ;
@@ -7925,11 +8415,12 @@
     cnr:ReceivesAction <http://api.conceptnet.io/c/en/made_from_crushed_apples>,
         <http://api.conceptnet.io/c/en/made_from_squeezed_apples> .
 
-<http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103205892-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/table/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/butter/n/wn/food> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107864314-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dairy_product/n/wn/food>,
+        <http://api.conceptnet.io/c/en/food/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/table> a rdfs:Resource .
+cnr:PartOf rdfs:subPropertyOf aff:quality .
 
 <http://api.conceptnet.io/c/en/butter/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Butter> ;
@@ -7943,11 +8434,6 @@
         <http://api.conceptnet.io/c/en/solid_object/n>,
         <http://api.conceptnet.io/c/en/spread/n/opencyc/spread_food>,
         <http://api.conceptnet.io/c/en/yellow/n> .
-
-<http://api.conceptnet.io/c/en/butter/n/wn/food> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107864314-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/dairy_product/n/wn/food>,
-        <http://api.conceptnet.io/c/en/food/n/wn/food> .
 
 <http://api.conceptnet.io/c/en/spoon/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Spoon> ;
@@ -7979,6 +8465,8 @@
     cnr:IsA <http://api.conceptnet.io/c/en/cutlery/n/wn/artifact>,
         <http://api.conceptnet.io/c/en/tool/n/wn/artifact> .
 
+cnr:MadeOf rdfs:subPropertyOf aff:quality .
+
 <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/104291140-n>,
         <http://wordnet-rdf.princeton.edu/wn31/104291479-n> ;
@@ -7995,6 +8483,8 @@
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/114905454-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/solid/n/wn/substance> ;
     cnr:PartOf <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+
+cnr:HasProperty rdfs:subPropertyOf aff:quality .
 
 <http://api.conceptnet.io/c/en/butter> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/fridge>,
@@ -8032,6 +8522,9 @@
     cnr:IsA <http://api.conceptnet.io/c/en/container/n/wn/artifact>,
         <http://api.conceptnet.io/c/en/glassware/n/wn/artifact> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/hold/v/wn/stative> .
+
+aff:Quality a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 <http://api.conceptnet.io/c/en/dining_table> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cafeteria>,
@@ -8434,6 +8927,8 @@
         <http://api.conceptnet.io/c/en/unraveling>,
         <http://api.conceptnet.io/c/en/working_with_wood> .
 
+cnr:AtLocation rdfs:subPropertyOf aff:quality .
+
 <http://api.conceptnet.io/c/en/cupboard> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/own_kitchen>,
         <http://api.conceptnet.io/c/en/pantry> ;
@@ -8468,4 +8963,22 @@
         <http://api.conceptnet.io/c/en/storing_food>,
         <http://api.conceptnet.io/c/en/storing_junk>,
         <http://api.conceptnet.io/c/en/storing_things> .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Bread bft:Egg bft:Condiment ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Juice bft:Coffee bft:Milk bft:Tea ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( bft:hardboiled bft:scrambled bft:fried ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Glassware bft:Plate bft:Fork bft:Knife bft:Spoon ) .
 

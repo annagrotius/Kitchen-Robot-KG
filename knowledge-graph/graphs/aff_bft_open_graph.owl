@@ -5,293 +5,158 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://test.org/bft.owl#Plate">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Tableware"/>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#location">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://test.org/affordance.owl#quality"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL161C21">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:nodeID="ub2bL160C21">
     <owl:onProperty rdf:resource="http://test.org/bft.owl#is_edible"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Tea">
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Drink"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b9">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Egg"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b10"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL192C1">
-    <owl:members rdf:nodeID="fe4c2902701544cab9371848010d88af4b4"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#Quality">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#color">
-    <rdfs:subPropertyOf rdf:resource="http://test.org/affordance.owl#quality"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdf:Description rdf:about="http://test.org/bft.owl#used_with">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://test.org/bft.owl#Tableware"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:range rdf:resource="http://test.org/bft.owl#Food"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL207C1">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-    <owl:distinctMembers rdf:nodeID="fe4c2902701544cab9371848010d88af4b25"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#form">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:subPropertyOf rdf:resource="http://test.org/affordance.owl#quality"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#quality">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
-    <rdfs:range rdf:resource="http://test.org/affordance.owl#Quality"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#sauce_dish">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Plate"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b12">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Knife"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b13"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#teacup">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Glassware"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b21">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Juice"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b22"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Food">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
-    <rdfs:subClassOf rdf:nodeID="ub4bL187C21"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b4">
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b5"/>
-    <rdf:first rdf:resource="http://test.org/bft.owl#Food"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b13">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Spoon"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#butter">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Spread"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Storage">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:nodeID="ub4bL128C21"/>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:subClassOf rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#bread_plate">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Plate"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Spoon">
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Cutlery"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Tableware">
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Kitchenware"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Spread">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Condiment"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL204C1">
-    <owl:members rdf:nodeID="fe4c2902701544cab9371848010d88af4b21"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#orange_juice">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Juice"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#primary_usage">
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b1">
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b2"/>
-    <rdf:first rdf:resource="http://test.org/bft.owl#hardboiled"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b2">
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b3"/>
-    <rdf:first rdf:resource="http://test.org/bft.owl#scrambled"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b3">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    <rdf:first rdf:resource="http://test.org/bft.owl#fried"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Chair">
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Furniture"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b27">
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    <rdf:first rdf:resource="http://test.org/bft.owl#fried"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Knife">
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Cutlery"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#bread_basket">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Tableware"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b24">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Tea"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL187C21">
-    <owl:onProperty rdf:resource="http://test.org/bft.owl#is_edible"/>
-    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL195C1">
-    <owl:members rdf:nodeID="fe4c2902701544cab9371848010d88af4b9"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#fried">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Egg"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#is_edible">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#implies">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://test.org/affordance.owl#Quality"/>
-    <rdfs:range rdf:resource="http://test.org/affordance.owl#Affordance"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Kitchenware">
-    <rdfs:subClassOf rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
-    <rdfs:subClassOf rdf:nodeID="ub4bL161C21"/>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b19">
-    <rdf:first rdf:resource="http://test.org/bft.owl#butter_dish"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b20"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Egg">
-    <rdfs:subClassOf rdf:nodeID="ub4bL167C21"/>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Condiment">
     <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Food"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b10">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Plate"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b11"/>
+  <rdf:Description rdf:about="http://test.org/bft.owl#butter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Spread"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#used_with">
-    <rdfs:domain rdf:resource="http://test.org/bft.owl#Plate"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://test.org/bft.owl#Cutlery"/>
-    <rdfs:range rdf:resource="http://test.org/bft.owl#Food"/>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b5">
+    <rdf:first rdf:resource="http://test.org/bft.owl#bread_plate"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b6"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Table">
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Furniture"/>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Drink">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:disjointWith rdf:resource="http://test.org/bft.owl#Chair"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#Action">
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#affords">
-    <rdfs:range rdf:resource="http://test.org/affordance.owl#Action"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#hardboiled">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://test.org/bft.owl#Egg"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#egg_cup">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Tableware"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#croissant">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Bread"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b9">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Glassware"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b10"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#green_tea">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Tea"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://test.org/bft.owl#dining_chair">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://test.org/bft.owl#Chair"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#table">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Table"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#apple_juice">
+    <rdf:type rdf:resource="http://test.org/bft.owl#Juice"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b16">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Juice"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Coffee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Drink"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b14">
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b15"/>
+    <rdf:first rdf:resource="http://test.org/bft.owl#Kitchenware"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#can_cut">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://test.org/bft.owl#Food"/>
+    <rdfs:domain rdf:resource="http://test.org/bft.owl#Cutlery"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://test.org/bft.owl#spread_on">
     <rdfs:range rdf:resource="http://test.org/bft.owl#Food"/>
     <rdfs:domain rdf:resource="http://test.org/bft.owl#Spread"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b18">
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b19"/>
-    <rdf:first rdf:resource="http://test.org/bft.owl#bread_plate"/>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#color">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://test.org/affordance.owl#quality"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Furniture">
-    <rdfs:subClassOf rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:subClassOf rdf:nodeID="ub4bL149C21"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#quality">
+    <rdfs:range rdf:resource="http://test.org/affordance.owl#Quality"/>
+    <rdfs:domain rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#table">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Table"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b5">
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b6"/>
-    <rdf:first rdf:resource="http://test.org/bft.owl#Drink"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b20">
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b7">
     <rdf:first rdf:resource="http://test.org/bft.owl#teacup_plate"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Condiment">
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Food"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b8">
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b3">
+    <rdf:first rdf:resource="http://test.org/bft.owl#fried"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    <rdf:first rdf:resource="http://test.org/bft.owl#Furniture"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#butter_dish">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Plate"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#Action">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL186C21">
+    <owl:onProperty rdf:resource="http://test.org/bft.owl#is_edible"/>
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b15">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Furniture"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://test.org/bft.owl#Glassware">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Tableware"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#location">
-    <rdfs:subPropertyOf rdf:resource="http://test.org/affordance.owl#quality"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  <rdf:Description rdf:nodeID="ub2bL197C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="fbb85b84d66e04570816ab791f942d938b11"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://test.org/bft.owl#glass">
     <rdf:type rdf:resource="http://test.org/bft.owl#Glassware"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#butter_knife">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Knife"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <bft:can_spread rdf:resource="http://test.org/bft.owl#butter"/>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b10">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://test.org/bft.owl#Condiment"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL128C21">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://test.org/bft.owl#is_edible"/>
-    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+  <rdf:Description rdf:about="http://test.org/bft.owl#garnish">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Food"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#sauce_dish">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Plate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#milk_pitcher">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Kitchenware"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Kitchenware">
+    <rdfs:subClassOf rdf:nodeID="ub2bL160C21"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#green_tea">
+    <rdf:type rdf:resource="http://test.org/bft.owl#Tea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#teacup">
+    <rdf:type rdf:resource="http://test.org/bft.owl#Glassware"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#can_spread">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://test.org/bft.owl#Food"/>
+    <rdfs:domain rdf:resource="http://test.org/bft.owl#Cutlery"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b17">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Coffee"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b18"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://test.org/bft.owl#served_with">
     <rdfs:range rdf:resource="http://test.org/bft.owl#Food"/>
@@ -299,147 +164,281 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b11">
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b12"/>
-    <rdf:first rdf:resource="http://test.org/bft.owl#Fork"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b17">
-    <rdf:first rdf:resource="http://test.org/bft.owl#sauce_dish"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b18"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#KitchenEntity">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#can_cut">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://test.org/bft.owl#Cutlery"/>
-    <rdfs:range rdf:resource="http://test.org/bft.owl#Food"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Coffee">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Drink"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/affordance.owl#Affordance">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#milk_pitcher">
+  <rdf:Description rdf:about="http://test.org/bft.owl#orange_juice">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://test.org/bft.owl#Kitchenware"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Fork">
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Cutlery"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Bread">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Food"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Cutlery">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Tableware"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#apple_juice">
     <rdf:type rdf:resource="http://test.org/bft.owl#Juice"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b14">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Bread"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b15"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#teacup_plate">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Plate"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL149C21">
-    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
-    <owl:onProperty rdf:resource="http://test.org/bft.owl#is_edible"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b15">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Egg"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b16"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b26">
-    <rdf:first rdf:resource="http://test.org/bft.owl#scrambled"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b27"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Juice">
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Drink"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b23">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Milk"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b24"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b22">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Coffee"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b23"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL201C1">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-    <owl:distinctMembers rdf:nodeID="fe4c2902701544cab9371848010d88af4b17"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#can_spread">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://test.org/bft.owl#Cutlery"/>
-    <rdfs:range rdf:resource="http://test.org/bft.owl#Food"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Drink">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#cupboard">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Storage"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b16">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Condiment"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#Milk">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Drink"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#garnish">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Food"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/kchn.owl#">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#salt_shaker">
+  <rdf:Description rdf:about="http://test.org/bft.owl#bread_basket">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://test.org/bft.owl#Tableware"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b6">
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b13">
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b14"/>
     <rdf:first rdf:resource="http://test.org/bft.owl#Storage"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b7"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b25">
-    <rdf:first rdf:resource="http://test.org/bft.owl#hardboiled"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b26"/>
+  <rdf:Description rdf:nodeID="ub2bL200C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="fbb85b84d66e04570816ab791f942d938b16"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://test.org/bft.owl#scrambled">
-    <rdf:type rdf:resource="http://test.org/bft.owl#Egg"/>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Furniture">
+    <rdfs:subClassOf rdf:nodeID="ub2bL148C21"/>
+    <rdf:type rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#Affordance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b24">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Plate"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b25"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b22">
+    <rdf:first rdf:resource="http://test.org/bft.owl#fried"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#is_edible">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL166C21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:oneOf rdf:nodeID="fbb85b84d66e04570816ab791f942d938b1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Food">
+    <rdf:type rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="ub2bL186C21"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL194C1">
+    <owl:members rdf:nodeID="fbb85b84d66e04570816ab791f942d938b8"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#butter_knife">
+    <bft:can_spread rdf:resource="http://test.org/bft.owl#butter"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Knife"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Milk">
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Drink"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b21">
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b22"/>
+    <rdf:first rdf:resource="http://test.org/bft.owl#scrambled"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b18">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Milk"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b2">
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b3"/>
+    <rdf:first rdf:resource="http://test.org/bft.owl#scrambled"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Bread">
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Food"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://test.org/bft.owl#pepper_shaker">
     <rdf:type rdf:resource="http://test.org/bft.owl#Tableware"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL198C1">
-    <owl:members rdf:nodeID="fe4c2902701544cab9371848010d88af4b14"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b8">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Bread"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b9"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub4bL167C21">
+  <rdf:Description rdf:about="http://test.org/bft.owl#Cutlery">
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Tableware"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:oneOf rdf:nodeID="fe4c2902701544cab9371848010d88af4b1"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="fe4c2902701544cab9371848010d88af4b7">
-    <rdf:first rdf:resource="http://test.org/bft.owl#Kitchenware"/>
-    <rdf:rest rdf:nodeID="fe4c2902701544cab9371848010d88af4b8"/>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#form">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://test.org/affordance.owl#quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#bread_plate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Plate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#KitchenEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL203C1">
+    <owl:distinctMembers rdf:nodeID="fbb85b84d66e04570816ab791f942d938b20"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#affords">
+    <rdfs:domain rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://test.org/affordance.owl#Action"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b12">
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b13"/>
+    <rdf:first rdf:resource="http://test.org/bft.owl#Drink"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL206C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="fbb85b84d66e04570816ab791f942d938b23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Egg">
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Food"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ub2bL166C21"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b27">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Spoon"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Chair">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Furniture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#hardboiled">
+    <rdf:type rdf:resource="http://test.org/bft.owl#Egg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#Quality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Tableware">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Kitchenware"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Juice">
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Drink"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Spread">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Condiment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#croissant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Bread"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b20">
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b21"/>
+    <rdf:first rdf:resource="http://test.org/bft.owl#hardboiled"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#salt_shaker">
+    <rdf:type rdf:resource="http://test.org/bft.owl#Tableware"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#primary_usage">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Plate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Tableware"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b11">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Food"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b12"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b4">
+    <rdf:first rdf:resource="http://test.org/bft.owl#sauce_dish"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Table">
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Furniture"/>
+    <owl:disjointWith rdf:resource="http://test.org/bft.owl#Chair"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#scrambled">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Egg"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL127C21">
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+    <owl:onProperty rdf:resource="http://test.org/bft.owl#is_edible"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#teacup_plate">
+    <rdf:type rdf:resource="http://test.org/bft.owl#Plate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b26">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Knife"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#butter_dish">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Plate"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b25">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Fork"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/affordance.owl#implies">
+    <rdfs:domain rdf:resource="http://test.org/affordance.owl#Quality"/>
+    <rdfs:range rdf:resource="http://test.org/affordance.owl#Affordance"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Spoon">
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Cutlery"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL148C21">
+    <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://test.org/bft.owl#is_edible"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Knife">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Cutlery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Storage">
+    <rdfs:subClassOf rdf:nodeID="ub2bL127C21"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://test.org/affordance.owl#KitchenEntity"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Fork">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Cutlery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#Tea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://test.org/bft.owl#Drink"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/kitchen.owl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b1">
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b2"/>
+    <rdf:first rdf:resource="http://test.org/bft.owl#hardboiled"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#fried">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Egg"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b6">
+    <rdf:first rdf:resource="http://test.org/bft.owl#butter_dish"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b19">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Tea"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL191C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+    <owl:distinctMembers rdf:nodeID="fbb85b84d66e04570816ab791f942d938b4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fbb85b84d66e04570816ab791f942d938b23">
+    <rdf:first rdf:resource="http://test.org/bft.owl#Glassware"/>
+    <rdf:rest rdf:nodeID="fbb85b84d66e04570816ab791f942d938b24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#egg_cup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://test.org/bft.owl#Tableware"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/bft.owl#cupboard">
+    <rdf:type rdf:resource="http://test.org/bft.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   </rdf:Description>
 </rdf:RDF>

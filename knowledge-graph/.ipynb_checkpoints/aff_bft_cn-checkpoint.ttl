@@ -1,6 +1,12 @@
+@prefix aff: <http://test.org/affordance.owl#> .
+@prefix bft: <http://test.org/bft.owl#> .
 @prefix cn: <http://api.conceptnet.io/> .
 @prefix cnc: <http://api.conceptnet.io/c/> .
 @prefix cnr: <http://api.conceptnet.io/r/> .
+@prefix kchn: <http://test.org/kitchen.owl> .
+@prefix kchn1: <http://test.org/kitchen.owl#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wi: <http://purl.org/ontology/wi/core#> .
@@ -1484,483 +1490,483 @@
     rdf:subject <http://api.conceptnet.io/c/en/spoon> ;
     rdf:value "[[a spoon]] can [[be use to eat soup]]" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/apple_juice/,http://umbel.org/umbel/sc/Apple_juice/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/apple_juice/,/http://umbel.org/umbel/sc/Apple_juice/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/Apple_juice> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/apple_juice> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/apple_juice/n/,http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/apple_juice/n/,/http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/apple_juice/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/apple_juice/n/wn/food/,http://wordnet-rdf.princeton.edu/wn31/107940606-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/apple_juice/n/wn/food/,/http://wordnet-rdf.princeton.edu/wn31/107940606-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/107940606-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/apple_juice/n/wn/food> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/,http://dbpedia.org/resource/Butter/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/,/http://dbpedia.org/resource/Butter/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://dbpedia.org/resource/Butter> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/,http://umbel.org/umbel/sc/Butter/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/,/http://umbel.org/umbel/sc/Butter/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/Butter> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/,http://wikidata.dbpedia.org/resource/Q34172/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/,/http://wikidata.dbpedia.org/resource/Q34172/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wikidata.dbpedia.org/resource/Q34172> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/n/,http://sw.opencyc.org/2012/05/10/concept/en/Butter/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/n/,/http://sw.opencyc.org/2012/05/10/concept/en/Butter/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/Butter> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/n/wn/food/,http://wordnet-rdf.princeton.edu/wn31/107864314-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/n/wn/food/,/http://wordnet-rdf.princeton.edu/wn31/107864314-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/107864314-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter/n/wn/food> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/n/wn/person/,http://wordnet-rdf.princeton.edu/wn31/109904267-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/n/wn/person/,/http://wordnet-rdf.princeton.edu/wn31/109904267-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/109904267-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter/n/wn/person> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/v/wn/contact/,http://wordnet-rdf.princeton.edu/wn31/201270562-v/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter/v/wn/contact/,/http://wordnet-rdf.princeton.edu/wn31/201270562-v/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/201270562-v> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter/v/wn/contact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_dish/,http://umbel.org/umbel/sc/ButterDish/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_dish/,/http://umbel.org/umbel/sc/ButterDish/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/ButterDish> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter_dish> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_dish/n/,http://sw.opencyc.org/2012/05/10/concept/en/ButterDish/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_dish/n/,/http://sw.opencyc.org/2012/05/10/concept/en/ButterDish/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/ButterDish> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter_dish/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_dish/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/102931148-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_dish/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/102931148-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/102931148-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter_dish/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_knife/,http://umbel.org/umbel/sc/ButterKnife/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_knife/,/http://umbel.org/umbel/sc/ButterKnife/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/ButterKnife> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter_knife> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_knife/n/,http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_knife/n/,/http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter_knife/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_knife/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/102931433-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/butter_knife/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/102931433-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/102931433-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/butter_knife/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/croissant/,http://dbpedia.org/resource/Croissant/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/croissant/,/http://dbpedia.org/resource/Croissant/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://dbpedia.org/resource/Croissant> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/croissant> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/croissant/,http://wikidata.dbpedia.org/resource/Q207832/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/croissant/,/http://wikidata.dbpedia.org/resource/Q207832/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wikidata.dbpedia.org/resource/Q207832> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/croissant> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/cupboard/,http://umbel.org/umbel/sc/Cupboard/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/cupboard/,/http://umbel.org/umbel/sc/Cupboard/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/Cupboard> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/cupboard> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/cupboard/n/,http://sw.opencyc.org/2012/05/10/concept/en/Cupboard/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/cupboard/n/,/http://sw.opencyc.org/2012/05/10/concept/en/Cupboard/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/Cupboard> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/cupboard/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/cupboard/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/103152990-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/cupboard/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/103152990-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/103152990-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/dining_table/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/103205892-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/dining_table/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/103205892-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/103205892-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/,http://umbel.org/umbel/sc/Fork_SilverwarePiece/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/,/http://umbel.org/umbel/sc/Fork_SilverwarePiece/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/Fork_SilverwarePiece> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/fork> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/n/,http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/n/,/http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/fork/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/103388794-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/103388794-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/103388794-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/fork/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/103389013-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/103389013-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/103389013-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/fork/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/v/wn/change/,http://wordnet-rdf.princeton.edu/wn31/200141734-v/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/v/wn/change/,/http://wordnet-rdf.princeton.edu/wn31/200141734-v/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/200141734-v> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/fork/v/wn/change> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/v/wn/chess/,http://wordnet-rdf.princeton.edu/wn31/201121306-v/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fork/v/wn/chess/,/http://wordnet-rdf.princeton.edu/wn31/201121306-v/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/201121306-v> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/fork/v/wn/chess> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fried_egg/n/wn/food/,http://wordnet-rdf.princeton.edu/wn31/107859612-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/fried_egg/n/wn/food/,/http://wordnet-rdf.princeton.edu/wn31/107859612-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/107859612-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/fried_egg/n/wn/food> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/garnish/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/103425350-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/garnish/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/103425350-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/103425350-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/garnish/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/garnish/n/wn/food/,http://wordnet-rdf.princeton.edu/wn31/107637227-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/garnish/n/wn/food/,/http://wordnet-rdf.princeton.edu/wn31/107637227-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/107637227-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/garnish/n/wn/food> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/,http://dbpedia.org/resource/Glass/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/,/http://dbpedia.org/resource/Glass/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://dbpedia.org/resource/Glass> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/glass> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/,http://umbel.org/umbel/sc/Glass/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/,/http://umbel.org/umbel/sc/Glass/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/Glass> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/glass> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/n/opencyc/glass_413/,http://sw.opencyc.org/2012/05/10/concept/en/Glass_413/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/n/opencyc/glass_413/,/http://sw.opencyc.org/2012/05/10/concept/en/Glass_413/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/Glass_413> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/n/opencyc/silicate_glass/,http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/n/opencyc/silicate_glass/,/http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/103443167-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/103443167-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/103443167-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/glass/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/n/wn/substance/,http://wordnet-rdf.princeton.edu/wn31/114905454-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/n/wn/substance/,/http://wordnet-rdf.princeton.edu/wn31/114905454-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/114905454-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/glass/n/wn/substance> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/v/wn/possession/,http://wordnet-rdf.princeton.edu/wn31/202340359-v/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/glass/v/wn/possession/,/http://wordnet-rdf.princeton.edu/wn31/202340359-v/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/202340359-v> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/glass/v/wn/possession> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/,http://dbpedia.org/resource/Knife/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/,/http://dbpedia.org/resource/Knife/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://dbpedia.org/resource/Knife> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/knife> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/,http://umbel.org/umbel/sc/Knife/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/,/http://umbel.org/umbel/sc/Knife/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/Knife> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/knife> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/,http://wikidata.dbpedia.org/resource/Q32489/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/,/http://wikidata.dbpedia.org/resource/Q32489/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wikidata.dbpedia.org/resource/Q32489> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/knife> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/,http://wikidata.dbpedia.org/resource/Q741471/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/,/http://wikidata.dbpedia.org/resource/Q741471/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wikidata.dbpedia.org/resource/Q741471> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/knife> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/n/,http://sw.opencyc.org/2012/05/10/concept/en/Knife/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/n/,/http://sw.opencyc.org/2012/05/10/concept/en/Knife/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/Knife> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/knife/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/103628765-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/knife/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/103628765-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/103628765-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/knife/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/,http://dbpedia.org/resource/Orange_juice/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/,/http://dbpedia.org/resource/Orange_juice/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://dbpedia.org/resource/Orange_juice> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/orange_juice> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/,http://umbel.org/umbel/sc/OrangeJuice/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/,/http://umbel.org/umbel/sc/OrangeJuice/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/OrangeJuice> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/orange_juice> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/,http://umbel.org/umbel/sc/Orange_juice/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/,/http://umbel.org/umbel/sc/Orange_juice/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/Orange_juice> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/orange_juice> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/,http://wikidata.dbpedia.org/resource/Q219059/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/,/http://wikidata.dbpedia.org/resource/Q219059/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wikidata.dbpedia.org/resource/Q219059> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/orange_juice> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/n/,http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/n/,/http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/orange_juice/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/n/,http://sw.opencyc.org/2012/05/10/concept/en/Orange_juice/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/n/,/http://sw.opencyc.org/2012/05/10/concept/en/Orange_juice/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/Orange_juice> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/orange_juice/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/n/wn/food/,http://wordnet-rdf.princeton.edu/wn31/107941074-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/orange_juice/n/wn/food/,/http://wordnet-rdf.princeton.edu/wn31/107941074-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/107941074-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/orange_juice/n/wn/food> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/pepper_shaker/,http://umbel.org/umbel/sc/PepperShaker/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/pepper_shaker/,/http://umbel.org/umbel/sc/PepperShaker/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/PepperShaker> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/pepper_shaker> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/pepper_shaker/n/,http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/pepper_shaker/n/,/http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/pepper_shaker/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/pepper_shaker/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/103920557-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/pepper_shaker/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/103920557-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/103920557-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/pepper_shaker/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/salt_shaker/,http://umbel.org/umbel/sc/SaltShaker/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/salt_shaker/,/http://umbel.org/umbel/sc/SaltShaker/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/SaltShaker> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/salt_shaker> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/salt_shaker/n/,http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/salt_shaker/n/,/http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/salt_shaker/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/scrambled_egg/,http://umbel.org/umbel/sc/ScrambledEgg/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/scrambled_egg/,/http://umbel.org/umbel/sc/ScrambledEgg/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/ScrambledEgg> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/scrambled_egg> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/scrambled_egg/n/,http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/scrambled_egg/n/,/http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/scrambled_egg/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/scrambled_egg/n/wn/food/,http://wordnet-rdf.princeton.edu/wn31/107858284-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/scrambled_egg/n/wn/food/,/http://wordnet-rdf.princeton.edu/wn31/107858284-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/107858284-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/scrambled_egg/n/wn/food> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/,http://dbpedia.org/resource/Spoon/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/,/http://dbpedia.org/resource/Spoon/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://dbpedia.org/resource/Spoon> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/spoon> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/,http://umbel.org/umbel/sc/Spoon/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/,/http://umbel.org/umbel/sc/Spoon/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://umbel.org/umbel/sc/Spoon> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/spoon> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/,http://wikidata.dbpedia.org/resource/Q81895/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/,/http://wikidata.dbpedia.org/resource/Q81895/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wikidata.dbpedia.org/resource/Q81895> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/spoon> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/n/,http://sw.opencyc.org/2012/05/10/concept/en/Spoon/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/n/,/http://sw.opencyc.org/2012/05/10/concept/en/Spoon/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://sw.opencyc.org/2012/05/10/concept/en/Spoon> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/spoon/n> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/104291140-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/104291140-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/104291140-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/104291479-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/104291479-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/104291479-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/n/wn/quantity/,http://wordnet-rdf.princeton.edu/wn31/113792309-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/n/wn/quantity/,/http://wordnet-rdf.princeton.edu/wn31/113792309-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/113792309-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/spoon/n/wn/quantity> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/v/wn/contact/,http://wordnet-rdf.princeton.edu/wn31/201582471-v/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/spoon/v/wn/contact/,/http://wordnet-rdf.princeton.edu/wn31/201582471-v/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/201582471-v> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/spoon/v/wn/contact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/teacup/n/wn/artifact/,http://wordnet-rdf.princeton.edu/wn31/104404587-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/teacup/n/wn/artifact/,/http://wordnet-rdf.princeton.edu/wn31/104404587-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/104404587-n> ;
     rdf:predicate cnr:ExternalURL ;
     rdf:subject <http://api.conceptnet.io/c/en/teacup/n/wn/artifact> ;
     rdf:value "" .
 
-<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/teacup/n/wn/quantity/,http://wordnet-rdf.princeton.edu/wn31/113792775-n/]> a rdf:Statement ;
+<http://api.conceptnet.io/a/[/r/ExternalURL/,/c/en/teacup/n/wn/quantity/,/http://wordnet-rdf.princeton.edu/wn31/113792775-n/]> a rdf:Statement ;
     wi:evidence 1.0 ;
     rdf:object <http://wordnet-rdf.princeton.edu/wn31/113792775-n> ;
     rdf:predicate cnr:ExternalURL ;
@@ -5950,11 +5956,239 @@
     rdf:subject <http://api.conceptnet.io/c/en/spoon> ;
     rdf:value "[[a spoon]] is used for [[transporting liquid short distances]]" .
 
+aff:affords a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Action .
+
+aff:color a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+aff:form a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+aff:implies a owl:ObjectProperty ;
+    rdfs:domain aff:Quality ;
+    rdfs:range aff:Affordance .
+
+aff:location a owl:ObjectProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf aff:quality .
+
+bft:apple_juice a bft:Juice,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/apple_juice>,
+        <http://api.conceptnet.io/c/en/apple_juice/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/apple_juice/n/wn/food> .
+
+bft:bread_basket a bft:Tableware,
+        owl:NamedIndividual .
+
+bft:butter_knife a bft:Knife,
+        owl:NamedIndividual ;
+    bft:can_spread bft:butter ;
+    owl:sameAs <http://api.conceptnet.io/c/en/butter_knife>,
+        <http://api.conceptnet.io/c/en/butter_knife/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/butter_knife/n/wn/artifact> .
+
+bft:can_cut a owl:ObjectProperty ;
+    rdfs:domain bft:Cutlery ;
+    rdfs:range bft:Food .
+
+bft:can_spread a owl:ObjectProperty ;
+    rdfs:domain bft:Cutlery ;
+    rdfs:range bft:Food .
+
+bft:croissant a bft:Bread,
+        owl:NamedIndividual .
+
+bft:cupboard a bft:Storage,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/cupboard>,
+        <http://api.conceptnet.io/c/en/cupboard/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/airing_cupboard/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/cupboard/n/wikt/en_1>,
+        <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
+
+bft:dining_chair a bft:Chair,
+        owl:NamedIndividual .
+
+bft:dining_table owl:sameAs <http://api.conceptnet.io/c/en/dining_table>,
+        <http://api.conceptnet.io/c/en/dining_table/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
+
+bft:egg_cup a bft:Tableware,
+        owl:NamedIndividual .
+
+bft:fork owl:sameAs <http://api.conceptnet.io/c/en/fork> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/carving_fork/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/complementing_spoon_and_fork>,
+        <http://api.conceptnet.io/c/en/dinner_fork/n>,
+        <http://api.conceptnet.io/c/en/fork/n>,
+        <http://api.conceptnet.io/c/en/fork/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/fork_in_road>,
+        <http://api.conceptnet.io/c/en/hayfork/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/salad_fork/n>,
+        <http://api.conceptnet.io/c/en/salad_fork/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/tablefork/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/toasting_fork/n/wn/artifact> .
+
+bft:fried_egg owl:sameAs <http://api.conceptnet.io/c/en/fried_egg>,
+        <http://api.conceptnet.io/c/en/fried_egg/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/fried_egg/n/wn/food> .
+
+bft:garnish a bft:Food,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/garnish> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/garnish/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/garnish/n/wn/food> .
+
+bft:glass a bft:Glassware,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/glass>,
+        <http://api.conceptnet.io/c/en/glass/n>,
+        <http://api.conceptnet.io/c/en/glasses> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/art_glass/n>,
+        <http://api.conceptnet.io/c/en/beer_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/borophosphosilicate_glass/n>,
+        <http://api.conceptnet.io/c/en/clear_glass/n>,
+        <http://api.conceptnet.io/c/en/crown_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/eyeglasses>,
+        <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413>,
+        <http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass>,
+        <http://api.conceptnet.io/c/en/glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/glass/n/wn/quantity>,
+        <http://api.conceptnet.io/c/en/glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/glass_of_iced_tea>,
+        <http://api.conceptnet.io/c/en/glass_wool/n>,
+        <http://api.conceptnet.io/c/en/glasses_and_dishes>,
+        <http://api.conceptnet.io/c/en/glassware>,
+        <http://api.conceptnet.io/c/en/glassware/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/ground_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/highball_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/lead_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/liqueur_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/liquor_glass>,
+        <http://api.conceptnet.io/c/en/natural_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/opal_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/optical_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/parfait_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/plate_glass/n>,
+        <http://api.conceptnet.io/c/en/safety_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/shot_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/soft_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/soluble_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/stained_glass/n/wn/substance>,
+        <http://api.conceptnet.io/c/en/water_glass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/wine_glass>,
+        <http://api.conceptnet.io/c/en/wineglass/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/wire_glass/n/wn/substance> .
+
+bft:green_tea a bft:Tea,
+        owl:NamedIndividual .
+
+bft:knife owl:sameAs <http://api.conceptnet.io/c/en/knife>,
+        <http://api.conceptnet.io/c/en/knife/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/bowie_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/bread_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/butcher_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/butter_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/carving_knife/n>,
+        <http://api.conceptnet.io/c/en/carving_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/case_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/drawknife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/hunting_knife/n>,
+        <http://api.conceptnet.io/c/en/hunting_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/knife_blade/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/knife_block>,
+        <http://api.conceptnet.io/c/en/knife_holder>,
+        <http://api.conceptnet.io/c/en/knife_store>,
+        <http://api.conceptnet.io/c/en/linoleum_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/pocketknife/n>,
+        <http://api.conceptnet.io/c/en/pocketknife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/pruning_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/steak_knife/n>,
+        <http://api.conceptnet.io/c/en/surgical_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/table_knife/n>,
+        <http://api.conceptnet.io/c/en/table_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/trench_knife/n/wn/artifact> .
+
+bft:milk_pitcher a bft:Kitchenware,
+        owl:NamedIndividual .
+
+bft:orange_juice a bft:Juice,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/orange_juice>,
+        <http://api.conceptnet.io/c/en/orange_juice/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/frozen_orange_juice/n/wn/food>,
+        <http://api.conceptnet.io/c/en/orange_juice/n/wn/food> .
+
+bft:pepper_shaker a bft:Tableware,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/pepper_shaker/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/pepper_shaker/n/wn/artifact> .
+
+bft:primary_usage a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+bft:salt_shaker a bft:Tableware,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/salt_shaker>,
+        <http://api.conceptnet.io/c/en/salt_shaker/n>,
+        <http://api.conceptnet.io/c/en/saltshaker> .
+
+bft:scrambled_egg owl:sameAs <http://api.conceptnet.io/c/en/scrambled_egg/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/scrambled_egg/n/wn/food> .
+
+bft:served_with a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain bft:Condiment ;
+    rdfs:range bft:Food .
+
+bft:spoon owl:sameAs <http://api.conceptnet.io/c/en/spoon>,
+        <http://api.conceptnet.io/c/en/spoon/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/complementing_spoon_and_fork>,
+        <http://api.conceptnet.io/c/en/dessert_spoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/measuring_spoon/n>,
+        <http://api.conceptnet.io/c/en/runcible_spoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/silverware_spoon/n>,
+        <http://api.conceptnet.io/c/en/soupspoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/spoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/spoon/n/wn/quantity>,
+        <http://api.conceptnet.io/c/en/sugar_spoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/tablespoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/teaspoon>,
+        <http://api.conceptnet.io/c/en/teaspoon/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/wooden_spoon/n>,
+        <http://api.conceptnet.io/c/en/wooden_spoon/n/wn/artifact> .
+
+bft:spread_on a owl:ObjectProperty ;
+    rdfs:domain bft:Spread ;
+    rdfs:range bft:Food .
+
+bft:table a bft:Table,
+        owl:NamedIndividual .
+
+bft:teacup a bft:Glassware,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/tea_cup>,
+        <http://api.conceptnet.io/c/en/teacup> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/teacup/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/teacup/n/wn/quantity> .
+
+bft:used_with a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain bft:Tableware ;
+    rdfs:range bft:Food .
+
+kchn: a owl:Ontology .
+
 <http://api.conceptnet.io/c/de/machete> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/abottle> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/abottle> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/acne_medication> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
@@ -5962,22 +6196,19 @@
 <http://api.conceptnet.io/c/en/air> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/airing_cupboard/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/another_dimension> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/ants> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/art_glass/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
+<http://api.conceptnet.io/c/en/apples> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/baked_beans> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/baking_cake> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/baking_cake> a aff:Action,
+        rdfs:Resource ;
     cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
 
 <http://api.conceptnet.io/c/en/barong/n/wn/artifact> a rdfs:Resource ;
@@ -5986,19 +6217,17 @@
 <http://api.conceptnet.io/c/en/bayonet/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/beer_glass/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/bifurcation/n> a rdfs:Resource ;
     cnr:SimilarTo <http://api.conceptnet.io/c/en/fork> .
 
-<http://api.conceptnet.io/c/en/bins> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/bins> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/blade> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/blade> a aff:Quality,
+        rdfs:Resource ;
     cnr:PartOf <http://api.conceptnet.io/c/en/knife> .
 
-<http://api.conceptnet.io/c/en/blade/n/wn/artifact> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/blade/n/wn/artifact> a aff:Quality,
+        rdfs:Resource ;
     cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/board_game> a rdfs:Resource ;
@@ -6010,26 +6239,11 @@
 <http://api.conceptnet.io/c/en/bone_china> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/borophosphosilicate_glass/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> .
-
-<http://api.conceptnet.io/c/en/bowie_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/bread_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/broom_closet/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/brown_butter/n/wn/food> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
-
 <http://api.conceptnet.io/c/en/bumper/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/butcher_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/butter/v/wn/contact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201270562-v> .
@@ -6058,18 +6272,6 @@
 <http://api.conceptnet.io/c/en/cans_of_soup> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/carving_fork/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/carving_knife/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
-
-<http://api.conceptnet.io/c/en/carving_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/case_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/cereal> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
@@ -6078,12 +6280,6 @@
 
 <http://api.conceptnet.io/c/en/chess_set> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/clarified_butter/n/wn/food> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
-
-<http://api.conceptnet.io/c/en/clear_glass/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
 
 <http://api.conceptnet.io/c/en/cleaver/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
@@ -6103,8 +6299,7 @@
 <http://api.conceptnet.io/c/en/coffee_mug> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/computer_monitor> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/computer_monitor> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/container_can> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
@@ -6112,7 +6307,8 @@
 <http://api.conceptnet.io/c/en/container_of_salt> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/cooking> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/cooking> a aff:Action,
+        rdfs:Resource ;
     cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
 
 <http://api.conceptnet.io/c/en/corn_flakes> a rdfs:Resource ;
@@ -6127,11 +6323,7 @@
 <http://api.conceptnet.io/c/en/crockery> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/crown_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
-
-<http://api.conceptnet.io/c/en/crt> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/crt> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/cups_and_plates> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
@@ -6139,17 +6331,8 @@
 <http://api.conceptnet.io/c/en/dagger/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/dessert_spoon/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/dining_room_table/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/dining_table/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/table> .
-
-<http://api.conceptnet.io/c/en/dinner_fork/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/fork/n> .
 
 <http://api.conceptnet.io/c/en/dinner_plate> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
@@ -6160,19 +6343,18 @@
 <http://api.conceptnet.io/c/en/dinnerware> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/drawknife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/drug> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/dustbin> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/eating_noodles> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/eating_noodles> a aff:Action,
+        rdfs:Resource ;
     cnr:HasPrerequisite <http://api.conceptnet.io/c/en/fork> .
 
-<http://api.conceptnet.io/c/en/eating_soup> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/eating_soup> a aff:Action,
+        rdfs:Resource ;
     cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
 
 <http://api.conceptnet.io/c/en/flask> a rdfs:Resource ;
@@ -6187,29 +6369,11 @@
 <http://api.conceptnet.io/c/en/fork/v/wn/chess> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201121306-v> .
 
-<http://api.conceptnet.io/c/en/fried_egg> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/plate> .
-
-<http://api.conceptnet.io/c/en/frozen_orange_juice/n/wn/food> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/orange_juice/n/wn/food> .
-
 <http://api.conceptnet.io/c/en/fruit> a rdfs:Resource ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/garnish> .
 
-<http://api.conceptnet.io/c/en/glass/n/wn/quantity> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
-
 <http://api.conceptnet.io/c/en/glass/v/wn/possession> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/202340359-v> .
-
-<http://api.conceptnet.io/c/en/glass_wool/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass> .
-
-<http://api.conceptnet.io/c/en/glasses_and_dishes> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/glassware> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/goblet/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
@@ -6217,17 +6381,13 @@
 <http://api.conceptnet.io/c/en/gravy_boat> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/ground_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
-
-<http://api.conceptnet.io/c/en/haft/n/wn/artifact> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/haft/n/wn/artifact> a aff:Quality,
+        rdfs:Resource ;
     cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/handle/n/wn/artifact> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/handle/n/wn/artifact> a aff:Quality,
+        rdfs:Resource ;
     cnr:PartOf <http://api.conceptnet.io/c/en/teacup/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/hayfork/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/herbal_tea> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
@@ -6238,17 +6398,8 @@
 <http://api.conceptnet.io/c/en/high_table/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/highball_glass/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/hook> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/hunting_knife/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
-
-<http://api.conceptnet.io/c/en/hunting_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/ice_cream_scoop/n> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
@@ -6268,37 +6419,20 @@
 <http://api.conceptnet.io/c/en/killing_people> a rdfs:Resource ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/knife> .
 
-<http://api.conceptnet.io/c/en/knife_blade/n/wn/artifact> a rdfs:Resource ;
-    cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/koolaid> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/ladle/n> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
 
-<http://api.conceptnet.io/c/en/lead_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/lens> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/lens> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
-
-<http://api.conceptnet.io/c/en/lenses> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/lenses> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/letter_opener/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/linens> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/linoleum_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/liqueur_glass/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/liquor_glass> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/machete/n> a rdfs:Resource ;
@@ -6307,20 +6441,16 @@
 <http://api.conceptnet.io/c/en/machete/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/many_bottles> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/many_bottles> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/many_containers> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
-
-<http://api.conceptnet.io/c/en/measuring_spoon/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
+<http://api.conceptnet.io/c/en/many_containers> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/meat_cleaver/n> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/meuniere_butter/n/wn/food> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
+<http://api.conceptnet.io/c/en/metal> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/milk> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/mind_all_logic> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife> .
@@ -6337,32 +6467,14 @@
 <http://api.conceptnet.io/c/en/mugs> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/natural_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
-
 <http://api.conceptnet.io/c/en/old_toys> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/opal_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
-
-<http://api.conceptnet.io/c/en/optical_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
 <http://api.conceptnet.io/c/en/parang/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/parer/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/parfait_glass/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/pat_of_butter/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/butter/n> .
-
-<http://api.conceptnet.io/c/en/peanut_butter> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/pepper_shaker> a rdfs:Resource ;
     cnr:ExternalURL <http://umbel.org/umbel/sc/PepperShaker> .
@@ -6376,22 +6488,15 @@
 <http://api.conceptnet.io/c/en/plastic> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/plate_glass/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
-
 <http://api.conceptnet.io/c/en/plates> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/pocketknife/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
-
-<http://api.conceptnet.io/c/en/pocketknife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/point/n/wn/artifact> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/point/n/wn/artifact> a aff:Quality,
+        rdfs:Resource ;
     cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/point/n/wn/shape> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/point/n/wn/shape> a aff:Quality,
+        rdfs:Resource ;
     cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/pot> a rdfs:Resource ;
@@ -6400,11 +6505,9 @@
 <http://api.conceptnet.io/c/en/pots> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/prong/n/wn/artifact> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/prong/n/wn/artifact> a aff:Quality,
+        rdfs:Resource ;
     cnr:PartOf <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/pruning_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/refectory_table/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
@@ -6412,23 +6515,11 @@
 <http://api.conceptnet.io/c/en/rummer/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/runcible_spoon/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/safe/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/safety_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
-
 <http://api.conceptnet.io/c/en/salad_bowl> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/salad_fork/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/fork/n> .
-
-<http://api.conceptnet.io/c/en/salad_fork/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/salad_spinner> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
@@ -6436,8 +6527,7 @@
 <http://api.conceptnet.io/c/en/salt> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/saltshaker> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/sand> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/saucepan> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
@@ -6466,29 +6556,14 @@
 <http://api.conceptnet.io/c/en/shiv/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/shot_glass/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/silverware> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/silverware_spoon/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
 
 <http://api.conceptnet.io/c/en/slicer/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/snifter/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/soft_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
-
-<http://api.conceptnet.io/c/en/soluble_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
-
-<http://api.conceptnet.io/c/en/soupspoon/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/spices> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
@@ -6499,14 +6574,11 @@
 <http://api.conceptnet.io/c/en/spoon/v/wn/contact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201582471-v> .
 
-<http://api.conceptnet.io/c/en/stabbing_to_death> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/stabbing_to_death> a aff:Action,
+        rdfs:Resource ;
     cnr:HasPrerequisite <http://api.conceptnet.io/c/en/knife> .
 
-<http://api.conceptnet.io/c/en/stained_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
-
-<http://api.conceptnet.io/c/en/steak_knife/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/en/steel> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/stick/n/wn/food> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
@@ -6526,14 +6598,8 @@
 <http://api.conceptnet.io/c/en/sugar> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/sugar_spoon/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/supply_closet/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/surgical_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/switchblade/n> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
@@ -6541,19 +6607,7 @@
 <http://api.conceptnet.io/c/en/table_cloth> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/table_knife/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
-
-<http://api.conceptnet.io/c/en/tablefork/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/tablespoon/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/tea> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/tea_cup> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/tea_maker/n/wn/artifact> a rdfs:Resource ;
@@ -6565,20 +6619,12 @@
 <http://api.conceptnet.io/c/en/teakettle> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/teaspoon> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon> .
-
-<http://api.conceptnet.io/c/en/teaspoon/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/tin> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/tine/n/wn/artifact> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/tine/n/wn/artifact> a aff:Quality,
+        rdfs:Resource ;
     cnr:PartOf <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/toasting_fork/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/topping/n> a rdfs:Resource ;
     cnr:SimilarTo <http://api.conceptnet.io/c/en/garnish> .
@@ -6592,52 +6638,83 @@
 <http://api.conceptnet.io/c/en/traditional_covering_for_greenhouses> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/trench_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
 <http://api.conceptnet.io/c/en/triclinium/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/tumbler/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/tv> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/tv> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/utensils> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/vacuum_tube> a rdfs:Resource ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/vacuum_tube> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/water> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/water_glass/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/wine_glass> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/wineglass/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/wire_glass/n/wn/substance> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
-
-<http://api.conceptnet.io/c/en/wooden_spoon/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
-
-<http://api.conceptnet.io/c/en/wooden_spoon/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/yak_butter/n/wn/food> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
-
 <http://api.conceptnet.io/c/en/yataghan/n/wn/artifact> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
+aff:Affordance a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+bft:Coffee a owl:Class ;
+    rdfs:subClassOf bft:Drink .
+
+bft:Fork a owl:Class ;
+    rdfs:subClassOf bft:Cutlery .
+
+bft:Milk a owl:Class ;
+    rdfs:subClassOf bft:Drink .
+
+bft:Spoon a owl:Class ;
+    rdfs:subClassOf bft:Cutlery .
+
+bft:Table a owl:Class ;
+    rdfs:subClassOf bft:Furniture ;
+    owl:disjointWith bft:Chair .
+
+bft:bread_plate a bft:Plate,
+        owl:NamedIndividual .
+
+bft:butter a bft:Spread,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/butter>,
+        <http://api.conceptnet.io/c/en/butter/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/brown_butter/n/wn/food>,
+        <http://api.conceptnet.io/c/en/butter/n/wn/food>,
+        <http://api.conceptnet.io/c/en/butter/n/wn/person>,
+        <http://api.conceptnet.io/c/en/butter_bread>,
+        <http://api.conceptnet.io/c/en/butter_dish/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/butter_knife/n/wn/artifact>,
+        <http://api.conceptnet.io/c/en/butter_piece_of_toast>,
+        <http://api.conceptnet.io/c/en/clarified_butter/n/wn/food>,
+        <http://api.conceptnet.io/c/en/meuniere_butter/n/wn/food>,
+        <http://api.conceptnet.io/c/en/pat_of_butter/n>,
+        <http://api.conceptnet.io/c/en/peanut_butter>,
+        <http://api.conceptnet.io/c/en/spread_butter>,
+        <http://api.conceptnet.io/c/en/spread_butter_on_bread>,
+        <http://api.conceptnet.io/c/en/spread_peanut_butter>,
+        <http://api.conceptnet.io/c/en/spreading_butter_on_bread>,
+        <http://api.conceptnet.io/c/en/yak_butter/n/wn/food> .
+
+bft:butter_dish a bft:Plate,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/butter_dish/n> ;
+    ns1:closeMatch <http://api.conceptnet.io/c/en/butter_dish/n/wn/artifact> .
+
+bft:sauce_dish a bft:Plate,
+        owl:NamedIndividual .
+
+bft:teacup_plate a bft:Plate,
+        owl:NamedIndividual .
+
 <http://api.conceptnet.io/c/en/acidic> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/airing_cupboard/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/alter_length_of_string_or_rope> a rdfs:Resource .
 
@@ -6647,13 +6724,10 @@
 
 <http://api.conceptnet.io/c/en/appear_empty> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/apple_juice/n/wn/food> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107940606-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> .
-
-<http://api.conceptnet.io/c/en/apples> a rdfs:Resource .
-
 <http://api.conceptnet.io/c/en/arranging_papers> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/art_glass/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
 
 <http://api.conceptnet.io/c/en/attaching_to_rifle> a rdfs:Resource .
 
@@ -6662,6 +6736,9 @@
 <http://api.conceptnet.io/c/en/backpack> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/bed> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/beer_glass/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/bendable_thing/n> a rdfs:Resource .
 
@@ -6673,7 +6750,16 @@
 
 <http://api.conceptnet.io/c/en/boning> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/borophosphosilicate_glass/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> .
+
+<http://api.conceptnet.io/c/en/bowie_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/bowl_of_soup> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/bread_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/break_easily> a rdfs:Resource .
 
@@ -6683,23 +6769,11 @@
 
 <http://api.conceptnet.io/c/en/broken> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/butter/n/wn/person> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/109904267-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/combatant/n/wn/person> .
+<http://api.conceptnet.io/c/en/brown_butter/n/wn/food> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/butter_dish/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterDish> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/serving_dish/n> .
-
-<http://api.conceptnet.io/c/en/butter_dish/n/wn/artifact> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/102931148-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/butter_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/102931433-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/table_knife/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/butter_piece_of_toast> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/butcher_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/cabinet/n/opencyc/cabinet_storage_construction> a rdfs:Resource .
 
@@ -6709,19 +6783,40 @@
 
 <http://api.conceptnet.io/c/en/carving_features> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/carving_fork/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/carving_initials> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/carving_knife/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+
+<http://api.conceptnet.io/c/en/carving_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/carving_wood> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/ceramic> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/case_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/ceramic> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/childs_sand_box> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/chopping_vegetables> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/clean> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/clarified_butter/n/wn/food> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/clear> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/clean> a aff:Quality,
+        rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/clear> a aff:Quality,
+        rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/clear_glass/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
 
 <http://api.conceptnet.io/c/en/closet> a rdfs:Resource .
 
@@ -6736,8 +6831,6 @@
 <http://api.conceptnet.io/c/en/combatant/n/wn/person> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/common_source_of_vitamin_c> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/complementing_spoon_and_fork> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/completing_place_setting> a rdfs:Resource .
 
@@ -6762,6 +6855,9 @@
 <http://api.conceptnet.io/c/en/croissant> a rdfs:Resource ;
     cnr:ExternalURL <http://dbpedia.org/resource/Croissant>,
         <http://wikidata.dbpedia.org/resource/Q207832> .
+
+<http://api.conceptnet.io/c/en/crown_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
 <http://api.conceptnet.io/c/en/cup/n/wn/artifact> a rdfs:Resource .
 
@@ -6815,9 +6911,13 @@
 
 <http://api.conceptnet.io/c/en/dairy_product/n/wn/food> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/dangerous> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/dangerous> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/decorating_cake> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/dessert_spoon/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/digging> a rdfs:Resource .
 
@@ -6827,9 +6927,16 @@
 
 <http://api.conceptnet.io/c/en/dining_set> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/dining_table/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/table> .
+
 <http://api.conceptnet.io/c/en/dinner> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/dirty> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/dinner_fork/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n> .
+
+<http://api.conceptnet.io/c/en/dirty> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/discussions> a rdfs:Resource .
 
@@ -6857,6 +6964,9 @@
 
 <http://api.conceptnet.io/c/en/drawer_in_kitchen> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/drawknife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/drink_from> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/drink_margaritas_out_of> a rdfs:Resource .
@@ -6871,7 +6981,8 @@
 
 <http://api.conceptnet.io/c/en/drinking_soup> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/dull> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/dull> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/eat_cereal_with> a rdfs:Resource .
 
@@ -6923,9 +7034,11 @@
 
 <http://api.conceptnet.io/c/en/edge_tool/n/wn/artifact> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/edible> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/edible> a aff:Quality,
+        rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/empty> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/empty> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/engraving> a rdfs:Resource .
 
@@ -6936,8 +7049,6 @@
 <http://api.conceptnet.io/c/en/entertaining_others> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/ex_husbands_back> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/eyeglasses> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/family_discussions> a rdfs:Resource .
 
@@ -6967,8 +7078,6 @@
 
 <http://api.conceptnet.io/c/en/forceful_moves> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/fork_in_road> a rdfs:Resource .
-
 <http://api.conceptnet.io/c/en/formal_dining> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/formal_dining_room> a rdfs:Resource .
@@ -6981,47 +7090,58 @@
 
 <http://api.conceptnet.io/c/en/found_in_taxi> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/fragile> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/fragile> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/free_one's_soul> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/fried_egg/n/wn/food> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107859612-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/food> .
+<http://api.conceptnet.io/c/en/fried_egg> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/plate> .
+
+<http://api.conceptnet.io/c/en/frozen_orange_juice/n/wn/food> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/orange_juice/n/wn/food> .
 
 <http://api.conceptnet.io/c/en/fruit_juice> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/garnish/n/wn/artifact> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103425350-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/decoration/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/gashing> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/giving_things_home> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/glass_of_iced_tea> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/glass/n/wn/quantity> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
 
-<http://api.conceptnet.io/c/en/glasses> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/glass_wool/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/glassware/n/wn/artifact> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/glasses_and_dishes> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/good> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/glassware> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/good_for_health> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/good> a aff:Quality,
+        rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/good_for_health> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/good_thirst_quencher> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/gouging> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/green> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/green> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/grocery/n> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/half_empty> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/ground_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/half_full> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/half_empty> a aff:Quality,
+        rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/half_full> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/hang_on_nose> a rdfs:Resource .
 
@@ -7034,6 +7154,12 @@
 <http://api.conceptnet.io/c/en/have_sex_with_spouse> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/having_friends_around_for_dinner> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/hayfork/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/highball_glass/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/hold/v/wn/stative> a rdfs:Resource .
 
@@ -7073,11 +7199,18 @@
 
 <http://api.conceptnet.io/c/en/housewares_store> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/hunting_knife/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+
+<http://api.conceptnet.io/c/en/hunting_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/hurt> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/hurt_dog> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/important_for_making_food> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/important_for_making_food> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/in_road> a rdfs:Resource .
 
@@ -7107,15 +7240,16 @@
 
 <http://api.conceptnet.io/c/en/kitchenware> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/knife_block> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/knife_holder> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/knife_store> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/knife_blade/n/wn/artifact> a aff:Quality,
+        rdfs:Resource ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/lacerating> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/laying_with_cutlery> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/lead_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
 <http://api.conceptnet.io/c/en/leave_messages> a rdfs:Resource .
 
@@ -7129,11 +7263,20 @@
 
 <http://api.conceptnet.io/c/en/like_solid_milk> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/linoleum_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/liqueur_glass/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/liquid> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/liquid_at_room_tempeature> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/liquid_foods> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/liquor_glass> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/made_from_churned_milk> a rdfs:Resource .
 
@@ -7173,13 +7316,15 @@
 
 <http://api.conceptnet.io/c/en/measuring_ingredients> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/measuring_spoon/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
+
 <http://api.conceptnet.io/c/en/melted> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/metal> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/meuniere_butter/n/wn/food> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
 
 <http://api.conceptnet.io/c/en/military_purposes> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/milk> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/mixing_ingredients> a rdfs:Resource .
 
@@ -7191,25 +7336,39 @@
 
 <http://api.conceptnet.io/c/en/napkin> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/non_porous> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/natural_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+
+<http://api.conceptnet.io/c/en/non_porous> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/notching> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/one_kind_of_breakfast_drink> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/one_kind_of_breakfast_drink> a aff:Quality,
+        rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/opaque> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/opal_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+
+<http://api.conceptnet.io/c/en/opaque> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/open_plastic_package> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/opening> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/optical_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+
 <http://api.conceptnet.io/c/en/outdoors_living> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/own_kitchen> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/paired_with_chairs> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/paired_with_chairs> a aff:Quality,
+        rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/pale_yellow> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/pale_yellow> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/pale_yellow_color> a rdfs:Resource .
 
@@ -7219,21 +7378,26 @@
 
 <http://api.conceptnet.io/c/en/pare_apples> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/parfait_glass/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/paring> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/part_of_room/n> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/pastry> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/pat_of_butter/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n> .
+
+<http://api.conceptnet.io/c/en/peanut_butter> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
 <http://api.conceptnet.io/c/en/peeling> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/people_to_eat_cereal_with> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/people_to_eat_soup_with> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/pepper_shaker/n/wn/artifact> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103920557-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/shaker/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/physical_substance> a rdfs:Resource .
 
@@ -7249,6 +7413,9 @@
 
 <http://api.conceptnet.io/c/en/plane> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/plate_glass/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
+
 <http://api.conceptnet.io/c/en/playing_cards> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/playing_cards_sometimes> a rdfs:Resource .
@@ -7261,6 +7428,12 @@
 
 <http://api.conceptnet.io/c/en/pocket> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/pocketknife/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+
+<http://api.conceptnet.io/c/en/pocketknife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/press> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/pricking_skin> a rdfs:Resource .
@@ -7268,6 +7441,9 @@
 <http://api.conceptnet.io/c/en/prongs> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/providing_choice> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/pruning_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/prying_open> a rdfs:Resource .
 
@@ -7289,7 +7465,8 @@
 
 <http://api.conceptnet.io/c/en/quarter_soft_solids> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/recyclable> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/recyclable> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/recycled> a rdfs:Resource .
 
@@ -7297,7 +7474,8 @@
 
 <http://api.conceptnet.io/c/en/refractive_index> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/refreshing_to_drink> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/refreshing_to_drink> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/removing_labels> a rdfs:Resource .
 
@@ -7309,7 +7487,20 @@
 
 <http://api.conceptnet.io/c/en/road> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/sand> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/runcible_spoon/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/safety_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+
+<http://api.conceptnet.io/c/en/salad_fork/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n> .
+
+<http://api.conceptnet.io/c/en/salad_fork/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/saltshaker> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
 <http://api.conceptnet.io/c/en/saving_counter_space> a rdfs:Resource .
 
@@ -7320,10 +7511,6 @@
 <http://api.conceptnet.io/c/en/scooping_food> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/scoring> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/scrambled_egg/n/wn/food> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107858284-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/food> .
 
 <http://api.conceptnet.io/c/en/scratching> a rdfs:Resource .
 
@@ -7355,6 +7542,12 @@
 
 <http://api.conceptnet.io/c/en/shaving> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/shot_glass/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/silverware_spoon/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
+
 <http://api.conceptnet.io/c/en/sink> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/sitting_around_with_family> a rdfs:Resource .
@@ -7369,13 +7562,23 @@
 
 <http://api.conceptnet.io/c/en/small_container_for_table_salt> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/soft> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/soft> a aff:Quality,
+        rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/soft_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
 <http://api.conceptnet.io/c/en/solid/n/opencyc/solid_state_of_matter> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/solid/n/wn/substance> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/soluble_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+
 <http://api.conceptnet.io/c/en/something_you> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/soupspoon/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/spearing_pieces> a rdfs:Resource .
 
@@ -7385,27 +7588,15 @@
 
 <http://api.conceptnet.io/c/en/splitting> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/spoon/n/wn/quantity> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/113792309-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
-
 <http://api.conceptnet.io/c/en/spread/n/opencyc/spread_food> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/spread_at_room_temperature> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/spread_butter> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/spread_butter_on_bread> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/spread_margarine> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/spread_on_bread> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/spread_peanut_butter> a rdfs:Resource .
-
 <http://api.conceptnet.io/c/en/spreading> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/spreading_butter_on_bread> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/spreading_cheese> a rdfs:Resource .
 
@@ -7419,7 +7610,11 @@
 
 <http://api.conceptnet.io/c/en/stacking_dinner_plates> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/steel> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/stained_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+
+<http://api.conceptnet.io/c/en/steak_knife/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
 <http://api.conceptnet.io/c/en/stick_in_ribs> a rdfs:Resource .
 
@@ -7463,9 +7658,24 @@
 
 <http://api.conceptnet.io/c/en/street> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/sugar_spoon/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/surgical_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/table/n/wn/artifact> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/table_knife/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+
 <http://api.conceptnet.io/c/en/table_setting> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/tablefork/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/tablespoon/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/tableware> a rdfs:Resource .
 
@@ -7475,13 +7685,14 @@
 
 <http://api.conceptnet.io/c/en/tastier_than_water> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/teacup> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/container>,
-        <http://api.conceptnet.io/c/en/dish> .
+<http://api.conceptnet.io/c/en/tea_cup> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/teacup/n/wn/quantity> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/113792775-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
+<http://api.conceptnet.io/c/en/teaspoon> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon> .
+
+<http://api.conceptnet.io/c/en/teaspoon/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/tempered> a rdfs:Resource .
 
@@ -7493,6 +7704,9 @@
 
 <http://api.conceptnet.io/c/en/tinted> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/toasting_fork/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/tool> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/tool/n/wn/artifact> a rdfs:Resource .
@@ -7502,6 +7716,9 @@
 <http://api.conceptnet.io/c/en/tool_in_shop> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/transporting_liquid_short_distances> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/trench_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/trimming> a rdfs:Resource .
 
@@ -7531,19 +7748,40 @@
 
 <http://api.conceptnet.io/c/en/vehicle> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/very_fragile> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/very_fragile> a aff:Quality,
+        rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/very_refreshing> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/very_refreshing> a aff:Quality,
+        rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/very_useful_to_cut_meat> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/very_useful_to_cut_meat> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/vitamin_c> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/war> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/water_glass/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/weapon/n/wn/artifact> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/wine_glass> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
+<http://api.conceptnet.io/c/en/wineglass/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/wire_glass/n/wn/substance> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+
 <http://api.conceptnet.io/c/en/wood/n/wn/artifact> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/wooden_spoon/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
+
+<http://api.conceptnet.io/c/en/wooden_spoon/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
 <http://api.conceptnet.io/c/en/working_on_hobby> a rdfs:Resource .
 
@@ -7551,7 +7789,11 @@
 
 <http://api.conceptnet.io/c/en/wrapped_in_napkin> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/yellow> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/yak_butter/n/wn/food> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
+
+<http://api.conceptnet.io/c/en/yellow> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/yellow/n> a rdfs:Resource .
 
@@ -7596,6 +7838,37 @@
 <http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass> a rdfs:Resource .
 
 <http://sw.opencyc.org/2012/05/10/concept/en/Spoon> a rdfs:Resource .
+
+bft:Bread a owl:Class ;
+    rdfs:subClassOf bft:Food .
+
+bft:Chair a owl:Class ;
+    rdfs:subClassOf bft:Furniture .
+
+bft:Knife a owl:Class ;
+    rdfs:subClassOf bft:Cutlery .
+
+bft:Spread a owl:Class ;
+    rdfs:subClassOf bft:Condiment .
+
+bft:Storage a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue false ;
+            owl:onProperty bft:is_edible ],
+        owl:Thing .
+
+bft:Tea a owl:Class ;
+    rdfs:subClassOf bft:Drink .
+
+bft:fried a bft:Egg,
+        owl:NamedIndividual .
+
+bft:hardboiled a bft:Egg,
+        owl:NamedIndividual .
+
+bft:scrambled a bft:Egg,
+        owl:NamedIndividual .
 
 <http://umbel.org/umbel/sc/Apple_juice> a rdfs:Resource .
 
@@ -7693,6 +7966,120 @@
 
 <http://wordnet-rdf.princeton.edu/wn31/202340359-v> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/apple_juice/n/wn/food> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107940606-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> .
+
+<http://api.conceptnet.io/c/en/butter/n/wn/person> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/109904267-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/combatant/n/wn/person> .
+
+<http://api.conceptnet.io/c/en/butter_dish/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterDish> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/serving_dish/n> .
+
+<http://api.conceptnet.io/c/en/butter_piece_of_toast> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/eating_dinner> a aff:Action,
+        rdfs:Resource ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/fork> .
+
+<http://api.conceptnet.io/c/en/eating_ice_cream> a aff:Action,
+        rdfs:Resource ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
+
+<http://api.conceptnet.io/c/en/eyeglasses> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/fork_in_road> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/fried_egg/n/wn/food> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107859612-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/food> .
+
+<http://api.conceptnet.io/c/en/garnish/n/wn/artifact> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103425350-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/decoration/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/glass_of_iced_tea> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/glasses> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
+<http://api.conceptnet.io/c/en/glassware/n/wn/artifact> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/knife_block> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/knife_holder> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/knife_store> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/pepper_shaker/n/wn/artifact> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103920557-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/shaker/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/scrambled_egg/n/wn/food> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107858284-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/food> .
+
+<http://api.conceptnet.io/c/en/soup> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
+<http://api.conceptnet.io/c/en/spoon/n/wn/quantity> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/113792309-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
+
+<http://api.conceptnet.io/c/en/spread_butter> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/spread_butter_on_bread> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/spread_peanut_butter> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/spreading_butter_on_bread> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/teacup> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/container>,
+        <http://api.conceptnet.io/c/en/dish> .
+
+<http://api.conceptnet.io/c/en/teacup/n/wn/quantity> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/113792775-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
+
+bft:Condiment a owl:Class ;
+    rdfs:subClassOf bft:Food .
+
+bft:Furniture a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue false ;
+            owl:onProperty bft:is_edible ],
+        owl:Thing .
+
+bft:Glassware a owl:Class ;
+    rdfs:subClassOf bft:Tableware .
+
+bft:Juice a owl:Class ;
+    rdfs:subClassOf bft:Drink .
+
+bft:Kitchenware a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue false ;
+            owl:onProperty bft:is_edible ],
+        owl:Thing .
+
+<http://api.conceptnet.io/c/en/a> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/back> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/beverage/n> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/bowl> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
+<http://api.conceptnet.io/c/en/butter_dish/n/wn/artifact> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/102931148-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/artifact> .
+
 <http://api.conceptnet.io/c/en/butter_knife> a rdfs:Resource ;
     cnr:CapableOf <http://api.conceptnet.io/c/en/butter_bread> ;
     cnr:ExternalURL <http://umbel.org/umbel/sc/ButterKnife> ;
@@ -7703,6 +8090,12 @@
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n>,
         <http://api.conceptnet.io/c/en/silverware/n> .
 
+<http://api.conceptnet.io/c/en/cabinet> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/complementing_spoon_and_fork> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/container/n/wn/artifact> a rdfs:Resource .
+
 <http://api.conceptnet.io/c/en/cupboard/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Cupboard> ;
     cnr:IsA <http://api.conceptnet.io/c/en/cabinet/n/opencyc/cabinet_storage_construction>,
@@ -7712,57 +8105,6 @@
     cnr:IsA <http://api.conceptnet.io/c/en/cabinet>,
         <http://api.conceptnet.io/c/en/closet>,
         <http://api.conceptnet.io/c/en/press> .
-
-<http://api.conceptnet.io/c/en/eating_dinner> a rdfs:Resource ;
-    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/fork> .
-
-<http://api.conceptnet.io/c/en/eating_ice_cream> a rdfs:Resource ;
-    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
-
-<http://api.conceptnet.io/c/en/fried_egg/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/dish>,
-        <http://api.conceptnet.io/c/en/hot>,
-        <http://api.conceptnet.io/c/en/meal> .
-
-<http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass> .
-
-<http://api.conceptnet.io/c/en/pepper_shaker/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
-        <http://api.conceptnet.io/c/en/shaker/n> .
-
-<http://api.conceptnet.io/c/en/salt_shaker/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
-        <http://api.conceptnet.io/c/en/shaker/n> .
-
-<http://api.conceptnet.io/c/en/scrambled_egg/n> a rdfs:Resource ;
-    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/food_composite/n>,
-        <http://api.conceptnet.io/c/en/semisolid/n> .
-
-<http://api.conceptnet.io/c/en/soup> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
-
-<http://api.conceptnet.io/c/en/table_knife/n/wn/artifact> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/a> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/back> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/beverage/n> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/bowl> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
-
-<http://api.conceptnet.io/c/en/butter_bread> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/cabinet> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/container/n/wn/artifact> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/cutlery/n/wn/artifact> a rdfs:Resource .
 
@@ -7798,15 +8140,15 @@
 
 <http://api.conceptnet.io/c/en/fridge> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/fried_egg/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dish>,
+        <http://api.conceptnet.io/c/en/hot>,
+        <http://api.conceptnet.io/c/en/meal> .
+
 <http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/garnish/n/wn/food> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107637227-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/decoration/n/wn/artifact> .
-
-<http://api.conceptnet.io/c/en/glass/n> a rdfs:Resource ;
-    cnr:IsA <http://api.conceptnet.io/c/en/inorganic_substance/n>,
-        <http://api.conceptnet.io/c/en/solid/n/opencyc/solid_state_of_matter> .
+<http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass> .
 
 <http://api.conceptnet.io/c/en/hand> a rdfs:Resource .
 
@@ -7816,21 +8158,34 @@
 
 <http://api.conceptnet.io/c/en/needed_when_eating_meal> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/orange_juice/n/wn/food> a rdfs:Resource ;
-    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107941074-n> ;
-    cnr:IsA <http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> .
+<http://api.conceptnet.io/c/en/pepper_shaker/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
+        <http://api.conceptnet.io/c/en/shaker/n> .
 
 <http://api.conceptnet.io/c/en/refrigerator> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/resturant> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/salt_shaker/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
+        <http://api.conceptnet.io/c/en/shaker/n> .
+
+<http://api.conceptnet.io/c/en/scrambled_egg/n> a rdfs:Resource ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/food_composite/n>,
+        <http://api.conceptnet.io/c/en/semisolid/n> .
+
 <http://api.conceptnet.io/c/en/shaker/n> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/sharp> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/sharp> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/silverware/n> a rdfs:Resource .
 
-<http://api.conceptnet.io/c/en/solid> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/solid> a aff:Quality,
+        rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/solid_object/n> a rdfs:Resource .
 
@@ -7838,14 +8193,65 @@
 
 <http://api.conceptnet.io/c/en/sweet_thing/n> a rdfs:Resource .
 
+<http://api.conceptnet.io/c/en/table_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/window> a rdfs:Resource .
+
+bft:Egg a owl:Class ;
+    rdfs:subClassOf [ a owl:Class ;
+            owl:oneOf ( bft:hardboiled bft:scrambled bft:fried ) ],
+        bft:Food .
+
+bft:is_edible a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean .
+
+<http://api.conceptnet.io/c/en/butter_bread> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/butter_knife/n/wn/artifact> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/102931433-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/table_knife/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/container> a rdfs:Resource ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
+<http://api.conceptnet.io/c/en/garnish/n/wn/food> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107637227-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/decoration/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/glass/n> a rdfs:Resource ;
+    cnr:IsA <http://api.conceptnet.io/c/en/inorganic_substance/n>,
+        <http://api.conceptnet.io/c/en/solid/n/opencyc/solid_state_of_matter> .
+
+<http://api.conceptnet.io/c/en/orange_juice/n/wn/food> a rdfs:Resource ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107941074-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> .
+
 <http://api.conceptnet.io/c/en/teacup/n/wn/artifact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/104404587-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/cup/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/window> a rdfs:Resource .
+bft:Cutlery a owl:Class ;
+    rdfs:subClassOf bft:Tableware .
 
-<http://api.conceptnet.io/c/en/container> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+bft:Drink a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+bft:Plate a owl:Class ;
+    rdfs:subClassOf bft:Tableware .
+
+<http://api.conceptnet.io/c/en/containerful/n/wn/quantity> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/eating_food> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/found_in_kitchen> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/kitchen> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/kitchen_drawer> a rdfs:Resource .
+
+<http://api.conceptnet.io/c/en/mixture/n> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/salt_shaker> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/fast_food_restaurant>,
@@ -7853,6 +8259,8 @@
     cnr:ExternalURL <http://umbel.org/umbel/sc/SaltShaker> ;
     cnr:HasA <http://api.conceptnet.io/c/en/thousands_of_grains_of_salt> ;
     cnr:IsA <http://api.conceptnet.io/c/en/small_container_for_table_salt> .
+
+<http://api.conceptnet.io/c/en/silverware_drawer> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/apple_juice/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice> ;
@@ -7862,19 +8270,11 @@
         <http://api.conceptnet.io/c/en/mixture/n>,
         <http://api.conceptnet.io/c/en/sweet_thing/n> .
 
-<http://api.conceptnet.io/c/en/containerful/n/wn/quantity> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/eating_food> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/found_in_kitchen> a rdfs:Resource .
+<http://api.conceptnet.io/c/en/drinking> a aff:Action,
+        rdfs:Resource ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/glass> .
 
 <http://api.conceptnet.io/c/en/garnish> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/kitchen> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/kitchen_drawer> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/mixture/n> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/orange_juice/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice>,
@@ -7884,14 +8284,21 @@
         <http://api.conceptnet.io/c/en/mixture/n>,
         <http://api.conceptnet.io/c/en/sweet_thing/n> .
 
-<http://api.conceptnet.io/c/en/silverware_drawer> a rdfs:Resource .
-
-<http://api.conceptnet.io/c/en/drinking> a rdfs:Resource ;
-    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/glass> .
+aff:KitchenEntity a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 <http://api.conceptnet.io/c/en/plate> a rdfs:Resource ;
-    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
+aff:quality a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Quality .
+
+bft:Tableware a owl:Class ;
+    rdfs:subClassOf bft:Kitchenware .
+
+aff:Action a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 <http://api.conceptnet.io/c/en/fork/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece> ;
@@ -7899,6 +8306,15 @@
         <http://api.conceptnet.io/c/en/kitchenware>,
         <http://api.conceptnet.io/c/en/silverware/n>,
         <http://api.conceptnet.io/c/en/tableware> .
+
+cnr:HasA rdfs:subPropertyOf aff:quality .
+
+bft:Food a aff:KitchenEntity,
+        owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue true ;
+            owl:onProperty bft:is_edible ],
+        owl:Thing .
 
 <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103152990-n> ;
@@ -7911,6 +8327,8 @@
         <http://api.conceptnet.io/c/en/inanimate_object/n>,
         <http://api.conceptnet.io/c/en/solid_object/n> .
 
+<http://api.conceptnet.io/c/en/table> a rdfs:Resource .
+
 <http://api.conceptnet.io/c/en/apple_juice> a rdfs:Resource ;
     cnr:ExternalURL <http://umbel.org/umbel/sc/Apple_juice> ;
     cnr:HasA <http://api.conceptnet.io/c/en/pale_yellow_color> ;
@@ -7921,15 +8339,14 @@
     cnr:IsA <http://api.conceptnet.io/c/en/fattening>,
         <http://api.conceptnet.io/c/en/good_thirst_quencher>,
         <http://api.conceptnet.io/c/en/tastier_than_water> ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/apples> ;
-    cnr:ReceivesAction <http://api.conceptnet.io/c/en/made_from_crushed_apples>,
+    kchn1:CanBe <http://api.conceptnet.io/c/en/made_from_crushed_apples>,
         <http://api.conceptnet.io/c/en/made_from_squeezed_apples> .
 
 <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103205892-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/table/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/table> a rdfs:Resource .
+cnr:PartOf rdfs:subPropertyOf aff:quality .
 
 <http://api.conceptnet.io/c/en/butter/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Butter> ;
@@ -7970,8 +8387,10 @@
         <http://api.conceptnet.io/c/en/common_source_of_vitamin_c>,
         <http://api.conceptnet.io/c/en/complex_liquid>,
         <http://api.conceptnet.io/c/en/liquid> ;
-    cnr:ReceivesAction <http://api.conceptnet.io/c/en/made_from_oranges> ;
-    cnr:UsedFor <http://api.conceptnet.io/c/en/drinking> .
+    cnr:UsedFor <http://api.conceptnet.io/c/en/drinking> ;
+    kchn1:CanBe <http://api.conceptnet.io/c/en/made_from_oranges> .
+
+cnr:MadeOf rdfs:subPropertyOf aff:quality .
 
 <http://api.conceptnet.io/c/en/fork/n/wn/artifact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103388794-n>,
@@ -7991,10 +8410,13 @@
     cnr:IsA <http://api.conceptnet.io/c/en/manual_tool/n>,
         <http://api.conceptnet.io/c/en/user_powered_device/n> .
 
-<http://api.conceptnet.io/c/en/glass/n/wn/substance> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/glass/n/wn/substance> a aff:Quality,
+        rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/114905454-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/solid/n/wn/substance> ;
     cnr:PartOf <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+
+cnr:HasProperty rdfs:subPropertyOf aff:quality .
 
 <http://api.conceptnet.io/c/en/butter> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/fridge>,
@@ -8017,21 +8439,23 @@
         <http://api.conceptnet.io/c/en/food>,
         <http://api.conceptnet.io/c/en/ingredient_often>,
         <http://api.conceptnet.io/c/en/like_solid_milk> ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/milk> ;
-    cnr:ReceivesAction <http://api.conceptnet.io/c/en/eaten>,
+    cnr:UsedFor <http://api.conceptnet.io/c/en/flavoring> ;
+    kchn1:CanBe <http://api.conceptnet.io/c/en/eaten>,
         <http://api.conceptnet.io/c/en/eaten_with_toast>,
         <http://api.conceptnet.io/c/en/made_from_churned_milk>,
         <http://api.conceptnet.io/c/en/made_from_cream>,
         <http://api.conceptnet.io/c/en/made_from_milk>,
         <http://api.conceptnet.io/c/en/served_at_restaurant>,
-        <http://api.conceptnet.io/c/en/used_in_many_baking_recipes> ;
-    cnr:UsedFor <http://api.conceptnet.io/c/en/flavoring> .
+        <http://api.conceptnet.io/c/en/used_in_many_baking_recipes> .
 
 <http://api.conceptnet.io/c/en/glass/n/wn/artifact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103443167-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/container/n/wn/artifact>,
         <http://api.conceptnet.io/c/en/glassware/n/wn/artifact> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/hold/v/wn/stative> .
+
+aff:Quality a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 <http://api.conceptnet.io/c/en/dining_table> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/cafeteria>,
@@ -8079,7 +8503,8 @@
         <http://api.conceptnet.io/c/en/special_occassions>,
         <http://api.conceptnet.io/c/en/working_on_hobby> .
 
-<http://api.conceptnet.io/c/en/fork> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/fork> a aff:Quality,
+        rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/a>,
         <http://api.conceptnet.io/c/en/back>,
         <http://api.conceptnet.io/c/en/cutlery_drawer>,
@@ -8104,10 +8529,7 @@
     cnr:IsA <http://api.conceptnet.io/c/en/eating_utensil>,
         <http://api.conceptnet.io/c/en/kitchen_utensil>,
         <http://api.conceptnet.io/c/en/utensil_can_stab> ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/metal> ;
     cnr:PartOf <http://api.conceptnet.io/c/en/dining_set> ;
-    cnr:ReceivesAction <http://api.conceptnet.io/c/en/needed_when_eating_meal>,
-        <http://api.conceptnet.io/c/en/used_when_eating> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/dividing_road_in_two>,
         <http://api.conceptnet.io/c/en/eat>,
         <http://api.conceptnet.io/c/en/eat_dinner>,
@@ -8130,7 +8552,9 @@
         <http://api.conceptnet.io/c/en/picking_up_food>,
         <http://api.conceptnet.io/c/en/piercing_food>,
         <http://api.conceptnet.io/c/en/providing_choice>,
-        <http://api.conceptnet.io/c/en/turning_soil> .
+        <http://api.conceptnet.io/c/en/turning_soil> ;
+    kchn1:CanBe <http://api.conceptnet.io/c/en/needed_when_eating_meal>,
+        <http://api.conceptnet.io/c/en/used_when_eating> .
 
 <http://api.conceptnet.io/c/en/knife/n/wn/artifact> a rdfs:Resource ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103628765-n> ;
@@ -8169,7 +8593,6 @@
     cnr:HasA <http://api.conceptnet.io/c/en/cupped_end_and_handle> ;
     cnr:IsA <http://api.conceptnet.io/c/en/cooking_or_eating_utensil>,
         <http://api.conceptnet.io/c/en/utensil> ;
-    cnr:ReceivesAction <http://api.conceptnet.io/c/en/needed_when_eating_meal> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/consuming_liquid>,
         <http://api.conceptnet.io/c/en/cooling_liquid_by_stirring>,
         <http://api.conceptnet.io/c/en/dish_to_run_away_with>,
@@ -8206,9 +8629,11 @@
         <http://api.conceptnet.io/c/en/stirring_coffee>,
         <http://api.conceptnet.io/c/en/stirring_tea>,
         <http://api.conceptnet.io/c/en/taking_cough_syrup>,
-        <http://api.conceptnet.io/c/en/transporting_liquid_short_distances> .
+        <http://api.conceptnet.io/c/en/transporting_liquid_short_distances> ;
+    kchn1:CanBe <http://api.conceptnet.io/c/en/needed_when_eating_meal> .
 
-<http://api.conceptnet.io/c/en/glass> a rdfs:Resource ;
+<http://api.conceptnet.io/c/en/glass> a aff:Quality,
+        rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/a>,
         <http://api.conceptnet.io/c/en/cabinet>,
         <http://api.conceptnet.io/c/en/dining_room>,
@@ -8256,10 +8681,22 @@
         <http://api.conceptnet.io/c/en/solid>,
         <http://api.conceptnet.io/c/en/something_you>,
         <http://api.conceptnet.io/c/en/vehicle> ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/sand> ;
     cnr:PartOf <http://api.conceptnet.io/c/en/eyeglasses>,
         <http://api.conceptnet.io/c/en/window> ;
-    cnr:ReceivesAction <http://api.conceptnet.io/c/en/blown>,
+    cnr:UsedFor <http://api.conceptnet.io/c/en/drink_from>,
+        <http://api.conceptnet.io/c/en/drink_margaritas_out_of>,
+        <http://api.conceptnet.io/c/en/drinking>,
+        <http://api.conceptnet.io/c/en/drinking_from>,
+        <http://api.conceptnet.io/c/en/drinking_liquid_from>,
+        <http://api.conceptnet.io/c/en/drinking_out_of>,
+        <http://api.conceptnet.io/c/en/holding_drink>,
+        <http://api.conceptnet.io/c/en/holding_liquid>,
+        <http://api.conceptnet.io/c/en/holding_liquids>,
+        <http://api.conceptnet.io/c/en/holding_liquids_and_ice_cubes>,
+        <http://api.conceptnet.io/c/en/holding_water>,
+        <http://api.conceptnet.io/c/en/making_windows_and_for_drinking_cups>,
+        <http://api.conceptnet.io/c/en/seeing_through> ;
+    kchn1:CanBe <http://api.conceptnet.io/c/en/blown>,
         <http://api.conceptnet.io/c/en/blown_into_shapes>,
         <http://api.conceptnet.io/c/en/broken>,
         <http://api.conceptnet.io/c/en/coated>,
@@ -8275,20 +8712,7 @@
         <http://api.conceptnet.io/c/en/sent_for_recycling>,
         <http://api.conceptnet.io/c/en/tempered>,
         <http://api.conceptnet.io/c/en/tinted>,
-        <http://api.conceptnet.io/c/en/wrapped_in_napkin> ;
-    cnr:UsedFor <http://api.conceptnet.io/c/en/drink_from>,
-        <http://api.conceptnet.io/c/en/drink_margaritas_out_of>,
-        <http://api.conceptnet.io/c/en/drinking>,
-        <http://api.conceptnet.io/c/en/drinking_from>,
-        <http://api.conceptnet.io/c/en/drinking_liquid_from>,
-        <http://api.conceptnet.io/c/en/drinking_out_of>,
-        <http://api.conceptnet.io/c/en/holding_drink>,
-        <http://api.conceptnet.io/c/en/holding_liquid>,
-        <http://api.conceptnet.io/c/en/holding_liquids>,
-        <http://api.conceptnet.io/c/en/holding_liquids_and_ice_cubes>,
-        <http://api.conceptnet.io/c/en/holding_water>,
-        <http://api.conceptnet.io/c/en/making_windows_and_for_drinking_cups>,
-        <http://api.conceptnet.io/c/en/seeing_through> .
+        <http://api.conceptnet.io/c/en/wrapped_in_napkin> .
 
 <http://api.conceptnet.io/c/en/knife> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/back>,
@@ -8341,10 +8765,6 @@
         <http://api.conceptnet.io/c/en/very_useful_to_cut_meat> ;
     cnr:IsA <http://api.conceptnet.io/c/en/speciality_of_thiers_in_france>,
         <http://api.conceptnet.io/c/en/tool> ;
-    cnr:MadeOf <http://api.conceptnet.io/c/en/steel> ;
-    cnr:ReceivesAction <http://api.conceptnet.io/c/en/found_in_kitchen>,
-        <http://api.conceptnet.io/c/en/sharp>,
-        <http://api.conceptnet.io/c/en/used_as_weapon> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/alter_length_of_string_or_rope>,
         <http://api.conceptnet.io/c/en/attaching_to_rifle>,
         <http://api.conceptnet.io/c/en/attacking_enemy>,
@@ -8432,7 +8852,12 @@
         <http://api.conceptnet.io/c/en/trimming>,
         <http://api.conceptnet.io/c/en/turning_screw>,
         <http://api.conceptnet.io/c/en/unraveling>,
-        <http://api.conceptnet.io/c/en/working_with_wood> .
+        <http://api.conceptnet.io/c/en/working_with_wood> ;
+    kchn1:CanBe <http://api.conceptnet.io/c/en/found_in_kitchen>,
+        <http://api.conceptnet.io/c/en/sharp>,
+        <http://api.conceptnet.io/c/en/used_as_weapon> .
+
+cnr:AtLocation rdfs:subPropertyOf aff:quality .
 
 <http://api.conceptnet.io/c/en/cupboard> a rdfs:Resource ;
     cnr:AtLocation <http://api.conceptnet.io/c/en/own_kitchen>,
@@ -8443,7 +8868,6 @@
     cnr:ExternalURL <http://umbel.org/umbel/sc/Cupboard> ;
     cnr:IsA <http://api.conceptnet.io/c/en/closet/n>,
         <http://api.conceptnet.io/c/en/compound_word> ;
-    cnr:ReceivesAction <http://api.conceptnet.io/c/en/found_in_kitchen> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/board_cups>,
         <http://api.conceptnet.io/c/en/coffee_mugs>,
         <http://api.conceptnet.io/c/en/dishes>,
@@ -8467,5 +8891,24 @@
         <http://api.conceptnet.io/c/en/storing_dishes>,
         <http://api.conceptnet.io/c/en/storing_food>,
         <http://api.conceptnet.io/c/en/storing_junk>,
-        <http://api.conceptnet.io/c/en/storing_things> .
+        <http://api.conceptnet.io/c/en/storing_things> ;
+    kchn1:CanBe <http://api.conceptnet.io/c/en/found_in_kitchen> .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Bread bft:Egg bft:Condiment ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Juice bft:Coffee bft:Milk bft:Tea ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( bft:hardboiled bft:scrambled bft:fried ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Glassware bft:Plate bft:Fork bft:Knife bft:Spoon ) .
 

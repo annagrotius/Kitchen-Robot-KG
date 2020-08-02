@@ -31,8 +31,7 @@
 
 <owl:ObjectProperty rdf:about="#used_with">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-  <rdfs:domain rdf:resource="#Plate"/>
-  <rdfs:domain rdf:resource="#Cutlery"/>
+  <rdfs:domain rdf:resource="#Tableware"/>
   <rdfs:range rdf:resource="#Food"/>
 </owl:ObjectProperty>
 
@@ -73,18 +72,18 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#egg_cup"/>
-        <rdf:Description rdf:about="#glass"/>
-        <rdf:Description rdf:about="#butter_dish"/>
-        <rdf:Description rdf:about="#milk_pitcher"/>
         <rdf:Description rdf:about="#salt_shaker"/>
-        <rdf:Description rdf:about="#pepper_shaker"/>
-        <rdf:Description rdf:about="#butter_knife"/>
-        <rdf:Description rdf:about="#teacup"/>
+        <rdf:Description rdf:about="#glass"/>
         <rdf:Description rdf:about="#sauce_dish"/>
-        <rdf:Description rdf:about="#bread_plate"/>
-        <rdf:Description rdf:about="#teacup_plate"/>
+        <rdf:Description rdf:about="#egg_cup"/>
+        <rdf:Description rdf:about="#teacup"/>
         <rdf:Description rdf:about="#bread_basket"/>
+        <rdf:Description rdf:about="#butter_dish"/>
+        <rdf:Description rdf:about="#butter_knife"/>
+        <rdf:Description rdf:about="#teacup_plate"/>
+        <rdf:Description rdf:about="#milk_pitcher"/>
+        <rdf:Description rdf:about="#pepper_shaker"/>
+        <rdf:Description rdf:about="#bread_plate"/>
       </owl:oneOf>
     </owl:Class>
   </rdfs:subClassOf>
@@ -95,8 +94,8 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#apple_juice"/>
         <rdf:Description rdf:about="#orange_juice"/>
+        <rdf:Description rdf:about="#apple_juice"/>
         <rdf:Description rdf:about="#green_tea"/>
       </owl:oneOf>
     </owl:Class>
@@ -114,11 +113,11 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#croissant"/>
+        <rdf:Description rdf:about="#hardboiled"/>
         <rdf:Description rdf:about="#butter"/>
+        <rdf:Description rdf:about="#croissant"/>
         <rdf:Description rdf:about="#scrambled"/>
         <rdf:Description rdf:about="#garnish"/>
-        <rdf:Description rdf:about="#hardboiled"/>
         <rdf:Description rdf:about="#fried"/>
       </owl:oneOf>
     </owl:Class>
@@ -147,19 +146,25 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#egg_cup"/>
-        <rdf:Description rdf:about="#glass"/>
-        <rdf:Description rdf:about="#butter_dish"/>
         <rdf:Description rdf:about="#salt_shaker"/>
-        <rdf:Description rdf:about="#pepper_shaker"/>
-        <rdf:Description rdf:about="#butter_knife"/>
-        <rdf:Description rdf:about="#teacup"/>
+        <rdf:Description rdf:about="#glass"/>
         <rdf:Description rdf:about="#sauce_dish"/>
-        <rdf:Description rdf:about="#bread_plate"/>
-        <rdf:Description rdf:about="#teacup_plate"/>
+        <rdf:Description rdf:about="#egg_cup"/>
+        <rdf:Description rdf:about="#teacup"/>
         <rdf:Description rdf:about="#bread_basket"/>
+        <rdf:Description rdf:about="#butter_dish"/>
+        <rdf:Description rdf:about="#butter_knife"/>
+        <rdf:Description rdf:about="#teacup_plate"/>
+        <rdf:Description rdf:about="#pepper_shaker"/>
+        <rdf:Description rdf:about="#bread_plate"/>
       </owl:oneOf>
     </owl:Class>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
   </rdfs:subClassOf>
 </owl:Class>
 
@@ -172,6 +177,12 @@
         <rdf:Description rdf:about="#teacup"/>
       </owl:oneOf>
     </owl:Class>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
   </rdfs:subClassOf>
 </owl:Class>
 
@@ -186,6 +197,12 @@
         <rdf:Description rdf:about="#teacup_plate"/>
       </owl:oneOf>
     </owl:Class>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
   </rdfs:subClassOf>
 </owl:Class>
 
@@ -216,6 +233,12 @@
       </owl:allValuesFrom>
     </owl:Restriction>
   </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
 </owl:Class>
 
 <owl:Class rdf:about="#Fork">
@@ -229,6 +252,12 @@
   <rdfs:subClassOf>
     <owl:Restriction>
       <owl:onProperty rdf:resource="#can_spread"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
       <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
     </owl:Restriction>
   </rdfs:subClassOf>
@@ -261,6 +290,12 @@
       </owl:allValuesFrom>
     </owl:Restriction>
   </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
 </owl:Class>
 
 <owl:Class rdf:about="#Spoon">
@@ -277,6 +312,12 @@
       <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
     </owl:Restriction>
   </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
 </owl:Class>
 
 <owl:Class rdf:about="#Juice">
@@ -284,8 +325,8 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#apple_juice"/>
         <rdf:Description rdf:about="#orange_juice"/>
+        <rdf:Description rdf:about="#apple_juice"/>
       </owl:oneOf>
     </owl:Class>
   </rdfs:subClassOf>
@@ -447,18 +488,42 @@
 
 <Tableware rdf:about="#salt_shaker">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Tableware>
 
 <Tableware rdf:about="#pepper_shaker">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Tableware>
 
 <Tableware rdf:about="#bread_basket">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Tableware>
 
 <Tableware rdf:about="#egg_cup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Tableware>
 
 <Kitchenware rdf:about="#milk_pitcher">
@@ -485,31 +550,73 @@
       </owl:allValuesFrom>
     </owl:Restriction>
   </rdf:type>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
   <can_spread rdf:resource="#butter"/>
 </Knife>
 
 <Glassware rdf:about="#glass">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Glassware>
 
 <Glassware rdf:about="#teacup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Glassware>
 
 <Plate rdf:about="#sauce_dish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Plate>
 
 <Plate rdf:about="#butter_dish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Plate>
 
 <Plate rdf:about="#bread_plate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Plate>
 
 <Plate rdf:about="#teacup_plate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#used_with"/>
+      <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Restriction>
+  </rdf:type>
 </Plate>
 
 <Table rdf:about="#table">

@@ -31,8 +31,7 @@
 
 <owl:ObjectProperty rdf:about="#used_with">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-  <rdfs:domain rdf:resource="#Plate"/>
-  <rdfs:domain rdf:resource="#Cutlery"/>
+  <rdfs:domain rdf:resource="#Tableware"/>
   <rdfs:range rdf:resource="#Food"/>
 </owl:ObjectProperty>
 

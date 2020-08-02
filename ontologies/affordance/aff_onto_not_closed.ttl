@@ -15,9 +15,21 @@ aff:color a owl:ObjectProperty ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf aff:quality .
 
+aff:cut a aff:Action,
+        owl:NamedIndividual .
+
+aff:eat a aff:Action,
+        owl:NamedIndividual .
+
+aff:eatable a aff:Affordance,
+        owl:NamedIndividual .
+
 aff:form a owl:ObjectProperty ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf aff:quality .
+
+aff:hard a aff:Quality,
+        owl:NamedIndividual .
 
 aff:implies a owl:ObjectProperty ;
     rdfs:domain aff:Quality ;
@@ -27,8 +39,8 @@ aff:location a owl:ObjectProperty ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf aff:quality .
 
-aff:Action a owl:Class ;
-    rdfs:subClassOf owl:Thing .
+aff:soft a aff:Quality,
+        owl:NamedIndividual .
 
 aff:Affordance a owl:Class ;
     rdfs:subClassOf owl:Thing .
@@ -36,10 +48,13 @@ aff:Affordance a owl:Class ;
 aff:KitchenEntity a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
-aff:Quality a owl:Class ;
+aff:Action a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
 aff:quality a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;
     rdfs:range aff:Quality .
+
+aff:Quality a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 

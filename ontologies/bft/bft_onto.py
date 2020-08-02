@@ -90,7 +90,7 @@ def main():
         class can_spread(ObjectProperty, Cutlery >> Food):
             pass
         class used_with(ObjectProperty, SymmetricProperty):
-            domain = [Cutlery, Plate]
+            domain = [Tableware]
             range = [Food]
         class primary_usage(DataProperty):
             range = [str]

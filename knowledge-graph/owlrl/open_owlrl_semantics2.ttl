@@ -1,10 +1,36 @@
 @prefix aff: <http://test.org/affordance.owl#> .
 @prefix bft: <http://test.org/bft.owl#> .
+@prefix kchn: <http://test.org/kitchen.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+aff:cut a aff:Action,
+        owl:NamedIndividual,
+        owl:Thing ;
+    owl:sameAs aff:cut .
+
+aff:eat a aff:Action,
+        owl:NamedIndividual,
+        owl:Thing ;
+    owl:sameAs aff:eat .
+
+aff:eatable a aff:Affordance,
+        owl:NamedIndividual,
+        owl:Thing ;
+    owl:sameAs aff:eatable .
+
+aff:hard a aff:Quality,
+        owl:NamedIndividual,
+        owl:Thing ;
+    owl:sameAs aff:hard .
+
+aff:soft a aff:Quality,
+        owl:NamedIndividual,
+        owl:Thing ;
+    owl:sameAs aff:soft .
 
 bft:apple_juice a bft:Drink,
         bft:Juice,
@@ -12,9 +38,9 @@ bft:apple_juice a bft:Drink,
         owl:Thing ;
     owl:sameAs bft:apple_juice .
 
-bft:bread_basket a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:bread_basket a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Tableware,
         owl:NamedIndividual,
@@ -22,9 +48,9 @@ bft:bread_basket a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:bread_basket .
 
-bft:butter_knife a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:butter_knife a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Knife,
@@ -35,7 +61,7 @@ bft:butter_knife a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:butter_knife .
 
-bft:croissant a _:ub4bL228C21,
+bft:croissant a _:ub2bL244C21,
         bft:Bread,
         bft:Food,
         owl:NamedIndividual,
@@ -43,18 +69,18 @@ bft:croissant a _:ub4bL228C21,
     bft:is_edible true ;
     owl:sameAs bft:croissant .
 
-bft:cupboard a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:cupboard a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Storage,
         owl:NamedIndividual,
         owl:Thing ;
     bft:is_edible false ;
     owl:sameAs bft:cupboard .
 
-bft:dining_chair a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:dining_chair a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Chair,
         bft:Furniture,
         owl:NamedIndividual,
@@ -62,9 +88,9 @@ bft:dining_chair a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:dining_chair .
 
-bft:egg_cup a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:egg_cup a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Tableware,
         owl:NamedIndividual,
@@ -72,16 +98,16 @@ bft:egg_cup a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:egg_cup .
 
-bft:garnish a _:ub4bL228C21,
+bft:garnish a _:ub2bL244C21,
         bft:Food,
         owl:NamedIndividual,
         owl:Thing ;
     bft:is_edible true ;
     owl:sameAs bft:garnish .
 
-bft:glass a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:glass a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Glassware,
         bft:Kitchenware,
         bft:Tableware,
@@ -96,9 +122,9 @@ bft:green_tea a bft:Drink,
         owl:Thing ;
     owl:sameAs bft:green_tea .
 
-bft:milk_pitcher a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:milk_pitcher a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         owl:NamedIndividual,
         owl:Thing ;
@@ -111,9 +137,9 @@ bft:orange_juice a bft:Drink,
         owl:Thing ;
     owl:sameAs bft:orange_juice .
 
-bft:pepper_shaker a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:pepper_shaker a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Tableware,
         owl:NamedIndividual,
@@ -121,9 +147,9 @@ bft:pepper_shaker a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:pepper_shaker .
 
-bft:salt_shaker a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:salt_shaker a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Tableware,
         owl:NamedIndividual,
@@ -131,9 +157,9 @@ bft:salt_shaker a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:salt_shaker .
 
-bft:table a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:table a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Furniture,
         bft:Table,
         owl:NamedIndividual,
@@ -141,9 +167,9 @@ bft:table a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:table .
 
-bft:teacup a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:teacup a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Glassware,
         bft:Kitchenware,
         bft:Tableware,
@@ -152,8 +178,8 @@ bft:teacup a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:teacup .
 
-<http://test.org/kchn.owl#> a owl:Ontology ;
-    owl:sameAs <http://test.org/kchn.owl#> .
+<http://test.org/kitchen.owl> a owl:Ontology ;
+    owl:sameAs <http://test.org/kitchen.owl> .
 
 rdf:HTML a rdfs:Datatype ;
     owl:sameAs rdf:HTML .
@@ -316,9 +342,9 @@ owl:sameAs owl:sameAs owl:sameAs .
 owl:versionInfo a owl:AnnotationProperty ;
     owl:sameAs owl:versionInfo .
 
-bft:bread_plate a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:bread_plate a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Plate,
         bft:Tableware,
@@ -327,7 +353,7 @@ bft:bread_plate a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:bread_plate .
 
-bft:butter a _:ub4bL228C21,
+bft:butter a _:ub2bL244C21,
         bft:Condiment,
         bft:Food,
         bft:Spread,
@@ -336,9 +362,9 @@ bft:butter a _:ub4bL228C21,
     bft:is_edible true ;
     owl:sameAs bft:butter .
 
-bft:butter_dish a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:butter_dish a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Plate,
         bft:Tableware,
@@ -347,9 +373,9 @@ bft:butter_dish a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:butter_dish .
 
-bft:sauce_dish a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:sauce_dish a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Plate,
         bft:Tableware,
@@ -358,9 +384,9 @@ bft:sauce_dish a _:ub4bL158C21,
     bft:is_edible false ;
     owl:sameAs bft:sauce_dish .
 
-bft:teacup_plate a _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+bft:teacup_plate a _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Plate,
         bft:Tableware,
@@ -423,14 +449,14 @@ aff:location a owl:ObjectProperty ;
     owl:sameAs aff:location .
 
 bft:can_cut a owl:ObjectProperty ;
-    rdfs:domain _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:domain _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Tableware,
         owl:Thing ;
-    rdfs:range _:ub4bL228C21,
+    rdfs:range _:ub2bL244C21,
         bft:Food,
         owl:Thing ;
     rdfs:subPropertyOf bft:can_cut ;
@@ -438,22 +464,22 @@ bft:can_cut a owl:ObjectProperty ;
     owl:sameAs bft:can_cut .
 
 bft:can_spread a owl:ObjectProperty ;
-    rdfs:domain _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:domain _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Tableware,
         owl:Thing ;
-    rdfs:range _:ub4bL228C21,
+    rdfs:range _:ub2bL244C21,
         bft:Food,
         owl:Thing ;
     rdfs:subPropertyOf bft:can_spread ;
     owl:equivalentProperty bft:can_spread ;
     owl:sameAs bft:can_spread .
 
-bft:fried a _:ub4bL203C21,
-        _:ub4bL228C21,
+bft:fried a _:ub2bL219C21,
+        _:ub2bL244C21,
         bft:Egg,
         bft:Food,
         owl:NamedIndividual,
@@ -461,8 +487,8 @@ bft:fried a _:ub4bL203C21,
     bft:is_edible true ;
     owl:sameAs bft:fried .
 
-bft:hardboiled a _:ub4bL203C21,
-        _:ub4bL228C21,
+bft:hardboiled a _:ub2bL219C21,
+        _:ub2bL244C21,
         bft:Egg,
         bft:Food,
         owl:NamedIndividual,
@@ -476,8 +502,8 @@ bft:primary_usage a owl:DatatypeProperty ;
     owl:equivalentProperty bft:primary_usage ;
     owl:sameAs bft:primary_usage .
 
-bft:scrambled a _:ub4bL203C21,
-        _:ub4bL228C21,
+bft:scrambled a _:ub2bL219C21,
+        _:ub2bL244C21,
         bft:Egg,
         bft:Food,
         owl:NamedIndividual,
@@ -487,11 +513,11 @@ bft:scrambled a _:ub4bL203C21,
 
 bft:served_with a owl:ObjectProperty,
         owl:SymmetricProperty ;
-    rdfs:domain _:ub4bL228C21,
+    rdfs:domain _:ub2bL244C21,
         bft:Condiment,
         bft:Food,
         owl:Thing ;
-    rdfs:range _:ub4bL228C21,
+    rdfs:range _:ub2bL244C21,
         bft:Food,
         owl:Thing ;
     rdfs:subPropertyOf bft:served_with ;
@@ -499,12 +525,12 @@ bft:served_with a owl:ObjectProperty,
     owl:sameAs bft:served_with .
 
 bft:spread_on a owl:ObjectProperty ;
-    rdfs:domain _:ub4bL228C21,
+    rdfs:domain _:ub2bL244C21,
         bft:Condiment,
         bft:Food,
         bft:Spread,
         owl:Thing ;
-    rdfs:range _:ub4bL228C21,
+    rdfs:range _:ub2bL244C21,
         bft:Food,
         owl:Thing ;
     rdfs:subPropertyOf bft:spread_on ;
@@ -513,13 +539,13 @@ bft:spread_on a owl:ObjectProperty ;
 
 bft:used_with a owl:ObjectProperty,
         owl:SymmetricProperty ;
-    rdfs:domain _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:domain _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Tableware,
         owl:Thing ;
-    rdfs:range _:ub4bL228C21,
+    rdfs:range _:ub2bL244C21,
         bft:Food,
         owl:Thing ;
     rdfs:subPropertyOf bft:used_with ;
@@ -531,11 +557,11 @@ owl:AllDifferent owl:sameAs owl:AllDifferent .
 owl:DatatypeProperty owl:sameAs owl:DatatypeProperty .
 
 owl:Nothing a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
-        _:ub4bL203C21,
-        _:ub4bL228C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
+        _:ub2bL219C21,
+        _:ub2bL244C21,
         aff:Action,
         aff:Affordance,
         aff:KitchenEntity,
@@ -572,18 +598,6 @@ owl:SymmetricProperty owl:sameAs owl:SymmetricProperty .
 xsd:boolean a rdfs:Datatype ;
     owl:sameAs xsd:boolean .
 
-aff:Action a owl:Class ;
-    rdfs:subClassOf aff:Action,
-        owl:Thing ;
-    owl:equivalentClass aff:Action ;
-    owl:sameAs aff:Action .
-
-aff:Affordance a owl:Class ;
-    rdfs:subClassOf aff:Affordance,
-        owl:Thing ;
-    owl:equivalentClass aff:Affordance ;
-    owl:sameAs aff:Affordance .
-
 bft:Coffee a owl:Class ;
     rdfs:subClassOf bft:Coffee,
         bft:Drink,
@@ -592,9 +606,9 @@ bft:Coffee a owl:Class ;
     owl:sameAs bft:Coffee .
 
 bft:Fork a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Cutlery,
         bft:Fork,
         bft:Kitchenware,
@@ -611,9 +625,9 @@ bft:Milk a owl:Class ;
     owl:sameAs bft:Milk .
 
 bft:Spoon a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Spoon,
@@ -623,9 +637,9 @@ bft:Spoon a owl:Class ;
     owl:sameAs bft:Spoon .
 
 bft:Table a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Furniture,
         bft:Table,
         owl:Thing ;
@@ -640,6 +654,12 @@ owl:AllDisjointClasses owl:sameAs owl:AllDisjointClasses .
 
 owl:Restriction owl:sameAs owl:Restriction .
 
+aff:Affordance a owl:Class ;
+    rdfs:subClassOf aff:Affordance,
+        owl:Thing ;
+    owl:equivalentClass aff:Affordance ;
+    owl:sameAs aff:Affordance .
+
 aff:quality a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity,
         owl:Thing ;
@@ -650,7 +670,7 @@ aff:quality a owl:ObjectProperty ;
     owl:sameAs aff:quality .
 
 bft:Bread a owl:Class ;
-    rdfs:subClassOf _:ub4bL228C21,
+    rdfs:subClassOf _:ub2bL244C21,
         bft:Bread,
         bft:Food,
         owl:Thing ;
@@ -658,9 +678,9 @@ bft:Bread a owl:Class ;
     owl:sameAs bft:Bread .
 
 bft:Chair a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Chair,
         bft:Furniture,
         owl:Thing ;
@@ -668,9 +688,9 @@ bft:Chair a owl:Class ;
     owl:sameAs bft:Chair .
 
 bft:Knife a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Knife,
@@ -680,7 +700,7 @@ bft:Knife a owl:Class ;
     owl:sameAs bft:Knife .
 
 bft:Spread a owl:Class ;
-    rdfs:subClassOf _:ub4bL228C21,
+    rdfs:subClassOf _:ub2bL244C21,
         bft:Condiment,
         bft:Food,
         bft:Spread,
@@ -691,9 +711,9 @@ bft:Spread a owl:Class ;
 bft:Storage a aff:KitchenEntity,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Storage,
         owl:Thing ;
     owl:equivalentClass bft:Storage ;
@@ -706,10 +726,16 @@ bft:Tea a owl:Class ;
     owl:equivalentClass bft:Tea ;
     owl:sameAs bft:Tea .
 
+aff:Action a owl:Class ;
+    rdfs:subClassOf aff:Action,
+        owl:Thing ;
+    owl:equivalentClass aff:Action ;
+    owl:sameAs aff:Action .
+
 bft:Glassware a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Glassware,
         bft:Kitchenware,
         bft:Tableware,
@@ -731,8 +757,8 @@ bft:is_edible a owl:DatatypeProperty ;
     owl:sameAs bft:is_edible .
 
 bft:Egg a owl:Class ;
-    rdfs:subClassOf _:ub4bL203C21,
-        _:ub4bL228C21,
+    rdfs:subClassOf _:ub2bL219C21,
+        _:ub2bL244C21,
         bft:Egg,
         bft:Food,
         owl:Thing ;
@@ -744,14 +770,8 @@ bft:Egg a owl:Class ;
 true a xsd:boolean ;
     owl:sameAs true .
 
-aff:Quality a owl:Class ;
-    rdfs:subClassOf aff:Quality,
-        owl:Thing ;
-    owl:equivalentClass aff:Quality ;
-    owl:sameAs aff:Quality .
-
 bft:Condiment a owl:Class ;
-    rdfs:subClassOf _:ub4bL228C21,
+    rdfs:subClassOf _:ub2bL244C21,
         bft:Condiment,
         bft:Food,
         owl:Thing ;
@@ -761,18 +781,18 @@ bft:Condiment a owl:Class ;
 bft:Furniture a aff:KitchenEntity,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Furniture,
         owl:Thing ;
     owl:equivalentClass bft:Furniture ;
     owl:sameAs bft:Furniture .
 
 bft:Plate a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Plate,
         bft:Tableware,
@@ -781,9 +801,9 @@ bft:Plate a owl:Class ;
     owl:sameAs bft:Plate .
 
 bft:Cutlery a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Tableware,
@@ -792,6 +812,12 @@ bft:Cutlery a owl:Class ;
     owl:sameAs bft:Cutlery .
 
 owl:AnnotationProperty owl:sameAs owl:AnnotationProperty .
+
+aff:Quality a owl:Class ;
+    rdfs:subClassOf aff:Quality,
+        owl:Thing ;
+    owl:equivalentClass aff:Quality ;
+    owl:sameAs aff:Quality .
 
 bft:Drink a aff:KitchenEntity,
         owl:Class,
@@ -815,36 +841,36 @@ false a xsd:boolean ;
 bft:Food a aff:KitchenEntity,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub4bL228C21,
+    rdfs:subClassOf _:ub2bL244C21,
         bft:Food,
         owl:Thing ;
     owl:equivalentClass bft:Food ;
     owl:sameAs bft:Food .
 
 bft:Tableware a owl:Class ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         bft:Tableware,
         owl:Thing ;
     owl:equivalentClass bft:Tableware ;
     owl:sameAs bft:Tableware .
 
-owl:NamedIndividual owl:sameAs owl:NamedIndividual .
-
 bft:Kitchenware a aff:KitchenEntity,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21,
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21,
         bft:Kitchenware,
         owl:Thing ;
     owl:equivalentClass bft:Kitchenware ;
     owl:sameAs bft:Kitchenware .
 
 owl:Class owl:sameAs owl:Class .
+
+owl:NamedIndividual owl:sameAs owl:NamedIndividual .
 
 rdfs:Datatype owl:sameAs rdfs:Datatype .
 
@@ -853,182 +879,182 @@ owl:Thing a owl:Class ;
     owl:equivalentClass owl:Thing ;
     owl:sameAs owl:Thing .
 
-_:ub4bL233C1 a owl:AllDifferent ;
-    owl:distinctMembers _:f13c8453013764d7aaa4e849339f05be2b4 ;
-    owl:sameAs _:ub4bL233C1 .
+_:ub2bL249C1 a owl:AllDifferent ;
+    owl:distinctMembers _:fd7b2534f5e8d4990b487eb254af86c2db4 ;
+    owl:sameAs _:ub2bL249C1 .
 
-_:ub4bL236C1 a owl:AllDisjointClasses ;
-    owl:members _:f13c8453013764d7aaa4e849339f05be2b8 ;
-    owl:sameAs _:ub4bL236C1 .
+_:ub2bL252C1 a owl:AllDisjointClasses ;
+    owl:members _:fd7b2534f5e8d4990b487eb254af86c2db8 ;
+    owl:sameAs _:ub2bL252C1 .
 
-_:ub4bL239C1 a owl:AllDisjointClasses ;
-    owl:members _:f13c8453013764d7aaa4e849339f05be2b11 ;
-    owl:sameAs _:ub4bL239C1 .
+_:ub2bL255C1 a owl:AllDisjointClasses ;
+    owl:members _:fd7b2534f5e8d4990b487eb254af86c2db11 ;
+    owl:sameAs _:ub2bL255C1 .
 
-_:ub4bL242C1 a owl:AllDisjointClasses ;
-    owl:members _:f13c8453013764d7aaa4e849339f05be2b16 ;
-    owl:sameAs _:ub4bL242C1 .
+_:ub2bL258C1 a owl:AllDisjointClasses ;
+    owl:members _:fd7b2534f5e8d4990b487eb254af86c2db16 ;
+    owl:sameAs _:ub2bL258C1 .
 
-_:ub4bL245C1 a owl:AllDifferent ;
-    owl:distinctMembers _:f13c8453013764d7aaa4e849339f05be2b20 ;
-    owl:sameAs _:ub4bL245C1 .
+_:ub2bL261C1 a owl:AllDifferent ;
+    owl:distinctMembers _:fd7b2534f5e8d4990b487eb254af86c2db20 ;
+    owl:sameAs _:ub2bL261C1 .
 
-_:ub4bL248C1 a owl:AllDisjointClasses ;
-    owl:members _:f13c8453013764d7aaa4e849339f05be2b23 ;
-    owl:sameAs _:ub4bL248C1 .
+_:ub2bL264C1 a owl:AllDisjointClasses ;
+    owl:members _:fd7b2534f5e8d4990b487eb254af86c2db23 ;
+    owl:sameAs _:ub2bL264C1 .
 
-_:f13c8453013764d7aaa4e849339f05be2b1 rdf:first bft:hardboiled ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b2 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b1 .
+_:fd7b2534f5e8d4990b487eb254af86c2db1 rdf:first bft:hardboiled ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db2 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db1 .
 
-_:f13c8453013764d7aaa4e849339f05be2b10 rdf:first bft:Condiment ;
+_:fd7b2534f5e8d4990b487eb254af86c2db10 rdf:first bft:Condiment ;
     rdf:rest () ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b10 .
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db10 .
 
-_:f13c8453013764d7aaa4e849339f05be2b11 rdf:first bft:Food ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b12 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b11 .
+_:fd7b2534f5e8d4990b487eb254af86c2db11 rdf:first bft:Food ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db12 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db11 .
 
-_:f13c8453013764d7aaa4e849339f05be2b12 rdf:first bft:Drink ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b13 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b12 .
+_:fd7b2534f5e8d4990b487eb254af86c2db12 rdf:first bft:Drink ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db13 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db12 .
 
-_:f13c8453013764d7aaa4e849339f05be2b13 rdf:first bft:Storage ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b14 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b13 .
+_:fd7b2534f5e8d4990b487eb254af86c2db13 rdf:first bft:Storage ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db14 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db13 .
 
-_:f13c8453013764d7aaa4e849339f05be2b14 rdf:first bft:Kitchenware ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b15 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b14 .
+_:fd7b2534f5e8d4990b487eb254af86c2db14 rdf:first bft:Kitchenware ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db15 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db14 .
 
-_:f13c8453013764d7aaa4e849339f05be2b15 rdf:first bft:Furniture ;
+_:fd7b2534f5e8d4990b487eb254af86c2db15 rdf:first bft:Furniture ;
     rdf:rest () ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b15 .
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db15 .
 
-_:f13c8453013764d7aaa4e849339f05be2b16 rdf:first bft:Juice ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b17 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b16 .
+_:fd7b2534f5e8d4990b487eb254af86c2db16 rdf:first bft:Juice ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db17 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db16 .
 
-_:f13c8453013764d7aaa4e849339f05be2b17 rdf:first bft:Coffee ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b18 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b17 .
+_:fd7b2534f5e8d4990b487eb254af86c2db17 rdf:first bft:Coffee ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db18 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db17 .
 
-_:f13c8453013764d7aaa4e849339f05be2b18 rdf:first bft:Milk ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b19 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b18 .
+_:fd7b2534f5e8d4990b487eb254af86c2db18 rdf:first bft:Milk ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db19 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db18 .
 
-_:f13c8453013764d7aaa4e849339f05be2b19 rdf:first bft:Tea ;
+_:fd7b2534f5e8d4990b487eb254af86c2db19 rdf:first bft:Tea ;
     rdf:rest () ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b19 .
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db19 .
 
-_:f13c8453013764d7aaa4e849339f05be2b2 rdf:first bft:scrambled ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b3 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b2 .
+_:fd7b2534f5e8d4990b487eb254af86c2db2 rdf:first bft:scrambled ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db3 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db2 .
 
-_:f13c8453013764d7aaa4e849339f05be2b20 rdf:first bft:hardboiled ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b21 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b20 .
+_:fd7b2534f5e8d4990b487eb254af86c2db20 rdf:first bft:hardboiled ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db21 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db20 .
 
-_:f13c8453013764d7aaa4e849339f05be2b21 rdf:first bft:scrambled ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b22 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b21 .
+_:fd7b2534f5e8d4990b487eb254af86c2db21 rdf:first bft:scrambled ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db22 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db21 .
 
-_:f13c8453013764d7aaa4e849339f05be2b22 rdf:first bft:fried ;
+_:fd7b2534f5e8d4990b487eb254af86c2db22 rdf:first bft:fried ;
     rdf:rest () ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b22 .
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db22 .
 
-_:f13c8453013764d7aaa4e849339f05be2b23 rdf:first bft:Glassware ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b24 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b23 .
+_:fd7b2534f5e8d4990b487eb254af86c2db23 rdf:first bft:Glassware ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db24 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db23 .
 
-_:f13c8453013764d7aaa4e849339f05be2b24 rdf:first bft:Plate ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b25 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b24 .
+_:fd7b2534f5e8d4990b487eb254af86c2db24 rdf:first bft:Plate ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db25 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db24 .
 
-_:f13c8453013764d7aaa4e849339f05be2b25 rdf:first bft:Fork ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b26 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b25 .
+_:fd7b2534f5e8d4990b487eb254af86c2db25 rdf:first bft:Fork ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db26 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db25 .
 
-_:f13c8453013764d7aaa4e849339f05be2b26 rdf:first bft:Knife ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b27 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b26 .
+_:fd7b2534f5e8d4990b487eb254af86c2db26 rdf:first bft:Knife ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db27 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db26 .
 
-_:f13c8453013764d7aaa4e849339f05be2b27 rdf:first bft:Spoon ;
+_:fd7b2534f5e8d4990b487eb254af86c2db27 rdf:first bft:Spoon ;
     rdf:rest () ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b27 .
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db27 .
 
-_:f13c8453013764d7aaa4e849339f05be2b3 rdf:first bft:fried ;
+_:fd7b2534f5e8d4990b487eb254af86c2db3 rdf:first bft:fried ;
     rdf:rest () ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b3 .
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db3 .
 
-_:f13c8453013764d7aaa4e849339f05be2b4 rdf:first bft:sauce_dish ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b5 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b4 .
+_:fd7b2534f5e8d4990b487eb254af86c2db4 rdf:first bft:sauce_dish ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db5 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db4 .
 
-_:f13c8453013764d7aaa4e849339f05be2b5 rdf:first bft:bread_plate ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b6 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b5 .
+_:fd7b2534f5e8d4990b487eb254af86c2db5 rdf:first bft:bread_plate ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db6 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db5 .
 
-_:f13c8453013764d7aaa4e849339f05be2b6 rdf:first bft:butter_dish ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b7 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b6 .
+_:fd7b2534f5e8d4990b487eb254af86c2db6 rdf:first bft:butter_dish ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db7 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db6 .
 
-_:f13c8453013764d7aaa4e849339f05be2b7 rdf:first bft:teacup_plate ;
+_:fd7b2534f5e8d4990b487eb254af86c2db7 rdf:first bft:teacup_plate ;
     rdf:rest () ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b7 .
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db7 .
 
-_:f13c8453013764d7aaa4e849339f05be2b8 rdf:first bft:Bread ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b9 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b8 .
+_:fd7b2534f5e8d4990b487eb254af86c2db8 rdf:first bft:Bread ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db9 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db8 .
 
-_:f13c8453013764d7aaa4e849339f05be2b9 rdf:first bft:Egg ;
-    rdf:rest _:f13c8453013764d7aaa4e849339f05be2b10 ;
-    owl:sameAs _:f13c8453013764d7aaa4e849339f05be2b9 .
+_:fd7b2534f5e8d4990b487eb254af86c2db9 rdf:first bft:Egg ;
+    rdf:rest _:fd7b2534f5e8d4990b487eb254af86c2db10 ;
+    owl:sameAs _:fd7b2534f5e8d4990b487eb254af86c2db9 .
 
-_:ub4bL203C21 a owl:Class ;
-    rdfs:subClassOf _:ub4bL203C21,
+_:ub2bL219C21 a owl:Class ;
+    rdfs:subClassOf _:ub2bL219C21,
         owl:Thing ;
-    owl:equivalentClass _:ub4bL203C21 ;
-    owl:oneOf _:f13c8453013764d7aaa4e849339f05be2b1 ;
-    owl:sameAs _:ub4bL203C21 .
+    owl:equivalentClass _:ub2bL219C21 ;
+    owl:oneOf _:fd7b2534f5e8d4990b487eb254af86c2db1 ;
+    owl:sameAs _:ub2bL219C21 .
 
-_:ub4bL228C21 a owl:Restriction ;
-    rdfs:subClassOf _:ub4bL228C21 ;
-    owl:equivalentClass _:ub4bL228C21 ;
+_:ub2bL244C21 a owl:Restriction ;
+    rdfs:subClassOf _:ub2bL244C21 ;
+    owl:equivalentClass _:ub2bL244C21 ;
     owl:hasValue true ;
     owl:onProperty bft:is_edible ;
-    owl:sameAs _:ub4bL228C21 .
+    owl:sameAs _:ub2bL244C21 .
 
-_:ub4bL158C21 a owl:Restriction ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21 ;
-    owl:equivalentClass _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21 ;
+_:ub2bL168C21 a owl:Restriction ;
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21 ;
+    owl:equivalentClass _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21 ;
     owl:hasValue false ;
     owl:onProperty bft:is_edible ;
-    owl:sameAs _:ub4bL158C21 .
+    owl:sameAs _:ub2bL168C21 .
 
-_:ub4bL184C21 a owl:Restriction ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21 ;
-    owl:equivalentClass _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21 ;
+_:ub2bL197C21 a owl:Restriction ;
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21 ;
+    owl:equivalentClass _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21 ;
     owl:hasValue false ;
     owl:onProperty bft:is_edible ;
-    owl:sameAs _:ub4bL184C21 .
+    owl:sameAs _:ub2bL197C21 .
 
-_:ub4bL197C21 a owl:Restriction ;
-    rdfs:subClassOf _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21 ;
-    owl:equivalentClass _:ub4bL158C21,
-        _:ub4bL184C21,
-        _:ub4bL197C21 ;
+_:ub2bL210C21 a owl:Restriction ;
+    rdfs:subClassOf _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21 ;
+    owl:equivalentClass _:ub2bL168C21,
+        _:ub2bL197C21,
+        _:ub2bL210C21 ;
     owl:hasValue false ;
     owl:onProperty bft:is_edible ;
-    owl:sameAs _:ub4bL197C21 .
+    owl:sameAs _:ub2bL210C21 .
 
