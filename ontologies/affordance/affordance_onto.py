@@ -1,5 +1,5 @@
 """
-This script creates the affordance ontology and saves a close world and non closed world
+This script creates the affordance ontology and saves a closed world and non closed world
 version of the ontology as a owl file format and different graph file formats (.ttl, .nt).
 """
 

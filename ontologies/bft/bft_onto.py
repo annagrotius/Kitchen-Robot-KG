@@ -71,7 +71,7 @@ def main():
         AllDisjoint([Food, Drink, Storage, Kitchenware, Furniture])
         AllDisjoint([bft.Glassware, bft.Plate, bft.Fork, bft.Knife, bft.Spoon])
         AllDisjoint((bft.search(subclass_of=bft.Drink))[1:])
-        AllDisjoint([bft.Bread, bft.Egg, bft.Condiment])  # all food subclasses are disjoint. should this be? since some foods can be together?
+        AllDisjoint([bft.Bread, bft.Egg, bft.Condiment])  
         AllDisjoint((bft.search(subclass_of=bft.Furniture))[1:])
 
 

@@ -164,11 +164,11 @@ bft:Knife a owl:Class ;
 bft:Spread a owl:Class ;
     rdfs:subClassOf bft:Condiment .
 
-bft:Storage a aff:KitchenEntity,
-        owl:Class ;
+bft:Storage a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:hasValue false ;
             owl:onProperty bft:is_edible ],
+        aff:KitchenEntity,
         owl:Thing .
 
 bft:Tea a owl:Class ;
@@ -193,11 +193,11 @@ aff:quality a owl:ObjectProperty ;
 bft:Condiment a owl:Class ;
     rdfs:subClassOf bft:Food .
 
-bft:Furniture a aff:KitchenEntity,
-        owl:Class ;
+bft:Furniture a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:hasValue false ;
             owl:onProperty bft:is_edible ],
+        aff:KitchenEntity,
         owl:Thing .
 
 bft:Glassware a owl:Class ;
@@ -206,11 +206,11 @@ bft:Glassware a owl:Class ;
 bft:Juice a owl:Class ;
     rdfs:subClassOf bft:Drink .
 
-bft:Kitchenware a aff:KitchenEntity,
-        owl:Class ;
+bft:Kitchenware a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:hasValue false ;
             owl:onProperty bft:is_edible ],
+        aff:KitchenEntity,
         owl:Thing .
 
 aff:Quality a owl:Class ;
@@ -227,9 +227,9 @@ bft:is_edible a owl:DatatypeProperty ;
 bft:Cutlery a owl:Class ;
     rdfs:subClassOf bft:Tableware .
 
-bft:Drink a aff:KitchenEntity,
-        owl:Class ;
-    rdfs:subClassOf owl:Thing .
+bft:Drink a owl:Class ;
+    rdfs:subClassOf aff:KitchenEntity,
+        owl:Thing .
 
 bft:Plate a owl:Class ;
     rdfs:subClassOf bft:Tableware .
@@ -240,11 +240,11 @@ aff:KitchenEntity a owl:Class ;
 bft:Tableware a owl:Class ;
     rdfs:subClassOf bft:Kitchenware .
 
-bft:Food a aff:KitchenEntity,
-        owl:Class ;
+bft:Food a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:hasValue true ;
             owl:onProperty bft:is_edible ],
+        aff:KitchenEntity,
         owl:Thing .
 
 [] a owl:AllDifferent ;

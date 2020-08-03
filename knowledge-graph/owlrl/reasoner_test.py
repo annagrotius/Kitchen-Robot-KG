@@ -39,11 +39,12 @@ OWLRL_Extension=False):
 def main():
 
     # closed_graph = "../graphs/aff_bft_closed_graph.ttl"
-    open_graph = "../graphs/aff_bft_open_graph2.ttl"
+    # open_graph = "../graphs/aff_bft_open_graph.ttl"
+    open_graph = "../aff_bft_cn.ttl"
     # reasoner(closed_graph, "./closed_rdfs_semantics")
     # reasoner(closed_graph, "./closed_owlrl_semantics", RDFS_Semantics=False, OWLRL_Semantics=True)
-    reasoner(open_graph, "./open_rdfs_semantics2")
-    reasoner(open_graph, "./open_owlrl_semantics2", RDFS_Semantics=False, OWLRL_Semantics=True)
+    reasoner(open_graph, "./open_rdfs_semantics")
+    reasoner(open_graph, "./open_owlrl_semantics", RDFS_Semantics=False, OWLRL_Semantics=True)
     # reasoner(closed_graph, "./closed_owlrl_extension.ttl", RDFS_Semantics=False, OWLRL_Semantics=False,
     # OWLRL_Extension=True)
 

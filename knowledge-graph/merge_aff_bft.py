@@ -52,7 +52,7 @@ def merge_graphs(graph1, graph2, output_filename='merged_graph.ttl'):
     classes = ['Drink', 'Food', 'Furniture', 'Kitchenware', 'Storage']
     for c in classes:
         uri_string = f'http://test.org/bft.owl#{c}'
-        merged_g.add( (URIRef(uri_string), RDF.type, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
+        merged_g.add( (URIRef(uri_string), RDFS.subClassOf, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
         # merged_g.add( (URIRef(f'http://test.org/bft.owl#KitchenEntity'), OWL.equivalentClass, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
 
     # remove the ontology declarations
@@ -91,7 +91,7 @@ def main():
 
     aff_open_g = get_graph(open_aff_onto_file, "http://test.org/affordance.owl#", 'aff')
     bft_open_g = get_graph(open_bft_onto_file, "http://test.org/bft.owl#", 'bft')
-    merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph2.ttl')
+    merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.ttl')
     # merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.nt')
     # merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.owl')
 
