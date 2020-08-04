@@ -71,7 +71,7 @@ def main():
         AllDisjoint([Food, Drink, Storage, Kitchenware, Furniture])
         AllDisjoint([bft.Glassware, bft.Plate, bft.Fork, bft.Knife, bft.Spoon])
         AllDisjoint((bft.search(subclass_of=bft.Drink))[1:])
-        AllDisjoint([bft.Bread, bft.Egg, bft.Condiment])  
+        AllDisjoint([bft.Bread, bft.Egg, bft.Condiment])
         AllDisjoint((bft.search(subclass_of=bft.Furniture))[1:])
 
 
@@ -119,12 +119,12 @@ def main():
     bread_basket = Tableware("bread_basket")
     egg_cup = Tableware("egg_cup")
 
-    milk_pitcher = Kitchenware("milk_pitcher", can_contain=[Milk])
+    milk_pitcher = Kitchenware("milk_pitcher")
 
     butter_knife = Knife("butter_knife", can_spread=[butter]) # a type of knife
 
     glass = Glassware("glass")
-    teacup = Glassware("teacup", can_contain=[Tea])
+    teacup = Glassware("teacup")
 
     sauce_dish = Plate("sauce_dish")
     butter_dish = Plate("butter_dish")

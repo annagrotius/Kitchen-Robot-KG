@@ -20,18 +20,21 @@ OWLRL_Extension=False):
     file_format = graph_file[3:].split('.')[1]
     g.parse(graph_file, format=file_format)
 
-    if RDFS_Semantics:
-        DeductiveClosure(RDFSClosure.RDFS_Semantics).expand(g)
-        # print("RDFS closure of the graph has {} triples".format(len(g)))
-    elif OWLRL_Semantics:
-        DeductiveClosure(OWLRL.OWLRL_Semantics).expand(g)
+    DeductiveClosure(CombinedClosure.RDFS_OWLRL_Semantics).expand(g)
+    # if RDFS_Semantics:
+    #     DeductiveClosure(RDFSClosure.RDFS_Semantics).expand(g)
+    #     # print("RDFS closure of the graph has {} triples".format(len(g)))
+    # elif OWLRL_Semantics:
+    #     DeductiveClosure(OWLRL.OWLRL_Semantics).expand(g)
         # print("RDFS closure of the graph has {} triples".format(len(g)))
     # elif OWLRL_Extension:
     #     DeductiveClosure(OWLRL_Extension, rdfs_closure = True,
     #     axiomatic_triples = True, datatype_axioms = True).expand(g)
 
-    print("RDFS closure of the graph has {} triples".format(len(g)))
+    # print("RDFS closure of the graph has {} triples".format(len(g)))
+    print("Closure of the graph has {} triples".format(len(g)))
     g.serialize(destination=f'{output_filename}.ttl', format='turtle')
+    g.serialize(destination=f'{output_filename}.nt', format='ntriples')
 
     return
 
@@ -39,12 +42,14 @@ OWLRL_Extension=False):
 def main():
 
     # closed_graph = "../graphs/aff_bft_closed_graph.ttl"
-    # open_graph = "../graphs/aff_bft_open_graph.ttl"
-    open_graph = "../aff_bft_cn.ttl"
+    base_open_graph = "../graphs/aff_bft_open_graph.ttl"
+    kchn_open_graph = "../aff_bft_cn.ttl"
     # reasoner(closed_graph, "./closed_rdfs_semantics")
     # reasoner(closed_graph, "./closed_owlrl_semantics", RDFS_Semantics=False, OWLRL_Semantics=True)
-    reasoner(open_graph, "./open_rdfs_semantics")
-    reasoner(open_graph, "./open_owlrl_semantics", RDFS_Semantics=False, OWLRL_Semantics=True)
+    reasoner(base_open_graph, "./base_open_rdfs_combined")
+    # reasoner(base_open_graph, "./base_open_owlrl_semantics", RDFS_Semantics=False, OWLRL_Semantics=True)
+    reasoner(kchn_open_graph, "./KCHN_open_combined")
+    # reasoner(kchn_open_graph, "./KCHN_open_owlrl_semantics", RDFS_Semantics=False, OWLRL_Semantics=True)
     # reasoner(closed_graph, "./closed_owlrl_extension.ttl", RDFS_Semantics=False, OWLRL_Semantics=False,
     # OWLRL_Extension=True)
 
