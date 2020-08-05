@@ -43,7 +43,9 @@ def main():
 
     # closed_graph = "../graphs/aff_bft_closed_graph.ttl"
     base_open_graph = "../graphs/aff_bft_open_graph.ttl"
-    kchn_open_graph = "../aff_bft_cn.ttl"
+    # kchn_open_graph = "../aff_bft_cn.ttl"
+    kchn_open_graph = "../aff_bft_cn_TEST.ttl"
+
     # reasoner(closed_graph, "./closed_rdfs_semantics")
     # reasoner(closed_graph, "./closed_owlrl_semantics", RDFS_Semantics=False, OWLRL_Semantics=True)
     reasoner(base_open_graph, "./base_open_rdfs_combined")

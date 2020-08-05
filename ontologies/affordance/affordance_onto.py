@@ -58,11 +58,11 @@ def main():
 
         class affords(KitchenEntity>>Action): pass
 
-    cut = Action("cut")
-    eat = Action("eat")
-    soft = Quality("soft")
-    hard = Quality("hard")
-    eatable = Affordance("eatable")
+    # cut = Action("cut")
+    # eat = Action("eat")
+    # soft = Quality("soft")
+    # hard = Quality("hard")
+    # eatable = Affordance("eatable")
 
     # save ontology not closing the world
     onto_to_graph(aff, aff_namespace, 'aff', 'aff_onto_not_closed')
