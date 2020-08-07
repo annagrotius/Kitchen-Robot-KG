@@ -7,13 +7,27 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aff:affords a owl:ObjectProperty ;
+aff:Cut a owl:Class ;
+    rdfs:subClassOf aff:Action .
+
+aff:Soft a owl:Class ;
+    rdfs:subClassOf aff:Quality .
+
+aff:SoftAffordance a owl:Class ;
+    rdfs:subClassOf aff:Affordance .
+
+aff:affords a owl:ObjectProperty,
+        owl:TransitiveProperty ;
     rdfs:domain aff:KitchenEntity ;
-    rdfs:range aff:Action .
+    rdfs:range aff:Affordance .
 
 aff:color a owl:ObjectProperty ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf aff:quality .
+
+aff:defines a owl:ObjectProperty ;
+    rdfs:domain aff:Affordance ;
+    rdfs:range aff:Action .
 
 aff:form a owl:ObjectProperty ;
     rdfs:range xsd:string ;
@@ -103,12 +117,6 @@ bft:used_with a owl:ObjectProperty,
 
 <http://test.org/kitchen.owl> a owl:Ontology .
 
-aff:Action a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
-aff:Affordance a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
 bft:Coffee a owl:Class ;
     rdfs:subClassOf bft:Drink .
 
@@ -140,7 +148,7 @@ bft:sauce_dish a bft:Plate,
 bft:teacup_plate a bft:Plate,
         owl:NamedIndividual .
 
-aff:Quality a owl:Class ;
+aff:Action a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
 bft:Bread a owl:Class ;
@@ -174,6 +182,9 @@ bft:hardboiled a bft:Egg,
 bft:scrambled a bft:Egg,
         owl:NamedIndividual .
 
+aff:Quality a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
 aff:quality a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;
     rdfs:range aff:Quality .
@@ -200,6 +211,9 @@ bft:Kitchenware a owl:Class ;
             owl:onProperty bft:is_edible ],
         aff:KitchenEntity,
         owl:Thing .
+
+aff:Affordance a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 bft:Egg a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;

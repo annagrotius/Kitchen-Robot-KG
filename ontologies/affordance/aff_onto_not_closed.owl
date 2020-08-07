@@ -33,9 +33,15 @@
   <rdfs:range rdf:resource="#Affordance"/>
 </owl:ObjectProperty>
 
-<owl:ObjectProperty rdf:about="#affords">
-  <rdfs:domain rdf:resource="#KitchenEntity"/>
+<owl:ObjectProperty rdf:about="#defines">
+  <rdfs:domain rdf:resource="#Affordance"/>
   <rdfs:range rdf:resource="#Action"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#affords">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  <rdfs:domain rdf:resource="#KitchenEntity"/>
+  <rdfs:range rdf:resource="#Affordance"/>
 </owl:ObjectProperty>
 
 <owl:Class rdf:about="#KitchenEntity">
@@ -52,6 +58,18 @@
 
 <owl:Class rdf:about="#Action">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cut">
+  <rdfs:subClassOf rdf:resource="#Action"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Soft">
+  <rdfs:subClassOf rdf:resource="#Quality"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SoftAffordance">
+  <rdfs:subClassOf rdf:resource="#Affordance"/>
 </owl:Class>
 
 

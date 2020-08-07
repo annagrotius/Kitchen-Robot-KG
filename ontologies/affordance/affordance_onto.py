@@ -41,9 +41,15 @@ def main():
 
         class Action(Thing): pass
 
+        class Cut(Action): pass
+
+        class Soft(Quality): pass
+
+        class SoftAffordance(Affordance): pass
+
     # properties
     with aff:
-        class quality(KitchenEntity>>Quality): pass
+        class quality(ObjectProperty, KitchenEntity>>Quality): pass
 
         class color(quality):
             range = [str]
@@ -54,9 +60,14 @@ def main():
         class form(quality):
             range = [str]
 
-        class implies(Quality>>Affordance): pass
+        class implies(ObjectProperty, Quality>>Affordance): pass
 
-        class affords(KitchenEntity>>Action): pass
+        class defines(ObjectProperty, Affordance>>Action): pass
+
+        # class affords(ObjectProperty):
+        #     equivalent_to = PropertyChain([quality, implies, defines])
+
+        class affords(KitchenEntity>>Affordance, TransitiveProperty): pass
 
     # cut = Action("cut")
     # eat = Action("eat")
@@ -64,14 +75,15 @@ def main():
     # hard = Quality("hard")
     # eatable = Affordance("eatable")
 
+
     # save ontology not closing the world
     onto_to_graph(aff, aff_namespace, 'aff', 'aff_onto_not_closed')
 
-    # closing world and save this version
-    classes = [KitchenEntity, Quality, Affordance, Action, quality, color, location, form, implies, affords]
-    for c in classes:
-        close_world(c)
-    onto_to_graph(aff, aff_namespace, 'aff', 'aff_onto_closed')
+    # # closing world and save this version
+    # classes = [KitchenEntity, Quality, Affordance, Action, quality, color, location, form, implies, affords]
+    # for c in classes:
+    #     close_world(c)
+    # onto_to_graph(aff, aff_namespace, 'aff', 'aff_onto_closed')
 
 
 if __name__ == "__main__":

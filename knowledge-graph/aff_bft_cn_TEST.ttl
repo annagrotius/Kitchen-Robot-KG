@@ -5955,13 +5955,15 @@
     rdf:subject <http://api.conceptnet.io/c/en/spoon> ;
     rdf:value "[[a spoon]] is used for [[transporting liquid short distances]]" .
 
-aff:affords a owl:ObjectProperty ;
-    rdfs:domain aff:KitchenEntity ;
-    rdfs:range aff:Action .
+aff:affords a owl:ObjectProperty .
 
 aff:color a owl:ObjectProperty ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf aff:quality .
+
+aff:defines a owl:ObjectProperty ;
+    rdfs:domain aff:Affordance ;
+    rdfs:range aff:Action .
 
 aff:form a owl:ObjectProperty ;
     rdfs:range xsd:string ;
@@ -8206,9 +8208,6 @@ bft:Kitchenware a owl:Class ;
 <http://api.conceptnet.io/c/en/window> a kchn:Substance,
         rdfs:Resource .
 
-aff:Affordance a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
 bft:Egg a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
             owl:oneOf ( bft:hardboiled bft:scrambled bft:fried ) ],
@@ -8225,6 +8224,9 @@ kchn:Eating rdfs:subClassOf aff:Action .
 <http://api.conceptnet.io/c/en/glass/n> a rdfs:Resource ;
     cnr:IsA <http://api.conceptnet.io/c/en/inorganic_substance/n>,
         <http://api.conceptnet.io/c/en/solid/n/opencyc/solid_state_of_matter> .
+
+aff:Affordance a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 aff:Quality a owl:Class ;
     rdfs:subClassOf owl:Thing .
@@ -8263,6 +8265,9 @@ bft:Plate a owl:Class ;
 aff:Action a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
+aff:KitchenEntity a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
 <http://api.conceptnet.io/c/en/apple_juice/n> a rdfs:Resource ;
     cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice> ;
     cnr:IsA <http://api.conceptnet.io/c/en/beverage/n>,
@@ -8284,9 +8289,6 @@ aff:Action a owl:Class ;
         <http://api.conceptnet.io/c/en/juice/n>,
         <http://api.conceptnet.io/c/en/mixture/n>,
         <http://api.conceptnet.io/c/en/sweet_thing/n> .
-
-aff:KitchenEntity a owl:Class ;
-    rdfs:subClassOf owl:Thing .
 
 aff:quality a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;

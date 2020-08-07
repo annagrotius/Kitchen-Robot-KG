@@ -7,13 +7,27 @@
 
 <http://test.org/affordance.owl> a owl:Ontology .
 
-aff:affords a owl:ObjectProperty ;
+aff:Cut a owl:Class ;
+    rdfs:subClassOf aff:Action .
+
+aff:Soft a owl:Class ;
+    rdfs:subClassOf aff:Quality .
+
+aff:SoftAffordance a owl:Class ;
+    rdfs:subClassOf aff:Affordance .
+
+aff:affords a owl:ObjectProperty,
+        owl:TransitiveProperty ;
     rdfs:domain aff:KitchenEntity ;
-    rdfs:range aff:Action .
+    rdfs:range aff:Affordance .
 
 aff:color a owl:ObjectProperty ;
     rdfs:range xsd:string ;
     rdfs:subPropertyOf aff:quality .
+
+aff:defines a owl:ObjectProperty ;
+    rdfs:domain aff:Affordance ;
+    rdfs:range aff:Action .
 
 aff:form a owl:ObjectProperty ;
     rdfs:range xsd:string ;
@@ -30,9 +44,6 @@ aff:location a owl:ObjectProperty ;
 aff:Action a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
-aff:Affordance a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
 aff:KitchenEntity a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
@@ -42,4 +53,7 @@ aff:Quality a owl:Class ;
 aff:quality a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;
     rdfs:range aff:Quality .
+
+aff:Affordance a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
