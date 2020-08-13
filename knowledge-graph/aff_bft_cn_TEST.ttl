@@ -1,6 +1,5 @@
 @prefix aff: <http://test.org/affordance.owl#> .
 @prefix bft: <http://test.org/bft.owl#> .
-@prefix cn: <http://api.conceptnet.io/> .
 @prefix cnc: <http://api.conceptnet.io/c/> .
 @prefix cnr: <http://api.conceptnet.io/r/> .
 @prefix kchn: <http://test.org/kitchen.owl#> .
@@ -9,7 +8,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wi: <http://purl.org/ontology/wi/core#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://api.conceptnet.io/a/[/r/AtLocation/,/c/en/acne_medication/,/c/en/cupboard/]> a rdf:Statement ;
@@ -5955,7 +5953,19 @@
     rdf:subject <http://api.conceptnet.io/c/en/spoon> ;
     rdf:value "[[a spoon]] is used for [[transporting liquid short distances]]" .
 
-aff:affords a owl:ObjectProperty .
+aff:Cut a owl:Class ;
+    rdfs:subClassOf aff:Action .
+
+aff:Soft a owl:Class ;
+    rdfs:subClassOf aff:Quality .
+
+aff:SoftAffordance a owl:Class ;
+    rdfs:subClassOf aff:Affordance .
+
+aff:affords a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Affordance .
 
 aff:color a owl:ObjectProperty ;
     rdfs:range xsd:string ;
@@ -5997,7 +6007,7 @@ bft:can_cut a owl:ObjectProperty ;
 
 bft:can_spread a owl:ObjectProperty ;
     rdfs:domain bft:Cutlery ;
-    rdfs:range bft:Food .
+    rdfs:range bft:Spread .
 
 bft:croissant a bft:Bread,
         owl:NamedIndividual .
@@ -6017,7 +6027,9 @@ bft:dining_table owl:sameAs <http://api.conceptnet.io/c/en/dining_table>,
 bft:egg_cup a bft:Tableware,
         owl:NamedIndividual .
 
-bft:fork owl:sameAs <http://api.conceptnet.io/c/en/fork> ;
+bft:fork a bft:Fork,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/fork> ;
     skos:closeMatch <http://api.conceptnet.io/c/asting_fork/n/wn/artifact>,
         <http://api.conceptnet.io/c/blefork/n/wn/artifact>,
         <http://api.conceptnet.io/c/lad_fork/n>,
@@ -6070,7 +6082,10 @@ bft:glass a bft:Glassware,
 bft:green_tea a bft:Tea,
         owl:NamedIndividual .
 
-bft:knife owl:sameAs <http://api.conceptnet.io/c/en/knife>,
+bft:knife a bft:Knife,
+        owl:NamedIndividual ;
+    bft:can_spread bft:butter ;
+    owl:sameAs <http://api.conceptnet.io/c/en/knife>,
         <http://api.conceptnet.io/c/en/knife/n> ;
     skos:closeMatch <http://api.conceptnet.io/c/awknife/n/wn/artifact>,
         <http://api.conceptnet.io/c/ble_knife/n>,
@@ -6093,6 +6108,9 @@ bft:knife owl:sameAs <http://api.conceptnet.io/c/en/knife>,
         <http://api.conceptnet.io/c/tter_knife/n/wn/artifact>,
         <http://api.conceptnet.io/c/uning_knife/n/wn/artifact>,
         <http://api.conceptnet.io/c/wie_knife/n/wn/artifact> .
+
+bft:milk a bft:Dairy,
+        owl:NamedIndividual .
 
 bft:milk_pitcher a bft:Kitchenware,
         owl:NamedIndividual .
@@ -6123,7 +6141,9 @@ bft:served_with a owl:ObjectProperty,
     rdfs:domain bft:Condiment ;
     rdfs:range bft:Food .
 
-bft:spoon owl:sameAs <http://api.conceptnet.io/c/en/spoon>,
+bft:spoon a bft:Spoon,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/spoon>,
         <http://api.conceptnet.io/c/en/spoon/n> ;
     skos:closeMatch cnc:aspoon,
         <http://api.conceptnet.io/c/aspoon/n/wn/artifact>,
@@ -6849,14 +6869,8 @@ bft:used_with a owl:ObjectProperty,
 bft:Coffee a owl:Class ;
     rdfs:subClassOf bft:Drink .
 
-bft:Fork a owl:Class ;
-    rdfs:subClassOf bft:Cutlery .
-
-bft:Milk a owl:Class ;
-    rdfs:subClassOf bft:Drink .
-
-bft:Spoon a owl:Class ;
-    rdfs:subClassOf bft:Cutlery .
+bft:Dairy a owl:Class ;
+    rdfs:subClassOf bft:Food .
 
 bft:Table a owl:Class ;
     rdfs:subClassOf bft:Furniture ;
@@ -6864,21 +6878,6 @@ bft:Table a owl:Class ;
 
 bft:bread_plate a bft:Plate,
         owl:NamedIndividual .
-
-bft:butter a bft:Spread,
-        owl:NamedIndividual ;
-    owl:sameAs <http://api.conceptnet.io/c/en/butter>,
-        <http://api.conceptnet.io/c/en/butter/n> ;
-    skos:closeMatch cnc:anut_butter,
-        <http://api.conceptnet.io/c/arified_butter/n/wn/food>,
-        <http://api.conceptnet.io/c/k_butter/n/wn/food>,
-        <http://api.conceptnet.io/c/own_butter/n/wn/food>,
-        cnc:read_butter,
-        cnc:read_butter_on_bread,
-        cnc:read_peanut_butter,
-        cnc:reading_butter_on_bread,
-        <http://api.conceptnet.io/c/t_of_butter/n>,
-        <http://api.conceptnet.io/c/uniere_butter/n/wn/food> .
 
 bft:butter_dish a bft:Plate,
         owl:NamedIndividual ;
@@ -7899,11 +7898,11 @@ bft:Bread a owl:Class ;
 bft:Chair a owl:Class ;
     rdfs:subClassOf bft:Furniture .
 
-bft:Knife a owl:Class ;
+bft:Fork a owl:Class ;
     rdfs:subClassOf bft:Cutlery .
 
-bft:Spread a owl:Class ;
-    rdfs:subClassOf bft:Condiment .
+bft:Spoon a owl:Class ;
+    rdfs:subClassOf bft:Cutlery .
 
 bft:Storage a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
@@ -7914,6 +7913,21 @@ bft:Storage a owl:Class ;
 
 bft:Tea a owl:Class ;
     rdfs:subClassOf bft:Drink .
+
+bft:butter a bft:Spread,
+        owl:NamedIndividual ;
+    owl:sameAs <http://api.conceptnet.io/c/en/butter>,
+        <http://api.conceptnet.io/c/en/butter/n> ;
+    skos:closeMatch cnc:anut_butter,
+        <http://api.conceptnet.io/c/arified_butter/n/wn/food>,
+        <http://api.conceptnet.io/c/k_butter/n/wn/food>,
+        <http://api.conceptnet.io/c/own_butter/n/wn/food>,
+        cnc:read_butter,
+        cnc:read_butter_on_bread,
+        cnc:read_peanut_butter,
+        cnc:reading_butter_on_bread,
+        <http://api.conceptnet.io/c/t_of_butter/n>,
+        <http://api.conceptnet.io/c/uniere_butter/n/wn/food> .
 
 bft:fried a bft:Egg,
         owl:NamedIndividual .
@@ -8077,6 +8091,12 @@ bft:Kitchenware a owl:Class ;
         aff:KitchenEntity,
         owl:Thing .
 
+bft:Knife a owl:Class ;
+    rdfs:subClassOf bft:Cutlery .
+
+bft:Spread a owl:Class ;
+    rdfs:subClassOf bft:Condiment .
+
 <http://api.conceptnet.io/c/en/a> a rdfs:Resource .
 
 <http://api.conceptnet.io/c/en/back> a rdfs:Resource .
@@ -8208,6 +8228,10 @@ bft:Kitchenware a owl:Class ;
 <http://api.conceptnet.io/c/en/window> a kchn:Substance,
         rdfs:Resource .
 
+bft:Drink a owl:Class ;
+    rdfs:subClassOf aff:KitchenEntity,
+        owl:Thing .
+
 bft:Egg a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
             owl:oneOf ( bft:hardboiled bft:scrambled bft:fried ) ],
@@ -8225,18 +8249,8 @@ kchn:Eating rdfs:subClassOf aff:Action .
     cnr:IsA <http://api.conceptnet.io/c/en/inorganic_substance/n>,
         <http://api.conceptnet.io/c/en/solid/n/opencyc/solid_state_of_matter> .
 
-aff:Affordance a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
-aff:Quality a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
 bft:Cutlery a owl:Class ;
     rdfs:subClassOf bft:Tableware .
-
-bft:Drink a owl:Class ;
-    rdfs:subClassOf aff:KitchenEntity,
-        owl:Thing .
 
 bft:Plate a owl:Class ;
     rdfs:subClassOf bft:Tableware .
@@ -8262,10 +8276,7 @@ bft:Plate a owl:Class ;
 
 <http://api.conceptnet.io/c/en/silverware_drawer> a rdfs:Resource .
 
-aff:Action a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
-aff:KitchenEntity a owl:Class ;
+aff:Quality a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
 <http://api.conceptnet.io/c/en/apple_juice/n> a rdfs:Resource ;
@@ -8289,6 +8300,15 @@ aff:KitchenEntity a owl:Class ;
         <http://api.conceptnet.io/c/en/juice/n>,
         <http://api.conceptnet.io/c/en/mixture/n>,
         <http://api.conceptnet.io/c/en/sweet_thing/n> .
+
+aff:Action a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+aff:Affordance a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+aff:KitchenEntity a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 aff:quality a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;
@@ -8908,21 +8928,21 @@ kchn:Property aff:implies kchn:PropertyAffordance ;
         <http://api.conceptnet.io/c/en/storing_things> ;
     kchn:CanBe <http://api.conceptnet.io/c/en/found_in_kitchen> .
 
-[] a owl:AllDifferent ;
-    owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Juice bft:Coffee bft:Tea ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( bft:Bread bft:Egg bft:Condiment ) .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( bft:Juice bft:Coffee bft:Milk bft:Tea ) .
 
 [] a owl:AllDifferent ;
     owl:distinctMembers ( bft:hardboiled bft:scrambled bft:fried ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( bft:Glassware bft:Plate bft:Fork bft:Knife bft:Spoon ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
 

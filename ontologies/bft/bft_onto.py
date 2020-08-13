@@ -55,13 +55,14 @@ def main():
 
         class Juice(Drink): pass
         class Coffee(Drink): pass
-        class Milk(Drink): pass
         class Tea(Drink): pass
 
         class Bread(Food): pass
         class Egg(Food): pass
         class Condiment(Food): pass
         class Spread(Condiment): pass
+        class Dairy(Food): pass
+
 
 
         class Table(Furniture): pass
@@ -87,7 +88,7 @@ def main():
             pass
         class spread_on(ObjectProperty, Spread >> Food):
             pass
-        class can_spread(ObjectProperty, Cutlery >> Food):
+        class can_spread(ObjectProperty, Cutlery >> Spread):
             pass
         class used_with(ObjectProperty, SymmetricProperty):
             domain = [Tableware]
@@ -112,6 +113,8 @@ def main():
 
     green_tea = Tea("green_tea")
 
+    milk = Dairy("milk")
+
     butter = Spread("butter")
 
     salt_shaker = Tableware("salt_shaker")
@@ -122,6 +125,9 @@ def main():
     milk_pitcher = Kitchenware("milk_pitcher")
 
     butter_knife = Knife("butter_knife", can_spread=[butter]) # a type of knife
+    fork = Fork("fork")
+    knife = Knife("knife", can_spread=[butter])
+    spoon = Spoon("spoon")
 
     glass = Glassware("glass")
     teacup = Glassware("teacup")
@@ -147,11 +153,11 @@ def main():
     # save ontology not closing the world
     onto_to_graph(bft, bft_namespace, 'bft', 'bft_onto_not_closed')
 
-    # closing world and save this version
-    classes = [Furniture,Kitchenware, Drink, Food, Storage]
-    for c in classes:
-        close_world(c)
-    onto_to_graph(bft, bft_namespace, 'bft', 'bft_onto_closed')
+    ## closing world and save this version
+    # classes = [Furniture,Kitchenware, Drink, Food, Storage]
+    # for c in classes:
+    #     close_world(c)
+    # onto_to_graph(bft, bft_namespace, 'bft', 'bft_onto_closed')
 
 
 if __name__ == "__main__":

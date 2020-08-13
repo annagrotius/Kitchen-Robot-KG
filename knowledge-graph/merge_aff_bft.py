@@ -95,16 +95,6 @@ def main():
     # merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.nt')
     # merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.owl')
 
-#     if cn:
-#         base_graph_file = "./graphs/aff_bft_open_graph.ttl"
-#         cn_graph_file = "../data/ConceptNet/parse/cn_graph.ttl"
-
-#         base_g = get_graph(base_graph_file, "http://test.org/kchn.owl#", "kchn")
-#         cn_g = get_graph(cn_graph_file, "http://api.conceptnet.io/", "cn")
-#         cnr_ns = create_namespace(cn_g, "http://api.conceptnet.io/r/", "cnr")
-#         cnc_ns = create_namespace(cn_g, "http://api.conceptnet.io/c/", "cnc")
-#         wi_ns = create_namespace(cn_g, "http://purl.org/ontology/wi/core#", "wi")
-
     return
 
 

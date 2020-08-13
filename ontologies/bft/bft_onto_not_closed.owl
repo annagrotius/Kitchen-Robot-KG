@@ -26,7 +26,7 @@
 
 <owl:ObjectProperty rdf:about="#can_spread">
   <rdfs:domain rdf:resource="#Cutlery"/>
-  <rdfs:range rdf:resource="#Food"/>
+  <rdfs:range rdf:resource="#Spread"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#used_with">
@@ -123,10 +123,6 @@
   <rdfs:subClassOf rdf:resource="#Drink"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Milk">
-  <rdfs:subClassOf rdf:resource="#Drink"/>
-</owl:Class>
-
 <owl:Class rdf:about="#Tea">
   <rdfs:subClassOf rdf:resource="#Drink"/>
 </owl:Class>
@@ -154,6 +150,10 @@
 
 <owl:Class rdf:about="#Spread">
   <rdfs:subClassOf rdf:resource="#Condiment"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dairy">
+  <rdfs:subClassOf rdf:resource="#Food"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Table">
@@ -197,6 +197,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Tea>
 
+<Dairy rdf:about="#milk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dairy>
+
 <Spread rdf:about="#butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Spread>
@@ -225,6 +229,19 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <can_spread rdf:resource="#butter"/>
 </Knife>
+
+<Fork rdf:about="#fork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Fork>
+
+<Knife rdf:about="#knife">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <can_spread rdf:resource="#butter"/>
+</Knife>
+
+<Spoon rdf:about="#spoon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Spoon>
 
 <Glassware rdf:about="#glass">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -291,7 +308,6 @@
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#Juice"/>
     <rdf:Description rdf:about="#Coffee"/>
-    <rdf:Description rdf:about="#Milk"/>
     <rdf:Description rdf:about="#Tea"/>
   </owl:members>
 </owl:AllDisjointClasses>
