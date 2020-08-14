@@ -5,39 +5,16 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aff:Cut a owl:Class ;
-    rdfs:subClassOf aff:Action .
-
-aff:Soft a owl:Class ;
-    rdfs:subClassOf aff:Quality .
-
-aff:SoftAffordance a owl:Class ;
-    rdfs:subClassOf aff:Affordance .
-
 aff:affords a owl:ObjectProperty,
         owl:TransitiveProperty ;
     rdfs:domain aff:KitchenEntity ;
-    rdfs:range aff:Affordance .
+    rdfs:range aff:Affordance ;
+    owl:equivalentProperty aff:potential_action,
+        aff:superAction .
 
-aff:color a owl:ObjectProperty ;
-    rdfs:range xsd:string ;
-    rdfs:subPropertyOf aff:quality .
-
-aff:defines a owl:ObjectProperty ;
-    rdfs:domain aff:Affordance ;
-    rdfs:range aff:Action .
-
-aff:form a owl:ObjectProperty ;
-    rdfs:range xsd:string ;
-    rdfs:subPropertyOf aff:quality .
-
-aff:implies a owl:ObjectProperty ;
-    rdfs:domain aff:Quality ;
-    rdfs:range aff:Affordance .
-
-aff:location a owl:ObjectProperty ;
-    rdfs:range xsd:string ;
-    rdfs:subPropertyOf aff:quality .
+aff:quality a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Quality .
 
 bft:apple_juice a bft:Juice,
         owl:NamedIndividual .
@@ -128,6 +105,17 @@ bft:used_with a owl:ObjectProperty,
 
 <http://test.org/kitchen.owl> a owl:Ontology .
 
+aff:Quality a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+aff:potential_action a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Action .
+
+aff:superAction a owl:ObjectProperty ;
+    rdfs:domain aff:Action ;
+    rdfs:range aff:Affordance .
+
 bft:Coffee a owl:Class ;
     rdfs:subClassOf bft:Drink .
 
@@ -151,6 +139,9 @@ bft:teacup_plate a bft:Plate,
         owl:NamedIndividual .
 
 aff:Action a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+aff:Affordance a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
 bft:Bread a owl:Class ;
@@ -187,13 +178,6 @@ bft:hardboiled a bft:Egg,
 bft:scrambled a bft:Egg,
         owl:NamedIndividual .
 
-aff:Quality a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
-aff:quality a owl:ObjectProperty ;
-    rdfs:domain aff:KitchenEntity ;
-    rdfs:range aff:Quality .
-
 bft:Condiment a owl:Class ;
     rdfs:subClassOf bft:Food .
 
@@ -222,9 +206,6 @@ bft:Knife a owl:Class ;
 
 bft:Spread a owl:Class ;
     rdfs:subClassOf bft:Condiment .
-
-aff:Affordance a owl:Class ;
-    rdfs:subClassOf owl:Thing .
 
 bft:Drink a owl:Class ;
     rdfs:subClassOf aff:KitchenEntity,

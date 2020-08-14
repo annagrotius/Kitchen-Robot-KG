@@ -40,23 +40,24 @@ for file in glob.glob(f'../cn_data/filtered_data/*.csv'):
             concept2 = URIRef(cnc[row[4][3:]])
             # print('c2:', concept2)
             relation = URIRef(cnr[row[2]])
-            assertion = URIRef(cn + 'a/[/r/' + row[2] + '/,' + row[1] + '/,' + row[4] + '/]')
-            if 'ExternalURL' in assertion:
+            # assertion = URIRef(cn + 'a/[/r/' + row[2] + '/,' + row[1] + '/,' + row[4] + '/]')
+            # if 'ExternalURL' in assertion:
+            if 'ExternalURL' in relation:            
                 # print(concept2)
                 # assertion = URIRef(cn + 'a/[/r/' + row[2] + '/,' + row[1] + '/,/' + row[4] + '/]')
                 concept2 = URIRef(row[4])
 
                 # print("NEW", concept2)
-            surface_text = row[5]
-            weight = row[6]
-            cn_graph.add( (assertion, RDF.type, RDF.Statement) )
-            cn_graph.add( (assertion, RDF.subject, concept1) )
-            cn_graph.add( (assertion, RDF.object, concept2) )
-            cn_graph.add( (assertion, RDF.predicate, relation) )
-            cn_graph.add( (concept1, RDF.type, RDFS.Resource) )
-            cn_graph.add( (concept2, RDF.type, RDFS.Resource) )
-            cn_graph.add( (assertion, RDF.value, Literal(surface_text)) )
-            cn_graph.add( (assertion, wi.evidence, Literal(weight, datatype=XSD.decimal)) )
+            # surface_text = row[5]
+            # weight = row[6]
+            # cn_graph.add( (assertion, RDF.type, RDF.Statement) )
+            # cn_graph.add( (assertion, RDF.subject, concept1) )
+            # cn_graph.add( (assertion, RDF.object, concept2) )
+            # cn_graph.add( (assertion, RDF.predicate, relation) )
+            # cn_graph.add( (concept1, RDF.type, RDFS.Resource) )
+            # cn_graph.add( (concept2, RDF.type, RDFS.Resource) )
+            # cn_graph.add( (assertion, RDF.value, Literal(surface_text)) )
+            # cn_graph.add( (assertion, wi.evidence, Literal(weight, datatype=XSD.decimal)) )
             cn_graph.add( (concept1, relation, concept2) )
         rownum += 1
     ifile.close()

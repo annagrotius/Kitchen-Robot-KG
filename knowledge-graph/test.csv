@@ -1,0 +1,236 @@
+,usage_o,usage_phrase_list,aff_class
+0,dividing_road_in_two,dividing road in two,Dividing
+1,serving_soup,serving soup,Serving
+2,playing_games,playing games,Playing
+3,stacking_dinner_plates,stacking dinner plates,Stacking
+4,dining,dining,
+5,eat_dinner,eat dinner,Eating
+6,cut_food,cut food,Cuting
+7,keeping_things_tidy,keeping things tidy,Keeping
+8,providing_choice,providing choice,Providing
+9,carving_features,carving features,Carving
+10,removing_labels,removing labels,Removing
+11,taking_cough_syrup,taking cough syrup,Taking
+12,eat_steak,eat steak,Eating
+13,engraving,engraving,Engraving
+14,carving_wood,carving wood,Carving
+15,eat_dinner,eat dinner,Eating
+16,drinking,drinking,
+17,family_gatherings,family gatherings,
+18,eating_cereal,eating cereal,Eating
+19,working_on_hobby,working on hobby,Working
+20,pricking_skin,pricking skin,Pricking
+21,turning_screw,turning screw,Turning
+22,piercing,piercing,Piercing
+23,splitting,splitting,
+24,stirring_tea,stirring tea,Stirring
+25,eating,eating,Eating
+26,drinking_on,drinking on,Drinking
+27,having_friends_around_for_dinner,having friends around for dinner,Having
+28,eating_food,eating food,Eating
+29,storing_dishes,storing dishes,Storing
+30,eat_vegetables,eat vegetables,Eating
+31,picking_things_out,picking things out,Picking
+32,letting_blood,letting blood,Letting
+33,doing_jigsaw_puzzles_on,doing jigsaw puzzles on,Doing
+34,slitting,slitting,
+35,eating_vegetables,eating vegetables,Eating
+36,making_groove,making groove,Making
+37,store_bread,store bread,
+38,lifting_food_from_plate_to_mouth,lifting food from plate to mouth,Lifting
+39,garnish,garnish,
+40,prying_things_out,prying things out,Prying
+41,storing_bones,storing bones,Storing
+42,saving_counter_space,saving counter space,Saving
+43,eat_soup,eat soup,Eating
+44,cutting_steak,cutting steak,Cutting
+45,eat_dinnner,eat dinnner,Eating
+46,tool_in_backpack,tool in backpack,
+47,eat_yogurt,eat yogurt,Eating
+48,keeping_cups,keeping cups,Keeping
+49,cutting_string,cutting string,Cutting
+50,eating_cold_ceral,eating cold ceral,Eating
+51,putting_things_on_top_of,putting things on top of,Putting
+52,eating_food_off_plate,eating food off plate,Eating
+53,cut/n/wn/act,cut/n/wn/act,
+54,eating_food_with,eating food with,Eating
+55,holding_center_pieces,holding center pieces,Holding
+56,have_gathering_of_friends,have gathering of friends,
+57,stab/v/wn/contact,stab/v/wn/contact,
+58,scoring,scoring,Scoring
+59,eat,eat,Eating
+60,spreading,spreading,Spreading
+61,cut/n/wn/state,cut/n/wn/state,
+62,kitchen_work,kitchen work,
+63,leave_messages,leave messages,Leaving
+64,playing_games_on,playing games on,Playing
+65,gouging,gouging,Gouging
+66,playing_cards_sometimes,playing cards sometimes,Playing
+67,family_meetings,family meetings,
+68,consuming_liquid,consuming liquid,Consuming
+69,dividing,dividing,Dividing
+70,paring,paring,Paring
+71,threatening,threatening,Threatening
+72,separating,separating,Separating
+73,making_models,making models,Making
+74,holding_liquids_and_ice_cubes,holding liquids and ice cubes,Holding
+75,opening,opening,
+76,sitting_around_with_family,sitting around with family,Sitting
+77,cutting_meat,cutting meat,Cutting
+78,eating_utensil,eating utensil,Eating
+79,giving_things_home,giving things home,Giving
+80,family_discussions,family discussions,
+81,eat_food,eat food,Eating
+82,spreading_cheese,spreading cheese,Spreading
+83,keeping_things_clean,keeping things clean,Keeping
+84,complementing_spoon_and_fork,complementing spoon and fork,Complementing
+85,flavoring,flavoring,
+86,seeing_through,seeing through,Seeing
+87,eating_meat,eating meat,Eating
+88,eating_pie,eating pie,Eating
+89,completing_place_setting,completing place setting,Completing
+90,cutting_food,cutting food,Cutting
+91,measuring_ingredients,measuring ingredients,Measuring
+92,pare_apples,pare apples,
+93,decorating_cake,decorating cake,Decorating
+94,prying_open,prying open,Prying
+95,eat,eat,Eating
+96,drinking,drinking,
+97,eating_food,eating food,Eating
+98,eat_meat,eat meat,Eating
+99,alter_length_of_string_or_rope,alter length of string or rope,
+100,picking_up_food,picking up food,Picking
+101,peeling,peeling,Peeling
+102,spreading_jam,spreading jam,Spreading
+103,people_to_eat_cereal_with,people to eat cereal with,Eating
+104,have_sex_with_spouse,have sex with spouse,
+105,drinking_from,drinking from,Drinking
+106,store_cups,store cups,
+107,outdoors_living,outdoors living,Living
+108,fighting,fighting,Fighting
+109,eating_food_off_plate,eating food off plate,Eating
+110,spreading_butter_on_bread,spreading butter on bread,Spreading
+111,forceful_moves,forceful moves,
+112,holding_drink,holding drink,Holding
+113,tool_in_shop,tool in shop,
+114,formal_dining,formal dining,
+115,garnish,garnish,
+116,eating_ice_cream,eating ice cream,Eating
+117,cut/v/wn/contact,cut/v/wn/contact,
+118,carving_initials,carving initials,Carving
+119,knife,knife,
+120,playing_cards,playing cards,Playing
+121,stir_coffee,stir coffee,Stirring
+122,board_cups,board cups,
+123,severing,severing,Severing
+124,eating_food_isn't_very_solid,eating food isn't very solid,Eating
+125,mixing_soup,mixing soup,Mixing
+126,stir_soup,stir soup,Stirring
+127,scooping_food,scooping food,Scooping
+128,pare_apple,pare apple,Paring
+129,holding_food,holding food,Holding
+130,dishes,dishes,
+131,working_with_wood,working with wood,Working
+132,eating_meal,eating meal,Eating
+133,storing_things,storing things,Storing
+134,storing_food,storing food,Storing
+135,putting_things_in,putting things in,Putting
+136,eat_meal,eat meal,Eating
+137,discussions,discussions,
+138,holding_liquids,holding liquids,Holding
+139,eat_dinner_on,eat dinner on,Eating
+140,mashing,mashing,
+141,eat_with,eat with,Eating
+142,stir_food,stir food,Stirring
+143,chopping_vegetables,chopping vegetables,Chopping
+144,breaking_down_into_pieces,breaking down into pieces,Breaking
+145,placing_served_food,placing served food,Placing
+146,arranging_papers,arranging papers,Arranging
+147,killing,killing,Killing
+148,cooling_liquid_by_stirring,cooling liquid by stirring,Cooling
+149,coring,coring,
+150,people_to_eat_soup_with,people to eat soup with,Eating
+151,eating_dinner_on,eating dinner on,Eating
+152,scoop_ice_cream,scoop ice cream,
+153,storing_junk,storing junk,Storing
+154,holding_liquid,holding liquid,Holding
+155,unraveling,unraveling,Unraveling
+156,stabbing,stabbing,
+157,making_mark,making mark,Making
+158,boning,boning,
+159,turning_soil,turning soil,Turning
+160,entertaining_others,entertaining others,Entertaining
+161,moving_food_to_mouth,moving food to mouth,Moving
+162,counting_pills,counting pills,Counting
+163,keeping_things_safe,keeping things safe,Keeping
+164,lift_food_to_mouth,lift food to mouth,Lifting
+165,drink_margaritas_out_of,drink margaritas out of,Drinking
+166,laying_with_cutlery,laying with cutlery,Laying
+167,drink_from,drink from,Drinking
+168,cut_rope,cut rope,
+169,disect,disect,
+170,holding_silverware,holding silverware,Holding
+171,attacking_enemy,attacking enemy,Attacking
+172,coffee_mugs,coffee mugs,
+173,lacerating,lacerating,
+174,dish_to_run_away_with,dish to run away with,Dishing
+175,holding_water,holding water,Holding
+176,store_crockery,store crockery,
+177,playing_throwing_games,playing throwing games,Playing
+178,skinning_animals,skinning animals,Skinning
+179,making_windows_and_for_drinking_cups,making windows and for drinking cups,Making
+180,spearing_pieces,spearing pieces,Spearing
+181,gashing,gashing,Gashing
+182,putting_food_on,putting food on,Putting
+183,attaching_to_rifle,attaching to rifle,Attaching
+184,stirring_coffee,stirring coffee,Stirring
+185,eat_cereal_with,eat cereal with,Eating
+186,drinking_soup,drinking soup,
+187,eating_dinner,eating dinner,Eating
+188,eating_food,eating food,Eating
+189,making_love,making love,Making
+190,drinking_liquid_from,drinking liquid from,Drinking
+191,prying_things_open,prying things open,Prying
+192,taking_off_ends,taking off ends,Taking
+193,transporting_liquid_short_distances,transporting liquid short distances,Transporting
+194,eat_ice_cream,eat ice cream,Eating
+195,slicing_bread,slicing bread,
+196,entertain_large_group_of_people,entertain large group of people,Entertaining
+197,eating,eating,Eating
+198,making_hole,making hole,Making
+199,storing_crockery,storing crockery,Storing
+200,cut_chicken,cut chicken,
+201,cut_meat_with,cut meat with,Cuting
+202,butter,butter,
+203,hang_on_nose,hang on nose,Hanging
+204,liquid_foods,liquid foods,
+205,serving_dinner,serving dinner,Serving
+206,entertain_guests,entertain guests,
+207,flinging,flinging,Flinging
+208,store_christmas_decorations,store christmas decorations,Storing
+209,piercing_food,piercing food,Piercing
+210,shaving,shaving,
+211,open_plastic_package,open plastic package,
+212,trimming,trimming,Trimming
+213,store_dishes,store dishes,
+214,eating_applesauce,eating applesauce,Eating
+215,doing_homework,doing homework,Doing
+216,military_purposes,military purposes,
+217,leaving_papers_on,leaving papers on,Leaving
+218,mixing_ingredients,mixing ingredients,Mixing
+219,cut_string,cut string,
+220,cracking_open,cracking open,Cracking
+221,drinking_out_of,drinking out of,Drinking
+222,slicing,slicing,
+223,putting_butcher_block,putting butcher block,Putting
+224,scratching,scratching,Scratching
+225,eating_liquids,eating liquids,Eating
+226,holiday_meals,holiday meals,
+227,notching,notching,
+228,special_occassions,special occassions,
+229,cutting,cutting,Cutting
+230,drinking,drinking,
+231,ripping,ripping,Ripping
+232,kill_person,kill person,Killing
+233,hold/v/wn/stative,hold/v/wn/stative,
+234,digging,digging,Digging

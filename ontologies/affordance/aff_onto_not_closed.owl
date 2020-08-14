@@ -8,40 +8,27 @@
 
 <owl:Ontology rdf:about="http://test.org/affordance.owl"/>
 
+<owl:ObjectProperty rdf:about="#potential_action">
+  <rdfs:domain rdf:resource="#KitchenEntity"/>
+  <rdfs:range rdf:resource="#Action"/>
+</owl:ObjectProperty>
+
 <owl:ObjectProperty rdf:about="#quality">
   <rdfs:domain rdf:resource="#KitchenEntity"/>
   <rdfs:range rdf:resource="#Quality"/>
 </owl:ObjectProperty>
 
-<owl:ObjectProperty rdf:about="#color">
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  <rdfs:subPropertyOf rdf:resource="#quality"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#location">
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  <rdfs:subPropertyOf rdf:resource="#quality"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#form">
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  <rdfs:subPropertyOf rdf:resource="#quality"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#implies">
-  <rdfs:domain rdf:resource="#Quality"/>
+<owl:ObjectProperty rdf:about="#superAction">
+  <rdfs:domain rdf:resource="#Action"/>
   <rdfs:range rdf:resource="#Affordance"/>
-</owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="#defines">
-  <rdfs:domain rdf:resource="#Affordance"/>
-  <rdfs:range rdf:resource="#Action"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#affords">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   <rdfs:domain rdf:resource="#KitchenEntity"/>
   <rdfs:range rdf:resource="#Affordance"/>
+  <owl:equivalentProperty rdf:resource="#superAction"/>
+  <owl:equivalentProperty rdf:resource="#potential_action"/>
 </owl:ObjectProperty>
 
 <owl:Class rdf:about="#KitchenEntity">
@@ -58,18 +45,6 @@
 
 <owl:Class rdf:about="#Action">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Cut">
-  <rdfs:subClassOf rdf:resource="#Action"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Soft">
-  <rdfs:subClassOf rdf:resource="#Quality"/>
-</owl:Class>
-
-<owl:Class rdf:about="#SoftAffordance">
-  <rdfs:subClassOf rdf:resource="#Affordance"/>
 </owl:Class>
 
 
