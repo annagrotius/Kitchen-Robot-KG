@@ -18,7 +18,7 @@ def uri_encode(s):
 cn_graph = Graph()
 
 # define namespaces
-cn = create_namespace(cn_graph, "http://api.conceptnet.io/", 'cn')
+# cn = create_namespace(cn_graph, "http://api.conceptnet.io/", 'cn')
 cnc = create_namespace(cn_graph, "http://api.conceptnet.io/c/", 'cnc')
 cnr = create_namespace(cn_graph, "http://api.conceptnet.io/r/", 'cnr')
 wi = create_namespace(cn_graph, "http://purl.org/ontology/wi/core#", 'wi')
@@ -33,16 +33,19 @@ for file in glob.glob(f'../cn_data/filtered_data/*.csv'):
             pass
         else:
             # concept1 = URIRef(cnc[uri_encode(row[1][3:])])
-            concept1 = URIRef(cnc[row[1][3:]])
+            concept1_str = row[1][3:]
+            # print(concept1_str)
+            concept1 = URIRef(cnc[concept1_str])
             # print('CONCEPT1', row[1][3:])
             # print('c1:', concept1)
             # concept2 = URIRef(cnc[uri_encode(row[4][3:])])
-            concept2 = URIRef(cnc[row[4][3:]])
+            concept2_str = row[4][3:]
+            concept2 = URIRef(cnc[concept2_str])
             # print('c2:', concept2)
             relation = URIRef(cnr[row[2]])
             # assertion = URIRef(cn + 'a/[/r/' + row[2] + '/,' + row[1] + '/,' + row[4] + '/]')
             # if 'ExternalURL' in assertion:
-            if 'ExternalURL' in relation:            
+            if 'ExternalURL' in relation:
                 # print(concept2)
                 # assertion = URIRef(cn + 'a/[/r/' + row[2] + '/,' + row[1] + '/,/' + row[4] + '/]')
                 concept2 = URIRef(row[4])

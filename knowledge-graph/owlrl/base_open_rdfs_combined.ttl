@@ -1,10 +1,9 @@
 @prefix aff: <http://test.org/affordance.owl#> .
 @prefix bft: <http://test.org/bft.owl#> .
-@prefix kchn: <http://test.org/kitchen.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 _:ub1bL218C21 a rdfs:Class,
@@ -15,7 +14,7 @@ _:ub1bL218C21 a rdfs:Class,
         rdfs:Resource,
         owl:Thing ;
     owl:equivalentClass _:ub1bL218C21 ;
-    owl:oneOf _:f5cff835a6fb247dda90ed26d30614f5cb1 ;
+    owl:oneOf _:fb2dbf133d5d44e86ac8b1af0405a1f0eb1 ;
     owl:sameAs _:ub1bL218C21 .
 
 aff:Action a rdfs:Class,
@@ -38,17 +37,6 @@ aff:Affordance a rdfs:Class,
     owl:equivalentClass aff:Affordance ;
     owl:sameAs aff:Affordance .
 
-aff:Cut a rdfs:Class,
-        rdfs:Resource,
-        owl:Class,
-        owl:Thing ;
-    rdfs:subClassOf aff:Action,
-        aff:Cut,
-        rdfs:Resource,
-        owl:Thing ;
-    owl:equivalentClass aff:Cut ;
-    owl:sameAs aff:Cut .
-
 aff:KitchenEntity a rdfs:Class,
         rdfs:Resource,
         owl:Class,
@@ -69,33 +57,11 @@ aff:Quality a rdfs:Class,
     owl:equivalentClass aff:Quality ;
     owl:sameAs aff:Quality .
 
-aff:Soft a rdfs:Class,
-        rdfs:Resource,
-        owl:Class,
-        owl:Thing ;
-    rdfs:subClassOf aff:Quality,
-        aff:Soft,
-        rdfs:Resource,
-        owl:Thing ;
-    owl:equivalentClass aff:Soft ;
-    owl:sameAs aff:Soft .
-
-aff:SoftAffordance a rdfs:Class,
-        rdfs:Resource,
-        owl:Class,
-        owl:Thing ;
-    rdfs:subClassOf aff:Affordance,
-        aff:SoftAffordance,
-        rdfs:Resource,
-        owl:Thing ;
-    owl:equivalentClass aff:SoftAffordance ;
-    owl:sameAs aff:SoftAffordance .
-
 bft:Bread a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL242C21,
+    rdfs:subClassOf _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Bread,
         bft:Food,
@@ -108,9 +74,9 @@ bft:Chair a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Chair,
         bft:Furniture,
@@ -135,7 +101,7 @@ bft:Condiment a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL242C21,
+    rdfs:subClassOf _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Condiment,
         bft:Food,
@@ -148,9 +114,9 @@ bft:Cutlery a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Cutlery,
         bft:Kitchenware,
@@ -159,6 +125,19 @@ bft:Cutlery a rdfs:Class,
         owl:Thing ;
     owl:equivalentClass bft:Cutlery ;
     owl:sameAs bft:Cutlery .
+
+bft:Dairy a rdfs:Class,
+        rdfs:Resource,
+        owl:Class,
+        owl:Thing ;
+    rdfs:subClassOf _:ub1bL238C21,
+        aff:KitchenEntity,
+        bft:Dairy,
+        bft:Food,
+        rdfs:Resource,
+        owl:Thing ;
+    owl:equivalentClass bft:Dairy ;
+    owl:sameAs bft:Dairy .
 
 bft:Drink a rdfs:Class,
         rdfs:Resource,
@@ -176,7 +155,7 @@ bft:Egg a rdfs:Class,
         owl:Class,
         owl:Thing ;
     rdfs:subClassOf _:ub1bL218C21,
-        _:ub1bL242C21,
+        _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Egg,
         bft:Food,
@@ -189,7 +168,7 @@ bft:Food a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL242C21,
+    rdfs:subClassOf _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Food,
         rdfs:Resource,
@@ -201,9 +180,9 @@ bft:Fork a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Cutlery,
         bft:Fork,
@@ -218,9 +197,9 @@ bft:Furniture a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Furniture,
         rdfs:Resource,
@@ -232,9 +211,9 @@ bft:Glassware a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Glassware,
         bft:Kitchenware,
@@ -260,9 +239,9 @@ bft:Kitchenware a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         rdfs:Resource,
@@ -274,9 +253,9 @@ bft:Knife a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Cutlery,
         bft:Kitchenware,
@@ -287,25 +266,13 @@ bft:Knife a rdfs:Class,
     owl:equivalentClass bft:Knife ;
     owl:sameAs bft:Knife .
 
-bft:Milk a rdfs:Class,
-        rdfs:Resource,
-        owl:Class,
-        owl:Thing ;
-    rdfs:subClassOf aff:KitchenEntity,
-        bft:Drink,
-        bft:Milk,
-        rdfs:Resource,
-        owl:Thing ;
-    owl:equivalentClass bft:Milk ;
-    owl:sameAs bft:Milk .
-
 bft:Plate a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Plate,
@@ -319,9 +286,9 @@ bft:Spoon a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Cutlery,
         bft:Kitchenware,
@@ -336,7 +303,7 @@ bft:Spread a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL242C21,
+    rdfs:subClassOf _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Condiment,
         bft:Food,
@@ -350,9 +317,9 @@ bft:Storage a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Storage,
         rdfs:Resource,
@@ -364,9 +331,9 @@ bft:Table a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Furniture,
         bft:Table,
@@ -380,9 +347,9 @@ bft:Tableware a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Tableware,
@@ -407,23 +374,21 @@ owl:Nothing a rdfs:Class,
         rdfs:Resource,
         owl:Class,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         _:ub1bL218C21,
-        _:ub1bL242C21,
+        _:ub1bL238C21,
         aff:Action,
         aff:Affordance,
-        aff:Cut,
         aff:KitchenEntity,
         aff:Quality,
-        aff:Soft,
-        aff:SoftAffordance,
         bft:Bread,
         bft:Chair,
         bft:Coffee,
         bft:Condiment,
         bft:Cutlery,
+        bft:Dairy,
         bft:Drink,
         bft:Egg,
         bft:Food,
@@ -433,7 +398,6 @@ owl:Nothing a rdfs:Class,
         bft:Juice,
         bft:Kitchenware,
         bft:Knife,
-        bft:Milk,
         bft:Plate,
         bft:Spoon,
         bft:Spread,
@@ -465,9 +429,9 @@ bft:apple_juice a aff:KitchenEntity,
         owl:Thing ;
     owl:sameAs bft:apple_juice .
 
-bft:bread_basket a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:bread_basket a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Tableware,
@@ -477,9 +441,9 @@ bft:bread_basket a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:bread_basket .
 
-bft:butter_knife a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:butter_knife a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Cutlery,
         bft:Kitchenware,
@@ -492,7 +456,7 @@ bft:butter_knife a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:butter_knife .
 
-bft:croissant a _:ub1bL242C21,
+bft:croissant a _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Bread,
         bft:Food,
@@ -502,9 +466,9 @@ bft:croissant a _:ub1bL242C21,
     bft:is_edible true ;
     owl:sameAs bft:croissant .
 
-bft:cupboard a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:cupboard a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Storage,
         rdfs:Resource,
@@ -513,9 +477,9 @@ bft:cupboard a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:cupboard .
 
-bft:dining_chair a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:dining_chair a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Chair,
         bft:Furniture,
@@ -525,9 +489,9 @@ bft:dining_chair a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:dining_chair .
 
-bft:egg_cup a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:egg_cup a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Tableware,
@@ -537,7 +501,21 @@ bft:egg_cup a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:egg_cup .
 
-bft:garnish a _:ub1bL242C21,
+bft:fork a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
+        aff:KitchenEntity,
+        bft:Cutlery,
+        bft:Fork,
+        bft:Kitchenware,
+        bft:Tableware,
+        rdfs:Resource,
+        owl:NamedIndividual,
+        owl:Thing ;
+    bft:is_edible false ;
+    owl:sameAs bft:fork .
+
+bft:garnish a _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Food,
         rdfs:Resource,
@@ -546,9 +524,9 @@ bft:garnish a _:ub1bL242C21,
     bft:is_edible true ;
     owl:sameAs bft:garnish .
 
-bft:glass a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:glass a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Glassware,
         bft:Kitchenware,
@@ -567,9 +545,34 @@ bft:green_tea a aff:KitchenEntity,
         owl:Thing ;
     owl:sameAs bft:green_tea .
 
-bft:milk_pitcher a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:knife a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
+        aff:KitchenEntity,
+        bft:Cutlery,
+        bft:Kitchenware,
+        bft:Knife,
+        bft:Tableware,
+        rdfs:Resource,
+        owl:NamedIndividual,
+        owl:Thing ;
+    bft:can_spread bft:butter ;
+    bft:is_edible false ;
+    owl:sameAs bft:knife .
+
+bft:milk a _:ub1bL238C21,
+        aff:KitchenEntity,
+        bft:Dairy,
+        bft:Food,
+        rdfs:Resource,
+        owl:NamedIndividual,
+        owl:Thing ;
+    bft:is_edible true ;
+    owl:sameAs bft:milk .
+
+bft:milk_pitcher a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         rdfs:Resource,
@@ -586,9 +589,9 @@ bft:orange_juice a aff:KitchenEntity,
         owl:Thing ;
     owl:sameAs bft:orange_juice .
 
-bft:pepper_shaker a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:pepper_shaker a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Tableware,
@@ -598,9 +601,9 @@ bft:pepper_shaker a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:pepper_shaker .
 
-bft:salt_shaker a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:salt_shaker a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Tableware,
@@ -610,9 +613,23 @@ bft:salt_shaker a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:salt_shaker .
 
-bft:table a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:spoon a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
+        aff:KitchenEntity,
+        bft:Cutlery,
+        bft:Kitchenware,
+        bft:Spoon,
+        bft:Tableware,
+        rdfs:Resource,
+        owl:NamedIndividual,
+        owl:Thing ;
+    bft:is_edible false ;
+    owl:sameAs bft:spoon .
+
+bft:table a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Furniture,
         bft:Table,
@@ -622,9 +639,9 @@ bft:table a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:table .
 
-bft:teacup a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:teacup a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Glassware,
         bft:Kitchenware,
@@ -916,9 +933,9 @@ owl:versionInfo a rdfs:Resource,
         owl:Thing ;
     owl:sameAs owl:versionInfo .
 
-bft:bread_plate a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:bread_plate a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Plate,
@@ -929,20 +946,9 @@ bft:bread_plate a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:bread_plate .
 
-bft:butter a _:ub1bL242C21,
-        aff:KitchenEntity,
-        bft:Condiment,
-        bft:Food,
-        bft:Spread,
-        rdfs:Resource,
-        owl:NamedIndividual,
-        owl:Thing ;
-    bft:is_edible true ;
-    owl:sameAs bft:butter .
-
-bft:butter_dish a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:butter_dish a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Plate,
@@ -953,9 +959,9 @@ bft:butter_dish a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:butter_dish .
 
-bft:sauce_dish a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:sauce_dish a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Plate,
@@ -966,9 +972,9 @@ bft:sauce_dish a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:sauce_dish .
 
-bft:teacup_plate a _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+bft:teacup_plate a _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Plate,
@@ -979,115 +985,63 @@ bft:teacup_plate a _:ub1bL166C21,
     bft:is_edible false ;
     owl:sameAs bft:teacup_plate .
 
+xsd:string a rdfs:Datatype,
+        rdfs:Resource,
+        owl:DataRange,
+        owl:Thing ;
+    rdfs:subClassOf rdfs:Literal ;
+    owl:sameAs xsd:string .
+
 owl:Ontology a rdfs:Resource,
         owl:Thing ;
     owl:sameAs owl:Ontology .
 
-owl:TransitiveProperty a rdfs:Resource,
+swrl:Imp a rdfs:Resource,
         owl:Thing ;
-    owl:sameAs owl:TransitiveProperty .
+    owl:sameAs swrl:Imp .
 
-aff:affords a rdfs:Resource,
-        owl:ObjectProperty,
+<urn:swrl#Affordance> a rdfs:Resource,
         owl:Thing,
-        owl:TransitiveProperty ;
-    rdfs:domain aff:KitchenEntity,
-        rdfs:Resource,
-        owl:Thing ;
-    rdfs:range aff:Affordance,
-        rdfs:Resource,
-        owl:Thing ;
-    rdfs:subPropertyOf aff:affords ;
-    owl:equivalentProperty aff:affords ;
-    owl:sameAs aff:affords .
+        swrl:Variable ;
+    owl:sameAs <urn:swrl#Affordance> .
 
-aff:color a rdfs:Resource,
+aff:quality a rdfs:Resource,
         owl:ObjectProperty,
         owl:Thing ;
     rdfs:domain aff:KitchenEntity,
         rdfs:Resource,
         owl:Thing ;
     rdfs:range aff:Quality,
-        rdfs:Literal,
         rdfs:Resource,
-        xsd:string,
         owl:Thing ;
-    rdfs:subPropertyOf aff:color,
-        aff:quality ;
-    owl:equivalentProperty aff:color ;
-    owl:sameAs aff:color .
+    rdfs:subPropertyOf aff:quality ;
+    owl:equivalentProperty aff:quality ;
+    owl:sameAs aff:quality .
 
-aff:defines a rdfs:Resource,
-        owl:ObjectProperty,
-        owl:Thing ;
-    rdfs:domain aff:Affordance,
+bft:butter a _:ub1bL238C21,
+        aff:KitchenEntity,
+        bft:Condiment,
+        bft:Food,
+        bft:Spread,
         rdfs:Resource,
+        owl:NamedIndividual,
         owl:Thing ;
-    rdfs:range aff:Action,
-        rdfs:Resource,
-        owl:Thing ;
-    rdfs:subPropertyOf aff:defines ;
-    owl:equivalentProperty aff:defines ;
-    owl:sameAs aff:defines .
-
-aff:form a rdfs:Resource,
-        owl:ObjectProperty,
-        owl:Thing ;
-    rdfs:domain aff:KitchenEntity,
-        rdfs:Resource,
-        owl:Thing ;
-    rdfs:range aff:Quality,
-        rdfs:Literal,
-        rdfs:Resource,
-        xsd:string,
-        owl:Thing ;
-    rdfs:subPropertyOf aff:form,
-        aff:quality ;
-    owl:equivalentProperty aff:form ;
-    owl:sameAs aff:form .
-
-aff:implies a rdfs:Resource,
-        owl:ObjectProperty,
-        owl:Thing ;
-    rdfs:domain aff:Quality,
-        rdfs:Resource,
-        owl:Thing ;
-    rdfs:range aff:Affordance,
-        rdfs:Resource,
-        owl:Thing ;
-    rdfs:subPropertyOf aff:implies ;
-    owl:equivalentProperty aff:implies ;
-    owl:sameAs aff:implies .
-
-aff:location a rdfs:Resource,
-        owl:ObjectProperty,
-        owl:Thing ;
-    rdfs:domain aff:KitchenEntity,
-        rdfs:Resource,
-        owl:Thing ;
-    rdfs:range aff:Quality,
-        rdfs:Literal,
-        rdfs:Resource,
-        xsd:string,
-        owl:Thing ;
-    rdfs:subPropertyOf aff:location,
-        aff:quality ;
-    owl:equivalentProperty aff:location ;
-    owl:sameAs aff:location .
+    bft:is_edible true ;
+    owl:sameAs bft:butter .
 
 bft:can_cut a rdfs:Resource,
         owl:ObjectProperty,
         owl:Thing ;
-    rdfs:domain _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:domain _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Tableware,
         rdfs:Resource,
         owl:Thing ;
-    rdfs:range _:ub1bL242C21,
+    rdfs:range _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Food,
         rdfs:Resource,
@@ -1100,18 +1054,20 @@ bft:can_spread a rdf:Property,
         rdfs:Resource,
         owl:ObjectProperty,
         owl:Thing ;
-    rdfs:domain _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:domain _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Cutlery,
         bft:Kitchenware,
         bft:Tableware,
         rdfs:Resource,
         owl:Thing ;
-    rdfs:range _:ub1bL242C21,
+    rdfs:range _:ub1bL238C21,
         aff:KitchenEntity,
+        bft:Condiment,
         bft:Food,
+        bft:Spread,
         rdfs:Resource,
         owl:Thing ;
     rdfs:subPropertyOf bft:can_spread ;
@@ -1119,7 +1075,7 @@ bft:can_spread a rdf:Property,
     owl:sameAs bft:can_spread .
 
 bft:fried a _:ub1bL218C21,
-        _:ub1bL242C21,
+        _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Egg,
         bft:Food,
@@ -1130,7 +1086,7 @@ bft:fried a _:ub1bL218C21,
     owl:sameAs bft:fried .
 
 bft:hardboiled a _:ub1bL218C21,
-        _:ub1bL242C21,
+        _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Egg,
         bft:Food,
@@ -1150,7 +1106,7 @@ bft:primary_usage a rdfs:Resource,
     owl:sameAs bft:primary_usage .
 
 bft:scrambled a _:ub1bL218C21,
-        _:ub1bL242C21,
+        _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Egg,
         bft:Food,
@@ -1164,13 +1120,13 @@ bft:served_with a rdfs:Resource,
         owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:Thing ;
-    rdfs:domain _:ub1bL242C21,
+    rdfs:domain _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Condiment,
         bft:Food,
         rdfs:Resource,
         owl:Thing ;
-    rdfs:range _:ub1bL242C21,
+    rdfs:range _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Food,
         rdfs:Resource,
@@ -1182,14 +1138,14 @@ bft:served_with a rdfs:Resource,
 bft:spread_on a rdfs:Resource,
         owl:ObjectProperty,
         owl:Thing ;
-    rdfs:domain _:ub1bL242C21,
+    rdfs:domain _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Condiment,
         bft:Food,
         bft:Spread,
         rdfs:Resource,
         owl:Thing ;
-    rdfs:range _:ub1bL242C21,
+    rdfs:range _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Food,
         rdfs:Resource,
@@ -1202,15 +1158,15 @@ bft:used_with a rdfs:Resource,
         owl:ObjectProperty,
         owl:SymmetricProperty,
         owl:Thing ;
-    rdfs:domain _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21,
+    rdfs:domain _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21,
         aff:KitchenEntity,
         bft:Kitchenware,
         bft:Tableware,
         rdfs:Resource,
         owl:Thing ;
-    rdfs:range _:ub1bL242C21,
+    rdfs:range _:ub1bL238C21,
         aff:KitchenEntity,
         bft:Food,
         rdfs:Resource,
@@ -1311,6 +1267,80 @@ owl:sameAs a rdf:Property ;
     owl:equivalentProperty owl:sameAs ;
     owl:sameAs owl:sameAs .
 
+swrl:argument1 a rdf:Property ;
+    rdfs:subPropertyOf swrl:argument1 ;
+    owl:equivalentProperty swrl:argument1 ;
+    owl:sameAs swrl:argument1 .
+
+swrl:argument2 a rdf:Property ;
+    rdfs:subPropertyOf swrl:argument2 ;
+    owl:equivalentProperty swrl:argument2 ;
+    owl:sameAs swrl:argument2 .
+
+swrl:body a rdf:Property ;
+    rdfs:subPropertyOf swrl:body ;
+    owl:equivalentProperty swrl:body ;
+    owl:sameAs swrl:body .
+
+swrl:head a rdf:Property ;
+    rdfs:subPropertyOf swrl:head ;
+    owl:equivalentProperty swrl:head ;
+    owl:sameAs swrl:head .
+
+swrl:propertyPredicate a rdf:Property ;
+    rdfs:subPropertyOf swrl:propertyPredicate ;
+    owl:equivalentProperty swrl:propertyPredicate ;
+    owl:sameAs swrl:propertyPredicate .
+
+<urn:swrl#Action> a rdfs:Resource,
+        owl:Thing,
+        swrl:Variable ;
+    owl:sameAs <urn:swrl#Action> .
+
+<urn:swrl#KitchenEntity> a rdfs:Resource,
+        owl:Thing,
+        swrl:Variable ;
+    owl:sameAs <urn:swrl#KitchenEntity> .
+
+aff:affords a rdfs:Resource,
+        owl:ObjectProperty,
+        owl:Thing ;
+    rdfs:domain aff:KitchenEntity,
+        rdfs:Resource,
+        owl:Thing ;
+    rdfs:range aff:Affordance,
+        rdfs:Resource,
+        owl:Thing ;
+    rdfs:subPropertyOf aff:affords ;
+    owl:equivalentProperty aff:affords ;
+    owl:sameAs aff:affords .
+
+aff:potential_action a rdfs:Resource,
+        owl:ObjectProperty,
+        owl:Thing ;
+    rdfs:domain aff:KitchenEntity,
+        rdfs:Resource,
+        owl:Thing ;
+    rdfs:range aff:Action,
+        rdfs:Resource,
+        owl:Thing ;
+    rdfs:subPropertyOf aff:potential_action ;
+    owl:equivalentProperty aff:potential_action ;
+    owl:sameAs aff:potential_action .
+
+aff:superAction a rdfs:Resource,
+        owl:ObjectProperty,
+        owl:Thing ;
+    rdfs:domain aff:Action,
+        rdfs:Resource,
+        owl:Thing ;
+    rdfs:range aff:Affordance,
+        rdfs:Resource,
+        owl:Thing ;
+    rdfs:subPropertyOf aff:superAction ;
+    owl:equivalentProperty aff:superAction ;
+    owl:sameAs aff:superAction .
+
 xsd:boolean a rdfs:Datatype,
         rdfs:Resource,
         owl:DataRange,
@@ -1318,12 +1348,13 @@ xsd:boolean a rdfs:Datatype,
     rdfs:subClassOf rdfs:Literal ;
     owl:sameAs xsd:boolean .
 
-xsd:string a rdfs:Datatype,
-        rdfs:Resource,
-        owl:DataRange,
+swrl:IndividualPropertyAtom a rdfs:Resource,
         owl:Thing ;
-    rdfs:subClassOf rdfs:Literal ;
-    owl:sameAs xsd:string .
+    owl:sameAs swrl:IndividualPropertyAtom .
+
+swrl:Variable a rdfs:Resource,
+        owl:Thing ;
+    owl:sameAs swrl:Variable .
 
 owl:AllDisjointClasses a rdfs:Resource,
         owl:Thing ;
@@ -1332,19 +1363,6 @@ owl:AllDisjointClasses a rdfs:Resource,
 owl:Restriction a rdfs:Resource,
         owl:Thing ;
     owl:sameAs owl:Restriction .
-
-aff:quality a rdfs:Resource,
-        owl:ObjectProperty,
-        owl:Thing ;
-    rdfs:domain aff:KitchenEntity,
-        rdfs:Resource,
-        owl:Thing ;
-    rdfs:range aff:Quality,
-        rdfs:Resource,
-        owl:Thing ;
-    rdfs:subPropertyOf aff:quality ;
-    owl:equivalentProperty aff:quality ;
-    owl:sameAs aff:quality .
 
 bft:is_edible a rdf:Property,
         rdfs:Resource,
@@ -1356,15 +1374,15 @@ bft:is_edible a rdf:Property,
     owl:equivalentProperty bft:is_edible ;
     owl:sameAs bft:is_edible .
 
-() a rdfs:Resource,
-        owl:Thing ;
-    owl:sameAs () .
-
 true a rdfs:Literal,
         rdfs:Resource,
         xsd:boolean,
         owl:Thing ;
     owl:sameAs true .
+
+() a rdfs:Resource,
+        owl:Thing ;
+    owl:sameAs () .
 
 owl:AnnotationProperty a rdfs:Resource,
         owl:Thing ;
@@ -1374,13 +1392,13 @@ owl:ObjectProperty a rdfs:Resource,
         owl:Thing ;
     owl:sameAs owl:ObjectProperty .
 
-rdf:Property owl:sameAs rdf:Property .
-
 false a rdfs:Literal,
         rdfs:Resource,
         xsd:boolean,
         owl:Thing ;
     owl:sameAs false .
+
+rdf:Property owl:sameAs rdf:Property .
 
 owl:NamedIndividual a rdfs:Resource,
         owl:Thing ;
@@ -1434,249 +1452,292 @@ rdfs:Resource a rdfs:Resource,
         owl:Thing ;
     owl:sameAs rdfs:Resource .
 
-_:ub1bL248C1 a rdfs:Resource,
-        owl:AllDifferent,
-        owl:Thing ;
-    owl:distinctMembers _:f5cff835a6fb247dda90ed26d30614f5cb4 ;
-    owl:sameAs _:ub1bL248C1 .
-
-_:ub1bL251C1 a rdfs:Resource,
-        owl:AllDisjointClasses,
-        owl:Thing ;
-    owl:members _:f5cff835a6fb247dda90ed26d30614f5cb8 ;
-    owl:sameAs _:ub1bL251C1 .
-
-_:ub1bL254C1 a rdfs:Resource,
-        owl:AllDisjointClasses,
-        owl:Thing ;
-    owl:members _:f5cff835a6fb247dda90ed26d30614f5cb11 ;
-    owl:sameAs _:ub1bL254C1 .
+_:ub1bL244C1 a rdfs:Resource,
+        owl:Thing,
+        swrl:Imp ;
+    owl:sameAs _:ub1bL244C1 ;
+    swrl:body _:fb2dbf133d5d44e86ac8b1af0405a1f0eb4 ;
+    swrl:head _:fb2dbf133d5d44e86ac8b1af0405a1f0eb6 .
 
 _:ub1bL257C1 a rdfs:Resource,
         owl:AllDisjointClasses,
         owl:Thing ;
-    owl:members _:f5cff835a6fb247dda90ed26d30614f5cb16 ;
+    owl:members _:fb2dbf133d5d44e86ac8b1af0405a1f0eb7 ;
     owl:sameAs _:ub1bL257C1 .
 
 _:ub1bL260C1 a rdfs:Resource,
-        owl:AllDifferent,
+        owl:AllDisjointClasses,
         owl:Thing ;
-    owl:distinctMembers _:f5cff835a6fb247dda90ed26d30614f5cb20 ;
+    owl:members _:fb2dbf133d5d44e86ac8b1af0405a1f0eb10 ;
     owl:sameAs _:ub1bL260C1 .
 
 _:ub1bL263C1 a rdfs:Resource,
-        owl:AllDisjointClasses,
+        owl:AllDifferent,
         owl:Thing ;
-    owl:members _:f5cff835a6fb247dda90ed26d30614f5cb23 ;
+    owl:distinctMembers _:fb2dbf133d5d44e86ac8b1af0405a1f0eb13 ;
     owl:sameAs _:ub1bL263C1 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb1 a rdfs:Resource,
+_:ub1bL266C1 a rdfs:Resource,
+        owl:AllDisjointClasses,
+        owl:Thing ;
+    owl:members _:fb2dbf133d5d44e86ac8b1af0405a1f0eb16 ;
+    owl:sameAs _:ub1bL266C1 .
+
+_:ub1bL269C1 a rdfs:Resource,
+        owl:AllDisjointClasses,
+        owl:Thing ;
+    owl:members _:fb2dbf133d5d44e86ac8b1af0405a1f0eb21 ;
+    owl:sameAs _:ub1bL269C1 .
+
+_:ub1bL272C1 a rdfs:Resource,
+        owl:AllDifferent,
+        owl:Thing ;
+    owl:distinctMembers _:fb2dbf133d5d44e86ac8b1af0405a1f0eb26 ;
+    owl:sameAs _:ub1bL272C1 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb1 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:hardboiled ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb2 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb1 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb2 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb1 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb10 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb10 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:Bread ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb11 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb10 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb11 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:Egg ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb12 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb11 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb12 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Condiment ;
     rdf:rest () ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb10 .
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb12 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb11 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:Food ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb12 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb11 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb12 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:Drink ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb13 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb12 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb13 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:Storage ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb14 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb13 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb14 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:Kitchenware ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb15 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb14 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb15 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:Furniture ;
-    rdf:rest () ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb15 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb16 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:Juice ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb17 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb16 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb17 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:Coffee ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb18 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb17 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb18 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:Milk ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb19 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb18 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb19 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:Tea ;
-    rdf:rest () ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb19 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb2 a rdfs:Resource,
-        owl:Thing ;
-    rdf:first bft:scrambled ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb3 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb2 .
-
-_:f5cff835a6fb247dda90ed26d30614f5cb20 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb13 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:hardboiled ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb21 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb20 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb14 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb13 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb21 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb14 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:scrambled ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb22 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb21 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb15 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb14 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb22 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb15 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:fried ;
     rdf:rest () ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb22 .
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb15 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb23 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb16 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Glassware ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb24 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb23 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb17 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb16 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb24 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb17 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Plate ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb25 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb24 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb18 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb17 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb25 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb18 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Fork ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb26 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb25 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb19 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb18 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb26 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb19 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Knife ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb27 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb26 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb20 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb19 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb27 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb2 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:scrambled ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb3 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb2 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb20 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:Spoon ;
     rdf:rest () ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb27 .
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb20 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb3 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb21 a rdfs:Resource,
         owl:Thing ;
-    rdf:first bft:fried ;
-    rdf:rest () ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb3 .
+    rdf:first bft:Food ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb22 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb21 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb4 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb22 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:Drink ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb23 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb22 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb23 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:Storage ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb24 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb23 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb24 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:Kitchenware ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb25 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb24 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb25 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:Furniture ;
+    rdf:rest () ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb25 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb26 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:sauce_dish ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb5 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb4 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb27 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb26 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb5 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb27 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:bread_plate ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb6 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb5 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb28 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb27 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb6 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb28 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:butter_dish ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb7 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb6 .
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb29 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb28 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb7 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb29 a rdfs:Resource,
         owl:Thing ;
     rdf:first bft:teacup_plate ;
     rdf:rest () ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb7 .
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb29 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb8 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb3 a rdfs:Resource,
         owl:Thing ;
-    rdf:first bft:Bread ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb9 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb8 .
+    rdf:first bft:fried ;
+    rdf:rest () ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb3 .
 
-_:f5cff835a6fb247dda90ed26d30614f5cb9 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb4 a rdfs:Resource,
         owl:Thing ;
-    rdf:first bft:Egg ;
-    rdf:rest _:f5cff835a6fb247dda90ed26d30614f5cb10 ;
-    owl:sameAs _:f5cff835a6fb247dda90ed26d30614f5cb9 .
+    rdf:first _:ub1bL245C17 ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb5 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb4 .
 
-_:ub1bL242C21 a rdfs:Resource,
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb5 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first _:ub1bL248C63 ;
+    rdf:rest () ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb5 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb6 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first _:ub1bL252C17 ;
+    rdf:rest () ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb6 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb7 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:Juice ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb8 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb7 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb8 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:Coffee ;
+    rdf:rest _:fb2dbf133d5d44e86ac8b1af0405a1f0eb9 ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb8 .
+
+_:fb2dbf133d5d44e86ac8b1af0405a1f0eb9 a rdfs:Resource,
+        owl:Thing ;
+    rdf:first bft:Tea ;
+    rdf:rest () ;
+    owl:sameAs _:fb2dbf133d5d44e86ac8b1af0405a1f0eb9 .
+
+_:ub1bL245C17 a rdfs:Resource,
+        owl:Thing,
+        swrl:IndividualPropertyAtom ;
+    owl:sameAs _:ub1bL245C17 ;
+    swrl:argument1 <urn:swrl#KitchenEntity> ;
+    swrl:argument2 <urn:swrl#Action> ;
+    swrl:propertyPredicate aff:potential_action .
+
+_:ub1bL248C63 a rdfs:Resource,
+        owl:Thing,
+        swrl:IndividualPropertyAtom ;
+    owl:sameAs _:ub1bL248C63 ;
+    swrl:argument1 <urn:swrl#Action> ;
+    swrl:argument2 aff:Affordance ;
+    swrl:propertyPredicate aff:superAction .
+
+_:ub1bL252C17 a rdfs:Resource,
+        owl:Thing,
+        swrl:IndividualPropertyAtom ;
+    owl:sameAs _:ub1bL252C17 ;
+    swrl:argument1 <urn:swrl#KitchenEntity> ;
+    swrl:argument2 <urn:swrl#Affordance> ;
+    swrl:propertyPredicate aff:affords .
+
+_:ub1bL238C21 a rdfs:Resource,
         owl:Restriction,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL242C21 ;
-    owl:equivalentClass _:ub1bL242C21 ;
+    rdfs:subClassOf _:ub1bL238C21 ;
+    owl:equivalentClass _:ub1bL238C21 ;
     owl:hasValue true ;
     owl:onProperty bft:is_edible ;
-    owl:sameAs _:ub1bL242C21 .
+    owl:sameAs _:ub1bL238C21 .
 
-_:ub1bL166C21 a rdfs:Resource,
+_:ub1bL156C21 a rdfs:Resource,
         owl:Restriction,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21 ;
-    owl:equivalentClass _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21 ;
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21 ;
+    owl:equivalentClass _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21 ;
     owl:hasValue false ;
     owl:onProperty bft:is_edible ;
-    owl:sameAs _:ub1bL166C21 .
+    owl:sameAs _:ub1bL156C21 .
 
-_:ub1bL195C21 a rdfs:Resource,
+_:ub1bL188C21 a rdfs:Resource,
         owl:Restriction,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21 ;
-    owl:equivalentClass _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21 ;
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21 ;
+    owl:equivalentClass _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21 ;
     owl:hasValue false ;
     owl:onProperty bft:is_edible ;
-    owl:sameAs _:ub1bL195C21 .
+    owl:sameAs _:ub1bL188C21 .
 
-_:ub1bL208C21 a rdfs:Resource,
+_:ub1bL201C21 a rdfs:Resource,
         owl:Restriction,
         owl:Thing ;
-    rdfs:subClassOf _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21 ;
-    owl:equivalentClass _:ub1bL166C21,
-        _:ub1bL195C21,
-        _:ub1bL208C21 ;
+    rdfs:subClassOf _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21 ;
+    owl:equivalentClass _:ub1bL156C21,
+        _:ub1bL188C21,
+        _:ub1bL201C21 ;
     owl:hasValue false ;
     owl:onProperty bft:is_edible ;
-    owl:sameAs _:ub1bL208C21 .
+    owl:sameAs _:ub1bL201C21 .
 

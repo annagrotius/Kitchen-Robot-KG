@@ -3,14 +3,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-aff:affords a owl:ObjectProperty,
-        owl:TransitiveProperty ;
-    rdfs:domain aff:KitchenEntity ;
-    rdfs:range aff:Affordance ;
-    owl:equivalentProperty aff:potential_action,
-        aff:superAction .
 
 aff:quality a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;
@@ -74,9 +68,6 @@ bft:orange_juice a bft:Juice,
 bft:pepper_shaker a bft:Tableware,
         owl:NamedIndividual .
 
-bft:primary_usage a owl:DatatypeProperty ;
-    rdfs:range xsd:string .
-
 bft:salt_shaker a bft:Tableware,
         owl:NamedIndividual .
 
@@ -91,6 +82,9 @@ bft:spoon a bft:Spoon,
 bft:spread_on a owl:ObjectProperty ;
     rdfs:domain bft:Spread ;
     rdfs:range bft:Food .
+
+bft:storage_location a owl:ObjectProperty ;
+    rdfs:range bft:Storage .
 
 bft:table a bft:Table,
         owl:NamedIndividual .
@@ -108,13 +102,17 @@ bft:used_with a owl:ObjectProperty,
 aff:Quality a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
+aff:action_affordance a owl:ObjectProperty ;
+    rdfs:domain aff:Action ;
+    rdfs:range aff:Affordance .
+
+aff:affords a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Affordance .
+
 aff:potential_action a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;
     rdfs:range aff:Action .
-
-aff:superAction a owl:ObjectProperty ;
-    rdfs:domain aff:Action ;
-    rdfs:range aff:Affordance .
 
 bft:Coffee a owl:Class ;
     rdfs:subClassOf bft:Drink .
@@ -138,10 +136,9 @@ bft:sauce_dish a bft:Plate,
 bft:teacup_plate a bft:Plate,
         owl:NamedIndividual .
 
-aff:Action a owl:Class ;
-    rdfs:subClassOf owl:Thing .
+<urn:swrl#Affordance> a swrl:Variable .
 
-aff:Affordance a owl:Class ;
+aff:Action a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
 bft:Bread a owl:Class ;
@@ -156,27 +153,27 @@ bft:Fork a owl:Class ;
 bft:Spoon a owl:Class ;
     rdfs:subClassOf bft:Cutlery .
 
-bft:Storage a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ;
-            owl:hasValue false ;
-            owl:onProperty bft:is_edible ],
-        aff:KitchenEntity,
-        owl:Thing .
-
 bft:Tea a owl:Class ;
     rdfs:subClassOf bft:Drink .
 
 bft:butter a bft:Spread,
         owl:NamedIndividual .
 
-bft:fried a bft:Egg,
+bft:fried_egg a bft:Egg,
         owl:NamedIndividual .
 
-bft:hardboiled a bft:Egg,
+bft:hardboiled_egg a bft:Egg,
         owl:NamedIndividual .
 
-bft:scrambled a bft:Egg,
+bft:scrambled_egg a bft:Egg,
         owl:NamedIndividual .
+
+<urn:swrl#Action> a swrl:Variable .
+
+<urn:swrl#KitchenEntity> a swrl:Variable .
+
+aff:Affordance a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 bft:Condiment a owl:Class ;
     rdfs:subClassOf bft:Food .
@@ -207,13 +204,20 @@ bft:Knife a owl:Class ;
 bft:Spread a owl:Class ;
     rdfs:subClassOf bft:Condiment .
 
+bft:Storage a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue false ;
+            owl:onProperty bft:is_edible ],
+        aff:KitchenEntity,
+        owl:Thing .
+
 bft:Drink a owl:Class ;
     rdfs:subClassOf aff:KitchenEntity,
         owl:Thing .
 
 bft:Egg a owl:Class ;
     rdfs:subClassOf [ a owl:Class ;
-            owl:oneOf ( bft:hardboiled bft:scrambled bft:fried ) ],
+            owl:oneOf ( bft:hardboiled_egg bft:scrambled_egg bft:fried_egg ) ],
         bft:Food .
 
 bft:is_edible a owl:DatatypeProperty ;
@@ -238,14 +242,27 @@ bft:Food a owl:Class ;
         aff:KitchenEntity,
         owl:Thing .
 
+[] a swrl:Imp ;
+    swrl:body ( [ a swrl:IndividualPropertyAtom ;
+                swrl:argument1 <urn:swrl#KitchenEntity> ;
+                swrl:argument2 <urn:swrl#Action> ;
+                swrl:propertyPredicate aff:potential_action ] [ a swrl:IndividualPropertyAtom ;
+                swrl:argument1 <urn:swrl#Action> ;
+                swrl:argument2 aff:Affordance ;
+                swrl:propertyPredicate aff:action_affordance ] ) ;
+    swrl:head ( [ a swrl:IndividualPropertyAtom ;
+                swrl:argument1 <urn:swrl#KitchenEntity> ;
+                swrl:argument2 <urn:swrl#Affordance> ;
+                swrl:propertyPredicate aff:affords ] ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
+
 [] a owl:AllDisjointClasses ;
     owl:members ( bft:Juice bft:Coffee bft:Tea ) .
 
-[] a owl:AllDisjointClasses ;
-    owl:members ( bft:Bread bft:Egg bft:Condiment ) .
-
 [] a owl:AllDifferent ;
-    owl:distinctMembers ( bft:hardboiled bft:scrambled bft:fried ) .
+    owl:distinctMembers ( bft:hardboiled_egg bft:scrambled_egg bft:fried_egg ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( bft:Glassware bft:Plate bft:Fork bft:Knife bft:Spoon ) .
@@ -253,6 +270,6 @@ bft:Food a owl:Class ;
 [] a owl:AllDisjointClasses ;
     owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
 
-[] a owl:AllDifferent ;
-    owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Bread bft:Egg bft:Condiment ) .
 

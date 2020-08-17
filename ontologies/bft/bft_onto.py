@@ -93,20 +93,18 @@ def main():
         class used_with(ObjectProperty, SymmetricProperty):
             domain = [Tableware]
             range = [Food]
-        class primary_usage(DataProperty):
-            range = [str]
-        class storage_location():
+        class storage_location(ObjectProperty):
             range = [Storage]
 
 
     # defining instances (individuals)
     croissant = Bread("croissant")
     garnish = Food("garnish")
-    hardboiled_egg = Egg("hardboiled")
-    scrambled_eggs = Egg("scrambled")
-    fried_egg = Egg("fried")
-    Egg.is_a.append(OneOf([hardboiled_egg, scrambled_eggs, fried_egg]))
-    AllDifferent([hardboiled_egg, scrambled_eggs, fried_egg])
+    hardboiled_egg = Egg("hardboiled_egg")
+    scrambled_egg = Egg("scrambled_egg")
+    fried_egg = Egg("fried_egg")
+    Egg.is_a.append(OneOf([hardboiled_egg, scrambled_egg, fried_egg]))
+    AllDifferent([hardboiled_egg, scrambled_egg, fried_egg])
 
     oj = Juice("orange_juice")
     apple_juice = Juice("apple_juice")
