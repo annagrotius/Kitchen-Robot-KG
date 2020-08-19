@@ -1,0 +1,18 @@
+YouTube Unity Web Request Tuts:
+
+- https://www.youtube.com/watch?v=TxB0_0PC3jM
+ Weather app. The tutorial has a UI button and it dissects a json file from a weahter API that displays the weather in the json file upon clicking the button.
+
+The code in the tut shows how to use GameObjects
+
+- https://www.youtube.com/watch?v=5j242VGGNZI
+Shows how to retrieve info from a url json response.
+
+
+YouTube Unity Highlighting objects:
+
+- https://www.youtube.com/watch?v=7ybz28Py0-U
+This tutorial shows how to change the color of a gameobject when the mouse moves over the object
+
+- https://answers.unity.com/questions/47740/highlight-object-color.html
+ forum description that might be useful

@@ -185,12 +185,18 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Egg>
 
+<Kitchenware rdf:about="#refrigerator">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Kitchenware>
+
 <Juice rdf:about="#orange_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <storage_location rdf:resource="#refrigerator"/>
 </Juice>
 
 <Juice rdf:about="#apple_juice">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <storage_location rdf:resource="#refrigerator"/>
 </Juice>
 
 <Tea rdf:about="#green_tea">
@@ -199,10 +205,17 @@
 
 <Dairy rdf:about="#milk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <storage_location rdf:resource="#refrigerator"/>
 </Dairy>
+
+<Coffee rdf:about="#black_coffee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Coffee>
 
 <Spread rdf:about="#butter">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <spread_on rdf:resource="#croissant"/>
+  <storage_location rdf:resource="#refrigerator"/>
 </Spread>
 
 <Tableware rdf:about="#salt_shaker">
@@ -211,6 +224,7 @@
 
 <Tableware rdf:about="#pepper_shaker">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <used_with rdf:resource="#salt_shaker"/>
 </Tableware>
 
 <Tableware rdf:about="#bread_basket">
@@ -219,10 +233,12 @@
 
 <Tableware rdf:about="#egg_cup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <served_with rdf:resource="#hardboiled_egg"/>
 </Tableware>
 
 <Kitchenware rdf:about="#milk_pitcher">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <served_with rdf:resource="#milk"/>
 </Kitchenware>
 
 <Knife rdf:about="#butter_knife">
@@ -237,34 +253,45 @@
 <Knife rdf:about="#knife">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <can_spread rdf:resource="#butter"/>
+  <used_with rdf:resource="#fork"/>
 </Knife>
 
 <Spoon rdf:about="#spoon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Spoon>
 
+<Storage rdf:about="#cupboard">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Storage>
+
 <Glassware rdf:about="#glass">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <storage_location rdf:resource="#cupboard"/>
 </Glassware>
 
 <Glassware rdf:about="#teacup">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <storage_location rdf:resource="#cupboard"/>
 </Glassware>
 
 <Plate rdf:about="#sauce_dish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <storage_location rdf:resource="#cupboard"/>
 </Plate>
 
 <Plate rdf:about="#butter_dish">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <storage_location rdf:resource="#cupboard"/>
 </Plate>
 
 <Plate rdf:about="#bread_plate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <storage_location rdf:resource="#cupboard"/>
 </Plate>
 
 <Plate rdf:about="#teacup_plate">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <storage_location rdf:resource="#cupboard"/>
 </Plate>
 
 <Table rdf:about="#table">
@@ -274,10 +301,6 @@
 <Chair rdf:about="#dining_chair">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </Chair>
-
-<Storage rdf:about="#cupboard">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Storage>
 
 <owl:AllDifferent>
   <owl:distinctMembers rdf:parseType="Collection">

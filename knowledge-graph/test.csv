@@ -1,236 +1,236 @@
 ,entities,usage_o,usage_phrase_list,aff_class
-0,en/fork,eat,eat,Eating
-1,en/knife,putting_butcher_block,putting butcher block,Putting
-2,en/spoon,mixing_ingredients,mixing ingredients,Mixing
-3,en/cupboard,storing_crockery,storing crockery,Storing
-4,en/cupboard,storing_food,storing food,Storing
-5,en/dining_table,special_occassions,special occassions,
-6,en/butter_knife,spreading_butter_on_bread,spreading butter on bread,Spreading
-7,en/knife,spearing_pieces,spearing pieces,Spearing
-8,en/dining_table,eating_meal,eating meal,Eating
-9,en/knife,severing,severing,Severing
-10,en/cupboard,saving_counter_space,saving counter space,Saving
-11,en/spoon,dish_to_run_away_with,dish to run away with,Dishing
-12,en/fork,eating,eating,Eating
-13,en/knife,working_with_wood,working with wood,Working
-14,en/fork,lift_food_to_mouth,lift food to mouth,Lifting
-15,en/knife,counting_pills,counting pills,Counting
-16,en/knife,kitchen_work,kitchen work,
-17,en/knife,open_plastic_package,open plastic package,
-18,en/knife,fighting,fighting,Fighting
-19,en/spoon,eating_food_off_plate,eating food off plate,Eating
-20,en/glass,holding_drink,holding drink,Holding
-21,en/spoon,hang_on_nose,hang on nose,Hanging
-22,en/knife,carving_features,carving features,Carving
-23,en/glass/n/wn/artifact,hold/v/wn/stative,hold/v/wn/stative,
-24,en/knife,making_models,making models,Making
-25,en/cupboard,dishes,dishes,
-26,en/knife,paring,paring,Paring
-27,en/spoon,serving_soup,serving soup,Serving
-28,en/dining_table,drinking_on,drinking on,Drinking
-29,en/knife,scratching,scratching,Scratching
-30,en/dining_table,family_discussions,family discussions,
-31,en/spoon,people_to_eat_soup_with,people to eat soup with,Eating
-32,en/knife,scoring,scoring,Scoring
-33,en/knife,butter,butter,
-34,en/cupboard,keeping_things_clean,keeping things clean,Keeping
-35,en/knife,kill_person,kill person,Killing
-36,en/spoon,eating_applesauce,eating applesauce,Eating
-37,en/knife,completing_place_setting,completing place setting,Completing
-38,en/fork,eating_meat,eating meat,Eating
-39,en/dining_table,eating_dinner,eating dinner,Eating
-40,en/knife,taking_off_ends,taking off ends,Taking
-41,en/knife,cut_chicken,cut chicken,
-42,en/dining_table,entertain_large_group_of_people,entertain large group of people,Entertaining
-43,en/glass,holding_liquid,holding liquid,Holding
-44,en/glass,drinking_liquid_from,drinking liquid from,Drinking
-45,en/knife,removing_labels,removing labels,Removing
-46,en/spoon,consuming_liquid,consuming liquid,Consuming
-47,en/fork,eating_food,eating food,Eating
-48,en/knife,decorating_cake,decorating cake,Decorating
-49,en/dining_table,discussions,discussions,
-50,en/spoon,scooping_food,scooping food,Scooping
-51,en/dining_table,playing_cards,playing cards,Playing
-52,en/knife,threatening,threatening,Threatening
-53,en/fork,piercing_food,piercing food,Piercing
-54,en/glass,drinking_out_of,drinking out of,Drinking
-55,en/spoon,liquid_foods,liquid foods,
-56,en/cupboard,coffee_mugs,coffee mugs,
-57,en/dining_table,putting_food_on,putting food on,Putting
-58,en/knife,alter_length_of_string_or_rope,alter length of string or rope,
-59,en/knife,making_mark,making mark,Making
-60,en/knife,digging,digging,Digging
-61,en/knife,cutting_food,cutting food,Cutting
-62,en/knife,chopping_vegetables,chopping vegetables,Chopping
-63,en/dining_table,family_meetings,family meetings,
-64,en/knife,eating_utensil,eating utensil,Eating
-65,en/dining_table,playing_games,playing games,Playing
-66,en/killing_people,knife,knife,
-67,en/knife,carving_wood,carving wood,Carving
-68,en/knife,making_hole,making hole,Making
-69,en/cupboard,board_cups,board cups,
-70,en/glass,drink_from,drink from,Drinking
-71,en/spoon,stir_soup,stir soup,Stirring
-72,en/knife,outdoors_living,outdoors living,Living
-73,en/fork,eat_meat,eat meat,Eating
-74,en/orange_juice,drinking,drinking,
-75,en/knife,cut_food,cut food,Cuting
-76,en/knife/n/wn/artifact,cut/n/wn/act,cut/n/wn/act,
-77,en/spoon,people_to_eat_cereal_with,people to eat cereal with,Eating
-78,en/knife,attaching_to_rifle,attaching to rifle,Attaching
-79,en/fork,moving_food_to_mouth,moving food to mouth,Moving
-80,en/spoon,eat,eat,Eating
-81,en/dining_table,dining,dining,
-82,en/dining_table,arranging_papers,arranging papers,Arranging
-83,en/knife,prying_things_open,prying things open,Prying
-84,en/cupboard,giving_things_home,giving things home,Giving
-85,en/dining_table,eating_dinner_on,eating dinner on,Eating
-86,en/spoon,eating,eating,Eating
-87,en/knife,boning,boning,
-88,en/knife,cracking_open,cracking open,Cracking
-89,en/glass,drinking_from,drinking from,Drinking
-90,en/knife,spreading_jam,spreading jam,Spreading
-91,en/knife,slitting,slitting,
-92,en/knife,unraveling,unraveling,Unraveling
-93,en/spoon,stir_food,stir food,Stirring
-94,en/knife,making_groove,making groove,Making
-95,en/cupboard,storing_junk,storing junk,Storing
-96,en/fork,providing_choice,providing choice,Providing
-97,en/dining_table,have_sex_with_spouse,have sex with spouse,
-98,en/knife,complementing_spoon_and_fork,complementing spoon and fork,Complementing
-99,en/dining_table,entertaining_others,entertaining others,Entertaining
-100,en/knife,mashing,mashing,
-101,en/knife,carving_initials,carving initials,Carving
-102,en/dining_table,eating_food,eating food,Eating
-103,en/knife,splitting,splitting,
-104,en/spoon,stirring_coffee,stirring coffee,Stirring
-105,en/spoon,eat_ice_cream,eat ice cream,Eating
-106,en/spoon,stirring_tea,stirring tea,Stirring
-107,en/fork,eating_food_with,eating food with,Eating
-108,en/spoon,taking_cough_syrup,taking cough syrup,Taking
-109,en/cupboard,keeping_things_safe,keeping things safe,Keeping
-110,en/knife,gouging,gouging,Gouging
-111,en/dining_table,laying_with_cutlery,laying with cutlery,Laying
-112,en/dining_table,leave_messages,leave messages,Leaving
-113,en/fork,eat_dinner,eat dinner,Eating
-114,en/knife,pare_apples,pare apples,
-115,en/knife,picking_things_out,picking things out,Picking
-116,en/knife,tool_in_shop,tool in shop,
-117,en/knife,cutting_steak,cutting steak,Cutting
-118,en/knife,slicing,slicing,
-119,en/cupboard,keeping_cups,keeping cups,Keeping
-120,en/dining_table,eat_dinner_on,eat dinner on,Eating
-121,en/dining_table,leaving_papers_on,leaving papers on,Leaving
-122,en/spoon,flinging,flinging,Flinging
-123,en/knife/n/wn/artifact,cut/n/wn/state,cut/n/wn/state,
-124,en/knife,disect,disect,
-125,en/knife,engraving,engraving,Engraving
-126,en/fork,eating_pie,eating pie,Eating
-127,en/spoon,stir_coffee,stir coffee,Stirring
-128,en/glass,seeing_through,seeing through,Seeing
-129,en/knife,playing_throwing_games,playing throwing games,Playing
-130,en/dining_table,eat_dinnner,eat dinnner,Eating
-131,en/fork,lifting_food_from_plate_to_mouth,lifting food from plate to mouth,Lifting
-132,en/knife,stabbing,stabbing,
-133,en/dining_table,formal_dining,formal dining,
-134,en/cupboard,store_bread,store bread,
-135,en/cupboard,storing_things,storing things,Storing
-136,en/fork,eating_vegetables,eating vegetables,Eating
-137,en/cupboard,keeping_things_tidy,keeping things tidy,Keeping
-138,en/knife,attacking_enemy,attacking enemy,Attacking
-139,en/knife,cut_rope,cut rope,
-140,en/dining_table,holding_center_pieces,holding center pieces,Holding
-141,en/fork,holding_food,holding food,Holding
-142,en/spoon,drinking,drinking,
-143,en/cupboard,store_crockery,store crockery,
-144,en/fork,eat_food,eat food,Eating
-145,en/glass,holding_liquids,holding liquids,Holding
-146,en/knife,piercing,piercing,Piercing
-147,en/dining_table,placing_served_food,placing served food,Placing
-148,en/fork,eating_food_off_plate,eating food off plate,Eating
-149,en/cupboard,store_dishes,store dishes,
-150,en/cupboard,stacking_dinner_plates,stacking dinner plates,Stacking
-151,en/cupboard,store_christmas_decorations,store christmas decorations,Storing
-152,en/spoon,eating_liquids,eating liquids,Eating
-153,en/fork,picking_up_food,picking up food,Picking
-154,en/spoon,eating_food_isn't_very_solid,eating food isn't very solid,Eating
-155,en/fruit,garnish,garnish,
-156,en/fork,eat_steak,eat steak,Eating
-157,en/dining_table,working_on_hobby,working on hobby,Working
-158,en/spoon,eat_with,eat with,Eating
-159,en/pickle,garnish,garnish,
-160,en/knife,tool_in_backpack,tool in backpack,
-161,en/dining_table,serving_dinner,serving dinner,Serving
-162,en/spoon,transporting_liquid_short_distances,transporting liquid short distances,Transporting
-163,en/knife,trimming,trimming,Trimming
-164,en/cupboard,storing_dishes,storing dishes,Storing
-165,en/spoon,eating_ice_cream,eating ice cream,Eating
-166,en/knife,spreading_cheese,spreading cheese,Spreading
-167,en/fork,turning_soil,turning soil,Turning
-168,en/knife,lacerating,lacerating,
-169,en/knife,killing,killing,Killing
-170,en/knife,coring,coring,
-171,en/knife,opening,opening,
-172,en/knife,gashing,gashing,Gashing
-173,en/knife/n/wn/artifact,stab/v/wn/contact,stab/v/wn/contact,
-174,en/spoon,eat_soup,eat soup,Eating
-175,en/dining_table,family_gatherings,family gatherings,
-176,en/knife,military_purposes,military purposes,
-177,en/spoon,drinking_soup,drinking soup,
-178,en/dining_table,eat_dinner,eat dinner,Eating
-179,en/knife,spreading,spreading,Spreading
-180,en/knife,cutting_string,cutting string,Cutting
-181,en/knife,ripping,ripping,Ripping
-182,en/knife,pare_apple,pare apple,Paring
-183,en/knife,turning_screw,turning screw,Turning
-184,en/knife,cutting,cutting,Cutting
-185,en/dining_table,entertain_guests,entertain guests,
-186,en/knife,slicing_bread,slicing bread,
-187,en/knife,eating_food,eating food,Eating
-188,en/dining_table,playing_games_on,playing games on,Playing
-189,en/cupboard,putting_things_on_top_of,putting things on top of,Putting
-190,en/fork,eat_meal,eat meal,Eating
-191,en/knife,forceful_moves,forceful moves,
-192,en/glass,holding_water,holding water,Holding
-193,en/knife,skinning_animals,skinning animals,Skinning
-194,en/knife,shaving,shaving,
-195,en/cupboard,putting_things_in,putting things in,Putting
-196,en/knife,peeling,peeling,Peeling
-197,en/glass,holding_liquids_and_ice_cubes,holding liquids and ice cubes,Holding
-198,en/glass,drinking,drinking,
-199,en/spoon,measuring_ingredients,measuring ingredients,Measuring
-200,en/knife,letting_blood,letting blood,Letting
-201,en/knife,dividing,dividing,Dividing
-202,en/knife,prying_open,prying open,Prying
-203,en/knife,cut_meat_with,cut meat with,Cuting
-204,en/fork,dividing_road_in_two,dividing road in two,Dividing
-205,en/knife,separating,separating,Separating
-206,en/glass,drink_margaritas_out_of,drink margaritas out of,Drinking
-207,en/spoon,mixing_soup,mixing soup,Mixing
-208,en/cupboard,store_cups,store cups,
-209,en/spoon,eating_cold_ceral,eating cold ceral,Eating
-210,en/knife/n/wn/artifact,cut/v/wn/contact,cut/v/wn/contact,
-211,en/dining_table,holiday_meals,holiday meals,
-212,en/cupboard,holding_silverware,holding silverware,Holding
-213,en/spoon,eating_cereal,eating cereal,Eating
-214,en/dining_table,have_gathering_of_friends,have gathering of friends,
-215,en/cupboard,storing_bones,storing bones,Storing
-216,en/spoon,eat_yogurt,eat yogurt,Eating
-217,en/spoon,cooling_liquid_by_stirring,cooling liquid by stirring,Cooling
-218,en/dining_table,doing_homework,doing homework,Doing
-219,en/dining_table,having_friends_around_for_dinner,having friends around for dinner,Having
-220,en/butter,flavoring,flavoring,
-221,en/spoon,scoop_ice_cream,scoop ice cream,
-222,en/knife,prying_things_out,prying things out,Prying
-223,en/dining_table,playing_cards_sometimes,playing cards sometimes,Playing
-224,en/knife,breaking_down_into_pieces,breaking down into pieces,Breaking
-225,en/dining_table,doing_jigsaw_puzzles_on,doing jigsaw puzzles on,Doing
-226,en/dining_table,making_love,making love,Making
-227,en/spoon,eat_cereal_with,eat cereal with,Eating
-228,en/fork,eat_vegetables,eat vegetables,Eating
-229,en/knife,notching,notching,
-230,en/knife,cutting_meat,cutting meat,Cutting
-231,en/glass,making_windows_and_for_drinking_cups,making windows and for drinking cups,Making
-232,en/dining_table,sitting_around_with_family,sitting around with family,Sitting
-233,en/knife,cut_string,cut string,
-234,en/knife,pricking_skin,pricking skin,Pricking
+0,en/dining_table,playing_cards_sometimes,playing cards sometimes,Playing
+1,en/fork,dividing_road_in_two,dividing road in two,Dividing
+2,en/knife,slicing_bread,slicing bread,
+3,en/knife,complementing_spoon_and_fork,complementing spoon and fork,Complementing
+4,en/spoon,dish_to_run_away_with,dish to run away with,Dishing
+5,en/spoon,transporting_liquid_short_distances,transporting liquid short distances,Transporting
+6,en/cupboard,store_dishes,store dishes,
+7,en/cupboard,keeping_things_tidy,keeping things tidy,Keeping
+8,en/glass,making_windows_and_for_drinking_cups,making windows and for drinking cups,Making
+9,en/knife,mashing,mashing,
+10,en/dining_table,eat_dinner,eat dinner,Eating
+11,en/dining_table,serving_dinner,serving dinner,Serving
+12,en/knife,cut_chicken,cut chicken,
+13,en/cupboard,storing_crockery,storing crockery,Storing
+14,en/spoon,eat_soup,eat soup,Eating
+15,en/dining_table,have_gathering_of_friends,have gathering of friends,
+16,en/knife,putting_butcher_block,putting butcher block,Putting
+17,en/glass,drinking_out_of,drinking out of,Drinking
+18,en/glass,drinking,drinking,
+19,en/knife,military_purposes,military purposes,
+20,en/cupboard,storing_bones,storing bones,Storing
+21,en/glass,holding_liquids_and_ice_cubes,holding liquids and ice cubes,Holding
+22,en/fork,eating,eating,Eating
+23,en/knife,picking_things_out,picking things out,Picking
+24,en/knife,making_mark,making mark,Making
+25,en/knife,carving_initials,carving initials,Carving
+26,en/knife,tool_in_shop,tool in shop,
+27,en/knife,dividing,dividing,Dividing
+28,en/cupboard,putting_things_on_top_of,putting things on top of,Putting
+29,en/cupboard,keeping_things_clean,keeping things clean,Keeping
+30,en/fork,holding_food,holding food,Holding
+31,en/fork,turning_soil,turning soil,Turning
+32,en/spoon,eating_ice_cream,eating ice cream,Eating
+33,en/dining_table,making_love,making love,Making
+34,en/knife,cutting,cutting,Cutting
+35,en/knife,letting_blood,letting blood,Letting
+36,en/spoon,taking_cough_syrup,taking cough syrup,Taking
+37,en/knife,unraveling,unraveling,Unraveling
+38,en/spoon,people_to_eat_soup_with,people to eat soup with,Eating
+39,en/cupboard,store_christmas_decorations,store christmas decorations,Storing
+40,en/dining_table,eating_meal,eating meal,Eating
+41,en/knife,spearing_pieces,spearing pieces,Spearing
+42,en/knife,completing_place_setting,completing place setting,Completing
+43,en/dining_table,arranging_papers,arranging papers,Arranging
+44,en/knife,spreading_jam,spreading jam,Spreading
+45,en/spoon,eat_cereal_with,eat cereal with,Eating
+46,en/dining_table,family_gatherings,family gatherings,
+47,en/fork,lift_food_to_mouth,lift food to mouth,Lifting
+48,en/fork,eating_food,eating food,Eating
+49,en/glass,holding_liquid,holding liquid,Holding
+50,en/spoon,drinking,drinking,
+51,en/cupboard,store_bread,store bread,
+52,en/knife,spreading,spreading,Spreading
+53,en/spoon,measuring_ingredients,measuring ingredients,Measuring
+54,en/fork,picking_up_food,picking up food,Picking
+55,en/knife,cutting_steak,cutting steak,Cutting
+56,en/knife,carving_features,carving features,Carving
+57,en/dining_table,doing_jigsaw_puzzles_on,doing jigsaw puzzles on,Doing
+58,en/spoon,mixing_soup,mixing soup,Mixing
+59,en/dining_table,entertain_large_group_of_people,entertain large group of people,Entertaining
+60,en/knife,kitchen_work,kitchen work,
+61,en/knife,chopping_vegetables,chopping vegetables,Chopping
+62,en/knife,killing,killing,Killing
+63,en/knife,lacerating,lacerating,
+64,en/dining_table,playing_games,playing games,Playing
+65,en/knife/n/wn/artifact,cut/n/wn/act,cut/n/wn/act,
+66,en/spoon,flinging,flinging,Flinging
+67,en/butter,flavoring,flavoring,
+68,en/knife,cut_string,cut string,
+69,en/knife,working_with_wood,working with wood,Working
+70,en/knife,separating,separating,Separating
+71,en/cupboard,keeping_cups,keeping cups,Keeping
+72,en/cupboard,saving_counter_space,saving counter space,Saving
+73,en/glass,seeing_through,seeing through,Seeing
+74,en/knife,engraving,engraving,Engraving
+75,en/glass,drink_from,drink from,Drinking
+76,en/knife,scoring,scoring,Scoring
+77,en/spoon,liquid_foods,liquid foods,
+78,en/knife,coring,coring,
+79,en/knife,fighting,fighting,Fighting
+80,en/dining_table,holding_center_pieces,holding center pieces,Holding
+81,en/knife,paring,paring,Paring
+82,en/dining_table,putting_food_on,putting food on,Putting
+83,en/fork,eating_food_with,eating food with,Eating
+84,en/spoon,people_to_eat_cereal_with,people to eat cereal with,Eating
+85,en/dining_table,family_meetings,family meetings,
+86,en/knife,notching,notching,
+87,en/knife,slitting,slitting,
+88,en/knife,prying_open,prying open,Prying
+89,en/fork,eat_meal,eat meal,Eating
+90,en/fork,providing_choice,providing choice,Providing
+91,en/knife,making_hole,making hole,Making
+92,en/spoon,drinking_soup,drinking soup,
+93,en/cupboard,storing_food,storing food,Storing
+94,en/knife/n/wn/artifact,stab/v/wn/contact,stab/v/wn/contact,
+95,en/knife,digging,digging,Digging
+96,en/knife,butter,butter,
+97,en/knife,making_groove,making groove,Making
+98,en/knife,piercing,piercing,Piercing
+99,en/fork,eating_meat,eating meat,Eating
+100,en/spoon,stir_food,stir food,Stirring
+101,en/knife,alter_length_of_string_or_rope,alter length of string or rope,
+102,en/dining_table,dining,dining,
+103,en/spoon,stirring_coffee,stirring coffee,Stirring
+104,en/knife,cracking_open,cracking open,Cracking
+105,en/spoon,cooling_liquid_by_stirring,cooling liquid by stirring,Cooling
+106,en/spoon,mixing_ingredients,mixing ingredients,Mixing
+107,en/cupboard,stacking_dinner_plates,stacking dinner plates,Stacking
+108,en/knife,making_models,making models,Making
+109,en/knife,counting_pills,counting pills,Counting
+110,en/knife,cutting_string,cutting string,Cutting
+111,en/knife,attaching_to_rifle,attaching to rifle,Attaching
+112,en/killing_people,knife,knife,
+113,en/cupboard,holding_silverware,holding silverware,Holding
+114,en/knife,cutting_meat,cutting meat,Cutting
+115,en/cupboard,store_cups,store cups,
+116,en/knife,shaving,shaving,
+117,en/spoon,eating_liquids,eating liquids,Eating
+118,en/spoon,eat,eat,Eating
+119,en/dining_table,playing_games_on,playing games on,Playing
+120,en/knife,cut_food,cut food,Cuting
+121,en/knife,attacking_enemy,attacking enemy,Attacking
+122,en/dining_table,eat_dinnner,eat dinnner,Eating
+123,en/knife/n/wn/artifact,cut/v/wn/contact,cut/v/wn/contact,
+124,en/spoon,serving_soup,serving soup,Serving
+125,en/cupboard,coffee_mugs,coffee mugs,
+126,en/spoon,scooping_food,scooping food,Scooping
+127,en/spoon,scoop_ice_cream,scoop ice cream,
+128,en/knife,tool_in_backpack,tool in backpack,
+129,en/dining_table,holiday_meals,holiday meals,
+130,en/knife,severing,severing,Severing
+131,en/knife,spreading_cheese,spreading cheese,Spreading
+132,en/fork,eat_meat,eat meat,Eating
+133,en/cupboard,store_crockery,store crockery,
+134,en/dining_table,sitting_around_with_family,sitting around with family,Sitting
+135,en/glass,drinking_liquid_from,drinking liquid from,Drinking
+136,en/knife,disect,disect,
+137,en/spoon,eating_cold_ceral,eating cold ceral,Eating
+138,en/fork,eat_food,eat food,Eating
+139,en/knife/n/wn/artifact,cut/n/wn/state,cut/n/wn/state,
+140,en/spoon,stirring_tea,stirring tea,Stirring
+141,en/dining_table,eating_food,eating food,Eating
+142,en/butter_knife,spreading_butter_on_bread,spreading butter on bread,Spreading
+143,en/glass/n/wn/artifact,hold/v/wn/stative,hold/v/wn/stative,
+144,en/knife,scratching,scratching,Scratching
+145,en/knife,pricking_skin,pricking skin,Pricking
+146,en/fork,eating_food_off_plate,eating food off plate,Eating
+147,en/fork,eat_steak,eat steak,Eating
+148,en/fork,moving_food_to_mouth,moving food to mouth,Moving
+149,en/fork,eating_vegetables,eating vegetables,Eating
+150,en/orange_juice,drinking,drinking,
+151,en/fork,piercing_food,piercing food,Piercing
+152,en/dining_table,working_on_hobby,working on hobby,Working
+153,en/knife,pare_apple,pare apple,Paring
+154,en/fruit,garnish,garnish,
+155,en/knife,breaking_down_into_pieces,breaking down into pieces,Breaking
+156,en/dining_table,formal_dining,formal dining,
+157,en/knife,slicing,slicing,
+158,en/knife,skinning_animals,skinning animals,Skinning
+159,en/knife,cutting_food,cutting food,Cutting
+160,en/dining_table,eating_dinner,eating dinner,Eating
+161,en/dining_table,family_discussions,family discussions,
+162,en/knife,gouging,gouging,Gouging
+163,en/fork,eating_pie,eating pie,Eating
+164,en/knife,gashing,gashing,Gashing
+165,en/dining_table,eat_dinner_on,eat dinner on,Eating
+166,en/knife,eating_food,eating food,Eating
+167,en/fork,lifting_food_from_plate_to_mouth,lifting food from plate to mouth,Lifting
+168,en/dining_table,drinking_on,drinking on,Drinking
+169,en/knife,cut_rope,cut rope,
+170,en/dining_table,playing_cards,playing cards,Playing
+171,en/knife,eating_utensil,eating utensil,Eating
+172,en/spoon,eat_ice_cream,eat ice cream,Eating
+173,en/knife,turning_screw,turning screw,Turning
+174,en/dining_table,leaving_papers_on,leaving papers on,Leaving
+175,en/knife,opening,opening,
+176,en/dining_table,doing_homework,doing homework,Doing
+177,en/spoon,eat_with,eat with,Eating
+178,en/cupboard,putting_things_in,putting things in,Putting
+179,en/cupboard,storing_junk,storing junk,Storing
+180,en/knife,splitting,splitting,
+181,en/fork,eat,eat,Eating
+182,en/knife,cut_meat_with,cut meat with,Cuting
+183,en/knife,kill_person,kill person,Killing
+184,en/dining_table,eating_dinner_on,eating dinner on,Eating
+185,en/pickle,garnish,garnish,
+186,en/spoon,stir_coffee,stir coffee,Stirring
+187,en/cupboard,keeping_things_safe,keeping things safe,Keeping
+188,en/spoon,eating_cereal,eating cereal,Eating
+189,en/knife,threatening,threatening,Threatening
+190,en/spoon,eating_applesauce,eating applesauce,Eating
+191,en/knife,prying_things_out,prying things out,Prying
+192,en/knife,ripping,ripping,Ripping
+193,en/spoon,eat_yogurt,eat yogurt,Eating
+194,en/cupboard,storing_dishes,storing dishes,Storing
+195,en/dining_table,have_sex_with_spouse,have sex with spouse,
+196,en/knife,removing_labels,removing labels,Removing
+197,en/cupboard,board_cups,board cups,
+198,en/glass,drinking_from,drinking from,Drinking
+199,en/dining_table,laying_with_cutlery,laying with cutlery,Laying
+200,en/fork,eat_dinner,eat dinner,Eating
+201,en/spoon,hang_on_nose,hang on nose,Hanging
+202,en/knife,stabbing,stabbing,
+203,en/dining_table,leave_messages,leave messages,Leaving
+204,en/spoon,eating_food_off_plate,eating food off plate,Eating
+205,en/dining_table,having_friends_around_for_dinner,having friends around for dinner,Having
+206,en/dining_table,discussions,discussions,
+207,en/knife,carving_wood,carving wood,Carving
+208,en/spoon,eating,eating,Eating
+209,en/glass,holding_water,holding water,Holding
+210,en/glass,holding_drink,holding drink,Holding
+211,en/knife,outdoors_living,outdoors living,Living
+212,en/knife,forceful_moves,forceful moves,
+213,en/knife,prying_things_open,prying things open,Prying
+214,en/knife,peeling,peeling,Peeling
+215,en/cupboard,dishes,dishes,
+216,en/dining_table,entertain_guests,entertain guests,
+217,en/knife,decorating_cake,decorating cake,Decorating
+218,en/spoon,stir_soup,stir soup,Stirring
+219,en/knife,pare_apples,pare apples,
+220,en/knife,boning,boning,
+221,en/spoon,eating_food_isn't_very_solid,eating food isn't very solid,Eating
+222,en/dining_table,special_occassions,special occassions,
+223,en/glass,holding_liquids,holding liquids,Holding
+224,en/cupboard,storing_things,storing things,Storing
+225,en/glass,drink_margaritas_out_of,drink margaritas out of,Drinking
+226,en/knife,open_plastic_package,open plastic package,
+227,en/cupboard,giving_things_home,giving things home,Giving
+228,en/knife,playing_throwing_games,playing throwing games,Playing
+229,en/knife,taking_off_ends,taking off ends,Taking
+230,en/fork,eat_vegetables,eat vegetables,Eating
+231,en/dining_table,entertaining_others,entertaining others,Entertaining
+232,en/knife,trimming,trimming,Trimming
+233,en/spoon,consuming_liquid,consuming liquid,Consuming
+234,en/dining_table,placing_served_food,placing served food,Placing

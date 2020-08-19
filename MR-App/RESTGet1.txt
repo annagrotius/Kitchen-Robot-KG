@@ -1,0 +1,124 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Networking; // allows us to use the UnityWebRequest class
+using SimpleJSON;
+using UnityEngine.UI;
+using TMPro;
+using System;
+
+
+public class RESTGet : MonoBehaviour
+{
+    // List<string> EANlist; // a list of strings that are received from the REST call
+    // url of the actual rest call
+    //eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ1bmtub3duIiwiaXNzIjoiaHR0cHM6Ly9hcGkua3JyLnRyaXBseS5jYyIsImp0aSI6IjY2MzRjYmRmLTZiZGMtNGZiMi1hM2E3LTE4YmQxMWJlY2NmMiIsInVpZCI6IjVlN2UxMTRlYjM3YjFlMDM1MjdjNWVmMCIsImlhdCI6MTU5NzY4MzU0Mn0.VXcCnorR32-wSuShcgQpT6IyBpLBwG72aoQXIuLotlQ
+    string URL = "https://api.krr.triply.cc/queries/annadg/affords-rdfs/run";
+    public TextMeshProUGUI[] edibleEntitiesTextArray;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        // set the scene here
+
+        foreach (TextMeshProUGUI edibleEntityText in edibleEntitiesTextArray)
+        {
+            edibleEntityText.text = "";
+        }
+
+
+        /*
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if rb.OnSelected() == true
+        {
+            StartCoroutine(getData(URL));
+        }
+        */
+    }
+
+    public void OnEdibleButton()
+    {
+        StartCoroutine(getData(URL));
+
+        foreach (TextMeshProUGUI edibleEntityText in edibleEntitiesTextArray)
+        {
+            edibleEntityText.text = "";
+        }
+    }
+
+
+    // new 'coroutine' function
+    IEnumerator getData(string uri)
+    {
+        Debug.Log("Processing Website");
+
+        using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
+        {
+            // Call/Request website and wait to finish download
+            yield return webRequest.SendWebRequest();
+            if (webRequest.isNetworkError || webRequest.isHttpError)
+            {
+                Debug.Log("No response from website");
+            }
+            else
+            {
+                // gets results as text
+                //Debug.Log(webRequest.downloadHandler.text);
+                //processResponse(webRequest.downloadHandler.text);
+
+                // get results from JSON
+                Debug.Log(webRequest.downloadHandler.text);
+                Debug.Log("Data retrieved!");
+                JSONNode edibleData = JSON.Parse(webRequest.downloadHandler.text); // will return JSON response as a full text string
+                Debug.Log(edibleData.Count);
+
+                // loop through edibleData response and check which items are edible 
+                // IDEA: have a list of instances on the screen. check if these instances are in the json response. 
+                // if the instance is in the response, put it in a list, and put the rest in another list. One list is for edible and one for non edible. 
+
+                for (int i = 0; i < edibleData.Count; i++)
+                {
+
+                }
+
+
+                // create objects for the data wanted
+                //JSONNode edibleEntities = edibleData["ke"];
+                //string[] edibleEntityNames = new string[edibleEntities.Count];
+
+                    //for (int i = 0; i < edibleEntities.Count; i++)
+                    //{
+                    //    edibleEntities[i] = edibleEntities["ke"]["value"];
+                    //}
+
+                    //// Set UI objects
+                    //for (int i = 0; i < edibleEntityNames.Length; i++)
+                    //{
+                    //    edibleEntitiesTextArray[i].text = edibleEntityNames[i];
+                    //}
+
+                    //Debug.Log(message: edibleEntityNames);
+            }
+        }
+    }
+
+       private void processResponse(string responsetext)
+        {
+        //if you get a json response you neet to implement the json handler: 
+        //jsonData respdata = JsonUtility.FromJson<jsonData>(responsetext);
+
+        // Debug.Log(responsetext);
+
+        //Handler to go through result list
+         if (responsetext.Contains("4058172179648"))
+         {
+             Debug.Log("EAN found");
+         }
+         else
+         {
+             Debug.Log("EAN not found");
+         }
+
+    }
+
+ }

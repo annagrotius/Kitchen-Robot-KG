@@ -15,7 +15,7 @@ def onto_to_graph(ontology, ontology_namespace, ontology_prefix, filename):
         - ontology_namespace: namespace of the ontology
         - ontology_prefix: prefix of the ontology
         - filename: filename under which to name the ontology
-    Output: An ontology saves as an ntriple file and  ttl file.
+    Output: An ontology saved as an ntriple file and  ttl file.
     """
     ontology.save(file = f'{filename}.owl', format = "rdfxml")
     g = Graph()
@@ -66,9 +66,6 @@ def main():
             # equivalent_to= [superAction]
             # equivalent_to= [potential_action, superAction]
             # equivalent_to = PropertyChain([potential_action, superAction])
-
-        affords = Imp()
-        affords.set_as_rule("""potential_action(?KitchenEntity,?Action), action_affordance(?Action,Affordance) -> affords(?KitchenEntity,?Affordance)""")
 
     # Affordance.equivalent_to.append(affords.PropertyChain([potential_action, superAction]))
 
