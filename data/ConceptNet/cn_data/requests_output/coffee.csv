@@ -1,0 +1,1001 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+coffee,/c/en/coffee,IsA,a stimulant,/c/en/stimulant,[[coffee]] is [[a stimulant]],5.291502622129181
+Coffee,/c/en/coffee,HasA,caffeine,/c/en/caffeine,[[Coffee]] contains [[caffeine]],4.898979485566356
+Coffee,/c/en/coffee,HasProperty,served hot,/c/en/served_hot,[[Coffee]] is [[served hot]],4.47213595499958
+Café,/c/pt/café/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[Café]] is a translation of [[coffee]],3.4641016151377544
+coffee,/c/en/coffee,AtLocation,a coffee shop,/c/en/coffee_shop,You are likely to find [[coffee]] in [[a coffee shop]].,3.4641016151377544
+a mug,/c/en/mug,UsedFor,coffee,/c/en/coffee,[[a mug]] is used for [[coffee]],2.82842712474619
+Coffee,/c/en/coffee,ReceivesAction,made from coffee beans,/c/en/made_from_coffee_beans,[[Coffee]] is [[made from coffee beans]],2.82842712474619
+a sugar,/c/en/sugar,AtLocation,coffee,/c/en/coffee,You are likely to find [[a sugar]] in [[coffee]],2.82842712474619
+sugar,/c/en/sugar,RelatedTo,coffee,/c/en/coffee,[[sugar]] is related to [[coffee]],2.6548069609672194
+café,/c/es/café/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[café]] is a translation of [[coffee]],2.0
+cappuccino coffee,/c/en/cappuccino_coffee/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[cappuccino coffee]] is a type of [[coffee]],2.0
+珈琲,/c/ja/珈琲/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[珈琲]] is a translation of [[coffee]],2.0
+coffee,/c/en/coffee,HasA,caffein,/c/en/caffein,[[coffee]] contains [[caffein]],2.0
+Coffee,/c/en/coffee,IsA,a good after dinner drink,/c/en/good_after_dinner_drink,[[Coffee]] is [[a good after dinner drink]],2.0
+mokka,/c/no/mokka/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[mokka]] is a translation of [[coffee]],2.0
+café,/c/fr/café/n,Synonym,coffee,/c/en/coffee,,2.0
+cafe au lait,/c/en/cafe_au_lait/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[cafe au lait]] is a type of [[coffee]],2.0
+กาแฟ,/c/th/กาแฟ/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[กาแฟ]] is a translation of [[coffee]],2.0
+コーヒーノキ,/c/ja/コーヒーノキ/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[コーヒーノキ]] is a translation of [[coffee]],2.0
+Coffee,/c/en/coffee,IsA,a beverage,/c/en/beverage,[[Coffee]] is [[a beverage]],2.0
+キャフェ,/c/ja/キャフェ/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[キャフェ]] is a translation of [[coffee]],2.0
+coffee,/c/en/coffee,AtLocation,a can,/c/en/can,*Something you find in [[a can]] is [[coffee]],2.0
+java,/c/en/java/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[java]] is a synonym of [[coffee]],2.0
+coffee,/c/en/coffee/n/wn/plant,IsA,tree,/c/en/tree/n/wn/plant,[[coffee]] is a type of [[tree]],2.0
+kafe,/c/eu/kafe/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[kafe]] is a translation of [[coffee]],2.0
+kopi,/c/ms/kopi/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[kopi]] is a translation of [[coffee]],2.0
+café,/c/fr/café/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[café]] is a translation of [[coffee]],2.0
+Coffee,/c/en/coffee,IsA,an addictive substance,/c/en/addictive_substance,[[Coffee]] is [[an addictive substance]],2.0
+café,/c/pt/café/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[café]] is a translation of [[coffee]],2.0
+kawa,/c/pl/kawa/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[kawa]] is a translation of [[coffee]],2.0
+drip coffee,/c/en/drip_coffee/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[drip coffee]] is a type of [[coffee]],2.0
+カフエ,/c/ja/カフエ/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[カフエ]] is a translation of [[coffee]],2.0
+coffee substitute,/c/en/coffee_substitute/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[coffee substitute]] is a type of [[coffee]],2.0
+coffee,/c/en/coffee/n,Synonym,café,/c/fr/café,,2.0
+Arabian coffee,/c/en/arabian_coffee/n/wn/plant,IsA,coffee,/c/en/coffee/n/wn/plant,[[Arabian coffee]] is a type of [[coffee]],2.0
+coffee,/c/en/coffee/n,Synonym,kahva,/c/sh/kahva,,2.0
+珈琲,/c/ja/珈琲/a,Synonym,coffee,/c/en/coffee,,2.0
+findžan,/c/sh/findžan/n,RelatedTo,coffee,/c/en/coffee,,2.0
+robusta coffee,/c/en/robusta_coffee/n/wn/plant,IsA,coffee,/c/en/coffee/n/wn/plant,[[robusta coffee]] is a type of [[coffee]],2.0
+café,/c/gl/café/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[café]] is a translation of [[coffee]],2.0
+iced coffee,/c/en/iced_coffee/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[iced coffee]] is a type of [[coffee]],2.0
+pokok kopi,/c/ms/pokok_kopi/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[pokok kopi]] is a translation of [[coffee]],2.0
+pianta del caffè,/c/it/pianta_del_caffè/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[pianta del caffè]] is a translation of [[coffee]],2.0
+kahvipensas,/c/fi/kahvipensas/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[kahvipensas]] is a translation of [[coffee]],2.0
+coffee,/c/en/coffee,IsA,a popular drink,/c/en/popular_drink,[[coffee]] is [[a popular drink]],2.0
+ต้นกาแฟ,/c/th/ต้นกาแฟ/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[ต้นกาแฟ]] is a translation of [[coffee]],2.0
+coffee,/c/en/coffee/n/wn/food,Synonym,coffee bean,/c/en/coffee_bean/n/wn/food,[[coffee]] is a synonym of [[coffee bean]],2.0
+kaffe,/c/no/kaffe/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[kaffe]] is a translation of [[coffee]],2.0
+kawowiec,/c/pl/kawowiec/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[kawowiec]] is a translation of [[coffee]],2.0
+قَهْوَة,/c/ar/قهوة/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[قَهْوَة]] is a translation of [[coffee]],2.0
+espresso,/c/en/espresso/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[espresso]] is a type of [[coffee]],2.0
+mocha,/c/en/mocha/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[mocha]] is a type of [[coffee]],2.0
+caffè,/c/it/caffè/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[caffè]] is a translation of [[coffee]],2.0
+kahva,/c/sh/kahva/n,RelatedTo,coffee,/c/en/coffee,,2.0
+Irish coffee,/c/en/irish_coffee/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[Irish coffee]] is a type of [[coffee]],2.0
+cafe royale,/c/en/cafe_royale/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[cafe royale]] is a type of [[coffee]],2.0
+coffee tree,/c/en/coffee_tree/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[coffee tree]] is a synonym of [[coffee]],2.0
+kafa,/c/sh/kafa/n,RelatedTo,coffee,/c/en/coffee,,2.0
+coffee,/c/en/coffee/n/wn/food,IsA,beverage,/c/en/beverage/n/wn/food,[[coffee]] is a type of [[beverage]],2.0
+جاوه,/c/fa/جاوه/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[جاوه]] is a translation of [[coffee]],2.0
+ホット コーヒー,/c/ja/ホット_コーヒー/n,Synonym,coffee,/c/en/coffee,,2.0
+kafe,/c/eu/kafe/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[kafe]] is a translation of [[coffee]],2.0
+kahvi,/c/fi/kahvi/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[kahvi]] is a translation of [[coffee]],2.0
+ホットコーヒー,/c/ja/ホットコーヒー/n,Synonym,coffee,/c/en/coffee,,2.0
+coffee,/c/en/coffee,IsA,an acquired taste,/c/en/acquired_taste,[[coffee]] is [[an acquired taste]],2.0
+café,/c/fr/café/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[café]] is a translation of [[coffee]],2.0
+coffee,/c/en/coffee,AtLocation,a cup,/c/en/cup,*Something you find in [[a cup]] is [[coffee]],2.0
+カフェー,/c/ja/カフェー/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[カフェー]] is a translation of [[coffee]],2.0
+mokka,/c/da/mokka/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[mokka]] is a translation of [[coffee]],2.0
+Turkish coffee,/c/en/turkish_coffee/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[Turkish coffee]] is a type of [[coffee]],2.0
+cafè,/c/ca/cafè/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[cafè]] is a translation of [[coffee]],2.0
+coffee,/c/en/coffee,AtLocation,a internet cafe,/c/en/internet_cafe,*Something you find at [[a internet cafe]] is [[coffee]],2.0
+coffee,/c/en/coffee/n/wn/attribute,Synonym,chocolate,/c/en/chocolate/n/wn/attribute,[[coffee]] is a synonym of [[chocolate]],2.0
+coffee,/c/en/coffee/n,Synonym,kava,/c/sh/kava,,2.0
+coffee,/c/en/coffee,IsA,a bushy plant,/c/en/bushy_plant,[[coffee]] is [[a bushy plant]],2.0
+คอฟฟี่,/c/th/คอฟฟี่/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[คอฟฟี่]] is a translation of [[coffee]],2.0
+コーヒーブラウン,/c/ja/コーヒーブラウン/n,Synonym,coffee,/c/en/coffee,,2.0
+Liberian coffee,/c/en/liberian_coffee/n/wn/plant,IsA,coffee,/c/en/coffee/n/wn/plant,[[Liberian coffee]] is a type of [[coffee]],2.0
+kaffi,/c/no/kaffi/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[kaffi]] is a translation of [[coffee]],2.0
+café,/c/es/café/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[café]] is a translation of [[coffee]],2.0
+カフェ,/c/ja/カフェ/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[カフェ]] is a translation of [[coffee]],2.0
+kava,/c/sh/kava/n,RelatedTo,coffee,/c/en/coffee,,2.0
+fildžan,/c/sh/fildžan/n,RelatedTo,coffee,/c/en/coffee,,2.0
+cafè,/c/ca/cafè/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[cafè]] is a translation of [[coffee]],2.0
+caffè,/c/it/caffè/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[caffè]] is a translation of [[coffee]],2.0
+coffee bean,/c/en/coffee_bean/n/wn/food,PartOf,coffee,/c/en/coffee/n/wn/plant,[[coffee bean]] is a part of [[coffee]],2.0
+kahvi,/c/fi/kahvi/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[kahvi]] is a translation of [[coffee]],2.0
+coffee,/c/en/coffee/n,Synonym,kafa,/c/sh/kafa,,2.0
+kopi,/c/id/kopi/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[kopi]] is a translation of [[coffee]],2.0
+coffee,/c/en/coffee,AtLocation,a container,/c/en/container,*Something you find in [[a container]] is [[coffee]],2.0
+decaffeinated coffee,/c/en/decaffeinated_coffee/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[decaffeinated coffee]] is a type of [[coffee]],2.0
+kafe,/c/sq/kafe/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[kafe]] is a translation of [[coffee]],2.0
+coffee,/c/en/coffee,HasProperty,good in the morning,/c/en/good_in_morning,[[coffee]] is [[good in the morning]],2.0
+árvore de café,/c/pt/árvore_de_café/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[árvore de café]] is a translation of [[coffee]],2.0
+instant coffee,/c/en/instant_coffee/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[instant coffee]] is a type of [[coffee]],2.0
+kafeondo,/c/eu/kafeondo/n/wn/plant,Synonym,coffee,/c/en/coffee/n/wn/plant,[[kafeondo]] is a translation of [[coffee]],2.0
+kawa,/c/pl/kawa/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[kawa]] is a translation of [[coffee]],2.0
+coffees,/c/en/coffees/n,FormOf,coffee,/c/en/coffee,,2.0
+moka,/c/it/moka/n,RelatedTo,coffee,/c/en/coffee,,2.0
+coffee,/c/en/coffee,AtLocation,the office,/c/en/office,*Something you find in [[the office]] is [[coffee]],2.0
+kaffe,/c/da/kaffe/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[kaffe]] is a translation of [[coffee]],2.0
+cafe noir,/c/en/cafe_noir/n/wn/food,IsA,coffee,/c/en/coffee/n/wn/food,[[cafe noir]] is a type of [[coffee]],2.0
+コーヒー,/c/ja/コーヒー/n/wn/food,Synonym,coffee,/c/en/coffee/n/wn/food,[[コーヒー]] is a translation of [[coffee]],2.0
+mug,/c/en/mug,RelatedTo,coffee,/c/en/coffee,[[mug]] is related to [[coffee]],1.9660000000000002
+break,/c/en/break,RelatedTo,coffee,/c/en/coffee,[[break]] is related to [[coffee]],1.505
+咖啡,/c/zh/咖啡,Synonym,coffee,/c/en/coffee,,1.5
+coffee,/c/en/coffee,RelatedTo,latte,/c/en/latte,[[coffee]] is related to [[latte]],1.3330000000000002
+cafe,/c/en/cafe,RelatedTo,coffee,/c/en/coffee,[[cafe]] is related to [[coffee]],1.1429999999999998
+咖,/c/zh/咖,Synonym,coffee,/c/en/coffee,,1.0
+grecque,/c/en/grecque/n,RelatedTo,coffee,/c/en/coffee,,1.0
+कफी,/c/ne/कफी/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ཇ ཀོབ པི,/c/bo/ཇ_ཀོབ_པི,,1.0
+coffee,/c/en/coffee/n,Synonym,kofe,/c/sm/kofe,,1.0
+coffee,/c/en/coffee/n,Synonym,kaf,/c/vo/kaf,,1.0
+филџан,/c/mk/филџан/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kahvikalusto,/c/fi/kahvikalusto/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffebryggare,/c/sv/kaffebryggare/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cà phê,/c/vi/cà_phê/n,Synonym,coffee,/c/en/coffee,,1.0
+espresso,/c/en/espresso/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ཁོ ཕི,/c/bo/ཁོ_ཕི,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ccafè,/c/nap/ccafè,,1.0
+fika,/c/sv/fika/n/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+འཚིག ཇ,/c/bo/འཚིག_ཇ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ቡን,/c/ti/ቡን,,1.0
+coffee,/c/en/coffee/n,Synonym,gohwééh,/c/nv/gohwééh,,1.0
+ကော်ဖီ,/c/my/ကော်ဖီ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+anticoffee,/c/en/anticoffee,DerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/lmo/café,,1.0
+civet coffee,/c/en/civet_coffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,AtLocation,a conference,/c/en/conference,*Something you find at [[a conference]] is [[coffee]],1.0
+frappe,/c/en/frappe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee bar,/c/en/coffee_bar/n,RelatedTo,coffee,/c/en/coffee,,1.0
+biggin,/c/en/biggin/n/wikt/en_2,RelatedTo,coffee,/c/en/coffee,,1.0
+咖啡,/c/zh/咖啡/n,RelatedTo,coffee,/c/en/coffee,,1.0
+läksiäiskahvit,/c/fi/läksiäiskahvit/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,HasProperty,dangerous to your joints,/c/en/dangerous_to_joints,[[coffee]] is [[dangerous to your joints]],1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/nrf/café,,1.0
+coffee,/c/en/coffee/n,Synonym,kopi,/c/ms/kopi,,1.0
+coffee,/c/en/coffee/n,Synonym,காபி,/c/ta/காபி,,1.0
+kafčo,/c/cs/kafčo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kahvittaa,/c/fi/kahvittaa/v,RelatedTo,coffee,/c/en/coffee,,1.0
+kafe,/c/frr/kafe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кафа,/c/rue/кафа,,1.0
+half and half,/c/en/half_and_half/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,කෝපි,/c/si/කෝපි,,1.0
+қаҳва,/c/tg/қаҳва/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,AtLocation,a meeting,/c/en/meeting,*Something you find at [[a meeting]] is [[coffee]],1.0
+coffee county,/c/en/coffee_county,DerivedFrom,coffee,/c/en/coffee/n,,1.0
+coffee,/c/en/coffee/n,Synonym,काफी,/c/mr/काफी,,1.0
+coffee,/c/en/coffee/n,Synonym,gahfeih,/c/za/gahfeih,,1.0
+kaffeelöffel,/c/de/kaffeelöffel/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeeman,/c/en/coffeeman,DerivedFrom,coffee,/c/en/coffee,,1.0
+piquete,/c/es/piquete/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafa,/c/egl/cafa,,1.0
+Coffee,/c/en/coffee,HasA,a slightly bitter taste,/c/en/slightly_bitter_taste,[[Coffee]] has [[a slightly bitter taste]],1.0
+café,/c/en/café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kape,/c/war/kape,,1.0
+cahinca,/c/en/cahinca/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,коф,/c/ady/коф,,1.0
+coffee,/c/en/coffee/n,Synonym,قهوه,/c/fa/قهوه,,1.0
+coffee,/c/en/coffee/n,Synonym,kafeja,/c/sq/kafeja,,1.0
+קאווע,/c/yi/קאווע/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kofje,/c/fy/kofje/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafè,/c/lld/cafè,,1.0
+cà phê,/c/vi/cà_phê/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee cake,/c/en/coffee_cake/n,RelatedTo,coffee,/c/en/coffee,,1.0
+frappuccino,/c/en/frappuccino/n,RelatedTo,coffee,/c/en/coffee,,1.0
+noncoffee,/c/en/noncoffee/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,қаҳва,/c/tg/қаҳва,,1.0
+कोफ़ी,/c/hi/कोफ़ी/n,RelatedTo,coffee,/c/en/coffee,,1.0
+skinny,/c/en/skinny/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ᎧᏫ,/c/chr/ᎧᏫ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+rosal,/c/ceb/rosal/n,RelatedTo,coffee,/c/en/coffee,,1.0
+macchiato,/c/en/macchiato/n,RelatedTo,coffee,/c/en/coffee,,1.0
+chanate,/c/en/chanate/n/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+καφετζού,/c/el/καφετζού/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffè corretto,/c/it/caffè_corretto/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,gaapii,/c/oj/gaapii,,1.0
+kafija,/c/lv/kafija/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kawa,/c/ln/kawa,,1.0
+coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,beverage,/c/en/beverage/n,,1.0
+caffè freddo,/c/it/caffè_freddo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+Coffee,/c/en/coffee,IsA,made using water and coffee beans,/c/en/made_using_water_and_coffee_beans,[[Coffee]] is [[made using water and coffee beans]],1.0
+coffee,/c/en/coffee/n,Synonym,འཚིག ཇ,/c/bo/འཚིག_ཇ,,1.0
+kafa,/c/sh/kafa/n,Synonym,coffee,/c/en/coffee,,1.0
+tintico,/c/es/tintico/n,RelatedTo,coffee,/c/en/coffee,,1.0
+咖啡色,/c/zh/咖啡色/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,mni k’ ata,/c/dak/mni_k’_ata,,1.0
+kape,/c/fil/kape/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/pt/café,,1.0
+coffee,/c/en/coffee/n,Synonym,кафе,/c/mk/кафе,,1.0
+latte macchiato,/c/en/latte_macchiato/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kawa,/c/csb/kawa,,1.0
+demitazza,/c/en/demitazza/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffearin,/c/en/coffearin/n,RelatedTo,coffee,/c/en/coffee,,1.0
+кава,/c/uk/кава/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kafumi,/c/eo/kafumi/v,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffe,/c/no/kaffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kahlúa,/c/en/kahlúa/n,RelatedTo,coffee,/c/en/coffee,,1.0
+кофе,/c/ru/кофе/n,Synonym,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,AtLocation,work,/c/en/work,*Something you find at [[work]] is [[coffee]],1.0
+irish coffee,/c/en/irish_coffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+кохви,/c/myv/кохви/n,RelatedTo,coffee,/c/en/coffee,,1.0
+café,/c/es/café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+grande,/c/en/grande/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kofi,/c/srn/kofi,,1.0
+coffeeing,/c/en/coffeeing/v,FormOf,coffee,/c/en/coffee,,1.0
+սրճաստան,/c/xcl/սրճաստան/n,RelatedTo,coffee,/c/en/coffee,,1.0
+opera cake,/c/en/opera_cake/n,RelatedTo,coffee,/c/en/coffee,,1.0
+កាហ្វេ,/c/km/កាហ្វេ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeeless,/c/en/coffeeless/a,RelatedTo,coffee,/c/en/coffee,,1.0
+காபி,/c/ta/காபி/n,RelatedTo,coffee,/c/en/coffee,,1.0
+café liégois,/c/en/café_liégois/n,RelatedTo,coffee,/c/en/coffee,,1.0
+కాఫీ,/c/te/కాఫీ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kava,/c/lt/kava/n,Synonym,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,HasProperty,warmer then a piece of ice,/c/en/warmer_then_piece_of_ice,[[coffee]] is [[warmer then a piece of ice]],1.0
+קהוא,/c/arc/קהוא/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee klatch,/c/en/coffee_klatch/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kaffee,/c/nds/kaffee,,1.0
+corsé,/c/fr/corsé/a,HasContext,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,café crème,/c/en/café_crème,,1.0
+coffee,/c/en/coffee/n,Synonym,koafje,/c/frr/koafje,,1.0
+coffee,/c/en/coffee/n,Synonym,cafè,/c/wa/cafè,,1.0
+coffee,/c/en/coffee/n,Synonym,tinto,/c/es/tinto,,1.0
+latte,/c/en/latte/n/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,buun,/c/aa/buun,,1.0
+coffee,/c/en/coffee/n,Synonym,kahawa,/c/sw/kahawa,,1.0
+dehydrocafestol,/c/en/dehydrocafestol/n,RelatedTo,coffee,/c/en/coffee,,1.0
+mangape,/c/ceb/mangape/v,RelatedTo,coffee,/c/en/coffee,,1.0
+pousse café,/c/en/pousse_café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+decaffeinate,/c/en/decaffeinate/v,RelatedTo,coffee,/c/en/coffee,,1.0
+nondrinker,/c/en/nondrinker/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,کاوه,/c/ps/کاوه,,1.0
+cortissimo,/c/en/cortissimo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+νεσ,/c/el/νεσ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+قهوة,/c/ar/قهوة/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafestol,/c/en/cafestol/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffebricka,/c/sv/kaffebricka/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffe,/c/ia/caffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafè,/c/pms/cafè,,1.0
+coffee,/c/en/coffee/n,Synonym,cà phê,/c/vi/cà_phê,,1.0
+cafecito,/c/es/cafecito/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ቡን,/c/ti/ቡን/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffibrauð,/c/is/kaffibrauð/n,RelatedTo,coffee,/c/en/coffee,,1.0
+triple triple,/c/en/triple_triple/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafeniu,/c/ro/cafeniu/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafetalero,/c/es/cafetalero/n,RelatedTo,coffee,/c/en/coffee,,1.0
+pha chế,/c/vi/pha_chế/v,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kafe,/c/eu/kafe,,1.0
+coffee,/c/en/coffee/n/wn/plant,ExternalURL,112683533-n,http://wordnet-rdf.princeton.edu/wn31/112683533-n,,1.0
+kaffee,/c/de/kaffee,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,ExternalURL,Q8486,http://wikidata.dbpedia.org/resource/Q8486,,1.0
+coffee,/c/en/coffee/n,Synonym,gáffe,/c/se/gáffe,,1.0
+кофе,/c/ky/кофе/n,RelatedTo,coffee,/c/en/coffee,,1.0
+بني,/c/ar/بني/a/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+brown,/c/en/brown/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,koffie,/c/nds/koffie,,1.0
+kuchen,/c/en/kuchen/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kávovník,/c/cs/kávovník/n,RelatedTo,coffee,/c/en/coffee,,1.0
+финџан,/c/mk/финџан/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kafeo,/c/io/kafeo,,1.0
+kafȳ,/c/wym/kafȳ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ikawa,/c/rw/ikawa,,1.0
+coffee,/c/en/coffee/n/opencyc/coffee_beverage,ExternalURL,Coffee Beverage,http://sw.opencyc.org/2012/05/10/concept/en/Coffee_Beverage,,1.0
+coffee,/c/en/coffee/n,Synonym,gyahfeih,/c/za/gyahfeih,,1.0
+kahvileipä,/c/fi/kahvileipä/n,RelatedTo,coffee,/c/en/coffee,,1.0
+кафе,/c/mk/кафе/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kopi luwak,/c/en/kopi_luwak/n,RelatedTo,coffee,/c/en/coffee,,1.0
+dehydrokahweol,/c/en/dehydrokahweol/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/mwl/café,,1.0
+Coffee,/c/en/coffee,IsA,made using hot water,/c/en/made_using_hot_water,[[Coffee]] is [[made using hot water]],1.0
+coffee,/c/en/coffee/n,Synonym,qahva,/c/uz/qahva,,1.0
+coffee,/c/en/coffee/n,Synonym,pejula sapa,/c/lkt/pejula_sapa,,1.0
+coffee,/c/en/coffee/n,Synonym,کوفی,/c/ur/کوفی,,1.0
+coffee,/c/en/coffee/n,Synonym,kape,/c/hil/kape,,1.0
+barista,/c/en/barista/n,RelatedTo,coffee,/c/en/coffee,,1.0
+濃咖啡,/c/zh/濃咖啡/n,HasContext,coffee,/c/en/coffee,,1.0
+καφεμαντεία,/c/el/καφεμαντεία/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n/wn/food,ExternalURL,107945759-n,http://wordnet-rdf.princeton.edu/wn31/107945759-n,,1.0
+coffeeroom,/c/en/coffeeroom/n,RelatedTo,coffee,/c/en/coffee,,1.0
+a person,/c/en/person,Desires,coffee,/c/en/coffee,[[a person]] wants [[coffee]],1.0
+kaffi,/c/no/kaffi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,къагьва,/c/kum/къагьва,,1.0
+short black,/c/en/short_black/n,RelatedTo,coffee,/c/en/coffee,,1.0
+vella,/c/is/vella/n/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+קפה,/c/he/קפה/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeemaker,/c/en/coffeemaker,DerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,koffie,/c/af/koffie,,1.0
+къофи,/c/os/къофи/n,RelatedTo,coffee,/c/en/coffee,,1.0
+کاوہ,/c/bal/کاوہ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,珈琲,/c/ja/珈琲,,1.0
+coffee,/c/en/coffee/n,Synonym,caffè,/c/sc/caffè,,1.0
+cafeto,/c/es/cafeto/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffeinated,/c/en/caffeinated/a,RelatedTo,coffee,/c/en/coffee,,1.0
+torrefactora,/c/es/torrefactora/n,RelatedTo,coffee,/c/en/coffee,,1.0
+καφεδάκι,/c/el/καφεδάκι/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeehouse,/c/en/coffeehouse,DerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,UsedFor,staying awake,/c/en/staying_awake,[[coffee]] is used for [[staying awake]],1.0
+klarskinn,/c/sv/klarskinn/n,RelatedTo,coffee,/c/en/coffee,,1.0
+latte,/c/en/latte/n,IsA,coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+brew,/c/en/brew/v,RelatedTo,coffee,/c/en/coffee,,1.0
+ᮊᮧᮕᮤ,/c/su/ᮊᮧᮕᮤ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,コーヒー,/c/ja/コーヒー,,1.0
+coffee,/c/en/coffee/n,Synonym,cafentzin,/c/nah/cafentzin,,1.0
+coffee,/c/en/coffee/n,Synonym,kofi,/c/fj/kofi,,1.0
+coffee,/c/en/coffee,ReceivesAction,sold in stores,/c/en/sold_in_stores,[[coffee]] is [[sold in stores]],1.0
+kahawa,/c/sw/kahawa/n,RelatedTo,coffee,/c/en/coffee,,1.0
+a refill,/c/en/refill,UsedFor,coffee,/c/en/coffee,[[a refill]] is for [[coffee]],1.0
+coffee,/c/en/coffee/n,Synonym,yaku,/c/gn/yaku,,1.0
+mochatine,/c/en/mochatine/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kawa,/c/fr/kawa/n,RelatedTo,coffee,/c/en/coffee,,1.0
+breve,/c/en/breve/n,IsA,coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+café,/c/pt/café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kávézik,/c/hu/kávézik/v,RelatedTo,coffee,/c/en/coffee,,1.0
+carafe,/c/en/carafe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,хъауа,/c/os/хъауа,,1.0
+irish cream,/c/en/irish_cream/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/kjh/кофе,,1.0
+cortado,/c/es/cortado/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kofej,/c/hsb/kofej,,1.0
+coffee,/c/en/coffee/n,Synonym,caife,/c/ga/caife,,1.0
+cafetero,/c/es/cafetero/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,java,/c/en/java,,1.0
+preinfusion,/c/en/preinfusion/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,कोफ़ी,/c/hi/कोफ़ी,,1.0
+coffee,/c/en/coffee/n,Synonym,ቡና,/c/am/ቡና,,1.0
+kahvinjuoja,/c/fi/kahvinjuoja/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ກາເຟ,/c/lo/ກາເຟ,,1.0
+starbucks,/c/en/starbucks/n,RelatedTo,coffee,/c/en/coffee,,1.0
+قهوه,/c/fa/قهوه/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/sah/кофе,,1.0
+caffetannic acid,/c/en/caffetannic_acid/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,koffie,/c/li/koffie,,1.0
+կոֆե,/c/hy/կոֆե/n,RelatedTo,coffee,/c/en/coffee,,1.0
+demitasse,/c/en/demitasse/n,RelatedTo,coffee,/c/en/coffee,,1.0
+καϊμάκι,/c/el/καϊμάκι/n,RelatedTo,coffee,/c/en/coffee,,1.0
+φραπέ,/c/el/φραπέ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+кафе,/c/bg/кафе/n,RelatedTo,coffee,/c/en/coffee,,1.0
+melange,/c/en/melange/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,咖啡,/c/zh/咖啡,,1.0
+kapihan,/c/fil/kapihan/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,ExternalURL,Coffee,http://dbpedia.org/resource/Coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ahwééh,/c/nv/ahwééh,,1.0
+coffee,/c/en/coffee/n,Synonym,kafe,/c/br/kafe,,1.0
+कॉफ़ी,/c/hi/कॉफ़ी/n,RelatedTo,coffee,/c/en/coffee,,1.0
+کوڤي,/c/ms/کوڤي,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+tea break,/c/en/tea_break/n,RelatedTo,coffee,/c/en/coffee,,1.0
+fardo,/c/it/fardo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/udm/кофе,,1.0
+cafenet,/c/en/cafenet/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kohv,/c/et/kohv,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/krc/кофе,,1.0
+coffeed,/c/en/coffeed/v,RelatedTo,coffee,/c/en/coffee,,1.0
+café allongé,/c/fr/café_allongé/n,RelatedTo,coffee,/c/en/coffee,,1.0
+decaffeinated coffee,/c/en/decaffeinated_coffee/n,IsA,coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+flat white,/c/en/flat_white/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffi,/c/fo/kaffi/n,Synonym,coffee,/c/en/coffee,,1.0
+coffeed out,/c/en/coffeed_out/a,RelatedTo,coffee,/c/en/coffee,,1.0
+gohwééh,/c/nv/gohwééh/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,makade mashkikiwaaboo,/c/oj/makade_mashkikiwaaboo,,1.0
+robusta,/c/en/robusta/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,caffeu,/c/sc/caffeu,,1.0
+coffee,/c/en/coffee/n,RelatedTo,infuse,/c/en/infuse,,1.0
+coffees,/c/en/coffees/v,FormOf,coffee,/c/en/coffee,,1.0
+coffee cup,/c/en/coffee_cup/n,RelatedTo,coffee,/c/en/coffee,,1.0
+Coffee,/c/en/coffee,ReceivesAction,ground to facilitate brewing,/c/en/ground_to_facilitate_brewing,[[Coffee]] is [[ground to facilitate brewing]],1.0
+coffee,/c/en/coffee,RelatedTo,macchiato,/c/en/macchiato,,1.0
+coffee,/c/en/coffee,IsA,a popular morning drink,/c/en/popular_morning_drink,[[coffee]] is [[a popular morning drink]],1.0
+milchkaffee,/c/de/milchkaffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,kaffeeklatsch,/c/en/kaffeeklatsch,,1.0
+kafe,/c/pl/kafe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+սրճագույն,/c/hy/սրճագույն/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,coffea,/c/la/coffea,,1.0
+raba,/c/vep/raba/n,RelatedTo,coffee,/c/en/coffee,,1.0
+کوڤي,/c/ms/کوڤي/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/tt/кофе,,1.0
+coffee,/c/en/coffee/n,Synonym,กาแฟ,/c/th/กาแฟ,,1.0
+coffee,/c/en/coffee/n,Synonym,kofje,/c/nds/kofje,,1.0
+mazagran,/c/en/mazagran/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeemaking,/c/en/coffeemaking,DerivedFrom,coffee,/c/en/coffee,,1.0
+cafea,/c/la/cafea/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafè,/c/scn/cafè/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ཁོ ཕི,/c/bo/ཁོ_ཕི/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kahvinkorvike,/c/fi/kahvinkorvike/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,decaf,/c/en/decaf,,1.0
+coffee,/c/en/coffee/n,Synonym,ikhofi,/c/zu/ikhofi,,1.0
+coffee,/c/en/coffee/n,Synonym,pežuta sapa,/c/dak/pežuta_sapa,,1.0
+咖啡果,/c/zh/咖啡果/n,RelatedTo,coffee,/c/en/coffee,,1.0
+topper offer,/c/en/topper_offer/n,RelatedTo,coffee,/c/en/coffee,,1.0
+hidy,/c/en/hidy/a,RelatedTo,coffee,/c/en/coffee,,1.0
+screaming orgasm,/c/en/screaming_orgasm/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kafe,/c/cs/kafe/n,Synonym,coffee,/c/en/coffee,,1.0
+kafè,/c/cim/kafè/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,قہوہ,/c/ur/قہوہ,,1.0
+finjan,/c/en/finjan/n,RelatedTo,coffee,/c/en/coffee,,1.0
+καφετί,/c/el/καφετί/n,RelatedTo,coffee,/c/en/coffee,,1.0
+morgonkaffe,/c/sv/morgonkaffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,koffi,/c/kw/koffi,,1.0
+coffee,/c/en/coffee,AtLocation,a train station,/c/en/train_station,*Something you find at [[a train station]] is [[coffee]],1.0
+カフェオレ,/c/ja/カフェオレ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,ExternalURL,Coffee,http://sw.opencyc.org/2012/05/10/concept/en/Coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/ch/café,,1.0
+καφέσ,/c/el/καφέσ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,buni,/c/swb/buni,,1.0
+coffee,/c/en/coffee/n,Synonym,coffee tree,/c/en/coffee_tree,,1.0
+cà phê cà pháo,/c/vi/cà_phê_cà_pháo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafè,/c/oc/cafè,,1.0
+coffee,/c/en/coffee/n,Synonym,kopi,/c/id/kopi,,1.0
+սրճել,/c/hy/սրճել/v,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,espresso breve,/c/en/espresso_breve,,1.0
+kohv,/c/et/kohv/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,કહવા,/c/gu/કહવા,,1.0
+kafeo,/c/io/kafeo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeehead,/c/en/coffeehead/n,RelatedTo,coffee,/c/en/coffee,,1.0
+microroaster,/c/en/microroaster/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,καφεσ,/c/el/καφεσ,,1.0
+kahvikuppi,/c/fi/kahvikuppi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeed,/c/en/coffeed/v,FormOf,coffee,/c/en/coffee,,1.0
+overcaffeinated,/c/en/overcaffeinated/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,liquid solution,/c/en/liquid_solution/n,,1.0
+kaffefat,/c/sv/kaffefat/n,RelatedTo,coffee,/c/en/coffee,,1.0
+short black,/c/en/short_black,RelatedTo,coffee,/c/en/coffee,,1.0
+jezve,/c/en/jezve/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,AtLocation,the airport,/c/en/airport,*Something you find at [[the airport]] is [[coffee]],1.0
+coffee,/c/en/coffee,ExternalURL,Coffee Beverage,http://umbel.org/umbel/sc/Coffee_Beverage,,1.0
+lógr,/c/cs/lógr/n,RelatedTo,coffee,/c/en/coffee,,1.0
+καφετήσ,/c/el/καφετήσ/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,क़हवा,/c/hi/क़हवा,,1.0
+caffeinomane,/c/it/caffeinomane/n,RelatedTo,coffee,/c/en/coffee,,1.0
+iced coffee,/c/en/iced_coffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ကော်ဖီ,/c/my/ကော်ဖီ,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+kopi,/c/tpi/kopi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+frappucino,/c/en/frappucino/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cappuccino,/c/en/cappuccino/n,IsA,coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,artificial substance,/c/en/artificial_substance/n,,1.0
+coffee,/c/en/coffee,RelatedTo,espresso,/c/en/espresso,,1.0
+long black,/c/en/long_black/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffè stretto,/c/it/caffè_stretto/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kahvinkeitto,/c/fi/kahvinkeitto/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,coffi,/c/cy/coffi,,1.0
+coffee,/c/en/coffee/n,Synonym,кава,/c/uk/кава,,1.0
+sumppi,/c/fi/sumppi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffi,/c/fo/kaffi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,AtLocation,a resturant,/c/en/resturant,*Something you find at [[a resturant]] is [[coffee]],1.0
+coffee,/c/en/coffee/n,HasContext,plantes,/c/fr/plantes,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/ru/кофе,,1.0
+ammazzacaffè,/c/it/ammazzacaffè/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffemärke,/c/sv/kaffemärke/n,RelatedTo,coffee,/c/en/coffee,,1.0
+กาแฟ,/c/th/กาแฟ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+káva,/c/cs/káva/n,Synonym,coffee,/c/en/coffee,,1.0
+zarf,/c/en/zarf/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,bitterness,/c/en/bitterness/n,,1.0
+caffè lungo,/c/it/caffè_lungo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,HasContext,boisson,/c/fr/boisson,,1.0
+americano,/c/en/americano/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kava,/c/lt/kava,,1.0
+mkahawa,/c/sw/mkahawa/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafezeiro,/c/pt/cafezeiro/n,RelatedTo,coffee,/c/en/coffee,,1.0
+joe,/c/en/joe/n/wikt/en_2,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kuuvviaq,/c/esu/kuuvviaq,,1.0
+啡色,/c/zh/啡色/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caife,/c/ga/caife/n,RelatedTo,coffee,/c/en/coffee,,1.0
+濃縮咖啡,/c/zh/濃縮咖啡/n,HasContext,coffee,/c/en/coffee,,1.0
+coffee grinder,/c/en/coffee_grinder/n,RelatedTo,coffee,/c/en/coffee,,1.0
+frappalatte,/c/en/frappalatte/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafè,/c/ca/cafè,,1.0
+americano,/c/en/americano/n,IsA,coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+coffee,/c/en/coffee,RelatedTo,caffè corretto,/c/en/caffè_corretto,,1.0
+kava,/c/lt/kava/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,café au lait,/c/en/café_au_lait,,1.0
+coffee,/c/en/coffee/n,Synonym,kafej,/c/dsb/kafej,,1.0
+սրճենի,/c/hy/սրճենի/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,काफ़ी,/c/hi/काफ़ी,,1.0
+turecká káva,/c/cs/turecká_káva/n,RelatedTo,coffee,/c/en/coffee,,1.0
+strena,/c/tpi/strena/n,RelatedTo,coffee,/c/en/coffee,,1.0
+qave,/c/crh/qave/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,EtymologicallyDerivedFrom,قهوة,/c/ar/قهوة,,1.0
+kofi,/c/ha/kofi,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,thesaurus:color,/c/en/thesaurus:color,,1.0
+kahviaika,/c/fi/kahviaika/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffetips,/c/sv/kaffetips/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kafi,/c/akz/kafi,,1.0
+coffee,/c/en/coffee,RelatedTo,mochaccino,/c/en/mochaccino,,1.0
+coffee,/c/en/coffee,RelatedTo,appendix:colors,/c/en/appendix:colors,,1.0
+kaffe,/c/da/kaffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+eftermiddagskaffe,/c/sv/eftermiddagskaffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffelank,/c/sv/kaffelank/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,CapableOf,spot fabric,/c/en/spot_fabric,[[coffee]] can [[spot fabric]],1.0
+coffee,/c/en/coffee/n,Synonym,cafè,/c/scn/cafè,,1.0
+Coffee,/c/en/coffee,HasA,the active ingredient caffeine,/c/en/active_ingredient_caffeine,[[Coffee]] has [[the active ingredient caffeine]],1.0
+coffee,/c/en/coffee,AtLocation,a breakroom,/c/en/breakroom,You are likely to find [[coffee]] in [[a breakroom]],1.0
+coffee,/c/en/coffee/n,Synonym,kávé,/c/hu/kávé,,1.0
+coffee,/c/en/coffee/n,Synonym,ohun mímu,/c/yo/ohun_mímu,,1.0
+coffee,/c/en/coffee/n,Synonym,kofi,/c/yo/kofi,,1.0
+kahvi,/c/fi/kahvi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+só,/c/gl/só/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/mn/кофе,,1.0
+coffee,/c/en/coffee/n,Synonym,ಕಾಫಿ,/c/kn/ಕಾಫಿ,,1.0
+coffee,/c/en/coffee,RelatedTo,tia maria,/c/en/tia_maria,,1.0
+coffee,/c/en/coffee/n,Synonym,cofaidh,/c/gd/cofaidh,,1.0
+caimac,/c/ro/caimac/n,RelatedTo,coffee,/c/en/coffee,,1.0
+Coffee,/c/en/coffee,IsA,a hot beverage,/c/en/hot_beverage,[[Coffee]] is [[a hot beverage]],1.0
+☕,/c/mul/☕,SymbolOf,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,UsedFor,waking up in the morning,/c/en/waking_up_in_morning,[[coffee]] is used for [[waking up in the morning]].,1.0
+coffee,/c/en/coffee/n,Synonym,thesaurus:coffee,/c/en/thesaurus:coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ਕਾਫ਼ੀ,/c/pa/ਕਾਫ਼ੀ,,1.0
+coffee bowl,/c/en/coffee_bowl/n,RelatedTo,coffee,/c/en/coffee,,1.0
+커피,/c/ko/커피/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,bun,/c/so/bun,,1.0
+pavettamine,/c/en/pavettamine/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffe,/c/sv/kaffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafè,/c/oc/cafè/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kawowy,/c/pl/kawowy/a,RelatedTo,coffee,/c/en/coffee,,1.0
+kaafe,/c/gsw/kaafe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,HasContext,couleur,/c/fr/couleur,,1.0
+coffee,/c/en/coffee/n,Synonym,kape,/c/fil/kape,,1.0
+coffee,/c/en/coffee/n,Synonym,kafè,/c/mt/kafè,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/gl/café,,1.0
+surrogaatkoffie,/c/nl/surrogaatkoffie/n,RelatedTo,coffee,/c/en/coffee,,1.0
+qahva,/c/uz/qahva/n,RelatedTo,coffee,/c/en/coffee,,1.0
+Coffee,/c/en/coffee,HasA,caffiene,/c/en/caffiene,[[Coffee]] contains [[caffiene]],1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/cv/кофе,,1.0
+coffee,/c/en/coffee/n,Synonym,kava,/c/sl/kava,,1.0
+coffee,/c/en/coffee/n,Synonym,ཁོ ཕི,/c/bo/ཁོ_ཕི,,1.0
+coffee,/c/en/coffee/n,Synonym,kofe,/c/tk/kofe,,1.0
+काफी,/c/mr/काफी/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,cappuccino,/c/en/cappuccino,,1.0
+coffee,/c/en/coffee/n,Synonym,kaffi,/c/is/kaffi,,1.0
+brew in,/c/en/brew_in/n,RelatedTo,coffee,/c/en/coffee,,1.0
+珈琲,/c/ja/珈琲/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/mdf/кофе,,1.0
+Coffee,/c/en/coffee,ReceivesAction,enjoyed at a nicely laid table,/c/en/enjoyed_at_nicely_laid_table,[[Coffee]] can be [[enjoyed at a nicely laid table]],1.0
+isosilybin,/c/en/isosilybin/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffe,/c/liv/kaffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kovvie,/c/nds/kovvie,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/kk/кофе,,1.0
+kahvitella,/c/fi/kahvitella/v,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee cake,/c/en/coffee_cake,DerivedFrom,coffee,/c/en/coffee,,1.0
+káva,/c/cs/káva/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kôfi,/c/st/kôfi,,1.0
+gahfeih,/c/za/gahfeih/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kafe,/c/ht/kafe,,1.0
+coffee,/c/en/coffee/n,Synonym,کافي,/c/ps/کافي,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/es/café,,1.0
+elvakaffe,/c/sv/elvakaffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,caffè americano,/c/en/caffè_americano,,1.0
+battery acid,/c/en/battery_acid/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,caffè freddo,/c/en/caffè_freddo,,1.0
+féca,/c/fr/féca/n,RelatedTo,coffee,/c/en/coffee,,1.0
+കാപ്പി,/c/ml/കാപ്പി/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,káapej,/c/yua/káapej,,1.0
+varietal,/c/en/varietal/n,RelatedTo,coffee,/c/en/coffee,,1.0
+café,/c/ast/café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffi,/c/lb/kaffi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кава,/c/be/кава,,1.0
+torrefacto,/c/en/torrefacto/n,RelatedTo,coffee,/c/en/coffee,,1.0
+کافه,/c/fa/کافه/n,RelatedTo,coffee,/c/en/coffee,,1.0
+anticoffee,/c/en/anticoffee/a,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffi,/c/is/kaffi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,קאווע,/c/yi/קאווע,,1.0
+speedball,/c/en/speedball/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kofi,/c/tpi/kofi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+aamukahvi,/c/fi/aamukahvi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+पीयूष,/c/sa/पीयूष/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,caffè,/c/it/caffè,,1.0
+սրճենի,/c/xcl/սրճենի/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cascara,/c/en/cascara/n,RelatedTo,coffee,/c/en/coffee,,1.0
+コーヒー,/c/ja/コーヒー,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,long black,/c/en/long_black,,1.0
+jamoke,/c/en/jamoke/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kafe,/c/mg/kafe,,1.0
+coffee,/c/en/coffee/n,Synonym,акаҳуа,/c/ab/акаҳуа,,1.0
+къахьо,/c/ce/къахьо/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,къахьо,/c/ce/къахьо,,1.0
+caféier,/c/fr/caféier/n/wikt/fr_1,Synonym,coffee,/c/en/coffee,,1.0
+koffie,/c/nl/koffie/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ကော်ဖီ,/c/my/ကော်ဖီ,,1.0
+coffee,/c/en/coffee/n,Synonym,боргол,/c/mn/боргол,,1.0
+coffee,/c/en/coffee,AtLocation,a grocery store,/c/en/grocery_store,*Something you find at [[a grocery store]] is [[coffee]],1.0
+koufei,/c/krl/koufei/n,RelatedTo,coffee,/c/en/coffee,,1.0
+loe,/c/nl/loe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafetière,/c/en/cafetière/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kafé,/c/lad/kafé/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffeburk,/c/sv/kaffeburk/n,RelatedTo,coffee,/c/en/coffee,,1.0
+mała czarna,/c/pl/mała_czarna/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kofe,/c/uz/kofe,,1.0
+ಕಾಫಿ,/c/kn/ಕಾಫಿ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,coffea,/c/en/coffea,,1.0
+coffee,/c/en/coffee/n,Synonym,coffee bean,/c/en/coffee_bean,,1.0
+coffee,/c/en/coffee/n,Synonym,kafej,/c/szl/kafej,,1.0
+кофе,/c/ru/кофе/n,RelatedTo,coffee,/c/en/coffee,,1.0
+bak troost,/c/nl/bak_troost/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,കാപ്പി,/c/ml/കാപ്പി,,1.0
+coffee,/c/en/coffee/n,Synonym,koffie,/c/nl/koffie,,1.0
+ikofu,/c/xh/ikofu/n,RelatedTo,coffee,/c/en/coffee,,1.0
+pelican pot,/c/en/pelican_pot/n,RelatedTo,coffee,/c/en/coffee,,1.0
+café,/c/gl/café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+awaking,/c/en/awaking,HasPrerequisite,coffee,/c/en/coffee,[[awaking]] requires [[coffee]],1.0
+kape,/c/war/kape/n,RelatedTo,coffee,/c/en/coffee,,1.0
+mamoty,/c/en/mamoty/n,RelatedTo,coffee,/c/en/coffee,,1.0
+buni,/c/sw/buni/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,qəhvə,/c/az/qəhvə,,1.0
+ka pi,/c/nan/ka_pi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kaffe,/c/sv/kaffe,,1.0
+kahve,/c/tr/kahve/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kirkkokahvit,/c/fi/kirkkokahvit/n,RelatedTo,coffee,/c/en/coffee,,1.0
+хъауа,/c/os/хъауа/n,RelatedTo,coffee,/c/en/coffee,,1.0
+koafje,/c/stq/koafje/n,RelatedTo,coffee,/c/en/coffee,,1.0
+кофе,/c/ce/кофе/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/tyv/кофе,,1.0
+cup of joe,/c/en/cup_of_joe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kahvimuki,/c/fi/kahvimuki/n,RelatedTo,coffee,/c/en/coffee,,1.0
+double double,/c/en/double_double/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafetín,/c/es/cafetín/n,RelatedTo,coffee,/c/en/coffee,,1.0
+кафеџија,/c/mk/кафеџија/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffeismo,/c/it/caffeismo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kaffe,/c/no/kaffe,,1.0
+kofeidu,/c/krl/kofeidu/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeeville,/c/en/coffeeville,DerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafè,/c/lij/cafè,,1.0
+coffee,/c/en/coffee/n,Synonym,kafe,/c/wo/kafe,,1.0
+cupping,/c/en/cupping/n/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+texas tea,/c/en/texas_tea/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kávé,/c/hu/kávé/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee morning,/c/en/coffee_morning/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kopi,/c/ms/kopi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,커피,/c/ko/커피,,1.0
+cafè,/c/ca/cafè/n,RelatedTo,coffee,/c/en/coffee,,1.0
+portafilter,/c/en/portafilter/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,EtymologicallyDerivedFrom,caffè,/c/it/caffè,,1.0
+café de move on,/c/en/café_de_move_on/n,RelatedTo,coffee,/c/en/coffee,,1.0
+սուրճ,/c/xcl/սուրճ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ܩܗܘܐ,/c/syc/ܩܗܘܐ,,1.0
+սրճավաճառ,/c/hy/սրճավաճառ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,قہوہ,/c/bal/قہوہ,,1.0
+coffee,/c/en/coffee/n,Synonym,kopi,/c/tpi/kopi,,1.0
+coffee,/c/en/coffee/n,Synonym,kahve,/c/tr/kahve,,1.0
+coffee,/c/en/coffee,ReceivesAction,bought at a cafe,/c/en/bought_at_cafe,[[coffee]] can be [[bought at a cafe]],1.0
+coffee liqueur,/c/en/coffee_liqueur/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafea,/c/ro/cafea/n,RelatedTo,coffee,/c/en/coffee,,1.0
+starbucks,/c/en/starbucks,IsA,coffee,/c/en/coffee,[[starbucks]] is a kind of [[coffee]],1.0
+cafetalero,/c/es/cafetalero/a,RelatedTo,coffee,/c/en/coffee,,1.0
+grind,/c/en/grind/n/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+caffeine,/c/en/caffeine/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kahvinvastike,/c/fi/kahvinvastike/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ܩܗܘܐ,/c/syc/ܩܗܘܐ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffees,/c/en/coffees/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,قهوو,/c/sd/قهوو,,1.0
+coffee,/c/en/coffee/n,Synonym,କଫୀ,/c/or/କଫୀ,,1.0
+Coffee,/c/en/coffee,HasA,caffiene in it,/c/en/caffiene_in,[[Coffee]] has [[caffiene in it]],1.0
+ครีมเทียม,/c/th/ครีมเทียม/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffellatte,/c/it/caffellatte/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ditšhumamelômo,/c/st/ditšhumamelômo,,1.0
+kafè,/c/mt/kafè/n,RelatedTo,coffee,/c/en/coffee,,1.0
+káva,/c/sk/káva/n,RelatedTo,coffee,/c/en/coffee,,1.0
+tia maria,/c/en/tia_maria/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafeeira,/c/gl/cafeeira/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kaffee,/c/de/kaffee,,1.0
+kaffee,/c/de/kaffee/n,Synonym,coffee,/c/en/coffee,,1.0
+кофейный,/c/ru/кофейный/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,caffee,/c/gv/caffee,,1.0
+coffee,/c/en/coffee/n,Synonym,কফি,/c/bn/কফি,,1.0
+coffee royal,/c/en/coffee_royal/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaf,/c/vo/kaf/n,RelatedTo,coffee,/c/en/coffee,,1.0
+chanate,/c/es/chanate/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ყავა,/c/ka/ყავა,,1.0
+parchment,/c/en/parchment/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,AtLocation,a mug,/c/en/mug,Somewhere [[coffee]] can be is [[a mug]],1.0
+coffee,/c/en/coffee/n,Synonym,kofe,/c/vep/kofe,,1.0
+kahviplantaasi,/c/fi/kahviplantaasi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kafo,/c/eo/kafo,,1.0
+urn,/c/en/urn/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeetime,/c/en/coffeetime,DerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafe,/c/rup/cafe,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/nog/кофе,,1.0
+काफी,/c/sa/काफी/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/xwo/кофе,,1.0
+coffeeroom,/c/en/coffeeroom,DerivedFrom,coffee,/c/en/coffee,,1.0
+jus de chaussette,/c/fr/jus_de_chaussette/n,RelatedTo,coffee,/c/en/coffee,,1.0
+koffie verkeerd,/c/nl/koffie_verkeerd/n,RelatedTo,coffee,/c/en/coffee,,1.0
+mocha,/c/en/mocha/n,RelatedTo,coffee,/c/en/coffee,,1.0
+gohwééh,/c/nv/gohwééh,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+espresso,/c/en/espresso/n,IsA,coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+coffee,/c/en/coffee,AtLocation,the subway,/c/en/subway,*Something you find on [[the subway]] is [[coffee]],1.0
+coffee,/c/en/coffee,RelatedTo,flat white,/c/en/flat_white,,1.0
+phin,/c/vi/phin/n/wikt/en_2,RelatedTo,coffee,/c/en/coffee,,1.0
+kopháne,/c/twf/kopháne/n,RelatedTo,coffee,/c/en/coffee,,1.0
+middagskaffe,/c/sv/middagskaffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+कॉफ़ी,/c/hi/कॉफ़ी,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+コーヒー,/c/ja/コーヒー/n,RelatedTo,coffee,/c/en/coffee,,1.0
+káffe,/c/se/káffe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kafo,/c/eo/kafo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ikofu,/c/xh/ikofu,,1.0
+coffee,/c/en/coffee/n,Synonym,սուրճ,/c/hy/սուրճ,,1.0
+siekiera,/c/pl/siekiera/n,RelatedTo,coffee,/c/en/coffee,,1.0
+quinic acid,/c/en/quinic_acid/n,RelatedTo,coffee,/c/en/coffee,,1.0
+咖逼,/c/zh/咖逼,Synonym,coffee,/c/en/coffee,,1.0
+café noir,/c/en/café_noir/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ブラックコーヒー,/c/ja/ブラックコーヒー/n,RelatedTo,coffee,/c/en/coffee,,1.0
+սրճակաթ,/c/xcl/սրճակաթ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+precaffeinated,/c/en/precaffeinated/a,RelatedTo,coffee,/c/en/coffee,,1.0
+timmy's,/c/en/timmy's/n,RelatedTo,coffee,/c/en/coffee,,1.0
+tár,/c/is/tár/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kávézás,/c/hu/kávézás/n,RelatedTo,coffee,/c/en/coffee,,1.0
+قہوہ,/c/bal/قہوہ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kàffe,/c/gsw/kàffe,,1.0
+coffee,/c/en/coffee/n,Synonym,cafè,/c/lmo/cafè,,1.0
+coffee,/c/en/coffee,RelatedTo,demitasse,/c/en/demitasse,,1.0
+roastery,/c/en/roastery/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/an/café,,1.0
+coffee,/c/en/coffee/n,Synonym,kahawa,/c/zdj/kahawa,,1.0
+coffee,/c/en/coffee/n,Synonym,kaphiy,/c/qu/kaphiy,,1.0
+cafezal,/c/pt/cafezal/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kofi,/c/bi/kofi,,1.0
+coffee,/c/en/coffee,RelatedTo,café noir,/c/en/café_noir,,1.0
+кафен,/c/mk/кафен/a,RelatedTo,coffee,/c/en/coffee,,1.0
+percolator,/c/en/percolator/n,RelatedTo,coffee,/c/en/coffee,,1.0
+percolate,/c/en/percolate/v,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kòfi,/c/pap/kòfi,,1.0
+hot coffee,/c/en/hot_coffee/n,IsA,coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+coffee,/c/en/coffee/n,Synonym,કૉફી,/c/gu/કૉફી,,1.0
+caoua,/c/fr/caoua/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kawa,/c/pl/kawa,,1.0
+nutty irishman,/c/en/nutty_irishman/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,HasProperty,hot,/c/en/hot,[[coffee]] is [[hot]],1.0
+noncoffee,/c/en/noncoffee,DerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,káva,/c/cs/káva,,1.0
+coffee,/c/en/coffee/n,Synonym,kafija,/c/lv/kafija,,1.0
+kofe,/c/vep/kofe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffimunnur,/c/fo/kaffimunnur/n,RelatedTo,coffee,/c/en/coffee,,1.0
+red eye,/c/en/red_eye/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kofje,/c/fy/kofje,,1.0
+kávový,/c/cs/kávový/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,short black,/c/en/short_black,,1.0
+coffee,/c/en/coffee,RelatedTo,speedball,/c/en/speedball,,1.0
+café,/c/fr/café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+mbuni,/c/sw/mbuni/n/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+καφεδάκοσ,/c/el/καφεδάκοσ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kaffi,/c/lb/kaffi,,1.0
+pullakahvi,/c/fi/pullakahvi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafè,/c/vec/cafè,,1.0
+een bakkie doen,/c/nl/een_bakkie_doen/v,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,coffeum,/c/la/coffeum,,1.0
+kofi,/c/chk/kofi,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+begin work,/c/en/begin_work,HasFirstSubevent,coffee,/c/en/coffee,The first thing you do when you [[begin work]] is [[coffee]],1.0
+Coffee,/c/en/coffee,IsA,a tasty drink,/c/en/tasty_drink,[[Coffee]] is [[a tasty drink]],1.0
+coffee,/c/en/coffee/n,RelatedTo,beverage,/c/en/beverage,,1.0
+kahvittelija,/c/fi/kahvittelija/n,RelatedTo,coffee,/c/en/coffee,,1.0
+tostacaffè,/c/it/tostacaffè/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,RelatedTo,tropical,/c/en/tropical,,1.0
+coffee,/c/en/coffee/n,Synonym,ᎧᏫ,/c/chr/ᎧᏫ,,1.0
+coffee,/c/en/coffee/n,Synonym,káffe,/c/se/káffe,,1.0
+kávéscsésze,/c/hu/kávéscsésze/n,RelatedTo,coffee,/c/en/coffee,,1.0
+Coffee,/c/en/coffee,IsA,a breakfast beverage,/c/en/breakfast_beverage,[[Coffee]] is [[a breakfast beverage]],1.0
+kaffebuske,/c/sv/kaffebuske/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffee,/c/de/kaffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kape,/c/hil/kape/n,RelatedTo,coffee,/c/en/coffee,,1.0
+قہوہ,/c/ur/قہوہ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeetime,/c/en/coffeetime/n,RelatedTo,coffee,/c/en/coffee,,1.0
+кава,/c/be/кава/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kopi,/c/id/kopi/n/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffeblandning,/c/sv/kaffeblandning/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffeicolo,/c/it/caffeicolo/a,RelatedTo,coffee,/c/en/coffee,,1.0
+ཇ ཀོབ པི,/c/bo/ཇ_ཀོབ_པི/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ގަހުވަ,/c/dv/ގަހުވަ,,1.0
+coffee,/c/en/coffee/n,Synonym,կոֆե,/c/hy/կոֆե,,1.0
+word of wisdom,/c/en/word_of_wisdom/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,qahwe,/c/so/qahwe,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/ba/кофе,,1.0
+kawhi,/c/mi/kawhi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+μέτριοσ,/c/el/μέτριοσ/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,AtLocation,a friend's house,/c/en/friend's_house,*Something you find at [[a friend's house]] is [[coffee]],1.0
+coffee,/c/en/coffee/n,Synonym,kọfi,/c/yo/kọfi,,1.0
+microroasting,/c/en/microroasting/n,RelatedTo,coffee,/c/en/coffee,,1.0
+feca,/c/es/feca/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kofi,/c/st/kofi,,1.0
+coffi,/c/cy/coffi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kava,/c/sl/kava/n,RelatedTo,coffee,/c/en/coffee,,1.0
+mugup,/c/en/mugup/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,קפה,/c/he/קפה,,1.0
+coffee,/c/en/coffee/n,Synonym,काफी,/c/sa/काफी,,1.0
+breakfastcup,/c/en/breakfastcup/n,RelatedTo,coffee,/c/en/coffee,,1.0
+quán cà phê,/c/vi/quán_cà_phê/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kawhe,/c/mi/kawhe,,1.0
+café,/c/de/café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffè,/c/it/caffè/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kofi,/c/tpi/kofi,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+kafeja,/c/sq/kafeja/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,HasA,caffeine which raises brain reaction time,/c/en/caffeine_which_raises_brain_reaction_time,[[coffee]] contains [[caffeine which raises brain reaction time]],1.0
+ҡәһүә,/c/ba/ҡәһүә/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,IsA,ready to eat food,/c/en/ready_to_eat_food/n,,1.0
+coffee,/c/en/coffee/n,Synonym,kafyj,/c/szl/kafyj,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/myv/кофе,,1.0
+coffeemaking,/c/en/coffeemaking/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,IsA,gooooooooooooooood,/c/en/gooooooooooooooood,[[coffee]] is [[gooooooooooooooood]],1.0
+tasseography,/c/en/tasseography/n,RelatedTo,coffee,/c/en/coffee,,1.0
+qəhvə,/c/az/qəhvə/n,RelatedTo,coffee,/c/en/coffee,,1.0
+rich tea biscuit,/c/en/rich_tea_biscuit/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/ce/кофе,,1.0
+coffee,/c/en/coffee/n,Synonym,qawe,/c/ku/qawe,,1.0
+coffee,/c/en/coffee/n,Synonym,къофи,/c/os/къофи,,1.0
+moka pot,/c/en/moka_pot/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,కాఫీ,/c/te/కాఫీ,,1.0
+coffee,/c/en/coffee/n,Synonym,कफी,/c/ne/कफी,,1.0
+koffie,/c/af/koffie/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cappuccino,/c/en/cappuccino/n,RelatedTo,coffee,/c/en/coffee,,1.0
+black coffee,/c/en/black_coffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+කෝපි,/c/si/කෝපි/n,RelatedTo,coffee,/c/en/coffee,,1.0
+mocha,/c/en/mocha/n,IsA,coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+coffee,/c/en/coffee/n,Synonym,agahawa,/c/rw/agahawa,,1.0
+Coffee,/c/en/coffee,HasA,caffine,/c/en/caffine,[[Coffee]] contains [[caffine]],1.0
+coffee,/c/en/coffee/n,Synonym,caffè,/c/co/caffè,,1.0
+walk,/c/en/walk/n/wikt/en_2,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,HasContext,grain,/c/fr/grain,,1.0
+coffee,/c/en/coffee/n,Synonym,къагьва,/c/av/къагьва,,1.0
+coffee,/c/en/coffee/n,Synonym,akawa,/c/rw/akawa,,1.0
+coffee,/c/en/coffee/n,RelatedTo,caféier,/c/fr/caféier,,1.0
+siew dai,/c/en/siew_dai/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafea,/c/la/cafea,,1.0
+kaffetas,/c/liv/kaffetas/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafegee,/c/en/cafegee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+chasse café,/c/en/chasse_café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+pingado,/c/pt/pingado/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeelike,/c/en/coffeelike/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kofe,/c/bi/kofe,,1.0
+waking up in the morning,/c/en/waking_up_in_morning,HasPrerequisite,coffee,/c/en/coffee,[[waking up in the morning]] requires [[coffee]],1.0
+caffeifero,/c/it/caffeifero/a,RelatedTo,coffee,/c/en/coffee,,1.0
+kafo,/c/eo/kafo/n,Synonym,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/gn/café,,1.0
+coffee,/c/en/coffee/n,Synonym,kafe,/c/stq/kafe,,1.0
+arabica,/c/en/arabica/n,RelatedTo,coffee,/c/en/coffee,,1.0
+marocchino,/c/it/marocchino/n,RelatedTo,coffee,/c/en/coffee,,1.0
+oploskoffie,/c/nl/oploskoffie/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeehead,/c/en/coffeehead,DerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,mixture,/c/en/mixture/n,,1.0
+coffee,/c/en/coffee/n,Synonym,qave,/c/crh/qave,,1.0
+coffee,/c/en/coffee/n,Synonym,кофе,/c/av/кофе,,1.0
+kopi,/c/tpi/kopi,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kofi,/c/ff/kofi,,1.0
+coffee,/c/en/coffee,EtymologicallyDerivedFrom,koffie,/c/nl/koffie,,1.0
+coffee,/c/en/coffee/n,Synonym,feca,/c/es/feca,,1.0
+kähvi,/c/smn/kähvi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cofaidh,/c/gd/cofaidh/n,RelatedTo,coffee,/c/en/coffee,,1.0
+гуанз,/c/mn/гуанз/n,RelatedTo,coffee,/c/en/coffee,,1.0
+chicory,/c/en/chicory/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,frappuccino,/c/en/frappuccino,,1.0
+blek,/c/is/blek/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/ast/café,,1.0
+φραπέσ,/c/el/φραπέσ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,qehwe,/c/ku/qehwe,,1.0
+kahvinporo,/c/fi/kahvinporo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cold brew coffee,/c/en/cold_brew_coffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ཁ ཕེ,/c/bo/ཁ_ཕེ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kahvipensas,/c/fi/kahvipensas/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kawowiec,/c/pl/kawowiec/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,caffig,/c/ang/caffig,,1.0
+coffee,/c/en/coffee/n,Synonym,ކޮފީ,/c/dv/ކޮފީ,,1.0
+coffee,/c/en/coffee/n,Synonym,kaffe,/c/da/kaffe,,1.0
+caficultura,/c/es/caficultura/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kapi,/c/ilo/kapi,,1.0
+kahvikerma,/c/fi/kahvikerma/n,RelatedTo,coffee,/c/en/coffee,,1.0
+café au lait,/c/en/café_au_lait/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,کافی,/c/ur/کافی,,1.0
+turkish coffee,/c/en/turkish_coffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+chlorogenic acid,/c/en/chlorogenic_acid/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffees,/c/en/coffees,FormOf,coffee,/c/en/coffee/n,,1.0
+morgenkaffee,/c/de/morgenkaffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffi,/c/cy/coffi,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kafe,/c/bm/kafe,,1.0
+kahvimitta,/c/fi/kahvimitta/n,RelatedTo,coffee,/c/en/coffee,,1.0
+creamer,/c/en/creamer/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffè macchiato,/c/it/caffè_macchiato/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeeville,/c/en/coffeeville,DerivedFrom,coffee,/c/en/coffee/n,,1.0
+coffee,/c/en/coffee/n,Synonym,каһвә,/c/tt/каһвә,,1.0
+coffee,/c/en/coffee/n,Synonym,kofe,/c/fj/kofe,,1.0
+microroastery,/c/en/microroastery/n,RelatedTo,coffee,/c/en/coffee,,1.0
+بن,/c/ar/بن/n/wikt/en_2,RelatedTo,coffee,/c/en/coffee,,1.0
+cafetal,/c/es/cafetal/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,AtLocation,the shelf,/c/en/shelf,*Something you find on [[the shelf]] is [[coffee]],1.0
+coffee,/c/en/coffee/n,Synonym,caffei,/c/sc/caffei,,1.0
+blümchenkaffee,/c/de/blümchenkaffee/n,RelatedTo,coffee,/c/en/coffee,,1.0
+perk,/c/en/perk/v/wikt/en_2,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,robusta,/c/en/robusta,,1.0
+kávézó,/c/hu/kávézó/n,RelatedTo,coffee,/c/en/coffee,,1.0
+wapa,/c/qu/wapa/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafēn,/c/nah/cafēn,,1.0
+coffeelike,/c/en/coffeelike,DerivedFrom,coffee,/c/en/coffee,,1.0
+ກາເຟ,/c/lo/ກາເຟ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cupper,/c/en/cupper/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,RelatedTo,café,/c/fr/café,,1.0
+kawa,/c/pl/kawa/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,arabica,/c/en/arabica,,1.0
+coffee,/c/en/coffee/n,Synonym,咖啡,/c/hak/咖啡,,1.0
+ቡና,/c/am/ቡና/n,RelatedTo,coffee,/c/en/coffee,,1.0
+split shot,/c/en/split_shot/n,RelatedTo,coffee,/c/en/coffee,,1.0
+yuanyang,/c/en/yuanyang/n,RelatedTo,coffee,/c/en/coffee,,1.0
+a bean,/c/en/bean,AtLocation,coffee,/c/en/coffee,You are likely to find [[a bean]] in [[coffee]],1.0
+pocillo,/c/es/pocillo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+cafeniu,/c/ro/cafeniu/a,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,caffè,/c/lij/caffè,,1.0
+bun,/c/so/bun/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffeic,/c/en/caffeic/a,RelatedTo,coffee,/c/en/coffee,,1.0
+Coffee,/c/en/coffee,HasProperty,bitter,/c/en/bitter,[[Coffee]] is [[bitter]],1.0
+caféière,/c/fr/caféière/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,RelatedTo,serving,/c/en/serving,,1.0
+Coffee,/c/en/coffee,IsA,a liquid,/c/en/liquid,[[Coffee]] is [[a liquid]],1.0
+café,/c/nrf/café/n,RelatedTo,coffee,/c/en/coffee,,1.0
+啡走,/c/zh/啡走/n,RelatedTo,coffee,/c/en/coffee,,1.0
+unsupported titles c through n to k,/c/en/unsupported_titles_c_through_n_to_k,RelatedTo,coffee,/c/en/coffee,,1.0
+torrefazione,/c/it/torrefazione/n,RelatedTo,coffee,/c/en/coffee,,1.0
+champoreau,/c/fr/champoreau/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caféier,/c/fr/caféier/n,RelatedTo,coffee,/c/en/coffee,,1.0
+սուրճ,/c/hy/սուրճ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,កាហ្វេ,/c/km/កាហ្វេ,,1.0
+décaféiné,/c/fr/décaféiné/n,RelatedTo,coffee,/c/en/coffee,,1.0
+colar,/c/es/colar/v,RelatedTo,coffee,/c/en/coffee,,1.0
+nance,/c/es/nance/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeeholic,/c/en/coffeeholic,DerivedFrom,coffee,/c/en/coffee,,1.0
+kafé,/c/tet/kafé/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kahviastiasto,/c/fi/kahviastiasto/n,RelatedTo,coffee,/c/en/coffee,,1.0
+акаҳуа,/c/ab/акаҳуа/n,RelatedTo,coffee,/c/en/coffee,,1.0
+setting a cup on a table,/c/en/setting_cup_on_table,UsedFor,coffee,/c/en/coffee,[[setting a cup on a table]] is for [[coffee]],1.0
+coffee,/c/en/coffee/n,RelatedTo,marron,/c/fr/marron,,1.0
+kahvinjuonti,/c/fi/kahvinjuonti/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kaffeblask,/c/sv/kaffeblask/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kofi,/c/ha/kofi/n/wikt/en_2,RelatedTo,coffee,/c/en/coffee,,1.0
+black russian,/c/en/black_russian/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,咖啡,/c/nan/咖啡,,1.0
+coffee,/c/en/coffee/n,Synonym,café,/c/rm/café,,1.0
+neapolitan,/c/en/neapolitan/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kofi,/c/ha/kofi,,1.0
+torréfacteur,/c/fr/torréfacteur/n,RelatedTo,coffee,/c/en/coffee,,1.0
+Coffee,/c/en/coffee,HasA,large amounts of caffeine,/c/en/large_amounts_of_caffeine,[[Coffee]] contains [[large amounts of caffeine]],1.0
+coffee,/c/en/coffee,ReceivesAction,served in most restaurants,/c/en/served_in_most_restaurants,[[coffee]] is [[served in most restaurants]],1.0
+coffee,/c/en/coffee/n,Synonym,кафе,/c/bg/кафе,,1.0
+קהוה,/c/he/קהוה/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,káva,/c/sk/káva,,1.0
+caficultor,/c/es/caficultor/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,RelatedTo,coffea,/c/en/coffea,,1.0
+ਕਾਫ਼ੀ,/c/pa/ਕਾਫ਼ੀ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kopi,/c/jv/kopi,,1.0
+coffee,/c/en/coffee/n,Synonym,قهوة,/c/ar/قهوة,,1.0
+decaf,/c/en/decaf/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,RelatedTo,bean,/c/en/bean,,1.0
+coffeehouse,/c/en/coffeehouse/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kahwa,/c/ms/kahwa,,1.0
+Coffee,/c/en/coffee,IsA,a refreshing and stimulating beverage,/c/en/refreshing_and_stimulating_beverage,[[Coffee]] is [[a refreshing and stimulating beverage]],1.0
+કહવા,/c/gu/કહવા/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafï,/c/qu/cafï,,1.0
+coffee,/c/en/coffee,HasProperty,drunk with or without milk,/c/en/drunk_with_or_without_milk,[[coffee]] can be [[drunk with or without milk]],1.0
+makade mashkikiwaaboo,/c/oj/makade_mashkikiwaaboo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+water,/c/en/water,AtLocation,coffee,/c/en/coffee,You are likely to find [[water]] in [[coffee]].,1.0
+coffee,/c/en/coffee/n,Synonym,kafé,/c/tet/kafé,,1.0
+coffee,/c/en/coffee/n,Synonym,ڪافي,/c/sd/ڪافي,,1.0
+coffee,/c/en/coffee/n,Synonym,کاوہ,/c/bal/کاوہ,,1.0
+καφέ,/c/el/καφέ/n/wikt/en_1,RelatedTo,coffee,/c/en/coffee,,1.0
+ყავა,/c/ka/ყავა/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,ᑳᐱ,/c/iu/ᑳᐱ,,1.0
+coffee,/c/en/coffee/n,Synonym,قەھۋە,/c/ug/قەھۋە,,1.0
+brynda,/c/cs/brynda/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kaffi,/c/no/kaffi,,1.0
+coffea,/c/la/coffea/n,RelatedTo,coffee,/c/en/coffee,,1.0
+babycino,/c/en/babycino/n,RelatedTo,coffee,/c/en/coffee,,1.0
+caffè d orzo,/c/it/caffè_d_orzo/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ᑳᐱ,/c/iu/ᑳᐱ/n,RelatedTo,coffee,/c/en/coffee,,1.0
+ahwééh,/c/nv/ahwééh/n,RelatedTo,coffee,/c/en/coffee,,1.0
+blackeye,/c/en/blackeye/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kafe,/c/eu/kafe/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,IsA,coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+coffeeless,/c/en/coffeeless,DerivedFrom,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kahvi,/c/fi/kahvi,,1.0
+gyahfeih,/c/za/gyahfeih/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeemaker,/c/en/coffeemaker/n,RelatedTo,coffee,/c/en/coffee,,1.0
+kofi,/c/chk/kofi/n,RelatedTo,coffee,/c/en/coffee,,1.0
+કૉફી,/c/gu/કૉફી/n,RelatedTo,coffee,/c/en/coffee,,1.0
+珈琲,/c/ja/珈琲,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+kahũa,/c/ki/kahũa/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,EtymologicallyDerivedFrom,قهوه,/c/ota/قهوه,,1.0
+coffee,/c/en/coffee,AtLocation,the supermarket,/c/en/supermarket,You are likely to find [[coffee]] in [[the supermarket]].,1.0
+caffeinism,/c/en/caffeinism/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,kaffi,/c/kl/kaffi,,1.0
+coffee,/c/en/coffee,AtLocation,a fast-food restaurant,/c/en/fast_food_restaurant,*Something you find at [[a fast-food restaurant]] is [[coffee]],1.0
+Coffee,/c/en/coffee,IsA,a low-margin product,/c/en/low_margin_product,[[Coffee]] is [[a low-margin product]],1.0
+café crème,/c/fr/café_crème/n,RelatedTo,coffee,/c/en/coffee,,1.0
+کوفی,/c/ur/کوفی/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee bean,/c/en/coffee_bean/n,RelatedTo,coffee,/c/en/coffee,,1.0
+new york breakfast,/c/en/new_york_breakfast/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee,RelatedTo,cafeteria,/c/en/cafeteria,,1.0
+coffee,/c/en/coffee/n,Synonym,kafe,/c/zdj/kafe,,1.0
+coffee,/c/en/coffee,RelatedTo,mocha,/c/en/mocha,,1.0
+coffee,/c/en/coffee/n,RelatedTo,plant,/c/en/plant,,1.0
+Coffee,/c/en/coffee,HasA,a stimulant drug: caffeine,/c/en/stimulant_drug_caffeine,[[Coffee]] contains [[a stimulant drug: caffeine]],1.0
+chʼil gohwéhí,/c/nv/chʼil_gohwéhí,EtymologicallyDerivedFrom,coffee,/c/en/coffee,,1.0
+къэхьо,/c/ady/къэхьо/n,RelatedTo,coffee,/c/en/coffee,,1.0
+bean,/c/en/bean/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,cafea,/c/ro/cafea,,1.0
+कॉफी,/c/hi/कॉफी/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffeeberry,/c/en/coffeeberry,DerivedFrom,coffee,/c/en/coffee,,1.0
+prut,/c/nl/prut/n,RelatedTo,coffee,/c/en/coffee,,1.0
+coffee,/c/en/coffee/n,Synonym,قاوه‌,/c/ku/قاوه‌,,1.0

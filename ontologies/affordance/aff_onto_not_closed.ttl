@@ -1,17 +1,8 @@
 @prefix aff: <http://test.org/affordance.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
 
 <http://test.org/affordance.owl> a owl:Ontology .
-
-aff:quality a owl:ObjectProperty ;
-    rdfs:domain aff:KitchenEntity ;
-    rdfs:range aff:Quality .
-
-aff:Quality a owl:Class ;
-    rdfs:subClassOf owl:Thing .
 
 aff:action_affordance a owl:ObjectProperty ;
     rdfs:domain aff:Action ;
@@ -25,31 +16,19 @@ aff:potential_action a owl:ObjectProperty ;
     rdfs:domain aff:KitchenEntity ;
     rdfs:range aff:Action .
 
-<urn:swrl#Affordance> a swrl:Variable .
+aff:quality a owl:ObjectProperty ;
+    rdfs:domain aff:KitchenEntity ;
+    rdfs:range aff:Quality .
+
+aff:Quality a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
 aff:Action a owl:Class ;
     rdfs:subClassOf owl:Thing .
-
-<urn:swrl#Action> a swrl:Variable .
-
-<urn:swrl#KitchenEntity> a swrl:Variable .
 
 aff:Affordance a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
 aff:KitchenEntity a owl:Class ;
     rdfs:subClassOf owl:Thing .
-
-[] a swrl:Imp ;
-    swrl:body ( [ a swrl:IndividualPropertyAtom ;
-                swrl:argument1 <urn:swrl#KitchenEntity> ;
-                swrl:argument2 <urn:swrl#Action> ;
-                swrl:propertyPredicate aff:potential_action ] [ a swrl:IndividualPropertyAtom ;
-                swrl:argument1 <urn:swrl#Action> ;
-                swrl:argument2 aff:Affordance ;
-                swrl:propertyPredicate aff:action_affordance ] ) ;
-    swrl:head ( [ a swrl:IndividualPropertyAtom ;
-                swrl:argument1 <urn:swrl#KitchenEntity> ;
-                swrl:argument2 <urn:swrl#Affordance> ;
-                swrl:propertyPredicate aff:affords ] ) .
 

@@ -1,0 +1,707 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+Limoeiro,/c/pt/limoeiro/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[Limoeiro]] is a translation of [[lemon]],3.4641016151377544
+lemon,/c/en/lemon,RelatedTo,fruit,/c/en/fruit,[[lemon]] is related to [[fruit]],2.933257574779276
+lime,/c/en/lime,RelatedTo,lemon,/c/en/lemon,[[lime]] is related to [[lemon]],2.916161861076988
+lemon,/c/en/lemon,RelatedTo,yellow,/c/en/yellow,[[lemon]] is related to [[yellow]],2.1918029108475974
+レモン色,/c/ja/レモン色/a,Synonym,lemon,/c/en/lemon,,2.0
+limón,/c/es/limón/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[limón]] is a translation of [[lemon]],2.0
+citron,/c/fr/citron/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[citron]] is a translation of [[lemon]],2.0
+limeira,/c/pt/limeira/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[limeira]] is a translation of [[lemon]],2.0
+limunov,/c/sh/limunov/a,RelatedTo,lemon,/c/en/lemon,,2.0
+ต้นมะนาว,/c/th/ต้นมะนาว/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[ต้นมะนาว]] is a translation of [[lemon]],2.0
+Citrus limon,/c/fi/citrus_limon/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[Citrus limon]] is a translation of [[lemon]],2.0
+limau,/c/id/limau/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[limau]] is a translation of [[lemon]],2.0
+lemon,/c/ms/lemon/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[lemon]] is a translation of [[lemon]],2.0
+ต้นเลมอน,/c/th/ต้นเลมอน/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[ต้นเลมอน]] is a translation of [[lemon]],2.0
+เลมอน,/c/th/เลมอน/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[เลมอน]] is a translation of [[lemon]],2.0
+jeruk nipis,/c/ms/jeruk_nipis/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[jeruk nipis]] is a translation of [[lemon]],2.0
+susikappale,/c/fi/susikappale/n/wn/artifact,Synonym,lemon,/c/en/lemon/n/wn/artifact,[[susikappale]] is a translation of [[lemon]],2.0
+limoiondo,/c/eu/limoiondo/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[limoiondo]] is a translation of [[lemon]],2.0
+citron,/c/fr/citron/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[citron]] is a translation of [[lemon]],2.0
+sitruunapuu,/c/fi/sitruunapuu/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[sitruunapuu]] is a translation of [[lemon]],2.0
+limón,/c/es/limón/n/wn/cognition,Synonym,lemon,/c/en/lemon/n/wn/cognition,[[limón]] is a translation of [[lemon]],2.0
+lemon,/c/id/lemon/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[lemon]] is a translation of [[lemon]],2.0
+ของไม่ดี,/c/th/ของไม่ดี/n/wn/artifact,Synonym,lemon,/c/en/lemon/n/wn/artifact,[[ของไม่ดี]] is a translation of [[lemon]],2.0
+limau,/c/ms/limau/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[limau]] is a translation of [[lemon]],2.0
+cytrynowiec,/c/pl/cytrynowiec/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[cytrynowiec]] is a translation of [[lemon]],2.0
+limau kuning,/c/ms/limau_kuning/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[limau kuning]] is a translation of [[lemon]],2.0
+citronnier,/c/fr/citronnier/n/wn/artifact,Synonym,lemon,/c/en/lemon/n/wn/artifact,[[citronnier]] is a translation of [[lemon]],2.0
+limau,/c/id/limau/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[limau]] is a translation of [[lemon]],2.0
+citron,/c/da/citron/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[citron]] is a translation of [[lemon]],2.0
+lemon tree,/c/en/lemon_tree/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[lemon tree]] is a synonym of [[lemon]],2.0
+lemon,/c/en/lemon/n/wn/artifact,IsA,artifact,/c/en/artifact/n/wn,[[lemon]] is a type of [[artifact]],2.0
+lemon peel,/c/en/lemon_peel/n/wn/food,PartOf,lemon,/c/en/lemon/n/wn/food,[[lemon peel]] is a part of [[lemon]],2.0
+lemon,/c/en/lemon/n/wn/plant,IsA,citrus,/c/en/citrus/n/wn/plant,[[lemon]] is a type of [[citrus]],2.0
+lemon,/c/en/lemon/n/wn/food,PartOf,lemon,/c/en/lemon/n/wn/plant,[[lemon]] is a part of [[lemon]],2.0
+citrus limon,/c/fr/citrus_limon/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[citrus limon]] is a translation of [[lemon]],2.0
+รสเลมอน,/c/th/รสเลมอน/n/wn/cognition,Synonym,lemon,/c/en/lemon/n/wn/cognition,[[รสเลมอน]] is a translation of [[lemon]],2.0
+sitron,/c/no/sitron/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[sitron]] is a translation of [[lemon]],2.0
+lemon,/c/ms/lemon/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[lemon]] is a translation of [[lemon]],2.0
+ลูกเลมอน,/c/th/ลูกเลมอน/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[ลูกเลมอน]] is a translation of [[lemon]],2.0
+sitruuna,/c/fi/sitruuna/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[sitruuna]] is a translation of [[lemon]],2.0
+jeruk nipis,/c/id/jeruk_nipis/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[jeruk nipis]] is a translation of [[lemon]],2.0
+citronnier,/c/fr/citronnier/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[citronnier]] is a translation of [[lemon]],2.0
+limun,/c/sh/limun/n,RelatedTo,lemon,/c/en/lemon,,2.0
+limone,/c/it/limone/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[limone]] is a translation of [[lemon]],2.0
+limones,/c/es/limones/n/wn/cognition,Synonym,lemon,/c/en/lemon/n/wn/cognition,[[limones]] is a translation of [[lemon]],2.0
+cytryna,/c/pl/cytryna/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[cytryna]] is a translation of [[lemon]],2.0
+citronnier,/c/fr/citronnier/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[citronnier]] is a translation of [[lemon]],2.0
+limau kuning,/c/ms/limau_kuning/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[limau kuning]] is a translation of [[lemon]],2.0
+limão,/c/pt/limão/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[limão]] is a translation of [[lemon]],2.0
+kirpeys,/c/fi/kirpeys/n/wn/cognition,Synonym,lemon,/c/en/lemon/n/wn/cognition,[[kirpeys]] is a translation of [[lemon]],2.0
+limoi,/c/eu/limoi/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[limoi]] is a translation of [[lemon]],2.0
+レモン,/c/ja/レモン/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[レモン]] is a translation of [[lemon]],2.0
+citron,/c/fr/citron/n/wn/cognition,Synonym,lemon,/c/en/lemon/n/wn/cognition,[[citron]] is a translation of [[lemon]],2.0
+รสมะนาว,/c/th/รสมะนาว/n/wn/cognition,Synonym,lemon,/c/en/lemon/n/wn/cognition,[[รสมะนาว]] is a translation of [[lemon]],2.0
+huono juttu,/c/fi/huono_juttu/n/wn/artifact,Synonym,lemon,/c/en/lemon/n/wn/artifact,[[huono juttu]] is a translation of [[lemon]],2.0
+stinker,/c/en/stinker/n/wn/artifact,Synonym,lemon,/c/en/lemon/n/wn/artifact,[[stinker]] is a synonym of [[lemon]],2.0
+limau kuning,/c/id/limau_kuning/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[limau kuning]] is a translation of [[lemon]],2.0
+llimoner,/c/ca/llimoner/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[llimoner]] is a translation of [[lemon]],2.0
+lemon,/c/en/lemon/n/wn/attribute,Synonym,gamboge,/c/en/gamboge/n/wn/attribute,[[lemon]] is a synonym of [[gamboge]],2.0
+lemon,/c/en/lemon/n,Synonym,limun,/c/sh/limun,,2.0
+limau kuning,/c/id/limau_kuning/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[limau kuning]] is a translation of [[lemon]],2.0
+レモン,/c/ja/レモン/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[レモン]] is a translation of [[lemon]],2.0
+limau,/c/ms/limau/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[limau]] is a translation of [[lemon]],2.0
+llimona,/c/ca/llimona/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[llimona]] is a translation of [[lemon]],2.0
+lemon,/c/id/lemon/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[lemon]] is a translation of [[lemon]],2.0
+lemon,/c/en/lemon/n/wn/cognition,IsA,relish,/c/en/relish/n/wn/cognition,[[lemon]] is a type of [[relish]],2.0
+citron,/c/fr/citron/n/wn/artifact,Synonym,lemon,/c/en/lemon/n/wn/artifact,[[citron]] is a translation of [[lemon]],2.0
+cytryna,/c/pl/cytryna/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[cytryna]] is a translation of [[lemon]],2.0
+chiotte,/c/fr/chiotte/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[chiotte]] is a translation of [[lemon]],2.0
+citronnier,/c/fr/citronnier/n/wn/cognition,Synonym,lemon,/c/en/lemon/n/wn/cognition,[[citronnier]] is a translation of [[lemon]],2.0
+limão,/c/pt/limão/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[limão]] is a translation of [[lemon]],2.0
+lemon,/c/en/lemon/n/wn/food,IsA,citrus,/c/en/citrus/n/wn/food,[[lemon]] is a type of [[citrus]],2.0
+檸檬,/c/ja/檸檬/n/wn/food,Synonym,lemon,/c/en/lemon/n/wn/food,[[檸檬]] is a translation of [[lemon]],2.0
+sweet lemon,/c/en/sweet_lemon/n/wn/plant,IsA,lemon,/c/en/lemon/n/wn/plant,[[sweet lemon]] is a type of [[lemon]],2.0
+檸檬,/c/ja/檸檬/n,Synonym,lemon,/c/en/lemon,,2.0
+芋虫,/c/ja/芋虫/n/wn/artifact,Synonym,lemon,/c/en/lemon/n/wn/artifact,[[芋虫]] is a translation of [[lemon]],2.0
+Citrus limon,/c/en/citrus_limon/n/wn/plant,Synonym,lemon,/c/en/lemon/n/wn/plant,[[Citrus limon]] is a synonym of [[lemon]],2.0
+lemon,/c/en/lemon,RelatedTo,citron,/c/en/citron,,1.5
+柠檬,/c/zh/柠檬,Synonym,lemon,/c/en/lemon,,1.5
+lemon,/c/en/lemon,RelatedTo,lime,/c/en/lime,[[lemon]] is related to [[lime]],1.359
+lemon,/c/en/lemon,RelatedTo,sour,/c/en/sour,[[lemon]] is related to [[sour]],1.286
+lemon,/c/en/lemon/n/wn/food,ExternalURL,107765558-n,http://wordnet-rdf.princeton.edu/wn31/107765558-n,,1.0
+ლიმონი,/c/ka/ლიმონი/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,檸檬,/c/nan/檸檬,,1.0
+നാരങ്ങ,/c/ml/നാരങ്ങ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonless,/c/en/lemonless,DerivedFrom,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,adverse selection,/c/en/adverse_selection,,1.0
+lemon,/c/en/lemon/n,ExternalURL,Lemon,http://sw.opencyc.org/2012/05/10/concept/en/Lemon,,1.0
+lemon,/c/en/lemon,RelatedTo,melissa,/c/en/melissa,,1.0
+lemon,/c/en/lemon/n,Synonym,citrona,/c/rm/citrona,,1.0
+lemon plait,/c/en/lemon_plait/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,sítróna,/c/is/sítróna,,1.0
+lemon,/c/en/lemon/n,Synonym,sitronoù,/c/br/sitronoù,,1.0
+lemon,/c/en/lemon/n,Synonym,limon,/c/nrf/limon,,1.0
+zitrone,/c/de/zitrone/n,RelatedTo,lemon,/c/en/lemon,,1.0
+నిమ్మ,/c/te/నిమ్మ/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonwood,/c/en/lemonwood/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citrón,/c/cs/citrón/n,RelatedTo,lemon,/c/en/lemon,,1.0
+λεμόνι,/c/el/λεμόνι/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon cake,/c/en/lemon_cake,DerivedFrom,lemon,/c/en/lemon/n,,1.0
+lìmunéna,/c/twf/lìmunéna/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limone,/c/de/limone/n,Synonym,lemon,/c/en/lemon,,1.0
+lemonwood,/c/en/lemonwood,DerivedFrom,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,favor,/c/en/favor,,1.0
+sussex pond pudding,/c/en/sussex_pond_pudding/n,RelatedTo,lemon,/c/en/lemon,,1.0
+🍋,/c/mul/🍋,RelatedTo,lemon,/c/en/lemon,,1.0
+tarte au citron,/c/fr/tarte_au_citron/n,RelatedTo,lemon,/c/en/lemon,,1.0
+queen cake,/c/en/queen_cake/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citrina,/c/lt/citrina/n,RelatedTo,lemon,/c/en/lemon,,1.0
+檸檬,/c/zh/檸檬/n,RelatedTo,lemon,/c/en/lemon,,1.0
+tangad,/c/ceb/tangad/n,RelatedTo,lemon,/c/en/lemon,,1.0
+λεμονί,/c/el/λεμονί/n,RelatedTo,lemon,/c/en/lemon,,1.0
+mumue,/c/ee/mumue/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,լիմոն,/c/hy/լիմոն,,1.0
+זיצטרין,/c/yi/זיצטרין/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citriform,/c/en/citriform/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonary,/c/en/lemonary,DerivedFrom,lemon,/c/en/lemon,,1.0
+sauce vierge,/c/fr/sauce_vierge/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,llimón,/c/ast/llimón,,1.0
+lemon,/c/en/lemon/n,Synonym,limão,/c/pt/limão,,1.0
+lemon,/c/en/lemon/n,Synonym,лімон,/c/be/лімон,,1.0
+sitruuna,/c/fi/sitruuna/n,Synonym,lemon,/c/en/lemon,,1.0
+lemons,/c/en/lemons/n,FormOf,lemon,/c/en/lemon,,1.0
+greek fries,/c/en/greek_fries/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,lemon,/c/cy/lemon,,1.0
+scotch mist,/c/en/scotch_mist/n,RelatedTo,lemon,/c/en/lemon,,1.0
+լիմոն,/c/hy/լիմոն/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,limonene,/c/en/limonene,,1.0
+grapefruit,/c/en/grapefruit/n,DistinctFrom,lemon,/c/en/lemon,,1.0
+檸,/c/zh/檸,Synonym,lemon,/c/en/lemon,,1.0
+lemon chicken,/c/en/lemon_chicken/n,RelatedTo,lemon,/c/en/lemon,,1.0
+sitruunapuu,/c/fi/sitruunapuu/n,RelatedTo,lemon,/c/en/lemon,,1.0
+hollandaise sauce,/c/en/hollandaise_sauce/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,لمون,/c/ar/لمون,,1.0
+piccata,/c/it/piccata/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citrónový,/c/cs/citrónový/a,Synonym,lemon,/c/en/lemon,,1.0
+limonicoltore,/c/it/limonicoltore/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,sidrun,/c/et/sidrun,,1.0
+檸檬茶,/c/zh/檸檬茶/n,RelatedTo,lemon,/c/en/lemon,,1.0
+zitronengelb,/c/de/zitronengelb/a,Synonym,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,レモン,/c/ja/レモン,,1.0
+citrus,/c/en/citrus/n,RelatedTo,lemon,/c/en/lemon,,1.0
+sur,/c/no/sur/a,RelatedTo,lemon,/c/en/lemon,,1.0
+citrongul,/c/da/citrongul/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,limon,/c/az/limon,,1.0
+llimona,/c/ca/llimona/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,evergreen,/c/en/evergreen,,1.0
+citroník,/c/cs/citroník/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,limon,/c/sq/limon,,1.0
+limonier,/c/fr/limonier/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,կիտրոն,/c/hy/կիտրոն,,1.0
+🍋,/c/mul/🍋,SymbolOf,lemon,/c/en/lemon,,1.0
+yassa,/c/fr/yassa/n,RelatedTo,lemon,/c/en/lemon,,1.0
+bomb,/c/en/bomb/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonlike,/c/en/lemonlike/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,HasContext,cockney rhyming,/c/en/cockney_rhyming,,1.0
+lemon,/c/en/lemon/n,Synonym,limon,/c/gv/limon,,1.0
+lemon,/c/en/lemon/n,Synonym,limon,/c/uz/limon,,1.0
+limau,/c/id/limau/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonish,/c/en/lemonish,DerivedFrom,lemon,/c/en/lemon/n,,1.0
+lemon,/c/en/lemon,RelatedTo,citrine,/c/en/citrine,,1.0
+citronkoks,/c/lv/citronkoks/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citron,/c/cs/citron/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,HasContext,from lemon tart,/c/en/from_lemon_tart,,1.0
+レモン色,/c/ja/レモン色/n,RelatedTo,lemon,/c/en/lemon,,1.0
+hot whiskey,/c/en/hot_whiskey/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limonin,/c/en/limonin/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limongni,/c/nrf/limongni/n,RelatedTo,lemon,/c/en/lemon,,1.0
+نيمبو,/c/ps/نيمبو/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,citrus,/c/en/citrus,,1.0
+నిమ్మపండు,/c/te/నిమ్మపండు/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonweed,/c/en/lemonweed,DerivedFrom,lemon,/c/en/lemon,,1.0
+lemonfish,/c/en/lemonfish,DerivedFrom,lemon,/c/en/lemon,,1.0
+A lemon,/c/en/lemon,IsA,"a sour, yellow fruit",/c/en/sour_yellow_fruit,"[[A lemon]] is [[a sour, yellow fruit]]",1.0
+ブルーハワイ,/c/ja/ブルーハワイ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+mlimau,/c/sw/mlimau/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemongrass,/c/en/lemongrass,DerivedFrom,lemon,/c/en/lemon/n,,1.0
+lemon,/c/en/lemon/n,Synonym,suraval,/c/br/suraval,,1.0
+lemon,/c/en/lemon/n,Synonym,লেবু,/c/bn/লেবু,,1.0
+lemon,/c/en/lemon/n,RelatedTo,flavor,/c/en/flavor,,1.0
+レモン,/c/ja/レモン/n,RelatedTo,lemon,/c/en/lemon,,1.0
+enopi,/c/ccc/enopi/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lime,/c/en/lime/n/wikt/en_3,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon lime,/c/en/lemon_lime/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemoning,/c/en/lemoning/v,FormOf,lemon,/c/en/lemon,,1.0
+lymon,/c/fro/lymon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+лимон,/c/ru/лимон/n,Synonym,lemon,/c/en/lemon,,1.0
+citrono,/c/eo/citrono/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,RelatedTo,color,/c/en/color,,1.0
+limon,/c/fil/limon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,tree,/c/en/tree,,1.0
+lemon,/c/en/lemon/n,Synonym,檸檬,/c/zh/檸檬,,1.0
+檸檬可樂,/c/zh/檸檬可樂/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,🍋,/c/mul/🍋,,1.0
+limonato,/c/it/limonato/a,RelatedTo,lemon,/c/en/lemon,,1.0
+limonado,/c/pt/limonado/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,limonxōcotl,/c/nah/limonxōcotl,,1.0
+lemon,/c/en/lemon/n,Synonym,лимон,/c/uk/лимон,,1.0
+lemon,/c/en/lemon/n,RelatedTo,shade,/c/en/shade,,1.0
+lemon,/c/en/lemon,ExternalURL,Q500,http://wikidata.dbpedia.org/resource/Q500,,1.0
+레몬,/c/ko/레몬,EtymologicallyDerivedFrom,lemon,/c/en/lemon,,1.0
+檬,/c/zh/檬,Synonym,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,नींबू,/c/hi/नींबू,,1.0
+taramosalata,/c/en/taramosalata/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,ಇಲಿಮಿಂಚಿ,/c/kn/ಇಲಿಮಿಂಚಿ,,1.0
+lemon,/c/en/lemon/n,HasContext,slang,/c/en/slang,,1.0
+lămâie,/c/ro/lămâie/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,cytryna,/c/pl/cytryna,,1.0
+lemon,/c/en/lemon/n,Synonym,limón,/c/gl/limón,,1.0
+limon,/c/uz/limon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limona,/c/sl/limona/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,defective,/c/en/defective,,1.0
+limonicoltura,/c/it/limonicoltura/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,liindhanaan,/c/so/liindhanaan,,1.0
+निम्बू,/c/sa/निम्बू/n,RelatedTo,lemon,/c/en/lemon,,1.0
+smutfic,/c/en/smutfic/n,Synonym,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,حمض,/c/ar/حمض,,1.0
+lemon,/c/en/lemon/n,Synonym,රට දෙහි,/c/si/රට_දෙහි,,1.0
+lemon,/c/en/lemon/n/wn/plant,ExternalURL,112732356-n,http://wordnet-rdf.princeton.edu/wn31/112732356-n,,1.0
+łimonada,/c/vec/łimonada/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,柠檬,/c/hak/柠檬,,1.0
+лимон,/c/bg/лимон/n,Synonym,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,inadequate,/c/en/inadequate,,1.0
+maanantaikappale,/c/fi/maanantaikappale/n,RelatedTo,lemon,/c/en/lemon,,1.0
+sidecar,/c/en/sidecar/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n/wn/artifact,ExternalURL,103661164-n,http://wordnet-rdf.princeton.edu/wn31/103661164-n,,1.0
+कागती,/c/ne/कागती/n,RelatedTo,lemon,/c/en/lemon,,1.0
+perfection salad,/c/en/perfection_salad/n,RelatedTo,lemon,/c/en/lemon,,1.0
+fustian,/c/en/fustian/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,limonagh,/c/gv/limonagh,,1.0
+cytron,/c/fro/cytron/n,RelatedTo,lemon,/c/en/lemon,,1.0
+ង៉ាំង៉ូវ,/c/km/ង៉ាំង៉ូវ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+adverse selection,/c/en/adverse_selection/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemons,/c/en/lemons/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limoneto,/c/it/limoneto/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,suurlemoen,/c/af/suurlemoen,,1.0
+lemon,/c/en/lemon/n,Synonym,jeruk lemon,/c/id/jeruk_lemon,,1.0
+a lemon,/c/en/lemon,AtLocation,the fridge,/c/en/fridge,You are likely to find [[a lemon]] in [[the fridge]].,1.0
+łimon,/c/vec/łimon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,HasContext,fruits,/c/fr/fruits,,1.0
+sitruuna,/c/fi/sitruuna/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,柠檬,/c/zh/柠檬,,1.0
+femminello,/c/it/femminello/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citrono,/c/io/citrono,,1.0
+नींबू,/c/hi/नींबू/n,RelatedTo,lemon,/c/en/lemon,,1.0
+sitroen,/c/fy/sitroen/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,HasContext,shortened from lemon flavour,/c/en/shortened_from_lemon_flavour,,1.0
+ရှောက်,/c/my/ရှောက်/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,λεμονι,/c/el/λεμονι,,1.0
+lemon,/c/en/lemon/n,Synonym,лимон,/c/kk/лимон,,1.0
+citrón,/c/es/citrón/n,RelatedTo,lemon,/c/en/lemon,,1.0
+લીંબુ,/c/gu/લીંબુ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,RelatedTo,flavour,/c/en/flavour,,1.0
+líomóid,/c/ga/líomóid/n,RelatedTo,lemon,/c/en/lemon,,1.0
+rock shandy,/c/en/rock_shandy/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemongrass,/c/en/lemongrass/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon socialism,/c/en/lemon_socialism/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citroengeel,/c/nl/citroengeel/n,RelatedTo,lemon,/c/en/lemon,,1.0
+avgolemono,/c/en/avgolemono/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limon cuahuitl,/c/nci/limon_cuahuitl/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citronné,/c/fr/citronné/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,sitruuna,/c/fi/sitruuna,,1.0
+lemon tree,/c/en/lemon_tree,DerivedFrom,lemon,/c/en/lemon/n,,1.0
+lemon,/c/en/lemon/n/opencyc/lemon_417,IsA,living thing,/c/en/living_thing/n,,1.0
+lemon,/c/en/lemon/n,Synonym,zitrone,/c/de/zitrone,,1.0
+tgv,/c/en/tgv/n/wikt/en_2,RelatedTo,lemon,/c/en/lemon,,1.0
+ചെറുനാരങ്ങ,/c/ml/ചെറുനാരങ്ങ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,limona,/c/sl/limona,,1.0
+syllabub,/c/en/syllabub/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,ལེ མོན,/c/bo/ལེ_མོན,,1.0
+negus,/c/en/negus/n/wikt/en_1,RelatedTo,lemon,/c/en/lemon,,1.0
+bloody mary,/c/en/bloody_mary/n,RelatedTo,lemon,/c/en/lemon,,1.0
+rough lemon,/c/en/rough_lemon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+ស្ងោរមាន់ង៉ាំង៉ូវ,/c/km/ស្ងោរមាន់ង៉ាំង៉ូវ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,သံပရို,/c/my/သံပရို,,1.0
+lemon,/c/en/lemon/n,Synonym,لیمون,/c/fa/لیمون,,1.0
+lemon,/c/en/lemon/n,Synonym,limão siciliano,/c/pt/limão_siciliano,,1.0
+lemon,/c/en/lemon/n,Synonym,lìmunéna,/c/twf/lìmunéna,,1.0
+lemon,/c/en/lemon/n,Synonym,sitron,/c/br/sitron,,1.0
+lemon,/c/en/lemon/n,Synonym,لیمو,/c/fa/لیمو,,1.0
+limonicoltrice,/c/it/limonicoltrice/n,RelatedTo,lemon,/c/en/lemon,,1.0
+ציטראן,/c/yi/ציטראן/n,RelatedTo,lemon,/c/en/lemon,,1.0
+puras,/c/fil/puras/n,RelatedTo,lemon,/c/en/lemon,,1.0
+tea,/c/en/tea/n/wikt/en_1,RelatedTo,lemon,/c/en/lemon,,1.0
+liin,/c/so/liin/n,RelatedTo,lemon,/c/en/lemon,,1.0
+لیمون,/c/ota/لیمون/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonary,/c/en/lemonary/n,RelatedTo,lemon,/c/en/lemon,,1.0
+лимон,/c/ru/лимон/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,לימענע,/c/yi/לימענע,,1.0
+sítróna,/c/is/sítróna/n,RelatedTo,lemon,/c/en/lemon,,1.0
+λεμονιά,/c/el/λεμονιά/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limon,/c/nrf/limon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,RelatedTo,vocal,/c/en/vocal,,1.0
+lemon,/c/en/lemon/n,Synonym,cidrón,/c/gl/cidrón,,1.0
+lemon,/c/en/lemon/n,Synonym,jeruk sitrun,/c/id/jeruk_sitrun,,1.0
+ليموني,/c/ar/ليموني/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,pwp,/c/en/pwp,,1.0
+lemon,/c/en/lemon/a,RelatedTo,scent,/c/en/scent,,1.0
+lemon,/c/en/lemon/n,Synonym,chʼil łitsooí díkʼǫ́zhígíí,/c/nv/chʼil_łitsooí_díkʼǫ́zhígíí,,1.0
+citrom,/c/hu/citrom/n,RelatedTo,lemon,/c/en/lemon,,1.0
+liomaid,/c/gd/liomaid/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,lymmaval,/c/kw/lymmaval,,1.0
+lemon squeezer,/c/en/lemon_squeezer/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonlike,/c/en/lemonlike,DerivedFrom,lemon,/c/en/lemon/n,,1.0
+citroen,/c/nl/citroen/n,RelatedTo,lemon,/c/en/lemon,,1.0
+ليمون,/c/ar/ليمون/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limón,/c/gl/limón/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,RelatedTo,jaune citron,/c/fr/jaune_citron,,1.0
+лимун,/c/mk/лимун/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citrón,/c/sk/citrón/n,Synonym,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,HasContext,fandom,/c/en/fandom,,1.0
+citren,/c/en/citren/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonlike,/c/en/lemonlike,DerivedFrom,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n/opencyc/lemon_417,IsA,tangible thing,/c/en/tangible_thing/n,,1.0
+lemon,/c/en/lemon/n,Synonym,zitroun,/c/lb/zitroun,,1.0
+lemon,/c/en/lemon/a,Synonym,lemon yellow,/c/en/lemon_yellow,,1.0
+lemon,/c/en/lemon/n,Synonym,lumija,/c/mt/lumija,,1.0
+citron,/c/sv/citron/n,RelatedTo,lemon,/c/en/lemon,,1.0
+ndimũ,/c/ki/ndimũ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limoeiro,/c/pt/limoeiro/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon,RelatedTo,appendix:colors,/c/en/appendix:colors,,1.0
+lemon,/c/en/lemon/n,Synonym,leemon,/c/sco/leemon,,1.0
+shrub,/c/en/shrub/n/wikt/en_2,RelatedTo,lemon,/c/en/lemon,,1.0
+limón,/c/es/limón/n,RelatedTo,lemon,/c/en/lemon,,1.0
+лимонов,/c/mk/лимонов/a,RelatedTo,lemon,/c/en/lemon,,1.0
+limonero,/c/es/limonero/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,chanh,/c/vi/chanh,,1.0
+doberge cake,/c/en/doberge_cake/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citron,/c/fr/citron/n/wikt/fr_1,Synonym,lemon,/c/en/lemon,,1.0
+suurlemoen,/c/af/suurlemoen/n,RelatedTo,lemon,/c/en/lemon,,1.0
+rutaceous,/c/en/rutaceous/a,RelatedTo,lemon,/c/en/lemon,,1.0
+limone,/c/it/limone/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,liomaid,/c/gd/liomaid,,1.0
+レモン,/c/ja/レモン,EtymologicallyDerivedFrom,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,IsA,yellow,/c/en/yellow/n,,1.0
+lemon,/c/en/lemon/n,Synonym,எலுமிச்சம் பழம்,/c/ta/எலுமிச்சம்_பழம்,,1.0
+mã,/c/vi/mã/n/wikt/en_3,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon,RelatedTo,citronella,/c/en/citronella,,1.0
+rangpur,/c/en/rangpur/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,bomb,/c/en/bomb,,1.0
+lemon,/c/en/lemon/n,Synonym,檸檬,/c/ja/檸檬,,1.0
+pwp,/c/en/pwp/n,Synonym,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon,HasProperty,sour,/c/en/sour,[[lemon]] is [[sour]],1.0
+lumija,/c/mt/lumija/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,ਨਿੰਬੂ,/c/pa/ਨਿੰਬੂ,,1.0
+citron,/c/da/citron/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonime,/c/en/lemonime/n,RelatedTo,lemon,/c/en/lemon,,1.0
+цитрина,/c/uk/цитрина/n,RelatedTo,lemon,/c/en/lemon,,1.0
+ginger cordial,/c/en/ginger_cordial/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,ചെറുനാരങ്ങ,/c/ml/ചെറുനാരങ്ങ,,1.0
+citromsárga,/c/hu/citromsárga/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,лимон,/c/tg/лимон,,1.0
+檸檬色,/c/zh/檸檬色/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citrons,/c/lv/citrons/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,limaon,/c/nrf/limaon,,1.0
+lemandarin,/c/en/lemandarin,DerivedFrom,lemon,/c/en/lemon,,1.0
+A lemon,/c/en/lemon,IsA,fruit.,/c/en/fruit,[[A lemon]] is a kind of [[fruit.]],1.0
+gremolata,/c/en/gremolata/n,RelatedTo,lemon,/c/en/lemon,,1.0
+compound butter,/c/en/compound_butter/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,limau,/c/ms/limau,,1.0
+cacho,/c/es/cacho/n,RelatedTo,lemon,/c/en/lemon,,1.0
+zitrone,/c/de/zitrone/n,Synonym,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,ຫມາກນາວ,/c/lo/ຫມາກນາວ,,1.0
+lemon,/c/en/lemon/n,HasContext,cockney rhyming slang,/c/en/cockney_rhyming_slang,,1.0
+lemon geranium,/c/en/lemon_geranium/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citronnier,/c/fr/citronnier/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,ليمون,/c/ar/ليمون,,1.0
+rarą̀xu’ úna,/c/twf/rarą̀xu’_úna/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,limone,/c/it/limone,,1.0
+canelazo,/c/es/canelazo/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citrina,/c/lt/citrina,,1.0
+lemon,/c/en/lemon,ExternalURL,Lemon ,http://umbel.org/umbel/sc/Lemon_,,1.0
+ليمون,/c/ar/ليمون/n,Synonym,lemon,/c/en/lemon,,1.0
+bishop,/c/en/bishop/n/wikt/en_1,RelatedTo,lemon,/c/en/lemon,,1.0
+margarita,/c/en/margarita/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,цитрон,/c/mk/цитрон,,1.0
+limoeiro,/c/gl/limoeiro/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citron,/c/da/citron,,1.0
+lemon,/c/en/lemon/n,Synonym,ليم,/c/sd/ليم,,1.0
+lemon,/c/en/lemon/n,Synonym,ގޮމަށި,/c/dv/ގޮމަށި,,1.0
+λεμονήσ,/c/el/λεμονήσ/a,RelatedTo,lemon,/c/en/lemon,,1.0
+dimu,/c/sw/dimu/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,มะนาว,/c/th/มะนาว,,1.0
+lemon,/c/en/lemon/n,Synonym,lămâie,/c/ro/lămâie,,1.0
+lemon,/c/en/lemon/n,Synonym,нимбә,/c/xwo/нимбә,,1.0
+lemon,/c/en/lemon/n,Synonym,ក្រូចឆ្មារ,/c/km/ក្រូចឆ្មារ,,1.0
+llimón,/c/ast/llimón/n,RelatedTo,lemon,/c/en/lemon,,1.0
+shirley temple,/c/en/shirley_temple/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,RelatedTo,colour,/c/en/colour,,1.0
+lemon,/c/en/lemon/n,Synonym,limon,/c/tr/limon,,1.0
+iced tea,/c/en/iced_tea/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,ရှောက်,/c/my/ရှောက်,,1.0
+lemon,/c/en/lemon/n,Synonym,нимбэг,/c/mn/нимбэг,,1.0
+ሎሚ,/c/ti/ሎሚ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limoniform,/c/en/limoniform/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,líomóid,/c/ga/líomóid,,1.0
+lemon,/c/en/lemon/n,Synonym,ציטראן,/c/yi/ציטראן,,1.0
+limonene,/c/en/limonene/n,RelatedTo,lemon,/c/en/lemon,,1.0
+yellow,/c/en/yellow/n,RelatedTo,lemon,/c/en/lemon,,1.0
+قاون,/c/ota/قاون/n,RelatedTo,lemon,/c/en/lemon,,1.0
+kwast,/c/nl/kwast/n/wikt/en_2,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,نیبو,/c/ur/نیبو,,1.0
+lemon,/c/en/lemon/n,Synonym,jeruk,/c/ms/jeruk,,1.0
+vietnamese balm,/c/en/vietnamese_balm/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,IsA,citrus fruit,/c/en/citrus_fruit/n,,1.0
+lemon,/c/en/lemon/n,Synonym,레몬,/c/ko/레몬,,1.0
+lemon,/c/en/lemon/n,Synonym,ndimu,/c/sw/ndimu,,1.0
+lemon,/c/en/lemon/n,Synonym,лимон,/c/tt/лимон,,1.0
+lemon,/c/en/lemon,HasProperty,citrus,/c/en/citrus,[[lemon]] is [[citrus]],1.0
+lemon juice,/c/en/lemon_juice/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,цытрына,/c/be/цытрына,,1.0
+lemon,/c/en/lemon/n,Synonym,limoi,/c/eu/limoi,,1.0
+lemon,/c/en/lemon/n,Synonym,limoŋ,/c/wo/limoŋ,,1.0
+သံပရို,/c/my/သံပရို/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citreus,/c/la/citreus,,1.0
+citrón,/c/cs/citrón/n,Synonym,lemon,/c/en/lemon,,1.0
+น้ําตก,/c/th/น้ําตก/n,RelatedTo,lemon,/c/en/lemon,,1.0
+αβγολέμονο,/c/el/αβγολέμονο/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,limon,/c/tk/limon,,1.0
+azahar,/c/es/azahar/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limon,/c/tr/limon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+tabbouleh,/c/en/tabbouleh/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citron,/c/cs/citron,,1.0
+lemon,/c/en/lemon/n,Synonym,limón,/c/es/limón,,1.0
+zitronengelb,/c/de/zitronengelb/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,flavour,/c/en/flavour,,1.0
+limon,/c/crh/limon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,ლიმონი,/c/ka/ლიმონი,,1.0
+lemandarin,/c/en/lemandarin/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,RelatedTo,smart,/c/en/smart,,1.0
+lemonal,/c/en/lemonal,DerivedFrom,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citrons,/c/lv/citrons,,1.0
+mdimu,/c/sw/mdimu/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonime,/c/en/lemonime,DerivedFrom,lemon,/c/en/lemon,,1.0
+citric,/c/en/citric/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,लिंबू,/c/mr/लिंबू,,1.0
+れもんいろ,/c/ja/れもんいろ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+лимонный,/c/ru/лимонный/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,yellow,/c/en/yellow,,1.0
+lemon,/c/en/lemon/n,Synonym,લીંબુ,/c/gu/લીંબુ,,1.0
+limon,/c/fr/limon/n/wikt/en_3,RelatedTo,lemon,/c/en/lemon,,1.0
+ལིམ བུ,/c/bo/ལིམ_བུ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+montagsauto,/c/de/montagsauto/n,Synonym,lemon,/c/en/lemon,,1.0
+limaon,/c/nrf/limaon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+granizado,/c/es/granizado/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citron,/c/fr/citron/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,mumue,/c/ee/mumue,,1.0
+lemon,/c/en/lemon/n/opencyc/lemon_417,ExternalURL,Lemon 417,http://sw.opencyc.org/2012/05/10/concept/en/Lemon_417,,1.0
+lemon,/c/en/lemon/n,Synonym,limau,/c/sw/limau,,1.0
+lemon,/c/en/lemon/n,Synonym,лимон,/c/ru/лимон,,1.0
+Lemon,/c/en/lemon,CapableOf,make my lips pucker,/c/en/make_lips_pucker,[[Lemon]] can [[make my lips pucker]],1.0
+มะนาว,/c/th/มะนาว/n,RelatedTo,lemon,/c/en/lemon,,1.0
+yalàaha kaskaha,/c/akz/yalàaha_kaskaha/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemoned,/c/en/lemoned/v,FormOf,lemon,/c/en/lemon,,1.0
+twist,/c/en/twist/n,RelatedTo,lemon,/c/en/lemon,,1.0
+לימון,/c/he/לימון/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citroen,/c/nl/citroen,,1.0
+lemon,/c/en/lemon/n,Synonym,citrono,/c/eo/citrono,,1.0
+lemon curd,/c/en/lemon_curd/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,RelatedTo,flavor,/c/en/flavor,,1.0
+a lemon,/c/en/lemon,HasA,lemon juice,/c/en/lemon_juice,[[a lemon]] contains [[lemon juice]],1.0
+淡黄色,/c/ja/淡黄色/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonize,/c/en/lemonize/v,RelatedTo,lemon,/c/en/lemon,,1.0
+limoncello,/c/en/limoncello/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citronový,/c/cs/citronový/a,RelatedTo,lemon,/c/en/lemon,,1.0
+citrongul,/c/sv/citrongul/n,RelatedTo,lemon,/c/en/lemon,,1.0
+daiquiri,/c/en/daiquiri/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemonish,/c/en/lemonish,DerivedFrom,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,лимон,/c/bg/лимон,,1.0
+lemon,/c/en/lemon/n,Synonym,citron,/c/fr/citron,,1.0
+lemon,/c/en/lemon/n,RelatedTo,fanfiction,/c/en/fanfiction,,1.0
+lemonize,/c/en/lemonize,DerivedFrom,lemon,/c/en/lemon,,1.0
+swig,/c/en/swig/n,RelatedTo,lemon,/c/en/lemon,,1.0
+chanh tây,/c/vi/chanh_tây/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,citrus limon,/c/en/citrus_limon,,1.0
+sitron,/c/no/sitron/n,RelatedTo,lemon,/c/en/lemon,,1.0
+een kat in de zak kopen,/c/nl/een_kat_in_de_zak_kopen/v,RelatedTo,lemon,/c/en/lemon,,1.0
+tarte au citron,/c/en/tarte_au_citron/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,sitroen,/c/fy/sitroen,,1.0
+gin and tonic,/c/en/gin_and_tonic/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,నిమ్మకాయ,/c/te/నిమ్మకాయ,,1.0
+lemon,/c/en/lemon/n,Synonym,citrón,/c/es/citrón,,1.0
+lemongrass,/c/en/lemongrass,DerivedFrom,lemon,/c/en/lemon,,1.0
+cytrynowy,/c/pl/cytrynowy/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,fruit,/c/en/fruit,,1.0
+lemon,/c/en/lemon/n,Synonym,לימון,/c/he/לימון,,1.0
+lemons,/c/en/lemons,FormOf,lemon,/c/en/lemon/n,,1.0
+llimoner,/c/ca/llimoner/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,नीबू,/c/hi/नीबू,,1.0
+레몬,/c/ko/레몬/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,لىمون,/c/ug/لىمون,,1.0
+sitrón,/c/fo/sitrón/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n/wn/cognition,ExternalURL,105724289-n,http://wordnet-rdf.princeton.edu/wn31/105724289-n,,1.0
+tanglad,/c/ceb/tanglad/n,RelatedTo,lemon,/c/en/lemon,,1.0
+voasary,/c/mg/voasary/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,citron,/c/fr/citron,,1.0
+citrono,/c/io/citrono/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limonicolo,/c/it/limonicolo/a,RelatedTo,lemon,/c/en/lemon,,1.0
+лимон,/c/ady/лимон/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citrom,/c/hu/citrom,,1.0
+chʼil łitsooí díkʼǫ́zhígíí,/c/nv/chʼil_łitsooí_díkʼǫ́zhígíí/n,RelatedTo,lemon,/c/en/lemon,,1.0
+แสร้งว่า,/c/th/แสร้งว่า/n,RelatedTo,lemon,/c/en/lemon,,1.0
+chermoula,/c/en/chermoula/n,RelatedTo,lemon,/c/en/lemon,,1.0
+лимон,/c/mk/лимон/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon,RelatedTo,fever grass,/c/en/fever_grass,,1.0
+lemon,/c/en/lemon/n,Synonym,檸檬,/c/hak/檸檬,,1.0
+柠,/c/zh/柠,Synonym,lemon,/c/en/lemon,,1.0
+لیمو,/c/fa/لیمو/n,RelatedTo,lemon,/c/en/lemon,,1.0
+лимон,/c/bg/лимон/n,RelatedTo,lemon,/c/en/lemon,,1.0
+zitroun,/c/lb/zitroun/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limonaio,/c/it/limonaio/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,RelatedTo,explicit,/c/en/explicit,,1.0
+łimonaro,/c/vec/łimonaro/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limonado,/c/es/limonado/a,RelatedTo,lemon,/c/en/lemon,,1.0
+limonera,/c/es/limonera/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon,ExternalURL,Lemon,http://dbpedia.org/resource/Lemon,,1.0
+lemony,/c/en/lemony/a,RelatedTo,lemon,/c/en/lemon,,1.0
+a lemon,/c/en/lemon,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a lemon]],1.0
+লেবু,/c/bn/লেবু/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citrón,/c/cs/citrón,,1.0
+limon,/c/zza/limon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,llimona,/c/ca/llimona,,1.0
+tartrazine,/c/en/tartrazine/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,citron,/c/sv/citron,,1.0
+לימענע,/c/yi/לימענע/n,RelatedTo,lemon,/c/en/lemon,,1.0
+citrona,/c/rm/citrona/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/a,HasContext,slang,/c/en/slang,,1.0
+lemon,/c/en/lemon/a,RelatedTo,cheeky,/c/en/cheeky,,1.0
+lemon,/c/en/lemon/n,Synonym,citrón,/c/sk/citrón,,1.0
+jack rose,/c/en/jack_rose/n,RelatedTo,lemon,/c/en/lemon,,1.0
+ilamuni,/c/xh/ilamuni/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limão,/c/pt/limão/n,RelatedTo,lemon,/c/en/lemon,,1.0
+tamarindade,/c/en/tamarindade/n,RelatedTo,lemon,/c/en/lemon,,1.0
+dubcon,/c/en/dubcon/n,RelatedTo,lemon,/c/en/lemon,,1.0
+नीबू,/c/hi/नीबू/n,RelatedTo,lemon,/c/en/lemon,,1.0
+moli,/c/tpi/moli/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,лимон,/c/mk/лимон,,1.0
+lemon,/c/en/lemon/n,Synonym,лиму,/c/tg/лиму,,1.0
+limoŋ,/c/wo/limoŋ/n,RelatedTo,lemon,/c/en/lemon,,1.0
+sur,/c/sv/sur/a,RelatedTo,lemon,/c/en/lemon,,1.0
+citrongul,/c/sv/citrongul/a,RelatedTo,lemon,/c/en/lemon,,1.0
+limau,/c/sw/limau/n,RelatedTo,lemon,/c/en/lemon,,1.0
+muliix,/c/yua/muliix/n,RelatedTo,lemon,/c/en/lemon,,1.0
+pisco sour,/c/en/pisco_sour/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,lemwn,/c/cy/lemwn,,1.0
+lemonless,/c/en/lemonless/a,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,sitrón,/c/fo/sitrón,,1.0
+檸檬,/c/zh/檸檬,Synonym,lemon,/c/en/lemon,,1.0
+lemons,/c/en/lemons/v,FormOf,lemon,/c/en/lemon,,1.0
+A lemon,/c/en/lemon,HasProperty,similar to an orange,/c/en/similar_to_orange,[[A lemon]] is [[similar to an orange]],1.0
+lemon,/c/en/lemon/n,Synonym,sitron,/c/no/sitron,,1.0
+lima,/c/es/lima/n/wikt/en_1,RelatedTo,lemon,/c/en/lemon,,1.0
+agristada,/c/lad/agristada/n,RelatedTo,lemon,/c/en/lemon,,1.0
+zitronat,/c/de/zitronat/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,лимон,/c/ky/лимон,,1.0
+sidrun,/c/et/sidrun/n,RelatedTo,lemon,/c/en/lemon,,1.0
+limoi,/c/eu/limoi/n,RelatedTo,lemon,/c/en/lemon,,1.0
+cytryna,/c/pl/cytryna/n,RelatedTo,lemon,/c/en/lemon,,1.0
+lemon,/c/en/lemon/n,Synonym,柠檬,/c/nan/柠檬,,1.0
+lemon,/c/en/lemon/n,Synonym,suravaloù,/c/br/suravaloù,,1.0
+lemon,/c/en/lemon,RelatedTo,citrus,/c/en/citrus,[[lemon]] is related to [[citrus]],0.798
+lemon,/c/en/lemon,RelatedTo,citrus fruit,/c/en/citrus_fruit,[[lemon]] is related to [[citrus fruit]],0.6600000000000001
+drop,/c/en/drop,RelatedTo,lemon,/c/en/lemon,[[drop]] is related to [[lemon]],0.6230000000000002
+lemon,/c/en/lemon,RelatedTo,sour fruit,/c/en/sour_fruit,[[lemon]] is related to [[sour fruit]],0.5960000000000001
+lemon,/c/en/lemon,RelatedTo,yellow fruit,/c/en/yellow_fruit,[[lemon]] is related to [[yellow fruit]],0.5099999999999998
+лимон,/c/kk/лимон,Synonym,lemon,/c/en/lemon,,0.5
+лимон,/c/tt/лимон,Synonym,lemon,/c/en/lemon,,0.5
+лимӯ,/c/tg/лимӯ,Synonym,lemon,/c/en/lemon,,0.5
+limoiondo,/c/eu/limoiondo,Synonym,lemon,/c/en/lemon,,0.5
+harilik sidrunipuu,/c/et/harilik_sidrunipuu,Synonym,lemon,/c/en/lemon,,0.5
+zitrone,/c/de/zitrone,Synonym,lemon,/c/en/lemon,,0.5
+citrus limon,/c/ast/citrus_limon,Synonym,lemon,/c/en/lemon,,0.5
+citron,/c/oc/citron,Synonym,lemon,/c/en/lemon,,0.5
+lemon,/c/en/lemon,Synonym,lemon,/c/en/lemon,,0.5
+limacuahuitl,/c/nah/limacuahuitl,Synonym,lemon,/c/en/lemon,,0.5
+لامون,/c/ar/لامون,Synonym,lemon,/c/en/lemon,,0.5
+лімон,/c/be/лімон,Synonym,lemon,/c/en/lemon,,0.5
+λεμόνι,/c/el/λεμόνι,Synonym,lemon,/c/en/lemon,,0.5
+нимбэг,/c/mn/нимбэг,Synonym,lemon,/c/en/lemon,,0.5
+лимон,/c/mk/лимон,Synonym,lemon,/c/en/lemon,,0.5
+कागती,/c/ne/कागती,Synonym,lemon,/c/en/lemon,,0.5
+citron,/c/sv/citron,Synonym,lemon,/c/en/lemon,,0.5
+לימון,/c/he/לימון,Synonym,lemon,/c/en/lemon,,0.5
+liomaid,/c/gd/liomaid,Synonym,lemon,/c/en/lemon,,0.5
+citrus limon,/c/scn/citrus_limon,Synonym,lemon,/c/en/lemon,,0.5
+zitroun,/c/lb/zitroun,Synonym,lemon,/c/en/lemon,,0.5
+ሎሚ,/c/am/ሎሚ,Synonym,lemon,/c/en/lemon,,0.5
+لیمۆ,/c/ku/لیمۆ,Synonym,lemon,/c/en/lemon,,0.5
+ရှောက်,/c/my/ရှောက်,Synonym,lemon,/c/en/lemon,,0.5
+lemon,/c/en/lemon,IsA,plant,/c/en/plant/n,,0.5
+suraval,/c/br/suraval,Synonym,lemon,/c/en/lemon,,0.5
+لیموترش,/c/fa/لیموترش,Synonym,lemon,/c/en/lemon,,0.5
+cytryna zwyczajna,/c/pl/cytryna_zwyczajna,Synonym,lemon,/c/en/lemon,,0.5
+जम्बीरम्,/c/sa/जम्बीरम्,Synonym,lemon,/c/en/lemon,,0.5
+líomóid,/c/ga/líomóid,Synonym,lemon,/c/en/lemon,,0.5
+לימענע,/c/yi/לימענע,Synonym,lemon,/c/en/lemon,,0.5
+лимон,/c/uk/лимон,Synonym,lemon,/c/en/lemon,,0.5
+tikrasis citrinmedis,/c/lt/tikrasis_citrinmedis,Synonym,lemon,/c/en/lemon,,0.5
+suurlemoen,/c/af/suurlemoen,Synonym,lemon,/c/en/lemon,,0.5
+sitrun,/c/id/sitrun,Synonym,lemon,/c/en/lemon,,0.5
+limoeiro,/c/gl/limoeiro,Synonym,lemon,/c/en/lemon,,0.5
+limon,/c/uz/limon,Synonym,lemon,/c/en/lemon,,0.5
+எலுமிச்சை,/c/ta/எலுமிச்சை,Synonym,lemon,/c/en/lemon,,0.5
+لیموں,/c/ur/لیموں,Synonym,lemon,/c/en/lemon,,0.5
+నిమ్మ,/c/te/నిమ్మ,Synonym,lemon,/c/en/lemon,,0.5
+limão,/c/pt/limão,Synonym,lemon,/c/en/lemon,,0.5
+lemon,/c/cy/lemon,Synonym,lemon,/c/en/lemon,,0.5
+lémon,/c/jv/lémon,Synonym,lemon,/c/en/lemon,,0.5
+կիտրոն,/c/hy/կիտրոն,Synonym,lemon,/c/en/lemon,,0.5
+limon,/c/war/limon,Synonym,lemon,/c/en/lemon,,0.5
+ლიმონი,/c/ka/ლიმონი,Synonym,lemon,/c/en/lemon,,0.5
+sitron,/c/no/sitron,Synonym,lemon,/c/en/lemon,,0.5
+લીંબુ,/c/gu/લીંબુ,Synonym,lemon,/c/en/lemon,,0.5
+limonara,/c/vec/limonara,Synonym,lemon,/c/en/lemon,,0.5
+лимон,/c/ru/лимон,Synonym,lemon,/c/en/lemon,,0.5
+лимон,/c/ba/лимон,Synonym,lemon,/c/en/lemon,,0.5
+lemon,/c/ms/lemon,Synonym,lemon,/c/en/lemon,,0.5
+citron,/c/da/citron,Synonym,lemon,/c/en/lemon,,0.5
+citrono,/c/eo/citrono,Synonym,lemon,/c/en/lemon,,0.5
+เลมอน,/c/th/เลมอน,Synonym,lemon,/c/en/lemon,,0.5
+лимон,/c/bg/лимон,Synonym,lemon,/c/en/lemon,,0.5
+citrons,/c/lv/citrons,Synonym,lemon,/c/en/lemon,,0.5
+ਨਿੰਬੂ,/c/pa/ਨਿੰਬੂ,Synonym,lemon,/c/en/lemon,,0.5
+नीबू,/c/hi/नीबू,Synonym,lemon,/c/en/lemon,,0.5
+lămâi,/c/ro/lămâi,Synonym,lemon,/c/en/lemon,,0.5
+limon,/c/tr/limon,Synonym,lemon,/c/en/lemon,,0.5
+citronnier,/c/fr/citronnier,Synonym,lemon,/c/en/lemon,,0.5
+limon,/c/la/limon,Synonym,lemon,/c/en/lemon,,0.5
+レモン,/c/ja/レモン,Synonym,lemon,/c/en/lemon,,0.5
+citrus limon,/c/es/citrus_limon,Synonym,lemon,/c/en/lemon,,0.5
+chanh tây,/c/vi/chanh_tây,Synonym,lemon,/c/en/lemon,,0.5
+limoni,/c/sq/limoni,Synonym,lemon,/c/en/lemon,,0.5
+limón,/c/an/limón,Synonym,lemon,/c/en/lemon,,0.5
+citrono,/c/io/citrono,Synonym,lemon,/c/en/lemon,,0.5
+лимон,/c/ce/лимон,Synonym,lemon,/c/en/lemon,,0.5
+limon,/c/az/limon,Synonym,lemon,/c/en/lemon,,0.5
+citrus limon,/c/pms/citrus_limon,Synonym,lemon,/c/en/lemon,,0.5
+citrom,/c/hu/citrom,Synonym,lemon,/c/en/lemon,,0.5
+citroen,/c/nl/citroen/n/wp/vrucht,Synonym,lemon,/c/en/lemon,,0.5
+lemon,/c/en/lemon,genus,citrus,/c/en/citrus,,0.5
+jeruk mipis,/c/su/jeruk_mipis,Synonym,lemon,/c/en/lemon,,0.5
+लिंबू,/c/mr/लिंबू,Synonym,lemon,/c/en/lemon,,0.5
+ليمون,/c/ar/ليمون,Synonym,lemon,/c/en/lemon,,0.5
+citrus limon,/c/it/citrus_limon,Synonym,lemon,/c/en/lemon,,0.5
+llimoner,/c/ca/llimoner,Synonym,lemon,/c/en/lemon,,0.5
+limun,/c/sh/limun,Synonym,lemon,/c/en/lemon,,0.5
+sitron,/c/ht/sitron,Synonym,lemon,/c/en/lemon,,0.5
+লেবু,/c/bn/লেবু,Synonym,lemon,/c/en/lemon,,0.5
+lemon,/c/sco/lemon,Synonym,lemon,/c/en/lemon,,0.5
+лимон,/c/cv/лимон,Synonym,lemon,/c/en/lemon,,0.5
+ನಿಂಬೆ,/c/kn/ನಿಂಬೆ,Synonym,lemon,/c/en/lemon,,0.5
+citrus limon,/c/ceb/citrus_limon,Synonym,lemon,/c/en/lemon,,0.5
+lemon,/c/fil/lemon,Synonym,lemon,/c/en/lemon,,0.5
+citron,/c/cs/citron,Synonym,lemon,/c/en/lemon,,0.5
+limona,/c/sl/limona,Synonym,lemon,/c/en/lemon,,0.5
+limau,/c/sw/limau,Synonym,lemon,/c/en/lemon,,0.5
+лимон,/c/ky/лимон,Synonym,lemon,/c/en/lemon,,0.5
+puquy k allku,/c/qu/puquy_k_allku,Synonym,lemon,/c/en/lemon,,0.5
+sítróna,/c/is/sítróna,Synonym,lemon,/c/en/lemon,,0.5
+sitruuna,/c/fi/sitruuna,Synonym,lemon,/c/en/lemon,,0.5
+lîmon,/c/ku/lîmon,Synonym,lemon,/c/en/lemon,,0.5
+ചെറുനാരകം,/c/ml/ചെറുനാരകം,Synonym,lemon,/c/en/lemon,,0.5
+레몬,/c/ko/레몬,Synonym,lemon,/c/en/lemon,,0.5
+lemon,/c/en/lemon,RelatedTo,egg,/c/en/egg,[[lemon]] is related to [[egg]],0.4580000000000002
+sour,/c/en/sour,RelatedTo,lemon,/c/en/lemon,[[sour]] is related to [[lemon]],0.43800000000000017
+twist,/c/en/twist,RelatedTo,lemon,/c/en/lemon,[[twist]] is related to [[lemon]],0.3490000000000002
+lime,/c/en/lime,DistinctFrom,lemon,/c/en/lemon,[[lime]] is not [[lemon]],0.3460000000000001
+lemon,/c/en/lemon,RelatedTo,drinks,/c/en/drinks,[[lemon]] is related to [[drinks]],0.33499999999999996
+lemon,/c/en/lemon,RelatedTo,taste,/c/en/taste,[[lemon]] is related to [[taste]],0.31599999999999984
+lemon,/c/en/lemon,RelatedTo,sour taste,/c/en/sour_taste,[[lemon]] is related to [[sour taste]],0.31599999999999984
+orange,/c/en/orange,DistinctFrom,lemon,/c/en/lemon,[[orange]] is not [[lemon]],0.26400000000000023
+lime,/c/en/lime,Antonym,lemon,/c/en/lemon,[[lime]] is the opposite of [[lemon]],0.2570000000000001
+lemon,/c/en/lemon,ExternalURL,lemon,http://en.wiktionary.org/wiki/lemon,,0.25
+lemon,/c/en/lemon,ExternalURL,lemon,http://fr.wiktionary.org/wiki/lemon,,0.25
+lemon,/c/en/lemon,EtymologicallyRelatedTo,لیمو,/c/fa/لیمو,,0.25
+lemon,/c/en/lemon,EtymologicallyRelatedTo,lymon,/c/fro/lymon,,0.25
+lemon,/c/en/lemon,EtymologicallyRelatedTo,لیمون,/c/ota/لیمون,,0.25
+lemon,/c/en/lemon,EtymologicallyRelatedTo,ليمون,/c/ar/ليمون,,0.25
+lemon,/c/en/lemon,EtymologicallyRelatedTo,निम्बू,/c/sa/निम्बू,,0.25
+limonin,/c/en/limonin,EtymologicallyRelatedTo,lemon,/c/en/lemon,,0.25
+lemon,/c/en/lemon,Antonym,orange,/c/en/orange,[[lemon]] is the opposite of [[orange]],0.20599999999999996
+lemon,/c/en/lemon,RelatedTo,yellow skin,/c/en/yellow_skin,[[lemon]] is related to [[yellow skin]],0.18199999999999994
+lemon,/c/en/lemon,RelatedTo,skin,/c/en/skin,[[lemon]] is related to [[skin]],0.18199999999999994
+lemon,/c/en/lemon,Antonym,lime,/c/en/lime,[[lemon]] is the opposite of [[lime]],0.18100000000000005
+lemon,/c/en/lemon,RelatedTo,tart,/c/en/tart,[[lemon]] is related to [[tart]],0.17899999999999983
+lemon,/c/en/lemon,RelatedTo,yellow color,/c/en/yellow_color,[[lemon]] is related to [[yellow color]],0.17899999999999983
+lemon,/c/en/lemon,RelatedTo,color,/c/en/color,[[lemon]] is related to [[color]],0.17899999999999983
+lemon,/c/en/lemon,RelatedTo,salt,/c/en/salt,[[lemon]] is related to [[salt]],0.17300000000000004
+lemon,/c/en/lemon,RelatedTo,trees,/c/en/trees,[[lemon]] is related to [[trees]],0.16900000000000004
+lemon,/c/en/lemon,RelatedTo,yellow lime,/c/en/yellow_lime,[[lemon]] is related to [[yellow lime]],0.16900000000000004
+lemon,/c/en/lemon,DistinctFrom,orange,/c/en/orange,[[lemon]] is not [[orange]],0.16000000000000014
+lemon,/c/en/lemon,DistinctFrom,lime,/c/en/lime,[[lemon]] is not [[lime]],0.15600000000000014
+lemon,/c/en/lemon,RelatedTo,tequila,/c/en/tequila,[[lemon]] is related to [[tequila]],0.15200000000000014
+lemon,/c/en/lemon,RelatedTo,with tequila,/c/en/with_tequila,[[lemon]] is related to [[with tequila]],0.15200000000000014
+lemon,/c/en/lemon,RelatedTo,citric,/c/en/citric,[[lemon]] is related to [[citric]],0.14500000000000002
+lemon,/c/en/lemon,RelatedTo,sourness,/c/en/sourness,[[lemon]] is related to [[sourness]],0.14500000000000002
+lemon,/c/en/lemon,Antonym,limes,/c/en/limes,[[lemon]] is the opposite of [[limes]],0.13900000000000023
+lemon,/c/en/lemon,RelatedTo,yellow oval,/c/en/yellow_oval,[[lemon]] is related to [[yellow oval]],0.13600000000000012
+lemon,/c/en/lemon,RelatedTo,oval,/c/en/oval,[[lemon]] is related to [[oval]],0.13600000000000012
+lemon,/c/en/lemon,RelatedTo,limes,/c/en/limes,[[lemon]] is related to [[limes]],0.1259999999999999
+orange,/c/en/orange,RelatedTo,lemon,/c/en/lemon,[[orange]] is related to [[lemon]],0.11899999999999977
+polish,/c/en/polish,RelatedTo,lemon,/c/en/lemon,[[polish]] is related to [[lemon]],0.11500000000000021
+lemon,/c/en/lemon,RelatedTo,car,/c/en/car,[[lemon]] is related to [[car]],0.10199999999999987
+grass,/c/en/grass,RelatedTo,lemon,/c/en/lemon,[[grass]] is related to [[lemon]],0.10199999999999987
+lemon,/c/en/lemon,RelatedTo,bad car,/c/en/bad_car,[[lemon]] is related to [[bad car]],0.10199999999999987
+lemon,/c/en/lemon,RelatedTo,bad,/c/en/bad,[[lemon]] is related to [[bad]],0.10199999999999987

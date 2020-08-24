@@ -1,0 +1,1001 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+milk,/c/en/milk,RelatedTo,cow,/c/en/cow,[[milk]] is related to [[cow]],8.64175908018732
+cow,/c/en/cow,RelatedTo,milk,/c/en/milk,[[cow]] is related to [[milk]],7.38430768589717
+milk,/c/en/milk,RelatedTo,white,/c/en/white,[[milk]] is related to [[white]],7.059178422451158
+milk,/c/en/milk,RelatedTo,drink,/c/en/drink,[[milk]] is related to [[drink]],6.850693395562232
+milk,/c/en/milk,AtLocation,the fridge,/c/en/fridge,*Something you find on [[the fridge]] is [[milk]],6.6332495807108
+milk,/c/en/milk,RelatedTo,liquid,/c/en/liquid,[[milk]] is related to [[liquid]],6.607268724669826
+milk,/c/en/milk,RelatedTo,cows,/c/en/cows,[[milk]] is related to [[cows]],5.29981131739612
+Milk,/c/en/milk,IsA,a liquid,/c/en/liquid,[[Milk]] is [[a liquid]],5.291502622129181
+Milk,/c/en/milk,HasA,calcium,/c/en/calcium,[[Milk]] contains [[calcium]],4.898979485566356
+milk,/c/en/milk,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[milk]],4.898979485566356
+shake,/c/en/shake,RelatedTo,milk,/c/en/milk,[[shake]] is related to [[milk]],4.697233228188696
+milk,/c/en/milk,RelatedTo,dairy,/c/en/dairy,[[milk]] is related to [[dairy]],4.669903639262806
+milk,/c/en/milk,RelatedTo,juice,/c/en/juice,[[milk]] is related to [[juice]],4.594779646511898
+Milk,/c/en/milk,HasProperty,white,/c/en/white,[[Milk]] is [[white]],4.47213595499958
+gallon,/c/en/gallon,RelatedTo,milk,/c/en/milk,[[gallon]] is related to [[milk]],4.104144246977682
+milk,/c/en/milk,RelatedTo,cow juice,/c/en/cow_juice,[[milk]] is related to [[cow juice]],3.8141840542899867
+milk,/c/en/milk,RelatedTo,white liquid,/c/en/white_liquid,[[milk]] is related to [[white liquid]],3.610540125798355
+Milk,/c/en/milk,IsA,a dairy product,/c/en/dairy_product,[[Milk]] is [[a dairy product]],3.4641016151377544
+milk,/c/en/milk,RelatedTo,product,/c/en/product,[[milk]] is related to [[product]],3.0809089567853185
+milk,/c/en/milk,ReceivesAction,produced by a female cow,/c/en/produced_by_female_cow,[[milk]] is [[produced by a female cow]],2.82842712474619
+milk,/c/en/milk,CapableOf,come from mammals,/c/en/come_from_mammals,[[milk]] can [[come from mammals]],2.82842712474619
+milk,/c/en/milk,HasA,water,/c/en/water,[[milk]] contains [[water]],2.82842712474619
+Milk,/c/en/milk,IsA,a beverage,/c/en/beverage,[[Milk]] is [[a beverage]],2.82842712474619
+milk,/c/en/milk,AtLocation,a container,/c/en/container,*Something you find in [[a container]] is [[milk]],2.82842712474619
+milk,/c/en/milk,RelatedTo,white drink,/c/en/white_drink,[[milk]] is related to [[white drink]],2.5083859352181035
+milk,/c/en/milk,RelatedTo,dairy product,/c/en/dairy_product,[[milk]] is related to [[dairy product]],2.3383755044902435
+milk,/c/en/milk,RelatedTo,from cows,/c/en/from_cows,[[milk]] is related to [[from cows]],2.283856387779232
+milk,/c/en/milk,RelatedTo,from cow,/c/en/from_cow,[[milk]] is related to [[from cow]],2.217205448306494
+milk,/c/en/milk,RelatedTo,cow liquid,/c/en/cow_liquid,[[milk]] is related to [[cow liquid]],2.1697926168184836
+milk,/c/en/milk,RelatedTo,beverage,/c/en/beverage,[[milk]] is related to [[beverage]],2.166102490649969
+mliječni,/c/sh/mliječni/a,RelatedTo,milk,/c/en/milk,,2.0
+esne,/c/eu/esne/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[esne]] is a translation of [[milk]],2.0
+susu,/c/ms/susu/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[susu]] is a translation of [[milk]],2.0
+Milk,/c/ca/milk/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[Milk]] is a translation of [[Milk]],2.0
+食いものに+する,/c/ja/食いものに_する/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[食いものに+する]] is a translation of [[milk]],2.0
+condensed milk,/c/en/condensed_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[condensed milk]] is a type of [[milk]],2.0
+colostrum,/c/en/colostrum/n/wn/body,IsA,milk,/c/en/milk/n/wn/body,[[colostrum]] is a type of [[milk]],2.0
+酪漿,/c/ja/酪漿/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[酪漿]] is a translation of [[milk]],2.0
+lait,/c/fr/lait/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[lait]] is a translation of [[milk]],2.0
+memerah,/c/ms/memerah/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[memerah]] is a translation of [[milk]],2.0
+乳,/c/zh/乳/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[乳]] is a translation of [[milk]],2.0
+air susu,/c/ms/air_susu/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[air susu]] is a translation of [[milk]],2.0
+mengeksploit,/c/ms/mengeksploit/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[mengeksploit]] is a translation of [[milk]],2.0
+traire,/c/fr/traire/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[traire]] is a translation of [[milk]],2.0
+แม่น้ำมิลก์,/c/th/แม่น้ํามิลก์/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[แม่น้ำมิลก์]] is a translation of [[Milk]],2.0
+leite,/c/pt/leite/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[leite]] is a translation of [[milk]],2.0
+mleko,/c/sh/mleko/n,RelatedTo,milk,/c/en/milk,,2.0
+homogenized milk,/c/en/homogenized_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[homogenized milk]] is a type of [[milk]],2.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,melk,/c/nds/melk,,2.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,mlijeko,/c/sh/mlijeko,,2.0
+munyir,/c/ca/munyir/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[munyir]] is a translation of [[milk]],2.0
+Milk River,/c/en/milk_river/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[Milk River]] is a synonym of [[Milk]],2.0
+しぼり取る,/c/ja/しぼり取る/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[しぼり取る]] is a translation of [[milk]],2.0
+soya milk,/c/en/soya_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[soya milk]] is a type of [[milk]],2.0
+חָלָב,/c/he/חלב/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[חָלָב]] is a translation of [[milk]],2.0
+Rio Milk,/c/pt/rio_milk/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[Rio Milk]] is a translation of [[Milk]],2.0
+lait,/c/fr/lait/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[lait]] is a translation of [[milk]],2.0
+leite,/c/gl/leite/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[leite]] is a translation of [[milk]],2.0
+raw milk,/c/en/raw_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[raw milk]] is a type of [[milk]],2.0
+esne,/c/eu/esne/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[esne]] is a translation of [[milk]],2.0
+leche,/c/es/leche/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[leche]] is a translation of [[milk]],2.0
+leche,/c/es/leche/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[leche]] is a translation of [[milk]],2.0
+sutlija,/c/sh/sutlija/n,RelatedTo,milk,/c/en/milk,,2.0
+mlijeko,/c/sh/mlijeko/n,RelatedTo,milk,/c/en/milk,,2.0
+ミルク,/c/ja/ミルク/n,Synonym,milk,/c/en/milk,,2.0
+おっぱい,/c/ja/おっぱい/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[おっぱい]] is a translation of [[milk]],2.0
+mælk,/c/da/mælk/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[mælk]] is a translation of [[milk]],2.0
+sutlijaš,/c/sh/sutlijaš/n,RelatedTo,milk,/c/en/milk,,2.0
+milk,/c/en/milk/n/wn/food,IsA,foodstuff,/c/en/foodstuff/n/wn/food,[[milk]] is a type of [[foodstuff]],2.0
+mlekarski,/c/sh/mlekarski/a,RelatedTo,milk,/c/en/milk,,2.0
+buttermilk,/c/en/buttermilk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[buttermilk]] is a type of [[milk]],2.0
+memerah,/c/ms/memerah/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[memerah]] is a translation of [[milk]],2.0
+air susu,/c/ms/air_susu/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[air susu]] is a translation of [[milk]],2.0
+乳,/c/ja/乳/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[乳]] is a translation of [[milk]],2.0
+mother's milk,/c/en/mother's_milk/n/wn/body,IsA,milk,/c/en/milk/n/wn/body,[[mother's milk]] is a type of [[milk]],2.0
+mungere,/c/it/mungere/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[mungere]] is a translation of [[milk]],2.0
+sungai milk,/c/id/sungai_milk/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[sungai milk]] is a translation of [[Milk]],2.0
+milk,/c/en/milk,AtLocation,the market,/c/en/market,*Something you find at [[the market]] is [[milk]],2.0
+goats' milk,/c/en/goats_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[goats' milk]] is a type of [[milk]],2.0
+milk,/c/en/milk/n/wn/body,IsA,liquid body substance,/c/en/liquid_body_substance/n/wn/body,[[milk]] is a type of [[liquid body substance]],2.0
+air susu,/c/id/air_susu/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[air susu]] is a translation of [[Milk]],2.0
+mleko,/c/pl/mleko/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[mleko]] is a translation of [[milk]],2.0
+exprimir,/c/es/exprimir/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[exprimir]] is a translation of [[milk]],2.0
+certified milk,/c/en/certified_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[certified milk]] is a type of [[milk]],2.0
+ordenhar,/c/pt/ordenhar/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[ordenhar]] is a translation of [[milk]],2.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,pomusti,/c/sh/pomusti,,2.0
+whole milk,/c/en/whole_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[whole milk]] is a type of [[milk]],2.0
+muzlica,/c/sh/muzlica/n,RelatedTo,milk,/c/en/milk,,2.0
+乳汁,/c/ja/乳汁,Synonym,milk,/c/en/milk,,2.0
+munyir,/c/ca/munyir/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[munyir]] is a translation of [[milk]],2.0
+maito,/c/fi/maito/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[maito]] is a translation of [[milk]],2.0
+milk,/c/en/milk/v/wn/change,MannerOf,add,/c/en/add/v/wn/change,[[milk]] is a way to [[add]],2.0
+Milk,/c/eu/milk/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[Milk]] is a translation of [[Milk]],2.0
+pomusti,/c/sh/pomusti/v,RelatedTo,milk,/c/en/milk,,2.0
+御乳,/c/ja/御乳/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[御乳]] is a translation of [[milk]],2.0
+traire,/c/fr/traire/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[traire]] is a translation of [[milk]],2.0
+pasteurized milk,/c/en/pasteurized_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[pasteurized milk]] is a type of [[milk]],2.0
+latte,/c/it/latte/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[latte]] is a translation of [[milk]],2.0
+御乳,/c/ja/御乳/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[御乳]] is a translation of [[milk]],2.0
+yak's milk,/c/en/yak's_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[yak's milk]] is a type of [[milk]],2.0
+lypsää,/c/fi/lypsää/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[lypsää]] is a translation of [[milk]],2.0
+memerah,/c/id/memerah/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[memerah]] is a translation of [[milk]],2.0
+echar leche,/c/es/echar_leche/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[echar leche]] is a translation of [[milk]],2.0
+käyttää hyväksi,/c/fi/käyttää_hyväksi/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[käyttää hyväksi]] is a translation of [[milk]],2.0
+น้ำนม,/c/th/น้ํานม/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[น้ำนม]] is a translation of [[milk]],2.0
+air susu,/c/ms/air_susu/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[air susu]] is a translation of [[Milk]],2.0
+lait,/c/fr/lait/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[lait]] is a translation of [[milk]],2.0
+酪漿,/c/ja/酪漿/n,Synonym,milk,/c/en/milk,,2.0
+ミルク,/c/ja/ミルク/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[ミルク]] is a translation of [[milk]],2.0
+memerah,/c/id/memerah/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[memerah]] is a translation of [[milk]],2.0
+市乳,/c/ja/市乳/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[市乳]] is a translation of [[milk]],2.0
+ordeñar,/c/es/ordeñar/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[ordeñar]] is a translation of [[milk]],2.0
+mungere,/c/it/mungere/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[mungere]] is a translation of [[milk]],2.0
+semi-skimmed milk,/c/en/semi_skimmed_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[semi-skimmed milk]] is a type of [[milk]],2.0
+חָלָב,/c/he/חלב/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[חָלָב]] is a translation of [[milk]],2.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,mleko,/c/sh/mleko,,2.0
+traire,/c/fr/traire/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[traire]] is a translation of [[milk]],2.0
+Milk,/c/en/milk/n/wn/object,PartOf,Montana,/c/en/montana/n/wn/location,[[Milk]] is a part of [[Montana]],2.0
+susu,/c/id/susu/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[susu]] is a translation of [[milk]],2.0
+cheese,/c/en/cheese,MadeOf,milk,/c/en/milk,[[cheese]] is made of [[milk]].,2.0
+izmusti,/c/sh/izmusti/v,RelatedTo,milk,/c/en/milk,,2.0
+lait,/c/fr/lait/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[lait]] is a translation of [[milk]],2.0
+leite,/c/pt/leite/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[leite]] is a translation of [[milk]],2.0
+qumësht,/c/sq/qumësht/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[qumësht]] is a translation of [[milk]],2.0
+scalded milk,/c/en/scalded_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[scalded milk]] is a type of [[milk]],2.0
+牛乳,/c/ja/牛乳/n,Synonym,milk,/c/en/milk,,2.0
+coconut milk,/c/en/coconut_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[coconut milk]] is a type of [[milk]],2.0
+دوشیدن,/c/fa/دوشیدن/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[دوشیدن]] is a translation of [[milk]],2.0
+llet,/c/ca/llet/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[llet]] is a translation of [[milk]],2.0
+lait,/c/fr/lait/n,Synonym,milk,/c/en/milk,,2.0
+乳汁,/c/ja/乳汁/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[乳汁]] is a translation of [[milk]],2.0
+لَبَن,/c/ar/لبن/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[لَبَن]] is a translation of [[milk]],2.0
+Milk,/c/fi/milk/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[Milk]] is a translation of [[Milk]],2.0
+acidophilus milk,/c/en/acidophilus_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[acidophilus milk]] is a type of [[milk]],2.0
+susu,/c/ms/susu/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[susu]] is a translation of [[milk]],2.0
+乳,/c/ja/乳/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[乳]] is a translation of [[milk]],2.0
+air susu,/c/id/air_susu/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[air susu]] is a translation of [[milk]],2.0
+รีดนม,/c/th/รีดนม/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[รีดนม]] is a translation of [[milk]],2.0
+maito,/c/fi/maito/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[maito]] is a translation of [[milk]],2.0
+おっぱい,/c/ja/おっぱい/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[おっぱい]] is a translation of [[milk]],2.0
+milk,/c/en/milk,AtLocation,the supermarket,/c/en/supermarket,*Something you find at [[the supermarket]] is [[milk]],2.0
+乳汁,/c/ja/乳汁/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[乳汁]] is a translation of [[milk]],2.0
+milk,/c/en/milk/v/wn/change,MannerOf,draw,/c/en/draw/v/wn/motion,[[milk]] is a way to [[draw]],2.0
+นม,/c/th/นม/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[นม]] is a translation of [[milk]],2.0
+mjølk,/c/no/mjølk/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[mjølk]] is a translation of [[milk]],2.0
+milk,/c/en/milk,UsedFor,drinking,/c/en/drinking,[[milk]] is for [[drinking]],2.0
+llet,/c/ca/llet/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[llet]] is a translation of [[milk]],2.0
+milk,/c/en/milk/n/wn/food,IsA,dairy product,/c/en/dairy_product/n/wn/food,[[milk]] is a type of [[dairy product]],2.0
+mlečni,/c/sh/mlečni/a,RelatedTo,milk,/c/en/milk,,2.0
+lait,/c/fr/lait/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[lait]] is a translation of [[Milk]],2.0
+Milk-joki,/c/fi/milk_joki/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[Milk-joki]] is a translation of [[Milk]],2.0
+lisätä maitoa,/c/fi/lisätä_maitoa/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[lisätä maitoa]] is a translation of [[milk]],2.0
+牛乳,/c/ja/牛乳/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[牛乳]] is a translation of [[milk]],2.0
+esplotatu,/c/eu/esplotatu/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[esplotatu]] is a translation of [[milk]],2.0
+乳,/c/ja/乳/n/jmdict/1,Synonym,milk,/c/en/milk,,2.0
+traire,/c/fr/traire/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[traire]] is a translation of [[milk]],2.0
+melk,/c/no/melk/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[melk]] is a translation of [[milk]],2.0
+mljekarski,/c/sh/mljekarski/a,RelatedTo,milk,/c/en/milk,,2.0
+powdered milk,/c/en/powdered_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[powdered milk]] is a type of [[milk]],2.0
+süd,/c/az/süd/n,RelatedTo,milk,/c/en/milk,,2.0
+musti,/c/sh/musti/v,RelatedTo,milk,/c/en/milk,,2.0
+formula,/c/en/formula/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[formula]] is a type of [[milk]],2.0
+explotar,/c/es/explotar/v/wn/consumption,Synonym,milk,/c/en/milk/v/wn/consumption,[[explotar]] is a translation of [[milk]],2.0
+milk,/c/en/milk/n/wn/food,IsA,beverage,/c/en/beverage/n/wn/food,[[milk]] is a type of [[beverage]],2.0
+Milk,/c/en/milk,DefinedAs,product of cows,/c/en/product_of_cows,[[Milk]] is the [[product of cows]].,2.0
+ใส่นม,/c/th/ใส่นม/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[ใส่นม]] is a translation of [[milk]],2.0
+milk,/c/en/milk,AtLocation,a cow,/c/en/cow,You are likely to find [[milk]] in [[a cow]],2.0
+น้ำนม,/c/th/น้ํานม/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[น้ำนม]] is a translation of [[milk]],2.0
+ミルク川,/c/ja/ミルク川/n/wn/object,Synonym,Milk,/c/en/milk/n/wn/object,[[ミルク川]] is a translation of [[Milk]],2.0
+حَلِيب,/c/ar/حليب/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[حَلِيب]] is a translation of [[milk]],2.0
+milk,/c/en/milk,AtLocation,a store,/c/en/store,*Something you find at [[a store]] is [[milk]],2.0
+air susu,/c/id/air_susu/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[air susu]] is a translation of [[milk]],2.0
+milk,/c/en/milk/n/wn/body,IsA,nutriment,/c/en/nutriment/n/wn/food,[[milk]] is a type of [[nutriment]],2.0
+นม,/c/th/นม/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[นม]] is a translation of [[milk]],2.0
+low-fat milk,/c/en/low_fat_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[low-fat milk]] is a type of [[milk]],2.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,musti,/c/sh/musti,,2.0
+อาหารที่มีประโยชน์เหมือนนม,/c/th/อาหารที่มีประโยชน์เหมือนนม/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[อาหารที่มีประโยชน์เหมือนนม]] is a translation of [[milk]],2.0
+memerah susu,/c/id/memerah_susu/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[memerah susu]] is a translation of [[milk]],2.0
+latte,/c/it/latte/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[latte]] is a translation of [[milk]],2.0
+sour milk,/c/en/sour_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[sour milk]] is a type of [[milk]],2.0
+memerah susu,/c/ms/memerah_susu/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[memerah susu]] is a translation of [[milk]],2.0
+leite,/c/gl/leite/n/wn/food,Synonym,milk,/c/en/milk/n/wn/food,[[leite]] is a translation of [[milk]],2.0
+susu,/c/id/susu/n/wn/body,Synonym,milk,/c/en/milk/n/wn/body,[[susu]] is a translation of [[milk]],2.0
+chocolate milk,/c/en/chocolate_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[chocolate milk]] is a type of [[milk]],2.0
+strip,/c/en/strip/v/wn/change,MannerOf,milk,/c/en/milk/v/wn/change,[[strip]] is a way to [[milk]],2.0
+ordenhar,/c/pt/ordenhar/v/wn/change,Synonym,milk,/c/en/milk/v/wn/change,[[ordenhar]] is a translation of [[milk]],2.0
+evaporated milk,/c/en/evaporated_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[evaporated milk]] is a type of [[milk]],2.0
+cows' milk,/c/en/cows_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[cows' milk]] is a type of [[milk]],2.0
+乳汁,/c/ja/乳汁/a/jmdict/1,Synonym,milk,/c/en/milk,,2.0
+milk,/c/en/milk/v/wn/consumption,MannerOf,exploit,/c/en/exploit/v/wn/consumption,[[milk]] is a way to [[exploit]],2.0
+skim milk,/c/en/skim_milk/n/wn/food,IsA,milk,/c/en/milk/n/wn/food,[[skim milk]] is a type of [[milk]],2.0
+milk,/c/en/milk,RelatedTo,fluid,/c/en/fluid,[[milk]] is related to [[fluid]],1.7970000000000002
+milk,/c/en/milk,RelatedTo,cow product,/c/en/cow_product,[[milk]] is related to [[cow product]],1.733
+milk,/c/en/milk,RelatedTo,cereal,/c/en/cereal,[[milk]] is related to [[cereal]],1.7000000000000002
+milk,/c/en/milk,RelatedTo,water,/c/en/water,[[milk]] is related to [[water]],1.681
+milk,/c/en/milk,RelatedTo,calcium,/c/en/calcium,[[milk]] is related to [[calcium]],1.572
+乳,/c/zh/乳,Synonym,milk,/c/en/milk,,1.5
+milk,/c/en/milk,RelatedTo,cow drink,/c/en/cow_drink,[[milk]] is related to [[cow drink]],1.4809999999999999
+milk,/c/en/milk,RelatedTo,food,/c/en/food,[[milk]] is related to [[food]],1.471
+cheese,/c/en/cheese,RelatedTo,milk,/c/en/milk,[[cheese]] is related to [[milk]],1.4050000000000002
+milk,/c/en/milk,RelatedTo,drinking,/c/en/drinking,[[milk]] is related to [[drinking]],1.347
+cream,/c/en/cream,RelatedTo,milk,/c/en/milk,[[cream]] is related to [[milk]],1.3170000000000002
+drink,/c/en/drink,RelatedTo,milk,/c/en/milk,[[drink]] is related to [[milk]],1.2309999999999999
+dairy,/c/en/dairy,RelatedTo,milk,/c/en/milk,[[dairy]] is related to [[milk]],1.202
+butter,/c/en/butter,RelatedTo,milk,/c/en/milk,[[butter]] is related to [[milk]],1.193
+milk,/c/en/milk,RelatedTo,dairy drink,/c/en/dairy_drink,[[milk]] is related to [[dairy drink]],1.186
+milk,/c/en/milk,RelatedTo,baby,/c/en/baby,[[milk]] is related to [[baby]],1.185
+milk,/c/en/milk,RelatedTo,produce,/c/en/produce,[[milk]] is related to [[produce]],1.037
+tujuri,/c/qu/tujuri/n,RelatedTo,milk,/c/en/milk,,1.0
+kutunmaito,/c/fi/kutunmaito/n,RelatedTo,milk,/c/en/milk,,1.0
+ミルク,/c/ja/ミルク/n,RelatedTo,milk,/c/en/milk,,1.0
+pobbies,/c/en/pobbies/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ბჟა,/c/xmf/ბჟა,,1.0
+asidofiluspiimä,/c/fi/asidofiluspiimä/n,RelatedTo,milk,/c/en/milk,,1.0
+乳汁,/c/ja/乳汁/n,RelatedTo,milk,/c/en/milk,,1.0
+pone,/c/en/pone/n/wikt/en_2,RelatedTo,milk,/c/en/milk,,1.0
+chicheme,/c/en/chicheme/n,RelatedTo,milk,/c/en/milk,,1.0
+γαλακτικόσ,/c/el/γαλακτικόσ/a,RelatedTo,milk,/c/en/milk,,1.0
+milking,/c/en/milking/v,FormOf,milk,/c/en/milk,,1.0
+bryndza,/c/sk/bryndza/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,RelatedTo,take advantage of,/c/en/take_advantage_of,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,подоить,/c/ru/подоить,,1.0
+milk,/c/en/milk/n,RelatedTo,milch,/c/en/milch,,1.0
+milk,/c/en/milk/n,ExternalURL,Milk,http://sw.opencyc.org/2012/05/10/concept/en/Milk,,1.0
+mjólka,/c/fo/mjólka/v,RelatedTo,milk,/c/en/milk,,1.0
+milksop,/c/en/milksop,DerivedFrom,milk,/c/en/milk,,1.0
+skim,/c/en/skim/v,RelatedTo,milk,/c/en/milk,,1.0
+filmjölk,/c/sv/filmjölk/n,RelatedTo,milk,/c/en/milk,,1.0
+milkaholic,/c/en/milkaholic,DerivedFrom,milk,/c/en/milk,,1.0
+mālk,/c/xto/mālk/v,RelatedTo,milk,/c/en/milk,,1.0
+goat's cheese,/c/en/goat's_cheese/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,múrgere,/c/sc/múrgere,,1.0
+latg,/c/rm/latg/n,Synonym,milk,/c/en/milk,,1.0
+milkman,/c/en/milkman/n,RelatedTo,milk,/c/en/milk,,1.0
+lactarene,/c/en/lactarene/n,RelatedTo,milk,/c/en/milk,,1.0
+lindmëlch,/c/gsw/lindmëlch/a,RelatedTo,milk,/c/en/milk,,1.0
+maitolitra,/c/fi/maitolitra/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,melken,/c/de/melken,,1.0
+పాలుపితుకు,/c/te/పాలుపితుకు/v,RelatedTo,milk,/c/en/milk,,1.0
+wine whey,/c/en/wine_whey/n,RelatedTo,milk,/c/en/milk,,1.0
+mahepiim,/c/et/mahepiim/n,RelatedTo,milk,/c/en/milk,,1.0
+annaprashana,/c/en/annaprashana/n,RelatedTo,milk,/c/en/milk,,1.0
+mælk,/c/da/mælk/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+milks,/c/en/milks/v,FormOf,milk,/c/en/milk,,1.0
+milk,/c/en/milk,ReceivesAction,bought at a grocery,/c/en/bought_at_grocery,[[milk]] can be [[bought at a grocery]],1.0
+ausreizen,/c/de/ausreizen/v,RelatedTo,milk,/c/en/milk,,1.0
+क्षीर,/c/sa/क्षीर/n,RelatedTo,milk,/c/en/milk,,1.0
+jibbings,/c/en/jibbings/n,RelatedTo,milk,/c/en/milk,,1.0
+süt,/c/crh/süt/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,క్షీరము,/c/te/క్షీరము,,1.0
+milk cap,/c/en/milk_cap,DerivedFrom,milk,/c/en/milk,,1.0
+lactivore,/c/en/lactivore/n,RelatedTo,milk,/c/en/milk,,1.0
+melkveehouderij,/c/nl/melkveehouderij/n,RelatedTo,milk,/c/en/milk,,1.0
+ҡорот,/c/ba/ҡорот/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,կաթ,/c/hy/կաթ,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lapte,/c/ro/lapte,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,молоко,/c/ru/молоко,,1.0
+waiū,/c/haw/waiū/n,RelatedTo,milk,/c/en/milk,,1.0
+ܕܘܓܐ,/c/syc/ܕܘܓܐ/n/wikt/en_2,RelatedTo,milk,/c/en/milk,,1.0
+slaukt,/c/lv/slaukt/v,RelatedTo,milk,/c/en/milk,,1.0
+semolina pudding,/c/en/semolina_pudding/n,RelatedTo,milk,/c/en/milk,,1.0
+सुधा,/c/sa/सुधा/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,сағарға,/c/cjs/сағарға,,1.0
+water,/c/en/water,AtLocation,milk,/c/en/milk,You are likely to find [[water]] in [[milk]],1.0
+quail,/c/en/quail/v/wikt/en_3,RelatedTo,milk,/c/en/milk,,1.0
+दधि,/c/sa/दधि/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,NotHasProperty,transparent,/c/en/transparent,[[milk]] is not [[transparent]],1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,奶,/c/zh/奶,,1.0
+กษีระ,/c/th/กษีระ/n,RelatedTo,milk,/c/en/milk,,1.0
+擠奶,/c/zh/擠奶/v,RelatedTo,milk,/c/en/milk,,1.0
+Some milk,/c/en/milk,HasProperty,chocolate flavored,/c/en/chocolate_flavored,[[Some milk]] is [[chocolate flavored]],1.0
+milk,/c/en/milk,ReceivesAction,poured,/c/en/poured,[[milk]] can be [[poured]],1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,miraka,/c/mi/miraka,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,jetzi,/c/eu/jetzi,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,доить,/c/ru/доить,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,dojiť,/c/sk/dojiť,,1.0
+latte,/c/nap/latte/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,နို့,/c/my/နို့,,1.0
+lact,/c/en/lact,RelatedTo,milk,/c/en/milk,,1.0
+molke,/c/frr/molke/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+молоко,/c/ru/молоко/n,RelatedTo,milk,/c/en/milk,,1.0
+hikërr,/c/sq/hikërr/n,RelatedTo,milk,/c/en/milk,,1.0
+blichtmar,/c/mga/blichtmar/a,RelatedTo,milk,/c/en/milk,,1.0
+milkable,/c/en/milkable,DerivedFrom,milk,/c/en/milk,,1.0
+melcan,/c/ang/melcan/v,RelatedTo,milk,/c/en/milk,,1.0
+sēmḑa,/c/liv/sēmḑa/n,RelatedTo,milk,/c/en/milk,,1.0
+lactobutyrometer,/c/en/lactobutyrometer/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,HasA,lactose,/c/en/lactose,[[milk]] contains [[lactose]],1.0
+milkcrate,/c/en/milkcrate,DerivedFrom,milk,/c/en/milk,,1.0
+потявтомс,/c/myv/потявтомс/v,RelatedTo,milk,/c/en/milk,,1.0
+foremilk,/c/en/foremilk/n,RelatedTo,milk,/c/en/milk,,1.0
+молоко,/c/uk/молоко/n,RelatedTo,milk,/c/en/milk,,1.0
+milch cow,/c/en/milch_cow/n,RelatedTo,milk,/c/en/milk,,1.0
+maitotili,/c/fi/maitotili/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,waiū,/c/haw/waiū,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,melk,/c/no/melk,,1.0
+կաթն,/c/xcl/կաթն/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,neq,/c/za/neq,,1.0
+ကူဖီ,/c/my/ကူဖီ/n,RelatedTo,milk,/c/en/milk,,1.0
+دودھ,/c/ur/دودھ/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lebese,/c/st/lebese,,1.0
+乳,/c/ja/乳/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+Milk,/c/en/milk,CapableOf,fill a glass,/c/en/fill_glass,[[Milk]] can [[fill a glass]],1.0
+milkt,/c/en/milkt/v,FormOf,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,दुध,/c/ne/दुध,,1.0
+吃奶,/c/zh/吃奶/v,RelatedTo,milk,/c/en/milk,,1.0
+koeiensap,/c/nl/koeiensap/n,RelatedTo,milk,/c/en/milk,,1.0
+þwære,/c/ang/þwære/n,RelatedTo,milk,/c/en/milk,,1.0
+propionibacterium,/c/en/propionibacterium/n,RelatedTo,milk,/c/en/milk,,1.0
+בשר בחלב,/c/he/בשר_בחלב/n,RelatedTo,milk,/c/en/milk,,1.0
+manchego,/c/en/manchego/n,RelatedTo,milk,/c/en/milk,,1.0
+牛奶糖,/c/zh/牛奶糖/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lapte,/c/rup/lapte,,1.0
+maito,/c/fi/maito/n,Synonym,milk,/c/en/milk,,1.0
+سۈت,/c/ug/سۈت/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,ReceivesAction,found in a store,/c/en/found_in_store,[[milk]] can be [[found in a store]],1.0
+milk pudding,/c/en/milk_pudding/n,RelatedTo,milk,/c/en/milk,,1.0
+milig,/c/vo/milig/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ܚܠܒܐ,/c/arc/ܚܠܒܐ,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,mjölk,/c/sv/mjölk,,1.0
+lactoscope,/c/en/lactoscope/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,milch,/c/en/milch,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,wàrà,/c/yo/wàrà,,1.0
+coffee milk,/c/en/coffee_milk/n,RelatedTo,milk,/c/en/milk,,1.0
+melktert,/c/en/melktert/n,RelatedTo,milk,/c/en/milk,,1.0
+lac,/c/la/lac/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,밀크,/c/ko/밀크,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,mjølk,/c/no/mjølk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,llet,/c/ca/llet,,1.0
+ubisi,/c/xh/ubisi/n,RelatedTo,milk,/c/en/milk,,1.0
+lakto,/c/io/lakto/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,mólzer,/c/vec/mólzer,,1.0
+పాల,/c/te/పాల/a,RelatedTo,milk,/c/en/milk,,1.0
+lactoprotein,/c/en/lactoprotein/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,molk,/c/stq/molk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,molsti,/c/sl/molsti,,1.0
+milkstained,/c/en/milkstained,DerivedFrom,milk,/c/en/milk,,1.0
+whey,/c/en/whey/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,dairy product,/c/en/dairy_product,,1.0
+marocchino,/c/it/marocchino/n,RelatedTo,milk,/c/en/milk,,1.0
+morbier,/c/en/morbier/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wn/object,ExternalURL,109377677-n,http://wordnet-rdf.princeton.edu/wn31/109377677-n,,1.0
+milig,/c/vo/milig,EtymologicallyDerivedFrom,milk,/c/en/milk,,1.0
+let down,/c/en/let_down/n,RelatedTo,milk,/c/en/milk,,1.0
+ទឹកដោះ,/c/km/ទឹកដោះ/n,RelatedTo,milk,/c/en/milk,,1.0
+melke,/c/no/melke/v,RelatedTo,milk,/c/en/milk,,1.0
+milkest,/c/en/milkest/v,RelatedTo,milk,/c/en/milk,,1.0
+ⲉⲣⲱϯ,/c/cop/ⲉⲣⲱϯ/n,RelatedTo,milk,/c/en/milk,,1.0
+kalakand,/c/en/kalakand/n,RelatedTo,milk,/c/en/milk,,1.0
+molk,/c/stq/molk/n,RelatedTo,milk,/c/en/milk,,1.0
+lait,/c/pms/lait/n,RelatedTo,milk,/c/en/milk,,1.0
+antimilk,/c/en/antimilk,DerivedFrom,milk,/c/en/milk,,1.0
+uin,/c/rup/uin/n,RelatedTo,milk,/c/en/milk,,1.0
+mecer,/c/ast/mecer/v/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+gatas,/c/fil/gatas/n,RelatedTo,milk,/c/en/milk,,1.0
+mëlch,/c/gsw/mëlch/a,RelatedTo,milk,/c/en/milk,,1.0
+melc,/c/dum/melc/n,RelatedTo,milk,/c/en/milk,,1.0
+sausage gravy,/c/en/sausage_gravy/n,RelatedTo,milk,/c/en/milk,,1.0
+susu,/c/ms/susu/n,RelatedTo,milk,/c/en/milk,,1.0
+mjólk,/c/fo/mjólk/n,Synonym,milk,/c/en/milk,,1.0
+melkar,/c/io/melkar/v,RelatedTo,milk,/c/en/milk,,1.0
+dairy,/c/en/dairy/a,RelatedTo,milk,/c/en/milk,,1.0
+folle,/c/gsw/folle/n,RelatedTo,milk,/c/en/milk,,1.0
+melki,/c/eo/melki/v,RelatedTo,milk,/c/en/milk,,1.0
+gulab jamun,/c/en/gulab_jamun/n,RelatedTo,milk,/c/en/milk,,1.0
+piim,/c/et/piim/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,abeʼ,/c/nv/abeʼ,,1.0
+maito,/c/krl/maito/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,læte,/c/lij/læte,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,འོ མ,/c/bo/འོ_མ,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,cheese,/c/en/cheese,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,hama,/c/zdj/hama,,1.0
+maitopullo,/c/fi/maitopullo/n,RelatedTo,milk,/c/en/milk,,1.0
+ນ້ໍານົມ,/c/lo/ນ້ໍານົມ/n,RelatedTo,milk,/c/en/milk,,1.0
+mólzer,/c/oc/mólzer/v,RelatedTo,milk,/c/en/milk,,1.0
+奶子,/c/zh/奶子,Synonym,milk,/c/en/milk,,1.0
+milkhouse,/c/en/milkhouse/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,melki,/c/eo/melki,,1.0
+ogleshield,/c/en/ogleshield/n,RelatedTo,milk,/c/en/milk,,1.0
+mloko,/c/hsb/mloko/n,RelatedTo,milk,/c/en/milk,,1.0
+crempog,/c/en/crempog/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,traithe,/c/nrf/traithe,,1.0
+trombose,/c/nl/trombose/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,podojit,/c/cs/podojit,,1.0
+lefse,/c/en/lefse/n,RelatedTo,milk,/c/en/milk,,1.0
+حلب,/c/ar/حلب/v/wikt/en_2,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,tej,/c/hu/tej,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,mjølke,/c/no/mjølke,,1.0
+milk,/c/en/milk/v/wn/consumption,ExternalURL,201167222-v,http://wordnet-rdf.princeton.edu/wn31/201167222-v,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,lãptuescu,/c/rup/lãptuescu,,1.0
+pærevælling,/c/da/pærevælling/n,RelatedTo,milk,/c/en/milk,,1.0
+crúigh,/c/ga/crúigh/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,କ୍ଷୀର,/c/or/କ୍ଷୀର,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,gatas,/c/war/gatas,,1.0
+filled milk,/c/en/filled_milk/n,RelatedTo,milk,/c/en/milk,,1.0
+ل ب ن,/c/ar/ل_ب_ن,RelatedTo,milk,/c/en/milk,,1.0
+milkweed,/c/en/milkweed,DerivedFrom,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n,HasContext,généralement indénombrable,/c/fr/généralement_indénombrable,,1.0
+qatıq,/c/crh/qatıq/n,RelatedTo,milk,/c/en/milk,,1.0
+minik,/c/chk/minik,EtymologicallyDerivedFrom,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,mammary gland,/c/en/mammary_gland,,1.0
+bearr,/c/ga/bearr/v,HasContext,milk,/c/en/milk,,1.0
+galactophage,/c/fr/galactophage/a,RelatedTo,milk,/c/en/milk,,1.0
+rice pudding,/c/en/rice_pudding/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,сүт,/c/kk/сүт,,1.0
+malkwer,/c/txb/malkwer/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,susu,/c/id/susu,,1.0
+wei,/c/nl/wei/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,молзе,/c/mk/молзе,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,мляко,/c/bg/мляко,,1.0
+ਦੁੱਧ,/c/pa/ਦੁੱਧ/n,RelatedTo,milk,/c/en/milk,,1.0
+milk substitute,/c/en/milk_substitute/n,RelatedTo,milk,/c/en/milk,,1.0
+Milk,/c/en/milk,IsA,a source of the mineral calcium,/c/en/source_of_mineral_calcium,[[Milk]] is [[a source of the mineral calcium]],1.0
+homogenized,/c/en/homogenized/a,RelatedTo,milk,/c/en/milk,,1.0
+сют,/c/kum/сют/n,RelatedTo,milk,/c/en/milk,,1.0
+cijvaiz,/c/za/cijvaiz/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,доя,/c/bg/доя,,1.0
+milkpox,/c/en/milkpox,DerivedFrom,milk,/c/en/milk,,1.0
+slaucis,/c/lv/slaucis,RelatedTo,milk,/c/en/milk,,1.0
+melk,/c/nds/melk/n,RelatedTo,milk,/c/en/milk,,1.0
+depression cake,/c/en/depression_cake/n,RelatedTo,milk,/c/en/milk,,1.0
+tyrosis,/c/en/tyrosis/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,RelatedTo,cow,/c/en/cow,,1.0
+manjar imperial,/c/es/manjar_imperial/n,RelatedTo,milk,/c/en/milk,,1.0
+دۆشین,/c/ku/دۆشین/v,RelatedTo,milk,/c/en/milk,,1.0
+teat,/c/en/teat/n,RelatedTo,milk,/c/en/milk,,1.0
+חלבא,/c/arc/חלבא/n,RelatedTo,milk,/c/en/milk,,1.0
+milking,/c/en/milking/v,RelatedTo,milk,/c/en/milk,,1.0
+fisherman's pie,/c/en/fisherman's_pie/n,RelatedTo,milk,/c/en/milk,,1.0
+milk bottle,/c/en/milk_bottle/n,RelatedTo,milk,/c/en/milk,,1.0
+galactites,/c/la/galactites/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,süt,/c/gag/süt,,1.0
+nondrinker,/c/en/nondrinker/n,RelatedTo,milk,/c/en/milk,,1.0
+cabrales,/c/en/cabrales/n,RelatedTo,milk,/c/en/milk,,1.0
+cabeza,/c/gl/cabeza/n,RelatedTo,milk,/c/en/milk,,1.0
+milchkarton,/c/de/milchkarton/n,RelatedTo,milk,/c/en/milk,,1.0
+maroilles,/c/fr/maroilles/n,RelatedTo,milk,/c/en/milk,,1.0
+milking machine,/c/en/milking_machine/n,RelatedTo,milk,/c/en/milk,,1.0
+lactocrite,/c/en/lactocrite/n,RelatedTo,milk,/c/en/milk,,1.0
+prostokvasha,/c/en/prostokvasha/n,RelatedTo,milk,/c/en/milk,,1.0
+嗍奶,/c/zh/嗍奶/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,dotiş,/c/zza/dotiş,,1.0
+shortcake,/c/en/shortcake/n,RelatedTo,milk,/c/en/milk,,1.0
+bread sauce,/c/en/bread_sauce/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,malkwer,/c/txb/malkwer,,1.0
+vacuazione,/c/it/vacuazione/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,شير,/c/sd/شير,,1.0
+ботқа,/c/kk/ботқа/n,RelatedTo,milk,/c/en/milk,,1.0
+lapte,/c/ro/lapte/n,RelatedTo,milk,/c/en/milk,,1.0
+şîr,/c/ku/şîr/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,bainne,/c/gd/bainne,,1.0
+mlyko,/c/pl/mlyko/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,шэ,/c/kbd/шэ,,1.0
+kama,/c/sw/kama/v,RelatedTo,milk,/c/en/milk,,1.0
+milchig,/c/en/milchig/a,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,ReceivesAction,bought in a store,/c/en/bought_in_store,[[milk]] can be [[bought in a store]],1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lakto,/c/io/lakto,,1.0
+casein,/c/en/casein/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,दूध,/c/ne/दूध,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,can,/c/aa/can,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,mielki,/c/se/mielki,,1.0
+lypsättää,/c/fi/lypsättää/v,RelatedTo,milk,/c/en/milk,,1.0
+waiū,/c/mi/waiū/n,RelatedTo,milk,/c/en/milk,,1.0
+kugelis,/c/en/kugelis/n,RelatedTo,milk,/c/en/milk,,1.0
+chichihualatl,/c/nhn/chichihualatl/n,RelatedTo,milk,/c/en/milk,,1.0
+lãptãrii,/c/rup/lãptãrii/n,RelatedTo,milk,/c/en/milk,,1.0
+ithunga,/c/zu/ithunga/n,RelatedTo,milk,/c/en/milk,,1.0
+lob lie by fire,/c/en/lob_lie_by_fire/n,RelatedTo,milk,/c/en/milk,,1.0
+Milk,/c/en/milk,IsA,one of the liquids commonly,/c/en/one_of_liquids_commonly,[[Milk]] is [[one of the liquids commonly]],1.0
+pingado,/c/pt/pingado/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,melkar,/c/io/melkar,,1.0
+undermilk,/c/en/undermilk,DerivedFrom,milk,/c/en/milk,,1.0
+lattifero,/c/it/lattifero/a,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,mjölka,/c/sv/mjölka,,1.0
+sharemilk,/c/en/sharemilk,DerivedFrom,milk,/c/en/milk,,1.0
+羊乳,/c/zh/羊乳/n,RelatedTo,milk,/c/en/milk,,1.0
+milk tea,/c/en/milk_tea/n,RelatedTo,milk,/c/en/milk,,1.0
+truel,/c/gsw/truel/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wn/change,ExternalURL,200194514-v,http://wordnet-rdf.princeton.edu/wn31/200194514-v,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,latte,/c/it/latte,,1.0
+carcake,/c/en/carcake/n,RelatedTo,milk,/c/en/milk,,1.0
+carton d'lait,/c/nrf/carton_d'lait/n,RelatedTo,milk,/c/en/milk,,1.0
+indian pudding,/c/en/indian_pudding/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ᐃᒻᒧᒃ,/c/iu/ᐃᒻᒧᒃ,,1.0
+milk,/c/en/milk,CausesDesire,eat a cookie,/c/en/eat_cookie,[[milk]] would make you want to [[eat a cookie]],1.0
+maitohampaisto,/c/fi/maitohampaisto/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ᦓᧄᧉᦓᦳᧄᧉᦷᦣ,/c/khb/ᦓᧄᧉᦓᦳᧄᧉᦷᦣ,,1.0
+доити,/c/cu/доити/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,牛奶,/c/zh/牛奶,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,малако,/c/be/малако,,1.0
+brown butter,/c/en/brown_butter/n,RelatedTo,milk,/c/en/milk,,1.0
+sawine,/c/en/sawine/n,RelatedTo,milk,/c/en/milk,,1.0
+rice milk,/c/en/rice_milk/n,RelatedTo,milk,/c/en/milk,,1.0
+ахш,/c/ab/ахш/n,RelatedTo,milk,/c/en/milk,,1.0
+molsti,/c/sl/molsti/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n,RelatedTo,lait,/c/fr/lait,,1.0
+tál,/c/ga/tál/n/wikt/en_2,HasContext,milk,/c/en/milk,,1.0
+lactific,/c/en/lactific/a,RelatedTo,milk,/c/en/milk,,1.0
+posseting,/c/en/posseting/n,RelatedTo,milk,/c/en/milk,,1.0
+σκονόγαλα,/c/el/σκονόγαλα/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,meew,/c/wo/meew,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,pienas,/c/lt/pienas,,1.0
+milk,/c/en/milk,ReceivesAction,made from cheese,/c/en/made_from_cheese,[[milk]] is [[made from cheese]],1.0
+caano,/c/so/caano/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n,IsA,liquid,/c/en/liquid/n/opencyc/liquid_tangible_thing,,1.0
+neslaukt,/c/lv/neslaukt/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,süýt,/c/tk/süýt,,1.0
+hot chocolate,/c/en/hot_chocolate/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ਦੁੱਧ,/c/pa/ਦੁੱਧ,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,animal,/c/en/animal,,1.0
+နို့,/c/my/နို့/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,rice,/c/en/rice,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ⲉⲣⲱⲧⲉ,/c/cop/ⲉⲣⲱⲧⲉ,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,bainney,/c/gv/bainney,,1.0
+varenika,/c/sh/varenika/n,RelatedTo,milk,/c/en/milk,,1.0
+துத்தம்,/c/ta/துத்தம்/n,RelatedTo,milk,/c/en/milk,,1.0
+mjǫlk,/c/non/mjǫlk/n,RelatedTo,milk,/c/en/milk,,1.0
+hoop cheese,/c/en/hoop_cheese/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,almond,/c/en/almond,,1.0
+ubermaale,/c/gsw/ubermaale/v,RelatedTo,milk,/c/en/milk,,1.0
+immulgeo,/c/la/immulgeo/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ловсо,/c/myv/ловсо,,1.0
+melk,/c/nds/melk/n,Synonym,milk,/c/en/milk,,1.0
+filloa,/c/gl/filloa/n,RelatedTo,milk,/c/en/milk,,1.0
+صرب,/c/ar/صرب/v,RelatedTo,milk,/c/en/milk,,1.0
+neslaucot,/c/lv/neslaucot,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n,IsA,liquid,/c/de/liquid,,1.0
+رخم,/c/ar/رخم/n,RelatedTo,milk,/c/en/milk,,1.0
+homo,/c/en/homo/a,RelatedTo,milk,/c/en/milk,,1.0
+cowmilk,/c/en/cowmilk/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,CapableOf,last about 7 days,/c/en/last_about_7_days,[[milk]] can [[last about 7 days]],1.0
+rasvaton,/c/fi/rasvaton/a,HasContext,milk,/c/en/milk,,1.0
+moo juice,/c/en/moo_juice/n,RelatedTo,milk,/c/en/milk,,1.0
+milks,/c/en/milks/n,FormOf,milk,/c/en/milk,,1.0
+羊奶,/c/zh/羊奶/n,RelatedTo,milk,/c/en/milk,,1.0
+malke,/c/xto/malke/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,RelatedTo,liquid,/c/en/liquid,,1.0
+caseinate,/c/en/caseinate/n,RelatedTo,milk,/c/en/milk,,1.0
+feeding bottle,/c/en/feeding_bottle/n,RelatedTo,milk,/c/en/milk,,1.0
+susu,/c/id/susu/n,RelatedTo,milk,/c/en/milk,,1.0
+manjar lento,/c/es/manjar_lento/n,RelatedTo,milk,/c/en/milk,,1.0
+mjólka,/c/is/mjólka/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,γαλα,/c/el/γαλα,,1.0
+lach,/c/oc/lach/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lèt,/c/ht/lèt,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,sēmḑa,/c/liv/sēmḑa,,1.0
+curdle,/c/en/curdle/v,RelatedTo,milk,/c/en/milk,,1.0
+caffè macchiato,/c/it/caffè_macchiato/n,RelatedTo,milk,/c/en/milk,,1.0
+lleite,/c/ast/lleite/n,RelatedTo,milk,/c/en/milk,,1.0
+kulajda,/c/cs/kulajda/n,RelatedTo,milk,/c/en/milk,,1.0
+доя,/c/bg/доя/v,RelatedTo,milk,/c/en/milk,,1.0
+бутҡа,/c/ba/бутҡа/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,IsA,denser than water,/c/en/denser_than_water,[[milk]] is [[denser than water]],1.0
+strippings,/c/en/strippings/n,RelatedTo,milk,/c/en/milk,,1.0
+malagata,/c/fil/malagata/a,RelatedTo,milk,/c/en/milk,,1.0
+حلاب,/c/ar/حلاب/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lat,/c/vec/lat,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,பால்,/c/ta/பால்,,1.0
+mjölka,/c/sv/mjölka/v,RelatedTo,milk,/c/en/milk,,1.0
+オッパイ,/c/ja/オッパイ/n,RelatedTo,milk,/c/en/milk,,1.0
+מילך,/c/yi/מילך/n,RelatedTo,milk,/c/en/milk,,1.0
+dorry,/c/enm/dorry/n,RelatedTo,milk,/c/en/milk,,1.0
+cortado,/c/es/cortado/n,RelatedTo,milk,/c/en/milk,,1.0
+క్షీరము,/c/te/క్షీరము/n,RelatedTo,milk,/c/en/milk,,1.0
+dairy farmer,/c/en/dairy_farmer/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ወተት,/c/am/ወተት,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,сӱт,/c/kjh/сӱт,,1.0
+шура,/c/ce/шура/n,RelatedTo,milk,/c/en/milk,,1.0
+Milk,/c/en/milk,CapableOf,taste sour,/c/en/taste_sour,[[Milk]] can [[taste sour]],1.0
+melk,/c/no/melk/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+cij,/c/za/cij/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+奶水,/c/zh/奶水/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,pėins,/c/lt/pėins,,1.0
+mioluc,/c/ang/mioluc/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,oyster,/c/en/oyster,,1.0
+Milk,/c/en/milk,IsA,a solution from a female cow,/c/en/solution_from_female_cow,[[Milk]] is [[a solution from a female cow]],1.0
+dıtene,/c/zza/dıtene/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,شیر,/c/ota/شیر,,1.0
+Milk,/c/en/milk,CapableOf,be a noun or a verb,/c/en/noun_or_verb,[[Milk]] can [[be a noun or a verb]],1.0
+lactometer,/c/en/lactometer/n,RelatedTo,milk,/c/en/milk,,1.0
+strapper,/c/en/strapper/n,RelatedTo,milk,/c/en/milk,,1.0
+tej,/c/hu/tej/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,mungere,/c/it/mungere,,1.0
+lachtna,/c/sga/lachtna/a,RelatedTo,milk,/c/en/milk,,1.0
+Milk,/c/en/milk,ReceivesAction,purchased from a corner grocery,/c/en/purchased_from_corner_grocery,[[Milk]] can be [[purchased from a corner grocery]],1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,mólzer,/c/oc/mólzer,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,mālkant,/c/txb/mālkant,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,bleoghainn,/c/gd/bleoghainn,,1.0
+حليب,/c/ar/حليب/n,RelatedTo,milk,/c/en/milk,,1.0
+खीर,/c/pi/खीर/n,RelatedTo,milk,/c/en/milk,,1.0
+latg,/c/rm/latg/n,RelatedTo,milk,/c/en/milk,,1.0
+sağmaq,/c/az/sağmaq/v,RelatedTo,milk,/c/en/milk,,1.0
+दुग्ध,/c/sa/दुग्ध/n,RelatedTo,milk,/c/en/milk,,1.0
+syllabub,/c/en/syllabub/n,RelatedTo,milk,/c/en/milk,,1.0
+egg cream,/c/en/egg_cream/n,RelatedTo,milk,/c/en/milk,,1.0
+kissanmaito,/c/fi/kissanmaito/n,RelatedTo,milk,/c/en/milk,,1.0
+млеко,/c/mk/млеко/n,RelatedTo,milk,/c/en/milk,,1.0
+butterfat,/c/en/butterfat/n,RelatedTo,milk,/c/en/milk,,1.0
+zrig,/c/fr/zrig/n,RelatedTo,milk,/c/en/milk,,1.0
+奶,/c/zh/奶,Synonym,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,milig,/c/vo/milig,,1.0
+lypsää,/c/fi/lypsää/v,RelatedTo,milk,/c/en/milk,,1.0
+lungad,/c/fil/lungad/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,牛乳,/c/ja/牛乳,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,amata,/c/rw/amata,,1.0
+sawmill gravy,/c/en/sawmill_gravy/n,RelatedTo,milk,/c/en/milk,,1.0
+mālkant,/c/txb/mālkant/v,RelatedTo,milk,/c/en/milk,,1.0
+доить,/c/ru/доить/v,RelatedTo,milk,/c/en/milk,,1.0
+frupt,/c/ro/frupt/n,RelatedTo,milk,/c/en/milk,,1.0
+мляко,/c/bg/мляко/n,RelatedTo,milk,/c/en/milk,,1.0
+milk of ruminant,/c/en/milk_of_ruminant/n,IsA,milk,/c/en/milk/n,,1.0
+lapti,/c/rup/lapti/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,mëllech,/c/lb/mëllech,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,產乳,/c/zh/產乳,,1.0
+electric soup,/c/en/electric_soup/n,RelatedTo,milk,/c/en/milk,,1.0
+ბჟა,/c/xmf/ბჟა/n/wikt/en_2,RelatedTo,milk,/c/en/milk,,1.0
+nonmilk,/c/en/nonmilk/a,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,múlliri,/c/sc/múlliri,,1.0
+breastfeeding,/c/en/breastfeeding/n,RelatedTo,milk,/c/en/milk,,1.0
+దుగ్ధము,/c/te/దుగ్ధము/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,hama,/c/st/hama,,1.0
+ӕхсыр,/c/os/ӕхсыр/n,RelatedTo,milk,/c/en/milk,,1.0
+сют,/c/krc/сют/n,RelatedTo,milk,/c/en/milk,,1.0
+chaûdé,/c/nrf/chaûdé/n,RelatedTo,milk,/c/en/milk,,1.0
+slaukdams,/c/lv/slaukdams,RelatedTo,milk,/c/en/milk,,1.0
+protein shake,/c/en/protein_shake/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,mónzar,/c/vec/mónzar,,1.0
+manjar blanco,/c/es/manjar_blanco/n,RelatedTo,milk,/c/en/milk,,1.0
+leite,/c/pt/leite/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,leche,/c/es/leche,,1.0
+milk,/c/en/milk/n/wn/food,ExternalURL,107860580-n,http://wordnet-rdf.princeton.edu/wn31/107860580-n,,1.0
+renneting,/c/en/renneting/n,RelatedTo,milk,/c/en/milk,,1.0
+homogenize,/c/en/homogenize/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,牛乳,/c/hak/牛乳,,1.0
+奶皮,/c/zh/奶皮/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,ExternalURL,Q8495,http://wikidata.dbpedia.org/resource/Q8495,,1.0
+escutcheon,/c/en/escutcheon/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,oat,/c/en/oat,,1.0
+шир,/c/tg/шир/n,RelatedTo,milk,/c/en/milk,,1.0
+melke,/c/fy/melke/v,RelatedTo,milk,/c/en/milk,,1.0
+mleko,/c/sl/mleko/n,RelatedTo,milk,/c/en/milk,,1.0
+Milk,/c/en/milk,PartOf,a healthy diet,/c/en/healthy_diet,[[Milk]] is part of [[a healthy diet]],1.0
+prelacteal,/c/en/prelacteal/a,RelatedTo,milk,/c/en/milk,,1.0
+zythogale,/c/fr/zythogale/n,RelatedTo,milk,/c/en/milk,,1.0
+өрөм,/c/mn/өрөм/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,mleko,/c/pl/mleko,,1.0
+creamometer,/c/en/creamometer/n,RelatedTo,milk,/c/en/milk,,1.0
+goatwalking,/c/en/goatwalking/n,RelatedTo,milk,/c/en/milk,,1.0
+dairy product,/c/en/dairy_product/n,RelatedTo,milk,/c/en/milk,,1.0
+albumin,/c/en/albumin/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,سۈت,/c/ug/سۈت,,1.0
+anglais,/c/ga/anglais/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,leite,/c/pt/leite,,1.0
+kefalograviera,/c/en/kefalograviera/n,RelatedTo,milk,/c/en/milk,,1.0
+Milk,/c/en/milk,UsedFor,make pudding,/c/en/make_pudding,[[Milk]] is used to [[make pudding]],1.0
+сӱт,/c/kjh/сӱт/n,RelatedTo,milk,/c/en/milk,,1.0
+goat's milk cheese,/c/en/goat's_milk_cheese/n,RelatedTo,milk,/c/en/milk,,1.0
+lactivorous,/c/en/lactivorous/a,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,ordeñar,/c/es/ordeñar,,1.0
+muhallebi,/c/tr/muhallebi/n,RelatedTo,milk,/c/en/milk,,1.0
+handle,/c/gsw/handle/v,RelatedTo,milk,/c/en/milk,,1.0
+süt,/c/tr/süt/n,RelatedTo,milk,/c/en/milk,,1.0
+laict,/c/frm/laict/n,RelatedTo,milk,/c/en/milk,,1.0
+lait,/c/fr/lait/n,RelatedTo,milk,/c/en/milk,,1.0
+laitchi,/c/nrf/laitchi/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ទឹកដោះ,/c/km/ទឹកដោះ,,1.0
+मधु,/c/sa/मधु/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,شیر,/c/fa/شیر,,1.0
+lactic acid,/c/en/lactic_acid/n,RelatedTo,milk,/c/en/milk,,1.0
+neslaukšana,/c/lv/neslaukšana/n,RelatedTo,milk,/c/en/milk,,1.0
+1 percent milk,/c/en/1_percent_milk/n,IsA,milk,/c/en/milk/n/opencyc/cows_milk_product,,1.0
+mozzarella,/c/en/mozzarella/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,beverage,/c/en/beverage,,1.0
+milk,/c/en/milk,ExternalURL,don't+cry+over+spilt+milk-p#Component-5,http://wordnet-rdf.princeton.edu/wn31/don't+cry+over+spilt+milk-p#Component-5,,1.0
+milk,/c/en/milk,AtLocation,a milk processing plant,/c/en/milk_processing_plant,You are likely to find [[milk]] in [[a milk processing plant]],1.0
+𐌼𐌹𐌻𐌿𐌺𐍃,/c/got/𐌼𐌹𐌻𐌿𐌺𐍃/n,RelatedTo,milk,/c/en/milk,,1.0
+lacte,/c/ia/lacte/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,挤奶,/c/zh/挤奶,,1.0
+ⰿⰾⱑⰽⱁ,/c/cu/ⰿⰾⱑⰽⱁ/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,vegetable,/c/en/vegetable,,1.0
+merki,/c/srn/merki/n,RelatedTo,milk,/c/en/milk,,1.0
+oslo breakfast,/c/en/oslo_breakfast/n,RelatedTo,milk,/c/en/milk,,1.0
+galactase,/c/en/galactase/n,RelatedTo,milk,/c/en/milk,,1.0
+milktree,/c/en/milktree,DerivedFrom,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,mulgeo,/c/la/mulgeo,,1.0
+white pot,/c/en/white_pot/n,RelatedTo,milk,/c/en/milk,,1.0
+milchy,/c/en/milchy/a,RelatedTo,milk,/c/en/milk,,1.0
+abeʼ neeskʼįhígíí,/c/nv/abeʼ_neeskʼįhígíí/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,semen,/c/en/semen,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ахш,/c/ab/ахш,,1.0
+mëllech,/c/lb/mëllech/n,RelatedTo,milk,/c/en/milk,,1.0
+ἀμέλγω,/c/grc/ἀμέλγω/v,RelatedTo,milk,/c/en/milk,,1.0
+ᎤᏅᏗ,/c/chr/ᎤᏅᏗ/n,RelatedTo,milk,/c/en/milk,,1.0
+leite,/c/gl/leite/n,RelatedTo,milk,/c/en/milk,,1.0
+দুধ,/c/bn/দুধ/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,რძე,/c/ka/რძე,,1.0
+sữa,/c/vi/sữa/n,RelatedTo,milk,/c/en/milk,,1.0
+mjólkardropi,/c/fo/mjólkardropi/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,milch,/c/de/milch,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,laezh,/c/br/laezh,,1.0
+iria,/c/ki/iria/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,お乳,/c/ja/お乳,,1.0
+go to the store,/c/en/go_to_store,MotivatedByGoal,milk,/c/en/milk,You would [[go to the store]] because you want [[milk]],1.0
+joshi,/c/en/joshi/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,maziwa,/c/sw/maziwa,,1.0
+white tea,/c/en/white_tea/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,şîr,/c/ku/şîr,,1.0
+só,/c/gl/só/n,RelatedTo,milk,/c/en/milk,,1.0
+soymilk,/c/en/soymilk,DerivedFrom,milk,/c/en/milk,,1.0
+habibo,/c/mg/habibo/n,RelatedTo,milk,/c/en/milk,,1.0
+black,/c/en/black/a,RelatedTo,milk,/c/en/milk,,1.0
+panshon,/c/en/panshon/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,malke,/c/xto/malke,,1.0
+sina,/c/sv/sina/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,meolc,/c/ang/meolc,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,kutētē,/c/mi/kutētē,,1.0
+पायस,/c/sa/पायस/n,RelatedTo,milk,/c/en/milk,,1.0
+կաթ,/c/hy/կաթ/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,MadeOf,minerals,/c/en/minerals,[[milk]] is made of [[minerals]].,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lait,/c/oc/lait,,1.0
+რძე,/c/ka/რძე/n,RelatedTo,milk,/c/en/milk,,1.0
+पयस्,/c/sa/पयस्/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,RelatedTo,gas,/c/en/gas,,1.0
+flens,/c/nl/flens/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+pokarm,/c/pl/pokarm/n,RelatedTo,milk,/c/en/milk,,1.0
+乳液,/c/zh/乳液,Synonym,milk,/c/en/milk,,1.0
+cow juice,/c/en/cow_juice/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,melke,/c/no/melke,,1.0
+2 percent milk,/c/en/2_percent_milk/n,IsA,milk,/c/en/milk/n/opencyc/cows_milk_product,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,melken,/c/nds/melken,,1.0
+dairy cattle,/c/en/dairy_cattle/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,ħaleb,/c/mt/ħaleb,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,乳,/c/zh/乳,,1.0
+ወተት,/c/am/ወተት/n,RelatedTo,milk,/c/en/milk,,1.0
+ⲉⲣⲱⲧⲉ,/c/cop/ⲉⲣⲱⲧⲉ/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,شيدې,/c/ps/شيدې,,1.0
+milk,/c/en/milk,AtLocation,a carton,/c/en/carton,You are likely to find [[milk]] in [[a carton]],1.0
+sintu,/c/fi/sintu/n,RelatedTo,milk,/c/en/milk,,1.0
+milk of female bovine,/c/en/milk_of_female_bovine/n,IsA,milk,/c/en/milk/n,,1.0
+jrṯt,/c/egx/jrṯt/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,munscher,/c/rm/munscher,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,cows,/c/en/cows,,1.0
+mammal,/c/en/mammal/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,AtLocation,a bottle,/c/en/bottle,You are likely to find [[milk]] in [[a bottle]],1.0
+జున్ను,/c/te/జున్ను/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,сүт,/c/ky/сүт,,1.0
+homogenized milk,/c/en/homogenized_milk/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,white,/c/en/white,,1.0
+mȧlkja,/c/wym/mȧlkja/v,RelatedTo,milk,/c/en/milk,,1.0
+gatasan,/c/ceb/gatasan/v,RelatedTo,milk,/c/en/milk,,1.0
+сӗт,/c/cv/сӗт/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ⰿⰾⱑⰽⱁ,/c/cu/ⰿⰾⱑⰽⱁ,,1.0
+cremería,/c/es/cremería/n,RelatedTo,milk,/c/en/milk,,1.0
+şit,/c/zza/şit/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,ordenhar,/c/pt/ordenhar,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,liquid,/c/en/liquid,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lait,/c/fr/lait,,1.0
+სძჱ,/c/oge/სძჱ/n,RelatedTo,milk,/c/en/milk,,1.0
+muxir,/c/gl/muxir/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,RelatedTo,young,/c/en/young,,1.0
+mamada,/c/es/mamada/n,RelatedTo,milk,/c/en/milk,,1.0
+galactopoiesis,/c/en/galactopoiesis/n,RelatedTo,milk,/c/en/milk,,1.0
+oatmeal,/c/en/oatmeal/n,RelatedTo,milk,/c/en/milk,,1.0
+emmek,/c/tr/emmek/v,RelatedTo,milk,/c/en/milk,,1.0
+agalactous,/c/en/agalactous/a,RelatedTo,milk,/c/en/milk,,1.0
+milkfed,/c/en/milkfed,DerivedFrom,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,cij,/c/za/cij,,1.0
+horsemilk,/c/en/horsemilk,DerivedFrom,milk,/c/en/milk,,1.0
+milk,/c/en/milk,ReceivesAction,eaten with cereal,/c/en/eaten_with_cereal,[[milk]] is [[eaten with cereal]],1.0
+ñukñu,/c/qu/ñukñu/n,RelatedTo,milk,/c/en/milk,,1.0
+سر,/c/ur/سر/n/wikt/en_2,RelatedTo,milk,/c/en/milk,,1.0
+sữa,/c/vi/sữa/n,Synonym,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,bainne,/c/ga/bainne,,1.0
+clabber,/c/en/clabber/n,RelatedTo,milk,/c/en/milk,,1.0
+milkbox,/c/en/milkbox/n,RelatedTo,milk,/c/en/milk,,1.0
+乳臭,/c/zh/乳臭/n,RelatedTo,milk,/c/en/milk,,1.0
+kożuch,/c/pl/kożuch/n,RelatedTo,milk,/c/en/milk,,1.0
+mjølk,/c/no/mjølk/n,RelatedTo,milk,/c/en/milk,,1.0
+abeʼ,/c/nv/abeʼ/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,UsedFor,feed a baby,/c/en/feed_baby,You can use [[milk]] to [[feed a baby]],1.0
+stripper,/c/en/stripper/n,RelatedTo,milk,/c/en/milk,,1.0
+lattiera,/c/it/lattiera/n,RelatedTo,milk,/c/en/milk,,1.0
+茶冰,/c/zh/茶冰/n,RelatedTo,milk,/c/en/milk,,1.0
+lleche,/c/ast/lleche/n,RelatedTo,milk,/c/en/milk,,1.0
+white sauce,/c/en/white_sauce/n,RelatedTo,milk,/c/en/milk,,1.0
+сүт,/c/ky/сүт/n,RelatedTo,milk,/c/en/milk,,1.0
+bavaroise,/c/en/bavaroise/n,RelatedTo,milk,/c/en/milk,,1.0
+milch,/c/de/milch/n,RelatedTo,milk,/c/en/milk,,1.0
+isi,/c/zu/isi/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,thud,/c/rom/thud,,1.0
+notsi,/c/ee/notsi/n,RelatedTo,milk,/c/en/milk,,1.0
+lactescence,/c/en/lactescence/n,RelatedTo,milk,/c/en/milk,,1.0
+süýt,/c/tk/süýt/n,RelatedTo,milk,/c/en/milk,,1.0
+sirte,/c/gsw/sirte/n,RelatedTo,milk,/c/en/milk,,1.0
+mulgu,/c/rup/mulgu/v,RelatedTo,milk,/c/en/milk,,1.0
+lactiferous,/c/en/lactiferous/a,RelatedTo,milk,/c/en/milk,,1.0
+fejőstehén,/c/hu/fejőstehén/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,دۆشین,/c/ku/دۆشین,,1.0
+Milk,/c/en/milk,ReceivesAction,produced by mammals,/c/en/produced_by_mammals,[[Milk]] is [[produced by mammals]],1.0
+microfoam,/c/en/microfoam/n,RelatedTo,milk,/c/en/milk,,1.0
+ἰχώρ,/c/grc/ἰχώρ/n,RelatedTo,milk,/c/en/milk,,1.0
+rimungere,/c/it/rimungere/v,RelatedTo,milk,/c/en/milk,,1.0
+mabɛ́lɛ,/c/ln/mabɛ́lɛ/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lac,/c/la/lac,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,шура,/c/ce/шура,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,乳,/c/ja/乳,,1.0
+blancmange,/c/en/blancmange/n,RelatedTo,milk,/c/en/milk,,1.0
+lypsylämmin,/c/fi/lypsylämmin/a,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/opencyc/cows_milk_product,IsA,beverage,/c/en/beverage/n,,1.0
+cowmilk,/c/en/cowmilk,DerivedFrom,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,susu,/c/jv/susu,,1.0
+milkish,/c/en/milkish/a,RelatedTo,milk,/c/en/milk,,1.0
+밀크,/c/ko/밀크/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,αμελγω,/c/grc/αμελγω,,1.0
+kefir,/c/en/kefir/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/opencyc/cows_milk_product,IsA,mixture,/c/en/mixture/n,,1.0
+Milk,/c/en/milk,CreatedBy,cows,/c/en/cows,[[Milk]] is created by [[cows]].,1.0
+skeel,/c/en/skeel/n,RelatedTo,milk,/c/en/milk,,1.0
+Milk,/c/en/milk,HasProperty,packaged in either jugs or boxes,/c/en/packaged_in_either_jugs_or_boxes,[[Milk]] is [[packaged in either jugs or boxes]],1.0
+dorry,/c/enm/dorry/a,RelatedTo,milk,/c/en/milk,,1.0
+slaucot,/c/lv/slaucot,RelatedTo,milk,/c/en/milk,,1.0
+hapanmaid,/c/vep/hapanmaid/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lach,/c/oc/lach,,1.0
+ܪܘܒܐ,/c/syc/ܪܘܒܐ/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,молоко,/c/uk/молоко,,1.0
+koffie verkeerd,/c/nl/koffie_verkeerd/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,γαλα,/c/grc/γαλα,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ጸባ,/c/ti/ጸባ,,1.0
+yaourt,/c/en/yaourt/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,milch,/c/gsw/milch,,1.0
+حلب,/c/ar/حلب/n/wikt/en_4,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,susu,/c/sm/susu,,1.0
+agglutinin,/c/en/agglutinin/n,RelatedTo,milk,/c/en/milk,,1.0
+idiazabal cheese,/c/en/idiazabal_cheese/n,RelatedTo,milk,/c/en/milk,,1.0
+ち,/c/ja/ち/n/wikt/en_2,RelatedTo,milk,/c/en/milk,,1.0
+lat,/c/fur/lat/n,RelatedTo,milk,/c/en/milk,,1.0
+Some milk,/c/en/milk,ReceivesAction,sold in plastic containers,/c/en/sold_in_plastic_containers,[[Some milk]] is [[sold in plastic containers]],1.0
+roquefort,/c/en/roquefort/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,دودھ,/c/ur/دودھ,,1.0
+miraka,/c/mi/miraka,EtymologicallyDerivedFrom,milk,/c/en/milk,,1.0
+bańka,/c/pl/bańka/n,RelatedTo,milk,/c/en/milk,,1.0
+trough,/c/en/trough/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,gatas,/c/fil/gatas,,1.0
+lacc,/c/lmo/lacc/n,RelatedTo,milk,/c/en/milk,,1.0
+muluk uuq,/c/esu/muluk_uuq/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,immuk,/c/kl/immuk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,meolcian,/c/ang/meolcian,,1.0
+乳汁,/c/zh/乳汁/n,RelatedTo,milk,/c/en/milk,,1.0
+thud,/c/rom/thud/n,RelatedTo,milk,/c/en/milk,,1.0
+dark chocolate,/c/en/dark_chocolate/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,dojś,/c/dsb/dojś,,1.0
+leche,/c/es/leche/n,RelatedTo,milk,/c/en/milk,,1.0
+lattiero,/c/it/lattiero/a,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,حليب,/c/ar/حليب,,1.0
+ブラックコーヒー,/c/ja/ブラックコーヒー/n,RelatedTo,milk,/c/en/milk,,1.0
+laezh,/c/br/laezh/n,RelatedTo,milk,/c/en/milk,,1.0
+irtomaito,/c/fi/irtomaito/n,RelatedTo,milk,/c/en/milk,,1.0
+milkest,/c/en/milkest/v,FormOf,milk,/c/en/milk,,1.0
+hazelnut milk,/c/en/hazelnut_milk/n,RelatedTo,milk,/c/en/milk,,1.0
+læte,/c/lij/læte/n,RelatedTo,milk,/c/en/milk,,1.0
+boruga,/c/es/boruga/n,RelatedTo,milk,/c/en/milk,,1.0
+kosong,/c/en/kosong/a,RelatedTo,milk,/c/en/milk,,1.0
+pinta,/c/en/pinta/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+นม,/c/th/นม/n,RelatedTo,milk,/c/en/milk,,1.0
+veganism,/c/en/veganism/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,muluk uuq,/c/esu/muluk_uuq,,1.0
+dulce de leche,/c/en/dulce_de_leche/n,RelatedTo,milk,/c/en/milk,,1.0
+llaeth,/c/cy/llaeth/n,RelatedTo,milk,/c/en/milk,,1.0
+falooda,/c/en/falooda/n,RelatedTo,milk,/c/en/milk,,1.0
+nekka,/c/fi/nekka/n,RelatedTo,milk,/c/en/milk,,1.0
+shrove tuesday,/c/en/shrove_tuesday/n,RelatedTo,milk,/c/en/milk,,1.0
+strip,/c/en/strip/v/wikt/en_2,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,AtLocation,the freezer,/c/en/freezer,*Something you find in [[the freezer]] is [[milk]],1.0
+bainney,/c/gv/bainney/n,RelatedTo,milk,/c/en/milk,,1.0
+skimmed milk,/c/en/skimmed_milk,DerivedFrom,milk,/c/en/milk/n,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,bainne,/c/sga/bainne,,1.0
+yeld,/c/sco/yeld/v,RelatedTo,milk,/c/en/milk,,1.0
+βδάλλω,/c/grc/βδάλλω/v,RelatedTo,milk,/c/en/milk,,1.0
+দুগ্ধ,/c/bn/দুগ্ধ/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n,Synonym,melk,/c/nds/melk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,חלבא,/c/arc/חלבא,,1.0
+melken,/c/nl/melken/v,RelatedTo,milk,/c/en/milk,,1.0
+milkmaiden,/c/en/milkmaiden,DerivedFrom,milk,/c/en/milk,,1.0
+doşîn,/c/ku/doşîn/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,саар,/c/tyv/саар,,1.0
+сӱт,/c/alt/сӱт/n,RelatedTo,milk,/c/en/milk,,1.0
+maitopisara,/c/fi/maitopisara/n,RelatedTo,milk,/c/en/milk,,1.0
+milch,/c/de/milch/n,Synonym,milk,/c/en/milk,,1.0
+شیر,/c/ku/شیر/n,RelatedTo,milk,/c/en/milk,,1.0
+remilk,/c/en/remilk,DerivedFrom,milk,/c/en/milk,,1.0
+smungere,/c/it/smungere/v,RelatedTo,milk,/c/en/milk,,1.0
+پوڅه,/c/ps/پوڅه/n,RelatedTo,milk,/c/en/milk,,1.0
+намолзе,/c/mk/намолзе/v,RelatedTo,milk,/c/en/milk,,1.0
+milkful,/c/en/milkful,DerivedFrom,milk,/c/en/milk,,1.0
+دوشتن,/c/fa/دوشتن/v,RelatedTo,milk,/c/en/milk,,1.0
+hindmilk,/c/en/hindmilk/n,RelatedTo,milk,/c/en/milk,,1.0
+café noisette,/c/en/café_noisette/n,RelatedTo,milk,/c/en/milk,,1.0
+cream,/c/en/cream/n,RelatedTo,milk,/c/en/milk,,1.0
+magermilch,/c/de/magermilch/n,RelatedTo,milk,/c/en/milk,,1.0
+lactigenous,/c/en/lactigenous/a,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,HasContext,slang,/c/en/slang,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,susu,/c/ms/susu,,1.0
+milks,/c/en/milks/v,RelatedTo,milk,/c/en/milk,,1.0
+shkërdhec,/c/sq/shkërdhec/n,RelatedTo,milk,/c/en/milk,,1.0
+muide,/c/sga/muide/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,유즙,/c/ko/유즙,,1.0
+milked,/c/en/milked/v,RelatedTo,milk,/c/en/milk,,1.0
+galactocele,/c/en/galactocele/n,RelatedTo,milk,/c/en/milk,,1.0
+melka,/c/ofs/melka/v,RelatedTo,milk,/c/en/milk,,1.0
+شیر,/c/ur/شیر/n/wikt/en_2,RelatedTo,milk,/c/en/milk,,1.0
+traire,/c/fr/traire/v,RelatedTo,milk,/c/en/milk,,1.0
+white coffee,/c/en/white_coffee/n,RelatedTo,milk,/c/en/milk,,1.0
+coconuts,/c/en/coconuts,HasA,milk,/c/en/milk,[[coconuts]] have [[milk]],1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,melk,/c/af/melk,,1.0
+tea,/c/en/tea/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+dexter,/c/en/dexter/n,RelatedTo,milk,/c/en/milk,,1.0
+お乳,/c/ja/お乳/n,RelatedTo,milk,/c/en/milk,,1.0
+maitolasi,/c/fi/maitolasi/n,RelatedTo,milk,/c/en/milk,,1.0
+mutte,/c/gsw/mutte/n,RelatedTo,milk,/c/en/milk,,1.0
+milkshed,/c/en/milkshed/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,חלב,/c/he/חלב,,1.0
+supercow,/c/en/supercow/n,RelatedTo,milk,/c/en/milk,,1.0
+yeld,/c/sco/yeld/a,RelatedTo,milk,/c/en/milk,,1.0
+goon,/c/gsw/goon/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,үсн,/c/xwo/үсн,,1.0
+thandai,/c/en/thandai/n,RelatedTo,milk,/c/en/milk,,1.0
+latte materno,/c/it/latte_materno/n,RelatedTo,milk,/c/en/milk,,1.0
+foremilk,/c/en/foremilk,DerivedFrom,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,melken,/c/nl/melken,,1.0
+ziega,/c/en/ziega/n,RelatedTo,milk,/c/en/milk,,1.0
+heavy cake,/c/en/heavy_cake/n,RelatedTo,milk,/c/en/milk,,1.0
+xynomyzithra,/c/en/xynomyzithra/n,RelatedTo,milk,/c/en/milk,,1.0
+whinnock,/c/en/whinnock/n,RelatedTo,milk,/c/en/milk,,1.0
+eat a cookie,/c/en/eat_cookie,HasPrerequisite,milk,/c/en/milk,Something you need to do before you [[eat a cookie]] is [[milk]],1.0
+milkhouse,/c/en/milkhouse,DerivedFrom,milk,/c/en/milk,,1.0
+lici,/c/arn/lici/n,RelatedTo,milk,/c/en/milk,,1.0
+сүт,/c/tyv/сүт/n,RelatedTo,milk,/c/en/milk,,1.0
+lattaio,/c/it/lattaio/a/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+mleko,/c/sh/mleko/n,Synonym,milk,/c/en/milk,,1.0
+milkpan,/c/en/milkpan/n,RelatedTo,milk,/c/en/milk,,1.0
+milch,/c/gsw/milch/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,لبن,/c/ar/لبن,,1.0
+ܚܠܒܐ,/c/syc/ܚܠܒܐ/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+cheese,/c/en/cheese/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+bearradh,/c/ga/bearradh/n/wikt/en_1,HasContext,milk,/c/en/milk,,1.0
+milklike,/c/en/milklike/a,RelatedTo,milk,/c/en/milk,,1.0
+క్షీరోదకన్యాయము,/c/te/క్షీరోదకన్యాయము/n,RelatedTo,milk,/c/en/milk,,1.0
+sneeuwpudding,/c/nl/sneeuwpudding/n,RelatedTo,milk,/c/en/milk,,1.0
+ܚܐܘܬܐ,/c/syc/ܚܐܘܬܐ/n,RelatedTo,milk,/c/en/milk,,1.0
+traithe,/c/nrf/traithe/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,젖,/c/ko/젖,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,сүү,/c/mn/сүү,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ນ້ໍານົມ,/c/lo/ນ້ໍານົມ,,1.0
+tamël,/c/sq/tamël/n,RelatedTo,milk,/c/en/milk,,1.0
+chocolate,/c/en/chocolate/n,RelatedTo,milk,/c/en/milk,,1.0
+ch away,/c/qu/ch_away/v,RelatedTo,milk,/c/en/milk,,1.0
+dotin,/c/ku/dotin/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,CapableOf,comes in plastic containers,/c/en/comes_in_plastic_containers,[[milk]] sometimes [[comes in plastic containers]],1.0
+skyr,/c/en/skyr/n,RelatedTo,milk,/c/en/milk,,1.0
+lactifuge,/c/en/lactifuge/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,mónxer,/c/vec/mónxer,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,ಹಾಲು,/c/kn/ಹಾಲು,,1.0
+ܡܣܬܐ,/c/syc/ܡܣܬܐ/n/wikt/en_1,RelatedTo,milk,/c/en/milk,,1.0
+mountain cheese,/c/en/mountain_cheese/n,RelatedTo,milk,/c/en/milk,,1.0
+食奶,/c/zh/食奶/v,RelatedTo,milk,/c/en/milk,,1.0
+lactocyte,/c/en/lactocyte/n,RelatedTo,milk,/c/en/milk,,1.0
+tyre,/c/en/tyre/n/wikt/en_2,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,ReceivesAction,used in a recipe,/c/en/used_in_recipe,[[milk]] can be [[used in a recipe]],1.0
+ordenhar,/c/pt/ordenhar/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,caano,/c/so/caano,,1.0
+süt,/c/tr/süt/n,Synonym,milk,/c/en/milk,,1.0
+milkmaid,/c/en/milkmaid,DerivedFrom,milk,/c/en/milk,,1.0
+emulgeo,/c/la/emulgeo/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,gatasan,/c/fil/gatasan,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,melk,/c/nl/melk,,1.0
+दुग्धाग्र,/c/sa/दुग्धाग्र/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lait,/c/nrf/lait,,1.0
+奶源,/c/zh/奶源/n,RelatedTo,milk,/c/en/milk,,1.0
+kisiyo,/c/ceb/kisiyo/n,RelatedTo,milk,/c/en/milk,,1.0
+mielki,/c/se/mielki/n,RelatedTo,milk,/c/en/milk,,1.0
+lacté,/c/fr/lacté/a,RelatedTo,milk,/c/en/milk,,1.0
+mlieko,/c/sk/mlieko/n,RelatedTo,milk,/c/en/milk,,1.0
+curd,/c/en/curd/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk,CreatedBy,mammals,/c/en/mammals,[[milk]] is created by [[mammals]].,1.0
+つだみ,/c/ja/つだみ/n,RelatedTo,milk,/c/en/milk,,1.0
+おっぱい,/c/ja/おっぱい/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,产乳,/c/zh/产乳,,1.0
+pienas,/c/lt/pienas/n,RelatedTo,milk,/c/en/milk,,1.0
+kosam,/c/ff/kosam/n,RelatedTo,milk,/c/en/milk,,1.0
+ນົມ,/c/lo/ນົມ/n,RelatedTo,milk,/c/en/milk,,1.0
+melken,/c/de/melken/v,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/n/wikt/en_1,Synonym,lheite,/c/mwl/lheite,,1.0
+butyrometer,/c/en/butyrometer/n,RelatedTo,milk,/c/en/milk,,1.0
+babycino,/c/en/babycino/n,RelatedTo,milk,/c/en/milk,,1.0
+milk,/c/en/milk/v/wikt/en_2,Synonym,lypsää,/c/fi/lypsää,,1.0
+meolc,/c/ang/meolc/n,RelatedTo,milk,/c/en/milk,,1.0
+밀크,/c/ko/밀크,EtymologicallyDerivedFrom,milk,/c/en/milk,,1.0
+maitolaituri,/c/fi/maitolaituri/n,RelatedTo,milk,/c/en/milk,,1.0
+milkman,/c/en/milkman,DerivedFrom,milk,/c/en/milk,,1.0
+milkshake,/c/en/milkshake/n,RelatedTo,milk,/c/en/milk,,1.0

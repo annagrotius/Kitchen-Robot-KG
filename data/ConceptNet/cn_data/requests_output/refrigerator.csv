@@ -1,0 +1,663 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+food,/c/en/food,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[food]],8.246211251235321
+butter,/c/en/butter,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[butter]],6.0
+milk,/c/en/milk,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[milk]],4.898979485566356
+a fungus,/c/en/fungus,AtLocation,your refrigerator,/c/en/refrigerator,You are likely to find [[a fungus]] in [[your refrigerator]],4.898979485566356
+a refrigerator,/c/en/refrigerator,UsedFor,keeping food cold,/c/en/keeping_food_cold,[[a refrigerator]] is for [[keeping food cold]],4.898979485566356
+cheese,/c/en/cheese,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cheese]],4.898979485566356
+beer,/c/en/beer,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[beer]],4.47213595499958
+a refrigerator,/c/en/refrigerator,UsedFor,keeping food from spoiling,/c/en/keeping_food_from_spoiling,[[a refrigerator]] is for [[keeping food from spoiling]],4.0
+a refrigerator,/c/en/refrigerator,CapableOf,cool food,/c/en/cool_food,[[a refrigerator]] can [[cool food]],3.4641016151377544
+a container,/c/en/container,AtLocation,a refrigerator,/c/en/refrigerator,You are likely to find [[a container]] in [[a refrigerator]],3.4641016151377544
+Frigorífico,/c/pt/frigorífico/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[Frigorífico]] is a translation of [[refrigerator]],3.4641016151377544
+A refrigerator,/c/en/refrigerator,IsA,a machine,/c/en/machine,[[A refrigerator]] is [[a machine]],3.4641016151377544
+a wiener dog,/c/en/wiener_dog,AtLocation,the refrigerator,/c/en/refrigerator,You are likely to find [[a wiener dog]] in [[the refrigerator]],2.82842712474619
+a refrigerator,/c/en/refrigerator,UsedFor,causing the jello to jell,/c/en/causing_jello_to_jell,[[a refrigerator]] is used for [[causing the jello to jell]],2.82842712474619
+a refrigerator,/c/en/refrigerator,UsedFor,storing foods,/c/en/storing_foods,[[a refrigerator]] is used for [[storing foods]],2.82842712474619
+lettuce,/c/en/lettuce,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[lettuce]],2.82842712474619
+juice,/c/en/juice,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[juice]],2.82842712474619
+a refrigerator,/c/en/refrigerator,AtLocation,the garage,/c/en/garage,You are likely to find [[a refrigerator]] in [[the garage]],2.82842712474619
+tomatoes,/c/en/tomatoes,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[tomatoes]],2.82842712474619
+leftovers,/c/en/leftovers,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[leftovers]],2.82842712474619
+a carton of milk,/c/en/carton_of_milk,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a carton of milk]],2.82842712474619
+salad,/c/en/salad,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[salad]],2.82842712474619
+carrots,/c/en/carrots,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[carrots]],2.82842712474619
+a jar,/c/en/jar,AtLocation,a refrigerator,/c/en/refrigerator,You are likely to find [[a jar]] in [[a refrigerator]],2.82842712474619
+A refrigerator,/c/en/refrigerator,CapableOf,keep food cold,/c/en/keep_food_cold,[[A refrigerator]] can [[keep food cold]],2.0
+hladnjak,/c/sh/hladnjak/n,RelatedTo,refrigerator,/c/en/refrigerator,,2.0
+orange juice,/c/en/orange_juice,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[orange juice]],2.0
+pickles,/c/en/pickles,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[pickles]],2.0
+frigorífic,/c/ca/frigorífic/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[frigorífic]] is a translation of [[refrigerator]],2.0
+פְרִיגִ'ידֶר,/c/he/פריג'ידר/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[פְרִיגִ'ידֶר]] is a translation of [[refrigerator]],2.0
+refrigerator,/c/en/refrigerator/n/wn/artifact,IsA,white goods,/c/en/white_goods/n/wn/artifact,[[refrigerator]] is a type of [[white goods]],2.0
+یخچال,/c/fa/یخچال/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[یخچال]] is a translation of [[refrigerator]],2.0
+refrigeratore,/c/it/refrigeratore/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[refrigeratore]] is a translation of [[refrigerator]],2.0
+a shelf,/c/en/shelf,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a shelf]],2.0
+kylmälaatikko,/c/fi/kylmälaatikko/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[kylmälaatikko]] is a translation of [[refrigerator]],2.0
+refrigeration system,/c/en/refrigeration_system/n/wn/artifact,PartOf,refrigerator,/c/en/refrigerator/n/wn/artifact,[[refrigeration system]] is a part of [[refrigerator]],2.0
+bread,/c/en/bread,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[bread]],2.0
+冷凍器,/c/ja/冷凍器/n,Synonym,refrigerator,/c/en/refrigerator,,2.0
+a tomato,/c/en/tomato,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a tomato]],2.0
+drawers,/c/en/drawers,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[drawers]],2.0
+冷却器,/c/ja/冷却器/n,Synonym,refrigerator,/c/en/refrigerator,,2.0
+冷蔵庫,/c/ja/冷蔵庫/n,Synonym,refrigerator,/c/en/refrigerator,,2.0
+réfrigérateur,/c/fr/réfrigérateur/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[réfrigérateur]] is a translation of [[refrigerator]],2.0
+peti sejuk,/c/id/peti_sejuk/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[peti sejuk]] is a translation of [[refrigerator]],2.0
+kulkas,/c/id/kulkas/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[kulkas]] is a translation of [[refrigerator]],2.0
+moldy food,/c/en/moldy_food,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[moldy food]],2.0
+bottled water,/c/en/bottled_water,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[bottled water]],2.0
+grape juice,/c/en/grape_juice,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[grape juice]],2.0
+pie,/c/en/pie,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[pie]],2.0
+a refrigerator,/c/en/refrigerator,UsedFor,keeping meats from spoiling,/c/en/keeping_meats_from_spoiling,[[a refrigerator]] is used for [[keeping meats from spoiling]],2.0
+refrigerator,/c/en/refrigerator/n,Synonym,fridge,/c/en/fridge,,2.0
+hozkailu,/c/eu/hozkailu/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[hozkailu]] is a translation of [[refrigerator]],2.0
+frigidaire,/c/it/frigidaire/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[frigidaire]] is a translation of [[refrigerator]],2.0
+mayonnaise,/c/en/mayonnaise,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mayonnaise]],2.0
+a ham,/c/en/ham,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a ham]],2.0
+nevera,/c/ca/nevera/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[nevera]] is a translation of [[refrigerator]],2.0
+frigorifero,/c/it/frigorifero/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[frigorifero]] is a translation of [[refrigerator]],2.0
+A refrigerator,/c/en/refrigerator,IsA,an electronic appliance,/c/en/electronic_appliance,[[A refrigerator]] is [[an electronic appliance]],2.0
+moldy leftovers,/c/en/moldy_leftovers,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[moldy leftovers]],2.0
+a refrigerator,/c/en/refrigerator,UsedFor,chilling food,/c/en/chilling_food,[[a refrigerator]] is used for [[chilling food]],2.0
+a refrigerator,/c/en/refrigerator,UsedFor,extending the life of perishables,/c/en/extending_life_of_perishables,[[a refrigerator]] is used for [[extending the life of perishables]],2.0
+ghiacciaia,/c/it/ghiacciaia/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[ghiacciaia]] is a translation of [[refrigerator]],2.0
+a refrigerator,/c/en/refrigerator,AtLocation,a home,/c/en/home,*Something you find at [[a home]] is [[a refrigerator]],2.0
+a refrigerator,/c/en/refrigerator,UsedFor,keep food cold,/c/en/keep_food_cold,You can use [[a refrigerator]] to [[keep food cold]],2.0
+refrigerator,/c/en/refrigerator/n,Synonym,icebox,/c/en/icebox,,2.0
+フリーザー,/c/ja/フリーザー/n,Synonym,refrigerator,/c/en/refrigerator,,2.0
+peti ais,/c/id/peti_ais/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[peti ais]] is a translation of [[refrigerator]],2.0
+冷凍装置,/c/ja/冷凍装置/n,Synonym,refrigerator,/c/en/refrigerator,,2.0
+Frigorifico,/c/pt/frigorifico/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[Frigorifico]] is a translation of [[refrigerator]],2.0
+frigorífico,/c/gl/frigorífico/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[frigorífico]] is a translation of [[refrigerator]],2.0
+frigoríficos,/c/pt/frigoríficos/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[frigoríficos]] is a translation of [[refrigerator]],2.0
+geladeira,/c/pt/geladeira/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[geladeira]] is a translation of [[refrigerator]],2.0
+cooler,/c/en/cooler/n/wn/artifact,IsA,refrigerator,/c/en/refrigerator/n/wn/artifact,[[cooler]] is a type of [[refrigerator]],2.0
+a refrigerator,/c/en/refrigerator,AtLocation,an apartment,/c/en/apartment,*Something you find at [[an apartment]] is [[a refrigerator]],2.0
+アイスボックス,/c/ja/アイスボックス/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[アイスボックス]] is a translation of [[refrigerator]],2.0
+refrigerador,/c/pt/refrigerador/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[refrigerador]] is a translation of [[refrigerator]],2.0
+neveira,/c/gl/neveira/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[neveira]] is a translation of [[refrigerator]],2.0
+drip pan,/c/en/drip_pan/n/wn/artifact,PartOf,refrigerator,/c/en/refrigerator/n/wn/artifact,[[drip pan]] is a part of [[refrigerator]],2.0
+מְקָרֵר,/c/he/מקרר/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[מְקָרֵר]] is a translation of [[refrigerator]],2.0
+冷蔵庫,/c/ja/冷蔵庫/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[冷蔵庫]] is a translation of [[refrigerator]],2.0
+electric refrigerator,/c/en/electric_refrigerator/n/wn/artifact,IsA,refrigerator,/c/en/refrigerator/n/wn/artifact,[[electric refrigerator]] is a type of [[refrigerator]],2.0
+kulkas,/c/ms/kulkas/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[kulkas]] is a translation of [[refrigerator]],2.0
+peti sejuk,/c/ms/peti_sejuk/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[peti sejuk]] is a translation of [[refrigerator]],2.0
+refrigerator,/c/en/refrigerator/n,Synonym,hladnjak,/c/sh/hladnjak,,2.0
+icebox,/c/en/icebox/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[icebox]] is a synonym of [[refrigerator]],2.0
+frižider,/c/sh/frižider/n,RelatedTo,refrigerator,/c/en/refrigerator,,2.0
+冷凍機,/c/ja/冷凍機/n,Synonym,refrigerator,/c/en/refrigerator,,2.0
+peti ais,/c/ms/peti_ais/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[peti ais]] is a translation of [[refrigerator]],2.0
+a refrigerator,/c/en/refrigerator,UsedFor,chilling drinks,/c/en/chilling_drinks,[[a refrigerator]] is used for [[chilling drinks]],2.0
+ตู้เย็น,/c/th/ตู้เย็น/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[ตู้เย็น]] is a translation of [[refrigerator]],2.0
+refrigerator,/c/en/refrigerator/n,Synonym,frižider,/c/sh/frižider,,2.0
+mold,/c/en/mold,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mold]],2.0
+jääkaappi,/c/fi/jääkaappi/n/wn/artifact,Synonym,refrigerator,/c/en/refrigerator/n/wn/artifact,[[jääkaappi]] is a translation of [[refrigerator]],2.0
+dressing,/c/en/dressing,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[dressing]],2.0
+bacon,/c/en/bacon,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[bacon]],2.0
+refrigerator,/c/en/refrigerator,RelatedTo,food,/c/en/food,[[refrigerator]] is related to [[food]],1.5860000000000003
+冰箱,/c/zh/冰箱,Synonym,refrigerator,/c/en/refrigerator,,1.5
+refrigerator,/c/en/refrigerator/n,Synonym,ตู้เย็น,/c/th/ตู้เย็น,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,冷蔵庫,/c/ja/冷蔵庫,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,מקרר,/c/he/מקרר,,1.0
+འཁྱགས སྒམ,/c/bo/འཁྱགས_སྒམ/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+An icemaker,/c/en/icemaker,PartOf,a refrigerator,/c/en/refrigerator,[[An icemaker]] is part of [[a refrigerator]],1.0
+peti es,/c/id/peti_es/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+ᮊᮥᮜ᮪ᮊᮞ᮪,/c/su/ᮊᮥᮜ᮪ᮊᮞ᮪/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+artichokes,/c/en/artichokes,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[artichokes]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,peti es,/c/id/peti_es,,1.0
+冰櫃,/c/zh/冰櫃,Synonym,refrigerator,/c/en/refrigerator,,1.0
+电冰箱,/c/zh/电冰箱,Synonym,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,соодукчу,/c/tyv/соодукчу,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,geladeira,/c/pt/geladeira,,1.0
+lednice,/c/cs/lednice/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+냉장고,/c/ko/냉장고/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,biiʼazkʼazí,/c/nv/biiʼazkʼazí,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,მაცივარი,/c/ka/მაცივარი,,1.0
+jäähdytysvaunu,/c/fi/jäähdytysvaunu/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+plastic containers,/c/en/plastic_containers,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[plastic containers]],1.0
+a refrigerator,/c/en/refrigerator,UsedFor,refrigerating,/c/en/refrigerating,[[a refrigerator]] is for [[refrigerating]],1.0
+coolchest,/c/en/coolchest/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+left overs,/c/en/left_overs,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[left overs]],1.0
+cold air,/c/en/cold_air,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cold air]],1.0
+refrigeratorlike,/c/en/refrigeratorlike/a,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,يخوونکی,/c/ps/يخوونکی,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,whiriti,/c/mi/whiriti,,1.0
+frigo,/c/nl/frigo/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,sowadyjy,/c/tk/sowadyjy,,1.0
+autodefrost,/c/en/autodefrost/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,keeping food,/c/en/keeping_food,[[a refrigerator]] is for [[keeping food]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,réfrigérateur,/c/fr/réfrigérateur,,1.0
+vegetables,/c/en/vegetables,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[vegetables]],1.0
+a carrott,/c/en/carrott,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a carrott]],1.0
+minirefrigerator,/c/en/minirefrigerator,DerivedFrom,refrigerator,/c/en/refrigerator,,1.0
+refrigeration,/c/en/refrigeration/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,yskas,/c/af/yskas,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,kühlraum,/c/de/kühlraum,,1.0
+a turkey,/c/en/turkey,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a turkey]],1.0
+frigo,/c/it/frigo/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,fridzsider,/c/hu/fridzsider,,1.0
+jääkaappikylmä,/c/fi/jääkaappikylmä/a,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+ψυγείο,/c/el/ψυγείο/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,bee azkʼazí,/c/nv/bee_azkʼazí,,1.0
+A refrigerator,/c/en/refrigerator,HasProperty,opened and closed,/c/en/opened_and_closed,[[A refrigerator]] can be [[opened and closed]],1.0
+refridgerator,/c/en/refridgerator,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+jääkaappi pakastin,/c/fi/jääkaappi_pakastin/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+nevera,/c/es/nevera/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,sarinc,/c/ku/sarinc,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,nillataartitsivik,/c/kl/nillataartitsivik,,1.0
+mushrooms,/c/en/mushrooms,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mushrooms]],1.0
+хладилник,/c/bg/хладилник/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+برادة,/c/ar/برادة/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+geladeira,/c/pt/geladeira/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+фрижидер,/c/mk/фрижидер/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,soğutucu,/c/tr/soğutucu,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,lodówka,/c/pl/lodówka,,1.0
+սառնարան,/c/hy/սառնարան/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+cutlets,/c/en/cutlets,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cutlets]],1.0
+custard,/c/en/custard,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[custard]],1.0
+the Milky Way,/c/en/milky_way,AtLocation,the refrigerator,/c/en/refrigerator,You are likely to find [[the Milky Way]] in [[the refrigerator]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigorifer,/c/sq/frigorifer,,1.0
+ribs,/c/en/ribs,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[ribs]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,سرد خانہ,/c/ur/سرد_خانہ,,1.0
+a plate of food,/c/en/plate_of_food,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a plate of food]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,хөргөгч,/c/mn/хөргөгч,,1.0
+refrigerator,/c/en/refrigerator,ExternalURL,Refrigerator,http://umbel.org/umbel/sc/Refrigerator,,1.0
+tủ lạnh,/c/vi/tủ_lạnh/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+jenkkikaappi,/c/fi/jenkkikaappi/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,cooler,/c/en/cooler,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ရေခဲသေတ္တာ,/c/my/ရေခဲသေတ္တာ,,1.0
+冰櫥,/c/zh/冰櫥/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,אײזקאסטן,/c/yi/אײזקאסטן,,1.0
+یخچال,/c/fa/یخچال/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,refrigerador,/c/es/refrigerador,,1.0
+home appliance,/c/en/home_appliance/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,conserving the food,/c/en/conserving_food,[[a refrigerator]] is for [[conserving the food]],1.0
+minifridge,/c/en/minifridge/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,CapableOf,store food for long times,/c/en/store_food_for_long_times,[[a refrigerator]] can [[store food for long times]],1.0
+雪櫃,/c/zh/雪櫃/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+side by side refrigerator freezer,/c/en/side_by_side_refrigerator_freezer/n,IsA,refrigerator,/c/en/refrigerator/n,,1.0
+frigidaire,/c/fr/frigidaire/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+usually cold,/c/en/usually_cold,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[usually cold]],1.0
+mint,/c/en/mint,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mint]],1.0
+hladnjak,/c/sh/hladnjak,Synonym,refrigerator,/c/en/refrigerator,,1.0
+black berries,/c/en/black_berries,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[black berries]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,tủ lạnh,/c/vi/tủ_lạnh,,1.0
+ثلاجة,/c/ar/ثلاجة/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+koelkast,/c/nl/koelkast/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,શીતપેટી,/c/gu/શીતપેટી,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,фрижидер,/c/mk/фрижидер,,1.0
+A refrigerator,/c/en/refrigerator,UsedFor,keep perishable items cold,/c/en/keep_perishable_items_cold,[[A refrigerator]] is used to [[keep perishable items cold]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,phòng ướp lạnh,/c/vi/phòng_ướp_lạnh,,1.0
+ទូទឹកកក,/c/km/ទូទឹកកក/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+meats,/c/en/meats,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[meats]],1.0
+frigider,/c/ro/frigider/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+réfrigérateur,/c/fr/réfrigérateur/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+retarder,/c/en/retarder/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+lodówka,/c/pl/lodówka/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+fionnaradair,/c/gd/fionnaradair/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+һыуытҡыс,/c/ba/һыуытҡыс/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+raw meat,/c/en/raw_meat,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[raw meat]],1.0
+The refrigerator,/c/en/refrigerator,IsA,not moved very often,/c/en/not_moved_very_often,[[The refrigerator]] is [[not moved very often]],1.0
+a refrigerator,/c/en/refrigerator,UsedFor,preventing food from going bad,/c/en/preventing_food_from_going_bad,[[a refrigerator]] is used for [[preventing food from going bad]],1.0
+hot sauce,/c/en/hot_sauce,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[hot sauce]],1.0
+condenser,/c/en/condenser/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+jääkaappi,/c/fi/jääkaappi/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,icebox,/c/en/icebox,,1.0
+rice,/c/en/rice,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[rice]],1.0
+jääviileäkaappi,/c/fi/jääviileäkaappi/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+ísskápur,/c/is/ísskápur/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+hűtőszekrény,/c/hu/hűtőszekrény/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+olives,/c/en/olives,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[olives]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,शीतकपाटगृह,/c/mr/शीतकपाटगृह,,1.0
+hors d'oeuvres,/c/en/hors_d_oeuvres,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[hors d'oeuvres]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,шелиг,/c/ce/шелиг,,1.0
+frigorifero,/c/it/frigorifero/a,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+mayonaise,/c/en/mayonaise,AtLocation,the refrigerator,/c/en/refrigerator,You are likely to find [[mayonaise]] in [[the refrigerator]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,külmutuskapp,/c/et/külmutuskapp,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,קעלטערער,/c/yi/קעלטערער,,1.0
+ရေခဲသေတ္တာ,/c/my/ရေခဲသေတ္တာ/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+frozen foods,/c/en/frozen_foods,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[frozen foods]],1.0
+armarium frigidarium,/c/la/armarium_frigidarium/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigider,/c/ro/frigider,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,keeping food cool,/c/en/keeping_food_cool,[[a refrigerator]] is used for [[keeping food cool]],1.0
+nanorefrigerator,/c/en/nanorefrigerator/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+ísskápur,/c/is/ísskápur/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,fridujo,/c/eo/fridujo,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,soyuducu,/c/az/soyuducu,,1.0
+refrigerated display case,/c/en/refrigerated_display_case/n,IsA,refrigerator,/c/en/refrigerator/n,,1.0
+frigorífico,/c/pt/frigorífico/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigo,/c/it/frigo,,1.0
+fish,/c/en/fish,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[fish]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,хөргүүр,/c/mn/хөргүүр,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ладилник,/c/mk/ладилник,,1.0
+れいぞうこ,/c/ja/れいぞうこ/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+冰箱,/c/zh/冰箱/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+хөргөгч,/c/mn/хөргөгч/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+冷蔵庫,/c/ja/冷蔵庫/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+vriesvak,/c/nl/vriesvak/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+minirefrigerator,/c/en/minirefrigerator/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,chladnička,/c/cs/chladnička,,1.0
+work triangle,/c/en/work_triangle/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,armarium frigidarium,/c/la/armarium_frigidarium,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,холодильник,/c/ru/холодильник,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,սառնարան,/c/hy/սառնարան,,1.0
+tamarind paste,/c/en/tamarind_paste,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[tamarind paste]],1.0
+ශීතකරණය,/c/si/ශීතකරණය/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,freezing food,/c/en/freezing_food,[[a refrigerator]] is for [[freezing food]],1.0
+jello,/c/en/jello,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[jello]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,냉장고,/c/ko/냉장고,,1.0
+left over pizza,/c/en/left_over_pizza,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[left over pizza]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,lemari pendingin,/c/id/lemari_pendingin,,1.0
+fruit,/c/en/fruit,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[fruit]],1.0
+kulkas,/c/id/kulkas/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,holodilnik,/c/tk/holodilnik,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,chiller,/c/en/chiller,,1.0
+kühlschrank,/c/de/kühlschrank/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,making ice,/c/en/making_ice,[[a refrigerator]] is for [[making ice]],1.0
+külmkapp,/c/et/külmkapp/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+oergell,/c/cy/oergell/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+frigidaire,/c/en/frigidaire/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+radishes,/c/en/radishes,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[radishes]],1.0
+frigorifero,/c/it/frigorifero/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,HasProperty,opaque,/c/en/opaque,[[a refrigerator]] is [[opaque]],1.0
+refrigeratorlike,/c/en/refrigeratorlike,DerivedFrom,refrigerator,/c/en/refrigerator,,1.0
+a fridge,/c/en/fridge,IsA,refrigerator,/c/en/refrigerator,[[a fridge]] is a kind of [[refrigerator]].,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ຕູ້ເຢັນ,/c/lo/ຕູ້ເຢັນ,,1.0
+frig,/c/en/frig/n/wikt/en_2,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,хунуккунак,/c/tg/хунуккунак,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,refrigeradora,/c/es/refrigeradora,,1.0
+refrigerator freezer,/c/en/refrigerator_freezer,DerivedFrom,refrigerator,/c/en/refrigerator/n,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,šaldytuvas,/c/lt/šaldytuvas,,1.0
+電冰箱,/c/zh/電冰箱/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+ref,/c/en/ref/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+freezer,/c/en/freezer,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+A refrigerator,/c/en/refrigerator,CapableOf,keep ice cold,/c/en/keep_ice_cold,[[A refrigerator]] can [[keep ice cold]],1.0
+Chinese food,/c/en/chinese_food,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[Chinese food]],1.0
+lemonade,/c/en/lemonade,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[lemonade]],1.0
+frig,/c/en/frig,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+霜櫃,/c/zh/霜櫃/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+catsup,/c/en/catsup,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[catsup]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ísskápur,/c/is/ísskápur,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,jääkaappi,/c/fi/jääkaappi,,1.0
+ตู้เย็น,/c/th/ตู้เย็น/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,يخچال,/c/ps/يخچال,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,store food,/c/en/store_food,You can use [[a refrigerator]] to [[store food]],1.0
+电冰柜,/c/zh/电冰柜,Synonym,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigorífico,/c/es/frigorífico,,1.0
+a refrigerator,/c/en/refrigerator,AtLocation,a house,/c/en/house,*Something you find in [[a house]] is [[a refrigerator]],1.0
+refrigerador,/c/pt/refrigerador/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+cuisneoir,/c/ga/cuisneoir/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigo,/c/nl/frigo,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,फ्रिज,/c/mr/फ्रिज,,1.0
+condiments,/c/en/condiments,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[condiments]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigorifero,/c/it/frigorifero,,1.0
+evaporator,/c/en/evaporator/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+kühlschrank,/c/de/kühlschrank/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+soy sauce,/c/en/soy_sauce,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[soy sauce]],1.0
+ладилник,/c/mk/ладилник/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,муздаткыч,/c/ky/муздаткыч,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ledusskapis,/c/lv/ledusskapis,,1.0
+refrigerator,/c/en/refrigerator/n,IsA,refrigerated storage device,/c/en/refrigerated_storage_device/n,,1.0
+chłódźak,/c/hsb/chłódźak/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,keeping food from decaying quickly,/c/en/keeping_food_from_decaying_quickly,[[a refrigerator]] is for [[keeping food from decaying quickly]],1.0
+ຕູ້ເຢັນ,/c/lo/ຕູ້ເຢັນ/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+heladera,/c/es/heladera/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+strawberries,/c/en/strawberries,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[strawberries]],1.0
+jääkaappipakastin,/c/fi/jääkaappipakastin/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+romaine,/c/en/romaine,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[romaine]],1.0
+a refrigerator,/c/en/refrigerator,UsedFor,storing food,/c/en/storing_food,[[a refrigerator]] is for [[storing food]],1.0
+microrefrigerator,/c/en/microrefrigerator/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,koelkas,/c/id/koelkas,,1.0
+hladilnik,/c/sl/hladilnik/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+desserts,/c/en/desserts,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[desserts]],1.0
+refrigeradora,/c/es/refrigeradora/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+хөргүүр,/c/mn/хөргүүр/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,koelkast,/c/nl/koelkast,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,फ़्रिज,/c/hi/फ़्रिज,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,peti ais,/c/ms/peti_ais,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,nevera,/c/ast/nevera,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,pākatio,/c/mi/pākatio,,1.0
+ripridyiritor,/c/ceb/ripridyiritor/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+bottom mount refrigerator,/c/en/bottom_mount_refrigerator/n,IsA,refrigerator,/c/en/refrigerator/n,,1.0
+fridge,/c/en/fridge/v/wikt/en_2,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frío,/c/es/frío,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,kumlivik,/c/esu/kumlivik,,1.0
+冰柜,/c/zh/冰柜,Synonym,refrigerator,/c/en/refrigerator,,1.0
+doggy bags,/c/en/doggy_bags,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[doggy bags]],1.0
+fridge magnet,/c/en/fridge_magnet/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+malvarmujo,/c/eo/malvarmujo/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+kjøleskap,/c/no/kjøleskap/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,friji,/c/sw/friji,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,کنګلځی,/c/ps/کنګلځی,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,posting your children's art work on,/c/en/posting_children's_art_work_on,[[a refrigerator]] is for [[posting your children's art work on]],1.0
+refrigerator,/c/en/refrigerator,ExternalURL,Refrigerator,http://dbpedia.org/resource/Refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,یخچال,/c/fa/یخچال,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigorizivo,/c/io/frigorizivo,,1.0
+spaghetti sauce,/c/en/spaghetti_sauce,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[spaghetti sauce]],1.0
+refrigerators,/c/en/refrigerators/n,FormOf,refrigerator,/c/en/refrigerator,,1.0
+chladnička,/c/cs/chladnička/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,refrigeration,/c/en/refrigeration,,1.0
+frigo,/c/fr/frigo/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigo,/c/nrf/frigo,,1.0
+chladnička,/c/cs/chladnička/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+refridgerator,/c/en/refridgerator/n,FormOf,refrigerator,/c/en/refrigerator,,1.0
+buzdolabı,/c/tr/buzdolabı/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+冰櫃,/c/zh/冰櫃/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+kyl,/c/sv/kyl/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+limes,/c/en/limes,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[limes]],1.0
+jääkaappimargariini,/c/fi/jääkaappimargariini/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,muzlatgich,/c/uz/muzlatgich,,1.0
+a bad smell,/c/en/bad_smell,AtLocation,a refrigerator,/c/en/refrigerator,You are likely to find [[a bad smell]] in [[a refrigerator]].,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,nevera,/c/es/nevera,,1.0
+frysfack,/c/sv/frysfack/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,galbmaskábe,/c/se/galbmaskábe,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,雪柜,/c/zh/雪柜,,1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,fridge,/c/en/fridge,,1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,fridge freezer,/c/en/fridge_freezer,,1.0
+turnips,/c/en/turnips,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[turnips]],1.0
+fruit spread,/c/en/fruit_spread,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[fruit spread]],1.0
+refrigerator,/c/en/refrigerator,AtLocation,food,/c/en/food,You are likely to find [[refrigerator]] in [[food]].,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,lemari es,/c/id/lemari_es,,1.0
+refrigerator mother,/c/en/refrigerator_mother,DerivedFrom,refrigerator,/c/en/refrigerator/n,,1.0
+ijskast,/c/nl/ijskast/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+cold water,/c/en/cold_water,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cold water]],1.0
+a coil,/c/en/coil,AtLocation,a refrigerator,/c/en/refrigerator,You are likely to find [[a coil]] in [[a refrigerator]],1.0
+friji,/c/sw/friji/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,refrigerate,/c/en/refrigerate,,1.0
+શીતપેટી,/c/gu/શીતપેટી/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,buzlatka,/c/tr/buzlatka,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,coolchest,/c/en/coolchest,,1.0
+frigerator,/c/en/frigerator/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+霜櫥,/c/zh/霜櫥/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+pakastinkaappi,/c/fi/pakastinkaappi/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a bottle of milk,/c/en/bottle_of_milk,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a bottle of milk]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,холодильник,/c/uk/холодильник,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigorífic,/c/ca/frigorífic,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,refrigerador,/c/pt/refrigerador,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,fionnaradair,/c/gd/fionnaradair,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,kylskåp,/c/sv/kylskåp,,1.0
+bokis ais,/c/tpi/bokis_ais/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+icebox,/c/en/icebox/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+worcestershire sauce,/c/en/worcestershire_sauce,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[worcestershire sauce]],1.0
+a refrigerator,/c/en/refrigerator,UsedFor,keeping meat fresh,/c/en/keeping_meat_fresh,[[a refrigerator]] is for [[keeping meat fresh]],1.0
+kylskåp,/c/sv/kylskåp/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,keep food from spoiling,/c/en/keep_food_from_spoiling,You can use [[a refrigerator]] to [[keep food from spoiling]],1.0
+fridzsider,/c/hu/fridzsider/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,hladilnik,/c/sl/hladilnik,,1.0
+refrigerator,/c/en/refrigerator/n,ExternalURL,Refrigerator,http://sw.opencyc.org/2012/05/10/concept/en/Refrigerator,,1.0
+fridujo,/c/eo/fridujo/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ijskast,/c/nl/ijskast,,1.0
+雪櫃,/c/zh/雪櫃,Synonym,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,malvarmujo,/c/eo/malvarmujo,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,शीतकम्,/c/sa/शीतकम्,,1.0
+cake,/c/en/cake,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cake]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,peti sejuk,/c/ms/peti_sejuk,,1.0
+a gel,/c/en/gel,AtLocation,the refrigerator,/c/en/refrigerator,You are likely to find [[a gel]] in [[the refrigerator]],1.0
+køleskab,/c/da/køleskab/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+ketchup,/c/en/ketchup,AtLocation,a refrigerator,/c/en/refrigerator,You are likely to find [[ketchup]] in [[a refrigerator]].,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,雪櫃,/c/zh/雪櫃,,1.0
+tofu,/c/en/tofu,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[tofu]],1.0
+geleira,/c/pt/geleira/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,freezer,/c/en/freezer,,1.0
+ice,/c/en/ice,AtLocation,a refrigerator,/c/en/refrigerator,You are likely to find [[ice]] in [[a refrigerator]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigorizilo,/c/io/frigorizilo,,1.0
+ice safe,/c/en/ice_safe/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ψυγειο,/c/el/ψυγειο,,1.0
+მაცივარი,/c/ka/მაცივარი/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a bowl,/c/en/bowl,AtLocation,a refrigerator,/c/en/refrigerator,You are likely to find [[a bowl]] in [[a refrigerator]],1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,chill,/c/en/chill,,1.0
+a thermostat,/c/en/thermostat,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a thermostat]],1.0
+a refrigerator,/c/en/refrigerator,UsedFor,cool things,/c/en/cool_things,You can use [[a refrigerator]] to [[cool things]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,lednice,/c/cs/lednice,,1.0
+fresh vegetables,/c/en/fresh_vegetables,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[fresh vegetables]],1.0
+microrefrigerator,/c/en/microrefrigerator,DerivedFrom,refrigerator,/c/en/refrigerator,,1.0
+шелиг,/c/ce/шелиг/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+hűtő,/c/hu/hűtő/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,mashine ya barafu,/c/sw/mashine_ya_barafu,,1.0
+frijidè,/c/ht/frijidè/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigo,/c/fr/frigo,,1.0
+refrigerator,/c/en/refrigerator/n,IsA,electrical household appliance,/c/en/electrical_household_appliance/n,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,eiskasten,/c/de/eiskasten,,1.0
+jelly,/c/en/jelly,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[jelly]],1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,appliance,/c/en/appliance,,1.0
+onions,/c/en/onions,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[onions]],1.0
+a refrigerator,/c/en/refrigerator,UsedFor,make ice cream,/c/en/make_ice_cream,[[a refrigerator]] is for [[make ice cream]],1.0
+kæliskápur,/c/is/kæliskápur/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigorífico,/c/pt/frigorífico,,1.0
+tea,/c/en/tea,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[tea]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,külmik,/c/et/külmik,,1.0
+hydrator,/c/en/hydrator/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+an apple,/c/en/apple,AtLocation,the refrigerator,/c/en/refrigerator,You are likely to find [[an apple]] in [[the refrigerator]],1.0
+mini fridge,/c/en/mini_fridge/n,IsA,refrigerator,/c/en/refrigerator/n,,1.0
+hladionik,/c/sh/hladionik/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+crepe suzettes,/c/en/crepe_suzettes,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[crepe suzettes]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,cuisneoir,/c/ga/cuisneoir,,1.0
+jam,/c/en/jam,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[jam]],1.0
+電冰櫃,/c/zh/電冰櫃,Synonym,refrigerator,/c/en/refrigerator,,1.0
+kegerator,/c/en/kegerator/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,tủ ướp lạnh,/c/vi/tủ_ướp_lạnh,,1.0
+walk in,/c/en/walk_in/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+電冰箱,/c/zh/電冰箱,Synonym,refrigerator,/c/en/refrigerator,,1.0
+рефрижератор,/c/ru/рефрижератор/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,kæliskápur,/c/is/kæliskápur,,1.0
+ledusskapis,/c/lv/ledusskapis/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+fridge,/c/en/fridge/n/wikt/en_2,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+ľadnička,/c/sk/ľadnička/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+sval,/c/sv/sval/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+frigotartinable,/c/fr/frigotartinable/a,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+freezer,/c/en/freezer/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+pork,/c/en/pork,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[pork]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,яхчол,/c/tg/яхчол,,1.0
+moldy carrots,/c/en/moldy_carrots,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[moldy carrots]],1.0
+frigorífico,/c/es/frigorífico/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,cooling perishables,/c/en/cooling_perishables,[[a refrigerator]] is used for [[cooling perishables]],1.0
+refrigerator,/c/en/refrigerator,ExternalURL,Q37828,http://wikidata.dbpedia.org/resource/Q37828,,1.0
+spoiled milk,/c/en/spoiled_milk,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[spoiled milk]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,архьшәашәага,/c/ab/архьшәашәага,,1.0
+холодильник,/c/ru/холодильник/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,འཁྱགས སྒམ,/c/bo/འཁྱགས_སྒམ,,1.0
+steaks,/c/en/steaks,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[steaks]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,冰箱,/c/zh/冰箱,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,friġġ,/c/mt/friġġ,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,preserving your food,/c/en/preserving_food,[[a refrigerator]] is for [[preserving your food]],1.0
+refrigerante,/c/it/refrigerante/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+mustard,/c/en/mustard,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mustard]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,тоңазытқыш,/c/kk/тоңазытқыш,,1.0
+minibar,/c/en/minibar/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+雪柜,/c/zh/雪柜,Synonym,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,køliskáp,/c/fo/køliskáp,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,heladera,/c/es/heladera,,1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,household,/c/en/household,,1.0
+kegerator,/c/en/kegerator,DerivedFrom,refrigerator,/c/en/refrigerator,,1.0
+cottage cheese,/c/en/cottage_cheese,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cottage cheese]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ශීතකරණය,/c/si/ශීතකරණය,,1.0
+霜,/c/ja/霜/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,buzdolabı,/c/tr/buzdolabı,,1.0
+food take out,/c/en/food_take_out,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[food take out]],1.0
+køliskáp,/c/fo/køliskáp/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,hűtőszekrény,/c/hu/hűtőszekrény,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,jokofu,/c/sw/jokofu,,1.0
+refrigerator pie,/c/en/refrigerator_pie,DerivedFrom,refrigerator,/c/en/refrigerator/n,,1.0
+מקרר,/c/he/מקרר/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+a refrigerator,/c/en/refrigerator,CapableOf,stock food,/c/en/stock_food,[[a refrigerator]] can [[stock food]],1.0
+drinks,/c/en/drinks,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[drinks]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,køleskab,/c/da/køleskab,,1.0
+jokofu,/c/sw/jokofu/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+icebox,/c/en/icebox/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,랭장고,/c/ko/랭장고,,1.0
+open cans,/c/en/open_cans,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[open cans]],1.0
+a lemon,/c/en/lemon,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a lemon]],1.0
+a refrigerator,/c/en/refrigerator,AtLocation,a hospital drug storeroom,/c/en/hospital_drug_storeroom,You are likely to find [[a refrigerator]] in [[a hospital drug storeroom]],1.0
+lednička,/c/cs/lednička/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,repriherador,/c/fil/repriherador,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,keeping vegetables crisp,/c/en/keeping_vegetables_crisp,[[a refrigerator]] is used for [[keeping vegetables crisp]],1.0
+refrigerator,/c/en/refrigerator/n/wn/artifact,ExternalURL,104077839-n,http://wordnet-rdf.princeton.edu/wn31/104077839-n,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,хладилник,/c/bg/хладилник,,1.0
+A refrigerator,/c/en/refrigerator,NotDesires,be unpluged,/c/en/unpluged,[[A refrigerator]] doesn't want to [[be unpluged]],1.0
+white goods,/c/en/white_goods/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,RelatedTo,réfrigérateur,/c/fr/réfrigérateur,,1.0
+glacière,/c/fr/glacière/n/wikt/fr_1,Synonym,refrigerator,/c/en/refrigerator,,1.0
+beverage refrigerator,/c/en/beverage_refrigerator/n,IsA,refrigerator,/c/en/refrigerator/n,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ñevera,/c/ast/ñevera,,1.0
+microfridge,/c/en/microfridge/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,gladaramar,/c/vo/gladaramar,,1.0
+pridyidir,/c/ceb/pridyidir/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,kühlschrank,/c/de/kühlschrank,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,making drinks cool,/c/en/making_drinks_cool,[[a refrigerator]] is for [[making drinks cool]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,халадзільнік,/c/be/халадзільнік,,1.0
+frigo,/c/nrf/frigo/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigeratore,/c/it/refrigeratore/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+réfrigérateur,/c/fr/réfrigérateur/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,توڭلاتقۇ,/c/ug/توڭلاتقۇ,,1.0
+kylskåp,/c/sv/kylskåp/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+pesto,/c/en/pesto,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[pesto]],1.0
+wheat grass,/c/en/wheat_grass,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[wheat grass]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ľadnička,/c/sk/ľadnička,,1.0
+bee azkʼazí,/c/nv/bee_azkʼazí/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,рефрижератор,/c/ru/рефрижератор,,1.0
+frigorifer,/c/sq/frigorifer/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ফ্রিজ,/c/bn/ফ্রিজ,,1.0
+refrigerador,/c/es/refrigerador/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+ثلاجة,/c/ar/ثلاجة/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,frigidaire,/c/de/frigidaire,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,oergell,/c/cy/oergell,,1.0
+lemon juice,/c/en/lemon_juice,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[lemon juice]],1.0
+frigidaire,/c/en/frigidaire/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,lednička,/c/cs/lednička,,1.0
+nanorefrigerator,/c/en/nanorefrigerator,DerivedFrom,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,xolodilnik,/c/uz/xolodilnik,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,kjøleskap,/c/no/kjøleskap,,1.0
+top mount refrigerator,/c/en/top_mount_refrigerator/n,IsA,refrigerator,/c/en/refrigerator/n,,1.0
+a cold storage,/c/en/cold_storage,AtLocation,the refrigerator,/c/en/refrigerator,You are likely to find [[a cold storage]] in [[the refrigerator]],1.0
+celery,/c/en/celery,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[celery]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ទូទឹកកក,/c/km/ទូទឹកកក,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,फ्रिज,/c/hi/फ्रिज,,1.0
+fridge,/c/en/fridge/n,Synonym,refrigerator,/c/en/refrigerator,,1.0
+kylmälaite,/c/fi/kylmälaite/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,פרידזשידער,/c/yi/פרידזשידער,,1.0
+yskas,/c/af/yskas/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,冷藏庫,/c/ko/冷藏庫,,1.0
+refrigerate,/c/en/refrigerate/v,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+mashine ya barafu,/c/sw/mashine_ya_barafu/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+protein bars,/c/en/protein_bars,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[protein bars]],1.0
+refrigerator,/c/en/refrigerator/n,Synonym,فرج,/c/ur/فرج,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,һыуытҡыс,/c/ba/һыуытҡыс,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,ثلاجة,/c/ar/ثلاجة,,1.0
+a refrigerator,/c/en/refrigerator,UsedFor,cooling drinks,/c/en/cooling_drinks,[[a refrigerator]] is used for [[cooling drinks]],1.0
+sungkab,/c/ceb/sungkab/v,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+hűtőmágnes,/c/hu/hűtőmágnes/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator/n,Synonym,firisideer,/c/wo/firisideer,,1.0
+refrigerators,/c/en/refrigerators/n,RelatedTo,refrigerator,/c/en/refrigerator,,1.0
+refrigerator,/c/en/refrigerator,RelatedTo,appliance,/c/en/appliance,[[refrigerator]] is related to [[appliance]],0.726
+refrigerator,/c/en/refrigerator,RelatedTo,box,/c/en/box,[[refrigerator]] is related to [[box]],0.7200000000000002
+refrigerator,/c/en/refrigerator,RelatedTo,kitchen,/c/en/kitchen,[[refrigerator]] is related to [[kitchen]],0.6719999999999997
+refrigerator,/c/en/refrigerator,RelatedTo,storage,/c/en/storage,[[refrigerator]] is related to [[storage]],0.621
+refrigerator,/c/en/refrigerator,RelatedTo,fridge,/c/en/fridge,[[refrigerator]] is related to [[fridge]],0.6099999999999999
+refrigerator,/c/en/refrigerator,RelatedTo,ice,/c/en/ice,[[refrigerator]] is related to [[ice]],0.573
+refrigerator,/c/en/refrigerator,RelatedTo,cooler,/c/en/cooler,[[refrigerator]] is related to [[cooler]],0.5680000000000001
+refrigerator,/c/en/refrigerator,RelatedTo,cold,/c/en/cold,[[refrigerator]] is related to [[cold]],0.536
+шелиг,/c/ce/шелиг,Synonym,refrigerator,/c/en/refrigerator,,0.5
+குளிர்சாதனப் பெட்டி,/c/ta/குளிர்சாதனப்_பெட்டி,Synonym,refrigerator,/c/en/refrigerator,,0.5
+суыткыч,/c/tt/суыткыч,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ශීතකරණ,/c/si/ශීතකරණ,Synonym,refrigerator,/c/en/refrigerator,,0.5
+frigo,/c/wa/frigo,Synonym,refrigerator,/c/en/refrigerator,,0.5
+refrigeration,/c/en/refrigeration,RelatedTo,refrigerator,/c/en/refrigerator,,0.5
+refrigerator,/c/sco/refrigerator,Synonym,refrigerator,/c/en/refrigerator,,0.5
+køleskab,/c/da/køleskab,Synonym,refrigerator,/c/en/refrigerator,,0.5
+peti sejuk,/c/ms/peti_sejuk,Synonym,refrigerator,/c/en/refrigerator,,0.5
+хладилник,/c/bg/хладилник,Synonym,refrigerator,/c/en/refrigerator,,0.5
+cuisneoir,/c/ga/cuisneoir,Synonym,refrigerator,/c/en/refrigerator,,0.5
+tủ lạnh,/c/vi/tủ_lạnh,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ψυγείο,/c/el/ψυγείο,Synonym,refrigerator,/c/en/refrigerator,,0.5
+koelkast,/c/nl/koelkast,Synonym,refrigerator,/c/en/refrigerator,,0.5
+սառնարան,/c/hy/սառնարան,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ማቀዝቀዣ,/c/am/ማቀዝቀዣ,Synonym,refrigerator,/c/en/refrigerator,,0.5
+refrigerador,/c/oc/refrigerador,Synonym,refrigerator,/c/en/refrigerator,,0.5
+kulkas,/c/id/kulkas,Synonym,refrigerator,/c/en/refrigerator,,0.5
+sarinc,/c/ku/sarinc/n/wp/alav,Synonym,refrigerator,/c/en/refrigerator,,0.5
+muzlatgich,/c/uz/muzlatgich,Synonym,refrigerator,/c/en/refrigerator,,0.5
+lednička,/c/cs/lednička,Synonym,refrigerator,/c/en/refrigerator,,0.5
+refrigerator,/c/en/refrigerator,RelatedTo,refrigeration,/c/en/refrigeration,,0.5
+frigorífico,/c/pt/frigorífico,Synonym,refrigerator,/c/en/refrigerator,,0.5
+frigo,/c/lb/frigo,Synonym,refrigerator,/c/en/refrigerator,,0.5
+халадзільнік,/c/be/халадзільнік,Synonym,refrigerator,/c/en/refrigerator,,0.5
+мұздатқыш,/c/kk/мұздатқыш,Synonym,refrigerator,/c/en/refrigerator,,0.5
+రిఫ్రిజిరేటర్,/c/te/రిఫ్రిజిరేటర్,Synonym,refrigerator,/c/en/refrigerator,,0.5
+külmutuskapp,/c/et/külmutuskapp,Synonym,refrigerator,/c/en/refrigerator,,0.5
+냉장고,/c/ko/냉장고,Synonym,refrigerator,/c/en/refrigerator,,0.5
+פרידזשידער,/c/yi/פרידזשידער,Synonym,refrigerator,/c/en/refrigerator,,0.5
+kjøleskap,/c/no/kjøleskap,Synonym,refrigerator,/c/en/refrigerator,,0.5
+frigider,/c/ro/frigider,Synonym,refrigerator,/c/en/refrigerator,,0.5
+refrigerator,/c/en/refrigerator,Synonym,refrigerator,/c/en/refrigerator,,0.5
+მაცივარი,/c/ka/მაცივარი,Synonym,refrigerator,/c/en/refrigerator,,0.5
+hozkailu,/c/eu/hozkailu,Synonym,refrigerator,/c/en/refrigerator,,0.5
+kühlschrank,/c/de/kühlschrank,Synonym,refrigerator,/c/en/refrigerator,,0.5
+प्रशीतित्र,/c/hi/प्रशीतित्र,Synonym,refrigerator,/c/en/refrigerator,,0.5
+köhlschapp,/c/nds/köhlschapp,Synonym,refrigerator,/c/en/refrigerator,,0.5
+fridujo,/c/eo/fridujo,Synonym,refrigerator,/c/en/refrigerator,,0.5
+kuolkast,/c/fy/kuolkast,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ثلاجة,/c/ar/ثلاجة,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ساردکەرەوە,/c/ku/ساردکەرەوە,Synonym,refrigerator,/c/en/refrigerator,,0.5
+یخچال,/c/fa/یخچال,Synonym,refrigerator,/c/en/refrigerator,,0.5
+refrigerador,/c/war/refrigerador,Synonym,refrigerator,/c/en/refrigerator,,0.5
+kylskåp,/c/sv/kylskåp,Synonym,refrigerator,/c/en/refrigerator,,0.5
+शीतकम्,/c/sa/शीतकम्,Synonym,refrigerator,/c/en/refrigerator,,0.5
+hűtőgép,/c/hu/hűtőgép,Synonym,refrigerator,/c/en/refrigerator,,0.5
+سرد خانہ,/c/ur/سرد_خانہ,Synonym,refrigerator,/c/en/refrigerator,,0.5
+repriherador,/c/fil/repriherador,Synonym,refrigerator,/c/en/refrigerator,,0.5
+kulkas,/c/su/kulkas,Synonym,refrigerator,/c/en/refrigerator,,0.5
+chladnička,/c/sk/chladnička,Synonym,refrigerator,/c/en/refrigerator,,0.5
+frigoriferi,/c/sq/frigoriferi,Synonym,refrigerator,/c/en/refrigerator,,0.5
+מקרר,/c/he/מקרר,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ledusskapis,/c/lv/ledusskapis,Synonym,refrigerator,/c/en/refrigerator,,0.5
+frigorifero,/c/it/frigorifero,Synonym,refrigerator,/c/en/refrigerator,,0.5
+റഫ്രിജറേറ്റർ,/c/ml/റഫ്രിജറേറ്റർ,Synonym,refrigerator,/c/en/refrigerator,,0.5
+chłodziarka,/c/pl/chłodziarka,Synonym,refrigerator,/c/en/refrigerator,,0.5
+soyuducu,/c/az/soyuducu,Synonym,refrigerator,/c/en/refrigerator,,0.5
+frigorífico,/c/gl/frigorífico,Synonym,refrigerator,/c/en/refrigerator,,0.5
+réfrigérateur,/c/fr/réfrigérateur,Synonym,refrigerator,/c/en/refrigerator,,0.5
+frigorífic,/c/ca/frigorífic,Synonym,refrigerator,/c/en/refrigerator,,0.5
+refrigerador,/c/es/refrigerador,Synonym,refrigerator,/c/en/refrigerator,,0.5
+buzdolabı,/c/tr/buzdolabı,Synonym,refrigerator,/c/en/refrigerator,,0.5
+jääkaappi,/c/fi/jääkaappi,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ладилник,/c/mk/ладилник,Synonym,refrigerator,/c/en/refrigerator,,0.5
+armarium frigidarium,/c/la/armarium_frigidarium,Synonym,refrigerator,/c/en/refrigerator,,0.5
+kulkas,/c/jv/kulkas,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ตู้เย็น,/c/th/ตู้เย็น,Synonym,refrigerator,/c/en/refrigerator,,0.5
+яхдон,/c/tg/яхдон,Synonym,refrigerator,/c/en/refrigerator,,0.5
+холодильник,/c/uk/холодильник,Synonym,refrigerator,/c/en/refrigerator,,0.5
+холодильник,/c/ru/холодильник,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ísskápur,/c/is/ísskápur,Synonym,refrigerator,/c/en/refrigerator,,0.5
+冷蔵庫,/c/ja/冷蔵庫,Synonym,refrigerator,/c/en/refrigerator,,0.5
+hladilnik,/c/sl/hladilnik/n/wp/naprava,Synonym,refrigerator,/c/en/refrigerator,,0.5
+રેફ્રિજરેટર,/c/gu/રેફ્રિજરેટર,Synonym,refrigerator,/c/en/refrigerator,,0.5
+ಶೀತಕಯಂತ್ರ,/c/kn/ಶೀತಕಯಂತ್ರ,Synonym,refrigerator,/c/en/refrigerator,,0.5
+refrigerator,/c/en/refrigerator,RelatedTo,ice box,/c/en/ice_box,[[refrigerator]] is related to [[ice box]],0.45100000000000007
+refrigerator,/c/en/refrigerator,RelatedTo,freezer,/c/en/freezer,[[refrigerator]] is related to [[freezer]],0.44799999999999995
+refrigerator,/c/en/refrigerator,RelatedTo,food cooler,/c/en/food_cooler,[[refrigerator]] is related to [[food cooler]],0.3820000000000001
+refrigerator,/c/en/refrigerator,RelatedTo,kitchen appliance,/c/en/kitchen_appliance,[[refrigerator]] is related to [[kitchen appliance]],0.363
+refrigerator,/c/en/refrigerator,RelatedTo,inside,/c/en/inside,[[refrigerator]] is related to [[inside]],0.3380000000000001
+refrigerator,/c/en/refrigerator,RelatedTo,food storage,/c/en/food_storage,[[refrigerator]] is related to [[food storage]],0.29600000000000026
+egg,/c/en/egg,RelatedTo,refrigerator,/c/en/refrigerator,[[egg]] is related to [[refrigerator]],0.27
+ripridyiritor,/c/ceb/ripridyiritor,EtymologicallyRelatedTo,refrigerator,/c/en/refrigerator,,0.25
+refrigerator,/c/en/refrigerator,ExternalURL,refrigerator,http://en.wiktionary.org/wiki/refrigerator,,0.25
+refrigerator,/c/en/refrigerator,ExternalURL,refrigerator,http://fr.wiktionary.org/wiki/refrigerator,,0.25
+refrigerator,/c/en/refrigerator,DistinctFrom,freezer,/c/en/freezer,[[refrigerator]] is not [[freezer]],0.24399999999999977
+dresser,/c/en/dresser,RelatedTo,refrigerator,/c/en/refrigerator,[[dresser]] is related to [[refrigerator]],0.2400000000000002
+refrigerator,/c/en/refrigerator,RelatedTo,food inside,/c/en/food_inside,[[refrigerator]] is related to [[food inside]],0.2370000000000001
+magnet,/c/en/magnet,RelatedTo,refrigerator,/c/en/refrigerator,[[magnet]] is related to [[refrigerator]],0.17300000000000004
+refrigerator,/c/en/refrigerator,RelatedTo,fresh food,/c/en/fresh_food,[[refrigerator]] is related to [[fresh food]],0.16800000000000015
+refrigerator,/c/en/refrigerator,RelatedTo,fresh,/c/en/fresh,[[refrigerator]] is related to [[fresh]],0.16800000000000015
+refrigerator,/c/en/refrigerator,RelatedTo,cold storage,/c/en/cold_storage,[[refrigerator]] is related to [[cold storage]],0.16500000000000004
+refrigerator,/c/en/refrigerator,RelatedTo,cooling,/c/en/cooling,[[refrigerator]] is related to [[cooling]],0.1629999999999998
+refrigerator,/c/en/refrigerator,RelatedTo,food cold,/c/en/food_cold,[[refrigerator]] is related to [[food cold]],0.14400000000000013
+refrigerator,/c/en/refrigerator,RelatedTo,aisle,/c/en/aisle,[[refrigerator]] is related to [[aisle]],0.13900000000000023
+note,/c/en/note,RelatedTo,refrigerator,/c/en/refrigerator,[[note]] is related to [[refrigerator]],0.13900000000000023
+refrigerator,/c/en/refrigerator,RelatedTo,appliance aisle,/c/en/appliance_aisle,[[refrigerator]] is related to [[appliance aisle]],0.13900000000000023
+report,/c/en/report,RelatedTo,refrigerator,/c/en/refrigerator,[[report]] is related to [[refrigerator]],0.11899999999999977
+refrigerator,/c/en/refrigerator,RelatedTo,thing,/c/en/thing,[[refrigerator]] is related to [[thing]],0.1120000000000001
+refrigerator,/c/en/refrigerator,RelatedTo,cool food,/c/en/cool_food,[[refrigerator]] is related to [[cool food]],0.1030000000000002
+refrigerator,/c/en/refrigerator,RelatedTo,cool,/c/en/cool,[[refrigerator]] is related to [[cool]],0.1030000000000002
+appliance,/c/en/appliance,RelatedTo,refrigerator,/c/en/refrigerator,[[appliance]] is related to [[refrigerator]],0.10099999999999998
+refrigerator,/c/en/refrigerator,RelatedTo,coldness,/c/en/coldness,[[refrigerator]] is related to [[coldness]],0.10099999999999998
+refrigerator,/c/en/refrigerator,RelatedTo,coldness inside,/c/en/coldness_inside,[[refrigerator]] is related to [[coldness inside]],0.10099999999999998

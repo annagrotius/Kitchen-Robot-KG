@@ -1,0 +1,80 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ apple,/c/en/apple,HasProperty,red,/c/en/red,[[apple]] can be [[red]],9.591663046625438
+ apple,/c/en/apple,HasProperty,green,/c/en/green,[[apple]] can be [[green]],7.211102550927979
+ apple,/c/en/apple,ReceivesAction,eaten,/c/en/eaten,[[an apple]] can be [[eaten]],6.32455532033676
+ apple,/c/en/apple,AtLocation, apple tree,/c/en/apple_tree,You are likely to find [[an apple]] in [[apple tree]],5.656854249492381
+ apple,/c/en/apple,CapableOf,fall from a tree,/c/en/fall_from_tree,[[an apple]] can [[fall from a tree]],5.291502622129181
+ apple,/c/en/apple,UsedFor,eating,/c/en/eating,[[apple]] is for [[eating]],5.291502622129181
+ apple,/c/en/apple,HasA,a core,/c/en/core,[[An apple]] has [[a core]],4.898979485566356
+ apple,/c/en/apple,AtLocation,a grocery store,/c/en/grocery_store,You are likely to find [[an apple]] in [[a grocery store]],4.0
+ apple,/c/en/apple,UsedFor,sate hunger,/c/en/sate_hunger,You can use [[an apple]] to [[sate hunger]],2.0
+ apple,/c/en/apple,HasA,many cooking uses,/c/en/many_cooking_uses,[[An apple]] has [[many cooking uses]],2.0
+ cooking apple,/c/en/cooking_apple/n/wn/food,IsA, apple,/c/en/apple/n/wn/food,[[cooking apple]] is a type of [[apple]],2.0
+ apple,/c/en/apple/n/wn/food,IsA,pome,/c/en/pome/n/wn/plant,[[apple]] is a type of [[pome]],2.0
+ apple,/c/en/apple/n/wn/plant,IsA, apple tree,/c/en/apple_tree/n/wn/plant,[[apple]] is a type of [[apple tree]],2.0
+ apple,/c/en/apple,IsA,computer brand,/c/en/computer_brand,[[Apple]] is a kind of [[computer brand]].,2.0
+ crab apple,/c/en/crab_apple/n/wn/food,IsA, apple,/c/en/apple/n/wn/food,[[crab apple]] is a type of [[apple]],2.0
+ apple,/c/en/apple/n/wn/food,PartOf, apple,/c/en/apple/n/wn/plant,[[apple]] is a part of [[apple]],2.0
+ apple,/c/en/apple,UsedFor, making apple pie,/c/en/making_apple_pie,[[an apple]] is used for [[making apple pie]],2.0
+ apple,/c/en/apple,HasA,a skin,/c/en/skin,[[an apple]] has [[a skin]],2.0
+ apple,/c/en/apple/n/wn/food,IsA,edible fruit,/c/en/edible_fruit/n/wn/food,[[apple]] is a type of [[edible fruit]],2.0
+ eating apple,/c/en/eating_apple/n/wn/food,IsA, apple,/c/en/apple/n/wn/food,[[eating apple]] is a type of [[apple]],2.0
+ apple,/c/en/apple,HasA,seeds inside,/c/en/seeds_inside,[[An apple]] has [[seeds inside]],2.0
+ apple,/c/en/apple,UsedFor,representing knowlege,/c/en/representing_knowlege,[[an apple]] is for [[representing knowlege]],1.0
+ apple,/c/en/apple,UsedFor,enjoy the fruit,/c/en/enjoy_fruit,You can use [[an apple]] to [[enjoy the fruit]],1.0
+ gala apple,/c/en/gala_apple/n,IsA, apple,/c/en/apple/n,,1.0
+ apple,/c/en/apple,UsedFor,making pie,/c/en/making_pie,[[an apple]] is used for [[making pie]],1.0
+ apple,/c/en/apple,UsedFor,dessert,/c/en/dessert,[[an apple]] is for [[dessert]],1.0
+ apple,/c/en/apple,UsedFor, make apple cider,/c/en/make_apple_cider,[[an apple]] is used to [[make apple cider]],1.0
+ apple,/c/en/apple,IsA,84% water,/c/en/84_water,[[An apple]] is [[84% water]],1.0
+ apple,/c/en/apple,UsedFor,getting good carbs,/c/en/getting_good_carbs,[[an apple]] is used for [[getting good carbs]],1.0
+ apple,/c/en/apple,HasProperty,one kind of fruit,/c/en/one_kind_of_fruit,[[An apple]] is [[one kind of fruit]],1.0
+ apple,/c/en/apple,IsA,a beautiful golden green color,/c/en/beautiful_golden_green_color,[[This apple]] is [[a beautiful golden green color]],1.0
+ jazz apple,/c/en/jazz_apple/n,IsA, apple,/c/en/apple/n,,1.0
+pippin,/c/en/pippin,IsA, apple,/c/en/apple/n,,1.0
+ apple,/c/en/apple,ExternalURL,q89,http://wikidata.dbpedia.org/resource/Q89,,1.0
+ golden delicious apple,/c/en/golden_delicious_apple/n,IsA, apple,/c/en/apple/n,,1.0
+the stem,/c/en/stem,PartOf, apple,/c/en/apple,[[The stem]] is part of [[an apple]],1.0
+ apple,/c/en/apple,IsA,a healthy treat,/c/en/healthy_treat,[[An apple]] is [[a healthy treat]],1.0
+ apple,/c/en/apple/n,IsA,edible fruit,/c/en/edible_fruit/n,,1.0
+ apple,/c/en/apple,UsedFor,getting good grades from a teacher,/c/en/getting_good_grades_from_teacher,[[an apple]] is used for [[getting good grades from a teacher]],1.0
+ granny smith apple,/c/en/granny_smith_apple/n,IsA, apple,/c/en/apple/n,,1.0
+ apple,/c/en/apple,AtLocation,the produce section of the supermarket,/c/en/produce_section_of_supermarket,You are likely to find [[an apple]] in [[the produce section of the supermarket]],1.0
+ apple,/c/en/apple/n,IsA,accessory fruit,/c/en/accessory_fruit/n,,1.0
+ apple,/c/en/apple,AtLocation,a house,/c/en/house,You are likely to find [[an apple]] in [[a house]].,1.0
+ apple,/c/en/apple,UsedFor,test your theory of gravity,/c/en/test_theory_of_gravity,You can use [[an apple]] to [[test your theory of gravity]],1.0
+ apple,/c/en/apple,AtLocation, apple orchard,/c/en/apple_orchard,You are likely to find [[an apple]] in [[an apple orchard]],1.0
+ apple,/c/en/apple,UsedFor,pie,/c/en/pie,[[an apple]] is for [[pie]],1.0
+ apple,/c/en/apple,IsA,friut,/c/en/friut,[[apple]] is a [[friut]],1.0
+ apple,/c/en/apple,HasA,a peel,/c/en/peel,[[An apple]] has [[a peel]],1.0
+ apple,/c/en/apple,UsedFor,munching,/c/en/munching,[[an apple]] is for [[munching]],1.0
+ apple,/c/en/apple,UsedFor,computing,/c/en/computing,[[an apple]] is for [[computing]],1.0
+ apple,/c/en/apple,AtLocation,a horses mouth,/c/en/horses_mouth,You are likely to find [[an apple]] in [[a horses mouth]],1.0
+ apple,/c/en/apple,LocatedNear,a banana,/c/en/banana,[[an apple]] is typically near [[a banana]],1.0
+ apple,/c/en/apple,ExternalURL, apple,http://dbpedia.org/resource/Apple,,1.0
+ apple,/c/en/apple,UsedFor,bait a trap,/c/en/bait_trap,You can use [[an apple]] to [[bait a trap]],1.0
+ apple,/c/en/apple/n,IsA,fruit tree,/c/en/fruit_tree,,1.0
+ apple,/c/en/apple,UsedFor,illustrating the letter a,/c/en/illustrating_letter,[[an apple]] is used for [[illustrating the letter A]],1.0
+ apple,/c/en/apple,HasProperty,opaque,/c/en/opaque,[[an apple]] is [[opaque]],1.0
+ crab apple,/c/en/crab_apple,IsA, apple,/c/en/apple/n,,1.0
+ apple,/c/en/apple/n/wn/plant,ExternalURL,112654755-n,http://wordnet-rdf.princeton.edu/wn31/112654755-n,,1.0
+ apple,/c/en/apple/n,IsA,fruit,/c/en/fruit,,1.0
+ apple,/c/en/apple/n/wn/food,ExternalURL,107755101-n,http://wordnet-rdf.princeton.edu/wn31/107755101-n,,1.0
+ apple,/c/en/apple,AtLocation, toffee apple,/c/en/toffee_apple,You are likely to find [[an apple]] in [[a toffee apple]],1.0
+ apple,/c/en/apple,IsA,a piece of fruit,/c/en/piece_of_fruit,[[an apple]] is [[a piece of fruit]],1.0
+ apple,/c/en/apple,AtLocation,a greengrocer,/c/en/greengrocer,Somewhere [[an apple]] can be is in [[a greengrocer]],1.0
+ eating apple,/c/en/eating_apple,HasPrerequisite, apple,/c/en/apple,[[eating an apple]] requires [[an apple]],1.0
+ apple,/c/en/apple,HasProperty,red or green,/c/en/red_or_green,[[an apple]] is [[red or green]],1.0
+ apple,/c/en/apple,AtLocation,the fridge,/c/en/fridge,Somewhere [[an apple]] can be is in [[the fridge]],1.0
+ apple,/c/en/apple,CapableOf,fall off a tree,/c/en/fall_off_tree,[[an apple]] can [[fall off a tree]],1.0
+ braeburn apple,/c/en/braeburn_apple/n,IsA, apple,/c/en/apple/n,,1.0
+ apple,/c/en/apple,UsedFor,keeping the doctor away,/c/en/keeping_doctor_away,[[an apple]] is for [[keeping the doctor away]],1.0
+ red delicious apple,/c/en/red_delicious_apple/n,IsA, apple,/c/en/apple/n,,1.0
+ apple,/c/en/apple,AtLocation,an orchard,/c/en/orchard,You are likely to find [[an apple]] in [[an orchard]],1.0
+ apple,/c/en/apple,UsedFor, making applesauce,/c/en/making_applesauce,[[an apple]] is used for [[making applesauce]],1.0
+ apple,/c/en/apple,UsedFor,tempting eve,/c/en/tempting_eve,[[an apple]] is for [[tempting eve]],1.0
+ apple,/c/en/apple,HasA,seeds,/c/en/seeds,[[An apple]] contains [[seeds]],1.0
+ apple,/c/en/apple,AtLocation, apple pie,/c/en/apple_pie,You are likely to find [[an apple]] in [[apple pie]],1.0
+ apple,/c/en/apple/n,IsA,tree,/c/en/tree,,1.0
+ apple,/c/en/apple,UsedFor,make a pie,/c/en/make_pie,You can use [[an apple]] to [[make a pie]],1.0
+ ambrosia apple,/c/en/ambrosia_apple/n,IsA, apple,/c/en/apple/n,,1.0

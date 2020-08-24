@@ -56,13 +56,14 @@ def main():
         class Juice(Drink): pass
         class Coffee(Drink): pass
         class Tea(Drink): pass
+        class Milk(Drink): pass
+
 
         class Bread(Food): pass
         class Egg(Food): pass
         class Condiment(Food): pass
         class Spread(Condiment): pass
-        class Dairy(Food): pass
-
+        class Fruit(Food): pass
 
 
         class Table(Furniture): pass
@@ -82,8 +83,9 @@ def main():
         class is_edible(DataProperty):
             range = [bool]
         class served_with(ObjectProperty, SymmetricProperty):
-            domain = [Condiment]
-            range = [Food]
+            pass
+            # domain = [Condiment]
+            # range = [Food]
         class can_cut(ObjectProperty, Cutlery >> Food):
             pass
         class spread_on(ObjectProperty, Spread >> Food):
@@ -91,8 +93,9 @@ def main():
         class can_spread(ObjectProperty, Cutlery >> Spread):
             pass
         class used_with(ObjectProperty, SymmetricProperty):
-            domain = [Tableware]
-            range = [Food]
+            pass
+            # domain = [Tableware]
+            # range = [Food]
         class storage_location(ObjectProperty):
             range = [Storage]
 
@@ -113,18 +116,22 @@ def main():
 
     green_tea = Tea("green_tea")
 
-    milk = Dairy("milk", storage_location=[refrigerator])
+    milk = Milk("milk", storage_location=[refrigerator])
 
-    black_coffee = Coffee("black_coffee")
+    black_coffee = Coffee("black_coffee", served_with=[milk])
 
     butter = Spread("butter", spread_on=[croissant], storage_location=[refrigerator])
+
+    apple = Fruit("apple")
+    watermelon = Fruit("watermelon")
+    lemon = Fruit("lemon")
 
     salt_shaker = Tableware("salt_shaker")
     pepper_shaker = Tableware("pepper_shaker", used_with=[salt_shaker])
     bread_basket = Tableware("bread_basket")
-    egg_cup = Tableware("egg_cup", served_with=[hardboiled_egg])
+    egg_cup = Tableware("egg_cup", used_with=[hardboiled_egg])
 
-    milk_pitcher = Kitchenware("milk_pitcher", served_with=[milk])
+    milk_pitcher = Kitchenware("milk_pitcher", used_with=[milk])
 
     butter_knife = Knife("butter_knife", can_spread=[butter]) # a type of knife
     fork = Fork("fork")
@@ -147,6 +154,7 @@ def main():
 
     # classes with restrictions
     Food.is_edible = [True]
+    Drink.is_edible = [True]
     Kitchenware.is_edible = [False]
     Furniture.is_edible = [False]
     Storage.is_edible = [False]

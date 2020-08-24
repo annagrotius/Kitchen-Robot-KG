@@ -1,0 +1,30 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ lemon,/c/en/lemon/n/wn/artifact,IsA,artifact,/c/en/artifact/n/wn,[[lemon]] is a type of [[artifact]],2.0
+ lemon peel,/c/en/lemon_peel/n/wn/food,PartOf, lemon,/c/en/lemon/n/wn/food,[[lemon peel]] is a part of [[lemon]],2.0
+ lemon,/c/en/lemon/n/wn/plant,IsA,citrus,/c/en/citrus/n/wn/plant,[[lemon]] is a type of [[citrus]],2.0
+ lemon,/c/en/lemon/n/wn/food,PartOf, lemon,/c/en/lemon/n/wn/plant,[[lemon]] is a part of [[lemon]],2.0
+ lemon,/c/en/lemon/n/wn/cognition,IsA,relish,/c/en/relish/n/wn/cognition,[[lemon]] is a type of [[relish]],2.0
+ lemon,/c/en/lemon/n/wn/food,IsA,citrus,/c/en/citrus/n/wn/food,[[lemon]] is a type of [[citrus]],2.0
+ sweet lemon,/c/en/sweet_lemon/n/wn/plant,IsA, lemon,/c/en/lemon/n/wn/plant,[[sweet lemon]] is a type of [[lemon]],2.0
+ lemon,/c/en/lemon/n/wn/food,ExternalURL,107765558-n,http://wordnet-rdf.princeton.edu/wn31/107765558-n,,1.0
+ lemon,/c/en/lemon/n,ExternalURL, lemon,http://sw.opencyc.org/2012/05/10/concept/en/Lemon,,1.0
+ lemon,/c/en/lemon,IsA,"a sour, yellow fruit",/c/en/sour_yellow_fruit,"[[A lemon]] is [[a sour, yellow fruit]]",1.0
+ lemon,/c/en/lemon,ExternalURL,q500,http://wikidata.dbpedia.org/resource/Q500,,1.0
+ lemon,/c/en/lemon/n/wn/plant,ExternalURL,112732356-n,http://wordnet-rdf.princeton.edu/wn31/112732356-n,,1.0
+ lemon,/c/en/lemon/n/wn/artifact,ExternalURL,103661164-n,http://wordnet-rdf.princeton.edu/wn31/103661164-n,,1.0
+ lemon,/c/en/lemon,AtLocation,the fridge,/c/en/fridge,You are likely to find [[a lemon]] in [[the fridge]].,1.0
+ lemon,/c/en/lemon/n/opencyc/lemon_417,IsA,living thing,/c/en/living_thing/n,,1.0
+ lemon,/c/en/lemon/n/opencyc/lemon_417,IsA,tangible thing,/c/en/tangible_thing/n,,1.0
+ lemon,/c/en/lemon/n,IsA,yellow,/c/en/yellow/n,,1.0
+ lemon,/c/en/lemon,HasProperty,sour,/c/en/sour,[[lemon]] is [[sour]],1.0
+ lemon,/c/en/lemon,IsA,fruit.,/c/en/fruit,[[A lemon]] is a kind of [[fruit.]],1.0
+ lemon,/c/en/lemon,ExternalURL, lemon,http://umbel.org/umbel/sc/Lemon_,,1.0
+ lemon,/c/en/lemon/n,IsA,citrus fruit,/c/en/citrus_fruit/n,,1.0
+ lemon,/c/en/lemon,HasProperty,citrus,/c/en/citrus,[[lemon]] is [[citrus]],1.0
+ lemon,/c/en/lemon/n/opencyc/lemon_417,ExternalURL, lemon 417,http://sw.opencyc.org/2012/05/10/concept/en/Lemon_417,,1.0
+ lemon,/c/en/lemon,CapableOf,make my lips pucker,/c/en/make_lips_pucker,[[Lemon]] can [[make my lips pucker]],1.0
+ lemon,/c/en/lemon,HasA, lemon juice,/c/en/lemon_juice,[[a lemon]] contains [[lemon juice]],1.0
+ lemon,/c/en/lemon/n/wn/cognition,ExternalURL,105724289-n,http://wordnet-rdf.princeton.edu/wn31/105724289-n,,1.0
+ lemon,/c/en/lemon,ExternalURL, lemon,http://dbpedia.org/resource/Lemon,,1.0
+ lemon,/c/en/lemon,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a lemon]],1.0
+ lemon,/c/en/lemon,HasProperty,similar to an orange,/c/en/similar_to_orange,[[A lemon]] is [[similar to an orange]],1.0

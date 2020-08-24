@@ -4,7 +4,7 @@ import pandas as pd
 import json
 from KitchenEntity import KitchenEntity
 
-instances = ['croissant', 'garnish', 'hardboiled_egg', 'scrambled_egg', 'fried_egg', 'orange_juice', 'apple_juice', 'butter', 'salt_shaker', 'pepper_shaker', 'bread_basket', 'egg_cup', 'milk_pitcher', 'fork', 'knife', 'spoon', 'butter_knife', 'glass', 'teacup', 'sauce_dish', 'butter_dish', 'bread_plate', 'teacup_plate', 'dining_table', 'dining_chair', 'cupboard']
+instances = ['milk', 'apple', 'lemon', 'refrigerator', 'coffee', 'croissant', 'garnish', 'hardboiled_egg', 'scrambled_egg', 'fried_egg', 'orange_juice', 'apple_juice', 'butter', 'salt_shaker', 'pepper_shaker', 'bread_basket', 'egg_cup', 'milk_pitcher', 'fork', 'knife', 'spoon', 'butter_knife', 'glass', 'teacup', 'sauce_dish', 'butter_dish', 'bread_plate', 'teacup_plate', 'dining_table', 'dining_chair', 'cupboard']
 
 def main():
 

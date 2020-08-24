@@ -4,8 +4,7 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xml:base="http://test.org/affordance.owl"
-         xmlns="http://test.org/affordance.owl#"
-         xmlns:swrl="http://www.w3.org/2003/11/swrl#">
+         xmlns="http://test.org/affordance.owl#">
 
 <owl:Ontology rdf:about="http://test.org/affordance.owl"/>
 
@@ -44,50 +43,6 @@
 <owl:Class rdf:about="#Action">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
-
-<swrl:Variable rdf:about="urn:swrl#KitchenEntity"/>
-
-<swrl:Variable rdf:about="urn:swrl#Action"/>
-
-<swrl:Variable rdf:about="urn:swrl#Affordance"/>
-
-<swrl:Imp>
-  <swrl:body>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:IndividualPropertyAtom>
-          <swrl:propertyPredicate rdf:resource="#potential_action"/>
-          <swrl:argument1 rdf:resource="urn:swrl#KitchenEntity"/>
-          <swrl:argument2 rdf:resource="urn:swrl#Action"/>
-        </swrl:IndividualPropertyAtom>
-      </rdf:first>
-      <rdf:rest>
-        <rdf:Description>
-          <rdf:first>
-            <swrl:IndividualPropertyAtom>
-              <swrl:propertyPredicate rdf:resource="#action_affordance"/>
-              <swrl:argument1 rdf:resource="urn:swrl#Action"/>
-              <swrl:argument2 rdf:resource="#Affordance"/>
-            </swrl:IndividualPropertyAtom>
-          </rdf:first>
-          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-        </rdf:Description>
-      </rdf:rest>
-    </rdf:Description>
-  </swrl:body>
-  <swrl:head>
-    <rdf:Description>
-      <rdf:first>
-        <swrl:IndividualPropertyAtom>
-          <swrl:propertyPredicate rdf:resource="#affords"/>
-          <swrl:argument1 rdf:resource="urn:swrl#KitchenEntity"/>
-          <swrl:argument2 rdf:resource="urn:swrl#Affordance"/>
-        </swrl:IndividualPropertyAtom>
-      </rdf:first>
-      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-    </rdf:Description>
-  </swrl:head>
-</swrl:Imp>
 
 
 </rdf:RDF>

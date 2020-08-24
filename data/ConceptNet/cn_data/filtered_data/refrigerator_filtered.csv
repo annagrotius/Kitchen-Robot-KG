@@ -1,0 +1,178 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+food,/c/en/food,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[food]],8.246211251235321
+butter,/c/en/butter,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[butter]],6.0
+milk,/c/en/milk,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[milk]],4.898979485566356
+a fungus,/c/en/fungus,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[a fungus]] in [[your refrigerator]],4.898979485566356
+ refrigerator,/c/en/refrigerator,UsedFor,keeping food cold,/c/en/keeping_food_cold,[[a refrigerator]] is for [[keeping food cold]],4.898979485566356
+cheese,/c/en/cheese,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cheese]],4.898979485566356
+beer,/c/en/beer,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[beer]],4.47213595499958
+ refrigerator,/c/en/refrigerator,UsedFor,keeping food from spoiling,/c/en/keeping_food_from_spoiling,[[a refrigerator]] is for [[keeping food from spoiling]],4.0
+ refrigerator,/c/en/refrigerator,CapableOf,cool food,/c/en/cool_food,[[a refrigerator]] can [[cool food]],3.4641016151377544
+a container,/c/en/container,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[a container]] in [[a refrigerator]],3.4641016151377544
+ refrigerator,/c/en/refrigerator,IsA,a machine,/c/en/machine,[[A refrigerator]] is [[a machine]],3.4641016151377544
+a wiener dog,/c/en/wiener_dog,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[a wiener dog]] in [[the refrigerator]],2.82842712474619
+ refrigerator,/c/en/refrigerator,UsedFor,causing the jello to jell,/c/en/causing_jello_to_jell,[[a refrigerator]] is used for [[causing the jello to jell]],2.82842712474619
+ refrigerator,/c/en/refrigerator,UsedFor,storing foods,/c/en/storing_foods,[[a refrigerator]] is used for [[storing foods]],2.82842712474619
+lettuce,/c/en/lettuce,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[lettuce]],2.82842712474619
+juice,/c/en/juice,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[juice]],2.82842712474619
+ refrigerator,/c/en/refrigerator,AtLocation,the garage,/c/en/garage,You are likely to find [[a refrigerator]] in [[the garage]],2.82842712474619
+tomatoes,/c/en/tomatoes,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[tomatoes]],2.82842712474619
+leftovers,/c/en/leftovers,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[leftovers]],2.82842712474619
+a carton of milk,/c/en/carton_of_milk,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a carton of milk]],2.82842712474619
+salad,/c/en/salad,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[salad]],2.82842712474619
+carrots,/c/en/carrots,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[carrots]],2.82842712474619
+a jar,/c/en/jar,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[a jar]] in [[a refrigerator]],2.82842712474619
+ refrigerator,/c/en/refrigerator,CapableOf,keep food cold,/c/en/keep_food_cold,[[A refrigerator]] can [[keep food cold]],2.0
+orange juice,/c/en/orange_juice,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[orange juice]],2.0
+pickles,/c/en/pickles,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[pickles]],2.0
+ refrigerator,/c/en/refrigerator/n/wn/artifact,IsA,white goods,/c/en/white_goods/n/wn/artifact,[[refrigerator]] is a type of [[white goods]],2.0
+a shelf,/c/en/shelf,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a shelf]],2.0
+refrigeration system,/c/en/refrigeration_system/n/wn/artifact,PartOf, refrigerator,/c/en/refrigerator/n/wn/artifact,[[refrigeration system]] is a part of [[refrigerator]],2.0
+bread,/c/en/bread,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[bread]],2.0
+a tomato,/c/en/tomato,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a tomato]],2.0
+drawers,/c/en/drawers,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[drawers]],2.0
+moldy food,/c/en/moldy_food,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[moldy food]],2.0
+bottled water,/c/en/bottled_water,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[bottled water]],2.0
+grape juice,/c/en/grape_juice,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[grape juice]],2.0
+pie,/c/en/pie,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[pie]],2.0
+ refrigerator,/c/en/refrigerator,UsedFor,keeping meats from spoiling,/c/en/keeping_meats_from_spoiling,[[a refrigerator]] is used for [[keeping meats from spoiling]],2.0
+mayonnaise,/c/en/mayonnaise,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mayonnaise]],2.0
+a ham,/c/en/ham,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a ham]],2.0
+ refrigerator,/c/en/refrigerator,IsA,an electronic appliance,/c/en/electronic_appliance,[[A refrigerator]] is [[an electronic appliance]],2.0
+moldy leftovers,/c/en/moldy_leftovers,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[moldy leftovers]],2.0
+ refrigerator,/c/en/refrigerator,UsedFor,chilling food,/c/en/chilling_food,[[a refrigerator]] is used for [[chilling food]],2.0
+ refrigerator,/c/en/refrigerator,UsedFor,extending the life of perishables,/c/en/extending_life_of_perishables,[[a refrigerator]] is used for [[extending the life of perishables]],2.0
+ refrigerator,/c/en/refrigerator,AtLocation,a home,/c/en/home,*Something you find at [[a home]] is [[a refrigerator]],2.0
+ refrigerator,/c/en/refrigerator,UsedFor,keep food cold,/c/en/keep_food_cold,You can use [[a refrigerator]] to [[keep food cold]],2.0
+cooler,/c/en/cooler/n/wn/artifact,IsA, refrigerator,/c/en/refrigerator/n/wn/artifact,[[cooler]] is a type of [[refrigerator]],2.0
+ refrigerator,/c/en/refrigerator,AtLocation,an apartment,/c/en/apartment,*Something you find at [[an apartment]] is [[a refrigerator]],2.0
+drip pan,/c/en/drip_pan/n/wn/artifact,PartOf, refrigerator,/c/en/refrigerator/n/wn/artifact,[[drip pan]] is a part of [[refrigerator]],2.0
+ electric refrigerator,/c/en/electric_refrigerator/n/wn/artifact,IsA, refrigerator,/c/en/refrigerator/n/wn/artifact,[[electric refrigerator]] is a type of [[refrigerator]],2.0
+ refrigerator,/c/en/refrigerator,UsedFor,chilling drinks,/c/en/chilling_drinks,[[a refrigerator]] is used for [[chilling drinks]],2.0
+mold,/c/en/mold,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mold]],2.0
+dressing,/c/en/dressing,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[dressing]],2.0
+bacon,/c/en/bacon,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[bacon]],2.0
+an icemaker,/c/en/icemaker,PartOf, refrigerator,/c/en/refrigerator,[[An icemaker]] is part of [[a refrigerator]],1.0
+artichokes,/c/en/artichokes,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[artichokes]],1.0
+plastic containers,/c/en/plastic_containers,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[plastic containers]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,refrigerating,/c/en/refrigerating,[[a refrigerator]] is for [[refrigerating]],1.0
+left overs,/c/en/left_overs,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[left overs]],1.0
+cold air,/c/en/cold_air,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cold air]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,keeping food,/c/en/keeping_food,[[a refrigerator]] is for [[keeping food]],1.0
+vegetables,/c/en/vegetables,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[vegetables]],1.0
+a carrott,/c/en/carrott,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a carrott]],1.0
+a turkey,/c/en/turkey,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a turkey]],1.0
+ refrigerator,/c/en/refrigerator,HasProperty,opened and closed,/c/en/opened_and_closed,[[A refrigerator]] can be [[opened and closed]],1.0
+mushrooms,/c/en/mushrooms,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mushrooms]],1.0
+cutlets,/c/en/cutlets,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cutlets]],1.0
+custard,/c/en/custard,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[custard]],1.0
+the milky way,/c/en/milky_way,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[the Milky Way]] in [[the refrigerator]],1.0
+ribs,/c/en/ribs,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[ribs]],1.0
+a plate of food,/c/en/plate_of_food,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a plate of food]],1.0
+ refrigerator,/c/en/refrigerator,ExternalURL, refrigerator,http://umbel.org/umbel/sc/Refrigerator,,1.0
+ refrigerator,/c/en/refrigerator,UsedFor,conserving the food,/c/en/conserving_food,[[a refrigerator]] is for [[conserving the food]],1.0
+ refrigerator,/c/en/refrigerator,CapableOf,store food for long times,/c/en/store_food_for_long_times,[[a refrigerator]] can [[store food for long times]],1.0
+ side side refrigerator freezer,/c/en/side_by_side_refrigerator_freezer/n,IsA, refrigerator,/c/en/refrigerator/n,,1.0
+usually cold,/c/en/usually_cold,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[usually cold]],1.0
+mint,/c/en/mint,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mint]],1.0
+black berries,/c/en/black_berries,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[black berries]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,keep perishable items cold,/c/en/keep_perishable_items_cold,[[A refrigerator]] is used to [[keep perishable items cold]],1.0
+meats,/c/en/meats,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[meats]],1.0
+raw meat,/c/en/raw_meat,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[raw meat]],1.0
+ refrigerator,/c/en/refrigerator,IsA,not moved very often,/c/en/not_moved_very_often,[[The refrigerator]] is [[not moved very often]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,preventing food from going bad,/c/en/preventing_food_from_going_bad,[[a refrigerator]] is used for [[preventing food from going bad]],1.0
+hot sauce,/c/en/hot_sauce,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[hot sauce]],1.0
+rice,/c/en/rice,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[rice]],1.0
+olives,/c/en/olives,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[olives]],1.0
+hors d'oeuvres,/c/en/hors_d_oeuvres,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[hors d'oeuvres]],1.0
+mayonaise,/c/en/mayonaise,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[mayonaise]] in [[the refrigerator]],1.0
+frozen foods,/c/en/frozen_foods,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[frozen foods]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,keeping food cool,/c/en/keeping_food_cool,[[a refrigerator]] is used for [[keeping food cool]],1.0
+refrigerated display case,/c/en/refrigerated_display_case/n,IsA, refrigerator,/c/en/refrigerator/n,,1.0
+fish,/c/en/fish,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[fish]],1.0
+tamarind paste,/c/en/tamarind_paste,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[tamarind paste]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,freezing food,/c/en/freezing_food,[[a refrigerator]] is for [[freezing food]],1.0
+jello,/c/en/jello,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[jello]],1.0
+left over pizza,/c/en/left_over_pizza,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[left over pizza]],1.0
+fruit,/c/en/fruit,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[fruit]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,making ice,/c/en/making_ice,[[a refrigerator]] is for [[making ice]],1.0
+radishes,/c/en/radishes,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[radishes]],1.0
+ refrigerator,/c/en/refrigerator,HasProperty,opaque,/c/en/opaque,[[a refrigerator]] is [[opaque]],1.0
+a fridge,/c/en/fridge,IsA, refrigerator,/c/en/refrigerator,[[a fridge]] is a kind of [[refrigerator]].,1.0
+ refrigerator,/c/en/refrigerator,CapableOf,keep ice cold,/c/en/keep_ice_cold,[[A refrigerator]] can [[keep ice cold]],1.0
+chinese food,/c/en/chinese_food,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[Chinese food]],1.0
+lemonade,/c/en/lemonade,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[lemonade]],1.0
+catsup,/c/en/catsup,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[catsup]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,store food,/c/en/store_food,You can use [[a refrigerator]] to [[store food]],1.0
+ refrigerator,/c/en/refrigerator,AtLocation,a house,/c/en/house,*Something you find in [[a house]] is [[a refrigerator]],1.0
+condiments,/c/en/condiments,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[condiments]],1.0
+soy sauce,/c/en/soy_sauce,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[soy sauce]],1.0
+ refrigerator,/c/en/refrigerator/n,IsA,refrigerated storage device,/c/en/refrigerated_storage_device/n,,1.0
+ refrigerator,/c/en/refrigerator,UsedFor,keeping food from decaying quickly,/c/en/keeping_food_from_decaying_quickly,[[a refrigerator]] is for [[keeping food from decaying quickly]],1.0
+strawberries,/c/en/strawberries,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[strawberries]],1.0
+romaine,/c/en/romaine,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[romaine]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,storing food,/c/en/storing_food,[[a refrigerator]] is for [[storing food]],1.0
+desserts,/c/en/desserts,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[desserts]],1.0
+ bottom mount refrigerator,/c/en/bottom_mount_refrigerator/n,IsA, refrigerator,/c/en/refrigerator/n,,1.0
+doggy bags,/c/en/doggy_bags,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[doggy bags]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,posting your children's art work on,/c/en/posting_children's_art_work_on,[[a refrigerator]] is for [[posting your children's art work on]],1.0
+ refrigerator,/c/en/refrigerator,ExternalURL, refrigerator,http://dbpedia.org/resource/Refrigerator,,1.0
+spaghetti sauce,/c/en/spaghetti_sauce,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[spaghetti sauce]],1.0
+limes,/c/en/limes,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[limes]],1.0
+a bad smell,/c/en/bad_smell,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[a bad smell]] in [[a refrigerator]].,1.0
+turnips,/c/en/turnips,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[turnips]],1.0
+fruit spread,/c/en/fruit_spread,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[fruit spread]],1.0
+ refrigerator,/c/en/refrigerator,AtLocation,food,/c/en/food,You are likely to find [[refrigerator]] in [[food]].,1.0
+cold water,/c/en/cold_water,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cold water]],1.0
+a coil,/c/en/coil,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[a coil]] in [[a refrigerator]],1.0
+a bottle of milk,/c/en/bottle_of_milk,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a bottle of milk]],1.0
+worcestershire sauce,/c/en/worcestershire_sauce,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[worcestershire sauce]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,keeping meat fresh,/c/en/keeping_meat_fresh,[[a refrigerator]] is for [[keeping meat fresh]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,keep food from spoiling,/c/en/keep_food_from_spoiling,You can use [[a refrigerator]] to [[keep food from spoiling]],1.0
+ refrigerator,/c/en/refrigerator/n,ExternalURL, refrigerator,http://sw.opencyc.org/2012/05/10/concept/en/Refrigerator,,1.0
+cake,/c/en/cake,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cake]],1.0
+a gel,/c/en/gel,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[a gel]] in [[the refrigerator]],1.0
+ketchup,/c/en/ketchup,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[ketchup]] in [[a refrigerator]].,1.0
+tofu,/c/en/tofu,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[tofu]],1.0
+ice,/c/en/ice,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[ice]] in [[a refrigerator]],1.0
+a bowl,/c/en/bowl,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[a bowl]] in [[a refrigerator]],1.0
+a thermostat,/c/en/thermostat,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a thermostat]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,cool things,/c/en/cool_things,You can use [[a refrigerator]] to [[cool things]],1.0
+fresh vegetables,/c/en/fresh_vegetables,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[fresh vegetables]],1.0
+ refrigerator,/c/en/refrigerator/n,IsA,electrical household appliance,/c/en/electrical_household_appliance/n,,1.0
+jelly,/c/en/jelly,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[jelly]],1.0
+onions,/c/en/onions,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[onions]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,make ice cream,/c/en/make_ice_cream,[[a refrigerator]] is for [[make ice cream]],1.0
+tea,/c/en/tea,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[tea]],1.0
+an apple,/c/en/apple,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[an apple]] in [[the refrigerator]],1.0
+mini fridge,/c/en/mini_fridge/n,IsA, refrigerator,/c/en/refrigerator/n,,1.0
+crepe suzettes,/c/en/crepe_suzettes,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[crepe suzettes]],1.0
+jam,/c/en/jam,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[jam]],1.0
+pork,/c/en/pork,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[pork]],1.0
+moldy carrots,/c/en/moldy_carrots,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[moldy carrots]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,cooling perishables,/c/en/cooling_perishables,[[a refrigerator]] is used for [[cooling perishables]],1.0
+ refrigerator,/c/en/refrigerator,ExternalURL,q37828,http://wikidata.dbpedia.org/resource/Q37828,,1.0
+spoiled milk,/c/en/spoiled_milk,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[spoiled milk]],1.0
+steaks,/c/en/steaks,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[steaks]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,preserving your food,/c/en/preserving_food,[[a refrigerator]] is for [[preserving your food]],1.0
+mustard,/c/en/mustard,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[mustard]],1.0
+cottage cheese,/c/en/cottage_cheese,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[cottage cheese]],1.0
+food take out,/c/en/food_take_out,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[food take out]],1.0
+ refrigerator,/c/en/refrigerator,CapableOf,stock food,/c/en/stock_food,[[a refrigerator]] can [[stock food]],1.0
+drinks,/c/en/drinks,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[drinks]],1.0
+open cans,/c/en/open_cans,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[open cans]],1.0
+a lemon,/c/en/lemon,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[a lemon]],1.0
+ refrigerator,/c/en/refrigerator,AtLocation,a hospital drug storeroom,/c/en/hospital_drug_storeroom,You are likely to find [[a refrigerator]] in [[a hospital drug storeroom]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,keeping vegetables crisp,/c/en/keeping_vegetables_crisp,[[a refrigerator]] is used for [[keeping vegetables crisp]],1.0
+ refrigerator,/c/en/refrigerator/n/wn/artifact,ExternalURL,104077839-n,http://wordnet-rdf.princeton.edu/wn31/104077839-n,,1.0
+ refrigerator,/c/en/refrigerator,NotDesires,be unpluged,/c/en/unpluged,[[A refrigerator]] doesn't want to [[be unpluged]],1.0
+ beverage refrigerator,/c/en/beverage_refrigerator/n,IsA, refrigerator,/c/en/refrigerator/n,,1.0
+ refrigerator,/c/en/refrigerator,UsedFor,making drinks cool,/c/en/making_drinks_cool,[[a refrigerator]] is for [[making drinks cool]],1.0
+pesto,/c/en/pesto,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[pesto]],1.0
+wheat grass,/c/en/wheat_grass,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[wheat grass]],1.0
+lemon juice,/c/en/lemon_juice,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[lemon juice]],1.0
+ top mount refrigerator,/c/en/top_mount_refrigerator/n,IsA, refrigerator,/c/en/refrigerator/n,,1.0
+a cold storage,/c/en/cold_storage,AtLocation, refrigerator,/c/en/refrigerator,You are likely to find [[a cold storage]] in [[the refrigerator]],1.0
+celery,/c/en/celery,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[celery]],1.0
+protein bars,/c/en/protein_bars,AtLocation, refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[protein bars]],1.0
+ refrigerator,/c/en/refrigerator,UsedFor,cooling drinks,/c/en/cooling_drinks,[[a refrigerator]] is used for [[cooling drinks]],1.0

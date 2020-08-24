@@ -1,0 +1,114 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ coffee,/c/en/coffee,IsA,a stimulant,/c/en/stimulant,[[coffee]] is [[a stimulant]],5.291502622129181
+ coffee,/c/en/coffee,HasA,caffeine,/c/en/caffeine,[[Coffee]] contains [[caffeine]],4.898979485566356
+ coffee,/c/en/coffee,HasProperty,served hot,/c/en/served_hot,[[Coffee]] is [[served hot]],4.47213595499958
+ coffee,/c/en/coffee,AtLocation, coffee shop,/c/en/coffee_shop,You are likely to find [[coffee]] in [[a coffee shop]].,3.4641016151377544
+a mug,/c/en/mug,UsedFor, coffee,/c/en/coffee,[[a mug]] is used for [[coffee]],2.82842712474619
+ coffee,/c/en/coffee,ReceivesAction, made coffee beans,/c/en/made_from_coffee_beans,[[Coffee]] is [[made from coffee beans]],2.82842712474619
+a sugar,/c/en/sugar,AtLocation, coffee,/c/en/coffee,You are likely to find [[a sugar]] in [[coffee]],2.82842712474619
+ cappuccino coffee,/c/en/cappuccino_coffee/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[cappuccino coffee]] is a type of [[coffee]],2.0
+ coffee,/c/en/coffee,HasA,caffein,/c/en/caffein,[[coffee]] contains [[caffein]],2.0
+ coffee,/c/en/coffee,IsA,a good after dinner drink,/c/en/good_after_dinner_drink,[[Coffee]] is [[a good after dinner drink]],2.0
+cafe au lait,/c/en/cafe_au_lait/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[cafe au lait]] is a type of [[coffee]],2.0
+ coffee,/c/en/coffee,IsA,a beverage,/c/en/beverage,[[Coffee]] is [[a beverage]],2.0
+ coffee,/c/en/coffee,AtLocation,a can,/c/en/can,*Something you find in [[a can]] is [[coffee]],2.0
+ coffee,/c/en/coffee/n/wn/plant,IsA,tree,/c/en/tree/n/wn/plant,[[coffee]] is a type of [[tree]],2.0
+ coffee,/c/en/coffee,IsA,an addictive substance,/c/en/addictive_substance,[[Coffee]] is [[an addictive substance]],2.0
+ drip coffee,/c/en/drip_coffee/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[drip coffee]] is a type of [[coffee]],2.0
+ coffee substitute,/c/en/coffee_substitute/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[coffee substitute]] is a type of [[coffee]],2.0
+ arabian coffee,/c/en/arabian_coffee/n/wn/plant,IsA, coffee,/c/en/coffee/n/wn/plant,[[Arabian coffee]] is a type of [[coffee]],2.0
+ robusta coffee,/c/en/robusta_coffee/n/wn/plant,IsA, coffee,/c/en/coffee/n/wn/plant,[[robusta coffee]] is a type of [[coffee]],2.0
+ iced coffee,/c/en/iced_coffee/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[iced coffee]] is a type of [[coffee]],2.0
+ coffee,/c/en/coffee,IsA,a popular drink,/c/en/popular_drink,[[coffee]] is [[a popular drink]],2.0
+espresso,/c/en/espresso/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[espresso]] is a type of [[coffee]],2.0
+mocha,/c/en/mocha/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[mocha]] is a type of [[coffee]],2.0
+ irish coffee,/c/en/irish_coffee/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[Irish coffee]] is a type of [[coffee]],2.0
+cafe royale,/c/en/cafe_royale/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[cafe royale]] is a type of [[coffee]],2.0
+ coffee,/c/en/coffee/n/wn/food,IsA,beverage,/c/en/beverage/n/wn/food,[[coffee]] is a type of [[beverage]],2.0
+ coffee,/c/en/coffee,IsA,an acquired taste,/c/en/acquired_taste,[[coffee]] is [[an acquired taste]],2.0
+ coffee,/c/en/coffee,AtLocation,a cup,/c/en/cup,*Something you find in [[a cup]] is [[coffee]],2.0
+ turkish coffee,/c/en/turkish_coffee/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[Turkish coffee]] is a type of [[coffee]],2.0
+ coffee,/c/en/coffee,AtLocation,a internet cafe,/c/en/internet_cafe,*Something you find at [[a internet cafe]] is [[coffee]],2.0
+ coffee,/c/en/coffee,IsA,a bushy plant,/c/en/bushy_plant,[[coffee]] is [[a bushy plant]],2.0
+ liberian coffee,/c/en/liberian_coffee/n/wn/plant,IsA, coffee,/c/en/coffee/n/wn/plant,[[Liberian coffee]] is a type of [[coffee]],2.0
+ coffee bean,/c/en/coffee_bean/n/wn/food,PartOf, coffee,/c/en/coffee/n/wn/plant,[[coffee bean]] is a part of [[coffee]],2.0
+ coffee,/c/en/coffee,AtLocation,a container,/c/en/container,*Something you find in [[a container]] is [[coffee]],2.0
+ decaffeinated coffee,/c/en/decaffeinated_coffee/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[decaffeinated coffee]] is a type of [[coffee]],2.0
+ coffee,/c/en/coffee,HasProperty,good in the morning,/c/en/good_in_morning,[[coffee]] is [[good in the morning]],2.0
+ instant coffee,/c/en/instant_coffee/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[instant coffee]] is a type of [[coffee]],2.0
+ coffee,/c/en/coffee,AtLocation,the office,/c/en/office,*Something you find in [[the office]] is [[coffee]],2.0
+cafe noir,/c/en/cafe_noir/n/wn/food,IsA, coffee,/c/en/coffee/n/wn/food,[[cafe noir]] is a type of [[coffee]],2.0
+ coffee,/c/en/coffee,AtLocation,a conference,/c/en/conference,*Something you find at [[a conference]] is [[coffee]],1.0
+ coffee,/c/en/coffee,HasProperty,dangerous to your joints,/c/en/dangerous_to_joints,[[coffee]] is [[dangerous to your joints]],1.0
+ coffee,/c/en/coffee,AtLocation,a meeting,/c/en/meeting,*Something you find at [[a meeting]] is [[coffee]],1.0
+ coffee,/c/en/coffee,HasA,a slightly bitter taste,/c/en/slightly_bitter_taste,[[Coffee]] has [[a slightly bitter taste]],1.0
+ coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,beverage,/c/en/beverage/n,,1.0
+ coffee,/c/en/coffee,IsA, made using water coffee beans,/c/en/made_using_water_and_coffee_beans,[[Coffee]] is [[made using water and coffee beans]],1.0
+ coffee,/c/en/coffee,AtLocation,work,/c/en/work,*Something you find at [[work]] is [[coffee]],1.0
+ coffee,/c/en/coffee,HasProperty,warmer then a piece of ice,/c/en/warmer_then_piece_of_ice,[[coffee]] is [[warmer then a piece of ice]],1.0
+ coffee,/c/en/coffee/n/wn/plant,ExternalURL,112683533-n,http://wordnet-rdf.princeton.edu/wn31/112683533-n,,1.0
+ coffee,/c/en/coffee,ExternalURL,q8486,http://wikidata.dbpedia.org/resource/Q8486,,1.0
+ coffee,/c/en/coffee/n/opencyc/coffee_beverage,ExternalURL, coffee beverage,http://sw.opencyc.org/2012/05/10/concept/en/Coffee_Beverage,,1.0
+ coffee,/c/en/coffee,IsA,made using hot water,/c/en/made_using_hot_water,[[Coffee]] is [[made using hot water]],1.0
+ coffee,/c/en/coffee/n/wn/food,ExternalURL,107945759-n,http://wordnet-rdf.princeton.edu/wn31/107945759-n,,1.0
+ coffee,/c/en/coffee,UsedFor,staying awake,/c/en/staying_awake,[[coffee]] is used for [[staying awake]],1.0
+latte,/c/en/latte/n,IsA, coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+ coffee,/c/en/coffee,ReceivesAction,sold in stores,/c/en/sold_in_stores,[[coffee]] is [[sold in stores]],1.0
+a refill,/c/en/refill,UsedFor, coffee,/c/en/coffee,[[a refill]] is for [[coffee]],1.0
+breve,/c/en/breve/n,IsA, coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+ coffee,/c/en/coffee,ExternalURL, coffee,http://dbpedia.org/resource/Coffee,,1.0
+ decaffeinated coffee,/c/en/decaffeinated_coffee/n,IsA, coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+ coffee,/c/en/coffee,ReceivesAction,ground to facilitate brewing,/c/en/ground_to_facilitate_brewing,[[Coffee]] is [[ground to facilitate brewing]],1.0
+ coffee,/c/en/coffee,IsA,a popular morning drink,/c/en/popular_morning_drink,[[coffee]] is [[a popular morning drink]],1.0
+ coffee,/c/en/coffee,AtLocation,a train station,/c/en/train_station,*Something you find at [[a train station]] is [[coffee]],1.0
+ coffee,/c/en/coffee/n,ExternalURL, coffee,http://sw.opencyc.org/2012/05/10/concept/en/Coffee,,1.0
+ coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,liquid solution,/c/en/liquid_solution/n,,1.0
+ coffee,/c/en/coffee,AtLocation,the airport,/c/en/airport,*Something you find at [[the airport]] is [[coffee]],1.0
+ coffee,/c/en/coffee,ExternalURL, coffee beverage,http://umbel.org/umbel/sc/Coffee_Beverage,,1.0
+cappuccino,/c/en/cappuccino/n,IsA, coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+ coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,artificial substance,/c/en/artificial_substance/n,,1.0
+ coffee,/c/en/coffee,AtLocation,a resturant,/c/en/resturant,*Something you find at [[a resturant]] is [[coffee]],1.0
+ coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,bitterness,/c/en/bitterness/n,,1.0
+americano,/c/en/americano/n,IsA, coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+ coffee,/c/en/coffee,CapableOf,spot fabric,/c/en/spot_fabric,[[coffee]] can [[spot fabric]],1.0
+ coffee,/c/en/coffee,HasA,the active ingredient caffeine,/c/en/active_ingredient_caffeine,[[Coffee]] has [[the active ingredient caffeine]],1.0
+ coffee,/c/en/coffee,AtLocation,a breakroom,/c/en/breakroom,You are likely to find [[coffee]] in [[a breakroom]],1.0
+ coffee,/c/en/coffee,IsA,a hot beverage,/c/en/hot_beverage,[[Coffee]] is [[a hot beverage]],1.0
+ coffee,/c/en/coffee,UsedFor,waking up in the morning,/c/en/waking_up_in_morning,[[coffee]] is used for [[waking up in the morning]].,1.0
+ coffee,/c/en/coffee,HasA,caffiene,/c/en/caffiene,[[Coffee]] contains [[caffiene]],1.0
+ coffee,/c/en/coffee,ReceivesAction,enjoyed at a nicely laid table,/c/en/enjoyed_at_nicely_laid_table,[[Coffee]] can be [[enjoyed at a nicely laid table]],1.0
+ coffee,/c/en/coffee,AtLocation,a grocery store,/c/en/grocery_store,*Something you find at [[a grocery store]] is [[coffee]],1.0
+awaking,/c/en/awaking,HasPrerequisite, coffee,/c/en/coffee,[[awaking]] requires [[coffee]],1.0
+ coffee,/c/en/coffee,ReceivesAction,bought at a cafe,/c/en/bought_at_cafe,[[coffee]] can be [[bought at a cafe]],1.0
+starbucks,/c/en/starbucks,IsA, coffee,/c/en/coffee,[[starbucks]] is a kind of [[coffee]],1.0
+ coffee,/c/en/coffee,HasA,caffiene in it,/c/en/caffiene_in,[[Coffee]] has [[caffiene in it]],1.0
+ coffee,/c/en/coffee,AtLocation,a mug,/c/en/mug,Somewhere [[coffee]] can be is [[a mug]],1.0
+espresso,/c/en/espresso/n,IsA, coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+ coffee,/c/en/coffee,AtLocation,the subway,/c/en/subway,*Something you find on [[the subway]] is [[coffee]],1.0
+ hot coffee,/c/en/hot_coffee/n,IsA, coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+ coffee,/c/en/coffee,HasProperty,hot,/c/en/hot,[[coffee]] is [[hot]],1.0
+ coffee,/c/en/coffee,IsA,a tasty drink,/c/en/tasty_drink,[[Coffee]] is [[a tasty drink]],1.0
+ coffee,/c/en/coffee,IsA,a breakfast beverage,/c/en/breakfast_beverage,[[Coffee]] is [[a breakfast beverage]],1.0
+ coffee,/c/en/coffee,AtLocation,a friend's house,/c/en/friend's_house,*Something you find at [[a friend's house]] is [[coffee]],1.0
+ coffee,/c/en/coffee,HasA,caffeine which raises brain reaction time,/c/en/caffeine_which_raises_brain_reaction_time,[[coffee]] contains [[caffeine which raises brain reaction time]],1.0
+ coffee,/c/en/coffee/n,IsA,ready to eat food,/c/en/ready_to_eat_food/n,,1.0
+ coffee,/c/en/coffee,IsA,gooooooooooooooood,/c/en/gooooooooooooooood,[[coffee]] is [[gooooooooooooooood]],1.0
+mocha,/c/en/mocha/n,IsA, coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+ coffee,/c/en/coffee,HasA,caffine,/c/en/caffine,[[Coffee]] contains [[caffine]],1.0
+waking up in the morning,/c/en/waking_up_in_morning,HasPrerequisite, coffee,/c/en/coffee,[[waking up in the morning]] requires [[coffee]],1.0
+ coffee,/c/en/coffee/n/opencyc/coffee_beverage,IsA,mixture,/c/en/mixture/n,,1.0
+ coffee,/c/en/coffee,AtLocation,the shelf,/c/en/shelf,*Something you find on [[the shelf]] is [[coffee]],1.0
+a bean,/c/en/bean,AtLocation, coffee,/c/en/coffee,You are likely to find [[a bean]] in [[coffee]],1.0
+ coffee,/c/en/coffee,HasProperty,bitter,/c/en/bitter,[[Coffee]] is [[bitter]],1.0
+ coffee,/c/en/coffee,IsA,a liquid,/c/en/liquid,[[Coffee]] is [[a liquid]],1.0
+setting a cup on a table,/c/en/setting_cup_on_table,UsedFor, coffee,/c/en/coffee,[[setting a cup on a table]] is for [[coffee]],1.0
+ coffee,/c/en/coffee,HasA,large amounts of caffeine,/c/en/large_amounts_of_caffeine,[[Coffee]] contains [[large amounts of caffeine]],1.0
+ coffee,/c/en/coffee,ReceivesAction,served in most restaurants,/c/en/served_in_most_restaurants,[[coffee]] is [[served in most restaurants]],1.0
+ coffee,/c/en/coffee,IsA,a refreshing and stimulating beverage,/c/en/refreshing_and_stimulating_beverage,[[Coffee]] is [[a refreshing and stimulating beverage]],1.0
+ coffee,/c/en/coffee,HasProperty,drunk with or without milk,/c/en/drunk_with_or_without_milk,[[coffee]] can be [[drunk with or without milk]],1.0
+water,/c/en/water,AtLocation, coffee,/c/en/coffee,You are likely to find [[water]] in [[coffee]].,1.0
+ coffee,/c/en/coffee/n,IsA, coffee,/c/en/coffee/n/opencyc/coffee_beverage,,1.0
+ coffee,/c/en/coffee,AtLocation,the supermarket,/c/en/supermarket,You are likely to find [[coffee]] in [[the supermarket]].,1.0
+ coffee,/c/en/coffee,AtLocation,a fast-food restaurant,/c/en/fast_food_restaurant,*Something you find at [[a fast-food restaurant]] is [[coffee]],1.0
+ coffee,/c/en/coffee,IsA,a low-margin product,/c/en/low_margin_product,[[Coffee]] is [[a low-margin product]],1.0
+ coffee,/c/en/coffee,HasA,a stimulant drug: caffeine,/c/en/stimulant_drug_caffeine,[[Coffee]] contains [[a stimulant drug: caffeine]],1.0

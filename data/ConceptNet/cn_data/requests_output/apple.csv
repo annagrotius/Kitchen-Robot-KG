@@ -1,0 +1,1001 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+apple,/c/en/apple,RelatedTo,fruit,/c/en/fruit,[[apple]] is related to [[fruit]],12.80968383684781
+apple,/c/en/apple,HasProperty,red,/c/en/red,[[apple]] can be [[red]],9.591663046625438
+apple,/c/en/apple,RelatedTo,red,/c/en/red,[[apple]] is related to [[red]],9.309350138436088
+apple,/c/en/apple,HasProperty,green,/c/en/green,[[apple]] can be [[green]],7.211102550927979
+an apple,/c/en/apple,ReceivesAction,eaten,/c/en/eaten,[[an apple]] can be [[eaten]],6.32455532033676
+an apple,/c/en/apple,AtLocation,apple tree,/c/en/apple_tree,You are likely to find [[an apple]] in [[apple tree]],5.656854249492381
+an apple,/c/en/apple,CapableOf,fall from a tree,/c/en/fall_from_tree,[[an apple]] can [[fall from a tree]],5.291502622129181
+apple,/c/en/apple,UsedFor,eating,/c/en/eating,[[apple]] is for [[eating]],5.291502622129181
+An apple,/c/en/apple,HasA,a core,/c/en/core,[[An apple]] has [[a core]],4.898979485566356
+apple,/c/en/apple,RelatedTo,red fruit,/c/en/red_fruit,[[apple]] is related to [[red fruit]],4.827835954131002
+apple,/c/en/apple,RelatedTo,green,/c/en/green,[[apple]] is related to [[green]],4.44837048816755
+apple,/c/en/apple,RelatedTo,core,/c/en/core,[[apple]] is related to [[core]],4.441171016747722
+apple,/c/en/apple,RelatedTo,eve,/c/en/eve,[[apple]] is related to [[eve]],4.315089802078283
+apple,/c/en/apple,RelatedTo,tree,/c/en/tree,[[apple]] is related to [[tree]],4.297441099072796
+apple,/c/en/apple,RelatedTo,computer,/c/en/computer,[[apple]] is related to [[computer]],4.164132562731402
+apple,/c/en/apple,RelatedTo,round,/c/en/round,[[apple]] is related to [[round]],4.144393803682271
+an apple,/c/en/apple,AtLocation,a grocery store,/c/en/grocery_store,You are likely to find [[an apple]] in [[a grocery store]],4.0
+apple,/c/en/apple,RelatedTo,mac,/c/en/mac,[[apple]] is related to [[mac]],3.887415593938986
+apple,/c/en/apple,RelatedTo,adam,/c/en/adam,[[apple]] is related to [[adam]],3.6149688795340964
+apple,/c/en/apple,RelatedTo,pie,/c/en/pie,[[apple]] is related to [[pie]],3.604441704342019
+apple,/c/en/apple,RelatedTo,pear,/c/en/pear,[[apple]] is related to [[pear]],3.0672463220289305
+apple,/c/en/apple,RelatedTo,macintosh,/c/en/macintosh,[[apple]] is related to [[macintosh]],2.9933259094191538
+apple,/c/en/apple,RelatedTo,seeds,/c/en/seeds,[[apple]] is related to [[seeds]],2.93393933134276
+apple,/c/en/apple,RelatedTo,eden,/c/en/eden,[[apple]] is related to [[eden]],2.9318935860634507
+apple,/c/en/apple,RelatedTo,stem,/c/en/stem,[[apple]] is related to [[stem]],2.6877499883731746
+apple,/c/en/apple,RelatedTo,trees,/c/en/trees,[[apple]] is related to [[trees]],2.6765649627834556
+apple,/c/en/apple,RelatedTo,orange,/c/en/orange,[[apple]] is related to [[orange]],2.571380951940027
+apple,/c/en/apple,RelatedTo,delicious,/c/en/delicious,[[apple]] is related to [[delicious]],2.42404620418011
+apple,/c/en/apple,RelatedTo,food,/c/en/food,[[apple]] is related to [[food]],2.318620279390311
+apple,/c/en/apple,RelatedTo,adam eve,/c/en/adam_eve,[[apple]] is related to [[adam eve]],2.2045407685048604
+apple,/c/en/apple,RelatedTo,skin,/c/en/skin,[[apple]] is related to [[skin]],2.1762352813976715
+apple,/c/en/apple/n,Synonym,apple tree,/c/en/apple_tree,,2.0
+sagarrondo,/c/eu/sagarrondo/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[sagarrondo]] is a translation of [[apple]],2.0
+mela,/c/it/mela/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[mela]] is a translation of [[apple]],2.0
+epal,/c/ms/epal/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[epal]] is a translation of [[apple]],2.0
+an apple,/c/en/apple,UsedFor,sate hunger,/c/en/sate_hunger,You can use [[an apple]] to [[sate hunger]],2.0
+apple core,/c/en/apple_core,DerivedFrom,apple,/c/en/apple/n,,2.0
+eple,/c/no/eple/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[eple]] is a translation of [[apple]],2.0
+bad apple,/c/en/bad_apple,DerivedFrom,apple,/c/en/apple/n,,2.0
+jabučast,/c/sh/jabučast/a,RelatedTo,apple,/c/en/apple,,2.0
+omena,/c/fi/omena/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[omena]] is a translation of [[apple]],2.0
+ต้นแอปเปิ้ลสวน,/c/th/ต้นแอปเปิ้ลสวน/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[ต้นแอปเปิ้ลสวน]] is a translation of [[apple]],2.0
+An apple,/c/en/apple,HasA,many cooking uses,/c/en/many_cooking_uses,[[An apple]] has [[many cooking uses]],2.0
+pommier,/c/fr/pommier/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[pommier]] is a translation of [[apple]],2.0
+maçã,/c/pt/maçã/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[maçã]] is a translation of [[apple]],2.0
+apple blossom,/c/en/apple_blossom,DerivedFrom,apple,/c/en/apple/n,,2.0
+cooking apple,/c/en/cooking_apple/n/wn/food,IsA,apple,/c/en/apple/n/wn/food,[[cooking apple]] is a type of [[apple]],2.0
+jabłko,/c/pl/jabłko/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[jabłko]] is a translation of [[apple]],2.0
+apple,/c/en/apple/n/wn/food,IsA,pome,/c/en/pome/n/wn/plant,[[apple]] is a type of [[pome]],2.0
+مردمک چشم,/c/fa/مردمک_چشم/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[مردمک چشم]] is a translation of [[apple]],2.0
+pokok epal,/c/id/pokok_epal/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[pokok epal]] is a translation of [[apple]],2.0
+quadra,/c/pt/quadra/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[quadra]] is a translation of [[apple]],2.0
+Malus pumila,/c/en/malus_pumila/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[Malus pumila]] is a synonym of [[apple]],2.0
+apple juice,/c/en/apple_juice,DerivedFrom,apple,/c/en/apple/n,,2.0
+epal,/c/id/epal/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[epal]] is a translation of [[apple]],2.0
+Malus pumila,/c/fi/malus_pumila/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[Malus pumila]] is a translation of [[apple]],2.0
+ผลแอปเปิ้ล,/c/th/ผลแอปเปิ้ล/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[ผลแอปเปิ้ล]] is a translation of [[apple]],2.0
+apple pie,/c/en/apple_pie,DerivedFrom,apple,/c/en/apple/n,,2.0
+تُفَّاح,/c/ar/تفاح/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[تُفَّاح]] is a translation of [[apple]],2.0
+ลูกแอปเปิ้ล,/c/th/ลูกแอปเปิ้ล/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[ลูกแอปเปิ้ล]] is a translation of [[apple]],2.0
+apple,/c/en/apple/n/wn/plant,IsA,apple tree,/c/en/apple_tree/n/wn/plant,[[apple]] is a type of [[apple tree]],2.0
+macieira,/c/pt/macieira/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[macieira]] is a translation of [[apple]],2.0
+תַּפּוּחַ,/c/he/תפוח/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[תַּפּוּחַ]] is a translation of [[apple]],2.0
+りんごの木,/c/ja/りんごの木/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[りんごの木]] is a translation of [[apple]],2.0
+リンゴ,/c/ja/リンゴ/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[リンゴ]] is a translation of [[apple]],2.0
+malus pumila,/c/fr/malus_pumila/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[malus pumila]] is a translation of [[apple]],2.0
+apel,/c/id/apel/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[apel]] is a translation of [[apple]],2.0
+madeira de macieira,/c/pt/madeira_de_macieira/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[madeira de macieira]] is a translation of [[apple]],2.0
+תַּפּוּחַ,/c/he/תפוח/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[תַּפּוּחַ]] is a translation of [[apple]],2.0
+pomme,/c/fr/pomme/n,Synonym,apple,/c/en/apple,,2.0
+pomme,/c/fr/pomme/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[pomme]] is a translation of [[apple]],2.0
+西洋林檎,/c/ja/西洋林檎/n,Synonym,apple,/c/en/apple,,2.0
+macieira,/c/pt/macieira/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[macieira]] is a translation of [[apple]],2.0
+tarhaomenapuu,/c/fi/tarhaomenapuu/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[tarhaomenapuu]] is a translation of [[apple]],2.0
+アップル,/c/ja/アップル/n/jmdict/1,Synonym,apple,/c/en/apple,,2.0
+Apple,/c/en/apple,IsA,computer brand,/c/en/computer_brand,[[Apple]] is a kind of [[computer brand]].,2.0
+jabukovača,/c/sh/jabukovača/n,RelatedTo,apple,/c/en/apple,,2.0
+crab apple,/c/en/crab_apple/n/wn/food,IsA,apple,/c/en/apple/n/wn/food,[[crab apple]] is a type of [[apple]],2.0
+pomer,/c/ca/pomer/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[pomer]] is a translation of [[apple]],2.0
+林檎,/c/ja/林檎/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[林檎]] is a translation of [[apple]],2.0
+manzano,/c/es/manzano/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[manzano]] is a translation of [[apple]],2.0
+sagar,/c/eu/sagar/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[sagar]] is a translation of [[apple]],2.0
+سیب,/c/fa/سیب/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[سیب]] is a translation of [[apple]],2.0
+pomme,/c/fr/pomme/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[pomme]] is a translation of [[apple]],2.0
+apple polish,/c/en/apple_polish,DerivedFrom,apple,/c/en/apple/n,,2.0
+Malus pumila,/c/ca/malus_pumila/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[Malus pumila]] is a translation of [[apple]],2.0
+林檎,/c/ja/林檎/n/jmdict/1,Synonym,apple,/c/en/apple,,2.0
+orchard apple tree,/c/en/orchard_apple_tree/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[orchard apple tree]] is a synonym of [[apple]],2.0
+แอปเปิ้ล,/c/th/แอปเปิ้ล/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[แอปเปิ้ล]] is a translation of [[apple]],2.0
+æble,/c/da/æble/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[æble]] is a translation of [[apple]],2.0
+jabukovina,/c/sh/jabukovina/n,RelatedTo,apple,/c/en/apple,,2.0
+apple,/c/en/apple/n/wn/food,PartOf,apple,/c/en/apple/n/wn/plant,[[apple]] is a part of [[apple]],2.0
+maçã,/c/pt/maçã/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[maçã]] is a translation of [[apple]],2.0
+apple strudel,/c/en/apple_strudel,DerivedFrom,apple,/c/en/apple/n,,2.0
+manzana,/c/es/manzana/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[manzana]] is a translation of [[apple]],2.0
+سیب,/c/fa/سیب/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[سیب]] is a translation of [[apple]],2.0
+an apple,/c/en/apple,UsedFor,making apple pie,/c/en/making_apple_pie,[[an apple]] is used for [[making apple pie]],2.0
+apple,/c/en/apple/n,Synonym,jabuka,/c/sh/jabuka,,2.0
+jabučni,/c/sh/jabučni/a,RelatedTo,apple,/c/en/apple,,2.0
+an apple,/c/en/apple,HasA,a skin,/c/en/skin,[[an apple]] has [[a skin]],2.0
+jabuka,/c/sh/jabuka/n,RelatedTo,apple,/c/en/apple,,2.0
+アップル,/c/ja/アップル,Synonym,apple,/c/en/apple,,2.0
+pomo,/c/it/pomo/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[pomo]] is a translation of [[apple]],2.0
+リンゴ,/c/ja/リンゴ/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[リンゴ]] is a translation of [[apple]],2.0
+pokok epal,/c/ms/pokok_epal/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[pokok epal]] is a translation of [[apple]],2.0
+apple,/c/en/apple/n/wn/food,IsA,edible fruit,/c/en/edible_fruit/n/wn/food,[[apple]] is a type of [[edible fruit]],2.0
+苹果,/c/ja/苹果/n/jmdict/1,Synonym,apple,/c/en/apple,,2.0
+eating apple,/c/en/eating_apple/n/wn/food,IsA,apple,/c/en/apple/n/wn/food,[[eating apple]] is a type of [[apple]],2.0
+An apple,/c/en/apple,HasA,seeds inside,/c/en/seeds_inside,[[An apple]] has [[seeds inside]],2.0
+mollë,/c/sq/mollë/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[mollë]] is a translation of [[apple]],2.0
+りんご,/c/ja/りんご/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[りんご]] is a translation of [[apple]],2.0
+poma,/c/ca/poma/n/wn/food,Synonym,apple,/c/en/apple/n/wn/food,[[poma]] is a translation of [[apple]],2.0
+omena,/c/fi/omena/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[omena]] is a translation of [[apple]],2.0
+jabučica,/c/sh/jabučica/n,RelatedTo,apple,/c/en/apple,,2.0
+Malus pumila,/c/es/malus_pumila/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[Malus pumila]] is a translation of [[apple]],2.0
+مردمک چشم,/c/fa/مردمک_چشم/n/wn/plant,Synonym,apple,/c/en/apple/n/wn/plant,[[مردمک چشم]] is a translation of [[apple]],2.0
+apple,/c/en/apple,Antonym,orange,/c/en/orange,[[apple]] is the opposite of [[orange]],1.8489999999999998
+apple,/c/en/apple,RelatedTo,pies,/c/en/pies,[[apple]] is related to [[pies]],1.843
+apple,/c/en/apple,RelatedTo,forbidden,/c/en/forbidden,[[apple]] is related to [[forbidden]],1.8120000000000003
+apple,/c/en/apple,RelatedTo,red green,/c/en/red_green,[[apple]] is related to [[red green]],1.775
+apple,/c/en/apple,RelatedTo,cider,/c/en/cider,[[apple]] is related to [[cider]],1.767
+apple,/c/en/apple,RelatedTo,green fruit,/c/en/green_fruit,[[apple]] is related to [[green fruit]],1.7320000000000002
+apple,/c/en/apple,DistinctFrom,orange,/c/en/orange,[[apple]] is not [[orange]],1.69
+apple,/c/en/apple,RelatedTo,tree fruit,/c/en/tree_fruit,[[apple]] is related to [[tree fruit]],1.638
+apple,/c/en/apple,RelatedTo,teachers,/c/en/teachers,[[apple]] is related to [[teachers]],1.62
+apple,/c/en/apple,RelatedTo,granny smith,/c/en/granny_smith,[[apple]] is related to [[granny smith]],1.5259999999999998
+apple,/c/en/apple,RelatedTo,smith,/c/en/smith,[[apple]] is related to [[smith]],1.5259999999999998
+apple,/c/en/apple,RelatedTo,granny,/c/en/granny,[[apple]] is related to [[granny]],1.5259999999999998
+苹果,/c/zh/苹果,Synonym,apple,/c/en/apple,,1.5
+apple,/c/en/apple,RelatedTo,round fruit,/c/en/round_fruit,[[apple]] is related to [[round fruit]],1.48
+apple,/c/en/apple,RelatedTo,red delicious,/c/en/red_delicious,[[apple]] is related to [[red delicious]],1.396
+apple,/c/en/apple,RelatedTo,peel,/c/en/peel,[[apple]] is related to [[peel]],1.3840000000000003
+apple,/c/en/apple,RelatedTo,newton,/c/en/newton,[[apple]] is related to [[newton]],1.3070000000000004
+apple,/c/en/apple,RelatedTo,mac computer,/c/en/mac_computer,[[apple]] is related to [[mac computer]],1.302
+apple,/c/en/apple,RelatedTo,crunchy,/c/en/crunchy,[[apple]] is related to [[crunchy]],1.2800000000000002
+apple,/c/en/apple,RelatedTo,ate,/c/en/ate,[[apple]] is related to [[ate]],1.255
+apple,/c/en/apple,RelatedTo,eden fruit,/c/en/eden_fruit,[[apple]] is related to [[eden fruit]],1.2409999999999997
+apple,/c/en/apple,RelatedTo,forbidden fruit,/c/en/forbidden_fruit,[[apple]] is related to [[forbidden fruit]],1.2350000000000003
+apple,/c/en/apple,RelatedTo,pips,/c/en/pips,[[apple]] is related to [[pips]],1.2199999999999998
+apple,/c/en/apple,RelatedTo,adams,/c/en/adams,[[apple]] is related to [[adams]],1.165
+apple,/c/en/apple,RelatedTo,doctor,/c/en/doctor,[[apple]] is related to [[doctor]],1.1589999999999998
+apple,/c/en/apple,RelatedTo,orchard,/c/en/orchard,[[apple]] is related to [[orchard]],1.1320000000000001
+apple,/c/en/apple,RelatedTo,ball,/c/en/ball,[[apple]] is related to [[ball]],1.1029999999999998
+apple,/c/en/apple,RelatedTo,company,/c/en/company,[[apple]] is related to [[company]],1.089
+apple,/c/en/apple,RelatedTo,cider fruit,/c/en/cider_fruit,[[apple]] is related to [[cider fruit]],1.0220000000000002
+pum,/c/gsw/pum/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,الما,/c/ota/الما,,1.0
+spitzenburgh,/c/en/spitzenburgh/n,RelatedTo,apple,/c/en/apple,,1.0
+thorn apple,/c/en/thorn_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+aagtappel,/c/nl/aagtappel/n,RelatedTo,apple,/c/en/apple,,1.0
+cherry apple,/c/en/cherry_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+táo tây,/c/vi/táo_tây/n,RelatedTo,apple,/c/en/apple,,1.0
+林檎,/c/zh/林檎/n/wikt/en_2,RelatedTo,apple,/c/en/apple,,1.0
+melo,/c/it/melo/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,guavirana a,/c/gn/guavirana_a,,1.0
+paring knife,/c/en/paring_knife/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,瓜果,/c/nan/瓜果,,1.0
+pomander,/c/en/pomander/n,RelatedTo,apple,/c/en/apple,,1.0
+pineapple,/c/en/pineapple/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+apple woman,/c/en/apple_woman,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,jabłko,/c/pl/jabłko,,1.0
+pomaro,/c/vec/pomaro/n,RelatedTo,apple,/c/en/apple,,1.0
+ཀུ ཤུ,/c/bo/ཀུ_ཤུ/n,RelatedTo,apple,/c/en/apple,,1.0
+bom,/c/vi/bom/n/wikt/en_2,RelatedTo,apple,/c/en/apple,,1.0
+maçã,/c/pt/maçã/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ეფლი,/c/ka/ეფლი,,1.0
+an apple,/c/en/apple,UsedFor,representing knowlege,/c/en/representing_knowlege,[[an apple]] is for [[representing knowlege]],1.0
+appel,/c/dum/appel/n,RelatedTo,apple,/c/en/apple,,1.0
+horseapple,/c/en/horseapple,DerivedFrom,apple,/c/en/apple/n,,1.0
+ඇපල්,/c/si/ඇපල්/n,RelatedTo,apple,/c/en/apple,,1.0
+apple orchard,/c/en/apple_orchard,DerivedFrom,apple,/c/en/apple/n,,1.0
+умарь,/c/myv/умарь/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,enjoy the fruit,/c/en/enjoy_fruit,You can use [[an apple]] to [[enjoy the fruit]],1.0
+apple,/c/en/apple/n,Synonym,苹果,/c/zh/苹果,,1.0
+compare apples with apples,/c/en/compare_apples_with_apples,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,pomu,/c/zdj/pomu,,1.0
+apfel,/c/de/apfel/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,애플,/c/ko/애플,,1.0
+zemlbába,/c/cs/zemlbába/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,mansana,/c/lad/mansana,,1.0
+appleton,/c/en/appleton,DerivedFrom,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,תפוח,/c/he/תפוח,,1.0
+egle,/c/en/egle/n,RelatedTo,apple,/c/en/apple,,1.0
+사과,/c/ko/사과/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pùm,/c/egl/pùm,,1.0
+apfel,/c/de/apfel/n,Synonym,apple,/c/en/apple,,1.0
+apple peru,/c/en/apple_peru,DerivedFrom,apple,/c/en/apple/n,,1.0
+súrepli,/c/fo/súrepli/n,RelatedTo,apple,/c/en/apple,,1.0
+tufaax,/c/so/tufaax/n,RelatedTo,apple,/c/en/apple,,1.0
+apple corer,/c/en/apple_corer/n,RelatedTo,apple,/c/en/apple,,1.0
+griffin,/c/en/griffin/n,RelatedTo,apple,/c/en/apple,,1.0
+epfil,/c/gsw/epfil/n,RelatedTo,apple,/c/en/apple,,1.0
+omenatarha,/c/fi/omenatarha/n,RelatedTo,apple,/c/en/apple,,1.0
+bismarck,/c/en/bismarck/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pomo,/c/ia/pomo,,1.0
+kookappel,/c/nl/kookappel/n,RelatedTo,apple,/c/en/apple,,1.0
+gala,/c/en/gala/n,RelatedTo,apple,/c/en/apple,,1.0
+cousinette,/c/fr/cousinette/n,RelatedTo,apple,/c/en/apple,,1.0
+renneting,/c/en/renneting/n,RelatedTo,apple,/c/en/apple,,1.0
+manzana,/c/an/manzana/n,RelatedTo,apple,/c/en/apple,,1.0
+baking apple,/c/en/baking_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+orin,/c/en/orin/n,RelatedTo,apple,/c/en/apple,,1.0
+redstreak,/c/en/redstreak/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,apel,/c/id/apel,,1.0
+apple,/c/en/apple/n,Synonym,aval,/c/kw/aval,,1.0
+עפל,/c/yi/עפל/n,RelatedTo,apple,/c/en/apple,,1.0
+apple snow,/c/en/apple_snow,DerivedFrom,apple,/c/en/apple/n,,1.0
+waldorf salad,/c/en/waldorf_salad/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,μηλο,/c/el/μηλο,,1.0
+appelwijf,/c/nl/appelwijf/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,alma,/c/hu/alma,,1.0
+apple,/c/en/apple/n,Synonym,äpple,/c/sv/äpple,,1.0
+golden delicious,/c/en/golden_delicious/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,𒄑𒈢,/c/akk/𒄑𒈢,,1.0
+🍏,/c/mul/🍏,RelatedTo,apple,/c/en/apple,,1.0
+tumbong,/c/fil/tumbong/n,RelatedTo,apple,/c/en/apple,,1.0
+crab apple,/c/en/crab_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+ਸਿਓ,/c/pa/ਸਿਓ/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,tree,/c/en/tree,,1.0
+pall,/c/sv/pall/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,appel,/c/ofs/appel,,1.0
+apple,/c/en/apple,EtymologicallyDerivedFrom,appel,/c/enm/appel,,1.0
+eating apple,/c/en/eating_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,maçã,/c/pt/maçã,,1.0
+jablko,/c/cs/jablko/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ആപ്പിൾപ്പഴം,/c/ml/ആപ്പിൾപ്പഴം,,1.0
+apple,/c/en/apple/n,Synonym,ябълка,/c/bg/ябълка,,1.0
+omenanraakile,/c/fi/omenanraakile/n,RelatedTo,apple,/c/en/apple,,1.0
+apple of sodom,/c/en/apple_of_sodom,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple scoop,/c/en/apple_scoop,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple seed,/c/en/apple_seed,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,蘋果,/c/zh/蘋果,,1.0
+applewoman,/c/en/applewoman/n,RelatedTo,apple,/c/en/apple,,1.0
+apple bee,/c/en/apple_bee/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,aiple,/c/sco/aiple,,1.0
+ābli,/c/prg/ābli/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,μαλον,/c/grc/μαλον,,1.0
+apple,/c/en/apple/n,Synonym,pomo,/c/eo/pomo,,1.0
+bonza,/c/en/bonza/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,jablko,/c/cs/jablko,,1.0
+apple twig cutter,/c/en/apple_twig_cutter,DerivedFrom,apple,/c/en/apple/n,,1.0
+tampoe,/c/en/tampoe/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,mansana,/c/qu/mansana,,1.0
+appled,/c/en/appled,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple charlotte,/c/en/apple_charlotte,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple,RelatedTo,coconut,/c/en/coconut,,1.0
+äpüli,/c/fi/äpüli,EtymologicallyDerivedFrom,apple,/c/en/apple,,1.0
+jablečný,/c/cs/jablečný/a,Synonym,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,omena,/c/fi/omena,,1.0
+ಸೇಬು,/c/kn/ಸೇಬು/n,RelatedTo,apple,/c/en/apple,,1.0
+ប៉ុម,/c/km/ប៉ុម/n,RelatedTo,apple,/c/en/apple,,1.0
+appel,/c/af/appel/n,RelatedTo,apple,/c/en/apple,,1.0
+mobby,/c/en/mobby/n,RelatedTo,apple,/c/en/apple,,1.0
+gala apple,/c/en/gala_apple/n,IsA,apple,/c/en/apple/n,,1.0
+蘋果,/c/zh/蘋果/n,RelatedTo,apple,/c/en/apple,,1.0
+kweeappel,/c/nl/kweeappel/n,RelatedTo,apple,/c/en/apple,,1.0
+apple fly,/c/en/apple_fly,DerivedFrom,apple,/c/en/apple,,1.0
+jabłuko,/c/dsb/jabłuko/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,alma,/c/gag/alma,,1.0
+apple aphid,/c/en/apple_aphid,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,ፖም,/c/am/ፖም,,1.0
+apple,/c/en/apple/n,Synonym,էփլ,/c/hy/էփլ,,1.0
+table apple,/c/en/table_apple/n,RelatedTo,apple,/c/en/apple,,1.0
+maçanilha,/c/pt/maçanilha/n,RelatedTo,apple,/c/en/apple,,1.0
+honeycrisp,/c/en/honeycrisp/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pome,/c/rw/pome,,1.0
+applewood,/c/en/applewood,DerivedFrom,apple,/c/en/apple/n,,1.0
+chess apple,/c/en/chess_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,appel,/c/nds/appel,,1.0
+mela,/c/it/mela/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,æble,/c/da/æble,,1.0
+mei,/c/lij/mei/n,RelatedTo,apple,/c/en/apple,,1.0
+omenasammal,/c/fi/omenasammal/n,RelatedTo,apple,/c/en/apple,,1.0
+malvern pudding,/c/en/malvern_pudding/n,RelatedTo,apple,/c/en/apple,,1.0
+আপেল,/c/bn/আপেল,EtymologicallyDerivedFrom,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,mansanas,/c/fil/mansanas,,1.0
+apple of love,/c/en/apple_of_love,DerivedFrom,apple,/c/en/apple/n,,1.0
+schafsnase,/c/de/schafsnase/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,āporo,/c/mi/āporo,,1.0
+apple,/c/en/apple/n,Synonym,pomme,/c/fr/pomme,,1.0
+яблочный,/c/ru/яблочный/a,RelatedTo,apple,/c/en/apple,,1.0
+sidra dulce,/c/es/sidra_dulce/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,સફરજન,/c/gu/સફરજન,,1.0
+apple cheeked,/c/en/apple_cheeked,DerivedFrom,apple,/c/en/apple/n,,1.0
+crabapple,/c/en/crabapple/n,RelatedTo,apple,/c/en/apple,,1.0
+cranapple,/c/en/cranapple/n,RelatedTo,apple,/c/en/apple,,1.0
+malay apple,/c/en/malay_apple/n,RelatedTo,apple,/c/en/apple,,1.0
+jabloň,/c/cs/jabloň/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,making pie,/c/en/making_pie,[[an apple]] is used for [[making pie]],1.0
+mêl,/c/fur/mêl/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ябко,/c/rue/ябко,,1.0
+apple,/c/en/apple/n,Synonym,苹果,/c/ja/苹果,,1.0
+i apile,/c/xh/i_apile/n,RelatedTo,apple,/c/en/apple,,1.0
+apple squire,/c/en/apple_squire,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple shell,/c/en/apple_shell,DerivedFrom,apple,/c/en/apple/n,,1.0
+μήλο,/c/el/μήλο/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,dessert,/c/en/dessert,[[an apple]] is for [[dessert]],1.0
+apple,/c/en/apple/n,Synonym,mansanas,/c/ilo/mansanas,,1.0
+an apple,/c/en/apple,UsedFor,make apple cider,/c/en/make_apple_cider,[[an apple]] is used to [[make apple cider]],1.0
+codling moth,/c/en/codling_moth/n,RelatedTo,apple,/c/en/apple,,1.0
+An apple,/c/en/apple,IsA,84% water,/c/en/84_water,[[An apple]] is [[84% water]],1.0
+apple,/c/en/apple/n,Synonym,paomme,/c/nrf/paomme,,1.0
+ⰰⰱⰾⱏⰽⱁ,/c/cu/ⰰⰱⰾⱏⰽⱁ/n,RelatedTo,apple,/c/en/apple,,1.0
+apple headed,/c/en/apple_headed,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,ihhabhula,/c/zu/ihhabhula,,1.0
+apple sauce,/c/en/apple_sauce/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,súrepli,/c/fo/súrepli,,1.0
+bailey,/c/en/bailey/n,RelatedTo,apple,/c/en/apple,,1.0
+olma,/c/uz/olma/n,RelatedTo,apple,/c/en/apple,,1.0
+blade apple,/c/en/blade_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,epal,/c/ms/epal,,1.0
+manzanar,/c/es/manzanar/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,aval,/c/br/aval,,1.0
+apple,/c/en/apple/n,Synonym,алма,/c/nog/алма,,1.0
+apple,/c/en/apple/n,Synonym,صوف,/c/sd/صوف,,1.0
+dri,/c/en/dri/n,HasContext,apple,/c/en/apple,,1.0
+poma,/c/ca/poma/n,Synonym,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,táo tây,/c/vi/táo_tây,,1.0
+an apple,/c/en/apple,UsedFor,getting good carbs,/c/en/getting_good_carbs,[[an apple]] is used for [[getting good carbs]],1.0
+An apple,/c/en/apple,HasProperty,one kind of fruit,/c/en/one_kind_of_fruit,[[An apple]] is [[one kind of fruit]],1.0
+apple liqueur,/c/en/apple_liqueur,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,aples,/c/abe/aples,,1.0
+manzano,/c/es/manzano/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ပန်းသီး,/c/my/ပန်းသီး,,1.0
+sagar,/c/eu/sagar/n,RelatedTo,apple,/c/en/apple,,1.0
+мыӏэрыс,/c/ady/мыӏэрыс/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,apel,/c/pap/apel,,1.0
+applecart,/c/en/applecart,DerivedFrom,apple,/c/en/apple/n,,1.0
+This apple,/c/en/apple,IsA,a beautiful golden green color,/c/en/beautiful_golden_green_color,[[This apple]] is [[a beautiful golden green color]],1.0
+braeburn,/c/en/braeburn/n,RelatedTo,apple,/c/en/apple,,1.0
+jazz apple,/c/en/jazz_apple/n,IsA,apple,/c/en/apple/n,,1.0
+äpple,/c/sv/äpple/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,apple computer,/c/nah/apple_computer,,1.0
+mansanas,/c/ceb/mansanas/n,RelatedTo,apple,/c/en/apple,,1.0
+geniting,/c/en/geniting/n,RelatedTo,apple,/c/en/apple,,1.0
+apfel,/c/gmh/apfel/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,سێو,/c/ku/سێو,,1.0
+russetin,/c/en/russetin/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ཀུ ཤུ,/c/bo/ཀུ_ཤུ,,1.0
+apple mose,/c/en/apple_mose,DerivedFrom,apple,/c/en/apple/n,,1.0
+aagt,/c/nl/aagt/n,RelatedTo,apple,/c/en/apple,,1.0
+manzana octli,/c/nci/manzana_octli/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,мар,/c/mdf/мар,,1.0
+appletini,/c/en/appletini,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,mela,/c/it/mela,,1.0
+apple cider,/c/en/apple_cider,DerivedFrom,apple,/c/en/apple/n,,1.0
+appleless,/c/en/appleless,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,obuolys,/c/lt/obuolys,,1.0
+applish,/c/en/applish/a,RelatedTo,apple,/c/en/apple,,1.0
+manchineel tree,/c/en/manchineel_tree/n,RelatedTo,apple,/c/en/apple,,1.0
+apple polishing,/c/en/apple_polishing,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,RelatedTo,fruit,/c/en/fruit,,1.0
+apple geranium,/c/en/apple_geranium/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,јаболко,/c/mk/јаболко,,1.0
+ᏒᎦᏔ,/c/chr/ᏒᎦᏔ/n,RelatedTo,apple,/c/en/apple,,1.0
+candy apple,/c/en/candy_apple/n,RelatedTo,apple,/c/en/apple,,1.0
+pippin,/c/en/pippin,IsA,apple,/c/en/apple/n,,1.0
+תפוח,/c/he/תפוח/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,bom,/c/vi/bom,,1.0
+apple,/c/en/apple/n,RelatedTo,temperate,/c/en/temperate,,1.0
+apple drops,/c/en/apple_drops,DerivedFrom,apple,/c/en/apple/n,,1.0
+earth apple,/c/en/earth_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+granny smith,/c/en/granny_smith/n,RelatedTo,apple,/c/en/apple,,1.0
+蘋,/c/zh/蘋,Synonym,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,takkólchoba,/c/akz/takkólchoba,,1.0
+apple,/c/en/apple,ExternalURL,Q89,http://wikidata.dbpedia.org/resource/Q89,,1.0
+golden delicious apple,/c/en/golden_delicious_apple/n,IsA,apple,/c/en/apple/n,,1.0
+The stem,/c/en/stem,PartOf,an apple,/c/en/apple,[[The stem]] is part of [[an apple]],1.0
+An apple,/c/en/apple,IsA,a healthy treat,/c/en/healthy_treat,[[An apple]] is [[a healthy treat]],1.0
+maçana,/c/mwl/maçana/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,IsA,edible fruit,/c/en/edible_fruit/n,,1.0
+apple,/c/en/apple/n,Synonym,себ,/c/tg/себ,,1.0
+apple jelly,/c/en/apple_jelly,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,ఆపిల్,/c/te/ఆపిల్,,1.0
+apple,/c/en/apple/n,Synonym,õun,/c/et/õun,,1.0
+eve's pudding,/c/en/eve's_pudding/n,RelatedTo,apple,/c/en/apple,,1.0
+eple,/c/no/eple/n,Synonym,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pome,/c/nov/pome,,1.0
+epli,/c/fo/epli/n,RelatedTo,apple,/c/en/apple,,1.0
+apple pear,/c/en/apple_pear,DerivedFrom,apple,/c/en/apple/n,,1.0
+ååpel,/c/frr/ååpel/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,getting good grades from a teacher,/c/en/getting_good_grades_from_teacher,[[an apple]] is used for [[getting good grades from a teacher]],1.0
+jablkový,/c/sk/jablkový/a,RelatedTo,apple,/c/en/apple,,1.0
+apple schnapps,/c/en/apple_schnapps,DerivedFrom,apple,/c/en/apple/n,,1.0
+apples and pears,/c/en/apples_and_pears,DerivedFrom,apple,/c/en/apple/n,,1.0
+apel,/c/fy/apel/n,RelatedTo,apple,/c/en/apple,,1.0
+granny smith apple,/c/en/granny_smith_apple/n,IsA,apple,/c/en/apple/n,,1.0
+pom,/c/ie/pom/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,corporation,/c/en/corporation,,1.0
+apple of peru,/c/en/apple_of_peru,DerivedFrom,apple,/c/en/apple/n,,1.0
+applelike,/c/en/applelike/a,RelatedTo,apple,/c/en/apple,,1.0
+fire blight,/c/en/fire_blight/n,RelatedTo,apple,/c/en/apple,,1.0
+milo,/c/nap/milo/n,RelatedTo,apple,/c/en/apple,,1.0
+sops of wine,/c/en/sops_of_wine/n,RelatedTo,apple,/c/en/apple,,1.0
+macolyte,/c/en/macolyte/n,RelatedTo,apple,/c/en/apple,,1.0
+omenanviljely,/c/fi/omenanviljely/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,mazana,/c/an/mazana,,1.0
+яблочко,/c/ru/яблочко/n,RelatedTo,apple,/c/en/apple,,1.0
+apple john,/c/en/apple_john,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,apel,/c/jv/apel,,1.0
+poma,/c/oc/poma/n,RelatedTo,apple,/c/en/apple,,1.0
+mazanu,/c/ast/mazanu/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,yapolo,/c/fj/yapolo,,1.0
+խնձոր,/c/hy/խնձոր/n,Synonym,apple,/c/en/apple,,1.0
+apple bearing,/c/en/apple_bearing,DerivedFrom,apple,/c/en/apple,,1.0
+effél,/c/gsw/effél/n,RelatedTo,apple,/c/en/apple,,1.0
+melo,/c/la/melo/n,RelatedTo,apple,/c/en/apple,,1.0
+wilding,/c/en/wilding/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,алма,/c/kum/алма,,1.0
+lambswool,/c/en/lambswool/n/wikt/en_2,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,苹果,/c/nan/苹果,,1.0
+apple,/c/en/apple/n,Synonym,mollë,/c/sq/mollë,,1.0
+omenapuutarha,/c/fi/omenapuutarha/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,AtLocation,the produce section of the supermarket,/c/en/produce_section_of_supermarket,You are likely to find [[an apple]] in [[the produce section of the supermarket]],1.0
+pome,/c/nov/pome/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pom,/c/vec/pom,,1.0
+as sure as god made little apples,/c/en/as_sure_as_god_made_little_apples,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,алма,/c/ba/алма,,1.0
+ひょうか,/c/ja/ひょうか/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,سوپ,/c/bal/سوپ,,1.0
+apple punic,/c/en/apple_punic,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/de/apple/n,Synonym,apple,/c/en/apple,,1.0
+crab tree,/c/en/crab_tree/n,RelatedTo,apple,/c/en/apple,,1.0
+apple cheese,/c/en/apple_cheese,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple core,/c/en/apple_core/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pom,/c/wo/pom,,1.0
+appelmoes,/c/nl/appelmoes/n,RelatedTo,apple,/c/en/apple,,1.0
+paomme,/c/nrf/paomme/n,RelatedTo,apple,/c/en/apple,,1.0
+earthapple,/c/en/earthapple,DerivedFrom,apple,/c/en/apple,,1.0
+crabapple,/c/en/crabapple,DerivedFrom,apple,/c/en/apple,,1.0
+सफरचंद,/c/mr/सफरचंद/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,IsA,accessory fruit,/c/en/accessory_fruit/n,,1.0
+afal,/c/cy/afal/n,RelatedTo,apple,/c/en/apple,,1.0
+egg apple,/c/en/egg_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,bôm,/c/vi/bôm,,1.0
+alligator apple,/c/en/alligator_apple/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,mìlo,/c/nap/mìlo,,1.0
+pomeroy,/c/en/pomeroy/n,RelatedTo,apple,/c/en/apple,,1.0
+gush,/c/sq/gush/n,RelatedTo,apple,/c/en/apple,,1.0
+appleless,/c/en/appleless/a,RelatedTo,apple,/c/en/apple,,1.0
+appel,/c/ofs/appel/n,RelatedTo,apple,/c/en/apple,,1.0
+malic,/c/en/malic/a,RelatedTo,apple,/c/en/apple,,1.0
+🍏,/c/mul/🍏,SymbolOf,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,eple,/c/no/eple,,1.0
+apple berry,/c/en/apple_berry,DerivedFrom,apple,/c/en/apple,,1.0
+pip,/c/en/pip/n/wikt/en_2,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,AtLocation,a house,/c/en/house,You are likely to find [[an apple]] in [[a house]].,1.0
+an apple,/c/en/apple,UsedFor,test your theory of gravity,/c/en/test_theory_of_gravity,You can use [[an apple]] to [[test your theory of gravity]],1.0
+applescript,/c/en/applescript,DerivedFrom,apple,/c/en/apple,,1.0
+calvados,/c/en/calvados/n,RelatedTo,apple,/c/en/apple,,1.0
+سوپ,/c/bal/سوپ/n,RelatedTo,apple,/c/en/apple,,1.0
+melappio,/c/it/melappio/n,RelatedTo,apple,/c/en/apple,,1.0
+appletise,/c/en/appletise,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple mush,/c/en/apple_mush,DerivedFrom,apple,/c/en/apple,,1.0
+big apple,/c/de/big_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,epuł,/c/wym/epuł,,1.0
+ihhabhula,/c/zu/ihhabhula/n,RelatedTo,apple,/c/en/apple,,1.0
+rosolli,/c/fi/rosolli/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,AtLocation,an apple orchard,/c/en/apple_orchard,You are likely to find [[an apple]] in [[an apple orchard]],1.0
+apel,/c/id/apel/n,Synonym,apple,/c/en/apple,,1.0
+果物,/c/ja/果物/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+măr,/c/ro/măr/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,pie,/c/en/pie,[[an apple]] is for [[pie]],1.0
+aipple,/c/sco/aipple/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,แอปเปิล,/c/th/แอปเปิล,,1.0
+ፖም,/c/am/ፖም/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,yva,/c/gn/yva,,1.0
+леснина,/c/ru/леснина/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,사과,/c/ko/사과,,1.0
+apple,/c/en/apple/n,Synonym,paoma,/c/mg/paoma,,1.0
+apple,/c/en/apple/n,Synonym,аблъко,/c/cu/аблъко,,1.0
+apple,/c/en/apple,IsA,friut,/c/en/friut,[[apple]] is a [[friut]],1.0
+mansana,/c/lad/mansana/n,RelatedTo,apple,/c/en/apple,,1.0
+takkonlipun,/c/cho/takkonlipun/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,يالما,/c/ug/يالما,,1.0
+apple,/c/en/apple/n,Synonym,apel,/c/lb/apel,,1.0
+apple corer,/c/en/apple_corer,DerivedFrom,apple,/c/en/apple/n,,1.0
+aapel,/c/frr/aapel/n,RelatedTo,apple,/c/en/apple,,1.0
+applewoman,/c/en/applewoman,DerivedFrom,apple,/c/en/apple,,1.0
+ئالما,/c/ug/ئالما/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+quarrender,/c/en/quarrender/n,RelatedTo,apple,/c/en/apple,,1.0
+apple eating,/c/en/apple_eating,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple jack,/c/en/apple_jack,DerivedFrom,apple,/c/en/apple/n,,1.0
+applewood,/c/en/applewood,DerivedFrom,apple,/c/en/apple,,1.0
+apple blossom,/c/en/apple_blossom/n,RelatedTo,apple,/c/en/apple,,1.0
+appel,/c/osx/appel/n,RelatedTo,apple,/c/en/apple,,1.0
+hedgeapple,/c/en/hedgeapple,DerivedFrom,apple,/c/en/apple,,1.0
+apple brandy,/c/en/apple_brandy,DerivedFrom,apple,/c/en/apple/n,,1.0
+uball,/c/sga/uball/n,RelatedTo,apple,/c/en/apple,,1.0
+horseapple,/c/en/horseapple,DerivedFrom,apple,/c/en/apple,,1.0
+osx,/c/en/osx,CreatedBy,Apple,/c/en/apple,[[osx]] is created by [[Apple]].,1.0
+リンゴ,/c/ja/リンゴ/n,RelatedTo,apple,/c/en/apple,,1.0
+apple slump,/c/en/apple_slump,DerivedFrom,apple,/c/en/apple/n,,1.0
+ябълка,/c/bg/ябълка/n,Synonym,apple,/c/en/apple,,1.0
+omenatuote,/c/fi/omenatuote/n,RelatedTo,apple,/c/en/apple,,1.0
+ᦖᦱᧅᦘᦲᧃᧉᦷᦅ,/c/khb/ᦖᦱᧅᦘᦲᧃᧉᦷᦅ/n,RelatedTo,apple,/c/en/apple,,1.0
+cashew apple,/c/en/cashew_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,تفاح,/c/ar/تفاح,,1.0
+epuł,/c/wym/epuł/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,tufaax,/c/so/tufaax,,1.0
+ᦘᦲᧃᧉᦷᦅ,/c/khb/ᦘᦲᧃᧉᦷᦅ/n,RelatedTo,apple,/c/en/apple,,1.0
+An apple,/c/en/apple,HasA,a peel,/c/en/peel,[[An apple]] has [[a peel]],1.0
+an apple,/c/en/apple,UsedFor,munching,/c/en/munching,[[an apple]] is for [[munching]],1.0
+rennet,/c/en/rennet/n/wikt/en_2,RelatedTo,apple,/c/en/apple,,1.0
+풋사과,/c/ko/풋사과/n,RelatedTo,apple,/c/en/apple,,1.0
+sêv,/c/ku/sêv/n,Synonym,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,rose apple,/c/en/rose_apple,,1.0
+apple,/c/en/apple/n,RelatedTo,multimedia,/c/en/multimedia,,1.0
+omenaviipale,/c/fi/omenaviipale/n,RelatedTo,apple,/c/en/apple,,1.0
+apple jacks,/c/en/apple_jacks,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,ákáʼátʼįįł,/c/nv/ákáʼátʼįįł,,1.0
+apple,/c/en/apple/n,Synonym,maçana,/c/mwl/maçana,,1.0
+apple,/c/en/apple/n,Synonym,mishiimin,/c/oj/mishiimin,,1.0
+katy,/c/en/katy/n,RelatedTo,apple,/c/en/apple,,1.0
+آلما,/c/ota/آلما/n,RelatedTo,apple,/c/en/apple,,1.0
+алма,/c/krc/алма/n,RelatedTo,apple,/c/en/apple,,1.0
+улмо,/c/udm/улмо/n,RelatedTo,apple,/c/en/apple,,1.0
+manzanera,/c/an/manzanera/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,computing,/c/en/computing,[[an apple]] is for [[computing]],1.0
+jabll,/c/sms/jabll/n,RelatedTo,apple,/c/en/apple,,1.0
+big apple,/c/en/big_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+תפוח עץ,/c/he/תפוח_עץ/n,RelatedTo,apple,/c/en/apple,,1.0
+appleade,/c/en/appleade/n,RelatedTo,apple,/c/en/apple,,1.0
+apple mango,/c/en/apple_mango,DerivedFrom,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,jabko,/c/csb/jabko,,1.0
+an apple,/c/en/apple,AtLocation,a horses mouth,/c/en/horses_mouth,You are likely to find [[an apple]] in [[a horses mouth]],1.0
+æble,/c/da/æble/n,RelatedTo,apple,/c/en/apple,,1.0
+apple wedger,/c/en/apple_wedger,DerivedFrom,apple,/c/en/apple/n,,1.0
+mazá,/c/gl/mazá/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,LocatedNear,a banana,/c/en/banana,[[an apple]] is typically near [[a banana]],1.0
+cedar apple,/c/en/cedar_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+appleyard,/c/en/appleyard,DerivedFrom,apple,/c/en/apple,,1.0
+јаболков,/c/mk/јаболков/a,RelatedTo,apple,/c/en/apple,,1.0
+macos,/c/en/macos/n,RelatedTo,apple,/c/en/apple,,1.0
+bratapfel,/c/de/bratapfel/n,RelatedTo,apple,/c/en/apple,,1.0
+balsam apple,/c/en/balsam_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+appel,/c/nds/appel/n,Synonym,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,poma,/c/es/poma,,1.0
+rotten apple spoils barrel,/c/en/rotten_apple_spoils_barrel,DerivedFrom,apple,/c/en/apple/n,,1.0
+blackcap,/c/en/blackcap/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ⰰⰱⰾⱏⰽⱁ,/c/cu/ⰰⰱⰾⱏⰽⱁ,,1.0
+cider apple,/c/en/cider_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+appleade,/c/en/appleade,DerivedFrom,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ቱፋሕ,/c/ti/ቱፋሕ,,1.0
+سیب,/c/ur/سیب/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple,ExternalURL,Apple,http://dbpedia.org/resource/Apple,,1.0
+apple,/c/en/apple/n,Synonym,اپل,/c/fa/اپل,,1.0
+apple,/c/en/apple/n,RelatedTo,stairs,/c/en/stairs,,1.0
+omenaleivos,/c/fi/omenaleivos/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,bait a trap,/c/en/bait_trap,You can use [[an apple]] to [[bait a trap]],1.0
+apple,/c/en/apple/n,RelatedTo,forbidden fruit,/c/en/forbidden_fruit,,1.0
+epfel,/c/gsw/epfel/n,RelatedTo,apple,/c/en/apple,,1.0
+सेब,/c/hi/सेब/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,apel,/c/su/apel,,1.0
+林檎,/c/ja/林檎/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+úll,/c/ga/úll/n,RelatedTo,apple,/c/en/apple,,1.0
+apple of somebody's eye,/c/en/apple_of_somebody's_eye,DerivedFrom,apple,/c/en/apple/n,,1.0
+maçãa,/c/roa-opt/maçãa/n,RelatedTo,apple,/c/en/apple,,1.0
+apple domed,/c/en/apple_domed,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,ubhal,/c/gd/ubhal,,1.0
+apple,/c/en/apple/n,IsA,fruit tree,/c/en/fruit_tree,,1.0
+æppel,/c/ang/æppel/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,èso òro òyìnbó,/c/yo/èso_òro_òyìnbó,,1.0
+りゅうごう,/c/ja/りゅうごう/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ಸೇಬು,/c/kn/ಸೇಬು,,1.0
+apple,/c/en/apple,RelatedTo,malic,/c/en/malic,,1.0
+apple,/c/en/apple/n,Synonym,мые,/c/ady/мые,,1.0
+apple cake,/c/en/apple_cake,DerivedFrom,apple,/c/en/apple/n,,1.0
+äpüli,/c/fi/äpüli/n,RelatedTo,apple,/c/en/apple,,1.0
+яблочник,/c/ru/яблочник/n,RelatedTo,apple,/c/en/apple,,1.0
+zuurzak,/c/nl/zuurzak/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,illustrating the letter A,/c/en/illustrating_letter,[[an apple]] is used for [[illustrating the letter A]],1.0
+ვაშლი,/c/ka/ვაშლი/n,RelatedTo,apple,/c/en/apple,,1.0
+pomey,/c/en/pomey/n,RelatedTo,apple,/c/en/apple,,1.0
+apple knocker,/c/en/apple_knocker,DerivedFrom,apple,/c/en/apple/n,,1.0
+applehood,/c/en/applehood,DerivedFrom,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ប៉ុម,/c/km/ប៉ុម,,1.0
+pum,/c/nrf/pum/n,RelatedTo,apple,/c/en/apple,,1.0
+🍎,/c/mul/🍎,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,яблоко,/c/ru/яблоко,,1.0
+apple,/c/en/apple/n,Synonym,ਸੇਬ,/c/pa/ਸੇਬ,,1.0
+apple,/c/en/apple/n,Synonym,apel,/c/fy/apel,,1.0
+äpple,/c/sv/äpple/n,Synonym,apple,/c/en/apple,,1.0
+јаболчест,/c/mk/јаболчест/a,RelatedTo,apple,/c/en/apple,,1.0
+apple worm,/c/en/apple_worm,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,ܚܙܘܪܐ,/c/syc/ܚܙܘܪܐ,,1.0
+apple,/c/en/apple/n,Synonym,iapile,/c/xh/iapile,,1.0
+apple,/c/en/apple/n,Synonym,蘋果,/c/nan/蘋果,,1.0
+pomarada,/c/es/pomarada/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,thorn apple,/c/en/thorn_apple,,1.0
+omenahillo,/c/fi/omenahillo/n,RelatedTo,apple,/c/en/apple,,1.0
+apple faced,/c/en/apple_faced,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple pandowdy,/c/en/apple_pandowdy,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,miluç,/c/fur/miluç,,1.0
+an apple,/c/en/apple,HasProperty,opaque,/c/en/opaque,[[an apple]] is [[opaque]],1.0
+jablko,/c/cs/jablko/n,Synonym,apple,/c/en/apple,,1.0
+苹果,/c/ja/苹果/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,μηλον,/c/grc/μηλον,,1.0
+apple,/c/en/apple/n,Synonym,ābols,/c/lv/ābols,,1.0
+apple,/c/en/apple/n,Synonym,sa,/c/zza/sa,,1.0
+apple,/c/en/apple/n,Synonym,mansanas,/c/ceb/mansanas,,1.0
+bobbing for apples,/c/en/bobbing_for_apples,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,afal,/c/cy/afal,,1.0
+apel,/c/pap/apel/n,RelatedTo,apple,/c/en/apple,,1.0
+omenanviljelijä,/c/fi/omenanviljelijä/n,RelatedTo,apple,/c/en/apple,,1.0
+epal,/c/ms/epal/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,malum,/c/la/malum,,1.0
+мыӏэрыс,/c/kbd/мыӏэрыс/n,RelatedTo,apple,/c/en/apple,,1.0
+улма,/c/cv/улма/n,RelatedTo,apple,/c/en/apple,,1.0
+apple pie,/c/en/apple_pie/n,RelatedTo,apple,/c/en/apple,,1.0
+apel,/c/id/apel/n/wikt/en_2,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,puma,/c/scn/puma,,1.0
+алим,/c/mn/алим/n,RelatedTo,apple,/c/en/apple,,1.0
+crab apple,/c/en/crab_apple,IsA,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,sagar,/c/eu/sagar,,1.0
+apple,/c/en/apple/n,Synonym,мыӏэрысэ,/c/kbd/мыӏэрысэ,,1.0
+āporo,/c/mi/āporo/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,epli,/c/fo/epli,,1.0
+ვაშლი,/c/oge/ვაშლი/n,RelatedTo,apple,/c/en/apple,,1.0
+խնձոր,/c/hy/խնձոր/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,سیب,/c/fa/سیب,,1.0
+apple,/c/en/apple/n/wn/plant,ExternalURL,112654755-n,http://wordnet-rdf.princeton.edu/wn31/112654755-n,,1.0
+apple,/c/en/apple/n,RelatedTo,nickname,/c/en/nickname,,1.0
+алма,/c/ba/алма/n,RelatedTo,apple,/c/en/apple,,1.0
+gillyflower,/c/en/gillyflower/n,RelatedTo,apple,/c/en/apple,,1.0
+alligator apple,/c/en/alligator_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple potato bread,/c/en/apple_potato_bread,DerivedFrom,apple,/c/en/apple/n,,1.0
+omena riisipuuro,/c/fi/omena_riisipuuro/n,RelatedTo,apple,/c/en/apple,,1.0
+jabłkowy,/c/pl/jabłkowy/a,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,IsA,fruit,/c/en/fruit,,1.0
+apple,/c/en/apple/n,Synonym,مڼه,/c/ps/مڼه,,1.0
+command key,/c/en/command_key/n,RelatedTo,apple,/c/en/apple,,1.0
+snickers salad,/c/en/snickers_salad/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,алма,/c/kk/алма,,1.0
+applejack,/c/en/applejack,DerivedFrom,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,эпл,/c/ru/эпл,,1.0
+apple dumpling,/c/en/apple_dumpling,DerivedFrom,apple,/c/en/apple/n,,1.0
+abōļ,/c/mh/abōļ/n,RelatedTo,apple,/c/en/apple,,1.0
+apple head,/c/en/apple_head,DerivedFrom,apple,/c/en/apple/n,,1.0
+öpfel,/c/gsw/öpfel/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,common,/c/en/common,,1.0
+bethlehemite,/c/en/bethlehemite/n,RelatedTo,apple,/c/en/apple,,1.0
+miluç,/c/fur/miluç/n,RelatedTo,apple,/c/en/apple,,1.0
+omenansiemen,/c/fi/omenansiemen/n,RelatedTo,apple,/c/en/apple,,1.0
+poma,/c/ca/poma/n,RelatedTo,apple,/c/en/apple,,1.0
+apple crook,/c/en/apple_crook,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple crumble,/c/en/apple_crumble,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n/wn/food,ExternalURL,107755101-n,http://wordnet-rdf.princeton.edu/wn31/107755101-n,,1.0
+ubhal,/c/gd/ubhal/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ვაშლი,/c/ka/ვაშლი,,1.0
+apple aphid,/c/en/apple_aphid/n,RelatedTo,apple,/c/en/apple,,1.0
+apple yard,/c/en/apple_yard,DerivedFrom,apple,/c/en/apple/n,,1.0
+appelschil,/c/nl/appelschil/n,RelatedTo,apple,/c/en/apple,,1.0
+reinette,/c/en/reinette/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,AtLocation,a toffee apple,/c/en/toffee_apple,You are likely to find [[an apple]] in [[a toffee apple]],1.0
+mayapple,/c/en/mayapple,DerivedFrom,apple,/c/en/apple,,1.0
+pomar,/c/vec/pomar/n,RelatedTo,apple,/c/en/apple,,1.0
+golden apple,/c/en/golden_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+an apple,/c/en/apple,IsA,a piece of fruit,/c/en/piece_of_fruit,[[an apple]] is [[a piece of fruit]],1.0
+apple bobbing,/c/en/apple_bobbing/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,poume,/c/nrf/poume,,1.0
+friar's omelette,/c/en/friar's_omelette/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pàm,/c/egl/pàm,,1.0
+apple,/c/en/apple/n,Synonym,makbinzgoj,/c/za/makbinzgoj,,1.0
+codling,/c/en/codling/n/wikt/en_3,RelatedTo,apple,/c/en/apple,,1.0
+bôm,/c/vi/bôm/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+bartramia,/c/en/bartramia,DerivedFrom,apple,/c/en/apple/n,,1.0
+õun,/c/et/õun/n,Synonym,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,AtLocation,a greengrocer,/c/en/greengrocer,Somewhere [[an apple]] can be is in [[a greengrocer]],1.0
+apple,/c/en/apple/n,Synonym,juablukku,/c/krl/juablukku,,1.0
+jablko,/c/sk/jablko/n,RelatedTo,apple,/c/en/apple,,1.0
+phabaj,/c/rom/phabaj/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,alma,/c/crh/alma,,1.0
+apple bee,/c/en/apple_bee,DerivedFrom,apple,/c/en/apple/n,,1.0
+bittersweet,/c/en/bittersweet/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,avaloù,/c/br/avaloù,,1.0
+apple,/c/en/apple/n,Synonym,apfel,/c/de/apfel,,1.0
+ppap,/c/en/ppap/n,RelatedTo,apple,/c/en/apple,,1.0
+apple's queen,/c/en/apple's_queen,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,RelatedTo,pommier,/c/fr/pommier,,1.0
+apple,/c/en/apple/n,Synonym,林檎,/c/ja/林檎,,1.0
+jonathan,/c/en/jonathan/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pomme,/c/nrf/pomme,,1.0
+lìn gò͘,/c/nan/lìn_gò͘/n,RelatedTo,apple,/c/en/apple,,1.0
+villiomena,/c/fi/villiomena/n,RelatedTo,apple,/c/en/apple,,1.0
+eating an apple,/c/en/eating_apple,HasPrerequisite,an apple,/c/en/apple,[[eating an apple]] requires [[an apple]],1.0
+akaîu,/c/tpw/akaîu/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,apple,/c/pt/apple,,1.0
+epli,/c/is/epli/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+pumier,/c/fro/pumier/n,RelatedTo,apple,/c/en/apple,,1.0
+แอปเปิล,/c/th/แอปเปิล,EtymologicallyDerivedFrom,apple,/c/en/apple,,1.0
+мые,/c/ady/мые/n,RelatedTo,apple,/c/en/apple,,1.0
+apple of discord,/c/en/apple_of_discord,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,мыӏэрыс,/c/ady/мыӏэрыс,,1.0
+apple,/c/en/apple/n,Synonym,jabolko,/c/sl/jabolko,,1.0
+ຫມາກປົ່ມ,/c/lo/ຫມາກປົ່ມ/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,iipili,/c/kl/iipili,,1.0
+ӏаж,/c/ce/ӏаж/n,RelatedTo,apple,/c/en/apple,,1.0
+žemlovka,/c/cs/žemlovka/n,RelatedTo,apple,/c/en/apple,,1.0
+apple berry,/c/en/apple_berry,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,chak pakʼaal,/c/yua/chak_pakʼaal,,1.0
+mansana,/c/qu/mansana/n,RelatedTo,apple,/c/en/apple,,1.0
+alma,/c/hu/alma/n,RelatedTo,apple,/c/en/apple,,1.0
+maçãzita,/c/pt/maçãzita/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,HasProperty,red or green,/c/en/red_or_green,[[an apple]] is [[red or green]],1.0
+spartan,/c/en/spartan/n,RelatedTo,apple,/c/en/apple,,1.0
+apple sauce,/c/en/apple_sauce,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,tufah,/c/ms/tufah,,1.0
+pomiform,/c/en/pomiform/a,RelatedTo,apple,/c/en/apple,,1.0
+õun,/c/et/õun/n,RelatedTo,apple,/c/en/apple,,1.0
+jablkový,/c/cs/jablkový/a,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,mail,/c/rm/mail,,1.0
+pom,/c/lad/pom/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,కాయ,/c/te/కాయ,,1.0
+แอปเปิล,/c/th/แอปเปิล/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,林檎,/c/nan/林檎,,1.0
+ຫມາກໂປມ,/c/lo/ຫມາກໂປມ/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,AtLocation,the fridge,/c/en/fridge,Somewhere [[an apple]] can be is in [[the fridge]],1.0
+obuolys,/c/lt/obuolys/n,Synonym,apple,/c/en/apple,,1.0
+omenalohko,/c/fi/omenalohko/n,RelatedTo,apple,/c/en/apple,,1.0
+apple of adam,/c/en/apple_of_adam,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,խնձոր,/c/hy/խնձոր,,1.0
+apple,/c/en/apple,EtymologicallyDerivedFrom,æppel,/c/ang/æppel,,1.0
+apple,/c/en/apple/n,Synonym,pomo,/c/io/pomo,,1.0
+apple,/c/en/apple/n,Synonym,atsarpak,/c/esu/atsarpak,,1.0
+apple,/c/en/apple/n,Synonym,tofaa,/c/sw/tofaa,,1.0
+apple,/c/en/apple/n,RelatedTo,company,/c/en/company,,1.0
+tuffieħa,/c/mt/tuffieħa/n,RelatedTo,apple,/c/en/apple,,1.0
+sagar,/c/eu/sagar/n,Synonym,apple,/c/en/apple,,1.0
+appley,/c/en/appley,DerivedFrom,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,pomme,/c/fr/pomme,,1.0
+jabko,/c/cs/jabko/n,RelatedTo,apple,/c/en/apple,,1.0
+cyser,/c/en/cyser/n,RelatedTo,apple,/c/en/apple,,1.0
+appletard,/c/en/appletard,DerivedFrom,apple,/c/en/apple,,1.0
+elmacı,/c/tr/elmacı/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,méla,/c/nap/méla,,1.0
+ruddock,/c/en/ruddock/n,RelatedTo,apple,/c/en/apple,,1.0
+bircher muesli,/c/en/bircher_muesli/n,RelatedTo,apple,/c/en/apple,,1.0
+apple gum,/c/en/apple_gum,DerivedFrom,apple,/c/en/apple/n,,1.0
+آلما,/c/az/آلما/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+quarrenden,/c/en/quarrenden/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,malus,/c/en/malus,,1.0
+apple,/c/en/apple/n,Synonym,say,/c/zza/say,,1.0
+apple,/c/en/apple/n,Synonym,pòm,/c/ht/pòm,,1.0
+apple green,/c/en/apple_green,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple peeler,/c/en/apple_peeler,DerivedFrom,apple,/c/en/apple/n,,1.0
+paoma,/c/mg/paoma/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ååpel,/c/frr/ååpel,,1.0
+apple brandy,/c/en/apple_brandy/n,RelatedTo,apple,/c/en/apple,,1.0
+ābols,/c/lv/ābols/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,фӕткъуы,/c/os/фӕткъуы,,1.0
+omenasose,/c/fi/omenasose/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pumu,/c/scn/pumu,,1.0
+apple wife,/c/en/apple_wife,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,гӏеч,/c/av/гӏеч,,1.0
+omenavaras,/c/fi/omenavaras/n,RelatedTo,apple,/c/en/apple,,1.0
+pome,/c/fro/pome/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,सफरचंद,/c/mr/सफरचंद,,1.0
+omppu,/c/fi/omppu/n,RelatedTo,apple,/c/en/apple,,1.0
+farnesene,/c/en/farnesene/n,RelatedTo,apple,/c/en/apple,,1.0
+jabolko,/c/sl/jabolko/n,RelatedTo,apple,/c/en/apple,,1.0
+aval,/c/br/aval/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,peme,/c/wa/peme,,1.0
+kitsche,/c/de/kitsche/n,RelatedTo,apple,/c/en/apple,,1.0
+苹,/c/zh/苹,Synonym,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ꙗблъко,/c/orv/ꙗблъко,,1.0
+appelboomgaard,/c/nl/appelboomgaard/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,aapel,/c/frr/aapel,,1.0
+apple,/c/en/apple/n,Synonym,măr,/c/ro/măr,,1.0
+mele cotte,/c/it/mele_cotte/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/fr/apple/n,RelatedTo,apple,/c/en/apple,,1.0
+mansanas,/c/fil/mansanas/n,RelatedTo,apple,/c/en/apple,,1.0
+appel,/c/fy/appel/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,peimme,/c/pcd/peimme,,1.0
+apple,/c/en/apple/n,RelatedTo,wood,/c/en/wood,,1.0
+manzana,/c/es/manzana/n,RelatedTo,apple,/c/en/apple,,1.0
+pearmain,/c/en/pearmain/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,phabaj,/c/rom/phabaj,,1.0
+apple wassail,/c/en/apple_wassail,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,RelatedTo,record,/c/en/record,,1.0
+manzana,/c/es/manzana/n,Synonym,apple,/c/en/apple,,1.0
+winesap,/c/en/winesap/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,CapableOf,fall off a tree,/c/en/fall_off_tree,[[an apple]] can [[fall off a tree]],1.0
+appley,/c/en/appley/a,RelatedTo,apple,/c/en/apple,,1.0
+mollë,/c/sq/mollë/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,malus domestica,/c/en/malus_domestica,,1.0
+apple,/c/en/apple/n,Synonym,sêv,/c/ku/sêv,,1.0
+machead,/c/en/machead/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,умарь,/c/myv/умарь,,1.0
+jablok,/c/vep/jablok/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,林檎,/c/hak/林檎,,1.0
+villiomenapuu,/c/fi/villiomenapuu/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ऍपल,/c/hi/ऍपल,,1.0
+braeburn apple,/c/en/braeburn_apple/n,IsA,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,ඇපල්,/c/si/ඇපල්,,1.0
+apple,/c/en/apple/n,Synonym,আেপল,/c/bn/আেপল,,1.0
+mer,/c/rup/mer/n,RelatedTo,apple,/c/en/apple,,1.0
+táo,/c/vi/táo/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,round,/c/en/round,,1.0
+oapel,/c/frr/oapel/n,RelatedTo,apple,/c/en/apple,,1.0
+omena,/c/fi/omena/n,Synonym,apple,/c/en/apple,,1.0
+ܚܙܘܪܐ,/c/syc/ܚܙܘܪܐ/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,RelatedTo,vegetable,/c/en/vegetable,,1.0
+pommeraie,/c/fr/pommeraie/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,HasContext,ice hockey slang,/c/en/ice_hockey_slang,,1.0
+xocotl,/c/nhn/xocotl/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,táo,/c/vi/táo,,1.0
+apple cider vinegar,/c/en/apple_cider_vinegar/n,RelatedTo,apple,/c/en/apple,,1.0
+takolo maso'fa,/c/cic/takolo_maso'fa/n,RelatedTo,apple,/c/en/apple,,1.0
+تفاح,/c/ar/تفاح/n,Synonym,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,úll,/c/ga/úll,,1.0
+apfelförmig,/c/de/apfelförmig/a,RelatedTo,apple,/c/en/apple,,1.0
+apple wine,/c/en/apple_wine,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,އާފަލު,/c/dv/އާފަލު,,1.0
+apple,/c/en/apple/n,RelatedTo,apple tree,/c/en/apple_tree,,1.0
+apple,/c/en/apple/n,Synonym,manzana,/c/es/manzana,,1.0
+apple,/c/en/apple/n,Synonym,apful,/c/goh/apful,,1.0
+apple fly,/c/en/apple_fly,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple seed,/c/en/apple_seed/n,RelatedTo,apple,/c/en/apple,,1.0
+蘋果,/c/zh/蘋果,Synonym,apple,/c/en/apple,,1.0
+bird's nest pudding,/c/en/bird's_nest_pudding/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,keeping the doctor away,/c/en/keeping_doctor_away,[[an apple]] is for [[keeping the doctor away]],1.0
+गुलाब जामुन,/c/hi/गुलाब_जामुन/n,RelatedTo,apple,/c/en/apple,,1.0
+applecart,/c/en/applecart,DerivedFrom,apple,/c/en/apple,,1.0
+tarte tatin,/c/en/tarte_tatin/n,RelatedTo,apple,/c/en/apple,,1.0
+apple water,/c/en/apple_water,DerivedFrom,apple,/c/en/apple/n,,1.0
+аблъко,/c/cu/аблъко/n,RelatedTo,apple,/c/en/apple,,1.0
+स्याउ,/c/ne/स्याउ/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,jabll,/c/sms/jabll,,1.0
+snow apple,/c/en/snow_apple/n,RelatedTo,apple,/c/en/apple,,1.0
+apple bearing,/c/en/apple_bearing/a,RelatedTo,apple,/c/en/apple,,1.0
+јаболко,/c/mk/јаболко/n,RelatedTo,apple,/c/en/apple,,1.0
+apple geranium,/c/en/apple_geranium,DerivedFrom,apple,/c/en/apple/n,,1.0
+carmagnole,/c/fr/carmagnole/n,RelatedTo,apple,/c/en/apple,,1.0
+epli,/c/non/epli/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,mer,/c/rup/mer,,1.0
+obuolys,/c/lt/obuolys/n,RelatedTo,apple,/c/en/apple,,1.0
+تفاحة,/c/ar/تفاحة/n,RelatedTo,apple,/c/en/apple,,1.0
+apple polisher,/c/en/apple_polisher,DerivedFrom,apple,/c/en/apple/n,,1.0
+carroll,/c/en/carroll/n,RelatedTo,apple,/c/en/apple,,1.0
+apple butter,/c/en/apple_butter/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,jabłuko,/c/hsb/jabłuko,,1.0
+omenavartalo,/c/fi/omenavartalo/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ابل,/c/ar/ابل,,1.0
+apple,/c/en/apple/n,RelatedTo,new york city,/c/en/new_york_city,,1.0
+red delicious apple,/c/en/red_delicious_apple/n,IsA,apple,/c/en/apple/n,,1.0
+apple jelly nodules,/c/en/apple_jelly_nodules,DerivedFrom,apple,/c/en/apple/n,,1.0
+chicha,/c/en/chicha/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,алма,/c/ky/алма,,1.0
+thaspą́,/c/dak/thaspą́/n,RelatedTo,apple,/c/en/apple,,1.0
+apple domain,/c/en/apple_domain,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,apple,/c/de/apple,,1.0
+apel,/c/lb/apel/n,RelatedTo,apple,/c/en/apple,,1.0
+pomewater,/c/en/pomewater/n,RelatedTo,apple,/c/en/apple,,1.0
+jabuka,/c/sh/jabuka/n,Synonym,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,makbingzgoj,/c/za/makbingzgoj,,1.0
+apple,/c/en/apple/n,Synonym,apod,/c/vo/apod,,1.0
+an apple,/c/en/apple,AtLocation,an orchard,/c/en/orchard,You are likely to find [[an apple]] in [[an orchard]],1.0
+apple,/c/en/apple/n,Synonym,poma,/c/oc/poma,,1.0
+candied apple,/c/en/candied_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+jabuka,/c/sh/jabuka,Synonym,apple,/c/en/apple,,1.0
+antonovka,/c/en/antonovka/n,RelatedTo,apple,/c/en/apple,,1.0
+gravenstein,/c/en/gravenstein/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ਸਿਓ,/c/pa/ਸਿਓ,,1.0
+cider,/c/en/cider/n,RelatedTo,apple,/c/en/apple,,1.0
+apful,/c/goh/apful/n,RelatedTo,apple,/c/en/apple,,1.0
+アップル,/c/ja/アップル/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,アップル,/c/ja/アップル,,1.0
+apple,/c/en/apple/n,RelatedTo,computer,/c/en/computer,,1.0
+dead sea apple,/c/en/dead_sea_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,RelatedTo,apples and pears,/c/en/apples_and_pears,,1.0
+ܚܒܘܫܐ,/c/syc/ܚܒܘܫܐ/n,RelatedTo,apple,/c/en/apple,,1.0
+խնձոր,/c/xcl/խնձոր/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,pod,/c/vo/pod,,1.0
+яблоко,/c/ru/яблоко/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,uball,/c/sga/uball,,1.0
+apple ice wine,/c/en/apple_ice_wine,DerivedFrom,apple,/c/en/apple/n,,1.0
+chak pakʼaal,/c/yua/chak_pakʼaal/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ᑭᒻᒥᓇᐅᔭᖅ,/c/iu/ᑭᒻᒥᓇᐅᔭᖅ,,1.0
+apple,/c/en/apple/n,Synonym,ӏаж,/c/ce/ӏаж,,1.0
+apple,/c/en/apple/n,Synonym,elma,/c/tr/elma,,1.0
+apple oil,/c/en/apple_oil,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,улма,/c/cv/улма,,1.0
+apple midge,/c/en/apple_midge,DerivedFrom,apple,/c/en/apple/n,,1.0
+pomara,/c/vec/pomara/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,olma,/c/uz/olma,,1.0
+apple,/c/en/apple/n,Synonym,алма,/c/alt/алма,,1.0
+תפוחא,/c/arc/תפוחא/n,RelatedTo,apple,/c/en/apple,,1.0
+सेवि,/c/sa/सेवि/n,RelatedTo,apple,/c/en/apple,,1.0
+omenantuottaja,/c/fi/omenantuottaja/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ʻāhia,/c/haw/ʻāhia,,1.0
+medlar,/c/en/medlar/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,alma,/c/tk/alma,,1.0
+lakth,/c/sq/lakth/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,tuffieħa,/c/mt/tuffieħa,,1.0
+an apple,/c/en/apple,UsedFor,making applesauce,/c/en/making_applesauce,[[an apple]] is used for [[making applesauce]],1.0
+apple,/c/en/apple/n,Synonym,mazá,/c/gl/mazá,,1.0
+ihhabhula,/c/zu/ihhabhula,EtymologicallyDerivedFrom,apple,/c/en/apple,,1.0
+ooyl,/c/gv/ooyl/n,RelatedTo,apple,/c/en/apple,,1.0
+cooking apple,/c/en/cooking_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+appeltuin,/c/nl/appeltuin/n,RelatedTo,apple,/c/en/apple,,1.0
+appleton,/c/en/appleton/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,bilasáana,/c/nv/bilasáana,,1.0
+bob for apples,/c/en/bob_for_apples,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,mei,/c/lij/mei,,1.0
+תפוחים,/c/he/תפוחים/n,RelatedTo,apple,/c/en/apple,,1.0
+faang,/c/en/faang/n,RelatedTo,apple,/c/en/apple,,1.0
+jonagold,/c/en/jonagold/n,RelatedTo,apple,/c/en/apple,,1.0
+apples and oranges,/c/en/apples_and_oranges,DerivedFrom,apple,/c/en/apple/n,,1.0
+瓜果,/c/zh/瓜果/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,mêl,/c/fur/mêl,,1.0
+pomeroie,/c/fro/pomeroie/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,tempting eve,/c/en/tempting_eve,[[an apple]] is for [[tempting eve]],1.0
+apple,/c/en/apple/n,Synonym,aipple,/c/sco/aipple,,1.0
+ਸੇਬ,/c/pa/ਸੇਬ/n,RelatedTo,apple,/c/en/apple,,1.0
+manzanal,/c/es/manzanal/n,RelatedTo,apple,/c/en/apple,,1.0
+elephant apple,/c/en/elephant_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+pandowdy,/c/en/pandowdy/n,RelatedTo,apple,/c/en/apple,,1.0
+ቱፋሕ,/c/ti/ቱፋሕ/n,RelatedTo,apple,/c/en/apple,,1.0
+An apple,/c/en/apple,HasA,seeds,/c/en/seeds,[[An apple]] contains [[seeds]],1.0
+appel,/c/stq/appel/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,עפל,/c/yi/עפל,,1.0
+how do you like them apples,/c/en/how_do_you_like_them_apples,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,алма,/c/krc/алма,,1.0
+🍎,/c/mul/🍎,SymbolOf,apple,/c/en/apple,,1.0
+𐎚𐎔𐎈,/c/uga/𐎚𐎔𐎈/n,RelatedTo,apple,/c/en/apple,,1.0
+applelicious,/c/en/applelicious,DerivedFrom,apple,/c/en/apple,,1.0
+ābelka,/c/prg/ābelka/n,RelatedTo,apple,/c/en/apple,,1.0
+appletini,/c/en/appletini,DerivedFrom,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,AtLocation,apple pie,/c/en/apple_pie,You are likely to find [[an apple]] in [[apple pie]],1.0
+pomme,/c/nrf/pomme/n,RelatedTo,apple,/c/en/apple,,1.0
+apple fritter,/c/en/apple_fritter,DerivedFrom,apple,/c/en/apple/n,,1.0
+себ,/c/tg/себ/n,RelatedTo,apple,/c/en/apple,,1.0
+mutsu,/c/en/mutsu/n,RelatedTo,apple,/c/en/apple,,1.0
+omenatorttu,/c/fi/omenatorttu/n,RelatedTo,apple,/c/en/apple,,1.0
+apple garth,/c/en/apple_garth,DerivedFrom,apple,/c/en/apple/n,,1.0
+фӕткъуы,/c/os/фӕткъуы/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,स्याउ,/c/ne/स्याउ,,1.0
+apple grey,/c/en/apple_grey,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple day,/c/en/apple_day,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,सेब,/c/hi/सेब,,1.0
+applehood,/c/en/applehood/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,سیب,/c/ur/سیب,,1.0
+apple,/c/en/apple/n,Synonym,pum,/c/nrf/pum,,1.0
+apple,/c/en/apple/n,Synonym,jablko,/c/sk/jablko,,1.0
+яблуко,/c/uk/яблуко/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ຫມາກປົ່ມ,/c/lo/ຫມາກປົ່ມ,,1.0
+аблъко,/c/orv/аблъко/n,RelatedTo,apple,/c/en/apple,,1.0
+pomo,/c/ia/pomo/n,RelatedTo,apple,/c/en/apple,,1.0
+nonapple,/c/en/nonapple/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,mela,/c/es/mela,,1.0
+apple,/c/en/apple/n,Synonym,mazana,/c/ast/mazana,,1.0
+mishiimin,/c/oj/mishiimin/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,аҵәа,/c/ab/аҵәа,,1.0
+apple turnover,/c/en/apple_turnover/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,IsA,tree,/c/en/tree,,1.0
+apple,/c/en/apple/n,Synonym,alma,/c/az/alma,,1.0
+malum,/c/la/malum/n/wikt/en_2,RelatedTo,apple,/c/en/apple,,1.0
+queening,/c/en/queening/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,алим,/c/mn/алим,,1.0
+apple,/c/en/apple/n,Synonym,appel,/c/li/appel,,1.0
+apple,/c/en/apple/n,HasContext,cockney rhyming slang,/c/en/cockney_rhyming_slang,,1.0
+apple,/c/en/apple/n,Synonym,алма,/c/tt/алма,,1.0
+pomujo,/c/eo/pomujo/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ຫມາກໂປມ,/c/lo/ຫມາກໂປມ,,1.0
+applelike,/c/en/applelike,DerivedFrom,apple,/c/en/apple/n,,1.0
+beam tree,/c/en/beam_tree/n,RelatedTo,apple,/c/en/apple,,1.0
+baldwin apple,/c/en/baldwin_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple pear,/c/en/apple_pear/n,RelatedTo,apple,/c/en/apple,,1.0
+hedge apple,/c/en/hedge_apple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple fritter,/c/en/apple_fritter/n,RelatedTo,apple,/c/en/apple,,1.0
+poume,/c/nrf/poume/n,RelatedTo,apple,/c/en/apple,,1.0
+an apple,/c/en/apple,UsedFor,make a pie,/c/en/make_pie,You can use [[an apple]] to [[make a pie]],1.0
+makbinzgoj,/c/za/makbinzgoj/n,RelatedTo,apple,/c/en/apple,,1.0
+corer,/c/en/corer/n,RelatedTo,apple,/c/en/apple,,1.0
+ябълка,/c/bg/ябълка/n,RelatedTo,apple,/c/en/apple,,1.0
+ambrosia apple,/c/en/ambrosia_apple/n,IsA,apple,/c/en/apple/n,,1.0
+apple,/c/en/apple/n,Synonym,марь,/c/mdf/марь,,1.0
+apple fallow,/c/en/apple_fallow,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple,/c/ceb/apple,EtymologicallyDerivedFrom,apple,/c/en/apple,,1.0
+pineapple,/c/en/pineapple,DerivedFrom,apple,/c/en/apple,,1.0
+tufaha,/c/sw/tufaha/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,æppel,/c/ang/æppel,,1.0
+apple,/c/en/apple/n,Synonym,trái táo,/c/vi/trái_táo,,1.0
+apple,/c/en/apple/n,Synonym,ᏒᎦᏔ,/c/chr/ᏒᎦᏔ,,1.0
+apple,/c/en/apple/n,Synonym,公司,/c/zh/公司,,1.0
+へいか,/c/ja/へいか/n,RelatedTo,apple,/c/en/apple,,1.0
+ябълков,/c/bg/ябълков/a,RelatedTo,apple,/c/en/apple,,1.0
+appel,/c/nds/appel/n,RelatedTo,apple,/c/en/apple,,1.0
+pannekoek,/c/en/pannekoek/n,RelatedTo,apple,/c/en/apple,,1.0
+apple,/c/en/apple/n,Synonym,ସେଓ,/c/or/ସେଓ,,1.0
+яблык,/c/be/яблык/n,RelatedTo,apple,/c/en/apple,,1.0
+pomo,/c/vec/pomo/n,RelatedTo,apple,/c/en/apple,,1.0
+apfelbaum,/c/de/apfelbaum/n,Synonym,apple,/c/en/apple,,1.0
+biyn,/c/wym/biyn/n,RelatedTo,apple,/c/en/apple,,1.0
+bramley,/c/en/bramley/n/wikt/en_1,RelatedTo,apple,/c/en/apple,,1.0
+apple monger,/c/en/apple_monger,DerivedFrom,apple,/c/en/apple/n,,1.0
+hogapple,/c/en/hogapple,DerivedFrom,apple,/c/en/apple/n,,1.0
+apple doesn't fall far from tree,/c/en/apple_doesn't_fall_far_from_tree,DerivedFrom,apple,/c/en/apple/n,,1.0
+antonówka,/c/pl/antonówka/n,RelatedTo,apple,/c/en/apple,,1.0

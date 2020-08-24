@@ -1,0 +1,97 @@
+subject,subject_id,relation,object,object_id,surface_text,weight
+ milk,/c/en/milk,AtLocation,the fridge,/c/en/fridge,*Something you find on [[the fridge]] is [[milk]],6.6332495807108
+ milk,/c/en/milk,IsA,a liquid,/c/en/liquid,[[Milk]] is [[a liquid]],5.291502622129181
+ milk,/c/en/milk,HasA,calcium,/c/en/calcium,[[Milk]] contains [[calcium]],4.898979485566356
+ milk,/c/en/milk,AtLocation,the refrigerator,/c/en/refrigerator,*Something you find in [[the refrigerator]] is [[milk]],4.898979485566356
+ milk,/c/en/milk,HasProperty,white,/c/en/white,[[Milk]] is [[white]],4.47213595499958
+ milk,/c/en/milk,IsA,a dairy product,/c/en/dairy_product,[[Milk]] is [[a dairy product]],3.4641016151377544
+ milk,/c/en/milk,ReceivesAction,produced by a female cow,/c/en/produced_by_female_cow,[[milk]] is [[produced by a female cow]],2.82842712474619
+ milk,/c/en/milk,CapableOf,come from mammals,/c/en/come_from_mammals,[[milk]] can [[come from mammals]],2.82842712474619
+ milk,/c/en/milk,HasA,water,/c/en/water,[[milk]] contains [[water]],2.82842712474619
+ milk,/c/en/milk,IsA,a beverage,/c/en/beverage,[[Milk]] is [[a beverage]],2.82842712474619
+ milk,/c/en/milk,AtLocation,a container,/c/en/container,*Something you find in [[a container]] is [[milk]],2.82842712474619
+ condensed milk,/c/en/condensed_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[condensed milk]] is a type of [[milk]],2.0
+colostrum,/c/en/colostrum/n/wn/body,IsA, milk,/c/en/milk/n/wn/body,[[colostrum]] is a type of [[milk]],2.0
+ homogenized milk,/c/en/homogenized_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[homogenized milk]] is a type of [[milk]],2.0
+ soya milk,/c/en/soya_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[soya milk]] is a type of [[milk]],2.0
+ raw milk,/c/en/raw_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[raw milk]] is a type of [[milk]],2.0
+ milk,/c/en/milk/n/wn/food,IsA,foodstuff,/c/en/foodstuff/n/wn/food,[[milk]] is a type of [[foodstuff]],2.0
+ buttermilk,/c/en/buttermilk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[buttermilk]] is a type of [[milk]],2.0
+ mother's milk,/c/en/mother's_milk/n/wn/body,IsA, milk,/c/en/milk/n/wn/body,[[mother's milk]] is a type of [[milk]],2.0
+ milk,/c/en/milk,AtLocation,the market,/c/en/market,*Something you find at [[the market]] is [[milk]],2.0
+ goats' milk,/c/en/goats_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[goats' milk]] is a type of [[milk]],2.0
+ milk,/c/en/milk/n/wn/body,IsA,liquid body substance,/c/en/liquid_body_substance/n/wn/body,[[milk]] is a type of [[liquid body substance]],2.0
+ certified milk,/c/en/certified_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[certified milk]] is a type of [[milk]],2.0
+ whole milk,/c/en/whole_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[whole milk]] is a type of [[milk]],2.0
+ pasteurized milk,/c/en/pasteurized_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[pasteurized milk]] is a type of [[milk]],2.0
+ yak's milk,/c/en/yak's_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[yak's milk]] is a type of [[milk]],2.0
+ semi-skimmed milk,/c/en/semi_skimmed_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[semi-skimmed milk]] is a type of [[milk]],2.0
+ milk,/c/en/milk/n/wn/object,PartOf,montana,/c/en/montana/n/wn/location,[[Milk]] is a part of [[Montana]],2.0
+cheese,/c/en/cheese,MadeOf, milk,/c/en/milk,[[cheese]] is made of [[milk]].,2.0
+ scalded milk,/c/en/scalded_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[scalded milk]] is a type of [[milk]],2.0
+ coconut milk,/c/en/coconut_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[coconut milk]] is a type of [[milk]],2.0
+ acidophilus milk,/c/en/acidophilus_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[acidophilus milk]] is a type of [[milk]],2.0
+ milk,/c/en/milk,AtLocation,the supermarket,/c/en/supermarket,*Something you find at [[the supermarket]] is [[milk]],2.0
+ milk,/c/en/milk,UsedFor,drinking,/c/en/drinking,[[milk]] is for [[drinking]],2.0
+ milk,/c/en/milk/n/wn/food,IsA,dairy product,/c/en/dairy_product/n/wn/food,[[milk]] is a type of [[dairy product]],2.0
+ powdered milk,/c/en/powdered_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[powdered milk]] is a type of [[milk]],2.0
+formula,/c/en/formula/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[formula]] is a type of [[milk]],2.0
+ milk,/c/en/milk/n/wn/food,IsA,beverage,/c/en/beverage/n/wn/food,[[milk]] is a type of [[beverage]],2.0
+ milk,/c/en/milk,DefinedAs,product of cows,/c/en/product_of_cows,[[Milk]] is the [[product of cows]].,2.0
+ milk,/c/en/milk,AtLocation,a cow,/c/en/cow,You are likely to find [[milk]] in [[a cow]],2.0
+ milk,/c/en/milk,AtLocation,a store,/c/en/store,*Something you find at [[a store]] is [[milk]],2.0
+ milk,/c/en/milk/n/wn/body,IsA,nutriment,/c/en/nutriment/n/wn/food,[[milk]] is a type of [[nutriment]],2.0
+ low-fat milk,/c/en/low_fat_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[low-fat milk]] is a type of [[milk]],2.0
+ sour milk,/c/en/sour_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[sour milk]] is a type of [[milk]],2.0
+ chocolate milk,/c/en/chocolate_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[chocolate milk]] is a type of [[milk]],2.0
+ evaporated milk,/c/en/evaporated_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[evaporated milk]] is a type of [[milk]],2.0
+ cows' milk,/c/en/cows_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[cows' milk]] is a type of [[milk]],2.0
+ skim milk,/c/en/skim_milk/n/wn/food,IsA, milk,/c/en/milk/n/wn/food,[[skim milk]] is a type of [[milk]],2.0
+ milk,/c/en/milk/n,ExternalURL, milk,http://sw.opencyc.org/2012/05/10/concept/en/Milk,,1.0
+ milk,/c/en/milk,ReceivesAction,bought at a grocery,/c/en/bought_at_grocery,[[milk]] can be [[bought at a grocery]],1.0
+water,/c/en/water,AtLocation, milk,/c/en/milk,You are likely to find [[water]] in [[milk]],1.0
+ milk,/c/en/milk,HasProperty,chocolate flavored,/c/en/chocolate_flavored,[[Some milk]] is [[chocolate flavored]],1.0
+ milk,/c/en/milk,ReceivesAction,poured,/c/en/poured,[[milk]] can be [[poured]],1.0
+ milk,/c/en/milk,HasA,lactose,/c/en/lactose,[[milk]] contains [[lactose]],1.0
+ milk,/c/en/milk,CapableOf,fill a glass,/c/en/fill_glass,[[Milk]] can [[fill a glass]],1.0
+ milk,/c/en/milk,ReceivesAction,found in a store,/c/en/found_in_store,[[milk]] can be [[found in a store]],1.0
+ milk,/c/en/milk/n/wn/object,ExternalURL,109377677-n,http://wordnet-rdf.princeton.edu/wn31/109377677-n,,1.0
+ milk,/c/en/milk/v/wn/consumption,ExternalURL,201167222-v,http://wordnet-rdf.princeton.edu/wn31/201167222-v,,1.0
+ milk,/c/en/milk,IsA,a source of the mineral calcium,/c/en/source_of_mineral_calcium,[[Milk]] is [[a source of the mineral calcium]],1.0
+ milk,/c/en/milk,ReceivesAction,bought in a store,/c/en/bought_in_store,[[milk]] can be [[bought in a store]],1.0
+ milk,/c/en/milk,IsA,one of the liquids commonly,/c/en/one_of_liquids_commonly,[[Milk]] is [[one of the liquids commonly]],1.0
+ milk,/c/en/milk/v/wn/change,ExternalURL,200194514-v,http://wordnet-rdf.princeton.edu/wn31/200194514-v,,1.0
+ milk,/c/en/milk,ReceivesAction,made from cheese,/c/en/made_from_cheese,[[milk]] is [[made from cheese]],1.0
+ milk,/c/en/milk/n,IsA,liquid,/c/en/liquid/n/opencyc/liquid_tangible_thing,,1.0
+ milk,/c/en/milk/n,IsA,liquid,/c/de/liquid,,1.0
+ milk,/c/en/milk,CapableOf,last about 7 days,/c/en/last_about_7_days,[[milk]] can [[last about 7 days]],1.0
+ milk,/c/en/milk,IsA,denser than water,/c/en/denser_than_water,[[milk]] is [[denser than water]],1.0
+ milk,/c/en/milk,CapableOf,taste sour,/c/en/taste_sour,[[Milk]] can [[taste sour]],1.0
+ milk,/c/en/milk,IsA,a solution from a female cow,/c/en/solution_from_female_cow,[[Milk]] is [[a solution from a female cow]],1.0
+ milk,/c/en/milk,CapableOf,be a noun or a verb,/c/en/noun_or_verb,[[Milk]] can [[be a noun or a verb]],1.0
+ milk,/c/en/milk,ReceivesAction,purchased from a corner grocery,/c/en/purchased_from_corner_grocery,[[Milk]] can be [[purchased from a corner grocery]],1.0
+ milk ruminant,/c/en/milk_of_ruminant/n,IsA, milk,/c/en/milk/n,,1.0
+ milk,/c/en/milk/n/wn/food,ExternalURL,107860580-n,http://wordnet-rdf.princeton.edu/wn31/107860580-n,,1.0
+ milk,/c/en/milk,ExternalURL,q8495,http://wikidata.dbpedia.org/resource/Q8495,,1.0
+ milk,/c/en/milk,PartOf,a healthy diet,/c/en/healthy_diet,[[Milk]] is part of [[a healthy diet]],1.0
+ milk,/c/en/milk,UsedFor,make pudding,/c/en/make_pudding,[[Milk]] is used to [[make pudding]],1.0
+ 1 percent milk,/c/en/1_percent_milk/n,IsA, milk,/c/en/milk/n/opencyc/cows_milk_product,,1.0
+ milk,/c/en/milk,ExternalURL, don't+cry+over+spilt+milk-p#component-5,http://wordnet-rdf.princeton.edu/wn31/don't+cry+over+spilt+milk-p#Component-5,,1.0
+ milk,/c/en/milk,AtLocation, milk processing plant,/c/en/milk_processing_plant,You are likely to find [[milk]] in [[a milk processing plant]],1.0
+ milk,/c/en/milk,MadeOf,minerals,/c/en/minerals,[[milk]] is made of [[minerals]].,1.0
+ 2 percent milk,/c/en/2_percent_milk/n,IsA, milk,/c/en/milk/n/opencyc/cows_milk_product,,1.0
+ milk,/c/en/milk,AtLocation,a carton,/c/en/carton,You are likely to find [[milk]] in [[a carton]],1.0
+ milk female bovine,/c/en/milk_of_female_bovine/n,IsA, milk,/c/en/milk/n,,1.0
+ milk,/c/en/milk,AtLocation,a bottle,/c/en/bottle,You are likely to find [[milk]] in [[a bottle]],1.0
+ milk,/c/en/milk,ReceivesAction,eaten with cereal,/c/en/eaten_with_cereal,[[milk]] is [[eaten with cereal]],1.0
+ milk,/c/en/milk,UsedFor,feed a baby,/c/en/feed_baby,You can use [[milk]] to [[feed a baby]],1.0
+ milk,/c/en/milk,ReceivesAction,produced by mammals,/c/en/produced_by_mammals,[[Milk]] is [[produced by mammals]],1.0
+ milk,/c/en/milk/n/opencyc/cows_milk_product,IsA,beverage,/c/en/beverage/n,,1.0
+ milk,/c/en/milk/n/opencyc/cows_milk_product,IsA,mixture,/c/en/mixture/n,,1.0
+ milk,/c/en/milk,HasProperty,packaged in either jugs or boxes,/c/en/packaged_in_either_jugs_or_boxes,[[Milk]] is [[packaged in either jugs or boxes]],1.0
+ milk,/c/en/milk,ReceivesAction,sold in plastic containers,/c/en/sold_in_plastic_containers,[[Some milk]] is [[sold in plastic containers]],1.0
+ milk,/c/en/milk,AtLocation,the freezer,/c/en/freezer,*Something you find in [[the freezer]] is [[milk]],1.0
+coconuts,/c/en/coconuts,HasA, milk,/c/en/milk,[[coconuts]] have [[milk]],1.0
+eat a cookie,/c/en/eat_cookie,HasPrerequisite, milk,/c/en/milk,Something you need to do before you [[eat a cookie]] is [[milk]],1.0
+ milk,/c/en/milk,CapableOf,comes in plastic containers,/c/en/comes_in_plastic_containers,[[milk]] sometimes [[comes in plastic containers]],1.0
+ milk,/c/en/milk,ReceivesAction,used in a recipe,/c/en/used_in_recipe,[[milk]] can be [[used in a recipe]],1.0
