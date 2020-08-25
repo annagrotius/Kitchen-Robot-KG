@@ -1,319 +1,6 @@
 @prefix bft: <http://test.org/bft.owl#> .
 @prefix rp: <http://test.org/recipe_puppy#> .
 
-<http://test.org/recipe_puppy#
-Aoli_(Garlic_Dressing)_Recipe
-
-> rp:ingredient rp:cloves,
-        rp:egg,
-        rp:garlic,
-        rp:lemon,
-        rp:lime_juice,
-        rp:olive_oil ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/aoli-garlic-dressing-65915> .
-
-<http://test.org/recipe_puppy#
-Basic_Lowfat_Muffins_Recipe
-
-> rp:ingredient rp:applesauce,
-        rp:egg,
-        rp:flour,
-        rp:lowfat_milk,
-        rp:salt,
-        rp:sugar ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/basic-lowfat-muffins-79574> .
-
-<http://test.org/recipe_puppy#
-Blender_Applesauce_Recipe
-
-> rp:ingredient rp:apple,
-        rp:honey ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/blender-applesauce-11241> .
-
-<http://test.org/recipe_puppy#
-Blueberry_Muffins_Recipe
-
-> rp:ingredient rp:blueberries,
-        rp:egg,
-        rp:flour,
-        rp:lowfat_milk,
-        rp:salt,
-        rp:shortening ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/blueberry-muffins-12065> .
-
-<http://test.org/recipe_puppy#
-Boiled_Custard_Recipe
-
-> rp:ingredient rp:egg,
-        rp:flour,
-        rp:lowfat_milk,
-        rp:nutmeg,
-        rp:salt,
-        rp:sugar,
-        rp:vanilla_extract ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/boiled-custard-7971>,
-        <http://cookeatshare.com/recipes/boiled-custard-8790> .
-
-<http://test.org/recipe_puppy#
-Breakfast_Pizza_Recipe
-
-> rp:ingredient rp:cheese,
-        rp:crescent_rolls,
-        rp:egg,
-        rp:sausage ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/breakfast-pizza-56678> .
-
-<http://test.org/recipe_puppy#
-Cable_Car_Recipe
-
-> rp:ingredient rp:lemon,
-        rp:orange_curacao,
-        rp:rum ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/cable-car-675> .
-
-<http://test.org/recipe_puppy#
-Chicken_Cordon_Bleu_Recipe
-
-> rp:ingredient rp:bread_crumbs,
-        rp:chicken,
-        rp:egg,
-        rp:flour,
-        rp:ham,
-        rp:vegetable_oil ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/chicken-cordon-bleu-44097> .
-
-<http://test.org/recipe_puppy#
-Chicken_Fingers_Recipe
-
-> rp:ingredient rp:bread,
-        rp:chicken,
-        rp:egg,
-        rp:salt ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/chicken-fingers-3974> .
-
-<http://test.org/recipe_puppy#
-Chicken_Loaf_Recipe
-
-> rp:ingredient rp:chicken,
-        rp:egg,
-        rp:garlic,
-        rp:onions,
-        rp:saltine_crackers,
-        rp:seasoning ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/chicken-loaf-38765> .
-
-<http://test.org/recipe_puppy#
-Chili_Rellenos_Recipe
-
-> rp:ingredient rp:cheddar_cheese,
-        rp:chilies,
-        rp:egg,
-        rp:flour,
-        rp:lowfat_milk,
-        rp:mozzarella_cheese ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/chili-rellenos-20003> .
-
-<http://test.org/recipe_puppy#
-Custard_Cream_Filling_For_Cream_Puffs_Recipe
-
-> rp:ingredient rp:egg,
-        rp:flour,
-        rp:lemon_extract,
-        rp:lowfat_milk,
-        rp:salt,
-        rp:sugar ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/custard-cream-filling-for-cream-puffs-25791> .
-
-<http://test.org/recipe_puppy#
-Custard_Pie_Recipe
-
-> rp:ingredient rp:egg,
-        rp:lowfat_milk,
-        rp:nutmeg,
-        rp:salt,
-        rp:sugar,
-        rp:vanilla_extract ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/custard-pie-40723>,
-        <http://cookeatshare.com/recipes/custard-pie-40724>,
-        <http://cookeatshare.com/recipes/custard-pie-40735> .
-
-<http://test.org/recipe_puppy#
-Custard_Sauce_Recipe
-
-> rp:ingredient rp:egg,
-        rp:lowfat_milk,
-        rp:salt,
-        rp:sugar ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/custard-sauce-12837> .
-
-<http://test.org/recipe_puppy#
-Double_Chocolate_Brownies_Recipe
-
-> rp:ingredient rp:chocolate_syrup,
-        rp:egg,
-        rp:semisweet_chocolate,
-        rp:vegetable_oil,
-        rp:water ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/double-chocolate-brownies-5107> .
-
-<http://test.org/recipe_puppy#
-Easy_Christmas_Candy_Recipe
-
-> rp:ingredient rp:butter ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/easy-christmas-candy-16496> .
-
-<http://test.org/recipe_puppy#
-Gram's_Corn_Fritters_Recipe
-
-> rp:ingredient rp:bisquick,
-        rp:corn,
-        rp:egg,
-        rp:lowfat_milk,
-        rp:shortening,
-        rp:sugar ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/gram-s-corn-fritters-43436> .
-
-<http://test.org/recipe_puppy#
-Grandma's_Stuffed_Cabbages_Recipe
-
-> rp:ingredient rp:egg,
-        rp:onions,
-        rp:rice,
-        rp:savoy_cabbage ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/grandma-s-stuffed-cabbages-19436> .
-
-<http://test.org/recipe_puppy#
-Grandpa's_Baked_Apples,_Sugar_Free_Recipe
-
-> rp:ingredient rp:apple ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/grandpa-s-baked-apples-sugar-free-16222> .
-
-<http://test.org/recipe_puppy#
-Greek_Cookies_Recipe
-
-> rp:ingredient rp:butter,
-        rp:egg,
-        rp:flour,
-        rp:sugar,
-        rp:vanilla_extract,
-        rp:whiskey ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/greek-cookies-18154> .
-
-<http://test.org/recipe_puppy#
-Healthy_Apple_Crisp_Recipe
-
-> rp:ingredient rp:apple ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/healthy-apple-crisp-30051> .
-
-<http://test.org/recipe_puppy#
-Herb_Butter_Recipe
-
-> rp:ingredient rp:butter ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/herb-butter-28980> .
-
-<http://test.org/recipe_puppy#
-Herb_Tea_Recipe
-
-> rp:ingredient rp:lemon,
-        rp:mint ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/herb-tea-27270> .
-
-<http://test.org/recipe_puppy#
-Melted_Herbed_Butter_Recipe
-
-> rp:ingredient rp:butter ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/melted-herbed-butter-30574> .
-
-<http://test.org/recipe_puppy#
-Mexican_Wedding_Cake_Recipe
-
-> rp:ingredient rp:baking_soda,
-        rp:egg,
-        rp:flour,
-        rp:pineapple,
-        rp:sugar,
-        rp:walnut ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/mexican-wedding-cake-56090> .
-
-<http://test.org/recipe_puppy#
-Microwaved_&quot;Baked&quot;_Apples_(No_Sugar
-Added)_Recipe
-
-> rp:ingredient rp:apple,
-        rp:strawberries ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/microwaved-baked-apples-no-sugar-added-34923> .
-
-<http://test.org/recipe_puppy#
-Mother's_Ham_Loaf_Recipe
-
-> rp:ingredient rp:bread_crumbs,
-        rp:egg,
-        rp:green_pepper,
-        rp:ham,
-        rp:lowfat_milk,
-        rp:pork ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/mother-s-ham-loaf-22584> .
-
-<http://test.org/recipe_puppy#
-Mother_Knack's_Veal_Loaf_Recipe
-
-> rp:ingredient rp:cracker_crumbs,
-        rp:egg,
-        rp:ketchup,
-        rp:lemon_juice,
-        rp:pimento_stuffed_olive,
-        rp:veal ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/mother-knack-s-veal-loaf-1104> .
-
-<http://test.org/recipe_puppy#
-Peach_Pie_Recipe
-
-> rp:ingredient rp:butter,
-        rp:egg,
-        rp:flour,
-        rp:sugar ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/peach-pie-31746> .
-
-<http://test.org/recipe_puppy#
-Sausage_And_Egg_Casserole_Recipe
-
-> rp:ingredient rp:cheddar_cheese,
-        rp:croutons,
-        rp:egg,
-        rp:lowfat_milk,
-        rp:mustard_powder,
-        rp:sausage ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/sausage-and-egg-casserole-13151> .
-
-<http://test.org/recipe_puppy#
-Slow_Cooker_Baked_Apples_Recipe
-
-> rp:ingredient rp:apple ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/slow-cooker-baked-apples-8852> .
-
-<http://test.org/recipe_puppy#
-Taffy_Apple_Salad_Recipe
-
-> rp:ingredient rp:apple,
-        rp:pineapple ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/taffy-apple-salad-51707> .
-
-<http://test.org/recipe_puppy#
-Turkey_Quiche_Recipe
-
-> rp:ingredient rp:egg,
-        rp:evaporated,
-        rp:stuffing,
-        rp:swiss_cheese,
-        rp:turkey ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/turkey-quiche-34083> .
-
-<http://test.org/recipe_puppy#
-Unbeatable_Eggless_Spice_Cake_Recipe
-
-> rp:ingredient rp:butter ;
-    rp:recipe_URL <http://cookeatshare.com/recipes/unbeatable-eggless-spice-cake-14223> .
-
 rp:Air_Freshener rp:ingredient rp:lemon,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Air-Freshener-151701> .
@@ -336,6 +23,14 @@ rp:Amarula_Coffee rp:ingredient rp:amarula_cream_liqueur,
 rp:Angel_Food_And_Berry_Pudding_With_Lemon_Fondant_Recipe rp:ingredient rp:lemon ;
     rp:recipe_URL <http://www.grouprecipes.com/81397/angel-food-and-berry-pudding-with-lemon-fondant.html> .
 
+rp:Aoli_Garlic_Dressing_Recipe rp:ingredient rp:cloves,
+        rp:egg,
+        rp:garlic,
+        rp:lemon,
+        rp:lime_juice,
+        rp:olive_oil ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/aoli-garlic-dressing-65915> .
+
 rp:Apple_Bites rp:ingredient rp:apple,
         rp:cinnamon ;
     rp:recipe_URL <http://www.recipezaar.com/Apple-Bites-117194> .
@@ -347,16 +42,7 @@ rp:Apple_Crisp rp:ingredient rp:apple,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Apple-Crisp-141110> .
 
-<http://test.org/recipe_puppy#Apple_Lemontini_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:apple,
+rp:Apple_Lemontini rp:ingredient rp:apple,
         rp:lemonade,
         rp:vodka ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/apple-lemontini-89047.aspx> .
@@ -364,7 +50,7 @@ rp:Apple_Crisp rp:ingredient rp:apple,
 rp:Apple_Pie_Recipe rp:ingredient rp:apple ;
     rp:recipe_URL <http://www.grouprecipes.com/42330/apple-pie.html> .
 
-<http://test.org/recipe_puppy#Apple_Puree/Applesauce_&amp;_Real_Apple_Juice_(No_Added_Sugar)> rp:ingredient rp:apple,
+<http://test.org/recipe_puppy#Apple_Puree/Applesauce_amp_Real_Apple_Juice_No_Added_Sugar> rp:ingredient rp:apple,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Apple-PureeApplesauce-Real-Apple-Juice-No-Added-Sugar-180136> .
 
@@ -373,28 +59,15 @@ rp:Apple_Tea_Cooler rp:ingredient rp:apple_juice,
         rp:tea ;
     rp:recipe_URL <http://www.recipezaar.com/Apple-Tea-Cooler-123542> .
 
-<http://test.org/recipe_puppy#Apples_and_Chocolate_Pudding_Dip_
-		
-> rp:ingredient rp:apple,
+rp:Apples_and_Chocolate_Pudding_Dip rp:ingredient rp:apple,
+        rp:chocolate_pudding,
         rp:jello ;
-    rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/apples-chocolate-pudding-dip-76146.aspx>,
+    rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/apples-chocolate-pudding-dip-76145.aspx>,
+        <http://www.kraftfoods.com/kf/recipes/apples-chocolate-pudding-dip-76145.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy>,
+        <http://www.kraftfoods.com/kf/recipes/apples-chocolate-pudding-dip-76146.aspx>,
         <http://www.kraftfoods.com/kf/recipes/apples-chocolate-pudding-dip-76146.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy> .
 
-<http://test.org/recipe_puppy#Apples_and_Chocolate_Pudding_Dip_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:apple,
-        rp:chocolate_pudding ;
-    rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/apples-chocolate-pudding-dip-76145.aspx>,
-        <http://www.kraftfoods.com/kf/recipes/apples-chocolate-pudding-dip-76145.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy> .
-
-<http://test.org/recipe_puppy#Apples_and_Peanut_Butter_(Apple_Slices)> rp:ingredient rp:apple,
+rp:Apples_and_Peanut_Butter_Apple_Slices rp:ingredient rp:apple,
         rp:peanut_butter ;
     rp:recipe_URL <http://www.recipezaar.com/Apples-and-Peanut-Butter-Apple-Slices-218390> .
 
@@ -402,16 +75,12 @@ rp:Appletini rp:ingredient rp:apple,
         rp:apple_schnapps ;
     rp:recipe_URL <http://www.recipezaar.com/Appletini-332365> .
 
-<http://test.org/recipe_puppy#BAKER'S_Chocolate_Fondue_
-
-> rp:ingredient rp:coffee,
+rp:BAKERS_Chocolate_Fondue rp:ingredient rp:coffee,
         rp:condensed_milk,
         rp:semisweet_chocolate ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/bakers-chocolate-fondue-62401.aspx> .
 
-<http://test.org/recipe_puppy#BOCA®_Sausage_Apple_Strudel_
-		
-> rp:ingredient rp:apple,
+rp:BOCA_Sausage_Apple_Strudel rp:ingredient rp:apple,
         rp:cinnamon,
         rp:pizza_crust ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/boca-sausage-apple-strudel-60070.aspx> .
@@ -421,7 +90,7 @@ rp:Baileys_Caramel_Appletini rp:ingredient rp:apple,
     rp:recipe_URL <http://find.myrecipes.com/recipes/recipefinder.dyn?action=displayRecipe&recipe_id=1859426>,
         <http://www.chow.com/recipes/13825> .
 
-<http://test.org/recipe_puppy#Baileys_Caramel_Appletini_(Baileys_Appletini)> rp:ingredient rp:apple,
+rp:Baileys_Caramel_Appletini_Baileys_Appletini rp:ingredient rp:apple,
         rp:caramel_sauce,
         rp:cream ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Baileys-Caramel-Appletini-Baileys-Appletini/Detail.aspx> .
@@ -451,12 +120,20 @@ rp:Baked_Tilapia__And_Cilantro_Recipe rp:ingredient rp:bread_crumbs,
 rp:Banana_Pudding_Pops rp:ingredient rp:milk ;
     rp:recipe_URL <http://www.eatingwell.com/recipes/banana_pudding_pops.html> .
 
-<http://test.org/recipe_puppy#Barb's_Cold_Comfort_Tea> rp:ingredient rp:honey,
+rp:Barbs_Cold_Comfort_Tea rp:ingredient rp:honey,
         rp:leaves,
         rp:lemon ;
     rp:recipe_URL <http://www.recipezaar.com/Barbs-Cold-Comfort-Tea-114106> .
 
-<http://test.org/recipe_puppy#Batido_De_Mango_(Mango_Shake)> rp:ingredient rp:mango,
+rp:Basic_Lowfat_Muffins_Recipe rp:ingredient rp:applesauce,
+        rp:egg,
+        rp:flour,
+        rp:lowfat_milk,
+        rp:salt,
+        rp:sugar ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/basic-lowfat-muffins-79574> .
+
+rp:Batido_De_Mango_Mango_Shake rp:ingredient rp:mango,
         rp:milk ;
     rp:recipe_URL <http://www.recipezaar.com/Batido-De-Mango-Mango-Shake-120817> .
 
@@ -468,12 +145,12 @@ rp:Best_Grill_Roasted_Corn_on_the_Cob rp:ingredient rp:butter,
         rp:corn ;
     rp:recipe_URL <http://www.recipezaar.com/Best-Grill-Roasted-Corn-on-the-Cob-173201> .
 
-<http://test.org/recipe_puppy#Bev's_Quick_and_Easy_Shrimp_Cocktail_Sauce> rp:ingredient rp:horseradish,
+rp:Bevs_Quick_and_Easy_Shrimp_Cocktail_Sauce rp:ingredient rp:horseradish,
         rp:ketchup,
         rp:lemon ;
     rp:recipe_URL <http://www.recipezaar.com/Bevs-Quick-and-Easy-Shrimp-Cocktail-Sauce-26291> .
 
-<http://test.org/recipe_puppy#Birds_Nest_(Eggs_and_Toast)> rp:ingredient rp:bread,
+rp:Birds_Nest_Eggs_and_Toast rp:ingredient rp:bread,
         rp:butter,
         rp:egg ;
     rp:recipe_URL <http://www.bigoven.com/38317-Birds-Nest-(Eggs-and-Toast)-recipe.html> .
@@ -491,21 +168,49 @@ rp:Blackened_Chicken rp:ingredient rp:butter,
         rp:chicken ;
     rp:recipe_URL <http://www.recipezaar.com/Blackened-Chicken-64157> .
 
+rp:Blender_Applesauce_Recipe rp:ingredient rp:apple,
+        rp:honey ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/blender-applesauce-11241> .
+
 rp:Blue_Moon rp:ingredient rp:blue_curacao,
         rp:gin,
         rp:lemon ;
     rp:recipe_URL <http://www.recipezaar.com/Blue-Moon-165475> .
 
+rp:Blueberry_Muffins_Recipe rp:ingredient rp:blueberries,
+        rp:egg,
+        rp:flour,
+        rp:lowfat_milk,
+        rp:salt,
+        rp:shortening ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/blueberry-muffins-12065> .
+
+rp:Boiled_Custard_Recipe rp:ingredient rp:egg,
+        rp:flour,
+        rp:lowfat_milk,
+        rp:nutmeg,
+        rp:salt,
+        rp:sugar,
+        rp:vanilla_extract ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/boiled-custard-7971>,
+        <http://cookeatshare.com/recipes/boiled-custard-8790> .
+
 rp:Bourbon_Chicken rp:ingredient rp:butter,
         rp:chicken ;
     rp:recipe_URL <http://www.recipezaar.com/Bourbon-Chicken-305109> .
+
+rp:Breakfast_Pizza_Recipe rp:ingredient rp:cheese,
+        rp:crescent_rolls,
+        rp:egg,
+        rp:sausage ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/breakfast-pizza-56678> .
 
 rp:Breakfast_Quiches_-_South_Beach_Recipe rp:ingredient rp:egg,
         rp:green_pepper,
         rp:onions ;
     rp:recipe_URL <http://www.grouprecipes.com/50294/breakfast-quiches---south-beach.html> .
 
-<http://test.org/recipe_puppy#Broccoli_&_Goat_Cheese_Souffl&#233;> rp:ingredient rp:milk ;
+<http://test.org/recipe_puppy#Broccoli__Goat_Cheese_Souffl#233> rp:ingredient rp:milk ;
     rp:recipe_URL <http://www.eatingwell.com/recipes/broccoli_cheese_souffle.html> .
 
 rp:Browned_Buttered_Egg_Noodles rp:ingredient rp:butter,
@@ -524,28 +229,22 @@ rp:Butterfinger_Caramel_Apples_Recipe rp:ingredient rp:apple,
         rp:water ;
     rp:recipe_URL <http://www.grouprecipes.com/72942/butterfinger-caramel-apples.html> .
 
-<http://test.org/recipe_puppy#COUNTRY_TIME_Lemonade_Quencher_
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:lemon,
+rp:COUNTRY_TIME_Lemonade_Quencher rp:ingredient rp:lemon,
         rp:lemonade,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/country-time-lemonade-quencher-106572.aspx> .
 
-<http://test.org/recipe_puppy#Cafe_Caramel_Fondue_
+rp:Cable_Car_Recipe rp:ingredient rp:lemon,
+        rp:orange_curacao,
+        rp:rum ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/cable-car-675> .
 
-> rp:ingredient rp:caramels,
+rp:Cafe_Caramel_Fondue rp:ingredient rp:caramels,
         rp:coffee,
         rp:milk ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/cafe-caramel-fondue-91539.aspx> .
 
-<http://test.org/recipe_puppy#Cafe_Latte_
-		
-> rp:ingredient rp:espresso,
+rp:Cafe_Latte rp:ingredient rp:espresso,
         rp:milk ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/cafe-latte-54971.aspx>,
         <http://www.kraftfoods.com/kf/recipes/cafe-latte-54971.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy> .
@@ -559,9 +258,7 @@ rp:Candied_Citrus_Peel rp:ingredient rp:lemon,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Candied-Citrus-Peel-5319> .
 
-<http://test.org/recipe_puppy#Caramel-Dipped_Apples_
-
-> rp:ingredient rp:apple,
+rp:Caramel-Dipped_Apples rp:ingredient rp:apple,
         rp:caramels,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/caramel-dipped-apples-55497.aspx>,
@@ -590,22 +287,16 @@ rp:Champagne_Punch_III rp:ingredient rp:carbonated_water,
         rp:mint ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Champagne-Punch-III/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Cheesy_Apple_Bites_
-
-> rp:ingredient rp:apple,
+rp:Cheesy_Apple_Bites rp:ingredient rp:apple,
         rp:cheese ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/cheesy-apple-bites-111396.aspx> .
 
-<http://test.org/recipe_puppy#Cheesy_Apple_Cinnamon_Raisin_Grill_
-
-> rp:ingredient rp:apple,
+rp:Cheesy_Apple_Cinnamon_Raisin_Grill rp:ingredient rp:apple,
         rp:butter,
         rp:raisin_bread ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/cheesy-apple-cinnamon-raisin-56990.aspx> .
 
-<http://test.org/recipe_puppy#Cheesy_Apple_Rings_
-		
-> rp:ingredient rp:apple,
+rp:Cheesy_Apple_Rings rp:ingredient rp:apple,
         rp:milk ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/cheesy-apple-rings-75577.aspx> .
 
@@ -613,32 +304,46 @@ rp:Chicken_Breasts_With_Apple_Curry_Sauce rp:ingredient rp:butter,
         rp:chicken ;
     rp:recipe_URL <http://www.recipezaar.com/Chicken-Breasts-With-Apple-Curry-Sauce-188011> .
 
+rp:Chicken_Cordon_Bleu_Recipe rp:ingredient rp:bread_crumbs,
+        rp:chicken,
+        rp:egg,
+        rp:flour,
+        rp:ham,
+        rp:vegetable_oil ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/chicken-cordon-bleu-44097> .
+
+rp:Chicken_Fingers_Recipe rp:ingredient rp:bread,
+        rp:chicken,
+        rp:egg,
+        rp:salt ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/chicken-fingers-3974> .
+
+rp:Chicken_Loaf_Recipe rp:ingredient rp:chicken,
+        rp:egg,
+        rp:garlic,
+        rp:onions,
+        rp:saltine_crackers,
+        rp:seasoning ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/chicken-loaf-38765> .
+
+rp:Chili_Rellenos_Recipe rp:ingredient rp:cheddar_cheese,
+        rp:chilies,
+        rp:egg,
+        rp:flour,
+        rp:lowfat_milk,
+        rp:mozzarella_cheese ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/chili-rellenos-20003> .
+
 rp:Chipotle_Compound_Butter rp:ingredient rp:butter,
         rp:chipotle_peppers ;
     rp:recipe_URL <http://www.recipezaar.com/Chipotle-Compound-Butter-195792> .
 
-<http://test.org/recipe_puppy#Chocolate-Dipped_Apples_
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:apple,
+rp:Chocolate-Dipped_Apples rp:ingredient rp:apple,
         rp:chocolate,
         rp:pecan ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/chocolate-dipped-apples-65939.aspx> .
 
-<http://test.org/recipe_puppy#Chocolate_Coffee_Latte_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:coffee,
+rp:Chocolate_Coffee_Latte rp:ingredient rp:coffee,
         rp:milk,
         rp:semisweet_chocolate ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/chocolate-coffee-latte-54839.aspx> .
@@ -655,22 +360,11 @@ rp:Chocolate_Fudge_Pops rp:ingredient rp:milk,
         rp:sugar ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Chocolate-Fudge-Pops/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Chocolate_Glaze_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:butter,
+rp:Chocolate_Glaze rp:ingredient rp:butter,
         rp:semisweet_chocolate ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/chocolate-glaze-56131.aspx> .
 
-<http://test.org/recipe_puppy#Chocolate_Hazelnut_Java_
-
-> rp:ingredient rp:cocoa_powder,
+rp:Chocolate_Hazelnut_Java rp:ingredient rp:cocoa_powder,
         rp:coffee ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/chocolate-hazelnut-java-63587.aspx>,
         <http://www.kraftfoods.com/kf/recipes/chocolate-hazelnut-java-63587.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy> .
@@ -703,9 +397,7 @@ rp:Cinnamon_Apples_Recipe rp:ingredient rp:apple,
         rp:red_cinnamon_candies ;
     rp:recipe_URL <http://www.grouprecipes.com/64613/cinnamon-apples.html> .
 
-<http://test.org/recipe_puppy#Cocoa_Java_
-
-> rp:ingredient rp:cocoa_powder,
+rp:Cocoa_Java rp:ingredient rp:cocoa_powder,
         rp:coffee,
         rp:whipped_topping ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/cocoa-java-50780.aspx>,
@@ -715,9 +407,7 @@ rp:Coconut_Cream_Pie_I rp:ingredient rp:flaked_coconut,
         rp:milk ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Coconut-Cream-Pie-I/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Coffee-Caramel_Sauce_
-
-> rp:ingredient rp:caramel,
+rp:Coffee-Caramel_Sauce rp:ingredient rp:caramel,
         rp:coffee ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/coffee-caramel-sauce-56136.aspx> .
 
@@ -729,9 +419,7 @@ rp:Coffee_Granita rp:ingredient rp:coffee,
         rp:sugar_substitute ;
     rp:recipe_URL <http://www.recipezaar.com/Coffee-Granita-135088> .
 
-<http://test.org/recipe_puppy#Coffee_Ice_Cubes_
-
-> rp:ingredient rp:coffee ;
+rp:Coffee_Ice_Cubes rp:ingredient rp:coffee ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/coffee-ice-cubes-57363.aspx> .
 
 rp:Cooked_Mushrooms rp:ingredient rp:butter,
@@ -752,12 +440,10 @@ rp:Cream_Cheese_And_Chive_Scrambled_Eggs rp:ingredient rp:butter,
         rp:egg ;
     rp:recipe_URL <http://www.bigoven.com/145344-Cream-Cheese-And-Chive-Scrambled-Eggs-recipe.html> .
 
-rp:Creamed_Spinach_ rp:ingredient rp:milk ;
+rp:Creamed_Spinach rp:ingredient rp:milk ;
     rp:recipe_URL <http://www.eatingwell.com/recipes/creamed_spinach.html> .
 
-<http://test.org/recipe_puppy#Crisp_Lemon-Oregano_Chicken_
-		
-> rp:ingredient rp:chicken,
+rp:Crisp_Lemon-Oregano_Chicken rp:ingredient rp:chicken,
         rp:lemon,
         rp:oregano ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/crisp-lemon-oregano-chicken-108277.aspx> .
@@ -766,42 +452,51 @@ rp:Crock_Pot_Caramelized_Onions rp:ingredient rp:butter,
         rp:onions ;
     rp:recipe_URL <http://www.recipezaar.com/Crock-Pot-Caramelized-Onions-191625> .
 
-<http://test.org/recipe_puppy#Crowning_Glory_Coffee_
-
-> rp:ingredient rp:cinnamon,
+rp:Crowning_Glory_Coffee rp:ingredient rp:cinnamon,
         rp:coffee,
         rp:whipped_topping ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/crowning-glory-coffee-57102.aspx> .
 
-<http://test.org/recipe_puppy#Crowning_Glory_Viennese_Cafe_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:cinnamon,
+rp:Crowning_Glory_Viennese_Cafe rp:ingredient rp:cinnamon,
         rp:coffee,
         rp:semisweet_chocolate ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/crowning-glory-viennese-cafe-54967.aspx> .
+
+rp:Custard_Cream_Filling_For_Cream_Puffs_Recipe rp:ingredient rp:egg,
+        rp:flour,
+        rp:lemon_extract,
+        rp:lowfat_milk,
+        rp:salt,
+        rp:sugar ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/custard-cream-filling-for-cream-puffs-25791> .
+
+rp:Custard_Pie_Recipe rp:ingredient rp:egg,
+        rp:lowfat_milk,
+        rp:nutmeg,
+        rp:salt,
+        rp:sugar,
+        rp:vanilla_extract ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/custard-pie-40723>,
+        <http://cookeatshare.com/recipes/custard-pie-40724>,
+        <http://cookeatshare.com/recipes/custard-pie-40735> .
+
+rp:Custard_Sauce_Recipe rp:ingredient rp:egg,
+        rp:lowfat_milk,
+        rp:salt,
+        rp:sugar ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/custard-sauce-12837> .
 
 rp:Death_by_Chocolate rp:ingredient rp:coffee,
         rp:milk ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Death-by-Chocolate/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Decaffeinated_Caramel_Coffee_
-
-> rp:ingredient rp:caramel,
+rp:Decaffeinated_Caramel_Coffee rp:ingredient rp:caramel,
         rp:coffee,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/decaffeinated-caramel-coffee-53483.aspx>,
         <http://www.kraftfoods.com/kf/recipes/decaffeinated-caramel-coffee-53483.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy> .
 
-<http://test.org/recipe_puppy#Delicious_Nutty_Apple_Snack_
-
-> rp:ingredient rp:apple,
+rp:Delicious_Nutty_Apple_Snack rp:ingredient rp:apple,
         rp:cream_cheese,
         rp:peanuts ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/delicious-nutty-apple-snack-65923.aspx>,
@@ -815,6 +510,13 @@ rp:Delightful_Cranberry_Lemonade rp:ingredient rp:cranberry_juice,
 rp:Dirt_Cake_III rp:ingredient rp:butter,
         rp:milk ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Dirt-Cake-III/Detail.aspx> .
+
+rp:Double_Chocolate_Brownies_Recipe rp:ingredient rp:chocolate_syrup,
+        rp:egg,
+        rp:semisweet_chocolate,
+        rp:vegetable_oil,
+        rp:water ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/double-chocolate-brownies-5107> .
 
 rp:Easy-Bake_Oven_Cake_Using_Commercial_Cake_Mixes rp:ingredient rp:cake_mix,
         rp:milk ;
@@ -832,20 +534,14 @@ rp:Easy_Baklava rp:ingredient rp:butter,
         rp:phyllo_dough ;
     rp:recipe_URL <http://www.recipezaar.com/Easy-Baklava-83507> .
 
+rp:Easy_Christmas_Candy_Recipe rp:ingredient rp:butter ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/easy-christmas-candy-16496> .
+
 rp:Easy_Homemade_Microwave_Cleaner rp:ingredient rp:lemon,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Easy-Homemade-Microwave-Cleaner-82412> .
 
-<http://test.org/recipe_puppy#Easy_JELL-O®_Pudding_Milk_Shake_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:jello,
+rp:Easy_JELL-O_Pudding_Milk_Shake rp:ingredient rp:jello,
         rp:milk ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/easy-jell-o-pudding-milk-50880.aspx> .
 
@@ -896,20 +592,11 @@ rp:Fruity_Ice_Cubes rp:ingredient rp:lemon,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Fruity-Ice-Cubes-304002> .
 
-<http://test.org/recipe_puppy#Fudge_Fondue_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:butter,
+rp:Fudge_Fondue rp:ingredient rp:butter,
         rp:hot_fudge ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/fudge-fondue-51563.aspx> .
 
-<http://test.org/recipe_puppy#Fuzzy_Lemon_Fizz_(Non-Alcoholic)> rp:ingredient rp:lemon,
+rp:Fuzzy_Lemon_Fizz_Non-Alcoholic rp:ingredient rp:lemon,
         rp:peach_nectar,
         rp:sprite ;
     rp:recipe_URL <http://www.recipezaar.com/Fuzzy-Lemon-Fizz-Non-Alcoholic-265900> .
@@ -941,9 +628,17 @@ rp:Gourmet_Limoncello_Recipe rp:ingredient rp:lemon,
         rp:water ;
     rp:recipe_URL <http://www.grouprecipes.com/30479/gourmet-limoncello.html> .
 
-<http://test.org/recipe_puppy#Graham-cracker_Crust_(microwave)> rp:ingredient rp:butter,
+rp:Graham-cracker_Crust_microwave rp:ingredient rp:butter,
         rp:graham_cracker ;
     rp:recipe_URL <http://www.recipezaar.com/Graham-cracker-Crust-microwave-96877> .
+
+rp:Grams_Corn_Fritters_Recipe rp:ingredient rp:bisquick,
+        rp:corn,
+        rp:egg,
+        rp:lowfat_milk,
+        rp:shortening,
+        rp:sugar ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/gram-s-corn-fritters-43436> .
 
 rp:Grandmas_Cream_Layer_Cake_Recipe rp:ingredient rp:baking_powder,
         rp:butter,
@@ -953,24 +648,32 @@ rp:Grandmas_Cream_Layer_Cake_Recipe rp:ingredient rp:baking_powder,
         rp:sweet_milk ;
     rp:recipe_URL <http://www.grouprecipes.com/61725/grandmas-cream-layer-cake.html> .
 
-<http://test.org/recipe_puppy#Granita_Di_Caffe_
+rp:Grandmas_Stuffed_Cabbages_Recipe rp:ingredient rp:egg,
+        rp:onions,
+        rp:rice,
+        rp:savoy_cabbage ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/grandma-s-stuffed-cabbages-19436> .
 
-> rp:ingredient rp:coffee,
+rp:Grandpas_Baked_Apples_Sugar_Free_Recipe rp:ingredient rp:apple ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/grandpa-s-baked-apples-sugar-free-16222> .
+
+rp:Granita_Di_Caffe rp:ingredient rp:coffee,
         rp:sugar,
         rp:vanilla_extract ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/granita-di-caffe-54185.aspx> .
 
-<http://test.org/recipe_puppy#Granita_with_Ice_Cream_
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:coffee,
+rp:Granita_with_Ice_Cream rp:ingredient rp:coffee,
         rp:vanilla_ice_cream,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/granita-ice-cream-57607.aspx> .
+
+rp:Greek_Cookies_Recipe rp:ingredient rp:butter,
+        rp:egg,
+        rp:flour,
+        rp:sugar,
+        rp:vanilla_extract,
+        rp:whiskey ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/greek-cookies-18154> .
 
 rp:Green_Beans_With_Lemon_Peel rp:ingredient rp:green_beans,
         rp:lemon ;
@@ -980,9 +683,7 @@ rp:Green_Chili_Tomato_Soup rp:ingredient rp:cheddar_cheese,
         rp:milk ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Green-Chili-Tomato-Soup/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Grilled_Cheese_Sandwich_Sticks_
-
-> rp:ingredient rp:bread,
+rp:Grilled_Cheese_Sandwich_Sticks rp:ingredient rp:bread,
         rp:butter ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/grilled-cheese-sandwich-sticks-54529.aspx>,
         <http://www.kraftfoods.com/kf/recipes/grilled-cheese-sandwich-sticks-54529.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy> .
@@ -1000,11 +701,21 @@ rp:Grilled_Lemon_and_Rosemary_Chicken rp:ingredient rp:lemon,
         rp:salad_dressing ;
     rp:recipe_URL <http://www.epicurious.com/recipes/food/views/Grilled-Lemon-and-Rosemary-Chicken-106848> .
 
-<http://test.org/recipe_puppy#Grilled_Salmon_with_Mustard_&_Herbs> rp:ingredient rp:lemon ;
+rp:Grilled_Salmon_with_Mustard__Herbs rp:ingredient rp:lemon ;
     rp:recipe_URL <http://www.eatingwell.com/recipes/salmon_mustard_herb.html> .
 
-<http://test.org/recipe_puppy#Hard_Boiled_Eggs_(Mf)> rp:ingredient rp:egg ;
+rp:Hard_Boiled_Eggs_Mf rp:ingredient rp:egg ;
     rp:recipe_URL <http://www.bigoven.com/95446-Hard-Boiled-Eggs-(Mf)-recipe.html> .
+
+rp:Healthy_Apple_Crisp_Recipe rp:ingredient rp:apple ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/healthy-apple-crisp-30051> .
+
+rp:Herb_Butter_Recipe rp:ingredient rp:butter ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/herb-butter-28980> .
+
+rp:Herb_Tea_Recipe rp:ingredient rp:lemon,
+        rp:mint ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/herb-tea-27270> .
 
 rp:Home_Made_Noodles_Recipe rp:ingredient rp:egg,
         rp:flour,
@@ -1021,15 +732,11 @@ rp:Hot_Fudge_Sauce rp:ingredient rp:butter,
         rp:vanilla_extract ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Hot-Fudge-Sauce/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Ice_Cream_Coffee_Float_
-
-> rp:ingredient rp:coffee ;
+rp:Ice_Cream_Coffee_Float rp:ingredient rp:coffee ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/ice-cream-coffee-float-54947.aspx>,
         <http://www.kraftfoods.com/kf/recipes/ice-cream-coffee-float-54947.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy> .
 
-<http://test.org/recipe_puppy#Iced_Chocolaccino_
-
-> rp:ingredient rp:cocoa_powder,
+rp:Iced_Chocolaccino rp:ingredient rp:cocoa_powder,
         rp:coffee ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/iced-chocolaccino-53225.aspx> .
 
@@ -1037,9 +744,7 @@ rp:Iced_Coffee rp:ingredient rp:coffee,
         rp:condensed_milk ;
     rp:recipe_URL <http://www.recipezaar.com/Iced-Coffee-113064> .
 
-<http://test.org/recipe_puppy#Iced_Coffee_Latte_
-
-> rp:ingredient rp:coffee,
+rp:Iced_Coffee_Latte rp:ingredient rp:coffee,
         rp:milk,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/iced-coffee-latte-53354.aspx> .
@@ -1057,7 +762,7 @@ rp:Internal_Detox_for_Glowing_Skin rp:ingredient rp:honey,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Internal-Detox-for-Glowing-Skin-61610> .
 
-<http://test.org/recipe_puppy#Italian_Chocolate_Bread_Pudding_(Bodino_Nero)> rp:ingredient rp:bread_crumbs,
+rp:Italian_Chocolate_Bread_Pudding_Bodino_Nero rp:ingredient rp:bread_crumbs,
         rp:egg,
         rp:semisweet_chocolate,
         rp:sugar,
@@ -1065,28 +770,24 @@ rp:Internal_Detox_for_Glowing_Skin rp:ingredient rp:honey,
         rp:whole_milk ;
     rp:recipe_URL <http://www.bigoven.com/101163-Italian-Chocolate-Bread-Pudding-(Bodino-Nero)-recipe.html> .
 
-<http://test.org/recipe_puppy#JELL-O_Homemade_Pudding_Pops_
-		
-> rp:ingredient rp:jello,
+rp:JELL-O_Homemade_Pudding_Pops rp:ingredient rp:jello,
         rp:milk ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/jell-o-homemade-pudding-pops-53221.aspx>,
         <http://www.kraftfoods.com/kf/recipes/jell-o-homemade-pudding-pops-53221.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy> .
 
-<http://test.org/recipe_puppy#Java_Nuts_
-
-> rp:ingredient rp:coffee,
+rp:Java_Nuts rp:ingredient rp:coffee,
         rp:nuts,
         rp:sugar ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/java-nuts-110147.aspx> .
 
-<http://test.org/recipe_puppy#John's_Raspberry_Asparagus> rp:ingredient rp:asparagus,
+rp:Johns_Raspberry_Asparagus rp:ingredient rp:asparagus,
         rp:lemon ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Johns-Raspberry-Asparagus/Detail.aspx> .
 
 rp:Kahla_Cooler_Recipe rp:ingredient rp:milk ;
     rp:recipe_URL <http://www.grouprecipes.com/2910/kahla-cooler.html> .
 
-<http://test.org/recipe_puppy#Kellogg's&#174;_Cocoa_Krispies&#8482;_Choconilla&#8482;_Marshmallow_Treats> rp:ingredient rp:butter,
+<http://test.org/recipe_puppy#Kelloggs#174_Cocoa_Krispies#8482_Choconilla#8482_Marshmallow_Treats> rp:ingredient rp:butter,
         rp:cereal ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Kelloggs-Cocoa-Krispies-Choconilla-Marshmallow-Treats/Detail.aspx> .
 
@@ -1094,16 +795,7 @@ rp:Kool-Aid_Sherbet rp:ingredient rp:milk,
         rp:sugar ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Kool-Aid-Sherbet/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Lemon-Pepper_Rice_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:cracked_black_pepper,
+rp:Lemon-Pepper_Rice rp:ingredient rp:cracked_black_pepper,
         rp:lemon,
         rp:rice ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/lemon-pepper-rice-68939.aspx> .
@@ -1120,12 +812,11 @@ rp:Lemon_Icebox_Pie_III rp:ingredient rp:lemon,
         rp:lemon_zest ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Lemon-Icebox-Pie-III/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Lemon_Soda_Float
-> rp:ingredient rp:lemon,
+rp:Lemon_Soda_Float rp:ingredient rp:lemon,
         rp:vanilla_ice_cream ;
     rp:recipe_URL <http://find.myrecipes.com/recipes/recipefinder.dyn?action=displayRecipe&recipe_id=1060163> .
 
-<http://test.org/recipe_puppy#Lemon_Tea_(Cha_De_Limao)> rp:ingredient rp:lemon,
+rp:Lemon_Tea_Cha_De_Limao rp:ingredient rp:lemon,
         rp:sugar,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Lemon-Tea-Cha-De-Limao-186034> .
@@ -1134,7 +825,7 @@ rp:Lemon_Verbena_Vinegar rp:ingredient rp:lemon,
         rp:white_wine_vinegar ;
     rp:recipe_URL <http://find.myrecipes.com/recipes/recipefinder.dyn?action=displayRecipe&recipe_id=682688> .
 
-<http://test.org/recipe_puppy#Lemon_Water_(Agua_Limon)> rp:ingredient rp:lemon,
+rp:Lemon_Water_Agua_Limon rp:ingredient rp:lemon,
         rp:sugar,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Lemon-Water-Agua-Limon-172106> .
@@ -1144,22 +835,16 @@ rp:Lemonade rp:ingredient rp:lemon,
         rp:water ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Lemonade/Detail.aspx> .
 
-<http://test.org/recipe_puppy#MAXWELL_HOUSE®_Coffee_
-
-> rp:ingredient rp:coffee,
+rp:MAXWELL_HOUSE_Coffee rp:ingredient rp:coffee,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/maxwell-house-coffee-57786.aspx> .
 
-<http://test.org/recipe_puppy#MAXWELL_HOUSE®_Hazelnut_Instant_Iced_Coffee_
-
-> rp:ingredient rp:coffee,
+rp:MAXWELL_HOUSE_Hazelnut_Instant_Iced_Coffee rp:ingredient rp:coffee,
         rp:ice,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/maxwell-house-hazelnut-instant-66052.aspx> .
 
-<http://test.org/recipe_puppy#MAXWELL_HOUSE®_Iced_Coffee_
-
-> rp:ingredient rp:coffee,
+rp:MAXWELL_HOUSE_Iced_Coffee rp:ingredient rp:coffee,
         rp:ice,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/maxwell-house-iced-coffee-52804.aspx> .
@@ -1167,9 +852,24 @@ rp:Lemonade rp:ingredient rp:lemon,
 rp:Make_It_Yourself--flavored_Butters_Recipe rp:ingredient rp:butter ;
     rp:recipe_URL <http://www.grouprecipes.com/69143/make-it-yourself--flavored-butters.html> .
 
+rp:Melted_Herbed_Butter_Recipe rp:ingredient rp:butter ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/melted-herbed-butter-30574> .
+
+rp:Mexican_Wedding_Cake_Recipe rp:ingredient rp:baking_soda,
+        rp:egg,
+        rp:flour,
+        rp:pineapple,
+        rp:sugar,
+        rp:walnut ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/mexican-wedding-cake-56090> .
+
 rp:Meyer_Lemon_Digestif rp:ingredient rp:lemon,
         rp:simple_syrup ;
     rp:recipe_URL <http://www.chow.com/recipes/11961> .
+
+<http://test.org/recipe_puppy#Microwaved_quotBakedquot_Apples_No_Sugar_Added_Recipe> rp:ingredient rp:apple,
+        rp:strawberries ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/microwaved-baked-apples-no-sugar-added-34923> .
 
 rp:Mini_Crustless_Ham_And_Egg_Tarts_Recipe rp:ingredient rp:cherry_tomato,
         rp:chives,
@@ -1179,13 +879,11 @@ rp:Mini_Crustless_Ham_And_Egg_Tarts_Recipe rp:ingredient rp:cherry_tomato,
         rp:parmesan_cheese ;
     rp:recipe_URL <http://www.grouprecipes.com/85461/mini-crustless-ham-and-egg-tarts.html> .
 
-<http://test.org/recipe_puppy#Mixed_Greens'_Salad_With_Apples_and_Maple-Walnut_Oil_Dressing> rp:ingredient rp:apple,
+rp:Mixed_Greens_Salad_With_Apples_and_Maple-Walnut_Oil_Dressing rp:ingredient rp:apple,
         rp:salad_greens ;
     rp:recipe_URL <http://www.recipezaar.com/Mixed-Greens-Salad-With-Apples-and-Maple-Walnut-Oil-Dressing-134809> .
 
-<http://test.org/recipe_puppy#Mixed_Nut_Waldorf_Salad_
-		
-> rp:ingredient rp:apple,
+rp:Mixed_Nut_Waldorf_Salad rp:ingredient rp:apple,
         rp:celery,
         rp:mayonaise ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/mixed-nut-waldorf-salad-109208.aspx> .
@@ -1193,9 +891,7 @@ rp:Mini_Crustless_Ham_And_Egg_Tarts_Recipe rp:ingredient rp:cherry_tomato,
 rp:Mocha_Ice_Pops rp:ingredient rp:coffee ;
     rp:recipe_URL <http://www.eatingwell.com/recipes/mocha_ice_pops.html> .
 
-<http://test.org/recipe_puppy#Mocha_Java_Chiller_
-
-> rp:ingredient rp:coffee,
+rp:Mocha_Java_Chiller rp:ingredient rp:coffee,
         rp:milk_chocolate,
         rp:whipped_topping ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/mocha-java-chiller-64375.aspx> .
@@ -1204,18 +900,30 @@ rp:Mock_Lemon_Chiffon_Cake rp:ingredient rp:milk,
         rp:strawberries ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Mock-Lemon-Chiffon-Cake/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Morning_Café_
-
-> rp:ingredient rp:coffee,
+rp:Morning_Café rp:ingredient rp:coffee,
         rp:milk,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/morning-cafe-54123.aspx>,
         <http://www.kraftfoods.com/kf/recipes/morning-cafe-54123.aspx?cm_re=1-_-1-_-RecipeAlsoEnjoy> .
 
-<http://test.org/recipe_puppy#Morning_Muffins_
-		
-> rp:ingredient rp:apple ;
+rp:Morning_Muffins rp:ingredient rp:apple ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/morning-muffins-62817.aspx> .
+
+rp:Mother_Knacks_Veal_Loaf_Recipe rp:ingredient rp:cracker_crumbs,
+        rp:egg,
+        rp:ketchup,
+        rp:lemon_juice,
+        rp:pimento_stuffed_olive,
+        rp:veal ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/mother-knack-s-veal-loaf-1104> .
+
+rp:Mothers_Ham_Loaf_Recipe rp:ingredient rp:bread_crumbs,
+        rp:egg,
+        rp:green_pepper,
+        rp:ham,
+        rp:lowfat_milk,
+        rp:pork ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/mother-s-ham-loaf-22584> .
 
 rp:Neiman_Marcus_Strawberry_Butter rp:ingredient rp:butter,
         rp:strawberry_preserves ;
@@ -1242,16 +950,7 @@ rp:Orange_Pine_Nut_Biscotti_Recipe rp:ingredient rp:bisquick,
         rp:sugar ;
     rp:recipe_URL <http://www.grouprecipes.com/87344/orange-pine-nut-biscotti.html> .
 
-<http://test.org/recipe_puppy#Over-The-Top_Apple_Snack_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:apple,
+rp:Over-The-Top_Apple_Snack rp:ingredient rp:apple,
         rp:brown_sugar,
         rp:cheese_spread ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/over-the-top-apple-snack-66274.aspx> .
@@ -1260,16 +959,13 @@ rp:Overnight_Preserved_Lemons rp:ingredient rp:kosher_salt,
         rp:lemon ;
     rp:recipe_URL <http://www.recipezaar.com/Overnight-Preserved-Lemons-167756> .
 
-<http://test.org/recipe_puppy#Peanut_Butter_and_Apple_RITZ_
-		
-	
-		
-	
-		
-	
-	
+rp:Peach_Pie_Recipe rp:ingredient rp:butter,
+        rp:egg,
+        rp:flour,
+        rp:sugar ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/peach-pie-31746> .
 
-> rp:ingredient rp:apple,
+rp:Peanut_Butter_and_Apple_RITZ rp:ingredient rp:apple,
         rp:peanut_butter,
         rp:ritz_cracker ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/peanut-butter-apple-ritz-56600.aspx> .
@@ -1284,22 +980,11 @@ rp:Pink_Lemonade rp:ingredient rp:apple,
     rp:recipe_URL <http://www.recipezaar.com/Pink-Lemonade-178238>,
         <http://www.recipezaar.com/Pink-Lemonade-34507> .
 
-<http://test.org/recipe_puppy#Powdered_Sugar_Icing_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:milk,
+rp:Powdered_Sugar_Icing rp:ingredient rp:milk,
         rp:powdered_sugar ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/powdered-sugar-icing-56138.aspx> .
 
-<http://test.org/recipe_puppy#Pudding_Poke_Brownies_
-
-> rp:ingredient rp:jello,
+rp:Pudding_Poke_Brownies rp:ingredient rp:jello,
         rp:milk ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/pudding-poke-brownies-57178.aspx> .
 
@@ -1322,7 +1007,7 @@ rp:Red_Zinger rp:ingredient rp:ginger_ale,
     rp:recipe_URL <http://find.myrecipes.com/recipes/recipefinder.dyn?action=displayRecipe&recipe_id=1859406>,
         <http://www.chow.com/recipes/13936> .
 
-<http://test.org/recipe_puppy#Refreshing_Lemon_&amp;_Cucumber_Water> rp:ingredient rp:cucumber,
+rp:Refreshing_Lemon_amp_Cucumber_Water rp:ingredient rp:cucumber,
         rp:lemon,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Refreshing-Lemon-Cucumber-Water-110671> .
@@ -1337,16 +1022,22 @@ rp:Rocky_Road_Candies rp:ingredient rp:butter,
 rp:Royal_Washington_Apple rp:ingredient rp:apple ;
     rp:recipe_URL <http://find.myrecipes.com/recipes/recipefinder.dyn?action=displayRecipe&recipe_id=1859473> .
 
-<http://test.org/recipe_puppy#Royal_Washington_Apple_(Royal_Apple)> rp:ingredient rp:apple ;
+rp:Royal_Washington_Apple_Royal_Apple rp:ingredient rp:apple ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Royal-Washington-Apple-Royal-Apple/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Sarge's_EZ_Pulled_Pork_BBQ> rp:ingredient rp:coffee,
+rp:Sarges_EZ_Pulled_Pork_BBQ rp:ingredient rp:coffee,
         rp:salt ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Sarges-EZ-Pulled-Pork-BBQ/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Savory_Apple_Stuffing_
+rp:Sausage_And_Egg_Casserole_Recipe rp:ingredient rp:cheddar_cheese,
+        rp:croutons,
+        rp:egg,
+        rp:lowfat_milk,
+        rp:mustard_powder,
+        rp:sausage ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/sausage-and-egg-casserole-13151> .
 
-> rp:ingredient rp:apple,
+rp:Savory_Apple_Stuffing rp:ingredient rp:apple,
         rp:onions,
         rp:stuffing ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/savory-apple-stuffing-66161.aspx> .
@@ -1355,15 +1046,11 @@ rp:Scratch_Whole_Wheat_Pasta_Recipe rp:ingredient rp:egg,
         rp:pasta ;
     rp:recipe_URL <http://www.grouprecipes.com/80897/scratch-whole-wheat-pasta.html> .
 
-<http://test.org/recipe_puppy#Shake-Awake_Smoothie_
-
-> rp:ingredient rp:coffee,
+rp:Shake-Awake_Smoothie rp:ingredient rp:coffee,
         rp:vanilla_ice_cream ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/shake-awake-smoothie-54943.aspx> .
 
-<http://test.org/recipe_puppy#Shake_Sensation_
-
-> rp:ingredient rp:coffee,
+rp:Shake_Sensation rp:ingredient rp:coffee,
         rp:coffee_ice_cream ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/shake-sensation-51076.aspx> .
 
@@ -1371,18 +1058,12 @@ rp:Shiny_Chocolate_Glaze rp:ingredient rp:butter,
         rp:corn_syrup ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Shiny-Chocolate-Glaze/Detail.aspx> .
 
-<http://test.org/recipe_puppy#Simple_Powdered_Sugar_Icing_
-		
-	
-		
-	
-		
-	
-	
-
-> rp:ingredient rp:milk,
+rp:Simple_Powdered_Sugar_Icing rp:ingredient rp:milk,
         rp:powdered_sugar ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/simple-powdered-sugar-icing-56132.aspx> .
+
+rp:Slow_Cooker_Baked_Apples_Recipe rp:ingredient rp:apple ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/slow-cooker-baked-apples-8852> .
 
 rp:Snicker_Salad_Dessert_Recipe rp:ingredient rp:apple,
         rp:whipped_topping ;
@@ -1428,6 +1109,10 @@ rp:Sweet_Tater_Pie_Recipe rp:ingredient rp:egg,
         rp:tea ;
     rp:recipe_URL <http://www.grouprecipes.com/24358/sweet-tater-pie.html> .
 
+rp:Taffy_Apple_Salad_Recipe rp:ingredient rp:apple,
+        rp:pineapple ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/taffy-apple-salad-51707> .
+
 rp:Tart_Lemon_Blueberry_Custard_Tart_Recipe rp:ingredient rp:blueberries,
         rp:egg,
         rp:egg_yolks,
@@ -1437,9 +1122,7 @@ rp:Tart_Lemon_Blueberry_Custard_Tart_Recipe rp:ingredient rp:blueberries,
         rp:sugar ;
     rp:recipe_URL <http://www.grouprecipes.com/10012/tart-lemon-blueberry-custard-tart.html> .
 
-<http://test.org/recipe_puppy#Thai_Coffee_
-
-> rp:ingredient rp:coffee,
+rp:Thai_Coffee rp:ingredient rp:coffee,
         rp:condensed_milk,
         rp:water ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/thai-coffee-51475.aspx>,
@@ -1458,7 +1141,7 @@ rp:The_Oreo_Ritual_Recipe rp:ingredient rp:milk ;
 rp:The_Pink_Tabouli_Recipe rp:ingredient rp:apple ;
     rp:recipe_URL <http://www.grouprecipes.com/50177/the-pink-tabouli.html> .
 
-<http://test.org/recipe_puppy#Toasted_Coconut,_Pecan,_and_Caramel_Pie> rp:ingredient rp:butter,
+rp:Toasted_Coconut_Pecan_and_Caramel_Pie rp:ingredient rp:butter,
         rp:pecan ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Toasted-Coconut-Pecan-and-Caramel-Pie/Detail.aspx> .
 
@@ -1473,6 +1156,16 @@ rp:Trail_Mix_Apple_Recipe rp:ingredient rp:apple,
 rp:Turkey_Pot_Pie_III rp:ingredient rp:milk,
         rp:turkey ;
     rp:recipe_URL <http://allrecipes.com/Recipe/Turkey-Pot-Pie-III/Detail.aspx> .
+
+rp:Turkey_Quiche_Recipe rp:ingredient rp:egg,
+        rp:evaporated,
+        rp:stuffing,
+        rp:swiss_cheese,
+        rp:turkey ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/turkey-quiche-34083> .
+
+rp:Unbeatable_Eggless_Spice_Cake_Recipe rp:ingredient rp:butter ;
+    rp:recipe_URL <http://cookeatshare.com/recipes/unbeatable-eggless-spice-cake-14223> .
 
 rp:Zippy_Zucchini_Cakes_With_Tomato_Pesto_Pasta_Recipe rp:ingredient rp:egg,
         rp:pine_nuts ;

@@ -1,6 +1,271 @@
 @prefix bft: <http://test.org/bft.owl#> .
 @prefix rp: <http://test.org/recipe_puppy#> .
 
+bft:apple rp:has_recipe rp:Allo_Aloe,
+        rp:Apple_Bites,
+        rp:Apple_Carvings,
+        rp:Apple_Crisp,
+        rp:Apple_Lemontini,
+        rp:Apple_Pie_Recipe,
+        <http://test.org/recipe_puppy#Apple_Puree/Applesauce_amp_Real_Apple_Juice_No_Added_Sugar>,
+        rp:Apples_and_Chocolate_Pudding_Dip,
+        rp:Apples_and_Peanut_Butter_Apple_Slices,
+        rp:Appletini,
+        rp:BOCA_Sausage_Apple_Strudel,
+        rp:Baileys_Caramel_Appletini,
+        rp:Baileys_Caramel_Appletini_Baileys_Appletini,
+        rp:Blender_Applesauce_Recipe,
+        rp:Butterfinger_Caramel_Apples_Recipe,
+        rp:Caramel-Dipped_Apples,
+        rp:Caramel_Apples,
+        rp:Cheesy_Apple_Bites,
+        rp:Cheesy_Apple_Cinnamon_Raisin_Grill,
+        rp:Cheesy_Apple_Rings,
+        rp:Chocolate-Dipped_Apples,
+        rp:Cinnamon_Apples_Recipe,
+        rp:Delicious_Nutty_Apple_Snack,
+        rp:Easy_Applesauce,
+        rp:Grandpas_Baked_Apples_Sugar_Free_Recipe,
+        rp:Healthy_Apple_Crisp_Recipe,
+        <http://test.org/recipe_puppy#Microwaved_quotBakedquot_Apples_No_SugarAdded_Recipe>,
+        rp:Mixed_Greens_Salad_With_Apples_and_Maple-Walnut_Oil_Dressing,
+        rp:Mixed_Nut_Waldorf_Salad,
+        rp:Morning_Muffins,
+        rp:Ninja_Turtle_Recipe,
+        rp:Over-The-Top_Apple_Snack,
+        rp:Peanut_Butter_and_Apple_RITZ,
+        rp:Pink_Lemonade,
+        rp:Royal_Washington_Apple,
+        rp:Royal_Washington_Apple_Royal_Apple,
+        rp:Savory_Apple_Stuffing,
+        rp:Slow_Cooker_Baked_Apples_Recipe,
+        rp:Snicker_Salad_Dessert_Recipe,
+        rp:Surprise_Apple_Salad,
+        rp:Taffy_Apple_Salad_Recipe,
+        rp:The_Pink_Tabouli_Recipe,
+        rp:Trail_Mix_Apple_Recipe .
+
+bft:butter rp:has_recipe rp:Baked_Beets,
+        rp:Baked_Potatoes,
+        rp:Baked_Sweet_Potatoes,
+        rp:Best_Grill_Roasted_Corn_on_the_Cob,
+        rp:Blackened_Chicken,
+        rp:Bourbon_Chicken,
+        rp:Browned_Buttered_Egg_Noodles,
+        rp:Butter_Curls,
+        rp:Butter_Roasted_Carrots,
+        rp:Cajun_Blackened_Salmon,
+        rp:Cereal_Treats_II,
+        rp:Chicken_Breasts_With_Apple_Curry_Sauce,
+        rp:Chipotle_Compound_Butter,
+        rp:Chocolate_Glaze,
+        rp:Chocolate_Shell_Sauce,
+        rp:Cooked_Mushrooms,
+        rp:Cornbread_Casserole,
+        rp:Crock_Pot_Caramelized_Onions,
+        rp:Dirt_Cake_III,
+        rp:Easy_Baklava,
+        rp:Easy_Christmas_Candy_Recipe,
+        rp:Easy_Parker_House_Rolls,
+        rp:Emergency_Substitutions_Recipe,
+        rp:Fabulous_Beef_Tenderloin,
+        rp:Flavored_Butters,
+        rp:Freezer_Caramel_Drizzle_Pie,
+        rp:Fried_Bittersweet_Chocolate_Bread,
+        rp:Fudge_Fondue,
+        rp:Garlic_Butter_for_Steaks_and_Mash_Potatoes,
+        rp:Garlic_Croutons,
+        rp:Gingersnap_Crumble_Ice_Cream_Tart,
+        rp:Gorilla_Bread_for_Little_Monkeys,
+        rp:Graham-cracker_Crust_microwave,
+        rp:Grilled_Cheese_Sandwich_Sticks,
+        rp:Grilled_Corn,
+        rp:Herb_Butter_Recipe,
+        rp:Honey_Butter,
+        rp:Hot_Fudge_Sauce,
+        <http://test.org/recipe_puppy#Kelloggs#174_Cocoa_Krispies#8482_Choconilla#8482_Marshmallow_Treats>,
+        rp:Make_It_Yourself--flavored_Butters_Recipe,
+        rp:Melted_Herbed_Butter_Recipe,
+        rp:Neiman_Marcus_Strawberry_Butter,
+        rp:Rocky_Road_Candies,
+        rp:Shiny_Chocolate_Glaze,
+        rp:Toasted_Coconut_Pecan_and_Caramel_Pie,
+        rp:Unbeatable_Eggless_Spice_Cake_Recipe,
+        rp:clarified_butter_or_ghee .
+
+bft:coffee rp:has_recipe rp:Amarula_Coffee,
+        rp:BAKERS_Chocolate_Fondue,
+        rp:Cafe_Caramel_Fondue,
+        rp:Chocolate_Coffee_Latte,
+        rp:Chocolate_Hazelnut_Java,
+        rp:Christmas_Coffee,
+        rp:Cocoa_Java,
+        rp:Coffee-Caramel_Sauce,
+        rp:Coffee_Foot_Soak,
+        rp:Coffee_Granita,
+        rp:Coffee_Ice_Cubes,
+        rp:Crowning_Glory_Coffee,
+        rp:Crowning_Glory_Viennese_Cafe,
+        rp:Death_by_Chocolate,
+        rp:Decaffeinated_Caramel_Coffee,
+        rp:French_Silk_Pie,
+        rp:Granita_Di_Caffe,
+        rp:Granita_with_Ice_Cream,
+        rp:Ice_Cream_Coffee_Float,
+        rp:Iced_Chocolaccino,
+        rp:Iced_Coffee,
+        rp:Iced_Coffee_Latte,
+        rp:Java_Nuts,
+        rp:MAXWELL_HOUSE_Coffee,
+        rp:MAXWELL_HOUSE_Hazelnut_Instant_Iced_Coffee,
+        rp:MAXWELL_HOUSE_Iced_Coffee,
+        rp:Mocha_Ice_Pops,
+        rp:Mocha_Java_Chiller,
+        rp:Morning_Café,
+        rp:Sarges_EZ_Pulled_Pork_BBQ,
+        rp:Shake-Awake_Smoothie,
+        rp:Shake_Sensation,
+        rp:Thai_Coffee,
+        rp:clarified_butter_or_ghee .
+
+bft:egg rp:has_recipe rp:Als_Chicken_Schnitzel,
+        rp:Aoli_Garlic_Dressing_Recipe,
+        rp:Baked_Tilapia__And_Cilantro_Recipe,
+        rp:Basic_Lowfat_Muffins_Recipe,
+        rp:Birds_Nest_Eggs_and_Toast,
+        rp:Blueberry_Muffins_Recipe,
+        rp:Boiled_Custard_Recipe,
+        rp:Breakfast_Pizza_Recipe,
+        rp:Breakfast_Quiches_-_South_Beach_Recipe,
+        rp:Chicken_Cordon_Bleu_Recipe,
+        rp:Chicken_Fingers_Recipe,
+        rp:Chicken_Loaf_Recipe,
+        rp:Chili_Rellenos_Recipe,
+        rp:Chocolate_Peach_Cake_Recipe,
+        rp:Chocolate_Rum_Tortoni_Recipe,
+        rp:Cream_Cheese_And_Chive_Scrambled_Eggs,
+        rp:Custard_Cream_Filling_For_Cream_Puffs_Recipe,
+        rp:Custard_Pie_Recipe,
+        rp:Custard_Sauce_Recipe,
+        rp:Double_Chocolate_Brownies_Recipe,
+        rp:Glazed_Chocolate_Cherry_Cake,
+        rp:Grams_Corn_Fritters_Recipe,
+        rp:Grandmas_Cream_Layer_Cake_Recipe,
+        rp:Grandmas_Stuffed_Cabbages_Recipe,
+        rp:Greek_Cookies_Recipe,
+        rp:Hard_Boiled_Eggs_Mf,
+        rp:Home_Made_Noodles_Recipe,
+        rp:Italian_Chocolate_Bread_Pudding_Bodino_Nero,
+        rp:Mexican_Wedding_Cake_Recipe,
+        rp:Mini_Crustless_Ham_And_Egg_Tarts_Recipe,
+        rp:Mother_Knacks_Veal_Loaf_Recipe,
+        rp:Mothers_Ham_Loaf_Recipe,
+        rp:Orange_Pine_Nut_Biscotti_Recipe,
+        rp:Peach_Pie_Recipe,
+        rp:Perfect_Peeled_Hardboiled_Eggs,
+        rp:Quail_Eggs_with_Toasted-Sesame_Salt,
+        rp:Quiche_Spectacular_Recipe,
+        rp:Sausage_And_Egg_Casserole_Recipe,
+        rp:Scratch_Whole_Wheat_Pasta_Recipe,
+        rp:Spaghetti_Fritta_Recipe,
+        rp:Spinach_Quiche_Recipe,
+        rp:Sunflower_Chip_Crusted_Chicken,
+        rp:Sweet_Tater_Pie_Recipe,
+        rp:Tart_Lemon_Blueberry_Custard_Tart_Recipe,
+        rp:Turkey_Quiche_Recipe,
+        rp:Zippy_Zucchini_Cakes_With_Tomato_Pesto_Pasta_Recipe,
+        rp:Zucchini_Casserole_Recipe .
+
+bft:lemon rp:has_recipe rp:Air_Freshener,
+        rp:Angel_Food_And_Berry_Pudding_With_Lemon_Fondant_Recipe,
+        rp:Apple_Tea_Cooler,
+        rp:Barbs_Cold_Comfort_Tea,
+        rp:Bevs_Quick_and_Easy_Shrimp_Cocktail_Sauce,
+        rp:Bitter_Lemon,
+        rp:Blue_Moon,
+        rp:COUNTRY_TIME_Lemonade_Quencher,
+        rp:Cable_Car_Recipe,
+        rp:Candied_Citrus_Peel,
+        rp:Cedar-Planked_BBQ_Salmon,
+        rp:Champagne_Punch_III,
+        rp:Crisp_Lemon-Oregano_Chicken,
+        rp:Delightful_Cranberry_Lemonade,
+        rp:Easy_Homemade_Microwave_Cleaner,
+        rp:Episode_Cocktail_Recipe,
+        rp:Fresh_Lemon,
+        rp:Fruity_Ice_Cubes,
+        rp:Fuzzy_Lemon_Fizz_Non-Alcoholic,
+        rp:Gin_Fizz_Cocktail_Recipe,
+        rp:Gourmet_Limoncello_Recipe,
+        rp:Green_Beans_With_Lemon_Peel,
+        rp:Grilled_Lemon-Stuffed_Salmon_Steaks_With_Lemon-Dill_Sauce,
+        rp:Grilled_Lemon_and_Rosemary_Chicken,
+        rp:Grilled_Salmon_with_Mustard__Herbs,
+        rp:Herb_Tea_Recipe,
+        rp:Indonesian_Cinnamon_Pork_Recipe,
+        rp:Internal_Detox_for_Glowing_Skin,
+        rp:Johns_Raspberry_Asparagus,
+        rp:Lemon-Pepper_Rice,
+        rp:Lemon_Bark,
+        rp:Lemon_Digestif,
+        rp:Lemon_Icebox_Pie_III,
+        rp:Lemon_Soda_Float,
+        rp:Lemon_Tea_Cha_De_Limao,
+        rp:Lemon_Verbena_Vinegar,
+        rp:Lemon_Water_Agua_Limon,
+        rp:Lemonade,
+        rp:Meyer_Lemon_Digestif,
+        rp:Old-Fashioned_Lemonade,
+        rp:Overnight_Preserved_Lemons,
+        rp:Pink_Lemonade,
+        rp:Red_Zinger,
+        rp:Refreshing_Lemon_amp_Cucumber_Water,
+        rp:Roasted_Broccoli_with_Lemon,
+        rp:Steamed_Asparagus_With_Lemon,
+        rp:The_Buzzsaw_Cocktail_Recipe,
+        rp:Traditional_Whiskey_Sweet_Recipe .
+
+bft:milk rp:has_recipe rp:Baked_Apple-Cinnamon_French_Toast,
+        rp:Banana_Pudding_Pops,
+        rp:Batido_De_Mango_Mango_Shake,
+        rp:Berry_Trifle,
+        rp:Bisquick_Dumplings,
+        <http://test.org/recipe_puppy#Broccoli__Goat_Cheese_Souffl#233>,
+        rp:Cafe_Latte,
+        rp:Caramelized_Pear_Bread_Pudding,
+        rp:Cheesy_Apple_Rings,
+        rp:Chocolate_Eclair,
+        rp:Chocolate_Eclair_Dessert,
+        rp:Chocolate_Fudge_Pops,
+        rp:Coconut_Cream_Pie_I,
+        rp:Cool_Whipped_Frosting,
+        rp:Creamed_Spinach,
+        rp:Death_by_Chocolate,
+        rp:Dirt_Cake_III,
+        rp:Easy-Bake_Oven_Cake_Using_Commercial_Cake_Mixes,
+        rp:Easy_Arabic_Yogurt,
+        rp:Easy_JELL-O_Pudding_Milk_Shake,
+        rp:Eclair_Cake_Recipe,
+        rp:Fluff_Dip_for_Fruit,
+        rp:Frozen_Pudding_Pops,
+        rp:Green_Chili_Tomato_Soup,
+        rp:Insomnia_No_More_With_Honey_Induced_Sweet_Dreams,
+        rp:JELL-O_Homemade_Pudding_Pops,
+        rp:Kahla_Cooler_Recipe,
+        rp:Kool-Aid_Sherbet,
+        rp:Mock_Lemon_Chiffon_Cake,
+        rp:Nutella_Hot_Chocolate,
+        rp:Powdered_Sugar_Icing,
+        rp:Pudding_Poke_Brownies,
+        rp:Simple_Powdered_Sugar_Icing,
+        rp:Substitute_for_Buttermilk,
+        rp:Sweet_Potato_Casserole,
+        rp:The_Hummer_Drink_Recipe,
+        rp:The_Oreo_Ritual_Recipe,
+        rp:Turkey_Pot_Pie_III .
+
+rp:7_up bft:used_with rp:lemon .
+
 rp:Air_Freshener rp:ingredient rp:lemon,
         rp:water ;
     rp:recipe_URL <http://www.recipezaar.com/Air-Freshener-151701> .
@@ -296,10 +561,6 @@ rp:Cheesy_Apple_Cinnamon_Raisin_Grill rp:ingredient rp:apple,
         rp:raisin_bread ;
     rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/cheesy-apple-cinnamon-raisin-56990.aspx> .
 
-rp:Cheesy_Apple_Rings rp:ingredient rp:apple,
-        rp:milk ;
-    rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/cheesy-apple-rings-75577.aspx> .
-
 rp:Chicken_Breasts_With_Apple_Curry_Sauce rp:ingredient rp:butter,
         rp:chicken ;
     rp:recipe_URL <http://www.recipezaar.com/Chicken-Breasts-With-Apple-Curry-Sauce-188011> .
@@ -486,10 +747,6 @@ rp:Custard_Sauce_Recipe rp:ingredient rp:egg,
         rp:sugar ;
     rp:recipe_URL <http://cookeatshare.com/recipes/custard-sauce-12837> .
 
-rp:Death_by_Chocolate rp:ingredient rp:coffee,
-        rp:milk ;
-    rp:recipe_URL <http://allrecipes.com/Recipe/Death-by-Chocolate/Detail.aspx> .
-
 rp:Decaffeinated_Caramel_Coffee rp:ingredient rp:caramel,
         rp:coffee,
         rp:water ;
@@ -506,10 +763,6 @@ rp:Delightful_Cranberry_Lemonade rp:ingredient rp:cranberry_juice,
         rp:lemon,
         rp:lemonade ;
     rp:recipe_URL <http://www.recipezaar.com/Delightful-Cranberry-Lemonade-187812> .
-
-rp:Dirt_Cake_III rp:ingredient rp:butter,
-        rp:milk ;
-    rp:recipe_URL <http://allrecipes.com/Recipe/Dirt-Cake-III/Detail.aspx> .
 
 rp:Double_Chocolate_Brownies_Recipe rp:ingredient rp:chocolate_syrup,
         rp:egg,
@@ -867,8 +1120,7 @@ rp:Meyer_Lemon_Digestif rp:ingredient rp:lemon,
         rp:simple_syrup ;
     rp:recipe_URL <http://www.chow.com/recipes/11961> .
 
-<http://test.org/recipe_puppy#Microwaved_quotBakedquot_Apples_No_Sugar
-Added_Recipe> rp:ingredient rp:apple,
+<http://test.org/recipe_puppy#Microwaved_quotBakedquot_Apples_No_SugarAdded_Recipe> rp:ingredient rp:apple,
         rp:strawberries ;
     rp:recipe_URL <http://cookeatshare.com/recipes/microwaved-baked-apples-no-sugar-added-34923> .
 
@@ -973,13 +1225,6 @@ rp:Peanut_Butter_and_Apple_RITZ rp:ingredient rp:apple,
 
 rp:Perfect_Peeled_Hardboiled_Eggs rp:ingredient rp:egg ;
     rp:recipe_URL <http://www.bigoven.com/171783-Perfect-Peeled-Hardboiled-Eggs-recipe.html> .
-
-rp:Pink_Lemonade rp:ingredient rp:apple,
-        rp:lemon,
-        rp:lemonade,
-        rp:tea_bag ;
-    rp:recipe_URL <http://www.recipezaar.com/Pink-Lemonade-178238>,
-        <http://www.recipezaar.com/Pink-Lemonade-34507> .
 
 rp:Powdered_Sugar_Icing rp:ingredient rp:milk,
         rp:powdered_sugar ;
@@ -1178,416 +1423,432 @@ rp:Zucchini_Casserole_Recipe rp:ingredient rp:black_pepper,
         rp:zucchini ;
     rp:recipe_URL <http://www.grouprecipes.com/51812/zucchini-casserole.html> .
 
+rp:amaretto_liqueur bft:used_with rp:milk .
+
+rp:amarula_cream_liqueur bft:used_with rp:coffee .
+
+rp:apple_cider bft:used_with rp:apple .
+
+rp:beets bft:used_with rp:butter .
+
+rp:blue_curacao bft:used_with rp:gin,
+        rp:lemon .
+
+rp:cake_mix bft:used_with rp:milk .
+
+rp:carbonated_water bft:used_with rp:lemon,
+        rp:mint .
+
+rp:cheese_spread bft:used_with rp:apple,
+        rp:brown_sugar .
+
+rp:chilies bft:used_with rp:cheddar_cheese,
+        rp:egg,
+        rp:flour,
+        rp:lowfat_milk,
+        rp:mozzarella_cheese .
+
+rp:chips bft:used_with rp:chicken,
+        rp:egg,
+        rp:skim_milk .
+
+rp:corn_syrup bft:used_with rp:butter .
+
+rp:crescent_rolls bft:used_with rp:cheese,
+        rp:egg,
+        rp:sausage .
+
+rp:croutons bft:used_with rp:cheddar_cheese,
+        rp:egg,
+        rp:lowfat_milk,
+        rp:mustard_powder,
+        rp:sausage .
+
+rp:dill_weed bft:used_with rp:lemon,
+        rp:salmon .
+
+rp:flaked_coconut bft:used_with rp:milk .
+
+rp:ginger_ale bft:used_with rp:lemon .
+
+rp:green_beans bft:used_with rp:lemon .
+
+rp:horseradish bft:used_with rp:ketchup,
+        rp:lemon .
+
+rp:hot_fudge bft:used_with rp:butter .
+
+rp:kosher_salt bft:used_with rp:lemon .
+
+rp:lemon_zest bft:used_with rp:lemon .
+
+rp:lime bft:used_with rp:apple .
+
+rp:mango bft:used_with rp:milk .
+
+rp:oregano bft:used_with rp:chicken,
+        rp:lemon .
+
+rp:pasta bft:used_with rp:egg .
+
+rp:pizza_crust bft:used_with rp:apple,
+        rp:cinnamon .
+
+rp:pudding bft:used_with rp:milk .
+
+rp:raisin_bread bft:used_with rp:apple,
+        rp:butter .
+
+rp:ritz_cracker bft:used_with rp:apple,
+        rp:peanut_butter .
+
+rp:salad_dressing bft:used_with rp:lemon .
+
+rp:savoy_cabbage bft:used_with rp:egg,
+        rp:onions,
+        rp:rice .
+
+rp:sprite bft:used_with rp:lemon,
+        rp:peach_nectar .
+
+rp:sugar_substitute bft:used_with rp:coffee .
+
+rp:veal bft:used_with rp:cracker_crumbs,
+        rp:egg,
+        rp:ketchup,
+        rp:lemon_juice,
+        rp:pimento_stuffed_olive .
+
+rp:Cheesy_Apple_Rings rp:ingredient rp:apple,
+        rp:milk ;
+    rp:recipe_URL <http://www.kraftfoods.com/kf/recipes/cheesy-apple-rings-75577.aspx> .
+
+rp:Death_by_Chocolate rp:ingredient rp:coffee,
+        rp:milk ;
+    rp:recipe_URL <http://allrecipes.com/Recipe/Death-by-Chocolate/Detail.aspx> .
+
+rp:Dirt_Cake_III rp:ingredient rp:butter,
+        rp:milk ;
+    rp:recipe_URL <http://allrecipes.com/Recipe/Dirt-Cake-III/Detail.aspx> .
+
+rp:Pink_Lemonade rp:ingredient rp:apple,
+        rp:lemon,
+        rp:lemonade,
+        rp:tea_bag ;
+    rp:recipe_URL <http://www.recipezaar.com/Pink-Lemonade-178238>,
+        <http://www.recipezaar.com/Pink-Lemonade-34507> .
+
+rp:asparagus bft:used_with rp:lemon .
+
 rp:clarified_butter_or_ghee rp:ingredient rp:butter,
         rp:coffee ;
     rp:recipe_URL <http://www.recipezaar.com/clarified-butter-or-ghee-71031> .
 
-rp:7_up bft:used_with rp:_lemon .
-
-rp:amaretto_liqueur bft:used_with rp:_milk .
-
-rp:amarula_cream_liqueur bft:used_with rp:_coffee .
-
-rp:apple_cider bft:used_with rp:_apple .
-
-rp:beets bft:used_with rp:_butter .
-
-rp:blue_curacao bft:used_with rp:_gin,
-        rp:_lemon .
-
-rp:cake_mix bft:used_with rp:_milk .
-
-rp:carbonated_water bft:used_with rp:_lemon,
-        rp:_mint .
-
-rp:cheese_spread bft:used_with rp:_apple,
-        rp:_brown_sugar .
-
-rp:chilies bft:used_with rp:_cheddar_cheese,
-        rp:_egg,
-        rp:_flour,
-        rp:_lowfat_milk,
-        rp:_mozzarella_cheese .
-
-rp:chips bft:used_with rp:_chicken,
-        rp:_egg,
-        rp:_skim_milk .
-
-rp:corn_syrup bft:used_with rp:_butter .
-
-rp:crescent_rolls bft:used_with rp:_cheese,
-        rp:_egg,
-        rp:_sausage .
-
-rp:croutons bft:used_with rp:_cheddar_cheese,
-        rp:_egg,
-        rp:_lowfat_milk,
-        rp:_mustard_powder,
-        rp:_sausage .
-
-rp:dill_weed bft:used_with rp:_lemon,
-        rp:_salmon .
-
-rp:flaked_coconut bft:used_with rp:_milk .
-
-rp:ginger_ale bft:used_with rp:_lemon .
-
-rp:green_beans bft:used_with rp:_lemon .
-
-rp:horseradish bft:used_with rp:_ketchup,
-        rp:_lemon .
-
-rp:hot_fudge bft:used_with rp:_butter .
-
-rp:kosher_salt bft:used_with rp:_lemon .
-
-rp:lemon_zest bft:used_with rp:_lemon .
-
-rp:lime bft:used_with rp:_apple .
-
-rp:mango bft:used_with rp:_milk .
-
-rp:oregano bft:used_with rp:_chicken,
-        rp:_lemon .
-
-rp:pasta bft:used_with rp:_egg .
-
-rp:pizza_crust bft:used_with rp:_apple,
-        rp:_cinnamon .
-
-rp:pudding bft:used_with rp:_milk .
-
-rp:raisin_bread bft:used_with rp:_apple,
-        rp:_butter .
-
-rp:ritz_cracker bft:used_with rp:_apple,
-        rp:_peanut_butter .
-
-rp:salad_dressing bft:used_with rp:_lemon .
-
-rp:savoy_cabbage bft:used_with rp:_egg,
-        rp:_onions,
-        rp:_rice .
-
-rp:sprite bft:used_with rp:_lemon,
-        rp:_peach_nectar .
-
-rp:sugar_substitute bft:used_with rp:_coffee .
-
-rp:veal bft:used_with rp:_cracker_crumbs,
-        rp:_egg,
-        rp:_ketchup,
-        rp:_lemon_juice,
-        rp:_pimento_stuffed_olive .
-
-rp:asparagus bft:used_with rp:_lemon .
-
-rp:bacon bft:used_with rp:_cheese,
-        rp:_egg,
-        rp:_pastry,
-        rp:_spinach .
-
-rp:black_pepper bft:used_with rp:_crackers,
-        rp:_egg,
-        rp:_zucchini .
-
-rp:blueberries bft:used_with rp:_egg,
-        rp:_egg_yolks,
-        rp:_heavy_cream,
-        rp:_lemon_juice,
-        rp:_powdered_sugar,
-        rp:_sugar .
-
-rp:caramels bft:used_with rp:_coffee,
-        rp:_milk .
-
-rp:chocolate bft:used_with rp:_chocolate,
-        rp:_cool_whip,
-        rp:_egg,
-        rp:_peach,
-        rp:_vegetable_oil,
-        rp:_water .
-
-rp:cream bft:used_with rp:_apple .
-
-rp:graham_cracker bft:used_with rp:_milk .
-
-rp:rice bft:used_with rp:_cracked_black_pepper,
-        rp:_lemon .
-
-rp:rum bft:used_with rp:_egg,
-        rp:_eggs,
-        rp:_heavy_cream,
-        rp:_lemon,
-        rp:_orange_curacao,
-        rp:_pecan,
-        rp:_powdered_sugar,
-        rp:_rum,
-        rp:_salt .
-
-rp:sea_salt bft:used_with rp:_egg,
-        rp:_sesame_seed .
-
-rp:spinach bft:used_with rp:_black_pepper,
-        rp:_cheddar_cheese,
-        rp:_egg,
-        rp:_heavy_cream,
-        rp:_mustard_powder,
-        rp:_pie_crust .
-
-rp:stuffing bft:used_with rp:_apple,
-        rp:_egg,
-        rp:_evaporated,
-        rp:_onions,
-        rp:_swiss_cheese,
-        rp:_turkey .
-
-rp:turkey bft:used_with rp:_milk .
-
-rp:bisquick bft:used_with rp:_corn,
-        rp:_egg,
-        rp:_lowfat_milk,
-        rp:_margarine,
-        rp:_milk,
-        rp:_orange_zest,
-        rp:_pine_nuts,
-        rp:_shortening,
-        rp:_sugar .
-
-rp:bread bft:used_with rp:_butter,
-        rp:_egg .
-
-rp:caramel bft:used_with rp:_coffee .
-
-rp:cocoa_powder bft:used_with rp:_coffee,
-        rp:_whipped_topping .
-
-rp:condensed_milk bft:used_with rp:_coffee,
-        rp:_semisweet_chocolate .
-
-rp:gin bft:used_with rp:_lemon .
-
-rp:ham bft:used_with rp:_bread_crumbs,
-        rp:_egg,
-        rp:_green_pepper,
-        rp:_lowfat_milk,
-        rp:_pork .
-
-rp:cheddar_cheese bft:used_with rp:_milk .
-
-rp:cinnamon bft:used_with rp:_coffee,
-        rp:_whipped_topping .
-
-rp:jello bft:used_with rp:_apple,
-        rp:_milk .
-
-rp:lemon_juice bft:used_with rp:_milk .
-
-rp:lemonade bft:used_with rp:_apple,
-        rp:_lemon,
-        rp:_tea_bag,
-        rp:_vodka,
-        rp:_water .
-
-rp:vanilla_ice_cream bft:used_with rp:_lemon .
-
-rp:bread_crumbs bft:used_with rp:_egg,
-        rp:_semisweet_chocolate,
-        rp:_sugar,
-        rp:_whipped_cream,
-        rp:_whole_milk .
-
-rp:honey bft:used_with rp:_leaves,
-        rp:_lemon,
-        rp:_milk,
-        rp:_water .
-
-rp:powdered_sugar bft:used_with rp:_milk .
-
-rp:semisweet_chocolate bft:used_with rp:_butter,
-        rp:_cinnamon,
-        rp:_coffee,
-        rp:_milk .
-
-rp:chicken bft:used_with rp:_bread,
-        rp:_bread_crumbs,
-        rp:_butter,
-        rp:_egg,
-        rp:_flour,
-        rp:_garlic,
-        rp:_ham,
-        rp:_onions,
-        rp:_salt,
-        rp:_saltine_crackers,
-        rp:_seasoning,
-        rp:_vegetable_oil .
-
-rp:lowfat_milk bft:used_with rp:_egg,
-        rp:_flour,
-        rp:_nutmeg,
-        rp:_salt,
-        rp:_sugar,
-        rp:_vanilla_extract .
-
-rp:flour bft:used_with rp:_applesauce,
-        rp:_baking_powder,
-        rp:_blueberries,
-        rp:_butter,
-        rp:_egg,
-        rp:_lemon_extract,
-        rp:_lowfat_milk,
-        rp:_salt,
-        rp:_shortening,
-        rp:_sugar,
-        rp:_sweet_milk .
-
-rp:sugar bft:used_with rp:_baking_soda,
-        rp:_coffee,
-        rp:_egg,
-        rp:_flour,
-        rp:_lemon,
-        rp:_nuts,
-        rp:_pineapple,
-        rp:_walnut,
-        rp:_water .
-
-rp:water bft:used_with rp:_chocolate_syrup,
-        rp:_cucumber,
-        rp:_egg,
-        rp:_lemon,
-        rp:_semisweet_chocolate,
-        rp:_sugar,
-        rp:_vegetable_oil .
-
-rp:coffee bft:used_with rp:_caramel,
-        rp:_coffee,
-        rp:_coffee_ice_cream,
-        rp:_condensed_milk,
-        rp:_ice,
-        rp:_milk,
-        rp:_milk_chocolate,
-        rp:_salt,
-        rp:_sugar,
-        rp:_vanilla_extract,
-        rp:_vanilla_ice_cream,
-        rp:_water,
-        rp:_whipped_topping .
-
-rp:apple bft:used_with rp:_apple,
-        rp:_apple_schnapps,
-        rp:_caramel,
-        rp:_caramel_sauce,
-        rp:_caramels,
-        rp:_celery,
-        rp:_cheese,
-        rp:_chocolate,
-        rp:_chocolate_pudding,
-        rp:_cinnamon,
-        rp:_cream,
-        rp:_cream_cheese,
-        rp:_cucumber,
-        rp:_honey,
-        rp:_lemon,
-        rp:_lemon_juice,
-        rp:_mayonaise,
-        rp:_milk,
-        rp:_peanut_butter,
-        rp:_peanuts,
-        rp:_pecan,
-        rp:_pineapple,
-        rp:_red_cinnamon_candies,
-        rp:_salad_greens,
-        rp:_strawberries,
-        rp:_water,
-        rp:_whipped_topping .
-
-rp:milk bft:used_with rp:_coffee,
-        rp:_egg,
-        rp:_espresso,
-        rp:_jello,
-        rp:_liqueur,
-        rp:_nutella,
-        rp:_pie_crust,
-        rp:_strawberries,
-        rp:_sugar,
-        rp:_tea,
-        rp:_vanilla_extract,
-        rp:_yogurt .
-
-rp:egg bft:used_with rp:_bacon,
-        rp:_butter,
-        rp:_cherry_tomato,
-        rp:_chives,
-        rp:_cloves,
-        rp:_cream_cheese,
-        rp:_flour,
-        rp:_garlic,
-        rp:_green_pepper,
-        rp:_ham,
-        rp:_lemon,
-        rp:_lime_juice,
-        rp:_lowfat_milk,
-        rp:_nutmeg,
-        rp:_olive_oil,
-        rp:_onions,
-        rp:_parmesan_cheese,
-        rp:_pine_nuts,
-        rp:_salt,
-        rp:_sugar,
-        rp:_vanilla_extract .
-
-rp:lemon bft:used_with rp:_apple_juice,
-        rp:_bourbon,
-        rp:_bread_crumbs,
-        rp:_cilantro,
-        rp:_cranberry_juice,
-        rp:_egg,
-        rp:_gin,
-        rp:_lemon,
-        rp:_lemonade,
-        rp:_mint,
-        rp:_pork_chops,
-        rp:_salmon,
-        rp:_sea_salt,
-        rp:_seasoning,
-        rp:_simple_syrup,
-        rp:_sugar,
-        rp:_tea,
-        rp:_tequila,
-        rp:_water,
-        rp:_white_chocolate_chips,
-        rp:_white_wine_vinegar .
-
-rp:butter bft:used_with rp:_biscuits,
-        rp:_bread_dough,
-        rp:_carrot,
-        rp:_cereal,
-        rp:_chipotle_peppers,
-        rp:_coffee,
-        rp:_corn,
-        rp:_crisp_rice_cereal,
-        rp:_egg,
-        rp:_egg_noodles,
-        rp:_flour,
-        rp:_garlic,
-        rp:_graham_cracker,
-        rp:_honey,
-        rp:_milk,
-        rp:_mushroom,
-        rp:_onions,
-        rp:_peanuts,
-        rp:_pecan,
-        rp:_phyllo_dough,
-        rp:_potato,
-        rp:_salmon,
-        rp:_semisweet_chocolate_chips,
-        rp:_sour_cream,
-        rp:_soy_sauce,
-        rp:_strawberry_preserves,
-        rp:_sugar,
-        rp:_sweet_potato,
-        rp:_vanilla_extract,
-        rp:_vanilla_ice_cream,
-        rp:_water,
-        rp:_whiskey .
-
+rp:stuffing bft:used_with rp:apple,
+        rp:egg,
+        rp:evaporated,
+        rp:onions,
+        rp:swiss_cheese,
+        rp:turkey .
+
+rp:bacon bft:used_with rp:cheese,
+        rp:egg,
+        rp:pastry,
+        rp:spinach .
+
+rp:bisquick bft:used_with rp:corn,
+        rp:egg,
+        rp:lowfat_milk,
+        rp:margarine,
+        rp:milk,
+        rp:orange_zest,
+        rp:pine_nuts,
+        rp:shortening,
+        rp:sugar .
+
+rp:black_pepper bft:used_with rp:crackers,
+        rp:egg,
+        rp:zucchini .
+
+rp:blueberries bft:used_with rp:egg,
+        rp:egg_yolks,
+        rp:heavy_cream,
+        rp:lemon_juice,
+        rp:powdered_sugar,
+        rp:sugar .
+
+rp:caramels bft:used_with rp:coffee,
+        rp:milk .
+
+rp:cocoa_powder bft:used_with rp:coffee,
+        rp:whipped_topping .
+
+rp:cream bft:used_with rp:apple .
+
+rp:graham_cracker bft:used_with rp:milk .
+
+rp:rice bft:used_with rp:cracked_black_pepper,
+        rp:lemon .
+
+rp:rum bft:used_with rp:egg,
+        rp:eggs,
+        rp:heavy_cream,
+        rp:lemon,
+        rp:orange_curacao,
+        rp:pecan,
+        rp:powdered_sugar,
+        rp:rum,
+        rp:salt .
+
+rp:sea_salt bft:used_with rp:egg,
+        rp:sesame_seed .
+
+rp:spinach bft:used_with rp:black_pepper,
+        rp:cheddar_cheese,
+        rp:egg,
+        rp:heavy_cream,
+        rp:mustard_powder,
+        rp:pie_crust .
+
+rp:turkey bft:used_with rp:milk .
+
+rp:bread bft:used_with rp:butter,
+        rp:egg .
+
+rp:chocolate bft:used_with rp:chocolate,
+        rp:cool_whip,
+        rp:egg,
+        rp:peach,
+        rp:vegetable_oil,
+        rp:water .
+
+rp:condensed_milk bft:used_with rp:coffee,
+        rp:semisweet_chocolate .
+
+rp:caramel bft:used_with rp:coffee .
+
+rp:gin bft:used_with rp:lemon .
+
+rp:ham bft:used_with rp:bread_crumbs,
+        rp:egg,
+        rp:green_pepper,
+        rp:lowfat_milk,
+        rp:pork .
+
+rp:jello bft:used_with rp:apple,
+        rp:milk .
+
+rp:lemonade bft:used_with rp:apple,
+        rp:lemon,
+        rp:tea_bag,
+        rp:vodka,
+        rp:water .
+
+rp:vanilla_ice_cream bft:used_with rp:lemon .
+
+rp:cheddar_cheese bft:used_with rp:milk .
+
+rp:cinnamon bft:used_with rp:coffee,
+        rp:whipped_topping .
+
+rp:honey bft:used_with rp:leaves,
+        rp:lemon,
+        rp:milk,
+        rp:water .
+
+rp:lemon_juice bft:used_with rp:milk .
+
+rp:powdered_sugar bft:used_with rp:milk .
+
+rp:bread_crumbs bft:used_with rp:egg,
+        rp:semisweet_chocolate,
+        rp:sugar,
+        rp:whipped_cream,
+        rp:whole_milk .
+
+rp:semisweet_chocolate bft:used_with rp:butter,
+        rp:cinnamon,
+        rp:coffee,
+        rp:milk .
+
+rp:chicken bft:used_with rp:bread,
+        rp:bread_crumbs,
+        rp:butter,
+        rp:egg,
+        rp:flour,
+        rp:garlic,
+        rp:ham,
+        rp:onions,
+        rp:salt,
+        rp:saltine_crackers,
+        rp:seasoning,
+        rp:vegetable_oil .
+
+rp:lowfat_milk bft:used_with rp:egg,
+        rp:flour,
+        rp:nutmeg,
+        rp:salt,
+        rp:sugar,
+        rp:vanilla_extract .
+
+rp:flour bft:used_with rp:applesauce,
+        rp:baking_powder,
+        rp:blueberries,
+        rp:butter,
+        rp:egg,
+        rp:lemon_extract,
+        rp:lowfat_milk,
+        rp:salt,
+        rp:shortening,
+        rp:sugar,
+        rp:sweet_milk .
+
+rp:sugar bft:used_with rp:baking_soda,
+        rp:coffee,
+        rp:egg,
+        rp:flour,
+        rp:lemon,
+        rp:nuts,
+        rp:pineapple,
+        rp:walnut,
+        rp:water .
+
+rp:water bft:used_with rp:chocolate_syrup,
+        rp:cucumber,
+        rp:egg,
+        rp:lemon,
+        rp:semisweet_chocolate,
+        rp:sugar,
+        rp:vegetable_oil .
+
+rp:coffee bft:used_with rp:caramel,
+        rp:coffee,
+        rp:coffee_ice_cream,
+        rp:condensed_milk,
+        rp:ice,
+        rp:milk,
+        rp:milk_chocolate,
+        rp:salt,
+        rp:sugar,
+        rp:vanilla_extract,
+        rp:vanilla_ice_cream,
+        rp:water,
+        rp:whipped_topping .
+
+rp:apple bft:used_with rp:apple,
+        rp:apple_schnapps,
+        rp:caramel,
+        rp:caramel_sauce,
+        rp:caramels,
+        rp:celery,
+        rp:cheese,
+        rp:chocolate,
+        rp:chocolate_pudding,
+        rp:cinnamon,
+        rp:cream,
+        rp:cream_cheese,
+        rp:cucumber,
+        rp:honey,
+        rp:lemon,
+        rp:lemon_juice,
+        rp:mayonaise,
+        rp:milk,
+        rp:peanut_butter,
+        rp:peanuts,
+        rp:pecan,
+        rp:pineapple,
+        rp:red_cinnamon_candies,
+        rp:salad_greens,
+        rp:strawberries,
+        rp:water,
+        rp:whipped_topping .
+
+rp:butter bft:used_with rp:biscuits,
+        rp:bread_dough,
+        rp:carrot,
+        rp:cereal,
+        rp:chipotle_peppers,
+        rp:coffee,
+        rp:corn,
+        rp:crisp_rice_cereal,
+        rp:egg,
+        rp:egg_noodles,
+        rp:flour,
+        rp:garlic,
+        rp:graham_cracker,
+        rp:honey,
+        rp:milk,
+        rp:mushroom,
+        rp:onions,
+        rp:peanuts,
+        rp:pecan,
+        rp:phyllo_dough,
+        rp:potato,
+        rp:salmon,
+        rp:semisweet_chocolate_chips,
+        rp:sour_cream,
+        rp:soy_sauce,
+        rp:strawberry_preserves,
+        rp:sugar,
+        rp:sweet_potato,
+        rp:vanilla_extract,
+        rp:vanilla_ice_cream,
+        rp:water,
+        rp:whiskey .
+
+rp:milk bft:used_with rp:coffee,
+        rp:egg,
+        rp:espresso,
+        rp:jello,
+        rp:liqueur,
+        rp:nutella,
+        rp:pie_crust,
+        rp:strawberries,
+        rp:sugar,
+        rp:tea,
+        rp:vanilla_extract,
+        rp:yogurt .
+
+rp:egg bft:used_with rp:bacon,
+        rp:butter,
+        rp:cherry_tomato,
+        rp:chives,
+        rp:cloves,
+        rp:cream_cheese,
+        rp:flour,
+        rp:garlic,
+        rp:green_pepper,
+        rp:ham,
+        rp:lemon,
+        rp:lime_juice,
+        rp:lowfat_milk,
+        rp:nutmeg,
+        rp:olive_oil,
+        rp:onions,
+        rp:parmesan_cheese,
+        rp:pine_nuts,
+        rp:salt,
+        rp:sugar,
+        rp:vanilla_extract .
+
+rp:lemon bft:used_with rp:apple_juice,
+        rp:bourbon,
+        rp:bread_crumbs,
+        rp:cilantro,
+        rp:cranberry_juice,
+        rp:egg,
+        rp:gin,
+        rp:lemon,
+        rp:lemonade,
+        rp:mint,
+        rp:pork_chops,
+        rp:salmon,
+        rp:sea_salt,
+        rp:seasoning,
+        rp:simple_syrup,
+        rp:sugar,
+        rp:tea,
+        rp:tequila,
+        rp:water,
+        rp:white_chocolate_chips,
+        rp:white_wine_vinegar .
