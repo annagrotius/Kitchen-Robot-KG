@@ -2,7 +2,6 @@
 This script creates the breakfast table ontology and saves a close world and non closed world
 version of the ontology as a owl file format and different graph file formats (.ttl, .nt).
 """
-
 from owlready2 import *
 from rdflib import Graph, Namespace, URIRef
 owlready2.JAVA_EXE ='C:\\Program Files\\Java\\jre1.8.0_191\\bin\\java.exe'
@@ -162,11 +161,6 @@ def main():
     # save ontology not closing the world
     onto_to_graph(bft, bft_namespace, 'bft', 'bft_onto_not_closed')
 
-    ## closing world and save this version
-    # classes = [Furniture,Kitchenware, Drink, Food, Storage]
-    # for c in classes:
-    #     close_world(c)
-    # onto_to_graph(bft, bft_namespace, 'bft', 'bft_onto_closed')
 
 
 if __name__ == "__main__":

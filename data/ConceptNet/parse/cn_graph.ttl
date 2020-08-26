@@ -1,30 +1,46 @@
+@prefix cn: <http://test.org/cn.owl#> .
 @prefix cnr: <http://api.conceptnet.io/r/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://api.conceptnet.io/c/de/machete> cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/de/machete> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/1_percent_milk/n> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/opencyc/cows_milk_product> .
+<http://api.conceptnet.io/c/en/1_percent_milk/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/opencyc/cows_milk_product> .
 
-<http://api.conceptnet.io/c/en/2_percent_milk/n> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/opencyc/cows_milk_product> .
+<http://api.conceptnet.io/c/en/2_percent_milk/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/opencyc/cows_milk_product> .
 
-<http://api.conceptnet.io/c/en/abottle> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/abottle> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/acidophilus_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/acidophilus_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/acne_medication> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/acne_medication> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/air> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/air> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/airing_cupboard/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/airing_cupboard/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/ambrosia_apple/n> cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
+<http://api.conceptnet.io/c/en/ambrosia_apple/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
 
-<http://api.conceptnet.io/c/en/americano/n> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
+<http://api.conceptnet.io/c/en/americano/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
 
-<http://api.conceptnet.io/c/en/another_dimension> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/another_dimension> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/ants> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/ants> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/apple_juice> cnr:ExternalURL <http://umbel.org/umbel/sc/Apple_juice> ;
+<http://api.conceptnet.io/c/en/apple_juice> a cn:Concept ;
+    cnr:ExternalURL <http://umbel.org/umbel/sc/Apple_juice> ;
     cnr:HasA <http://api.conceptnet.io/c/en/pale_yellow_color> ;
     cnr:HasProperty <http://api.conceptnet.io/c/en/good>,
         <http://api.conceptnet.io/c/en/good_for_health>,
@@ -37,469 +53,687 @@
     cnr:ReceivesAction <http://api.conceptnet.io/c/en/made_from_crushed_apples>,
         <http://api.conceptnet.io/c/en/made_from_squeezed_apples> .
 
-<http://api.conceptnet.io/c/en/apple_juice/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice> ;
+<http://api.conceptnet.io/c/en/apple_juice/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice> ;
     cnr:IsA <http://api.conceptnet.io/c/en/beverage/n>,
         <http://api.conceptnet.io/c/en/fruit_juice>,
         <http://api.conceptnet.io/c/en/juice/n>,
         <http://api.conceptnet.io/c/en/mixture/n>,
         <http://api.conceptnet.io/c/en/sweet_thing/n> .
 
-<http://api.conceptnet.io/c/en/apple_juice/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107940606-n> ;
+<http://api.conceptnet.io/c/en/apple_juice/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107940606-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/arabian_coffee/n/wn/plant> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/plant> .
+<http://api.conceptnet.io/c/en/arabian_coffee/n/wn/plant> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/art_glass/n> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
+<http://api.conceptnet.io/c/en/art_glass/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
 
-<http://api.conceptnet.io/c/en/artichokes> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/artichokes> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/awaking> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/coffee> .
+<http://api.conceptnet.io/c/en/awaking> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/coffee> .
 
-<http://api.conceptnet.io/c/en/bacon> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/bacon> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/bad_smell> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/bad_smell> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/baked_beans> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/baked_beans> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/baking_cake> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
+<http://api.conceptnet.io/c/en/baking_cake> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
 
-<http://api.conceptnet.io/c/en/barong/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/barong/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/bayonet/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/bayonet/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/bean> cnr:AtLocation <http://api.conceptnet.io/c/en/coffee> .
+<http://api.conceptnet.io/c/en/bean> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/coffee> .
 
-<http://api.conceptnet.io/c/en/beer> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/beer> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/beer_glass/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/beer_glass/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/beverage_refrigerator/n> cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
+<http://api.conceptnet.io/c/en/beverage_refrigerator/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
 
-<http://api.conceptnet.io/c/en/bifurcation/n> cnr:SimilarTo <http://api.conceptnet.io/c/en/fork> .
+<http://api.conceptnet.io/c/en/bifurcation/n> a cn:Concept ;
+    cnr:SimilarTo <http://api.conceptnet.io/c/en/fork> .
 
-<http://api.conceptnet.io/c/en/bins> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/bins> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/black_berries> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/black_berries> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/blade> cnr:PartOf <http://api.conceptnet.io/c/en/knife> .
+<http://api.conceptnet.io/c/en/blade> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/knife> .
 
-<http://api.conceptnet.io/c/en/blade/n/wn/artifact> cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/blade/n/wn/artifact> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/board_game> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/board_game> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/bolo/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/bolo/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/bone_china> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/bone_china> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/borophosphosilicate_glass/n> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> .
+<http://api.conceptnet.io/c/en/borophosphosilicate_glass/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> .
 
-<http://api.conceptnet.io/c/en/bottle_of_milk> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/bottle_of_milk> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/bottled_water> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/bottled_water> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/bottom_mount_refrigerator/n> cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
+<http://api.conceptnet.io/c/en/bottom_mount_refrigerator/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
 
-<http://api.conceptnet.io/c/en/bowie_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/bowie_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/braeburn_apple/n> cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
+<http://api.conceptnet.io/c/en/braeburn_apple/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
 
-<http://api.conceptnet.io/c/en/bread> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/bread> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/bread_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/bread_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/breve/n> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
+<http://api.conceptnet.io/c/en/breve/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
 
-<http://api.conceptnet.io/c/en/broom_closet/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/broom_closet/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/brown_butter/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
+<http://api.conceptnet.io/c/en/brown_butter/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/bumper/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/bumper/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/butcher_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/butcher_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/butter/n/wn/person> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/109904267-n> ;
+<http://api.conceptnet.io/c/en/butter/n/wn/person> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/109904267-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/combatant/n/wn/person> .
 
-<http://api.conceptnet.io/c/en/butter/v/wn/contact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201270562-v> .
+<http://api.conceptnet.io/c/en/butter/v/wn/contact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201270562-v> .
 
-<http://api.conceptnet.io/c/en/butter_dish> cnr:ExternalURL <http://umbel.org/umbel/sc/ButterDish> .
+<http://api.conceptnet.io/c/en/butter_dish> a cn:Concept ;
+    cnr:ExternalURL <http://umbel.org/umbel/sc/ButterDish> .
 
-<http://api.conceptnet.io/c/en/butter_dish/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterDish> ;
+<http://api.conceptnet.io/c/en/butter_dish/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterDish> ;
     cnr:IsA <http://api.conceptnet.io/c/en/serving_dish/n> .
 
-<http://api.conceptnet.io/c/en/butter_dish/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/102931148-n> ;
+<http://api.conceptnet.io/c/en/butter_dish/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/102931148-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/butter_knife> cnr:CapableOf <http://api.conceptnet.io/c/en/butter_bread> ;
+<http://api.conceptnet.io/c/en/butter_knife> a cn:Concept ;
+    cnr:CapableOf <http://api.conceptnet.io/c/en/butter_bread> ;
     cnr:ExternalURL <http://umbel.org/umbel/sc/ButterKnife> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/spreading_butter_on_bread> .
 
-<http://api.conceptnet.io/c/en/butter_knife/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife> ;
+<http://api.conceptnet.io/c/en/butter_knife/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife> ;
     cnr:IsA <http://api.conceptnet.io/c/en/knife/n>,
         <http://api.conceptnet.io/c/en/silverware/n> .
 
-<http://api.conceptnet.io/c/en/butter_knife/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/102931433-n> ;
+<http://api.conceptnet.io/c/en/butter_knife/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/102931433-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/table_knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/buttermilk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/buttermilk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/cafe_au_lait/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/cafe_au_lait/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/cafe_noir/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/cafe_noir/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/cafe_royale/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/cafe_royale/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/cake> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/cake> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/can_of_beans> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/can_of_beans> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/canned_food> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/canned_food> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/canned_goods> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/canned_goods> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/canned_vegtables> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/canned_vegtables> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/cans_of_food> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/cans_of_food> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/cans_of_soup> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/cans_of_soup> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/cappuccino/n> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
+<http://api.conceptnet.io/c/en/cappuccino/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
 
-<http://api.conceptnet.io/c/en/cappuccino_coffee/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/cappuccino_coffee/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/carrots> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/carrots> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/carrott> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/carrott> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/carton_of_milk> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/carton_of_milk> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/carving_fork/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/carving_fork/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/carving_knife/n> cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/en/carving_knife/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/carving_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/carving_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/case_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/case_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/catsup> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/catsup> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/celery> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/celery> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/cereal> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/cereal> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/cereal_bowl> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/cereal_bowl> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/certified_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/certified_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/cheese> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> ;
+<http://api.conceptnet.io/c/en/cheese> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> ;
     cnr:MadeOf <http://api.conceptnet.io/c/en/milk> .
 
-<http://api.conceptnet.io/c/en/chess_set> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/chess_set> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/chinese_food> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/chinese_food> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/chocolate_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/chocolate_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/clarified_butter/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
+<http://api.conceptnet.io/c/en/clarified_butter/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/clear_glass/n> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
+<http://api.conceptnet.io/c/en/clear_glass/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
 
-<http://api.conceptnet.io/c/en/cleaver/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/cleaver/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/clothing_shelf> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/clothing_shelf> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/cockroach> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/cockroach> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/coconut_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/coconut_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/coconuts> cnr:HasA <http://api.conceptnet.io/c/en/milk> .
+<http://api.conceptnet.io/c/en/coconuts> a cn:Concept ;
+    cnr:HasA <http://api.conceptnet.io/c/en/milk> .
 
-<http://api.conceptnet.io/c/en/coffee/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Coffee> ;
+<http://api.conceptnet.io/c/en/coffee/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Coffee> ;
     cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage>,
         <http://api.conceptnet.io/c/en/ready_to_eat_food/n> .
 
-<http://api.conceptnet.io/c/en/coffee_bean/n/wn/food> cnr:PartOf <http://api.conceptnet.io/c/en/coffee/n/wn/plant> .
+<http://api.conceptnet.io/c/en/coffee_bean/n/wn/food> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/coffee/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/coffee_cup> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/coffee_cup> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/coffee_cups> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/coffee_cups> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/coffee_mug> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/coffee_mug> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/coffee_substitute/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/coffee_substitute/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/coil> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/coil> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/cold_air> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/cold_air> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/cold_storage> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/cold_storage> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/cold_water> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/cold_water> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/colostrum/n/wn/body> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/body> .
+<http://api.conceptnet.io/c/en/colostrum/n/wn/body> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/body> .
 
-<http://api.conceptnet.io/c/en/computer_monitor> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/computer_monitor> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/condensed_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/condensed_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/condiments> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/condiments> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/container_can> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/container_can> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/container_of_salt> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/container_of_salt> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/cooking> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
+<http://api.conceptnet.io/c/en/cooking> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
 
-<http://api.conceptnet.io/c/en/cooking_apple/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/apple/n/wn/food> .
+<http://api.conceptnet.io/c/en/cooking_apple/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/cooler/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/cooler/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/corn_flakes> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/corn_flakes> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/cornmeal> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/cornmeal> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/cottage_cheese> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/cottage_cheese> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/cows_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/cows_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/crab_apple> cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
+<http://api.conceptnet.io/c/en/crab_apple> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
 
-<http://api.conceptnet.io/c/en/crab_apple/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/apple/n/wn/food> .
+<http://api.conceptnet.io/c/en/crab_apple/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/crackers> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/crackers> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/crepe_suzettes> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/crepe_suzettes> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/crockery> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/crockery> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/croissant> cnr:ExternalURL <http://dbpedia.org/resource/Croissant>,
+<http://api.conceptnet.io/c/en/croissant> a cn:Concept ;
+    cnr:ExternalURL <http://dbpedia.org/resource/Croissant>,
         <http://wikidata.dbpedia.org/resource/Q207832> .
 
-<http://api.conceptnet.io/c/en/crown_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/crown_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/crt> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/crt> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/cupboard/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Cupboard> ;
+<http://api.conceptnet.io/c/en/cupboard/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Cupboard> ;
     cnr:IsA <http://api.conceptnet.io/c/en/cabinet/n/opencyc/cabinet_storage_construction>,
         <http://api.conceptnet.io/c/en/part_of_room/n> .
 
-<http://api.conceptnet.io/c/en/cupboard/n/wikt/en_1> cnr:IsA <http://api.conceptnet.io/c/en/cabinet>,
+<http://api.conceptnet.io/c/en/cupboard/n/wikt/en_1> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/cabinet>,
         <http://api.conceptnet.io/c/en/closet>,
         <http://api.conceptnet.io/c/en/press> .
 
-<http://api.conceptnet.io/c/en/cups_and_plates> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/cups_and_plates> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/custard> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/custard> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/cutlets> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/cutlets> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/dagger/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/dagger/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/decaffeinated_coffee/n> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
+<http://api.conceptnet.io/c/en/decaffeinated_coffee/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
 
-<http://api.conceptnet.io/c/en/decaffeinated_coffee/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/decaffeinated_coffee/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/dessert_spoon/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/dessert_spoon/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/desserts> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/desserts> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/dining_room_table/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/dining_room_table/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/dining_table/n> cnr:IsA <http://api.conceptnet.io/c/en/table> .
+<http://api.conceptnet.io/c/en/dining_table/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/table> .
 
-<http://api.conceptnet.io/c/en/dinner_fork/n> cnr:IsA <http://api.conceptnet.io/c/en/fork/n> .
+<http://api.conceptnet.io/c/en/dinner_fork/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n> .
 
-<http://api.conceptnet.io/c/en/dinner_plate> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/dinner_plate> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/dinner_table/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/dinner_table/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/dinnerware> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/dinnerware> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/doggy_bags> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/doggy_bags> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/drawers> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/drawers> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/drawknife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/drawknife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/dressing> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/dressing> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/drinks> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/drinks> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/drip_coffee/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/drip_coffee/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/drip_pan/n/wn/artifact> cnr:PartOf <http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/drip_pan/n/wn/artifact> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/drug> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/drug> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/dustbin> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/dustbin> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/eat_cookie> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/milk> .
+<http://api.conceptnet.io/c/en/eat_cookie> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/milk> .
 
-<http://api.conceptnet.io/c/en/eating_apple> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/apple> .
+<http://api.conceptnet.io/c/en/eating_apple> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/apple> .
 
-<http://api.conceptnet.io/c/en/eating_apple/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/apple/n/wn/food> .
+<http://api.conceptnet.io/c/en/eating_apple/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/eating_noodles> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/fork> .
+<http://api.conceptnet.io/c/en/eating_noodles> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/fork> .
 
-<http://api.conceptnet.io/c/en/eating_soup> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
+<http://api.conceptnet.io/c/en/eating_soup> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
 
-<http://api.conceptnet.io/c/en/electric_refrigerator/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/electric_refrigerator/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/espresso/n> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
+<http://api.conceptnet.io/c/en/espresso/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
 
-<http://api.conceptnet.io/c/en/espresso/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/espresso/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/evaporated_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/evaporated_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/fish> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/fish> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/flask> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/flask> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/flour> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/flour> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/food_take_out> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/food_take_out> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/fork/v/wn/change> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/200141734-v> .
+<http://api.conceptnet.io/c/en/fork/v/wn/change> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/200141734-v> .
 
-<http://api.conceptnet.io/c/en/fork/v/wn/chess> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201121306-v> .
+<http://api.conceptnet.io/c/en/fork/v/wn/chess> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201121306-v> .
 
-<http://api.conceptnet.io/c/en/formula/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/formula/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/fresh_vegetables> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/fresh_vegetables> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/fried_egg> cnr:AtLocation <http://api.conceptnet.io/c/en/plate> .
+<http://api.conceptnet.io/c/en/fried_egg> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/plate> .
 
-<http://api.conceptnet.io/c/en/fried_egg/n> cnr:IsA <http://api.conceptnet.io/c/en/dish>,
+<http://api.conceptnet.io/c/en/fried_egg/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dish>,
         <http://api.conceptnet.io/c/en/hot>,
         <http://api.conceptnet.io/c/en/meal> .
 
-<http://api.conceptnet.io/c/en/fried_egg/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107859612-n> ;
+<http://api.conceptnet.io/c/en/fried_egg/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107859612-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/frozen_foods> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/frozen_foods> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/frozen_orange_juice/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/orange_juice/n/wn/food> .
+<http://api.conceptnet.io/c/en/frozen_orange_juice/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/orange_juice/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/fruit_spread> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/fruit_spread> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/fungus> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/fungus> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/gala_apple/n> cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
+<http://api.conceptnet.io/c/en/gala_apple/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
 
-<http://api.conceptnet.io/c/en/garnish/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103425350-n> ;
+<http://api.conceptnet.io/c/en/garnish/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103425350-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/decoration/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/gel> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/gel> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/glass/n/wn/quantity> cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
+<http://api.conceptnet.io/c/en/glass/n/wn/quantity> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
 
-<http://api.conceptnet.io/c/en/glass/v/wn/possession> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/202340359-v> .
+<http://api.conceptnet.io/c/en/glass/v/wn/possession> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/202340359-v> .
 
-<http://api.conceptnet.io/c/en/glass_wool/n> cnr:IsA <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/glass_wool/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/glasses> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
+<http://api.conceptnet.io/c/en/glasses> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
     cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/glasses_and_dishes> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/glasses_and_dishes> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/glassware> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/glassware> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/goats_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/goats_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/goblet/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/goblet/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/golden_delicious_apple/n> cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
+<http://api.conceptnet.io/c/en/golden_delicious_apple/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
 
-<http://api.conceptnet.io/c/en/granny_smith_apple/n> cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
+<http://api.conceptnet.io/c/en/granny_smith_apple/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
 
-<http://api.conceptnet.io/c/en/grape_juice> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/grape_juice> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/gravy_boat> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/gravy_boat> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/ground_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/ground_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/haft/n/wn/artifact> cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/haft/n/wn/artifact> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/ham> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/ham> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/handle/n/wn/artifact> cnr:PartOf <http://api.conceptnet.io/c/en/teacup/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/handle/n/wn/artifact> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/teacup/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/hayfork/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/hayfork/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/herbal_tea> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/herbal_tea> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/hidden_money> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/hidden_money> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/high_table/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/high_table/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/highball_glass/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/highball_glass/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/homogenized_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/homogenized_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/hook> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/hook> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/hors_d_oeuvres> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/hors_d_oeuvres> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/hot_coffee/n> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
+<http://api.conceptnet.io/c/en/hot_coffee/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
 
-<http://api.conceptnet.io/c/en/hot_sauce> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/hot_sauce> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/hunting_knife/n> cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/en/hunting_knife/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/hunting_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/hunting_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/ice> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/ice> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/ice_cream_scoop/n> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
+<http://api.conceptnet.io/c/en/ice_cream_scoop/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
 
-<http://api.conceptnet.io/c/en/iced_coffee/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/iced_coffee/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/icemaker> cnr:PartOf <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/icemaker> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/in_storage> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/in_storage> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/instant_coffee/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/instant_coffee/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/irish_coffee/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/irish_coffee/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/jam> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/jam> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/jar> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
+<http://api.conceptnet.io/c/en/jar> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
         <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/jars> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/jars> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/jazz_apple/n> cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
+<http://api.conceptnet.io/c/en/jazz_apple/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
 
-<http://api.conceptnet.io/c/en/jello> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/jello> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/jelly> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/jelly> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/juice> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/juice> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/ketchup> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/ketchup> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/khukuri/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/khukuri/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/killing_people> cnr:UsedFor <http://api.conceptnet.io/c/en/knife> .
+<http://api.conceptnet.io/c/en/killing_people> a cn:Concept ;
+    cnr:UsedFor <http://api.conceptnet.io/c/en/knife> .
 
-<http://api.conceptnet.io/c/en/knife_blade/n/wn/artifact> cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/knife_blade/n/wn/artifact> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/koolaid> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/koolaid> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/ladle/n> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
+<http://api.conceptnet.io/c/en/ladle/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
 
-<http://api.conceptnet.io/c/en/latte/n> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
+<http://api.conceptnet.io/c/en/latte/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
 
-<http://api.conceptnet.io/c/en/lead_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/lead_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/left_over_pizza> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/left_over_pizza> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/left_overs> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/left_overs> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/leftovers> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/leftovers> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/lemon> cnr:AtLocation <http://api.conceptnet.io/c/en/fridge>,
+<http://api.conceptnet.io/c/en/lemon> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/fridge>,
         <http://api.conceptnet.io/c/en/refrigerator> ;
     cnr:CapableOf <http://api.conceptnet.io/c/en/make_lips_pucker> ;
     cnr:ExternalURL <http://dbpedia.org/resource/Lemon>,
@@ -512,124 +746,180 @@
     cnr:IsA <http://api.conceptnet.io/c/en/fruit>,
         <http://api.conceptnet.io/c/en/sour_yellow_fruit> .
 
-<http://api.conceptnet.io/c/en/lemon/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Lemon> ;
+<http://api.conceptnet.io/c/en/lemon/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Lemon> ;
     cnr:IsA <http://api.conceptnet.io/c/en/citrus_fruit/n>,
         <http://api.conceptnet.io/c/en/yellow/n> .
 
-<http://api.conceptnet.io/c/en/lemon/n/opencyc/lemon_417> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Lemon_417> ;
+<http://api.conceptnet.io/c/en/lemon/n/opencyc/lemon_417> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Lemon_417> ;
     cnr:IsA <http://api.conceptnet.io/c/en/living_thing/n>,
         <http://api.conceptnet.io/c/en/tangible_thing/n> .
 
-<http://api.conceptnet.io/c/en/lemon/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103661164-n> ;
+<http://api.conceptnet.io/c/en/lemon/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103661164-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/artifact/n/wn> .
 
-<http://api.conceptnet.io/c/en/lemon/n/wn/cognition> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/105724289-n> ;
+<http://api.conceptnet.io/c/en/lemon/n/wn/cognition> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/105724289-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/relish/n/wn/cognition> .
 
-<http://api.conceptnet.io/c/en/lemon_peel/n/wn/food> cnr:PartOf <http://api.conceptnet.io/c/en/lemon/n/wn/food> .
+<http://api.conceptnet.io/c/en/lemon_peel/n/wn/food> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/lemon/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/lemonade> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/lemonade> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/lens> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/lens> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/lenses> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/lenses> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/letter_opener/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/letter_opener/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/lettuce> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/lettuce> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/liberian_coffee/n/wn/plant> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/plant> .
+<http://api.conceptnet.io/c/en/liberian_coffee/n/wn/plant> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/limes> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/limes> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/linens> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/linens> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/linoleum_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/linoleum_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/liqueur_glass/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/liqueur_glass/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/liquor_glass> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/liquor_glass> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/low_fat_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/low_fat_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/machete/n> cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/en/machete/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/machete/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/machete/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/many_bottles> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/many_bottles> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/many_containers> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/many_containers> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/mayonaise> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/mayonaise> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/mayonnaise> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/mayonnaise> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/measuring_spoon/n> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
+<http://api.conceptnet.io/c/en/measuring_spoon/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
 
-<http://api.conceptnet.io/c/en/meat_cleaver/n> cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/en/meat_cleaver/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/meats> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/meats> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/meuniere_butter/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
+<http://api.conceptnet.io/c/en/meuniere_butter/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/milk/n/wn/object> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/109377677-n> ;
+<http://api.conceptnet.io/c/en/milk/n/wn/object> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/109377677-n> ;
     cnr:PartOf <http://api.conceptnet.io/c/en/montana/n/wn/location> .
 
-<http://api.conceptnet.io/c/en/milk/v/wn/change> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/200194514-v> .
+<http://api.conceptnet.io/c/en/milk/v/wn/change> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/200194514-v> .
 
-<http://api.conceptnet.io/c/en/milk/v/wn/consumption> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201167222-v> .
+<http://api.conceptnet.io/c/en/milk/v/wn/consumption> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201167222-v> .
 
-<http://api.conceptnet.io/c/en/milk_of_female_bovine/n> cnr:IsA <http://api.conceptnet.io/c/en/milk/n> .
+<http://api.conceptnet.io/c/en/milk_of_female_bovine/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n> .
 
-<http://api.conceptnet.io/c/en/milk_of_ruminant/n> cnr:IsA <http://api.conceptnet.io/c/en/milk/n> .
+<http://api.conceptnet.io/c/en/milk_of_ruminant/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n> .
 
-<http://api.conceptnet.io/c/en/milky_way> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/milky_way> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/mind_all_logic> cnr:IsA <http://api.conceptnet.io/c/en/knife> .
+<http://api.conceptnet.io/c/en/mind_all_logic> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife> .
 
-<http://api.conceptnet.io/c/en/mini_fridge/n> cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
+<http://api.conceptnet.io/c/en/mini_fridge/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
 
-<http://api.conceptnet.io/c/en/mint> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/mint> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/mocha/n> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
+<http://api.conceptnet.io/c/en/mocha/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> .
 
-<http://api.conceptnet.io/c/en/mocha/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/mocha/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/mold> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/mold> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/moldy_carrots> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/moldy_carrots> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/moldy_food> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/moldy_food> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/moldy_leftovers> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/moldy_leftovers> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/mother's_milk/n/wn/body> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/body> .
+<http://api.conceptnet.io/c/en/mother's_milk/n/wn/body> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/body> .
 
-<http://api.conceptnet.io/c/en/mouse> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/mouse> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/muffin> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/muffin> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/mugs> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/mugs> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/mushrooms> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/mushrooms> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/mustard> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/mustard> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/natural_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/natural_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/old_toys> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/old_toys> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/olives> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/olives> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/onions> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/onions> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/opal_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/opal_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/open_cans> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/open_cans> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/optical_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/optical_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/orange_juice> cnr:AtLocation <http://api.conceptnet.io/c/en/carton>,
+<http://api.conceptnet.io/c/en/orange_juice> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/carton>,
         <http://api.conceptnet.io/c/en/fridge>,
         <http://api.conceptnet.io/c/en/refrigerator> ;
     cnr:ExternalURL <http://dbpedia.org/resource/Orange_juice>,
@@ -646,348 +936,633 @@
     cnr:ReceivesAction <http://api.conceptnet.io/c/en/made_from_oranges> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/drinking> .
 
-<http://api.conceptnet.io/c/en/orange_juice/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice>,
+<http://api.conceptnet.io/c/en/orange_juice/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice>,
         <http://sw.opencyc.org/2012/05/10/concept/en/Orange_juice> ;
     cnr:IsA <http://api.conceptnet.io/c/en/beverage/n>,
         <http://api.conceptnet.io/c/en/juice/n>,
         <http://api.conceptnet.io/c/en/mixture/n>,
         <http://api.conceptnet.io/c/en/sweet_thing/n> .
 
-<http://api.conceptnet.io/c/en/parang/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/parang/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/parer/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/parer/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/parfait_glass/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/parfait_glass/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/pasteurized_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/pasteurized_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/pat_of_butter/n> cnr:IsA <http://api.conceptnet.io/c/en/butter/n> .
+<http://api.conceptnet.io/c/en/pat_of_butter/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n> .
 
-<http://api.conceptnet.io/c/en/peanut_butter> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/peanut_butter> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/pepper_shaker> cnr:ExternalURL <http://umbel.org/umbel/sc/PepperShaker> .
+<http://api.conceptnet.io/c/en/pepper_shaker> a cn:Concept ;
+    cnr:ExternalURL <http://umbel.org/umbel/sc/PepperShaker> .
 
-<http://api.conceptnet.io/c/en/pepper_shaker/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker> ;
+<http://api.conceptnet.io/c/en/pepper_shaker/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker> ;
     cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
         <http://api.conceptnet.io/c/en/shaker/n> .
 
-<http://api.conceptnet.io/c/en/pepper_shaker/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103920557-n> ;
+<http://api.conceptnet.io/c/en/pepper_shaker/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103920557-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/shaker/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/pesto> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/pesto> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/pickle> cnr:UsedFor <http://api.conceptnet.io/c/en/garnish> .
+<http://api.conceptnet.io/c/en/pickle> a cn:Concept ;
+    cnr:UsedFor <http://api.conceptnet.io/c/en/garnish> .
 
-<http://api.conceptnet.io/c/en/pickles> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/pickles> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/pippin> cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
+<http://api.conceptnet.io/c/en/pippin> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
 
-<http://api.conceptnet.io/c/en/pl_ate> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/pl_ate> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/plastic> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/plastic> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/plastic_containers> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/plastic_containers> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/plate_glass/n> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
+<http://api.conceptnet.io/c/en/plate_glass/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> .
 
-<http://api.conceptnet.io/c/en/plate_of_food> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/plate_of_food> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/plates> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/plates> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/pocketknife/n> cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/en/pocketknife/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/pocketknife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/pocketknife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/point/n/wn/artifact> cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/point/n/wn/artifact> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/point/n/wn/shape> cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/point/n/wn/shape> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/pork> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/pork> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/pot> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/pot> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/pots> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/pots> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/powdered_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/powdered_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/prong/n/wn/artifact> cnr:PartOf <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/prong/n/wn/artifact> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/protein_bars> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/protein_bars> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/pruning_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/pruning_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/radishes> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/radishes> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/raw_meat> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/raw_meat> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/raw_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/raw_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/red_delicious_apple/n> cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
+<http://api.conceptnet.io/c/en/red_delicious_apple/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple/n> .
 
-<http://api.conceptnet.io/c/en/refectory_table/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/refectory_table/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/refill> cnr:UsedFor <http://api.conceptnet.io/c/en/coffee> .
+<http://api.conceptnet.io/c/en/refill> a cn:Concept ;
+    cnr:UsedFor <http://api.conceptnet.io/c/en/coffee> .
 
-<http://api.conceptnet.io/c/en/refrigerated_display_case/n> cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
+<http://api.conceptnet.io/c/en/refrigerated_display_case/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
 
-<http://api.conceptnet.io/c/en/refrigeration_system/n/wn/artifact> cnr:PartOf <http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/refrigeration_system/n/wn/artifact> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/ribs> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/ribs> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/rice> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/rice> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/robusta_coffee/n/wn/plant> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/plant> .
+<http://api.conceptnet.io/c/en/robusta_coffee/n/wn/plant> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/romaine> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/romaine> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/rummer/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/rummer/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/runcible_spoon/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/runcible_spoon/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/safe/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/safe/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/safety_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/safety_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/salad> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/salad> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/salad_bowl> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/salad_bowl> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/salad_fork/n> cnr:IsA <http://api.conceptnet.io/c/en/fork/n> .
+<http://api.conceptnet.io/c/en/salad_fork/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n> .
 
-<http://api.conceptnet.io/c/en/salad_fork/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/salad_fork/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/salad_spinner> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/salad_spinner> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/salt> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/salt> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/salt_shaker> cnr:AtLocation <http://api.conceptnet.io/c/en/fast_food_restaurant>,
+<http://api.conceptnet.io/c/en/salt_shaker> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/fast_food_restaurant>,
         <http://api.conceptnet.io/c/en/table> ;
     cnr:ExternalURL <http://umbel.org/umbel/sc/SaltShaker> ;
     cnr:HasA <http://api.conceptnet.io/c/en/thousands_of_grains_of_salt> ;
     cnr:IsA <http://api.conceptnet.io/c/en/small_container_for_table_salt> .
 
-<http://api.conceptnet.io/c/en/salt_shaker/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker> ;
+<http://api.conceptnet.io/c/en/salt_shaker/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker> ;
     cnr:IsA <http://api.conceptnet.io/c/en/kitchenware/n>,
         <http://api.conceptnet.io/c/en/shaker/n> .
 
-<http://api.conceptnet.io/c/en/saltshaker> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/saltshaker> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/saucepan> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/saucepan> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/saucer> cnr:AtLocation <http://api.conceptnet.io/c/en/dining_table> .
+<http://api.conceptnet.io/c/en/saucer> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/dining_table> .
 
-<http://api.conceptnet.io/c/en/scalded_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/scalded_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/scalpel/n> cnr:IsA <http://api.conceptnet.io/c/en/knife> .
+<http://api.conceptnet.io/c/en/scalpel/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife> .
 
-<http://api.conceptnet.io/c/en/schooner/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/schooner/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/scrambled_egg> cnr:ExternalURL <http://umbel.org/umbel/sc/ScrambledEgg> .
+<http://api.conceptnet.io/c/en/scrambled_egg> a cn:Concept ;
+    cnr:ExternalURL <http://umbel.org/umbel/sc/ScrambledEgg> .
 
-<http://api.conceptnet.io/c/en/scrambled_egg/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg> ;
+<http://api.conceptnet.io/c/en/scrambled_egg/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg> ;
     cnr:IsA <http://api.conceptnet.io/c/en/food_composite/n>,
         <http://api.conceptnet.io/c/en/semisolid/n> .
 
-<http://api.conceptnet.io/c/en/scrambled_egg/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107858284-n> ;
+<http://api.conceptnet.io/c/en/scrambled_egg/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107858284-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/dish/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/seidel/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/seidel/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/semi_skimmed_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/semi_skimmed_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/set_of_china> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/set_of_china> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/setting_cup_on_table> cnr:UsedFor <http://api.conceptnet.io/c/en/coffee> .
+<http://api.conceptnet.io/c/en/setting_cup_on_table> a cn:Concept ;
+    cnr:UsedFor <http://api.conceptnet.io/c/en/coffee> .
 
-<http://api.conceptnet.io/c/en/shiv/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/shiv/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/shot_glass/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/shot_glass/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/side_by_side_refrigerator_freezer/n> cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
+<http://api.conceptnet.io/c/en/side_by_side_refrigerator_freezer/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
 
-<http://api.conceptnet.io/c/en/silverware> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/silverware> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/silverware_spoon/n> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
+<http://api.conceptnet.io/c/en/silverware_spoon/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
 
-<http://api.conceptnet.io/c/en/skim_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/skim_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/slicer/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/slicer/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/snifter/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/snifter/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/soft_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/soft_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/soluble_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/soluble_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/soupspoon/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/soupspoon/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/sour_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/sour_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/soy_sauce> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/soy_sauce> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/soya_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/soya_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/spaghetti_sauce> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/spaghetti_sauce> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/spices> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/spices> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/spiders> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/spiders> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/spoiled_milk> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/spoiled_milk> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/spoon/n/wn/quantity> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/113792309-n> ;
+<http://api.conceptnet.io/c/en/spoon/n/wn/quantity> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/113792309-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
 
-<http://api.conceptnet.io/c/en/spoon/v/wn/contact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201582471-v> .
+<http://api.conceptnet.io/c/en/spoon/v/wn/contact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/201582471-v> .
 
-<http://api.conceptnet.io/c/en/stabbing_to_death> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/knife> .
+<http://api.conceptnet.io/c/en/stabbing_to_death> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/knife> .
 
-<http://api.conceptnet.io/c/en/stained_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/stained_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/starbucks> cnr:IsA <http://api.conceptnet.io/c/en/coffee> .
+<http://api.conceptnet.io/c/en/starbucks> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee> .
 
-<http://api.conceptnet.io/c/en/steak_knife/n> cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/en/steak_knife/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/steaks> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/steaks> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/stem> cnr:PartOf <http://api.conceptnet.io/c/en/apple> .
+<http://api.conceptnet.io/c/en/stem> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/apple> .
 
-<http://api.conceptnet.io/c/en/stick/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
+<http://api.conceptnet.io/c/en/stick/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/stiletto/n> cnr:IsA <http://api.conceptnet.io/c/en/knife> .
+<http://api.conceptnet.io/c/en/stiletto/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife> .
 
-<http://api.conceptnet.io/c/en/storage_pan> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/storage_pan> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/strawberries> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/strawberries> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/stuff> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/stuff> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/stuff_to_make_cookies> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/stuff_to_make_cookies> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/sugar> cnr:AtLocation <http://api.conceptnet.io/c/en/coffee>,
+<http://api.conceptnet.io/c/en/sugar> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/coffee>,
         <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/sugar_spoon/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/sugar_spoon/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/supply_closet/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/supply_closet/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/surgical_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/surgical_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/sweet_lemon/n/wn/plant> cnr:IsA <http://api.conceptnet.io/c/en/lemon/n/wn/plant> .
+<http://api.conceptnet.io/c/en/sweet_lemon/n/wn/plant> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/lemon/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/switchblade/n> cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/en/switchblade/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/table_cloth> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/table_cloth> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/table_knife/n> cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
+<http://api.conceptnet.io/c/en/table_knife/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n> .
 
-<http://api.conceptnet.io/c/en/tablefork/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/tablefork/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/tablespoon/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/tablespoon/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/tamarind_paste> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/tamarind_paste> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/tea> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
+<http://api.conceptnet.io/c/en/tea> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
         <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/tea_cup> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/tea_cup> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/tea_maker/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/tea_maker/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/tea_saucer> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/tea_saucer> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/teacup> cnr:IsA <http://api.conceptnet.io/c/en/container>,
+<http://api.conceptnet.io/c/en/teacup> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/container>,
         <http://api.conceptnet.io/c/en/dish> .
 
-<http://api.conceptnet.io/c/en/teacup/n/wn/quantity> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/113792775-n> ;
+<http://api.conceptnet.io/c/en/teacup/n/wn/quantity> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/113792775-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/containerful/n/wn/quantity> .
 
-<http://api.conceptnet.io/c/en/teakettle> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/teakettle> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/teaspoon> cnr:IsA <http://api.conceptnet.io/c/en/spoon> .
+<http://api.conceptnet.io/c/en/teaspoon> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon> .
 
-<http://api.conceptnet.io/c/en/teaspoon/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/teaspoon/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/thermostat> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/thermostat> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/tin> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/tin> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/tine/n/wn/artifact> cnr:PartOf <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/tine/n/wn/artifact> a cn:Concept ;
+    cnr:PartOf <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/toasting_fork/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/toasting_fork/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/fork/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/tofu> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/tofu> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/tomato> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/tomato> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/tomatoes> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/tomatoes> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/top_mount_refrigerator/n> cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
+<http://api.conceptnet.io/c/en/top_mount_refrigerator/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/refrigerator/n> .
 
-<http://api.conceptnet.io/c/en/topping/n> cnr:SimilarTo <http://api.conceptnet.io/c/en/garnish> .
+<http://api.conceptnet.io/c/en/topping/n> a cn:Concept ;
+    cnr:SimilarTo <http://api.conceptnet.io/c/en/garnish> .
 
-<http://api.conceptnet.io/c/en/topping/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/garnish/n/wn/food> .
+<http://api.conceptnet.io/c/en/topping/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/garnish/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/towel> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/towel> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/traditional_covering_for_greenhouses> cnr:IsA <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/traditional_covering_for_greenhouses> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/trench_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/trench_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/triclinium/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/triclinium/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/tumbler/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/tumbler/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/turkey> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/turkey> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/turkish_coffee/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
+<http://api.conceptnet.io/c/en/turkish_coffee/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/coffee/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/turnips> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/turnips> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/tv> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/tv> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/usually_cold> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/usually_cold> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/utensils> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/utensils> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/vacuum_tube> cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/vacuum_tube> a cn:Concept ;
+    cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/vegetables> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/vegetables> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/water_glass/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/water_glass/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/wheat_grass> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/wheat_grass> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/whole_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/whole_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/wiener_dog> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/wiener_dog> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/wine_glass> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/wine_glass> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
 
-<http://api.conceptnet.io/c/en/wineglass/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/wineglass/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/wire_glass/n/wn/substance> cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
+<http://api.conceptnet.io/c/en/wire_glass/n/wn/substance> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/glass/n/wn/substance> .
 
-<http://api.conceptnet.io/c/en/wooden_spoon/n> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
+<http://api.conceptnet.io/c/en/wooden_spoon/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n> .
 
-<http://api.conceptnet.io/c/en/wooden_spoon/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/wooden_spoon/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/spoon/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/worcestershire_sauce> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/worcestershire_sauce> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/yak's_milk/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
+<http://api.conceptnet.io/c/en/yak's_milk/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/milk/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/yak_butter/n/wn/food> cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
+<http://api.conceptnet.io/c/en/yak_butter/n/wn/food> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/butter/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/yataghan/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/yataghan/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/apple/n/wn/plant> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/112654755-n> ;
+cnr:AtLocation a cn:Relation .
+
+cnr:CapableOf a cn:Relation .
+
+cnr:DefinedAs a cn:Relation .
+
+cnr:ExternalURL a cn:Relation .
+
+cnr:HasA a cn:Relation .
+
+cnr:HasPrerequisite a cn:Relation .
+
+cnr:HasProperty a cn:Relation .
+
+cnr:IsA a cn:Relation .
+
+cnr:LocatedNear a cn:Relation .
+
+cnr:MadeOf a cn:Relation .
+
+cnr:NotDesires a cn:Relation .
+
+cnr:PartOf a cn:Relation .
+
+cnr:ReceivesAction a cn:Relation .
+
+cnr:SimilarTo a cn:Relation .
+
+cnr:UsedFor a cn:Relation .
+
+<http://test.org/cn.owl> a owl:Ontology .
+
+<http://api.conceptnet.io/c/de/liquid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/84_water> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/accessory_fruit/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/acidic> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/acquired_taste> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/active_ingredient_caffeine> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/addictive_substance> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/airport> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/alter_length_of_string_or_rope> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/amorphous_solid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/amorpous_solid_at_room_temperature> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/apartment> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/appear_empty> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/apple/n/wn/plant> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/112654755-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/apple_tree/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/bowl> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
+<http://api.conceptnet.io/c/en/apple_orchard> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/apple_pie> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/apple_tree> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/apple_tree/n/wn/plant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/apples> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/arranging_papers> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/artifact/n/wn> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/artificial_substance/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/attaching_to_rifle> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/attacking_enemy> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/backpack> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bait_trap> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/banana> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/beautiful_golden_green_color> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bed> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bendable_thing/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bitter> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bitterness/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/blown> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/blown_into_shapes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/board_cups> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/boning> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bottle> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bought_at_cafe> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bought_at_grocery> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bought_in_store> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bowl> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
         <http://api.conceptnet.io/c/en/refrigerator> ;
     cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/butter> cnr:AtLocation <http://api.conceptnet.io/c/en/fridge>,
+<http://api.conceptnet.io/c/en/bowl_of_soup> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/break_easily> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/breakfast_beverage> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/breaking_down_into_pieces> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/breakroom> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/brittle_thing/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/broken> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/bushy_plant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/butter> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/fridge>,
         <http://api.conceptnet.io/c/en/homes>,
         <http://api.conceptnet.io/c/en/pastry>,
         <http://api.conceptnet.io/c/en/refrigerator>,
@@ -1017,7 +1592,8 @@
         <http://api.conceptnet.io/c/en/used_in_many_baking_recipes> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/flavoring> .
 
-<http://api.conceptnet.io/c/en/butter/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Butter> ;
+<http://api.conceptnet.io/c/en/butter/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Butter> ;
     cnr:IsA <http://api.conceptnet.io/c/en/bendable_thing/n>,
         <http://api.conceptnet.io/c/en/condiment/n>,
         <http://api.conceptnet.io/c/en/dairy_product/n>,
@@ -1029,9 +1605,193 @@
         <http://api.conceptnet.io/c/en/spread/n/opencyc/spread_food>,
         <http://api.conceptnet.io/c/en/yellow/n> .
 
-<http://api.conceptnet.io/c/en/can> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/butter_piece_of_toast> a cn:Concept .
 
-<http://api.conceptnet.io/c/en/dining_table> cnr:AtLocation <http://api.conceptnet.io/c/en/cafeteria>,
+<http://api.conceptnet.io/c/en/cabinet/n/opencyc/cabinet_storage_construction> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cafeteria> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/caffein> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/caffeine> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/caffeine_which_raises_brain_reaction_time> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/caffiene> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/caffiene_in> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/caffine> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/calcium> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/can> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
+<http://api.conceptnet.io/c/en/carving_features> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/carving_initials> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/carving_wood> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/causing_jello_to_jell> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/ceramic> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/childs_sand_box> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/chilling_drinks> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/chilling_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/chocolate_flavored> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/chopping_vegetables> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/citrus> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/citrus/n/wn/food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/citrus/n/wn/plant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/citrus_fruit/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/clean> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/clear> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/closet> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/closet/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/coat_frying_pan> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/coated> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/coffee_mugs> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/coffee_shop> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/combatant/n/wn/person> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/come_from_mammals> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/comes_in_plastic_containers> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/common_source_of_vitamin_c> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/complementing_spoon_and_fork> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/completing_place_setting> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/complex_liquid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/compound_word> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/computer_brand> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/computing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/condiment/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/conference> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/conserving_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/consuming_liquid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cooking_or_eating_utensil> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cool_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cool_things> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cooling_drinks> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cooling_liquid_by_stirring> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cooling_perishables> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/core> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/coring> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/counting_pills> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cow> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cracking_open> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cup> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cup/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cup_liquid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cupped_end_and_handle> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut/n/wn/act> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut/n/wn/state> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut/v/wn/contact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_apple> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_cake> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_chicken> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_leather> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_man's_hand> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_meat_with> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_most_things> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_rope> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cut_string> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cutlery> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cutlery_draw> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cutting> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cutting_meat> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cutting_steak> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cutting_string> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dairy_product/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dangerous> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dangerous_to_joints> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/decorating_cake> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/denser_than_water> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dessert> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/digging> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dining> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dining_room> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dining_set> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dining_table> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cafeteria>,
         <http://api.conceptnet.io/c/en/formal_dining_room>,
         <http://api.conceptnet.io/c/en/house> ;
     cnr:HasProperty <http://api.conceptnet.io/c/en/paired_with_chairs> ;
@@ -1076,49 +1836,1238 @@
         <http://api.conceptnet.io/c/en/special_occassions>,
         <http://api.conceptnet.io/c/en/working_on_hobby> .
 
-<http://api.conceptnet.io/c/en/eating_dinner> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/fork> .
+<http://api.conceptnet.io/c/en/dinner> a cn:Concept .
 
-<http://api.conceptnet.io/c/en/eating_ice_cream> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
+<http://api.conceptnet.io/c/en/dirty> a cn:Concept .
 
-<http://api.conceptnet.io/c/en/garnish/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107637227-n> ;
+<http://api.conceptnet.io/c/en/discussions> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/disect> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dish/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dish_to_run_away_with> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dishes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/divide_bread> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/divide_pie> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/divide_string> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dividing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dividing_road_in_two> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/doing_homework> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/doing_jigsaw_puzzles_on> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drawer_in_kitchen> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drink_from> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drink_margaritas_out_of> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drinking_from> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drinking_liquid_from> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drinking_on> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drinking_out_of> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drinking_soup> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drunk_with_or_without_milk> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dull> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_cereal_with> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_dinner_on> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_dinnner> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_ice_cream> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_meal> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_meat> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_soup> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_steak> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_vegetables> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_yogurt> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eaten_with_cereal> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eaten_with_toast> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_applesauce> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_cereal> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_cold_ceral> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_dinner> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/fork> .
+
+<http://api.conceptnet.io/c/en/eating_dinner_on> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_food_isn't_very_solid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_food_with> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_ice_cream> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/spoon> .
+
+<http://api.conceptnet.io/c/en/eating_liquids> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_meal> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_meat> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_pie> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_vegetables> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/edge_tool/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/edible> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/edible_fruit/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/edible_fruit/n/wn/food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/electrical_household_appliance/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/electronic_appliance> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/empty> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/engraving> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/enjoy_fruit> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/enjoyed_at_nicely_laid_table> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/entertain_guests> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/entertain_large_group_of_people> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/entertaining_others> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/ex_husbands_back> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/extending_life_of_perishables> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eyeglasses> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fall_from_tree> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fall_off_tree> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/family_discussions> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/family_gatherings> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/family_meetings> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fat/n/opencyc/edible_fat> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fattening> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/feed_baby> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fighting> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fill_glass> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/flavoring> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/flinging> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fluid_reservoir/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/flying_implies> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/food/n/wn/food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/food_composite/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/foodstuff/n/wn/food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/forceful_moves> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fork_in_road> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/formal_dining> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/formal_dining_room> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/found_in_building> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/found_in_bus> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/found_in_house> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/found_in_store> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/found_in_taxi> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fragile> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/free_one's_soul> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/freezer> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/freezing_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/friend's_house> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/friut> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fruit_juice> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fruit_tree> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/garage> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/garnish/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107637227-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/decoration/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/glass/n> cnr:IsA <http://api.conceptnet.io/c/en/inorganic_substance/n>,
+<http://api.conceptnet.io/c/en/gashing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/getting_good_carbs> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/getting_good_grades_from_teacher> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/giving_things_home> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/glass/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/inorganic_substance/n>,
         <http://api.conceptnet.io/c/en/solid/n/opencyc/solid_state_of_matter> .
 
-<http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass> .
+<http://api.conceptnet.io/c/en/glass/n/opencyc/silicate_glass> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass> .
 
-<http://api.conceptnet.io/c/en/lemon/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107765558-n> ;
+<http://api.conceptnet.io/c/en/glass_of_iced_tea> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/glassware/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/good> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/good_after_dinner_drink> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/good_for_health> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/good_in_morning> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/good_thirst_quencher> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/gooooooooooooooood> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/gouging> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/greengrocer> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/grocery/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/ground_to_facilitate_brewing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/half_empty> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/half_full> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hang_on_nose> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/harm_living_creatures> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/harness_power_of_sun> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/have_gathering_of_friends> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/have_sex_with_spouse> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/having_friends_around_for_dinner> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/healthy_diet> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/healthy_treat> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hold/v/wn/stative> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hold_dozens_of_pieces_of_rice> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hold_liquid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hold_things> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hold_water> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/holding_center_pieces> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/holding_drink> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/holding_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/holding_liquid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/holding_liquids> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/holding_liquids_and_ice_cubes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/holding_silverware> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/holding_water> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/holiday_meals> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/home> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/homes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/homogeneous_structure/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/horses_mouth> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hospital_drug_storeroom> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hot_beverage> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/housewares_store> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hurt> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hurt_dog> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/illustrating_letter> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/important_for_making_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/in_road> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/inanimate_object/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/indoor_object> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/ingredient_often> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/inorganic_substance/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/internet_cafe> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keep_food_from_spoiling> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keep_ice_cold> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keep_perishable_items_cold> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_cups> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_doctor_away> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_food_cold> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_food_cool> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_food_from_decaying_quickly> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_food_from_spoiling> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_meat_fresh> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_meats_from_spoiling> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_things_clean> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_things_safe> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_things_tidy> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keeping_vegetables_crisp> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/kill_person> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/killing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/kitchen_utensil> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/kitchen_work> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/kitchenware> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/knife_block> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/knife_holder> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/knife_store> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/lacerating> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/lactose> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/large_amounts_of_caffeine> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/last_about_7_days> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/laying_with_cutlery> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/leave_messages> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/leaving_papers_on> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/lemon/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107765558-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/citrus/n/wn/food> ;
     cnr:PartOf <http://api.conceptnet.io/c/en/lemon/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/lemon_juice> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/lemon_juice> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/mug> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
+<http://api.conceptnet.io/c/en/letting_blood> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/lift_food_to_mouth> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/lifting_food_from_plate_to_mouth> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/like_solid_milk> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/liquid/n/opencyc/liquid_tangible_thing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/liquid_at_room_tempeature> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/liquid_body_substance/n/wn/body> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/liquid_foods> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/liquid_solution/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/living_thing/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/low_margin_product> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/machine> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_cheese> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_churned_milk> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_coffee_beans> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_cream> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_crushed_apples> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_fused_silicon_dioxide> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_milk> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_oranges> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_sand> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_from_squeezed_apples> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_using_hot_water> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/made_using_water_and_coffee_beans> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/make_apple_cider> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/make_ice_cream> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/make_lips_pucker> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/make_pie> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/make_pudding> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_apple_pie> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_applesauce> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_drinks_cool> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_groove> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_hole> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_ice> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_love> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_mark> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_models> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_pie> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/making_windows_and_for_drinking_cups> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/manual_tool/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/many_cooking_uses> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/many_different_colors> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/market> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/mashing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/meal> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/measuring_ingredients> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/meeting> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/melted> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/metal> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/military_purposes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/milk_processing_plant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/minerals> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/mixing_ingredients> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/mixing_soup> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/montana/n/wn/location> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/move_food_to_mouth> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/moving_food_to_mouth> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/mug> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/coffee> .
 
-<http://api.conceptnet.io/c/en/orange_juice/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107941074-n> ;
+<http://api.conceptnet.io/c/en/munching> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/napkin> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/non_porous> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/not_moved_very_often> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/notching> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/noun_or_verb> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/nutriment/n/wn/food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/office> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/one_kind_of_breakfast_drink> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/one_kind_of_fruit> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/one_of_liquids_commonly> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/open_plastic_package> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/opened_and_closed> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/opening> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/orange_juice/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107941074-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/pie> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/orchard> a cn:Concept .
 
-<http://api.conceptnet.io/c/en/shelf> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
+<http://api.conceptnet.io/c/en/outdoors_living> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/own_kitchen> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/packaged_in_either_jugs_or_boxes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/paired_with_chairs> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pale_yellow> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pale_yellow_color> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pantry> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pare_apple> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pare_apples> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/paring> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/part_of_room/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pastry> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/peel> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/peeling> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/people_to_eat_cereal_with> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/people_to_eat_soup_with> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/physical_substance> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/picking_things_out> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/picking_up_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pie> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> .
+
+<http://api.conceptnet.io/c/en/piece_of_fruit> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/piercing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/piercing_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/placing_served_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/plane> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/playing_cards> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/playing_cards_sometimes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/playing_games> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/playing_games_on> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/playing_throwing_games> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pocket> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pome/n/wn/plant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/popular_drink> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/popular_morning_drink> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/posting_children's_art_work_on> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/poured> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/preserving_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/press> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/preventing_food_from_going_bad> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pricking_skin> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/produce_section_of_supermarket> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/produced_by_female_cow> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/produced_by_mammals> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/product_of_cows> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/prongs> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/providing_choice> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/prying_open> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/prying_things_open> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/prying_things_out> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/pulp_in> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/purchased_from_corner_grocery> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/putting_butcher_block> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/putting_food_on> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/putting_things_in> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/putting_things_on_top_of> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/quarter_cake> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/quarter_soft_solids> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/ready_to_eat_food/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/recyclable> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/recycled> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/red> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/red_or_green> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/reflective_qualitities> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/refractive_index> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/refreshing_and_stimulating_beverage> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/refreshing_to_drink> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/refrigerated_storage_device/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/refrigerating> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/relish/n/wn/cognition> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/removing_labels> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/representing_knowlege> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/resonant_frequency> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/restaurant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/ripping> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/road> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/sand> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/sate_hunger> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/saving_counter_space> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/saw_bread> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/scoop_ice_cream> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/scooping_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/scoring> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/scratching> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/seeds> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/seeds_inside> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/seeing_through> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/semisolid/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/sent_for_recycling> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/separating> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/serve_as_mirror> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/served_at_restaurant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/served_hot> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/served_in_most_restaurants> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/serving_dinner> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/serving_dish> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/serving_dish/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/serving_soup> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/severing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/shaker/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/shaped_thing/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/shaving> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/shelf> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
         <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/soup> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+<http://api.conceptnet.io/c/en/similar_to_orange> a cn:Concept .
 
-<http://api.conceptnet.io/c/en/table_knife/n/wn/artifact> cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+<http://api.conceptnet.io/c/en/sink> a cn:Concept .
 
-<http://api.conceptnet.io/c/en/teacup/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/104404587-n> ;
+<http://api.conceptnet.io/c/en/sitting_around_with_family> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/skin> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/skinning_animals> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/slicing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/slicing_bread> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/slightly_bitter_taste> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/slitting> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/small_container_for_table_salt> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/soft> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/sold_in_plastic_containers> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/sold_in_stores> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/solid/n/opencyc/solid_state_of_matter> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/solid/n/wn/substance> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/solution_from_female_cow> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/something_you> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/soup> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> .
+
+<http://api.conceptnet.io/c/en/sour> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/sour_yellow_fruit> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/source_of_mineral_calcium> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spearing_pieces> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/special_occassions> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/speciality_of_thiers_in_france> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/splitting> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spot_fabric> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spread/n/opencyc/spread_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spread_at_room_temperature> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spread_butter> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spread_butter_on_bread> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spread_margarine> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spread_on_bread> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spread_peanut_butter> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spreading> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spreading_butter_on_bread> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spreading_cheese> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spreading_jam> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stab/v/wn/contact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stabbing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stabbing_victim> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stacking_dinner_plates> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/staying_awake> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/steel> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stick_in_ribs> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stimulant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stimulant_drug_caffeine> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stir_coffee> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stir_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stir_soup> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stirring_coffee> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stirring_tea> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/stock_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/storage_space/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store_bread> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store_christmas_decorations> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store_crockery> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store_dishes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store_food_for_long_times> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store_many_different_items> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store_pots_and_pans> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/storing_bones> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/storing_crockery> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/storing_dishes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/storing_foods> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/storing_junk> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/storing_things> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/street> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/subway> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/table/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/table_knife/n/wn/artifact> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/knife/n/wn/artifact> .
+
+<http://api.conceptnet.io/c/en/table_setting> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tableware> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/taking_cough_syrup> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/taking_off_ends> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tangible_thing/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/taste_sour> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tastier_than_water> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tasty_drink> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/teacup/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/104404587-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/cup/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/waking_up_in_morning> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/coffee> .
+<http://api.conceptnet.io/c/en/tempered> a cn:Concept .
 
-<http://api.conceptnet.io/c/en/water> cnr:AtLocation <http://api.conceptnet.io/c/en/coffee>,
+<http://api.conceptnet.io/c/en/tempting_eve> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/test_theory_of_gravity> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/thousands_of_grains_of_salt> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/threatening> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tines> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tinted> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/toffee_apple> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tool> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tool/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tool_in_backpack> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tool_in_shop> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/train_station> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/transporting_liquid_short_distances> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tree> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/tree/n/wn/plant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/trimming> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/turning_screw> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/turning_soil> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/unpluged> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/unraveling> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/untensil_drawer> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/use_to_eat_soup> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/used_as_weapon> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/used_in_many_baking_recipes> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/used_in_recipe> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/used_when_eating> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/user_powered_device/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/utensil> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/utensil/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/utensil_can_stab> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/vehicle> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/very_fragile> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/very_refreshing> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/very_useful_to_cut_meat> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/vitamin_c> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/waking_up_in_morning> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/coffee> .
+
+<http://api.conceptnet.io/c/en/war> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/warmer_then_piece_of_ice> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/water> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/coffee>,
         <http://api.conceptnet.io/c/en/glass>,
         <http://api.conceptnet.io/c/en/milk> .
 
-<http://api.conceptnet.io/c/en/apple> cnr:AtLocation <http://api.conceptnet.io/c/en/apple_orchard>,
+<http://api.conceptnet.io/c/en/weapon/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/white> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/white_goods/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/wood/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/work> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/working_on_hobby> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/working_with_wood> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/wrapped_in_napkin> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/yellow> a cn:Concept .
+
+<http://dbpedia.org/resource/Apple> a cn:Concept .
+
+<http://dbpedia.org/resource/Butter> a cn:Concept .
+
+<http://dbpedia.org/resource/Coffee> a cn:Concept .
+
+<http://dbpedia.org/resource/Croissant> a cn:Concept .
+
+<http://dbpedia.org/resource/Glass> a cn:Concept .
+
+<http://dbpedia.org/resource/Knife> a cn:Concept .
+
+<http://dbpedia.org/resource/Lemon> a cn:Concept .
+
+<http://dbpedia.org/resource/Orange_juice> a cn:Concept .
+
+<http://dbpedia.org/resource/Refrigerator> a cn:Concept .
+
+<http://dbpedia.org/resource/Spoon> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Apple_juice> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Butter> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/ButterDish> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/ButterKnife> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Coffee> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Coffee_Beverage> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Cupboard> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Glass_413> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Knife> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Lemon> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Lemon_417> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Milk> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/OrangeJuice> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Orange_juice> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/PepperShaker> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Refrigerator> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/SaltShaker> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/ScrambledEgg> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/SilicateGlass> a cn:Concept .
+
+<http://sw.opencyc.org/2012/05/10/concept/en/Spoon> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Apple_juice> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Butter> a cn:Concept .
+
+<http://umbel.org/umbel/sc/ButterDish> a cn:Concept .
+
+<http://umbel.org/umbel/sc/ButterKnife> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Coffee_Beverage> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Cupboard> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Fork_SilverwarePiece> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Glass> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Knife> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Lemon_> a cn:Concept .
+
+<http://umbel.org/umbel/sc/OrangeJuice> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Orange_juice> a cn:Concept .
+
+<http://umbel.org/umbel/sc/PepperShaker> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Refrigerator> a cn:Concept .
+
+<http://umbel.org/umbel/sc/SaltShaker> a cn:Concept .
+
+<http://umbel.org/umbel/sc/ScrambledEgg> a cn:Concept .
+
+<http://umbel.org/umbel/sc/Spoon> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q207832> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q219059> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q32489> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q34172> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q37828> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q500> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q741471> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q81895> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q8486> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q8495> a cn:Concept .
+
+<http://wikidata.dbpedia.org/resource/Q89> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/102931148-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/102931433-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/103152990-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/103205892-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/103388794-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/103389013-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/103425350-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/103443167-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/103628765-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/103661164-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/103920557-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/104077839-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/104291140-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/104291479-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/104404587-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/105724289-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107637227-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107755101-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107765558-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107858284-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107859612-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107860580-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107864314-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107940606-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107941074-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/107945759-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/109377677-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/109904267-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/112654755-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/112683533-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/112732356-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/113792309-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/113792775-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/114905454-n> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/200141734-v> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/200194514-v> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/201121306-v> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/201167222-v> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/201270562-v> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/201582471-v> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/202340359-v> a cn:Concept .
+
+<http://wordnet-rdf.princeton.edu/wn31/don't+cry+over+spilt+milk-p#Component-5> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/a> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/apple> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/apple_orchard>,
         <http://api.conceptnet.io/c/en/apple_pie>,
         <http://api.conceptnet.io/c/en/apple_tree>,
         <http://api.conceptnet.io/c/en/fridge>,
@@ -1174,38 +3123,143 @@
         <http://api.conceptnet.io/c/en/tempting_eve>,
         <http://api.conceptnet.io/c/en/test_theory_of_gravity> .
 
-<http://api.conceptnet.io/c/en/food> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
+<http://api.conceptnet.io/c/en/back> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/beverage> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/beverage/n/wn/food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/butter_bread> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cabinet> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/carton> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/container/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cutlery/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cutlery_drawer> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/cutting_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dairy_product> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dairy_product/n/wn/food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/decoration/n/wn/artifact> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dish> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dish/n/wn/food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/dishwasher> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/drawer> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_dinner> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eat_with> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eaten> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_food_off_plate> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_utensil> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fast_food_restaurant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/food> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
         <http://api.conceptnet.io/c/en/refrigerator>,
         <http://api.conceptnet.io/c/en/spoon> .
 
-<http://api.conceptnet.io/c/en/fork/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece> ;
+<http://api.conceptnet.io/c/en/fork/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Fork_SilverwarePiece> ;
     cnr:IsA <http://api.conceptnet.io/c/en/cutlery>,
         <http://api.conceptnet.io/c/en/kitchenware>,
         <http://api.conceptnet.io/c/en/silverware/n>,
         <http://api.conceptnet.io/c/en/tableware> .
 
-<http://api.conceptnet.io/c/en/fruit> cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> ;
+<http://api.conceptnet.io/c/en/fruit> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/refrigerator> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/garnish> .
 
-<http://api.conceptnet.io/c/en/lemon/n/wn/plant> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/112732356-n> ;
+<http://api.conceptnet.io/c/en/fruit_juice/n/wn/food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/green> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/grocery_store> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hand> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/hot> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/juice/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/keep_food_cold> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/kitchenware/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/lemon/n/wn/plant> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/112732356-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/citrus/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/milk/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Milk> ;
+<http://api.conceptnet.io/c/en/milk/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Milk> ;
     cnr:IsA <http://api.conceptnet.io/c/de/liquid>,
         <http://api.conceptnet.io/c/en/liquid/n/opencyc/liquid_tangible_thing> .
 
-<http://api.conceptnet.io/c/en/milk/n/opencyc/cows_milk_product> cnr:IsA <http://api.conceptnet.io/c/en/beverage/n>,
+<http://api.conceptnet.io/c/en/milk/n/opencyc/cows_milk_product> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/beverage/n>,
         <http://api.conceptnet.io/c/en/mixture/n> .
 
-<http://api.conceptnet.io/c/en/milk/n/wn/body> cnr:IsA <http://api.conceptnet.io/c/en/liquid_body_substance/n/wn/body>,
+<http://api.conceptnet.io/c/en/milk/n/wn/body> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/liquid_body_substance/n/wn/body>,
         <http://api.conceptnet.io/c/en/nutriment/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/apple/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107755101-n> ;
+<http://api.conceptnet.io/c/en/needed_when_eating_meal> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/shaker/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/sharp> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/silverware/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/solid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/solid_object/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/store_cups> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/storing_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/supermarket> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/sweet_thing/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/window> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/yellow/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/apple/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107755101-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/edible_fruit/n/wn/food>,
         <http://api.conceptnet.io/c/en/pome/n/wn/plant> ;
     cnr:PartOf <http://api.conceptnet.io/c/en/apple/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/fork> cnr:AtLocation <http://api.conceptnet.io/c/en/a>,
+<http://api.conceptnet.io/c/en/containerful/n/wn/quantity> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/eating_food> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fork> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/a>,
         <http://api.conceptnet.io/c/en/back>,
         <http://api.conceptnet.io/c/en/cutlery_drawer>,
         <http://api.conceptnet.io/c/en/drawer>,
@@ -1257,39 +3311,70 @@
         <http://api.conceptnet.io/c/en/providing_choice>,
         <http://api.conceptnet.io/c/en/turning_soil> .
 
-<http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Glass_413> ;
+<http://api.conceptnet.io/c/en/found_in_kitchen> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/garnish> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/glass/n/opencyc/glass_413> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Glass_413> ;
     cnr:IsA <http://api.conceptnet.io/c/en/brittle_thing/n>,
         <http://api.conceptnet.io/c/en/glass/n>,
         <http://api.conceptnet.io/c/en/inanimate_object/n>,
         <http://api.conceptnet.io/c/en/solid_object/n> .
 
-<http://api.conceptnet.io/c/en/plate> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
+<http://api.conceptnet.io/c/en/house> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/kitchen> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/kitchen_drawer> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/liquid> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/opaque> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/plate> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard> ;
     cnr:MadeOf <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/coffee/n/wn/plant> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/112683533-n> ;
+<http://api.conceptnet.io/c/en/resturant> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/silverware_drawer> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/beverage/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/coffee/n/wn/plant> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/112683533-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/tree/n/wn/plant> .
 
-<http://api.conceptnet.io/c/en/container> cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
+<http://api.conceptnet.io/c/en/container> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/cupboard>,
         <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103152990-n> ;
+<http://api.conceptnet.io/c/en/cupboard/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103152990-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/storage_space/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/drinking> cnr:HasPrerequisite <http://api.conceptnet.io/c/en/glass> .
+<http://api.conceptnet.io/c/en/drinking> a cn:Concept ;
+    cnr:HasPrerequisite <http://api.conceptnet.io/c/en/glass> .
 
-<http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/104077839-n> ;
+<http://api.conceptnet.io/c/en/refrigerator/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/104077839-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/white_goods/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/butter/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107864314-n> ;
+<http://api.conceptnet.io/c/en/butter/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107864314-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/dairy_product/n/wn/food>,
         <http://api.conceptnet.io/c/en/food/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103205892-n> ;
+<http://api.conceptnet.io/c/en/dining_table/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103205892-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/table/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/fridge> cnr:IsA <http://api.conceptnet.io/c/en/refrigerator> .
+<http://api.conceptnet.io/c/en/fridge> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/refrigerator> .
 
-<http://api.conceptnet.io/c/en/milk> cnr:AtLocation <http://api.conceptnet.io/c/en/bottle>,
+<http://api.conceptnet.io/c/en/milk> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/bottle>,
         <http://api.conceptnet.io/c/en/carton>,
         <http://api.conceptnet.io/c/en/container>,
         <http://api.conceptnet.io/c/en/cow>,
@@ -1339,12 +3424,16 @@
         <http://api.conceptnet.io/c/en/feed_baby>,
         <http://api.conceptnet.io/c/en/make_pudding> .
 
-<http://api.conceptnet.io/c/en/spoon/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Spoon> ;
+<http://api.conceptnet.io/c/en/mixture/n> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/spoon/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Spoon> ;
     cnr:IsA <http://api.conceptnet.io/c/en/fluid_reservoir/n>,
         <http://api.conceptnet.io/c/en/shaped_thing/n>,
         <http://api.conceptnet.io/c/en/utensil/n> .
 
-<http://api.conceptnet.io/c/en/knife> cnr:AtLocation <http://api.conceptnet.io/c/en/back>,
+<http://api.conceptnet.io/c/en/knife> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/back>,
         <http://api.conceptnet.io/c/en/backpack>,
         <http://api.conceptnet.io/c/en/drawer>,
         <http://api.conceptnet.io/c/en/drawer_in_kitchen>,
@@ -1487,11 +3576,13 @@
         <http://api.conceptnet.io/c/en/unraveling>,
         <http://api.conceptnet.io/c/en/working_with_wood> .
 
-<http://api.conceptnet.io/c/en/refrigerator/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Refrigerator> ;
+<http://api.conceptnet.io/c/en/refrigerator/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Refrigerator> ;
     cnr:IsA <http://api.conceptnet.io/c/en/electrical_household_appliance/n>,
         <http://api.conceptnet.io/c/en/refrigerated_storage_device/n> .
 
-<http://api.conceptnet.io/c/en/spoon> cnr:AtLocation <http://api.conceptnet.io/c/en/bed>,
+<http://api.conceptnet.io/c/en/spoon> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/bed>,
         <http://api.conceptnet.io/c/en/bowl>,
         <http://api.conceptnet.io/c/en/bowl_of_soup>,
         <http://api.conceptnet.io/c/en/childs_sand_box>,
@@ -1557,24 +3648,30 @@
         <http://api.conceptnet.io/c/en/taking_cough_syrup>,
         <http://api.conceptnet.io/c/en/transporting_liquid_short_distances> .
 
-<http://api.conceptnet.io/c/en/fork/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103388794-n>,
+<http://api.conceptnet.io/c/en/table> a cn:Concept .
+
+<http://api.conceptnet.io/c/en/fork/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103388794-n>,
         <http://wordnet-rdf.princeton.edu/wn31/103389013-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/cutlery/n/wn/artifact>,
         <http://api.conceptnet.io/c/en/tool/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/spoon/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/104291140-n>,
+<http://api.conceptnet.io/c/en/spoon/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/104291140-n>,
         <http://wordnet-rdf.princeton.edu/wn31/104291479-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/container/n/wn/artifact>,
         <http://api.conceptnet.io/c/en/cutlery/n/wn/artifact>,
         <http://api.conceptnet.io/c/en/wood/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/apple/n> cnr:IsA <http://api.conceptnet.io/c/en/accessory_fruit/n>,
+<http://api.conceptnet.io/c/en/apple/n> a cn:Concept ;
+    cnr:IsA <http://api.conceptnet.io/c/en/accessory_fruit/n>,
         <http://api.conceptnet.io/c/en/edible_fruit/n>,
         <http://api.conceptnet.io/c/en/fruit>,
         <http://api.conceptnet.io/c/en/fruit_tree>,
         <http://api.conceptnet.io/c/en/tree> .
 
-<http://api.conceptnet.io/c/en/coffee> cnr:AtLocation <http://api.conceptnet.io/c/en/airport>,
+<http://api.conceptnet.io/c/en/coffee> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/airport>,
         <http://api.conceptnet.io/c/en/breakroom>,
         <http://api.conceptnet.io/c/en/can>,
         <http://api.conceptnet.io/c/en/coffee_shop>,
@@ -1641,30 +3738,39 @@
     cnr:UsedFor <http://api.conceptnet.io/c/en/staying_awake>,
         <http://api.conceptnet.io/c/en/waking_up_in_morning> .
 
-<http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Coffee_Beverage> ;
+<http://api.conceptnet.io/c/en/coffee/n/opencyc/coffee_beverage> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Coffee_Beverage> ;
     cnr:IsA <http://api.conceptnet.io/c/en/artificial_substance/n>,
         <http://api.conceptnet.io/c/en/beverage/n>,
         <http://api.conceptnet.io/c/en/bitterness/n>,
         <http://api.conceptnet.io/c/en/liquid_solution/n>,
         <http://api.conceptnet.io/c/en/mixture/n> .
 
-<http://api.conceptnet.io/c/en/knife/n> cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Knife> ;
+<http://api.conceptnet.io/c/en/knife/n> a cn:Concept ;
+    cnr:ExternalURL <http://sw.opencyc.org/2012/05/10/concept/en/Knife> ;
     cnr:IsA <http://api.conceptnet.io/c/en/manual_tool/n>,
         <http://api.conceptnet.io/c/en/user_powered_device/n> .
 
-<http://api.conceptnet.io/c/en/glass/n/wn/substance> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/114905454-n> ;
+<http://api.conceptnet.io/c/en/glass/n/wn/substance> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/114905454-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/solid/n/wn/substance> ;
     cnr:PartOf <http://api.conceptnet.io/c/en/glass/n/wn/artifact> .
 
-<http://api.conceptnet.io/c/en/coffee/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107945759-n> ;
+<http://api.conceptnet.io/c/en/coffee/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107945759-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/beverage/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/glass/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103443167-n> ;
+<http://api.conceptnet.io/c/en/glass/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103443167-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/container/n/wn/artifact>,
         <http://api.conceptnet.io/c/en/glassware/n/wn/artifact> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/hold/v/wn/stative> .
 
-<http://api.conceptnet.io/c/en/glass> cnr:AtLocation <http://api.conceptnet.io/c/en/a>,
+cn:Relation a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+<http://api.conceptnet.io/c/en/glass> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/a>,
         <http://api.conceptnet.io/c/en/cabinet>,
         <http://api.conceptnet.io/c/en/dining_room>,
         <http://api.conceptnet.io/c/en/dishwasher>,
@@ -1745,12 +3851,14 @@
         <http://api.conceptnet.io/c/en/making_windows_and_for_drinking_cups>,
         <http://api.conceptnet.io/c/en/seeing_through> .
 
-<http://api.conceptnet.io/c/en/milk/n/wn/food> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107860580-n> ;
+<http://api.conceptnet.io/c/en/milk/n/wn/food> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/107860580-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/beverage/n/wn/food>,
         <http://api.conceptnet.io/c/en/dairy_product/n/wn/food>,
         <http://api.conceptnet.io/c/en/foodstuff/n/wn/food> .
 
-<http://api.conceptnet.io/c/en/knife/n/wn/artifact> cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103628765-n> ;
+<http://api.conceptnet.io/c/en/knife/n/wn/artifact> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/103628765-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/edge_tool/n/wn/artifact>,
         <http://api.conceptnet.io/c/en/weapon/n/wn/artifact> ;
     cnr:UsedFor <http://api.conceptnet.io/c/en/cut/n/wn/act>,
@@ -1758,7 +3866,8 @@
         <http://api.conceptnet.io/c/en/cut/v/wn/contact>,
         <http://api.conceptnet.io/c/en/stab/v/wn/contact> .
 
-<http://api.conceptnet.io/c/en/cupboard> cnr:AtLocation <http://api.conceptnet.io/c/en/own_kitchen>,
+<http://api.conceptnet.io/c/en/cupboard> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/own_kitchen>,
         <http://api.conceptnet.io/c/en/pantry> ;
     cnr:CapableOf <http://api.conceptnet.io/c/en/store_cups>,
         <http://api.conceptnet.io/c/en/store_many_different_items>,
@@ -1792,7 +3901,8 @@
         <http://api.conceptnet.io/c/en/storing_junk>,
         <http://api.conceptnet.io/c/en/storing_things> .
 
-<http://api.conceptnet.io/c/en/refrigerator> cnr:AtLocation <http://api.conceptnet.io/c/en/apartment>,
+<http://api.conceptnet.io/c/en/refrigerator> a cn:Concept ;
+    cnr:AtLocation <http://api.conceptnet.io/c/en/apartment>,
         <http://api.conceptnet.io/c/en/food>,
         <http://api.conceptnet.io/c/en/garage>,
         <http://api.conceptnet.io/c/en/home>,
@@ -1842,4 +3952,7 @@
         <http://api.conceptnet.io/c/en/store_food>,
         <http://api.conceptnet.io/c/en/storing_food>,
         <http://api.conceptnet.io/c/en/storing_foods> .
+
+cn:Concept a owl:Class ;
+    rdfs:subClassOf owl:Thing .
 
