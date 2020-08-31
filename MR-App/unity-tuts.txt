@@ -16,3 +16,7 @@ This tutorial shows how to change the color of a gameobject when the mouse moves
 
 - https://answers.unity.com/questions/47740/highlight-object-color.html
  forum description that might be useful
+
+
+Panel Menu Animation:
+https://www.youtube.com/watch?v=mz9xfDQ4FCk
