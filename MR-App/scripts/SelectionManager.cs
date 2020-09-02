@@ -26,6 +26,7 @@ public class SelectionManager : MonoBehaviour
         {
             //var selection = _selection;
             _selectionResponse.OnDeselect(_selection);
+            Debug.Log("selected");
         }
 
         #region MyRegion

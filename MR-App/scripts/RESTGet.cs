@@ -19,11 +19,11 @@ public class RESTGet : MonoBehaviour
     private Color originalColor;
 
     //public ToggleSelection toggleSelection;
-    private static string URL;
-    private static string itemName;
-    private static string fullURL;
+    //private static string URL;
+    //private static string itemName;
+    //private static string fullURL;
     private readonly string baseQueryURL = "https://api.krr.triply.cc/queries/annadg/";
-    public static string queryURL;
+    public string queryURL;
     public bool queryUsage;
     
 
