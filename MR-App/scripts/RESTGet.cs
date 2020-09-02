@@ -9,9 +9,6 @@ using System;
 
 public class RESTGet : MonoBehaviour
 {
-    // url of the actual rest call
-   // string URL = "https://api.krr.triply.cc/queries/annadg/edible-CQ-2/run";
-    // instantiate other necessary variables
     public List<GameObject> edibleObjects;
     public List<GameObject> nonEdibleObjects;
     public List<string> edibleList = new List<string>();
@@ -25,26 +22,14 @@ public class RESTGet : MonoBehaviour
     private readonly string baseQueryURL = "https://api.krr.triply.cc/queries/annadg/";
     public string queryURL;
     public bool queryUsage;
-    
-
-    //public void OnToggle()
-    //{
-    //URL = toggleSelection.ToggleSelected();
-    //Debug.Log(URL);
-    //itemName = kitchenItem.OnMouseOver();
-    //Debug.Log(URL + itemName);
-
-    //fullURL = URL + itemName;
-
-    //if (fullURL != "Nothing selected")
-    //{
-    //    StartCoroutine(GetData(URL));
-    // }
-    // }
+    public TextMeshProUGUI responseText;
+    public Toggle edibleToggle;
+    public Toggle usageToggle;
 
     void OnStart()
     {
         queryUsage = false;
+        responseText.text = "hi";
     }
 
 
@@ -52,52 +37,132 @@ public class RESTGet : MonoBehaviour
     public void ToggleSelected(string toggleName)
     {
         if (toggleName == "edible")
+        // another if statement to check if the toggle is on
         {
-            Debug.Log("should get edible items");
-            queryURL = baseQueryURL + "edible-CQ-2/run";
-            //Debug.Log(queryURL);
+            if (edibleToggle.isOn)
+            {
+                Debug.Log("should get edible items");
+                queryURL = baseQueryURL + "edible-CQ-2/run";
+                //Debug.Log(queryURL);
+                StartCoroutine(GetData1(queryURL));
+                queryUsage = false;
+            }
         }
 
         else if (toggleName == "usages")
         {
-            Debug.Log("should get usages for a given object");
+            if (usageToggle.isOn)
+            { 
+                Debug.Log("should get usages for a given object");
             queryUsage = true;
             queryURL = baseQueryURL + "CQ-1-used-For/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23";
-            Debug.Log(queryURL);
+            //Debug.Log(queryURL);
+            //https://api.krr.triply.cc/queries/annadg/CQ-1-Usages/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23apple
+            }
         }
         else
         {
             queryUsage = false;
         }
-
-        //StartCoroutine(GetData(queryURL));
     }
 
-    //public string selectionObject(string item)
-    //{
-    //    if (item == "apple")
-    //    {
-    //        itemName = "this is example";
-    //    }
-    //    else if (item == "lemon")
-    //    {
-    //        itemName = "another example";
-    //    }
-    //    else
-    //    {
-    //        itemName = "does not exist";
-    //    }
-    //    return itemName;
-    //}
-
-
     // new 'coroutine' function
-    IEnumerator GetData(string uri)
+    IEnumerator GetData1(string uri)
     {
-        Debug.Log("...Processing REST call...");
+    Debug.Log("...Processing REST call...");
 
-        using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
+    using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
+    {
+        // Call/Request website and wait to finish
+        yield return webRequest.SendWebRequest();
+        if (webRequest.isNetworkError || webRequest.isHttpError)
         {
+            Debug.Log("No response from website");
+        }
+        else
+        {
+            // get results from JSON              
+            Debug.Log("Data retrieved!");
+            JSONNode edibleData = JSON.Parse(webRequest.downloadHandler.text); // will return JSON response as a full text string
+
+            // loop through edibleData response and check which items are edible 
+            JSONNode edibleEntities = edibleData;
+            string[] edibleEntityNames = new string[edibleEntities.Count];
+
+            for (int i = 0; i < edibleData.Count; i++)
+            {
+                edibleEntityNames[i] = edibleEntities[i]["ke"];
+            }
+
+            // determine which instances are edible from the response
+            // NOTE: could maybe change this to a separate function
+            var bftInstances = new List<string>() { "table", "milk", "apple", "lemon", "refrigerator", "coffee", "croissant", "garnish", "hardboiled_egg", "scrambled_egg", "fried_egg", "orange_juice", "apple_juice", "butter", "salt_shaker", "pepper_shaker", "bread_basket", "egg_cup", "milk_pitcher", "fork", "knife", "spoon", "butter_knife", "glass", "teacup", "sauce_dish", "butter_dish", "bread_plate", "teacup_plate", "dining_table", "dining_chair", "cupboard" };
+
+            foreach (var instance2 in bftInstances)
+            {
+                if (GameObject.Find(instance2))
+                {
+                    //foreach (var instance1 in edibleEntityNames)
+                    for (int i = 0; i < edibleEntityNames.Length; i++)
+                    {
+                        //if (instance1.Contains(instance2))
+                        if (edibleEntityNames[i].Contains(instance2))
+                        {
+                            var edibleObject = GameObject.Find(instance2);
+                            edibleObjects.Add(edibleObject);
+                            break;
+                        }
+                        else
+                        {
+                            if (i == edibleEntityNames.Length-1)
+                            {
+                                var nonEdibleObject = GameObject.Find(instance2);
+                                nonEdibleObjects.Add(nonEdibleObject);
+                            }
+                            else
+                            {
+                                continue;
+                            }                                
+                        }
+                    }
+                }
+            }
+
+            // Set UI objects - i.e. activate edible and nonedible 
+            // set edible objects to green
+            Debug.Log("EDIBLE");
+            foreach (GameObject obj in edibleObjects)
+            {
+                Debug.Log(obj.ToString());
+                Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
+                foreach (Renderer childRenderer in renderers)
+                {
+                    childRenderer.material.color = Color.green;
+                }
+            }
+            // set non-edible objects to red
+            Debug.Log("NON-EDIBLE");
+            foreach (GameObject obj in nonEdibleObjects)
+            {
+                Debug.Log(obj.ToString());
+                Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
+                foreach (Renderer childRenderer in renderers)
+                {
+                    childRenderer.material.color = Color.red;
+                }
+
+            }
+        }
+      }
+    }
+
+
+    public static IEnumerator GetData2(string uri, Action<string> callback = null)
+    {
+        //using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
+        //{
+
+        UnityWebRequest webRequest = UnityWebRequest.Get(uri);
             // Call/Request website and wait to finish
             yield return webRequest.SendWebRequest();
             if (webRequest.isNetworkError || webRequest.isHttpError)
@@ -106,83 +171,34 @@ public class RESTGet : MonoBehaviour
             }
             else
             {
-                // get results from JSON              
+                //process web result             
                 Debug.Log("Data retrieved!");
-                JSONNode edibleData = JSON.Parse(webRequest.downloadHandler.text); // will return JSON response as a full text string
+                JSONNode data = JSON.Parse(webRequest.downloadHandler.text);
+                //Debug.Log(data[0]["use"].Value);
+                JSONNode dataResponses = data;
+                string[] dataResponsesArray = new string[dataResponses.Count];
 
-                // loop through edibleData response and check which items are edible 
-                JSONNode edibleEntities = edibleData;
-                string[] edibleEntityNames = new string[edibleEntities.Count];
-
-                for (int i = 0; i < edibleData.Count; i++)
+                for (int i = 0; i < data.Count; i++)
                 {
-                    edibleEntityNames[i] = edibleEntities[i]["ke"];
+                    dataResponsesArray[i] = dataResponses[i]["use"];
                 }
 
-                // determine which instances are edible from the response
-                // NOTE: could maybe change this to a separate function
-                var bftInstances = new List<string>() { "table", "milk", "apple", "lemon", "refrigerator", "coffee", "croissant", "garnish", "hardboiled_egg", "scrambled_egg", "fried_egg", "orange_juice", "apple_juice", "butter", "salt_shaker", "pepper_shaker", "bread_basket", "egg_cup", "milk_pitcher", "fork", "knife", "spoon", "butter_knife", "glass", "teacup", "sauce_dish", "butter_dish", "bread_plate", "teacup_plate", "dining_table", "dining_chair", "cupboard" };
-
-                foreach (var instance2 in bftInstances)
+                // Set UI objects
+                string answer = "";
+                for (int i = 0; i < dataResponsesArray.Length; i++)
                 {
-                    if (GameObject.Find(instance2))
-                    {
-                        //foreach (var instance1 in edibleEntityNames)
-                        for (int i = 0; i < edibleEntityNames.Length; i++)
-                        {
-                            //if (instance1.Contains(instance2))
-                            if (edibleEntityNames[i].Contains(instance2))
-                            {
-                                var edibleObject = GameObject.Find(instance2);
-                                edibleObjects.Add(edibleObject);
-                                break;
-                            }
-                            else
-                            {
-                                if (i == edibleEntityNames.Length-1)
-                                {
-                                    var nonEdibleObject = GameObject.Find(instance2);
-                                    nonEdibleObjects.Add(nonEdibleObject);
-                                }
-                                else
-                                {
-                                    continue;
-                                }                                
-                            }
-                        }
-                    }
+                    answer += dataResponsesArray[i] + ", ";
                 }
 
-                    // Set UI objects - i.e. activate edible and nonedible 
-                    // set edible objects to green
-                    Debug.Log("EDIBLE");
-                    foreach (GameObject obj in edibleObjects)
-                    {
-                        Debug.Log(obj.ToString());
-                        Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
-                        foreach (Renderer childRenderer in renderers)
-                        {
-                            childRenderer.material.color = Color.green;
-                        }
-                    }
-                    // set non-edible objects to red
-                    Debug.Log("NON-EDIBLE");
-                    foreach (GameObject obj in nonEdibleObjects)
-                    {
-                        Debug.Log(obj.ToString());
-                        Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
-                        foreach (Renderer childRenderer in renderers)
-                        {
-                            childRenderer.material.color = Color.red;
-                        }
-
-                }
-
-
-
-
+                Debug.Log(answer);
+                //return answer;
             }
-            }
-        }
+            //if (callback != null)
+            //    callback(answer);
+        //}
     }
+
+    // new coroutine
+
+}
 

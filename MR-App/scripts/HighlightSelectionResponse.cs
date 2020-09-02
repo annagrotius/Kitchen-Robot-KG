@@ -23,26 +23,11 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
             Debug.Log(URL);
 
             // START COROUTINE!!
+            StartCoroutine(RESTGet.GetData2(URL));
+            //Debug.Log("x" + RESTGet.x.ToString());
 
-            //if (itemName == "apple")
-            //{
-            //    //itemName = "this is example";
-            //    var URL = rest.queryURL + itemName;
-            //    Debug.Log(URL);
-            //}
-            //else if (itemName == "lemon")
-            //{
-            //    itemName = "another example";
-            //}
-            //else
-            //{
-            //    itemName = "None";
-            //}
-            //Debug.Log(answer);
         }
-        //Debug.Log(selection.GetType);
 
-        //return itemName;
         // this should go in coroutine
         //var selectionRenderer = selection.GetComponent<Renderer>();
         //    if (selectionRenderer != null)
