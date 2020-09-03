@@ -5,33 +5,27 @@ using UnityEngine.Networking;
 
 internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
 {
-    //[SerializeField] public Material highlightMaterial;
-    //[SerializeField] public Material defaultMaterial;
     public TextMeshProUGUI gameText;
     public RESTGet rest;
-    //string answer;
-    private static string itemName;
-    private string URL;
-    //string recentData = "";
+    private readonly string itemName;
+    private readonly string URL;
     string returnData;
+    public string answer;
 
     public void OnSelect(Transform selection)
     {
         // this method only works if a query toggle is checked
         if (rest.queryUsage == true)
         {
-            //Debug.Log(selection.name.ToString());
-            //answer = rest.selectionObject(selection.name.ToString());
             var itemName = selection.name.ToString(); // name of the gameobject
             var URL = rest.queryURL + itemName;
             Debug.Log(URL);
 
-            // START COROUTINE!!
             StartCoroutine(rest.GetData2(URL, (value) =>
             {
                 returnData = value;
                 JSONNode data = JSON.Parse(returnData);
-               // Debug.Log(data);
+                // Debug.Log(data);
                 JSONNode dataResponses = data;
                 string[] dataResponsesArray = new string[dataResponses.Count];
 
@@ -39,44 +33,30 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
                 {
                     dataResponsesArray[i] = dataResponses[i]["use"];
                 }
-       
+
                 // Set UI objects
-                string answer = "";
+                answer = "";
                 for (int i = 0; i < dataResponsesArray.Length; i++)
                 {
                     // regex the string
                     answer += dataResponsesArray[i] + ", ";
                 }
-
-                // this should go in coroutine
-                var selectionRenderer = selection.GetComponent<Renderer>();
-                if (selectionRenderer != null)
-                {
-                    //selectionRenderer.material = this.highlightMaterial;
-                    // this.gameObject.GetComponent // change color
-                    gameText.text = answer;
-                }
-                // gameText.text = answer;
             }));
-        }
 
-        // this should go in coroutine
-        //var selectionRenderer = selection.GetComponent<Renderer>();
-        //    if (selectionRenderer != null)
-        //    {
-        //        //selectionRenderer.material = this.highlightMaterial;
-        //       // this.gameObject.GetComponent // change color
-        //        gameText.text = itemName;
-        //    }
+            if (answer == "")
+            {
+                gameText.text = "Knowledge not available";
+            }
+            else
+            {
+                gameText.text = answer;
+            }
+        }
     }
+    
 
     public void OnDeselect(Transform selection)
     {
-        var selectionRenderer = selection.GetComponent<Renderer>();
-        if (selectionRenderer != null)
-        {
-            //selectionRenderer.material = this.defaultMaterial;
-            gameText.text = "";
-        }
+        gameText.text = "";
     }
 }
