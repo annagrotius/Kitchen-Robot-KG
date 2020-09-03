@@ -1,5 +1,7 @@
 ﻿using TMPro;
 using UnityEngine;
+using SimpleJSON;
+using UnityEngine.Networking;
 
 internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
 {
@@ -10,6 +12,8 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
     //string answer;
     private static string itemName;
     private string URL;
+    //string recentData = "";
+    string returnData;
 
     public void OnSelect(Transform selection)
     {
@@ -23,9 +27,37 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
             Debug.Log(URL);
 
             // START COROUTINE!!
-            StartCoroutine(RESTGet.GetData2(URL));
-            //Debug.Log("x" + RESTGet.x.ToString());
+            StartCoroutine(rest.GetData2(URL, (value) =>
+            {
+                returnData = value;
+                JSONNode data = JSON.Parse(returnData);
+               // Debug.Log(data);
+                JSONNode dataResponses = data;
+                string[] dataResponsesArray = new string[dataResponses.Count];
 
+                for (int i = 0; i < dataResponses.Count; i++)
+                {
+                    dataResponsesArray[i] = dataResponses[i]["use"];
+                }
+       
+                // Set UI objects
+                string answer = "";
+                for (int i = 0; i < dataResponsesArray.Length; i++)
+                {
+                    // regex the string
+                    answer += dataResponsesArray[i] + ", ";
+                }
+
+                // this should go in coroutine
+                var selectionRenderer = selection.GetComponent<Renderer>();
+                if (selectionRenderer != null)
+                {
+                    //selectionRenderer.material = this.highlightMaterial;
+                    // this.gameObject.GetComponent // change color
+                    gameText.text = answer;
+                }
+                // gameText.text = answer;
+            }));
         }
 
         // this should go in coroutine

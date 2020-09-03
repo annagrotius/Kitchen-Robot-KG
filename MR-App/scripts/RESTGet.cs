@@ -22,6 +22,7 @@ public class RESTGet : MonoBehaviour
     private readonly string baseQueryURL = "https://api.krr.triply.cc/queries/annadg/";
     public string queryURL;
     public bool queryUsage;
+    public string data;
     public TextMeshProUGUI responseText;
     public Toggle edibleToggle;
     public Toggle usageToggle;
@@ -66,7 +67,6 @@ public class RESTGet : MonoBehaviour
         }
     }
 
-    // new 'coroutine' function
     IEnumerator GetData1(string uri)
     {
     Debug.Log("...Processing REST call...");
@@ -157,12 +157,12 @@ public class RESTGet : MonoBehaviour
     }
 
 
-    public static IEnumerator GetData2(string uri, Action<string> callback = null)
+    public IEnumerator GetData2(string uri, System.Action<string> callback)
     {
-        //using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
-        //{
+        using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
+        {
 
-        UnityWebRequest webRequest = UnityWebRequest.Get(uri);
+        //UnityWebRequest webRequest = UnityWebRequest.Get(uri);
             // Call/Request website and wait to finish
             yield return webRequest.SendWebRequest();
             if (webRequest.isNetworkError || webRequest.isHttpError)
@@ -173,29 +173,34 @@ public class RESTGet : MonoBehaviour
             {
                 //process web result             
                 Debug.Log("Data retrieved!");
-                JSONNode data = JSON.Parse(webRequest.downloadHandler.text);
-                //Debug.Log(data[0]["use"].Value);
-                JSONNode dataResponses = data;
-                string[] dataResponsesArray = new string[dataResponses.Count];
+                callback(webRequest.downloadHandler.text);
 
-                for (int i = 0; i < data.Count; i++)
-                {
-                    dataResponsesArray[i] = dataResponses[i]["use"];
-                }
+                //string data = webRequest.downloadHandler.text;
+                //JSONNode data = JSON.Parse(webRequest.downloadHandler.text);
+                // Debug.Log(data);
+                //yield return data;
 
-                // Set UI objects
-                string answer = "";
-                for (int i = 0; i < dataResponsesArray.Length; i++)
-                {
-                    answer += dataResponsesArray[i] + ", ";
-                }
+                //JSONNode data = JSON.Parse(webRequest.downloadHandler.text);
+                ////Debug.Log(data[0]["use"].Value);
+                //JSONNode dataResponses = data;
+                //string[] dataResponsesArray = new string[dataResponses.Count];
 
-                Debug.Log(answer);
-                //return answer;
+                //for (int i = 0; i < data.Count; i++)
+                //{
+                //    dataResponsesArray[i] = dataResponses[i]["use"];
+                //}
+
+                //// Set UI objects
+                //string answer = "";
+                //for (int i = 0; i < dataResponsesArray.Length; i++)
+                //{
+                //    answer += dataResponsesArray[i] + ", ";
+                //}
+
+                //Debug.Log(answer);
+                ////return answer;
             }
-            //if (callback != null)
-            //    callback(answer);
-        //}
+      }
     }
 
     // new coroutine
