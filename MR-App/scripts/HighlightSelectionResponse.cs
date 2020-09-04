@@ -1,7 +1,9 @@
 ﻿using TMPro;
 using UnityEngine;
 using SimpleJSON;
+using System.Text.RegularExpressions;
 using UnityEngine.Networking;
+using System.Linq;
 
 internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
 {
@@ -31,15 +33,17 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
 
                 for (int i = 0; i < dataResponses.Count; i++)
                 {
-                    dataResponsesArray[i] = dataResponses[i]["use"];
+                    dataResponsesArray[i] = dataResponses[i]["ans"];
                 }
 
                 // Set UI objects
+                string _answer;
                 answer = "";
                 for (int i = 0; i < dataResponsesArray.Length; i++)
                 {
                     // regex the string
-                    answer += dataResponsesArray[i] + ", ";
+                    _answer = cleanResponse(dataResponsesArray[i]);
+                    answer += _answer + ", ";
                 }
             }));
 
@@ -58,5 +62,17 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
     public void OnDeselect(Transform selection)
     {
         gameText.text = "";
+    }
+
+    public string cleanResponse(string response)
+    {
+        string pattern = @"/";
+        string result = Regex.Split(response, pattern, RegexOptions.IgnoreCase).Last();
+        if (result.Contains("_"))
+        {
+            string _result = Regex.Replace(result, "_", " ");
+            return _result;
+        }
+        return result;
     }
 }

@@ -14,23 +14,26 @@ public class RESTGet : MonoBehaviour
     public List<string> edibleList = new List<string>();
     public List<string> nonEdibleList = new List<string>();
     private Color originalColor;
-
-    //public ToggleSelection toggleSelection;
-    //private static string URL;
-    //private static string itemName;
-    //private static string fullURL;
     private readonly string baseQueryURL = "https://api.krr.triply.cc/queries/annadg/";
     public string queryURL;
     public bool queryUsage;
     public string data;
-    public TextMeshProUGUI responseText;
     public Toggle edibleToggle;
     public Toggle usageToggle;
 
-    void OnStart()
+    private void Update()
     {
-        queryUsage = false;
-        responseText.text = "hi";
+        //queryUsage = false;
+        //foreach (GameObject obj in edibleObjects)
+        //{
+        //    Debug.Log(obj.ToString());
+        //    Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
+        //    foreach (Renderer childRenderer in renderers)
+        //    {
+        //        childRenderer.material.color = Color.green;
+        //    }
+        //}
+
     }
 
 
@@ -50,21 +53,32 @@ public class RESTGet : MonoBehaviour
             }
         }
 
-        else if (toggleName == "usages")
+
+        if (edibleToggle.isOn == false)
+        {
+            SetColor(edibleObjects, Color.white);
+            SetColor(nonEdibleObjects, Color.white);
+            edibleList.Clear();
+            nonEdibleList.Clear();
+        }
+
+
+        if (toggleName == "usages")
         {
             if (usageToggle.isOn)
-            { 
+            {
                 Debug.Log("should get usages for a given object");
-            queryUsage = true;
-            queryURL = baseQueryURL + "CQ-1-used-For/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23";
+                queryUsage = true;
+                queryURL = baseQueryURL + "CQ-1-Usages/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23";
             //Debug.Log(queryURL);
             //https://api.krr.triply.cc/queries/annadg/CQ-1-Usages/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23apple
+             //   CQ - 1 - used - For / run ? x = http % 3A % 2F % 2Ftest.org % 2Fbft.owl % 23
             }
         }
-        else
-        {
-            queryUsage = false;
-        }
+        //else
+        //{
+        //    queryUsage = false;
+        //}
     }
 
     IEnumerator GetData1(string uri)
@@ -131,27 +145,28 @@ public class RESTGet : MonoBehaviour
             // Set UI objects - i.e. activate edible and nonedible 
             // set edible objects to green
             Debug.Log("EDIBLE");
-            foreach (GameObject obj in edibleObjects)
-            {
-                Debug.Log(obj.ToString());
-                Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
-                foreach (Renderer childRenderer in renderers)
-                {
-                    childRenderer.material.color = Color.green;
-                }
-            }
+            SetColor(edibleObjects, Color.green);
+            //foreach (GameObject obj in edibleObjects)
+            //{
+            //    Debug.Log(obj.ToString());
+            //    Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
+            //    foreach (Renderer childRenderer in renderers)
+            //    {
+            //        childRenderer.material.color = Color.green;
+            //    }
+            //}
             // set non-edible objects to red
             Debug.Log("NON-EDIBLE");
-            foreach (GameObject obj in nonEdibleObjects)
-            {
-                Debug.Log(obj.ToString());
-                Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
-                foreach (Renderer childRenderer in renderers)
-                {
-                    childRenderer.material.color = Color.red;
-                }
-
-            }
+            SetColor(nonEdibleObjects, Color.red);
+            //foreach (GameObject obj in nonEdibleObjects)
+            //{
+            //    Debug.Log(obj.ToString());
+            //    Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
+            //    foreach (Renderer childRenderer in renderers)
+            //    {
+            //        childRenderer.material.color = Color.red;
+            //    }
+            //}
         }
       }
     }
@@ -161,9 +176,6 @@ public class RESTGet : MonoBehaviour
     {
         using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
         {
-
-        //UnityWebRequest webRequest = UnityWebRequest.Get(uri);
-            // Call/Request website and wait to finish
             yield return webRequest.SendWebRequest();
             if (webRequest.isNetworkError || webRequest.isHttpError)
             {
@@ -174,36 +186,23 @@ public class RESTGet : MonoBehaviour
                 //process web result             
                 Debug.Log("Data retrieved!");
                 callback(webRequest.downloadHandler.text);
-
-                //string data = webRequest.downloadHandler.text;
-                //JSONNode data = JSON.Parse(webRequest.downloadHandler.text);
-                // Debug.Log(data);
-                //yield return data;
-
-                //JSONNode data = JSON.Parse(webRequest.downloadHandler.text);
-                ////Debug.Log(data[0]["use"].Value);
-                //JSONNode dataResponses = data;
-                //string[] dataResponsesArray = new string[dataResponses.Count];
-
-                //for (int i = 0; i < data.Count; i++)
-                //{
-                //    dataResponsesArray[i] = dataResponses[i]["use"];
-                //}
-
-                //// Set UI objects
-                //string answer = "";
-                //for (int i = 0; i < dataResponsesArray.Length; i++)
-                //{
-                //    answer += dataResponsesArray[i] + ", ";
-                //}
-
-                //Debug.Log(answer);
-                ////return answer;
             }
-      }
+        }
     }
 
-    // new coroutine
+    public void SetColor(List<GameObject> gameObjects, Color color)
+    {
+        foreach (GameObject obj in gameObjects)
+        {
+            //Debug.Log(obj.ToString());
+            var colorChoice = color;
+            Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
+            foreach (Renderer childRenderer in renderers)
+            {
+                childRenderer.material.color = colorChoice;
+            }
+        }
 
+    }
 }
 
