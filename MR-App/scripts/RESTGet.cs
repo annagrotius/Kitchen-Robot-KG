@@ -17,11 +17,17 @@ public class RESTGet : MonoBehaviour
     private readonly string baseQueryURL = "https://api.krr.triply.cc/queries/annadg/";
     //public string usageQueryURL = "https://api.krr.triply.cc/queries/annadg/CQ-1-Usages/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23";
     public string queryURL;
+    public string baseResponse;
+    ////public string locationResponse = "located at: ";
+    //public string affordanceResponse = "affords: ";
+    //public string qualityResponse = ";
     public bool queryUsage = false;
     public string data;
     public Toggle edibleToggle;
     public Toggle usageToggle;
     public Toggle locationToggle;
+    public Toggle affordsToggle;
+    public Toggle qualitiesToggle;
 
 
     // Determines which toggle option was selected and returns its base query
@@ -50,21 +56,39 @@ public class RESTGet : MonoBehaviour
 
         if (usageToggle.isOn)
         {
-            Debug.Log("should get usages for a given object");
+            Debug.Log("should get usages for a selected object");
             queryUsage = true;
             //queryURL = usageQueryURL;
             queryURL = baseQueryURL + "CQ-1-Usages/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23";
+            baseResponse = "used for: ";
             //Debug.Log(queryURL);
             //https://api.krr.triply.cc/queries/annadg/CQ-1-Usages/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23apple
             //   CQ - 1 - used - For / run ? x = http % 3A % 2F % 2Ftest.org % 2Fbft.owl % 23
         }
         else if (locationToggle.isOn)
         {
-            Debug.Log("should get locations for a given object");
+            Debug.Log("should get locations for a selected object");
             queryUsage = true;
             queryURL = baseQueryURL + "CQ-4-location/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23";
+            baseResponse = "located at: ";
             //Debug.Log(queryURL);
             //https://api.krr.triply.cc/queries/annadg/CQ-4-location/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23milk
+        }
+        else if (affordsToggle.isOn)
+        {
+            Debug.Log("should get affordances for a selected object");
+            queryUsage = true;
+            queryURL = baseQueryURL + "affords-new/run?ke=http%3A%2F%2Fapi.conceptnet.io%2Fc%2Fen%2F";
+            baseResponse = "affords: ";
+            //https://api.krr.triply.cc/queries/annadg/affords-new/run?ke=http%3A%2F%2Fapi.conceptnet.io%2Fc%2Fen%2Frefrigerator
+        }
+        else if (qualitiesToggle.isOn)
+        {
+            Debug.Log("should get qualities for a selected object");
+            queryUsage = true;
+            queryURL = baseQueryURL + "CQ-6-qualities-new/run?ke=http%3A%2F%2Fapi.conceptnet.io%2Fc%2Fen%2F";
+            baseResponse = "qualities include: ";
+            //https://api.krr.triply.cc/queries/annadg/CQ-6-qualities-new/run?ke=http%3A%2F%2Fapi.conceptnet.io%2Fc%2Fen%2Fmilk
         }
         else
         {

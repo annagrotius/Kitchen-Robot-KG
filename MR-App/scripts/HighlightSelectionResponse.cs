@@ -37,8 +37,8 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
             {
                 returnData = value;
                 JSONNode data = JSON.Parse(returnData);
-            // Debug.Log(data);
-            JSONNode dataResponses = data;
+                // Debug.Log(data);
+                JSONNode dataResponses = data;
                 string[] dataResponsesArray = new string[dataResponses.Count];
 
                 for (int i = 0; i < dataResponses.Count; i++)
@@ -46,14 +46,22 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
                     dataResponsesArray[i] = dataResponses[i]["ans"];
                 }
 
-            // Set UI objects
-            string _answer;
+                // Set UI objects
+                string _answer;
                 answer = "";
                 for (int i = 0; i < dataResponsesArray.Length; i++)
                 {
-                // regex the string
-                _answer = cleanResponse(dataResponsesArray[i]);
-                    answer += _answer + ", ";
+                  // regex the string
+                    _answer = cleanResponse(dataResponsesArray[i]);
+
+                    if (i == dataResponsesArray.Length - 1)
+                    {
+                        answer += _answer;
+                    }
+                    else
+                    {
+                        answer += _answer + ", ";
+                    }
                 }
             }));
 
@@ -88,7 +96,7 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
             }
             else
             {
-                gameText.text = response;
+                gameText.text = selection.gameObject.name + " " + rest.baseResponse + response;
             }
         }
     }
@@ -108,7 +116,18 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
 
     public string cleanResponse(string response)
     {
-        string pattern = @"/";
+        string pattern; 
+        string pattern1 = @"/";
+        string pattern2 = @"#";
+        if (response.Contains('#'))
+        {
+            pattern = pattern2;
+        }
+        else
+        {
+            pattern = pattern1;
+        }
+
         string result = Regex.Split(response, pattern, RegexOptions.IgnoreCase).Last();
         if (result.Contains("_"))
         {
