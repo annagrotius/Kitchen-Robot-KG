@@ -14,6 +14,13 @@ This is the Masters thesis project of Anna de Groot as a part of the MSc AI prog
 Python 3.7 was used for building the knowledge graph. The main Python libraries used are [RDFLib](https://rdflib.readthedocs.io/en/stable/) and [Owlready2](https://owlready2.readthedocs.io/en/latest/). [SpaCy](https://spacy.io/) was also used for some natural language preprocessing.
 The VR application was built using the Unity game engine (version 2018.4.26) with the programming language C\#. The knowledge graph's data is stored in the linked data host by [TriplyDB](https://triplydb.com/) and data is retrieved through REST API calls. Through Triply's query service, RDFS and OWL reasoning are applied over the graphs for certain queries.  
 
+## Process
+The project builds different graphs which are linked at the end to create one large graph. 
+
+First, the scripts in the ontologies/ directory are run to create the base of the knowledge graph. These are merged using the script 'merge_aff_bft.py'. 
+
+Next, data is retrieved from each API, which are then merged to the final graph using the notebooks 'merge_cn' and 'merge_recipe'.
+
 ## Content
 
 * MR-App/ contains: C# scripts for the game and the Unity game scene file.  
@@ -24,9 +31,27 @@ The VR application was built using the Unity game engine (version 2018.4.26) wit
 	* ConceptNet/ :
 		* cn_data/ : 
 			* filtered_data/ : Csv data files that were preprocessed.
-			* requests_output/ : Raw data files extracted from API.
+			* requests_output/ : Output files from 'conceptnet_main.py'.
 		* parse/ : 
-			* Scripts that set up the ontology (organization) of the CN data extracted.
-		* scripts that retrieve data from API.
+			* Script creates a graph out of the ConceptNet data.
+			* Resulting output files.
+		* Scripts that retrieve data from the API.
 
 	* RecipePuppy/ :
+		* requests_output/ : Output files from 'recipe_puppy.ipynb'.
+		* Python notebook that extracts data from the API and python script that stores the data in a graph.
+* knowledge-graph/ contains:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
