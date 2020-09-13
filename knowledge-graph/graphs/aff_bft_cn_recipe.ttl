@@ -1419,7 +1419,8 @@ bft:apple a bft:Fruit,
         rp:Easy_Applesauce,
         rp:Grandpas_Baked_Apples_Sugar_Free_Recipe,
         rp:Healthy_Apple_Crisp_Recipe,
-        <http://test.org/recipe_puppy#Microwaved_quotBakedquot_Apples_No_SugarAdded_Recipe>,
+        <http://test.org/recipe_puppy#Microwaved_quotBakedquot_Apples_No_Sugar
+Added_Recipe>,
         rp:Mixed_Greens_Salad_With_Apples_and_Maple-Walnut_Oil_Dressing,
         rp:Mixed_Nut_Waldorf_Salad,
         rp:Morning_Muffins,
@@ -3881,7 +3882,8 @@ rp:Meyer_Lemon_Digestif a rcp:Recipe ;
         rp:simple_syrup ;
     rp:recipe_URL <http://www.chow.com/recipes/11961> .
 
-<http://test.org/recipe_puppy#Microwaved_quotBakedquot_Apples_No_SugarAdded_Recipe> a rcp:Recipe ;
+<http://test.org/recipe_puppy#Microwaved_quotBakedquot_Apples_No_Sugar
+Added_Recipe> a rcp:Recipe ;
     rp:ingredient rp:apple,
         rp:strawberries ;
     rp:recipe_URL <http://cookeatshare.com/recipes/microwaved-baked-apples-no-sugar-added-34923> .
@@ -7987,19 +7989,20 @@ cn:Concept a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( bft:Glassware bft:Plate bft:Fork bft:Knife bft:Spoon ) .
-
-[] a owl:AllDisjointClasses ;
     owl:members ( bft:Bread bft:Egg bft:Condiment ) .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( bft:Juice bft:Coffee bft:Tea bft:Milk ) .
 
 [] a owl:AllDifferent ;
     owl:distinctMembers ( bft:hardboiled_egg bft:scrambled_egg bft:fried_egg ) .
 
 [] a owl:AllDisjointClasses ;
+    owl:members ( bft:Glassware bft:Plate bft:Fork bft:Knife bft:Spoon ) .
+
+[] a owl:AllDisjointClasses ;
     owl:members ( bft:Food bft:Drink bft:Storage bft:Kitchenware bft:Furniture ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( bft:Juice bft:Coffee bft:Tea bft:Milk ) .
 
 [] a owl:AllDifferent ;
     owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
+
