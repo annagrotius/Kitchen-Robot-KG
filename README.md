@@ -23,9 +23,8 @@ Next, data is retrieved from each API (use files in data/), which are then merge
 
 The graphs from each iteration are found in the folder knowledge_graphs/graphs/. 
 
-Example triples from :
+Example triples from the complete knowledge graph:
 ```
-
 bft:apple a bft:Fruit,
         owl:NamedIndividual ;
     rp:has_recipe rp:Allo_Aloe,
@@ -43,7 +42,6 @@ bft:apple a bft:Fruit,
 <http://api.conceptnet.io/c/en/apple/n/wn/plant> a cn:Concept ;
     cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/112654755-n> ;
     cnr:IsA <http://api.conceptnet.io/c/en/apple_tree/n/wn/plant> .
-
 ```
 
 ## Content
