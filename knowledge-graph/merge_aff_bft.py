@@ -1,6 +1,6 @@
 """
 This script takes two ontologies, parses them into graphs, and then merges these graphs. The ontologies used in this script are
-the bft and affordance ontologies.
+the bft (Kitchen Concepts) and affordance ontologies.
 """
 from rdflib import Graph, Namespace, RDF, URIRef, RDFS
 from rdflib.namespace import OWL
@@ -41,7 +41,8 @@ def get_graph(ontology_file, onto_namespace, onto_prefix):
 
 def merge_graphs(graph1, graph2, output_filename='merged_graph.ttl'):
     """
-    Args:
+   Merges two graphs.
+   Args:
         - graph1: a graph object to be merged with another graph
         - graph2: a graph object to be merged with another graph
         - output_filename: (default 'merged_graph.ttl') filename of merged graph file output
@@ -53,13 +54,9 @@ def merge_graphs(graph1, graph2, output_filename='merged_graph.ttl'):
     for c in classes:
         uri_string = f'http://test.org/bft.owl#{c}'
         merged_g.add( (URIRef(uri_string), RDFS.subClassOf, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
-        # merged_g.add( (URIRef(f'http://test.org/bft.owl#KitchenEntity'), OWL.equivalentClass, URIRef('http://test.org/affordance.owl#KitchenEntity')) )
 
     # remove the ontology declarations
     merged_g.remove( (None, RDF.type, OWL.Ontology) )
-    # merged_g.remove( (URIRef('http://test.org/affordance.owl'), RDF.type, OWL.Ontology) )
-    # merged_g.remove( (URIRef('http://test.org/bft.owl'), RDF.type, OWL.Ontology) )
-    # bft_aff_ns = create_namespace(merged_g,'http://test.org/kchn.owl#', 'kchn')
     kchn_ns = create_namespace(merged_g, 'http://test.org/kitchen.owl#', 'kchn')
     merged_g.add( (URIRef('http://test.org/kitchen.owl'), RDF.type, OWL.Ontology) )
     print("Merged graphs have {} triples".format(len(merged_g)))

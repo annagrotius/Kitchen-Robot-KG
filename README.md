@@ -14,7 +14,7 @@ This is the Masters thesis project of Anna de Groot as a part of the MSc AI prog
 Python 3.7 was used for building the knowledge graph. The main Python libraries used are [RDFLib](https://rdflib.readthedocs.io/en/stable/) and [Owlready2](https://owlready2.readthedocs.io/en/latest/). [SpaCy](https://spacy.io/) was also used for some natural language preprocessing.
 The VR application was built using the Unity game engine (version 2018.4.26) with the programming language C\#. The knowledge graph's data is stored in the linked data host by [TriplyDB](https://triplydb.com/) and data is retrieved through REST API calls. Through Triply's query service, RDFS and OWL reasoning are applied over the graphs for certain queries.  
 
-## Process
+## Knowledge Graph Build Process
 The project builds different graphs which are linked at the end to create one large graph. 
 
 First, the scripts in the ontologies/ directory are run to create the base of the knowledge graph. These are merged using the script 'merge_aff_bft.py'. 
@@ -40,7 +40,9 @@ Next, data is retrieved from each API, which are then merged to the final graph 
 	* RecipePuppy/ :
 		* requests_output/ : Output files from 'recipe_puppy.ipynb'.
 		* Python notebook that extracts data from the API and python script that stores the data in a graph.
+		* Output files.
 * knowledge-graph/ contains:
+	* 
 
 
 
