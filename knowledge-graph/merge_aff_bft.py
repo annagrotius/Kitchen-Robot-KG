@@ -1,6 +1,6 @@
 """
-This script takes two ontologies, parses them into graphs, and then merges these graphs. The script does this for
-closed and open versions of the ontologies. The ontologies used in this script are the bft and affordance ontologies.
+This script takes two ontologies, parses them into graphs, and then merges these graphs. The ontologies used in this script are
+the bft and affordance ontologies.
 """
 from rdflib import Graph, Namespace, RDF, URIRef, RDFS
 from rdflib.namespace import OWL
@@ -75,25 +75,13 @@ def merge_graphs(graph1, graph2, output_filename='merged_graph.ttl'):
 
 def main():
 
-#     # closed ontologies
-#     closed_aff_onto_file = "../ontologies/affordance/aff_onto_closed.ttl"
-#     closed_bft_onto_file = "../ontologies/bft/bft_onto_closed.ttl"
-
-#     aff_closed_g = get_graph(closed_aff_onto_file, "http://test.org/affordance.owl#", 'aff')
-#     bft_closed_g = get_graph(closed_bft_onto_file, "http://test.org/bft.owl#", 'bft')
-#     merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.ttl')
-#     merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.nt')
-#     merge_graphs(aff_closed_g, bft_closed_g, output_filename='./graphs/aff_bft_closed_graph.owl')
-
-    # open ontologies
     open_aff_onto_file = "../ontologies/affordance/aff_onto_not_closed.ttl"
     open_bft_onto_file = "../ontologies/bft/bft_onto_not_closed.ttl"
 
     aff_open_g = get_graph(open_aff_onto_file, "http://test.org/affordance.owl#", 'aff')
     bft_open_g = get_graph(open_bft_onto_file, "http://test.org/bft.owl#", 'bft')
     merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.ttl')
-    # merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.nt')
-    # merge_graphs(aff_open_g, bft_open_g, output_filename='./graphs/aff_bft_open_graph.owl')
+
 
     return
 

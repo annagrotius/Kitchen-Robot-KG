@@ -83,8 +83,6 @@ def main():
             range = [bool]
         class served_with(ObjectProperty, SymmetricProperty):
             pass
-            # domain = [Condiment]
-            # range = [Food]
         class can_cut(ObjectProperty, Cutlery >> Food):
             pass
         class spread_on(ObjectProperty, Spread >> Food):
@@ -93,8 +91,6 @@ def main():
             pass
         class used_with(ObjectProperty, SymmetricProperty):
             pass
-            # domain = [Tableware]
-            # range = [Food]
         class storage_location(ObjectProperty):
             range = [Storage]
 

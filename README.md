@@ -13,3 +13,7 @@ This is the Masters thesis project of Anna de Groot as a part of the MSc AI prog
 ## Implementation Details
 Python 3.7 was used for building the knowledge graph. The main Python libraries used are [RDFLib](https://rdflib.readthedocs.io/en/stable/) and [Owlready2](https://owlready2.readthedocs.io/en/latest/). [SpaCy](https://spacy.io/) was also used for some natural language preprocessing.
 The VR application was built using the Unity game engine (version 2018.4.26) with the programming language C\#. The knowledge graph's data is stored in the linked data host by [TriplyDB](https://triplydb.com/) and data is retrieved through REST API calls. Through Triply's query service, RDFS and OWL reasoning are applied over the graphs for certain queries.  
+
+## Content
+
+* ontologies/ :
