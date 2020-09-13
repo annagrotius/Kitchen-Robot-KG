@@ -7,7 +7,7 @@ This is the Masters thesis project of Anna de Groot. The project investigates th
 
 <p float="left">
   <img src="./MR-App/game_scene.PNG" width="400">
-  <img src="/MR-App/milk_qua.PNG" width="200" /> 
+  <img src="/MR-App/milk_qua.PNG" width="400" /> 
 </p>
 
 The project was completed in collaboration with the Institute of Artificial Intelligence at the University of Bremen (<https://ai.uni-bremen.de/>). 
