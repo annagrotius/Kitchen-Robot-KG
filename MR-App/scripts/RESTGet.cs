@@ -15,12 +15,8 @@ public class RESTGet : MonoBehaviour
     public List<string> nonEdibleList = new List<string>();
     private Color originalColor;
     private readonly string baseQueryURL = "https://api.krr.triply.cc/queries/annadg/";
-    //public string usageQueryURL = "https://api.krr.triply.cc/queries/annadg/CQ-1-Usages/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23";
     public string queryURL;
     public string baseResponse;
-    ////public string locationResponse = "located at: ";
-    //public string affordanceResponse = "affords: ";
-    //public string qualityResponse = ";
     public bool queryUsage = false;
     public string data;
     public Toggle edibleToggle;
@@ -39,13 +35,10 @@ public class RESTGet : MonoBehaviour
             queryUsage = false;
             Debug.Log("should get edible items");
             queryURL = baseQueryURL + "edible-CQ-2/run";
-            //Debug.Log(queryURL);
-            //StopAllCoroutines();
             StartCoroutine(GetData1(queryURL));
             
         }
         else
-            //(edibleToggle.isOn == false)
         {
             SetColor(edibleObjects, Color.white);
             SetColor(nonEdibleObjects, Color.white);
@@ -58,12 +51,9 @@ public class RESTGet : MonoBehaviour
         {
             Debug.Log("should get usages for a selected object");
             queryUsage = true;
-            //queryURL = usageQueryURL;
             queryURL = baseQueryURL + "CQ-1-Usages/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23";
             baseResponse = "used for: ";
-            //Debug.Log(queryURL);
             //https://api.krr.triply.cc/queries/annadg/CQ-1-Usages/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23apple
-            //   CQ - 1 - used - For / run ? x = http % 3A % 2F % 2Ftest.org % 2Fbft.owl % 23
         }
         else if (locationToggle.isOn)
         {
@@ -71,7 +61,6 @@ public class RESTGet : MonoBehaviour
             queryUsage = true;
             queryURL = baseQueryURL + "CQ-4-location/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23";
             baseResponse = "located at: ";
-            //Debug.Log(queryURL);
             //https://api.krr.triply.cc/queries/annadg/CQ-4-location/run?x=http%3A%2F%2Ftest.org%2Fbft.owl%23milk
         }
         else if (affordsToggle.isOn)
@@ -111,7 +100,7 @@ public class RESTGet : MonoBehaviour
             }
             else
             {
-                // get results from JSON              
+                // process webrequest and get results from JSON              
                 Debug.Log("Data retrieved!");
                 JSONNode edibleData = JSON.Parse(webRequest.downloadHandler.text); // will return JSON response as a full text string
 
@@ -125,17 +114,14 @@ public class RESTGet : MonoBehaviour
                 }
 
                 // determine which instances are edible from the response
-                // NOTE: could maybe change this to a separate function
                 var bftInstances = new List<string>() { "table", "milk", "apple", "lemon", "refrigerator", "coffee", "croissant", "garnish", "hardboiled_egg", "scrambled_egg", "fried_egg", "orange_juice", "apple_juice", "butter", "salt_shaker", "pepper_shaker", "bread_basket", "egg_cup", "milk_pitcher", "fork", "knife", "spoon", "butter_knife", "glass", "teacup", "sauce_dish", "butter_dish", "bread_plate", "teacup_plate", "dining_table", "dining_chair", "cupboard" };
 
                 foreach (var instance2 in bftInstances)
                 {
                     if (GameObject.Find(instance2))
                     {
-                        //foreach (var instance1 in edibleEntityNames)
                         for (int i = 0; i < edibleEntityNames.Length; i++)
                         {
-                            //if (instance1.Contains(instance2))
                             if (edibleEntityNames[i].Contains(instance2))
                             {
                                 var edibleObject = GameObject.Find(instance2);
@@ -158,7 +144,7 @@ public class RESTGet : MonoBehaviour
                     }
                 }
 
-                // Set UI objects - i.e. activate edible and nonedible 
+                // Set UI objects - i.e. add color to edible and nonedible 
                 Debug.Log("EDIBLE");
                 SetColor(edibleObjects, Color.green);
                 Debug.Log("NON-EDIBLE");
@@ -179,7 +165,7 @@ public class RESTGet : MonoBehaviour
             }
             else
             {
-                //process web result             
+                //process web request             
                 Debug.Log("Data retrieved!");
                 callback(webRequest.downloadHandler.text);
             }
@@ -191,7 +177,6 @@ public class RESTGet : MonoBehaviour
     {
         foreach (GameObject obj in gameObjects)
         {
-            //Debug.Log(obj.ToString());
             var colorChoice = color;
             Component[] renderers = obj.GetComponentsInChildren(typeof(Renderer));
             foreach (Renderer childRenderer in renderers)

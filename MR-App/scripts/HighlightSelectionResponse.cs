@@ -29,11 +29,10 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
         {
             enableSelection = true;
             var itemName = this.name.ToString();
-            // if itemName == "lemon"...
             var URL = rest.queryURL + itemName;
             Debug.Log(URL);
-            // urlDefined = true;
-
+            
+            // calls coroutine from RESTGet
             StartCoroutine(rest.GetData2(URL, (value) =>
             {
                 returnData = value;
@@ -47,12 +46,11 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
                     dataResponsesArray[i] = dataResponses[i]["ans"];
                 }
 
-                // Set UI objects
                 string _answer;
                 answer = "";
                 for (int i = 0; i < dataResponsesArray.Length; i++)
                 {
-                  // regex the string
+                    // regex the string
                     _answer = cleanResponse(dataResponsesArray[i]);
 
                     if (i == dataResponsesArray.Length - 1)
@@ -82,13 +80,12 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
         // this method only works if a query toggle is checked
         if (enableSelection == true)
         {
-            // retrieves respective game object text panel
+            // retrieves respective game object text panel ans display query information
             Component textComponent = selection.gameObject.GetComponentInChildren(typeof(TextMeshProUGUI));
             gameText = textComponent.GetComponent<TextMeshProUGUI>();
             string response = selection.gameObject.GetComponent<HighlightSelectionResponse>().answer;
             Component canvas = selection.gameObject.GetComponentInChildren(typeof(Canvas));
             Component panelCompnent = canvas.GetComponentInChildren(typeof(Image));
-            //Debug.Log(panelCompnent);
             textPanel = panelCompnent.GetComponent<Image>();
             if (response == "")
             {
@@ -110,12 +107,10 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
         gameText.text = "";
         gameText.enabled = false;
         textPanel.enabled = false;
-
-        //textPanel.SetActive(false);
-        //StopAllCoroutines();
     }
 
 
+    // processes the text retrieved from the coroutine
     public string cleanResponse(string response)
     {
         string pattern; 
