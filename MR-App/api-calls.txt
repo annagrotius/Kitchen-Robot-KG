@@ -1,7 +1,0 @@
-# affords
-
-https://api.krr.triply.cc/queries/annadg/affords-rdfs/run
-
-# edible
-
-https://api.krr.triply.cc/queries/annadg/edible-CQ-2/1/run

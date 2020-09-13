@@ -22,6 +22,7 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
         BeginRestCall(rest.queryUsage);
     }
 
+
     public void BeginRestCall(bool querySelected)
     {
         if (querySelected == true && counter < 1 )
@@ -75,6 +76,7 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
         }
     }
 
+
     public void OnSelect(Transform selection)
     {
         // this method only works if a query toggle is checked
@@ -88,8 +90,6 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
             Component panelCompnent = canvas.GetComponentInChildren(typeof(Image));
             //Debug.Log(panelCompnent);
             textPanel = panelCompnent.GetComponent<Image>();
-            gameText.enabled = true;
-            textPanel.enabled = true;
             if (response == "")
             {
                 gameText.text = "Knowledge not available";
@@ -98,9 +98,11 @@ internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
             {
                 gameText.text = selection.gameObject.name + " " + rest.baseResponse + response;
             }
+
+            gameText.enabled = true;
+            textPanel.enabled = true;
         }
     }
-
 
 
     public void OnDeselect(Transform selection)
