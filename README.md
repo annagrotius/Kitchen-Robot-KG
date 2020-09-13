@@ -19,7 +19,32 @@ The project builds different graphs which are linked at the end to create one la
 
 First, the scripts in the ontologies/ directory are run to create the base of the knowledge graph. These are merged using the script 'merge_aff_bft.py'. 
 
-Next, data is retrieved from each API, which are then merged to the final graph using the notebooks 'merge_cn' and 'merge_recipe'.
+Next, data is retrieved from each API (use files in data/), which are then merged to the final graph using the notebooks 'merge_cn' and 'merge_recipe' found in knowledge_graph/.
+
+The graphs from each iteration are found in the folder knowledge_graphs/graphs/. 
+
+Example triples from :
+```
+
+bft:apple a bft:Fruit,
+        owl:NamedIndividual ;
+    rp:has_recipe rp:Allo_Aloe,
+        rp:Apple_Bites,
+        rp:Mixed_Greens_Salad_With_Apples_and_Maple-Walnut_Oil_Dressing,
+        rp:Mixed_Nut_Waldorf_Salad;
+    owl:sameAs <http://api.conceptnet.io/c/en/apple>,
+        <http://api.conceptnet.io/c/en/apple/n>,
+        <http://api.conceptnet.io/c/en/apples>,
+        rp:apple ;
+    skos:closeMatch <http://api.conceptnet.io/c/ambrosia_apple/n>,
+        cnc:apple_orchard,
+        cnc:apple_tree .
+
+<http://api.conceptnet.io/c/en/apple/n/wn/plant> a cn:Concept ;
+    cnr:ExternalURL <http://wordnet-rdf.princeton.edu/wn31/112654755-n> ;
+    cnr:IsA <http://api.conceptnet.io/c/en/apple_tree/n/wn/plant> .
+
+```
 
 ## Content
 
@@ -42,7 +67,9 @@ Next, data is retrieved from each API, which are then merged to the final graph 
 		* Python notebook that extracts data from the API and python script that stores the data in a graph.
 		* Output files.
 * knowledge-graph/ contains:
-	* 
+	* graphs/ : graphs from each iteration (KitchenConcepts+Affordance graph (aff_bft_open_graph.ttl), KitchenConcepts+Affordance+ConceptNet graph (aff_bft_cn.ttl), KitchenConcepts+Affordance+ConceptNet+RecipePuppy graph (aff_bft_cn_recipe.ttl).
+	* Notebooks and script that merges the graphs together.
+	* Miscellaneous output files.
 
 
 
