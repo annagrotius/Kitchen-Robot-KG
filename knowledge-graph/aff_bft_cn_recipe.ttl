@@ -8003,4 +8003,3 @@ cn:Concept a owl:Class ;
 
 [] a owl:AllDifferent ;
     owl:distinctMembers ( bft:sauce_dish bft:bread_plate bft:butter_dish bft:teacup_plate ) .
-
