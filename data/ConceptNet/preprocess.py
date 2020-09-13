@@ -1,3 +1,5 @@
+# scripts with functions to preprocess the data from ConceptNet.
+
 import pandas as pd
 from stop_words import get_stop_words
 

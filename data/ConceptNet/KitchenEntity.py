@@ -1,3 +1,4 @@
+# Class that retrieves and organizes data from API.
 import requests
 import pandas as pd
 import json
@@ -47,14 +48,6 @@ class KitchenEntity:
         print(f'....Getting data of {self.entity_name}....')
 
         print('Relations:', set(entity_dict['relation']), '\n\n')
-#         print("##### Unique Subject Values and Count ######")
-#         print(data_df['subject'].value_counts())
-
-#         print("\n\n##### Unique Relation Values and Count ######")
-#         print(data_df['relation'].value_counts())
-
-#         print("\n\n##### Unique Object Values and Count ######")
-#         print(data_df['object'].value_counts(), '\n\n\n')
 
 
     def filter_requests(self):
@@ -72,13 +65,3 @@ class KitchenEntity:
 
         filtered_entity_df = remove_irrelevant_relations(entity_df)
         filtered_entity_df.to_csv(f'./cn_data/filtered_data/{self.entity_name}_filtered.csv', index=False)
-
-
-
-
-#     def get_stats(self):
-#         """
-
-#         """
-
-    # then for each item in a kitchen entity list, you can create an object instance for it.

@@ -20,3 +20,13 @@ The VR application was built using the Unity game engine (version 2018.4.26) wit
 * ontologies/ contains: 
 	* aff/ : script that creates the Affordance Ontology. Ontology is saved as a .nt, .ttl, and .owl file.
 	* bft/ : This is the ontology about kitchen concepts. Script that creates the Affordance Ontology. Ontology is saved as a .nt, .ttl, and .owl file.
+* data/ contains:
+	* ConceptNet/ :
+		* cn_data/ : 
+			* filtered_data/ : Csv data files that were preprocessed.
+			* requests_output/ : Raw data files extracted from API.
+		* parse/ : 
+			* Scripts that set up the ontology (organization) of the CN data extracted.
+		* scripts that retrieve data from API.
+
+	* RecipePuppy/ :
