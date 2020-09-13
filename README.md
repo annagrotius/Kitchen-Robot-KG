@@ -16,4 +16,7 @@ The VR application was built using the Unity game engine (version 2018.4.26) wit
 
 ## Content
 
-* ontologies/ :
+* MR-App/ contains: C# scripts for the game and the Unity game scene file.  
+* ontologies/ contains: 
+	* aff/ : script that creates the Affordance Ontology. Ontology is saved as a .nt, .ttl, and .owl file.
+	* bft/ : This is the ontology about kitchen concepts. Script that creates the Affordance Ontology. Ontology is saved as a .nt, .ttl, and .owl file.
